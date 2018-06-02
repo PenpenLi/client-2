@@ -1,0 +1,779 @@
+{
+  "ID": "65a2522a-891e-486a-a937-add8aed01393",
+  "Version": "3.10.0.0",
+  "Name": "PlayerNode",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_touxiangdi.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 38,
+            "Scale9OriginY": 54,
+            "Scale9Width": 42,
+            "Scale9Height": 57,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -59.0,
+            "RightMargin": -59.0,
+            "TopMargin": -82.5,
+            "BottomMargin": -82.5,
+            "Tag": 2,
+            "ActionTag": 1751124683,
+            "Size": {
+              "X": 118.0,
+              "Y": 165.0
+            },
+            "Name": "Image_BG",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_touxiangkuang.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -59.0,
+            "RightMargin": -59.0,
+            "TopMargin": -82.5,
+            "BottomMargin": -82.5,
+            "Tag": 3,
+            "ActionTag": 1215032237,
+            "Size": {
+              "X": 118.0,
+              "Y": 165.0
+            },
+            "VisibleForFrame": false,
+            "Name": "Image_HeadFrame",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "cocostudio/game/image/head_1.png",
+              "Plist": "cocostudio/game/Head.plist"
+            },
+            "Scale9OriginX": 33,
+            "Scale9OriginY": 33,
+            "Scale9Width": 41,
+            "Scale9Height": 42,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -51.0,
+            "RightMargin": -51.0,
+            "TopMargin": -51.0,
+            "BottomMargin": -51.0,
+            "Tag": 4,
+            "ActionTag": -792279610,
+            "Size": {
+              "X": 102.0,
+              "Y": 102.0
+            },
+            "Name": "Image_Head",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 22,
+            "LabelText": "Text Label",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 67.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -55.0,
+            "RightMargin": -55.0,
+            "TopMargin": -78.0,
+            "BottomMargin": 56.0,
+            "Tag": 5,
+            "ActionTag": 1567113655,
+            "Size": {
+              "X": 110.0,
+              "Y": 22.0
+            },
+            "Name": "Text_Nickname",
+            "ctype": "TextObjectData"
+          },
+          {
+            "CharWidth": 12,
+            "CharHeight": 22,
+            "LabelText": "0",
+            "StartChar": "0",
+            "LabelAtlasFileImage_CNB": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_wanjiajinbi.png",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": -67.3966
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -6.0,
+            "RightMargin": -6.0,
+            "TopMargin": 56.3966,
+            "BottomMargin": -78.3966,
+            "Tag": 6,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "cocostudio/game/image/my_gold_wan.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 7,
+                "Scale9OriginY": 7,
+                "Scale9Width": 10,
+                "Scale9Height": 8,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 11.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 2.0,
+                  "Y": 1.0
+                },
+                "LeftMargin": -12.0,
+                "Tag": 43,
+                "ActionTag": 932991503,
+                "Size": {
+                  "X": 24.0,
+                  "Y": 22.0
+                },
+                "VisibleForFrame": false,
+                "Name": "Image_Unit",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 919697270,
+            "Size": {
+              "X": 12.0,
+              "Y": 22.0
+            },
+            "Name": "AtlasLabel_Gold",
+            "ctype": "TextAtlasObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_genzhu.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 36,
+            "Scale9OriginY": 11,
+            "Scale9Width": 38,
+            "Scale9Height": 13,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": -105.3074
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -55.0,
+            "RightMargin": -55.0,
+            "TopMargin": 87.8074,
+            "BottomMargin": -122.8074,
+            "Tag": 7,
+            "ActionTag": 1287458522,
+            "Size": {
+              "X": 110.0,
+              "Y": 35.0
+            },
+            "VisibleForFrame": false,
+            "Name": "Image_BetBG",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "CharWidth": 16,
+            "CharHeight": 26,
+            "LabelText": "0",
+            "StartChar": "0",
+            "LabelAtlasFileImage_CNB": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_choumadishuzi.png",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 10.0,
+              "Y": -105.4706
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 2.0,
+            "RightMargin": -18.0,
+            "TopMargin": 92.4706,
+            "BottomMargin": -118.4706,
+            "Tag": 8,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "cocostudio/game/image/bet_number_wan.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 9,
+                "Scale9OriginY": 8,
+                "Scale9Width": 11,
+                "Scale9Height": 9,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 12.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.4808
+                },
+                "PreSize": {
+                  "X": 1.8125,
+                  "Y": 0.9615
+                },
+                "LeftMargin": -14.5,
+                "RightMargin": 1.5,
+                "TopMargin": 1.0,
+                "Tag": 45,
+                "ActionTag": -1132023566,
+                "Size": {
+                  "X": 29.0,
+                  "Y": 25.0
+                },
+                "VisibleForFrame": false,
+                "Name": "Image_Unit",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 1259272566,
+            "Size": {
+              "X": 16.0,
+              "Y": 26.0
+            },
+            "VisibleForFrame": false,
+            "Name": "AtlasLabel_Bet",
+            "ctype": "TextAtlasObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/game_deal_card.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 14,
+            "Scale9OriginY": 14,
+            "Scale9Width": 14,
+            "Scale9Height": 26,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 21.2891,
+              "Y": -24.8748
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -3.2109,
+            "RightMargin": -45.7891,
+            "TopMargin": -1.1252,
+            "BottomMargin": -50.8748,
+            "Tag": 9,
+            "ActionTag": -1352559977,
+            "Size": {
+              "X": 49.0,
+              "Y": 52.0
+            },
+            "Name": "Image_CardIcon_1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/game_deal_card.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 14,
+            "Scale9OriginY": 14,
+            "Scale9Width": 14,
+            "Scale9Height": 26,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 31.732,
+              "Y": -24.6732
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 7.232,
+            "RightMargin": -56.232,
+            "TopMargin": -1.3268,
+            "BottomMargin": -50.6732,
+            "Tag": 59,
+            "ActionTag": -945834039,
+            "Size": {
+              "X": 49.0,
+              "Y": 52.0
+            },
+            "Name": "Image_CardIcon_2",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_baixian.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 39,
+            "Scale9OriginY": 52,
+            "Scale9Width": 44,
+            "Scale9Height": 65,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -61.0,
+            "RightMargin": -61.0,
+            "TopMargin": -84.5,
+            "BottomMargin": -84.5,
+            "Tag": 10,
+            "ActionTag": -1652701677,
+            "Size": {
+              "X": 122.0,
+              "Y": 169.0
+            },
+            "VisibleForFrame": false,
+            "Name": "Image_TimeBar",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_zhezhao1.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 38,
+            "Scale9OriginY": 54,
+            "Scale9Width": 42,
+            "Scale9Height": 57,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -59.0,
+            "RightMargin": -59.0,
+            "TopMargin": -82.5,
+            "BottomMargin": -82.5,
+            "Tag": 11,
+            "ActionTag": -2142346896,
+            "Size": {
+              "X": 118.0,
+              "Y": 165.0
+            },
+            "VisibleForFrame": false,
+            "Name": "Image_Mask",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_zhuangjia.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 12,
+            "Scale9OriginY": 12,
+            "Scale9Width": 15,
+            "Scale9Height": 15,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 81.3212,
+              "Y": -61.6603
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 61.8212,
+            "RightMargin": -100.8212,
+            "TopMargin": 42.1603,
+            "BottomMargin": -81.1603,
+            "Tag": 228,
+            "ActionTag": 2095971262,
+            "Size": {
+              "X": 39.0,
+              "Y": 39.0
+            },
+            "VisibleForFrame": false,
+            "Name": "Image_Banker",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/game_state_0.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 19,
+            "Scale9OriginY": 11,
+            "Scale9Width": 76,
+            "Scale9Height": 11,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -0.0001,
+              "Y": 64.1248
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -57.0001,
+            "RightMargin": -56.9999,
+            "TopMargin": -80.6248,
+            "BottomMargin": 47.6248,
+            "Tag": 230,
+            "ActionTag": -1496984946,
+            "Size": {
+              "X": 114.0,
+              "Y": 33.0
+            },
+            "Name": "Image_Operate",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/card_type_0.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 38,
+            "Scale9OriginY": 8,
+            "Scale9Width": 42,
+            "Scale9Height": 9,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 68.0629
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -59.0,
+            "RightMargin": -59.0,
+            "TopMargin": -80.5629,
+            "BottomMargin": 55.5629,
+            "Tag": 37,
+            "ActionTag": -17410690,
+            "Size": {
+              "X": 118.0,
+              "Y": 25.0
+            },
+            "VisibleForFrame": false,
+            "Name": "Image_CardType",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "Head.plist",
+        "Head.png",
+        "image/bet_number_wan.png",
+        "image/card_type_0.png",
+        "image/game_deal_card.png",
+        "image/game_state_0.png",
+        "image/my_gold_wan.png",
+        "image/zhujiemian_baixian.png",
+        "image/zhujiemian_choumadishuzi.png",
+        "image/zhujiemian_genzhu.png",
+        "image/zhujiemian_touxiangdi.png",
+        "image/zhujiemian_touxiangkuang.png",
+        "image/zhujiemian_wanjiajinbi.png",
+        "image/zhujiemian_zhezhao1.png",
+        "image/zhujiemian_zhuangjia.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>E439935D-B2A2-46AE-856D-2AA408428F33</ProjectGuid>
+    <!--$guid1$-->
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>
+    </StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>luaproj</Name>
+    <RootNamespace>luaproj</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="lib\" />
+    <Folder Include="src\" />
+    <Folder Include="src\app\" />
+    <Folder Include="src\app\commands\" />
+    <Folder Include="src\app\common\" />
+    <Folder Include="src\app\controllers\" />
+    <Folder Include="src\app\core\" />
+    <Folder Include="src\app\handlers\" />
+    <Folder Include="src\app\language\" />
+    <Folder Include="src\app\models\" />
+    <Folder Include="src\app\net\" />
+    <Folder Include="src\app\views\" />
+    <Folder Include="src\app\views\common\" />
+    <Folder Include="src\app\views\friendroom\" />
+    <Folder Include="src\app\views\home\" />
+    <Folder Include="src\app\views\login\" />
+    <Folder Include="src\app\views\mtt\" />
+    <Folder Include="src\app\views\sng\" />
+    <Folder Include="src\app\views\texaspoker\" />
+    <Folder Include="src\packages\" />
+    <Folder Include="src\packages\mvc\" />
+    <Folder Include="src_framework\" />
+    <Folder Include="src_framework\cocos\" />
+    <Folder Include="src_framework\cocos\3d\" />
+    <Folder Include="src_framework\cocos\cocos2d\" />
+    <Folder Include="src_framework\cocos\cocosbuilder\" />
+    <Folder Include="src_framework\cocos\cocosdenshion\" />
+    <Folder Include="src_framework\cocos\cocostudio\" />
+    <Folder Include="src_framework\cocos\controller\" />
+    <Folder Include="src_framework\cocos\extension\" />
+    <Folder Include="src_framework\cocos\framework\" />
+    <Folder Include="src_framework\cocos\framework\components\" />
+    <Folder Include="src_framework\cocos\framework\extends\" />
+    <Folder Include="src_framework\cocos\network\" />
+    <Folder Include="src_framework\cocos\physics3d\" />
+    <Folder Include="src_framework\cocos\spine\" />
+    <Folder Include="src_framework\cocos\ui\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="lib\AlertOK4U.lua" />
+    <Compile Include="lib\update.lua" />
+    <Compile Include="src\app\commands\LoginAccountCommand.lua" />
+    <Compile Include="src\app\commands\LoginCoordinateCommand.lua" />
+    <Compile Include="src\app\commands\LoginTexasPokerCommand.lua" />
+    <Compile Include="src\app\commands\LogoutCommand.lua" />
+    <Compile Include="src\app\commands\StartCommand.lua" />
+    <Compile Include="src\app\common\NativeFunctions.lua" />
+    <Compile Include="src\app\common\SoundUtils.lua" />
+    <Compile Include="src\app\common\UIHelper.lua" />
+    <Compile Include="src\app\common\utils.lua" />
+    <Compile Include="src\app\common\VersionCompare.lua" />
+    <Compile Include="src\app\controllers\ControllerBase.lua" />
+    <Compile Include="src\app\controllers\HomeController.lua" />
+    <Compile Include="src\app\controllers\LoginController.lua" />
+    <Compile Include="src\app\controllers\TexasPokerController.lua" />
+    <Compile Include="src\app\core\GameConfig.lua" />
+    <Compile Include="src\app\core\GameEnv.lua" />
+    <Compile Include="src\app\core\GameFSM.lua" />
+    <Compile Include="src\app\handlers\AccountServerHandlers.lua" />
+    <Compile Include="src\app\handlers\CoordinateServerHandlers.lua" />
+    <Compile Include="src\app\handlers\GameCommonHandlers.lua" />
+    <Compile Include="src\app\handlers\SocketHandlers.lua" />
+    <Compile Include="src\app\handlers\SwitchGameServerHandlers.lua" />
+    <Compile Include="src\app\handlers\TexasPokerHandlers.lua" />
+    <Compile Include="src\app\language\CN.lua" />
+    <Compile Include="src\app\language\lang.lua" />
+    <Compile Include="src\app\models\GameUser.lua" />
+    <Compile Include="src\app\models\GlobalStatus.lua" />
+    <Compile Include="src\app\models\TexasPokerConfig.lua" />
+    <Compile Include="src\app\models\TexasPokerPlayers.lua" />
+    <Compile Include="src\app\models\TexasPokerRoom.lua" />
+    <Compile Include="src\app\models\User.lua" />
+    <Compile Include="src\app\MyApp.lua" />
+    <Compile Include="src\app\net\CMD.lua" />
+    <Compile Include="src\app\net\ErrorCode.lua" />
+    <Compile Include="src\app\net\GameSocket.lua" />
+    <Compile Include="src\app\net\PacketBuffer.lua" />
+    <Compile Include="src\app\net\SocketManager.lua" />
+    <Compile Include="src\app\net\SocketTCP.lua" />
+    <Compile Include="src\app\views\common\AlertOK.lua" />
+    <Compile Include="src\app\views\common\AlertOKCancel.lua" />
+    <Compile Include="src\app\views\common\BroadcastNode.lua" />
+    <Compile Include="src\app\views\common\LeftBaseLayer.lua" />
+    <Compile Include="src\app\views\common\PopBaseLayer.lua" />
+    <Compile Include="src\app\views\common\SimpleBrowser.lua" />
+    <Compile Include="src\app\views\common\WaitingNode.lua" />
+    <Compile Include="src\app\views\friendroom\CreatePrivateRoom.lua" />
+    <Compile Include="src\app\views\friendroom\EnterPrivateRoom.lua" />
+    <Compile Include="src\app\views\friendroom\PrivateRoomItem.lua" />
+    <Compile Include="src\app\views\friendroom\PrivateRoomResult.lua" />
+    <Compile Include="src\app\views\friendroom\PrivateRoomResultDetail.lua" />
+    <Compile Include="src\app\views\friendroom\PrivateRoomResultDetailItem.lua" />
+    <Compile Include="src\app\views\friendroom\PrivateRoomResultItem.lua" />
+    <Compile Include="src\app\views\friendroom\SelectRoom.lua" />
+    <Compile Include="src\app\views\friendroom\SelectRoomItem.lua" />
+    <Compile Include="src\app\views\friendroom\ViewFriendRoom.lua" />
+    <Compile Include="src\app\views\friendroom\ViewFriendRoomHelp.lua" />
+    <Compile Include="src\app\views\home\ViewDailyTasks.lua" />
+    <Compile Include="src\app\views\home\ViewEntry.lua" />
+    <Compile Include="src\app\views\home\ViewFullScreenBase.lua" />
+    <Compile Include="src\app\views\home\ViewHome.lua" />
+    <Compile Include="src\app\views\home\ViewMail.lua" />
+    <Compile Include="src\app\views\home\ViewModifyPersonal.lua" />
+    <Compile Include="src\app\views\home\ViewPersonal.lua" />
+    <Compile Include="src\app\views\home\ViewRank.lua" />
+    <Compile Include="src\app\views\home\ViewService.lua" />
+    <Compile Include="src\app\views\home\ViewSetting.lua" />
+    <Compile Include="src\app\views\home\ViewShop.lua" />
+    <Compile Include="src\app\views\home\ViewSignLayer.lua" />
+    <Compile Include="src\app\views\login\ViewBG.lua" />
+    <Compile Include="src\app\views\login\ViewLogin.lua" />
+    <Compile Include="src\app\views\texaspoker\ViewActions.lua" />
+    <Compile Include="src\app\views\texaspoker\ViewAddBet.lua" />
+    <Compile Include="src\app\views\texaspoker\ViewCard.lua" />
+    <Compile Include="src\app\views\texaspoker\ViewCardType.lua" />
+    <Compile Include="src\app\views\texaspoker\ViewChat.lua" />
+    <Compile Include="src\app\views\texaspoker\ViewGameMission.lua" />
+    <Compile Include="src\app\views\texaspoker\ViewMakeupBet.lua" />
+    <Compile Include="src\app\views\texaspoker\ViewMenu.lua" />
+    <Compile Include="src\app\views\texaspoker\ViewPlayer.lua" />
+    <Compile Include="src\app\views\texaspoker\ViewPlayerInfo.lua" />
+    <Compile Include="src\app\views\texaspoker\ViewRoom.lua" />
+    <Compile Include="src\config.lua" />
+    <Compile Include="src\main.lua" />
+    <Compile Include="src\packages\mvc\AppBase.lua" />
+    <Compile Include="src\packages\mvc\init.lua" />
+    <Compile Include="src\packages\mvc\ModelBase.lua" />
+    <Compile Include="src\packages\mvc\ViewBase.lua" />
+    <Compile Include="src_framework\cocos\3d\3dConstants.lua" />
+    <Compile Include="src_framework\cocos\cocos2d\bitExtend.lua" />
+    <Compile Include="src_framework\cocos\cocos2d\Cocos2d.lua" />
+    <Compile Include="src_framework\cocos\cocos2d\Cocos2dConstants.lua" />
+    <Compile Include="src_framework\cocos\cocos2d\deprecated.lua" />
+    <Compile Include="src_framework\cocos\cocos2d\DeprecatedCocos2dClass.lua" />
+    <Compile Include="src_framework\cocos\cocos2d\DeprecatedCocos2dEnum.lua" />
+    <Compile Include="src_framework\cocos\cocos2d\DeprecatedCocos2dFunc.lua" />
+    <Compile Include="src_framework\cocos\cocos2d\DeprecatedOpenglEnum.lua" />
+    <Compile Include="src_framework\cocos\cocos2d\DrawPrimitives.lua" />
+    <Compile Include="src_framework\cocos\cocos2d\functions.lua" />
+    <Compile Include="src_framework\cocos\cocos2d\json.lua" />
+    <Compile Include="src_framework\cocos\cocos2d\luaj.lua" />
+    <Compile Include="src_framework\cocos\cocos2d\luaoc.lua" />
+    <Compile Include="src_framework\cocos\cocos2d\Opengl.lua" />
+    <Compile Include="src_framework\cocos\cocos2d\OpenglConstants.lua" />
+    <Compile Include="src_framework\cocos\cocosbuilder\CCBReaderLoad.lua" />
+    <Compile Include="src_framework\cocos\cocosbuilder\DeprecatedCocosBuilderClass.lua" />
+    <Compile Include="src_framework\cocos\cocosdenshion\AudioEngine.lua" />
+    <Compile Include="src_framework\cocos\cocosdenshion\DeprecatedCocosDenshionClass.lua" />
+    <Compile Include="src_framework\cocos\cocosdenshion\DeprecatedCocosDenshionFunc.lua" />
+    <Compile Include="src_framework\cocos\cocostudio\CocoStudio.lua" />
+    <Compile Include="src_framework\cocos\cocostudio\DeprecatedCocoStudioClass.lua" />
+    <Compile Include="src_framework\cocos\cocostudio\DeprecatedCocoStudioFunc.lua" />
+    <Compile Include="src_framework\cocos\cocostudio\StudioConstants.lua" />
+    <Compile Include="src_framework\cocos\controller\ControllerConstants.lua" />
+    <Compile Include="src_framework\cocos\extension\DeprecatedExtensionClass.lua" />
+    <Compile Include="src_framework\cocos\extension\DeprecatedExtensionEnum.lua" />
+    <Compile Include="src_framework\cocos\extension\DeprecatedExtensionFunc.lua" />
+    <Compile Include="src_framework\cocos\extension\ExtensionConstants.lua" />
+    <Compile Include="src_framework\cocos\framework\audio.lua" />
+    <Compile Include="src_framework\cocos\framework\bit.lua" />
+    <Compile Include="src_framework\cocos\framework\ByteArray.lua" />
+    <Compile Include="src_framework\cocos\framework\components\event.lua" />
+    <Compile Include="src_framework\cocos\framework\device.lua" />
+    <Compile Include="src_framework\cocos\framework\display.lua" />
+    <Compile Include="src_framework\cocos\framework\extends\LayerEx.lua" />
+    <Compile Include="src_framework\cocos\framework\extends\MenuEx.lua" />
+    <Compile Include="src_framework\cocos\framework\extends\NodeEx.lua" />
+    <Compile Include="src_framework\cocos\framework\extends\SpriteEx.lua" />
+    <Compile Include="src_framework\cocos\framework\extends\UICheckBox.lua" />
+    <Compile Include="src_framework\cocos\framework\extends\UIEditBox.lua" />
+    <Compile Include="src_framework\cocos\framework\extends\UIListView.lua" />
+    <Compile Include="src_framework\cocos\framework\extends\UIPageView.lua" />
+    <Compile Include="src_framework\cocos\framework\extends\UIScrollView.lua" />
+    <Compile Include="src_framework\cocos\framework\extends\UISlider.lua" />
+    <Compile Include="src_framework\cocos\framework\extends\UITextField.lua" />
+    <Compile Include="src_framework\cocos\framework\extends\UIWidget.lua" />
+    <Compile Include="src_framework\cocos\framework\init.lua" />
+    <Compile Include="src_framework\cocos\framework\network.lua" />
+    <Compile Include="src_framework\cocos\framework\package_support.lua" />
+    <Compile Include="src_framework\cocos\framework\scheduler.lua" />
+    <Compile Include="src_framework\cocos\framework\transition.lua" />
+    <Compile Include="src_framework\cocos\init.lua" />
+    <Compile Include="src_framework\cocos\network\DeprecatedNetworkClass.lua" />
+    <Compile Include="src_framework\cocos\network\DeprecatedNetworkEnum.lua" />
+    <Compile Include="src_framework\cocos\network\DeprecatedNetworkFunc.lua" />
+    <Compile Include="src_framework\cocos\network\NetworkConstants.lua" />
+    <Compile Include="src_framework\cocos\physics3d\physics3d-constants.lua" />
+    <Compile Include="src_framework\cocos\spine\SpineConstants.lua" />
+    <Compile Include="src_framework\cocos\ui\DeprecatedUIEnum.lua" />
+    <Compile Include="src_framework\cocos\ui\DeprecatedUIFunc.lua" />
+    <Compile Include="src_framework\cocos\ui\experimentalUIConstants.lua" />
+    <Compile Include="src_framework\cocos\ui\GuiConstants.lua" />
+    <Compile Include="src_framework\config.lua" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+</Project>

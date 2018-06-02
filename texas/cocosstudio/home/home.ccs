@@ -1,0 +1,489 @@
+<Solution>
+  <PropertyGroup Name="home" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="cocostudio">
+          <Folder Name="common">
+            <Folder Name="image">
+              <Image Name="blank.png" />
+              <Image Name="di_changtiaoditongyong.png" />
+              <Image Name="loading.png" />
+              <Image Name="shangcheng_quxiao1.png" />
+              <Image Name="shangcheng_quxiao2.png" />
+              <Image Name="tiaowangye_di.png" />
+              <Image Name="tiaowangye_fanhuiyouxi.png" />
+              <Image Name="tiaowangye_fanhuiyouxihui.png" />
+              <Image Name="tiaowangye_shuaxin.png" />
+              <Image Name="tiaowangye_shuaxinhui.png" />
+              <Image Name="tiaowangye_you.png" />
+              <Image Name="tiaowangye_youhui.png" />
+              <Image Name="tiaowangye_zuo.png" />
+              <Image Name="tiaowangye_zuohui.png" />
+              <Image Name="tongyong_cha1.png" />
+              <Image Name="tongyong_cha2.png" />
+              <Image Name="tongyong_queding1.png" />
+              <Image Name="tongyong_queding2.png" />
+              <Image Name="tongyong_tishi.png" />
+              <Image Name="tongyong_xiaodi.png" />
+              <Image Name="zhujiemian_nan1.png" />
+              <Image Name="zhujiemian_nan2.png" />
+              <Image Name="zhujiemian_nan3.png" />
+              <Image Name="zhujiemian_nan4.png" />
+              <Image Name="zhujiemian_nan5.png" />
+              <Image Name="zhujiemian_nan6.png" />
+              <Image Name="zhujiemian_nan7.png" />
+              <Image Name="zhujiemian_nan8.png" />
+              <Image Name="zhujiemian_nv1.png" />
+              <Image Name="zhujiemian_nv2.png" />
+              <Image Name="zhujiemian_nv3.png" />
+              <Image Name="zhujiemian_nv4.png" />
+              <Image Name="zhujiemian_nv5.png" />
+              <Image Name="zhujiemian_nv6.png" />
+              <Image Name="zhujiemian_nv7.png" />
+              <Image Name="zhujiemian_nv8.png" />
+            </Folder>
+            <Project Name="AlertOKCancelLayer.csd" Type="Layer" />
+            <Project Name="AlertOKLayer.csd" Type="Layer" />
+            <Project Name="BrowserLayer.csd" Type="Layer" />
+            <Project Name="LeftBaseLayer.csd" Type="Layer" />
+            <Project Name="PopBaseLayer.csd" Type="Layer" />
+            <Project Name="WaitingLayer.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="home">
+            <Folder Name="image">
+              <Folder Name="daily_tasks">
+                <Image Name="daily_bg.png" />
+                <Image Name="daily_btn_g.png" />
+                <Image Name="daily_btn_g1.png" />
+                <Image Name="daily_btn_get.png" />
+                <Image Name="daily_btn_get1.png" />
+                <Image Name="daily_note_star.png" />
+                <Image Name="daily_title.png" />
+                <Image Name="dailyz_note_bg.png" />
+                <Image Name="dailyz_note_des.png" />
+                <Image Name="dailyz_note_dis.png" />
+                <Image Name="meirirenwu.png" />
+                <Image Name="public_btn_close.png" />
+                <Image Name="public_btn_close1.png" />
+              </Folder>
+              <Folder Name="email">
+                <Image Name="email.png" />
+                <Image Name="email_bg.png" />
+                <Image Name="email_btn_close.png" />
+                <Image Name="email_btn_close1.png" />
+                <Image Name="email_btn_get.png" />
+                <Image Name="email_btn_get1.png" />
+                <Image Name="email_btn_left.png" />
+                <Image Name="email_btn_left1.png" />
+                <Image Name="email_btn_right.png" />
+                <Image Name="email_btn_right1.png" />
+                <Image Name="email_node_bg.png" />
+                <Image Name="email_node_left.png" />
+                <Image Name="email_t_down.png" />
+                <Image Name="email_title.png" />
+              </Folder>
+              <Folder Name="friendroom">
+                <Image Name="fffffff.png" />
+                <Image Name="friend_bg.png" />
+                <Image Name="friend_create_bg.png" />
+                <Image Name="friend_record_bg.png" />
+                <Image Name="haoyouchang_1xiaoshi1.png" />
+                <Image Name="haoyouchang_1xiaoshi2.png" />
+                <Image Name="haoyouchang_2xiaoshi1.png" />
+                <Image Name="haoyouchang_2xiaoshi2.png" />
+                <Image Name="haoyouchang_30fenzhong1.png" />
+                <Image Name="haoyouchang_30fenzhong2.png" />
+                <Image Name="haoyouchang_3xiaoshi1.png" />
+                <Image Name="haoyouchang_3xiaoshi2.png" />
+                <Image Name="haoyouchang_4xiaoshi1.png" />
+                <Image Name="haoyouchang_4xiaoshi2.png" />
+                <Image Name="haoyouchang_5xiaoshi1.png" />
+                <Image Name="haoyouchang_5xiaoshi2.png" />
+                <Image Name="haoyouchang_anjian0.png" />
+                <Image Name="haoyouchang_anjian1.png" />
+                <Image Name="haoyouchang_anjian2.png" />
+                <Image Name="haoyouchang_anjian3.png" />
+                <Image Name="haoyouchang_anjian4.png" />
+                <Image Name="haoyouchang_anjian5.png" />
+                <Image Name="haoyouchang_anjian6.png" />
+                <Image Name="haoyouchang_anjian7.png" />
+                <Image Name="haoyouchang_anjian8.png" />
+                <Image Name="haoyouchang_anjian9.png" />
+                <Image Name="haoyouchang_anjianfanhui.png" />
+                <Image Name="haoyouchang_anjianshuziy.png" />
+                <Image Name="haoyouchang_bangzhuanniu.png" />
+                <Image Name="haoyouchang_bangzhuanniu2.png" />
+                <Image Name="haoyouchang_bangzhug.png" />
+                <Image Name="haoyouchang_bangzhuneirong.png" />
+                <Image Name="haoyouchang_choumatubiaobai.png" />
+                <Image Name="haoyouchang_chuangjianhaoyoufangdi.png" />
+                <Image Name="haoyouchang_chuangjianpaiju.png" />
+                <Image Name="haoyouchang_dairuchouma.png" />
+                <Image Name="haoyouchang_duihuanchoumashangxian.png" />
+                <Image Name="haoyouchang_haoyoufang.png" />
+                <Image Name="haoyouchang_haoyoufangchouma.png" />
+                <Image Name="haoyouchang_haoyoufangdi.png" />
+                <Image Name="haoyouchang_haoyoufangrenshu.png" />
+                <Image Name="haoyouchang_haoyoufangshijian.png" />
+                <Image Name="haoyouchang_haoyoufangshijian2.png" />
+                <Image Name="haoyouchang_haoyoufangxuanzedi.png" />
+                <Image Name="haoyouchang_haoyoufangxuanzedijifenchang.png" />
+                <Image Name="haoyouchang_haoyoufangxuanzedijinbichang.png" />
+                <Image Name="haoyouchang_haoyoufangxuanzedishuzi.png" />
+                <Image Name="haoyouchang_huadongtiaodig.png" />
+                <Image Name="haoyouchang_huadongtiaodipian.png" />
+                <Image Name="haoyouchang_jiarufangjiandi.png" />
+                <Image Name="haoyouchang_jiarupaiju.png" />
+                <Image Name="haoyouchang_jifenchanganniu1.png" />
+                <Image Name="haoyouchang_jifenchanganniu2.png" />
+                <Image Name="haoyouchang_jifenchanganniuhengtiao.png" />
+                <Image Name="haoyouchang_jinbichang.png" />
+                <Image Name="haoyouchang_jinbichanganniu1.png" />
+                <Image Name="haoyouchang_jinbichanganniu2.png" />
+                <Image Name="haoyouchang_jindutiaochouma.png" />
+                <Image Name="haoyouchang_jindutiaokong.png" />
+                <Image Name="haoyouchang_jindutiaokongyuandian.png" />
+                <Image Name="haoyouchang_jindutiaoman.png" />
+                <Image Name="haoyouchang_kaifangnniu1.png" />
+                <Image Name="haoyouchang_kaifangnniu2.png" />
+                <Image Name="haoyouchang_qianzhu.png" />
+                <Image Name="haoyouchang_shichang.png" />
+                <Image Name="haoyouchang_wodepaiju.png" />
+                <Image Name="haoyouchang_wodepaijuchoumashuzi.png" />
+                <Image Name="haoyouchang_wodepaijuchoumashuzilv.png" />
+                <Image Name="haoyouchang_xiaomangdamang.png" />
+                <Image Name="haoyouchang_zhanjianniu1.png" />
+                <Image Name="haoyouchang_zhanjianniu2.png" />
+                <Image Name="haoyouchang_zhanjibiaoti.png" />
+                <Image Name="haoyouchang_zhanjidi.png" />
+                <Image Name="haoyouchang_zhanjidi2.png" />
+                <Image Name="haoyouchang_zhanjidixuanze.png" />
+                <Image Name="haoyouchang_zhanjixiangqing.png" />
+                <Image Name="haoyouchang_zhanjixiangqingxiangxi.png" />
+                <Image Name="haoyouchang_zhanjixiangqingxiangxidi.png" />
+                <Image Name="tongyong_xiadi.png" />
+              </Folder>
+              <Folder Name="game_rule">
+                <Image Name="gl_1.png" />
+                <Image Name="gl_2.png" />
+                <Image Name="gl_3.png" />
+                <Image Name="gl_bg.png" />
+                <Image Name="gl_btn.png" />
+                <Image Name="gl_btn1.png" />
+                <Image Name="gl_title.png" />
+                <Image Name="youxiguize_paixingdi.png" />
+                <Image Name="youxiguizejiemian.png" />
+                <Image Name="youxiguizepai.png" />
+                <Image Name="youxiguizewanfa.png" />
+              </Folder>
+              <Folder Name="game_start">
+                <Image Name="gs_btn_copy.png" />
+                <Image Name="gs_btn_copy1.png" />
+                <Image Name="gs_btn_gs.png" />
+                <Image Name="gs_btn_gs1.png" />
+                <Image Name="gs_des_show.png" />
+                <Image Name="gs_logo.png" />
+                <Image Name="gs_show.png" />
+                <Image Name="gs_table.png" />
+                <Image Name="gs_wait.png" />
+              </Folder>
+              <Folder Name="mission">
+                <Image Name="meirirenwu_biaoti.png" />
+                <Image Name="meirirenwu_cha1.png" />
+                <Image Name="meirirenwu_cha2.png" />
+                <Image Name="meirirenwu_di.png" />
+                <Image Name="meirirenwu_kuang.png" />
+                <Image Name="meirirenwu_lingqu1.png" />
+                <Image Name="meirirenwu_lingqu2.png" />
+                <Image Name="meirirenwu_qianwang1.png" />
+                <Image Name="meirirenwu_qianwang2.png" />
+                <Image Name="meirirenwu_shuzi.png" />
+                <Image Name="mission_icon_diamond.png" />
+                <Image Name="mission_icon_gold.png" />
+                <Image Name="mission_reward_diamond.png" />
+                <Image Name="mission_reward_gold.png" />
+              </Folder>
+              <Folder Name="personal">
+                <Image Name="di_changtiaoditongyong.png" />
+                <Image Name="di_gerenxinxi.png" />
+                <Image Name="di_gerenxinxidi.png" />
+                <Image Name="di_qingshurunicheng.png" />
+                <Image Name="di_queren1.png" />
+                <Image Name="di_queren2.png" />
+                <Image Name="di_shurunichengdii.png" />
+                <Image Name="di_xiugaixinxi.png" />
+                <Image Name="di_xiugaixinxi1i.png" />
+                <Image Name="di_xiugaixinxi2.png" />
+                <Image Name="di_xiugaixinxineirong.png" />
+              </Folder>
+              <Folder Name="Rank">
+                <Image Name="rank_bg.png" />
+                <Image Name="rank_bilion.png" />
+                <Image Name="rank_btn_close.png" />
+                <Image Name="rank_btn_close1.png" />
+                <Image Name="rank_btn_left.png" />
+                <Image Name="rank_btn_left2.png" />
+                <Image Name="rank_btn_right.png" />
+                <Image Name="rank_btn_right2.png" />
+                <Image Name="rank_js_number.png" />
+                <Image Name="rank_no1.png" />
+                <Image Name="rank_node_bg.png" />
+                <Image Name="rank_node_myself_bg.png" />
+                <Image Name="rank_node2.png" />
+                <Image Name="rank_node3.png" />
+                <Image Name="rank_number.png" />
+                <Image Name="rank_show.png" />
+                <Image Name="rank_t_down.png" />
+                <Image Name="rank_title.png" />
+                <Image Name="rank_wan.png" />
+                <Image Name="rank_wsb.png" />
+              </Folder>
+              <Folder Name="roomselect">
+                <Image Name="bg.png" />
+                <Image Name="dating_paiyouchang1.png" />
+                <Image Name="youxichangyu_1.png" />
+                <Image Name="youxichangyu_2.png" />
+                <Image Name="youxichangyu_3.png" />
+                <Image Name="youxichangyu_4.png" />
+                <Image Name="youxichangyu_5.png" />
+                <Image Name="youxichangyu_6.png" />
+                <Image Name="youxichangyu_di.png" />
+                <Image Name="youxichangyu_kuaisukaishi1.png" />
+                <Image Name="youxichangyu_kuaisukaishi2.png" />
+              </Folder>
+              <Folder Name="service">
+                <Image Name="kefu_kefu.png" />
+                <Image Name="kefu_kefuneirong.png" />
+                <Image Name="tongyong_cha1.png" />
+                <Image Name="tongyong_cha2.png" />
+                <Image Name="tongyong_xiaodi.png" />
+              </Folder>
+              <Folder Name="setting">
+                <Image Name="shezhi_guize1.png" />
+                <Image Name="shezhi_guize2.png" />
+                <Image Name="shezhi_qiehuanzhanghao.png" />
+                <Image Name="shezhi_qiehuanzhanghao2.png" />
+                <Image Name="shezhi_shezhiwenzi.png" />
+                <Image Name="shezhi_shezhneirong.png" />
+                <Image Name="shezhi_yinyueanniu1.png" />
+                <Image Name="shezhi_yinyueanniu2.png" />
+                <Image Name="shezhi_yinyueguan.png" />
+                <Image Name="shezhi_yinyuekai.png" />
+              </Folder>
+              <Folder Name="shop">
+                <Image Name="item_diamond_1.png" />
+                <Image Name="item_diamond_2.png" />
+                <Image Name="item_diamond_3.png" />
+                <Image Name="item_diamond_4.png" />
+                <Image Name="item_diamond_5.png" />
+                <Image Name="item_diamond_6.png" />
+                <Image Name="item_gold_1.png" />
+                <Image Name="item_gold_2.png" />
+                <Image Name="item_gold_3.png" />
+                <Image Name="item_gold_4.png" />
+                <Image Name="item_gold_5.png" />
+                <Image Name="item_gold_6.png" />
+                <Image Name="shangcheng_anniudi.png" />
+                <Image Name="shangcheng_d.png" />
+                <Image Name="shangcheng_di.png" />
+                <Image Name="shangcheng_fanhui1.png" />
+                <Image Name="shangcheng_fanhui2.png" />
+                <Image Name="shangcheng_jinbi1.png" />
+                <Image Name="shangcheng_jinbi112.png" />
+                <Image Name="shangcheng_jinbi2.png" />
+                <Image Name="shangcheng_jinbi222.png" />
+                <Image Name="shangcheng_jinbi3.png" />
+                <Image Name="shangcheng_jinbi332.png" />
+                <Image Name="shangcheng_jinbi4.png" />
+                <Image Name="shangcheng_jinbi442.png" />
+                <Image Name="shangcheng_jinbi5.png" />
+                <Image Name="shangcheng_jinbi552.png" />
+                <Image Name="shangcheng_jinbi6.png" />
+                <Image Name="shangcheng_jinbi662.png" />
+                <Image Name="shangcheng_jinbian.png" />
+                <Image Name="shangcheng_jinbiliang.png" />
+                <Image Name="shangcheng_ketixianjinbi.png" />
+                <Image Name="shangcheng_nindezhuanshibuzhu.png" />
+                <Image Name="shangcheng_qinglianxidailichongzhi.png" />
+                <Image Name="shangcheng_quchongzhi1.png" />
+                <Image Name="shangcheng_quchongzhi2.png" />
+                <Image Name="shangcheng_quxiao1.png" />
+                <Image Name="shangcheng_quxiao2.png" />
+                <Image Name="shangcheng_tixian1.png" />
+                <Image Name="shangcheng_tixian2.png" />
+                <Image Name="shangcheng_wanjinbi.png" />
+                <Image Name="shangcheng_wanjinbishuzi.png" />
+                <Image Name="shangcheng_yuan.png" />
+                <Image Name="shangcheng_yuanshuzi.png" />
+                <Image Name="shangcheng_zhuanshian.png" />
+                <Image Name="shangcheng_zhuanshiliang.png" />
+                <Image Name="shangcheng_zuanshi.png" />
+                <Image Name="shangcheng_zuanshixiao.png" />
+                <Image Name="tongyong_cha1.png" />
+                <Image Name="tongyong_cha2.png" />
+                <Image Name="tongyong_tishi.png" />
+                <Image Name="tongyong_xiaodi.png" />
+              </Folder>
+              <Folder Name="sign">
+                <Image Name="meiriqiandao2.png" />
+                <Image Name="meiriqiandaochengong.png" />
+                <Image Name="meitiqiandao.png" />
+                <Fnt Name="qiandao_3888-export.fnt" />
+                <Fnt Name="qiandao_liutian-export.fnt" />
+                <Image Name="qiandao_tianshuzi.png" />
+                <Image Name="sign_12888.png" />
+                <Image Name="sign_3888.png" />
+                <Image Name="sign_6888.png" />
+                <Image Name="sign_9888.png" />
+                <Image Name="sign_award0.png" />
+                <Image Name="sign_award1.png" />
+                <Image Name="sign_award3.png" />
+                <Image Name="sign_bg.png" />
+                <Image Name="sign_btn_get.png" />
+                <Image Name="sign_btn_get1.png" />
+                <Image Name="sign_coin.png" />
+                <Image Name="sign_day10.png" />
+                <Image Name="sign_day11.png" />
+                <Image Name="sign_day20.png" />
+                <Image Name="sign_day21.png" />
+                <Image Name="sign_day30.png" />
+                <Image Name="sign_day31.png" />
+                <Image Name="sign_day40.png" />
+                <Image Name="sign_day41.png" />
+                <Image Name="sign_day50.png" />
+                <Image Name="sign_day51.png" />
+                <Image Name="sign_day60.png" />
+                <Image Name="sign_day61.png" />
+                <Image Name="sign_day70.png" />
+                <Image Name="sign_day71.png" />
+                <Image Name="sign_get_bg.png" />
+                <Image Name="sign_get1.png" />
+                <Image Name="sign_get2.png" />
+                <Image Name="sign_get3.png" />
+                <Image Name="sign_get4.png" />
+                <Image Name="sign_get5.png" />
+                <Image Name="sign_get6.png" />
+                <Image Name="sign_get7.png" />
+                <Image Name="sign_had_got.png" />
+                <Image Name="sign_img6d.png" />
+                <Image Name="sign_item_had_got.png" />
+                <Image Name="sign_line0.png" />
+                <Image Name="sign_line1.png" />
+                <Image Name="sign_number.png" />
+                <Image Name="sign_sure.png" />
+                <Image Name="sign_sure1.png" />
+                <Image Name="sign_t10d.png" />
+                <Image Name="sign_t15d.png" />
+                <Image Name="sign_t3d.png" />
+                <Image Name="sign_tjb.png" />
+                <Image Name="sin_item_shade.png" />
+              </Folder>
+              <Image Name="dating_add1.png" />
+              <Image Name="dating_add2.png" />
+              <Image Name="dating_beijing.png" />
+              <Image Name="dating_beijing2.png" />
+              <Image Name="dating_bisaichang.png" />
+              <Image Name="dating_fankui1.png" />
+              <Image Name="dating_fankui2.png" />
+              <Image Name="dating_gonggaodi.png" />
+              <Image Name="dating_huodong1.png" />
+              <Image Name="dating_huodong2.png" />
+              <Image Name="dating_jibi1.png" />
+              <Image Name="dating_kefu1.png" />
+              <Image Name="dating_kefu2.png" />
+              <Image Name="dating_lijikaishi.png" />
+              <Image Name="dating_paihangbang.png" />
+              <Image Name="dating_paiyouchang1.png" />
+              <Image Name="dating_panghangdieri.png" />
+              <Image Name="dating_panghangdisani.png" />
+              <Image Name="dating_panghangdiyi.png" />
+              <Image Name="dating_renwu1.png" />
+              <Image Name="dating_renwu2.png" />
+              <Image Name="dating_shangcheng1.png" />
+              <Image Name="dating_shangcheng2.png" />
+              <Image Name="dating_shangfangdi.png" />
+              <Image Name="dating_shezhi1.png" />
+              <Image Name="dating_shezhi2.png" />
+              <Image Name="dating_touxiangdi.png" />
+              <Image Name="dating_tubiaotanchuang.png" />
+              <Image Name="dating_tuichu1.png" />
+              <Image Name="dating_tuichu2.png" />
+              <Image Name="dating_xiafangdi.png" />
+              <Image Name="dating_xiangshanganniu1.png" />
+              <Image Name="dating_xiangshanganniu2.png" />
+              <Image Name="dating_xiangshanganniu3.png" />
+              <Image Name="dating_xiangshanganniu4.png" />
+              <Image Name="dating_youxiang1.png" />
+              <Image Name="dating_youxiang2.png" />
+              <Image Name="dating_youxichang.png" />
+              <Image Name="di_gerenxinxidi.png" />
+              <Image Name="di_touxiangxuanzhong.png" />
+              <Image Name="di_xiugaixinxineirong.png" />
+              <Image Name="haoyouchang_haoyoufangxuanzedishuzi.png" />
+              <Fnt Name="haoyouchang_haoyoufangxuanzedishuzi-export.fnt" />
+              <Image Name="haoyouchang_jindutiaokong.png" />
+              <Image Name="haoyouchang_jindutiaoman.png" />
+              <Image Name="haoyouchang_meiykaishiduiju.png" />
+              <Image Name="haoyouchang_wodepaijuchoumashuzi.png" />
+              <Fnt Name="haoyouchang_wodepaijuchoumashuzi-export.fnt" />
+              <Image Name="haoyouchang_wodepaijuchoumashuzi-export.png" />
+              <Image Name="haoyouchang_wodepaijuchoumashuzilv.png" />
+              <Fnt Name="haoyouchang_wodepaijuchoumashuzilv-export.fnt" />
+              <Fnt Name="haoyouchang_wodepaijuchoumashuzilv-export_1.fnt" />
+              <Fnt Name="haoyouchang_wodepaijuchoumashuzilv-export_2.fnt" />
+              <Image Name="haoyouchang_wodepaijushuzi.png" />
+              <Fnt Name="haoyouchang_wodepaijushuzi-export.fnt" />
+              <Image Name="haoyouchang_zhanjidi.png" />
+              <Image Name="home_bg.png" />
+              <Image Name="login_bg.png" />
+              <Image Name="shezhi_yinyueguan.png" />
+              <Image Name="shezhi_yinyuekai.png" />
+              <Image Name="zhujiemian_zhezhao.png" />
+            </Folder>
+            <Project Name="CreateRoomLayer.csd" Type="Layer" />
+            <Project Name="DailyTasks.csd" Type="Layer" />
+            <Project Name="DailyTasksNote.csd" Type="Layer" />
+            <Project Name="EnterRoomLayer.csd" Type="Layer" />
+            <Project Name="EntryLayer.csd" Type="Layer" />
+            <Project Name="FriendRoomLayer.csd" Type="Layer" />
+            <Project Name="FullScreenBaseLayer.csd" Type="Layer" />
+            <Project Name="Game_rule.csd" Type="Layer" />
+            <Project Name="HomeLayer.csd" Type="Layer" />
+            <Project Name="MailLayer.csd" Type="Layer" />
+            <Project Name="MailNode.csd" Type="Layer" />
+            <Project Name="MissionItemNode.csd" Type="Node" />
+            <Project Name="ModifyPersonalLayer.csd" Type="Layer" />
+            <Project Name="PersonalLayer.csd" Type="Layer" />
+            <Project Name="PrivateRoomHelper.csd" Type="Layer" />
+            <Project Name="PrivateRoomItem.csd" Type="Layer" />
+            <Project Name="PrivateRoomResult.csd" Type="Layer" />
+            <Project Name="PrivateRoomResultDetail.csd" Type="Layer" />
+            <Project Name="PrivateRoomResultDetailItem.csd" Type="Layer" />
+            <Project Name="PrivateRoomResultItem.csd" Type="Layer" />
+            <Project Name="Rank.csd" Type="Layer" />
+            <Project Name="RankNode.csd" Type="Layer" />
+            <Project Name="RoomItem.csd" Type="Layer" />
+            <Project Name="RoomSelect.csd" Type="Layer" />
+            <Project Name="ServiceNode.csd" Type="Node" />
+            <Project Name="SettingLayer.csd" Type="Layer" />
+            <Project Name="ShopItemNode.csd" Type="Node" />
+            <Project Name="ShopLayer.csd" Type="Layer" />
+            <Project Name="Sign.csd" Type="Layer" />
+            <Project Name="SignGot.csd" Type="Layer" />
+          </Folder>
+        </Folder>
+        <Folder Name="image">
+          <Image Name="zhujiemian_nan1.png" />
+          <Image Name="zhujiemian_nan2.png" />
+          <Image Name="zhujiemian_nan3.png" />
+          <Image Name="zhujiemian_nan4.png" />
+          <Image Name="zhujiemian_nv1.png" />
+          <Image Name="zhujiemian_nv2.png" />
+          <Image Name="zhujiemian_nv3.png" />
+          <Image Name="zhujiemian_nv4.png" />
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

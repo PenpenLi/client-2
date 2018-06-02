@@ -1,0 +1,38 @@
+<Solution>
+  <PropertyGroup Name="effect" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="image">
+          <Folder Name="start">
+            <Image Name="start_1.png" />
+            <Image Name="start_10.png" />
+            <Image Name="start_11.png" />
+            <Image Name="start_12.png" />
+            <Image Name="start_13.png" />
+            <Image Name="start_14.png" />
+            <Image Name="start_15.png" />
+            <Image Name="start_16.png" />
+            <Image Name="start_17.png" />
+            <Image Name="start_18.png" />
+            <Image Name="start_19.png" />
+            <Image Name="start_2.png" />
+            <Image Name="start_20.png" />
+            <Image Name="start_21.png" />
+            <Image Name="start_22.png" />
+            <Image Name="start_23.png" />
+            <Image Name="start_24.png" />
+            <Image Name="start_3.png" />
+            <Image Name="start_4.png" />
+            <Image Name="start_5.png" />
+            <Image Name="start_6.png" />
+            <Image Name="start_7.png" />
+            <Image Name="start_8.png" />
+            <Image Name="start_9.png" />
+          </Folder>
+        </Folder>
+        <PlistInfo Name="StartEffect.csi" Type="Plist" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

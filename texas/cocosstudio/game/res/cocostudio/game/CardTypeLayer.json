@@ -1,0 +1,123 @@
+{
+  "ID": "5335fdff-e495-4685-a78c-d28dcc150681",
+  "Version": "3.10.0.0",
+  "Name": "CardTypeLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 56,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/cardtype/shangcheng_paixingshuoming1.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 73,
+            "Scale9OriginY": 26,
+            "Scale9Width": 76,
+            "Scale9Height": 27,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -296.9473,
+              "Y": 1275.1201
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.3959,
+              "Y": 0.9559
+            },
+            "PreSize": {
+              "X": 0.296,
+              "Y": 0.0592
+            },
+            "LeftMargin": -407.9473,
+            "RightMargin": 935.9473,
+            "TopMargin": 19.3799,
+            "BottomMargin": 1235.6201,
+            "Tag": 58,
+            "ActionTag": -2143544669,
+            "Size": {
+              "X": 222.0,
+              "Y": 79.0
+            },
+            "Name": "Image_2",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/cardtype/shangcheng_paixingshuomingdi.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 73,
+            "Scale9OriginY": 26,
+            "Scale9Width": 387,
+            "Scale9Height": 1079,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -281.1614,
+              "Y": 615.8123
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.3749,
+              "Y": 0.4616
+            },
+            "PreSize": {
+              "X": 0.7107,
+              "Y": 0.8478
+            },
+            "LeftMargin": -547.6614,
+            "RightMargin": 764.6614,
+            "TopMargin": 152.6877,
+            "BottomMargin": 50.3123,
+            "Tag": 59,
+            "ActionTag": 1228736231,
+            "Size": {
+              "X": 533.0,
+              "Y": 1131.0
+            },
+            "Name": "Image_3",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 750.0,
+          "Y": 1334.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "image/cardtype/shangcheng_paixingshuoming1.png",
+        "image/cardtype/shangcheng_paixingshuomingdi.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

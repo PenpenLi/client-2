@@ -1,0 +1,750 @@
+{
+  "ID": "5b0d65a8-6e1f-4a02-930f-4a3400183412",
+  "Version": "3.10.0.0",
+  "Name": "PlayerInfoNode",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 70,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/player/tanchuan_wanjiaxinxiwenzi.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 54,
+            "Scale9OriginY": 15,
+            "Scale9Width": 58,
+            "Scale9Height": 17,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 4.9999,
+              "Y": 198.2882
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -78.0001,
+            "RightMargin": -87.9999,
+            "TopMargin": -221.7882,
+            "BottomMargin": 174.7882,
+            "Tag": 72,
+            "ActionTag": -1515916889,
+            "Size": {
+              "X": 166.0,
+              "Y": 47.0
+            },
+            "Name": "Image_2",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "cocostudio/game/image/head_1.png",
+              "Plist": "cocostudio/game/Head.plist"
+            },
+            "Scale9OriginX": 35,
+            "Scale9OriginY": 35,
+            "Scale9Width": 37,
+            "Scale9Height": 38,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -259.0664,
+              "Y": 102.0985
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -312.5664,
+            "RightMargin": 205.5664,
+            "TopMargin": -156.0985,
+            "BottomMargin": 48.0985,
+            "Tag": 73,
+            "ActionTag": -1194487239,
+            "Size": {
+              "X": 107.0,
+              "Y": 108.0
+            },
+            "Name": "Image_Head",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 30,
+            "LabelText": "",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -183.6516,
+              "Y": 132.4479
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -183.6516,
+            "RightMargin": 183.6516,
+            "TopMargin": -132.4479,
+            "BottomMargin": 132.4479,
+            "Tag": 93,
+            "ActionTag": 128767085,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "Text_Nickname",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/player/tanchuan_jinbidi.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 69,
+            "Scale9OriginY": 15,
+            "Scale9Width": 73,
+            "Scale9Height": 17,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -82.9745,
+              "Y": 72.3929
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -188.4745,
+            "RightMargin": -22.5255,
+            "TopMargin": -95.8929,
+            "BottomMargin": 48.8929,
+            "Tag": 94,
+            "ActionTag": 1736102467,
+            "Size": {
+              "X": 211.0,
+              "Y": 47.0
+            },
+            "Name": "Image_9",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 28,
+            "LabelText": "",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -69.8613,
+              "Y": 71.8445
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -69.8613,
+            "RightMargin": 69.8613,
+            "TopMargin": -71.8445,
+            "BottomMargin": 71.8445,
+            "Tag": 95,
+            "ActionTag": -455101495,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "Text_Gold",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/player/tanchuan_xiangqing1.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/player/tanchuan_xiangqing2.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/player/tanchuan_xiangqing1.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 133,
+            "Scale9Height": 55,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 245.2628,
+              "Y": 99.1762
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 163.7628,
+            "RightMargin": -326.7628,
+            "TopMargin": -137.6762,
+            "BottomMargin": 60.6762,
+            "Tag": 96,
+            "ActionTag": -11176751,
+            "Size": {
+              "X": 163.0,
+              "Y": 77.0
+            },
+            "VisibleForFrame": false,
+            "Name": "Button_Detail",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/player/tanchuan_wanjiaxinxineirongi.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 204,
+            "Scale9OriginY": 36,
+            "Scale9Width": 213,
+            "Scale9Height": 38,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -0.916,
+              "Y": -18.1606
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -311.416,
+            "RightMargin": -309.584,
+            "TopMargin": -36.8394,
+            "BottomMargin": -73.1606,
+            "Tag": 97,
+            "ActionTag": 1740175795,
+            "Size": {
+              "X": 621.0,
+              "Y": 110.0
+            },
+            "Name": "Image_10",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "CharWidth": 28,
+            "CharHeight": 40,
+            "LabelText": "0",
+            "StartChar": "0",
+            "LabelAtlasFileImage_CNB": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/player/shangcheng_wanjiaxinxishuzi.png",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -180.0,
+              "Y": 5.6836
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -180.0,
+            "RightMargin": 152.0,
+            "TopMargin": -25.6836,
+            "BottomMargin": -14.3164,
+            "Tag": 98,
+            "ActionTag": 697977179,
+            "Size": {
+              "X": 28.0,
+              "Y": 40.0
+            },
+            "Name": "AtlasLabel_Total",
+            "ctype": "TextAtlasObjectData"
+          },
+          {
+            "CharWidth": 28,
+            "CharHeight": 40,
+            "LabelText": "0",
+            "StartChar": "0",
+            "LabelAtlasFileImage_CNB": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/player/shangcheng_wanjiaxinxishuzi.png",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 150.0,
+              "Y": 5.5844
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 150.0,
+            "RightMargin": -178.0,
+            "TopMargin": -25.5844,
+            "BottomMargin": -14.4156,
+            "Tag": 99,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "cocostudio/game/image/player/shangcheng_wanjiaxinxishuziunit.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 14,
+                "Scale9OriginY": 13,
+                "Scale9Width": 15,
+                "Scale9Height": 14,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 29.6536,
+                  "Y": 20.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.0591,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 1.5357,
+                  "Y": 1.0
+                },
+                "LeftMargin": 29.6536,
+                "RightMargin": -44.6536,
+                "Tag": 102,
+                "ActionTag": -2006467344,
+                "Size": {
+                  "X": 43.0,
+                  "Y": 40.0
+                },
+                "Name": "Image_Unit",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 817282233,
+            "Size": {
+              "X": 28.0,
+              "Y": 40.0
+            },
+            "Name": "AtlasLabel_Win",
+            "ctype": "TextAtlasObjectData"
+          },
+          {
+            "CharWidth": 28,
+            "CharHeight": 40,
+            "LabelText": "0",
+            "StartChar": "0",
+            "LabelAtlasFileImage_CNB": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/player/shangcheng_wanjiaxinxishuzi.png",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -180.0,
+              "Y": -43.1938
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -180.0,
+            "RightMargin": 152.0,
+            "TopMargin": 23.1938,
+            "BottomMargin": -63.1938,
+            "Tag": 103,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "cocostudio/game/image/player/shangcheng_wanjiaxinxishuziunit.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 14,
+                "Scale9OriginY": 13,
+                "Scale9Width": 15,
+                "Scale9Height": 14,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 29.6536,
+                  "Y": 20.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.0591,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 1.5357,
+                  "Y": 1.0
+                },
+                "LeftMargin": 29.6536,
+                "RightMargin": -44.6536,
+                "Tag": 104,
+                "ActionTag": -893871609,
+                "Size": {
+                  "X": 43.0,
+                  "Y": 40.0
+                },
+                "Name": "Image_Unit",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -135922769,
+            "Size": {
+              "X": 28.0,
+              "Y": 40.0
+            },
+            "Name": "AtlasLabel_BetIn",
+            "ctype": "TextAtlasObjectData"
+          },
+          {
+            "CharWidth": 28,
+            "CharHeight": 40,
+            "LabelText": "0",
+            "StartChar": "0",
+            "LabelAtlasFileImage_CNB": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/player/shangcheng_wanjiaxinxishuzi.png",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 150.0,
+              "Y": -42.6429
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 150.0,
+            "RightMargin": -178.0,
+            "TopMargin": 22.6429,
+            "BottomMargin": -62.6429,
+            "Tag": 105,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "cocostudio/game/image/player/shangcheng_wanjiaxinxishuziunit.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 14,
+                "Scale9OriginY": 13,
+                "Scale9Width": 15,
+                "Scale9Height": 14,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 29.6536,
+                  "Y": 20.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.0591,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 1.5357,
+                  "Y": 1.0
+                },
+                "LeftMargin": 29.6536,
+                "RightMargin": -44.6536,
+                "Tag": 106,
+                "ActionTag": 1039840160,
+                "Size": {
+                  "X": 43.0,
+                  "Y": 40.0
+                },
+                "Name": "Image_Unit",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -1986368802,
+            "Size": {
+              "X": 28.0,
+              "Y": 40.0
+            },
+            "Name": "AtlasLabel_BetOut",
+            "ctype": "TextAtlasObjectData"
+          },
+          {
+            "FontSize": 32,
+            "LabelText": "使用道具花费15金币",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": -115.6523
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -144.0,
+            "RightMargin": -144.0,
+            "TopMargin": 99.1523,
+            "BottomMargin": -132.1523,
+            "Tag": 107,
+            "ActionTag": 998926687,
+            "Size": {
+              "X": 288.0,
+              "Y": 33.0
+            },
+            "Name": "Text_PropTip",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "Head.plist",
+        "Head.png",
+        "image/player/shangcheng_wanjiaxinxishuzi.png",
+        "image/player/shangcheng_wanjiaxinxishuziunit.png",
+        "image/player/tanchuan_jinbidi.png",
+        "image/player/tanchuan_wanjiaxinxineirongi.png",
+        "image/player/tanchuan_wanjiaxinxiwenzi.png",
+        "image/player/tanchuan_xiangqing1.png",
+        "image/player/tanchuan_xiangqing2.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

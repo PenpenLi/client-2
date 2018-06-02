@@ -1,0 +1,40 @@
+<Solution>
+  <PropertyGroup Name="login" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Image Name="denglu_chongzhimima.png" />
+        <Image Name="denglu_chongzhimimadadi.png" />
+        <Image Name="denglu_denglanniu11.png" />
+        <Image Name="denglu_denglanniu22222.png" />
+        <Image Name="denglu_denglu1.png" />
+        <Image Name="denglu_denglu2.png" />
+        <Image Name="denglu_dengludi.png" />
+        <Image Name="denglu_dengluzhucebiaoti.png" />
+        <Image Name="denglu_dengluzhucedi.png" />
+        <Image Name="denglu_di.png" />
+        <Image Name="denglu_huanyingdi.png" />
+        <Image Name="denglu_jinggao.png" />
+        <Image Name="denglu_logo.png" />
+        <Image Name="denglu_shoujidenglu1.png" />
+        <Image Name="denglu_shoujidenglu2.png" />
+        <Image Name="denglu_wangjidenglumima.png" />
+        <Image Name="denglu_xian.png" />
+        <Image Name="denglu_youkedenglu1.png" />
+        <Image Name="denglu_youkedenglu2.png" />
+        <Image Name="denglu_zhuce1.png" />
+        <Image Name="denglu_zhuce11.png" />
+        <Image Name="denglu_zhuce2.png" />
+        <Image Name="denglu_zhuce2222.png" />
+        <Image Name="denglu_zhucedi.png" />
+        <Project Name="login_frame.csd" Type="Layer" />
+        <Project Name="login_input.csd" Type="Node" />
+        <Image Name="meirirenwu_cha1.png" />
+        <Image Name="meirirenwu_cha2.png" />
+        <Image Name="tixian_fasong1.png" />
+        <Image Name="tixian_fasong2.png" />
+        <Image Name="tixian_jindutiao.png" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
