@@ -1,0 +1,1028 @@
+file download complete, but can not be saved:./test/UpdateDownload/Resources/emotions/dynamic/吐.gif
+file download complete, but can not be saved:./test/UpdateDownload/Resources/emotions/dynamic/哭.gif
+file download complete, but can not be saved:./test/UpdateDownload/Resources/emotions/dynamic/囧.gif
+file download complete, but can not be saved:./test/UpdateDownload/Resources/emotions/dynamic/怒.gif
+file download complete, but can not be saved:./test/UpdateDownload/Resources/emotions/dynamic/晕.gif
+file download complete, but can not be saved:./test/UpdateDownload/Resources/emotions/dynamic/汗.gif
+file download complete, but can not be saved:./test/UpdateDownload/Resources/emotions/dynamic/激动.gif
+file download complete, but can not be saved:./test/UpdateDownload/Resources/emotions/dynamic/睡.gif
+file download complete, but can not be saved:./test/UpdateDownload/Resources/emotions/dynamic/吐.gif
+file download complete, but can not be saved:./test/UpdateDownload/Resources/emotions/dynamic/哭.gif
+file download complete, but can not be saved:./test/UpdateDownload/Resources/emotions/dynamic/囧.gif
+file download complete, but can not be saved:./test/UpdateDownload/Resources/emotions/dynamic/怒.gif
+file download complete, but can not be saved:./test/UpdateDownload/Resources/emotions/dynamic/晕.gif
+file download complete, but can not be saved:./test/UpdateDownload/Resources/emotions/dynamic/汗.gif
+file download complete, but can not be saved:./test/UpdateDownload/Resources/emotions/dynamic/激动.gif
+file download complete, but can not be saved:./test/UpdateDownload/Resources/emotions/dynamic/睡.gif
+file download complete, but can not be saved:./test/UpdateDownload/Resources/emotions/dynamic/吐.gif
+file download complete, but can not be saved:./test/UpdateDownload/Resources/emotions/dynamic/哭.gif
+file download complete, but can not be saved:./test/UpdateDownload/Resources/emotions/dynamic/囧.gif
+file download complete, but can not be saved:./test/UpdateDownload/Resources/emotions/dynamic/怒.gif
+file download complete, but can not be saved:./test/UpdateDownload/Resources/emotions/dynamic/晕.gif
+file download complete, but can not be saved:./test/UpdateDownload/Resources/emotions/dynamic/汗.gif
+file download complete, but can not be saved:./test/UpdateDownload/Resources/emotions/dynamic/激动.gif
+file download complete, but can not be saved:./test/UpdateDownload/Resources/emotions/dynamic/睡.gif
+file download complete, but can not be saved:./test/UpdateDownload/Resources/emotions/dynamic/吐.gif
+file download complete, but can not be saved:./test/UpdateDownload/Resources/emotions/dynamic/哭.gif
+file download complete, but can not be saved:./test/UpdateDownload/Resources/emotions/dynamic/囧.gif
+file download complete, but can not be saved:./test/UpdateDownload/Resources/emotions/dynamic/怒.gif
+file download complete, but can not be saved:./test/UpdateDownload/Resources/emotions/dynamic/晕.gif
+file download complete, but can not be saved:./test/UpdateDownload/Resources/emotions/dynamic/汗.gif
+file download complete, but can not be saved:./test/UpdateDownload/Resources/emotions/dynamic/激动.gif
+file download complete, but can not be saved:./test/UpdateDownload/Resources/emotions/dynamic/睡.gif
+file download failed:http://183.131.146.133/koko/av_manager.dll
+file download failed:http://183.131.146.133/koko/av_player.dll
+file download failed:http://183.131.146.133/koko/avcodec-56.dll
+file download failed:http://183.131.146.133/koko/avdevice-56.dll
+file download failed:http://183.131.146.133/koko/avfilter-5.dll
+file download failed:http://183.131.146.133/koko/avformat-56.dll
+file download failed:http://183.131.146.133/koko/avutil-54.dll
+file download failed:http://183.131.146.133/koko/icudt53.dll
+file download failed:http://183.131.146.133/koko/icuin53.dll
+file download failed:http://183.131.146.133/koko/icuuc53.dll
+file download failed:http://183.131.146.133/koko/koko.exe
+file download failed:http://183.131.146.133/koko/libcrypto.dll
+file download failed:http://183.131.146.133/koko/librtmp.dll
+file download failed:http://183.131.146.133/koko/libssl.dll
+file download failed:http://183.131.146.133/koko/msvcp110.dll
+file download failed:http://183.131.146.133/koko/msvcr110.dll
+file download failed:http://183.131.146.133/koko/postproc-53.dll
+file download failed:http://183.131.146.133/koko/Qt5Core.dll
+file download failed:http://183.131.146.133/koko/Qt5Gui.dll
+file download failed:http://183.131.146.133/koko/Qt5Network.dll
+file download failed:http://183.131.146.133/koko/Qt5Widgets.dll
+file download failed:http://183.131.146.133/koko/Qt5Xml.dll
+file download failed:http://183.131.146.133/koko/swresample-1.dll
+file download failed:http://183.131.146.133/koko/swscale-3.dll
+file download failed:http://183.131.146.133/koko/unzip.dll
+file download failed:http://183.131.146.133/koko/version_compare.dll
+file download failed:http://183.131.146.133/koko/zlib1.dll
+file download failed:http://183.131.146.133/koko/imageformats/qgif.dll
+file download failed:http://183.131.146.133/koko/imageformats/qico.dll
+file download failed:http://183.131.146.133/koko/imageformats/qjpeg.dll
+file download failed:http://183.131.146.133/koko/platforms/qwindows.dll
+file download failed:http://183.131.146.133/koko/Resources/banner.png
+file download failed:http://183.131.146.133/koko/Resources/bg_photo.png
+file download failed:http://183.131.146.133/koko/av_manager.dll
+file download failed:http://183.131.146.133/koko/av_player.dll
+file download failed:http://183.131.146.133/koko/av_manager.dll
+file download failed:http://183.131.146.133/koko/av_player.dll
+file download failed:http://183.131.146.133/koko/avcodec-56.dll
+file download failed:http://183.131.146.133/koko/avdevice-56.dll
+file download failed:http://183.131.146.133/koko/avfilter-5.dll
+file download failed:http://183.131.146.133/koko/av_manager.dll
+file download failed:http://183.131.146.133/koko/av_player.dll
+file download failed:http://183.131.146.133/koko/avcodec-56.dll
+file download failed:http://183.131.146.133/koko/avdevice-56.dll
+file download failed:http://183.131.146.133/koko/avfilter-5.dll
+file download failed:http://183.131.146.133/koko/avformat-56.dll
+file download failed:http://183.131.146.133/koko/avutil-54.dll
+file download failed:http://183.131.146.133/koko/icudt53.dll
+file download failed:http://183.131.146.133/koko/icuin53.dll
+file download failed:http://183.131.146.133/koko/av_manager.dll
+file download failed:http://183.131.146.133/koko/av_player.dll
+file download failed:http://183.131.146.133/koko/avcodec-56.dll
+file download failed:http://183.146.209.103/koko/koko.exe
+http/1.1 302 found
+date: wed, 24 may 2017 04:59:43 gmt
+server: apache/2.4.4 (win64)
+location: http://game.koko.com/koko/koko.exe
+content-length: 218
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: text/html; charset=iso-8859-1file download failed:http://183.146.209.103/koko/koko.exe
+http/1.1 302 found
+date: wed, 24 may 2017 05:00:51 gmt
+server: apache/2.4.4 (win64)
+location: http://game.koko.com/koko/koko.exe
+content-length: 218
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: text/html; charset=iso-8859-1file download failed:http://183.146.209.103/koko/koko.exe
+file download failed:http://183.146.209.103/koko/koko.exe
+file download complete, but can not be saved:./niuniu/UpdateDownload/koko.exe
+file download failed:http://183.146.209.103/koko/koko.exe
+http/1.1 206 partial content
+date: wed, 24 may 2017 05:36:11 gmt
+server: apache/2.2.22 (win32)
+last-modified: tue, 23 may 2017 17:20:02 gmt
+etag: "400000000441e-404e00-5503432b05e72"
+accept-ranges: bytes
+content-length: 4214252
+content-range: bytes 20-4214271/4214272
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: application/x-msdownloadfile download complete, but can not be saved:./niuniu/UpdateDownload/koko.exe
+file download failed:http://183.146.209.103/koko/koko.exe
+http/1.1 416 requested range not satisfiable
+date: wed, 24 may 2017 07:01:16 gmt
+server: apache/2.2.22 (win32)
+keep-alive: timeout=5, max=100
+connection: keep-alive
+transfer-encoding: chunked
+content-type: text/html; charset=iso-8859-1file download failed:http://183.146.209.103/koko/koko.exe
+http/1.1 412 precondition failed
+date: wed, 24 may 2017 07:07:43 gmt
+server: apache/2.2.22 (win32)
+last-modified: tue, 23 may 2017 17:20:02 gmt
+etag: "400000000441e-404e00-5503432b05e72"
+accept-ranges: bytes
+content-length: 0
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: application/x-msdownloadfile download failed:http://183.146.209.103/koko/koko.exe
+http/1.1 200 ok
+date: wed, 24 may 2017 07:21:45 gmt
+server: apache/2.2.22 (win32)
+last-modified: tue, 23 may 2017 17:20:02 gmt
+etag: "400000000441e-404e00-5503432b05e72"
+accept-ranges: bytes
+vary: accept-encoding
+content-encoding: gzip
+keep-alive: timeout=5, max=100
+connection: keep-alive
+transfer-encoding: chunked
+content-type: application/x-msdownloadfile download failed:http://183.146.209.103/koko/koko.exe
+http/1.1 200 ok
+date: wed, 24 may 2017 07:22:18 gmt
+server: apache/2.2.22 (win32)
+last-modified: tue, 23 may 2017 17:20:02 gmt
+etag: "400000000441e-404e00-5503432b05e72"
+accept-ranges: bytes
+vary: accept-encoding
+content-encoding: gzip
+keep-alive: timeout=5, max=100
+connection: keep-alive
+transfer-encoding: chunked
+content-type: application/x-msdownloadfile download failed:http://183.146.209.103/koko/koko.exe
+http/1.1 412 precondition failed
+date: wed, 24 may 2017 07:32:10 gmt
+server: apache/2.2.22 (win32)
+last-modified: tue, 23 may 2017 17:20:02 gmt
+etag: "400000000441e-404e00-5503432b05e72"
+accept-ranges: bytes
+vary: accept-encoding
+content-encoding: gzip
+content-length: 20
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: application/x-msdownloadfile download failed:http://183.146.209.103/koko/koko.exe
+http/1.1 412 precondition failed
+date: wed, 24 may 2017 07:33:04 gmt
+server: apache/2.2.22 (win32)
+last-modified: tue, 23 may 2017 17:20:02 gmt
+etag: "400000000441e-404e00-5503432b05e72"
+accept-ranges: bytes
+vary: accept-encoding
+content-encoding: gzip
+content-length: 20
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: application/x-msdownloadfile download failed:http://183.146.209.103/koko/koko.exe
+http/1.1 412 precondition failed
+date: wed, 24 may 2017 07:34:25 gmt
+server: apache/2.2.22 (win32)
+last-modified: tue, 23 may 2017 17:20:02 gmt
+etag: "400000000441e-404e00-5503432b05e72"
+accept-ranges: bytes
+content-length: 0
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: application/x-msdownloadfile download failed:http://183.146.209.103/koko/koko.exe
+http/1.1 412 precondition failed
+date: wed, 24 may 2017 07:36:23 gmt
+server: apache/2.2.22 (win32)
+last-modified: tue, 23 may 2017 17:20:02 gmt
+etag: "400000000441e-404e00-5503432b05e72"
+accept-ranges: bytes
+content-length: 0
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: application/x-msdownloadfile download failed:http://183.146.209.103/koko/koko.exe
+http/1.1 412 precondition failed
+date: wed, 24 may 2017 07:37:19 gmt
+server: apache/2.2.22 (win32)
+last-modified: tue, 23 may 2017 17:20:02 gmt
+etag: "400000000441e-404e00-5503432b05e72"
+accept-ranges: bytes
+content-length: 0
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: application/x-msdownloadfile download failed:http://183.146.209.103/koko/koko.exe
+http/1.1 412 precondition failed
+date: wed, 24 may 2017 07:39:07 gmt
+server: apache/2.2.22 (win32)
+last-modified: tue, 23 may 2017 17:20:02 gmt
+etag: "400000000441e-404e00-5503432b05e72"
+accept-ranges: bytes
+content-length: 0
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: application/x-msdownloadfile download failed:http://183.146.209.103/koko/koko.exe
+http/1.1 412 precondition failed
+date: wed, 24 may 2017 07:39:48 gmt
+server: apache/2.2.22 (win32)
+last-modified: tue, 23 may 2017 17:20:02 gmt
+etag: "400000000441e-404e00-5503432b05e72"
+accept-ranges: bytes
+content-length: 0
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: application/x-msdownloadfile download failed:http://183.146.209.103/koko/koko.exe
+http/1.1 412 precondition failed
+date: wed, 24 may 2017 07:40:47 gmt
+server: apache/2.2.22 (win32)
+last-modified: tue, 23 may 2017 17:20:02 gmt
+etag: "400000000441e-404e00-5503432b05e72"
+accept-ranges: bytes
+content-length: 0
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: application/x-msdownloadfile download failed:http://183.146.209.103/koko/avcodec-56.dll
+http/1.1 200 ok
+date: wed, 24 may 2017 09:54:27 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 21 mar 2017 08:38:07 gmt
+etag: "164b800-54b3990271452-gzip"
+accept-ranges: bytes
+vary: accept-encoding
+content-encoding: gzip
+keep-alive: timeout=5, max=100
+connection: keep-alive
+transfer-encoding: chunked
+content-type: application/x-msdownloadfile download failed:http://183.146.209.103/koko/avcodec-56.dll
+http/1.1 200 ok
+date: wed, 24 may 2017 09:58:13 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 21 mar 2017 08:38:07 gmt
+etag: "164b800-54b3990271452-gzip"
+accept-ranges: bytes
+vary: accept-encoding
+content-encoding: gzip
+keep-alive: timeout=5, max=100
+connection: keep-alive
+transfer-encoding: chunked
+content-type: application/x-msdownloadfile download failed:http://183.146.209.103/koko/avcodec-56.dll
+file download complete, but can not be saved:./niuniu/UpdateDownload/
+file download complete, but can not be saved:./niuniu/UpdateDownload/
+file download complete, but can not be saved:./niuniu/UpdateDownload/
+file download complete, but can not be saved:./niuniu/UpdateDownload/
+file download complete, but can not be saved:./niuniu/UpdateDownload/
+file download failed:http://game.test.koko.com/koko/av_manager.dll
+http/1.0 302 found
+cache-control: no-cache
+connection: close
+location: http://183.134.53.157/game.test.koko.com/koko/av_manager.dll?wsiphost=localfile download failed:http://game.test.koko.com/koko/av_manager.dll
+http/1.0 302 found
+cache-control: no-cache
+connection: close
+location: http://183.131.210.50/game.test.koko.com/koko/av_manager.dll?wsiphost=localfile download failed:http://game.test.koko.com/koko/av_manager.dll
+http/1.0 302 found
+cache-control: no-cache
+connection: close
+location: http://183.131.210.50/game.test.koko.com/koko/av_manager.dll?wsiphost=localfile download failed:http://game.test.koko.com/koko/av_manager.dll
+http/1.0 302 found
+cache-control: no-cache
+connection: close
+location: http://183.131.210.50/game.test.koko.com/koko/av_manager.dll?wsiphost=localfile download failed:http://game.test.koko.com/koko/av_manager.dll
+http/1.0 302 found
+cache-control: no-cache
+connection: close
+location: http://183.134.53.157/game.test.koko.com/koko/av_manager.dll?wsiphost=localfile download failed:http://game.test.koko.com/ddz_android/res/bg5.jpg
+file download failed:http://game.test.koko.com/ddz_android/res/bg8.png
+file download failed:http://game.test.koko.com/ddz_android/src/Form.lua
+file download failed:http://game.test.koko.com/ddz_android/res/Packages/game.plist
+file download failed:http://game.test.koko.com/ddz_android/src/data/game.lua
+file download failed:http://game.test.koko.com/ddz_android/res/atlas/MatchGround/4002.png
+file download failed:http://game.test.koko.com/ddz_android/res/atlas/Rank/img01.png
+file download failed:http://game.test.koko.com/ddz_android/res/Font/img15.png
+file download failed:http://game.test.koko.com/ddz_android/res/Packages/anim_plane.plist
+file download failed:http://game.test.koko.com/ddz_android/res/Sound/1005.wav
+file download failed:http://game.test.koko.com/ddz_android/res/UICommon/Reconnect.csb
+file download failed:http://game.test.koko.com/ddz_android/res/UILogic/Game/Chuntian.csb
+file download failed:http://game.test.koko.com/ddz_android/res/UILogic/Help/Help.csb
+file download failed:http://game.test.koko.com/ddz_android/res/UILogic/Lobby/Lobby.csb
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_plane.plist
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:01 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "17c6-55f089ad88fa4"
+accept-ranges: bytes
+content-length: 6086
+keep-alive: timeout=5, max=100
+connection: keep-alive
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_loading.png
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:01 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "6fdc-55f089ad88fa4"
+accept-ranges: bytes
+content-length: 28636
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: image/png
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_loading.plist
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:01 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "c10-55f089ad88fa4"
+accept-ranges: bytes
+content-length: 3088
+keep-alive: timeout=5, max=100
+connection: keep-alive
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_huojian.png
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:01 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "1ec20-55f089ad8529b"
+accept-ranges: bytes
+content-length: 125984
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: image/png
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_huojian.plist
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:01 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "2c9c-55f089ad8529b"
+accept-ranges: bytes
+content-length: 11420
+keep-alive: timeout=5, max=100
+connection: keep-alive
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_hfq.png
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:01 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "4ae4-55f089ad8529b"
+accept-ranges: bytes
+content-length: 19172
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: image/png
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_hfq.plist
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:01 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "ab9-55f089ad8529b"
+accept-ranges: bytes
+content-length: 2745
+keep-alive: timeout=5, max=100
+connection: keep-alive
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_dice.png
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:01 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "98cd-55f089ad8529b"
+accept-ranges: bytes
+content-length: 39117
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: image/png
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_dice.plist
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:01 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "f12-55f089ad8529b"
+accept-ranges: bytes
+content-length: 3858
+keep-alive: timeout=5, max=100
+connection: keep-alive
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_chuntian.png
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:01 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "15231-55f089ad8529b"
+accept-ranges: bytes
+content-length: 86577
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: image/png
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_chuntian.plist
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:01 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "4ad-55f089ad8529b"
+accept-ranges: bytes
+content-length: 1197
+keep-alive: timeout=5, max=100
+connection: keep-alive
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_cards.png
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:01 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "3a838-55f089ad8529b"
+accept-ranges: bytes
+content-length: 239672
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: image/png
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_cards.plist
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:01 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "3d55-55f089ad8529b"
+accept-ranges: bytes
+content-length: 15701
+keep-alive: timeout=5, max=100
+connection: keep-alive
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_boom.png
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:01 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "36260-55f089ad8529b"
+accept-ranges: bytes
+content-length: 221792
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: image/png
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_boom.plist
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:01 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "139b-55f089ad8529b"
+accept-ranges: bytes
+content-length: 5019
+keep-alive: timeout=5, max=100
+connection: keep-alive
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/friendgame.plist
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:58 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "429f-55f089ad81592"
+accept-ranges: bytes
+content-length: 17055
+keep-alive: timeout=5, max=100
+connection: keep-alive
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/fiendroomresult.png
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:58 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "d306c-55f089ad81592"
+accept-ranges: bytes
+content-length: 864364
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: image/png
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/fiendroomresult.plist
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:58 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "1fa5-55f089ad81592"
+accept-ranges: bytes
+content-length: 8101
+keep-alive: timeout=5, max=100
+connection: keep-alive
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/dizhu.png
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:58 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "21d44-55f089ad9c0d1"
+accept-ranges: bytes
+content-length: 138564
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: image/png
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/dizhu.plist
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:58 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "cf1-55f089ad9c0d1"
+accept-ranges: bytes
+content-length: 3313
+keep-alive: timeout=5, max=100
+connection: keep-alive
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/Deng.png
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:58 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "20c28-55f089ad8529b"
+accept-ranges: bytes
+content-length: 134184
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: image/png
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/Deng.plist
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:58 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "595-55f089ad8529b"
+accept-ranges: bytes
+content-length: 1429
+keep-alive: timeout=5, max=100
+connection: keep-alive
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/common.png
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:58 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "4b2e8-55f089ad9c0d1"
+accept-ranges: bytes
+content-length: 307944
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: image/png
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/common.plist
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:58 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "121b-55f089ad946bf"
+accept-ranges: bytes
+content-length: 4635
+keep-alive: timeout=5, max=100
+connection: keep-alive
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/chatEmt.png
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:58 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "b3e7f-55f089ad946bf"
+accept-ranges: bytes
+content-length: 736895
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: image/png
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/chatEmt.plist
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:58 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "3ed3-55f089ad946bf"
+accept-ranges: bytes
+content-length: 16083
+keep-alive: timeout=5, max=100
+connection: keep-alive
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/ccjb.png
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:58 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "17333-55f089ad946bf"
+accept-ranges: bytes
+content-length: 95027
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: image/png
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/ccjb.plist
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:58 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "ce4-55f089ad946bf"
+accept-ranges: bytes
+content-length: 3300
+keep-alive: timeout=5, max=100
+connection: keep-alive
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/bw.png
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:58 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "1a1a4-55f089ad946bf"
+accept-ranges: bytes
+content-length: 106916
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: image/png
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/bw.plist
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:58 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "58f-55f089ad946bf"
+accept-ranges: bytes
+content-length: 1423
+keep-alive: timeout=5, max=100
+connection: keep-alive
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/balance.png
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:58 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "f9ec0-55f089ad946bf"
+accept-ranges: bytes
+content-length: 1023680
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: image/png
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/balance.plist
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:58 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "21e3-55f089ad909b6"
+accept-ranges: bytes
+content-length: 8675
+keep-alive: timeout=5, max=100
+connection: keep-alive
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/Bag.png
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:58 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "cb8de-55f089ad79b80"
+accept-ranges: bytes
+content-length: 833758
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: image/png
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/Bag.plist
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:58 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "3916-55f089ad79b80"
+accept-ranges: bytes
+content-length: 14614
+keep-alive: timeout=5, max=100
+connection: keep-alive
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_zhadan.png
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:57 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "1b75-55f089ad909b6"
+accept-ranges: bytes
+content-length: 7029
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: image/png
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_zhadan.plist
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:57 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "d1e-55f089ad909b6"
+accept-ranges: bytes
+content-length: 3358
+keep-alive: timeout=5, max=100
+connection: keep-alive
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_wintime.png
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:57 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "158c1-55f089ad909b6"
+accept-ranges: bytes
+content-length: 88257
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: image/png
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_wintime.plist
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:57 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "1342-55f089ad88fa4"
+accept-ranges: bytes
+content-length: 4930
+keep-alive: timeout=5, max=100
+connection: keep-alive
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_sunshine.png
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:57 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "313c9-55f089ad88fa4"
+accept-ranges: bytes
+content-length: 201673
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: image/png
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_sunshine.plist
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:57 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "1299-55f089ad88fa4"
+accept-ranges: bytes
+content-length: 4761
+keep-alive: timeout=5, max=100
+connection: keep-alive
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_star.png
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:57 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "775d-55f089ad88fa4"
+accept-ranges: bytes
+content-length: 30557
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: image/png
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_star.plist
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:57 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "2b00-55f089ad88fa4"
+accept-ranges: bytes
+content-length: 11008
+keep-alive: timeout=5, max=100
+connection: keep-alive
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_smoke.png
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:57 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "1cd79-55f089ad88fa4"
+accept-ranges: bytes
+content-length: 118137
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: image/png
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_smoke.plist
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:57 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "24d5-55f089ad88fa4"
+accept-ranges: bytes
+content-length: 9429
+keep-alive: timeout=5, max=100
+connection: keep-alive
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_role.png
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:57 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "1850e0-55f089ad88fa4"
+accept-ranges: bytes
+content-length: 1593568
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: image/png
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_role.plist
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:57 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "4fb4-55f089ad88fa4"
+accept-ranges: bytes
+content-length: 20404
+keep-alive: timeout=5, max=100
+connection: keep-alive
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_plane.png
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:57 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "1a38a-55f089ad88fa4"
+accept-ranges: bytes
+content-length: 107402
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: image/png
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_plane.plist
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:57 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "17c6-55f089ad88fa4"
+accept-ranges: bytes
+content-length: 6086
+keep-alive: timeout=5, max=100
+connection: keep-alive
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_loading.png
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:57 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "6fdc-55f089ad88fa4"
+accept-ranges: bytes
+content-length: 28636
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: image/png
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_loading.plist
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:57 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "c10-55f089ad88fa4"
+accept-ranges: bytes
+content-length: 3088
+keep-alive: timeout=5, max=100
+connection: keep-alive
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_huojian.png
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:57 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "1ec20-55f089ad8529b"
+accept-ranges: bytes
+content-length: 125984
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: image/png
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_huojian.plist
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:57 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "2c9c-55f089ad8529b"
+accept-ranges: bytes
+content-length: 11420
+keep-alive: timeout=5, max=100
+connection: keep-alive
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_hfq.png
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:57 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "4ae4-55f089ad8529b"
+accept-ranges: bytes
+content-length: 19172
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: image/png
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_hfq.plist
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:57 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "ab9-55f089ad8529b"
+accept-ranges: bytes
+content-length: 2745
+keep-alive: timeout=5, max=100
+connection: keep-alive
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_dice.png
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:57 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "98cd-55f089ad8529b"
+accept-ranges: bytes
+content-length: 39117
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: image/png
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_dice.plist
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:57 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "f12-55f089ad8529b"
+accept-ranges: bytes
+content-length: 3858
+keep-alive: timeout=5, max=100
+connection: keep-alive
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_chuntian.png
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:57 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "15231-55f089ad8529b"
+accept-ranges: bytes
+content-length: 86577
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: image/png
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_chuntian.plist
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:57 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "4ad-55f089ad8529b"
+accept-ranges: bytes
+content-length: 1197
+keep-alive: timeout=5, max=100
+connection: keep-alive
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_cards.png
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:57 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "3a838-55f089ad8529b"
+accept-ranges: bytes
+content-length: 239672
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: image/png
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_cards.plist
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:57 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "3d55-55f089ad8529b"
+accept-ranges: bytes
+content-length: 15701
+keep-alive: timeout=5, max=100
+connection: keep-alive
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_boom.png
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:57 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "36260-55f089ad8529b"
+accept-ranges: bytes
+content-length: 221792
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: image/png
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/anim_boom.plist
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:39:57 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "139b-55f089ad8529b"
+accept-ranges: bytes
+content-length: 5019
+keep-alive: timeout=5, max=100
+connection: keep-alive
+file download failed:http://game.test.koko.com/ddz_mobile/res/ddz/Packages/balance.png
+request_state=7
+header=http/1.1 200 ok
+date: tue, 28 nov 2017 11:43:08 gmt
+server: apache/2.4.4 (win64)
+last-modified: tue, 28 nov 2017 10:37:25 gmt
+etag: "f9ec0-55f089ad946bf"
+accept-ranges: bytes
+content-length: 1023680
+keep-alive: timeout=5, max=100
+connection: keep-alive
+content-type: image/png
