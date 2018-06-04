@@ -27,6 +27,9 @@ function GameUser:ctor()
     self.winrate = 0                    -- 胜率
     self.total_played = 0               -- 总局数
     self.is_observer_ = 1;              -- 是否正在观战
+
+    --APP:addListener(self, "NET_MSG", handler(self, self.onMsg));
+
 end
 
 function GameUser:setInfo(info)
@@ -67,6 +70,19 @@ end
 
 function GameUser:updateGold(gold)
     self.gold_game = gold
+end
+
+function GameUser:addMail(data)
+    self.mail_list = self.mail_list or {}
+    self.mail_list[data.id] = data
+end
+
+function GameUser:getMailList()
+    return self.mail_list or {}
+end
+
+function GameUser:attachMail(data)
+    self.mail_list[data.id] = nil
 end
 
 return GameUser

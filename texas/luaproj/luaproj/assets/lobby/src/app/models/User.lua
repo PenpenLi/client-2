@@ -53,7 +53,7 @@ function User:setInfo(info)
     self.gender = tonumber(info.gender_)
     self.level = tonumber(info.level_)
     self.idcard = info.idcard_
-
+    self.head_ico = info.headico_
     self.token = info.token_
     self.sequence = tonumber(info.sequence_)
 
