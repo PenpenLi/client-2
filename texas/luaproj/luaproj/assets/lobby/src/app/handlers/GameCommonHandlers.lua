@@ -20,7 +20,9 @@ function GameCommonHandlers.active()
     SOCKET_HANDLERS.registerHandler(GameConfig.ID_GAMESERVER, CMD.GAME_DEPOSIT_CHANGE2_NOTIFY, 1, GameCommonHandlers.handleDepositChange2Notify);
 	SOCKET_HANDLERS.registerHandler(GameConfig.ID_GAMESERVER, CMD.GAME_CREATE_ROOM_RET, 1, GameCommonHandlers.createRoomRet);
 	SOCKET_HANDLERS.registerHandler(GameConfig.ID_GAMESERVER, CMD.GAME_IS_IN_GAME, 1, GameCommonHandlers.isInGame);
-	
+	SOCKET_HANDLERS.registerHandler(GameConfig.ID_GAMESERVER, CMD.GAME_RANK_RESULT, 1, GameCommonHandlers.handleRankInfo);
+
+
     SOCKET_HANDLERS.registerHandler(GameConfig.ID_GAMESERVER, CMD.TEXASPOKER_STATUS_CHANGE_NOTIFY, 1, TexasPokerHandlers.handleStatusChangeNotify);
     SOCKET_HANDLERS.registerHandler(GameConfig.ID_GAMESERVER, CMD.TEXASPOKER_PROMOTE_BANKER_NOTIFY, 1, TexasPokerHandlers.handlePromoteBankerNotify);
     SOCKET_HANDLERS.registerHandler(GameConfig.ID_GAMESERVER, CMD.TEXASPOKER_PLEASE_TAKEOP_NOTIFY, 1, TexasPokerHandlers.handlePleaseTakeopNotify);
@@ -31,6 +33,8 @@ function GameCommonHandlers.active()
     SOCKET_HANDLERS.registerHandler(GameConfig.ID_GAMESERVER, CMD.TEXASPOKER_POOL_CHANGE_NOTIFY, 1, TexasPokerHandlers.handlePoolChangeNotify);
     SOCKET_HANDLERS.registerHandler(GameConfig.ID_GAMESERVER, CMD.TEXASPOKER_MATCH_RESULT_NOTIFY, 1, TexasPokerHandlers.handleMatchResultNotify);
     SOCKET_HANDLERS.registerHandler(GameConfig.ID_GAMESERVER, CMD.TEXASPOKER_POOL_SPLIT, 1, TexasPokerHandlers.handleTakePoolNotify);
+
+
 
 end
 
@@ -229,6 +233,26 @@ function GameCommonHandlers.handleDepositChange2Notify(content)
     end
 end
 
+--排行榜 
+function GameCommonHandlers.handleRankInfo(content)
+    
+    printLog("a","============================handleRankInfo")
+    dump(content)
+    local rankData = {
+    
+        uname = content.uname_, --昵称
+        head_ico = content.head_ico_, --头像
+        headframe_id  =content.headframe_id_, --
+        rank_type = content.rank_type_, --排行榜类型
+        tag = content.tag_,  --0新的开始 1后序数据
+        data = content.data_ --排行数据
+
+    }
+
+   
+   APP.hc:ViewRankUpData(rankData)-- :ViewRankUpData(rankData)
+ 
+end
 -----------------------------------------------------------------------------
 
 return GameCommonHandlers

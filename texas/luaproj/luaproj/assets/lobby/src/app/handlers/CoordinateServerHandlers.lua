@@ -12,8 +12,13 @@ SOCKET_HANDLERS.registerHandler(GameConfig.ID_COORDINATESERVER, CMD.COORDINATE_C
 SOCKET_HANDLERS.registerHandler(GameConfig.ID_COORDINATESERVER, CMD.COORDINATE_GET_GAME_SERVER_RESP, 1, CoordinateServerHandlers.handleGetGameServerResponse);
 SOCKET_HANDLERS.registerHandler(GameConfig.ID_COORDINATESERVER, CMD.COORDINATE_SYNC_ITEM, 1, CoordinateServerHandlers.handleSyncItemNotify);
 SOCKET_HANDLERS.registerHandler(GameConfig.ID_COORDINATESERVER, CMD.GAME_PRIVATE_ROOM_INFO, 1, CoordinateServerHandlers.privateRoomInfo);
-SOCKET_HANDLERS.registerHandler(GameConfig.ID_COORDINATESERVER, CMD.GAME_CREATE_SIGN, 1, CoordinateServerHandlers.handleGetSignInfo);
+SOCKET_HANDLERS.registerHandler(GameConfig.ID_COORDINATESERVER, CMD.GAME_SIGN_RESULT, 1, CoordinateServerHandlers.handleGetSignInfo);
+SOCKET_HANDLERS.registerHandler(GameConfig.ID_COORDINATESERVER, CMD.GAME_SIGN_GET_RESULT, 1, CoordinateServerHandlers.handleAwardInfo);
 SOCKET_HANDLERS.registerHandler(GameConfig.ID_COORDINATESERVER, CMD.COORDINATE_SAMEACCOUNT_LOGIN, 1, CoordinateServerHandlers.handleSameAccountLogin);
+SOCKET_HANDLERS.registerHandler(GameConfig.ID_COORDINATESERVER, CMD.GAME_USER_MAIL_LIST_RESP, 1, CoordinateServerHandlers.handleSaveMailList);
+SOCKET_HANDLERS.registerHandler(GameConfig.ID_COORDINATESERVER, CMD.GAME_USER_MAIL_LIST_RESP, 1, CoordinateServerHandlers.handleGetMailAttach);
+
+
 
 end
 
@@ -75,21 +80,54 @@ end
 
 function CoordinateServerHandlers.handleGetSignInfo(content)
 
- 
-   if tonumber(content.login_state_) == 0 then
+ print("=======================handleGetSignInfo jx ================")
+  --ts if tonumber(content.login_state_) == 0 then
        local signInfoTable = {}
        signInfoTable.serial_days = tonumber(content.serial_days_) --连续登入天数
        signInfoTable.serial_state = tonumber(content.serial_state_)--最多三位数（个位-3天， 十位-6天，百位-9天，0-未领取 1-已领取）
        signInfoTable.login_day = tonumber(content.login_day_)--当前第几天 当前第几天(1~7)
        signInfoTable.login_state = tonumber(content.login_state_)--登录奖励状态：0-未领取 1-已领取]]--
    
-
+   print("=====show signInfoTable=====")
    --  if signInfoTable[1].login_state == 0 then
        APP.hc:showSignLayer(signInfoTable)
-    end 
+  --ts  end 
    
     --APP.hc:CreateSign()
 	--APP:dispatchCustomEvent("SIGN_CREATE_SUCC", content);
+end
+
+
+function CoordinateServerHandlers.handleAwardInfo(content)
+print("====================================================================handleAwardInfo")
+     dump(content)
+
+    local strs = string.split(content.item_, ',')
+    
+    local awardInfo ={
+
+          itemNumber = tonumber(strs[1]),
+          coinNumber = tonumber(strs[2])   
+    } 
+   -- if tonumber(content.)
+   print("=================",awardInfo.itemNumber,awardInfo.coinNumber)
+   APP.hc:ShowSignAward(awardInfo)
+end 
+
+
+
+return CoordinateServerHandlers-------  邮件列表
+function CoordinateServerHandlers.handleSaveMailList(content)
+    local data = {}
+    data.id = content.id_
+    data.title = content.title_
+    data.attach_state = content.attach_state_
+    data.timestamp = content.timestamp_
+    gameUser:addMail(data)
+end
+
+function CoordinateServerHandlers.handleGetMailAttach(content)
+    gameUser:attachMail(content)
 end
 
 return CoordinateServerHandlers
