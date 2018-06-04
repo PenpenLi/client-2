@@ -60,15 +60,19 @@ public:
 	
 	version_manager();
 	~version_manager();
-	std::string	version_info(std::string local_path);
-	void		query_status(vsync_status& st);
-	
+	std::string	version_info(std::string local_path) override;
+
+	void		query_status(vsync_status& st) override;
+
 	int			check_update(std::string exe, std::string local_path, std::string remote_path) override;
 
 	int			install_update() override;
 	//Õ£÷π
-	void		clean();
-	bool		is_working();
+	void		clean() override;
+
+	bool		is_working() override;
+
+	int			copy_dir(std::string from_dir, std::string dest_dir) override;
 protected:
 	boost::shared_ptr<boost::thread>			download_thread_;
 	dftask_ptr				current_dl_file;
@@ -103,6 +107,7 @@ protected:
 
 	//dir‘⁄UpdateDownload¿Ô
 	int			move_download_files(std::string local_root, ver_node& vnode);
+
 	int			remove_file_by_version(std::string local_root, ver_node& vnode);
 	bool		is_canceled();
 	int			do_sync_version();

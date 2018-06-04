@@ -80,7 +80,7 @@ public:
 	//remote_path	远程版本目录.
 	//返回值: error_xxx 枚举值
 	virtual int			check_update(std::string exe, std::string local_path, std::string remote_path)  = 0;
-
+	virtual int			copy_dir(std::string from_dir, std::string dest_dir) = 0;
 	//下载并安装更新
 	//必须先调用check_update才能调用install_update.
 	//返回值: error_xxx 枚举值

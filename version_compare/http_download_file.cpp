@@ -22,15 +22,13 @@ http_download_file::~http_download_file()
 	}
 }
 
-void http_download_file::recv_body(std::string data)
+void http_download_file::recv_body(std::string data) 
 {
 	if (stop_) return;
 
+	total_recv_ += data.size();
 	data_cache_ += data;
-	if (data_cache_.size() < 1000000) 
-		return;
-
-	flush();
+	complete();
 }
 
 void http_download_file::flush()

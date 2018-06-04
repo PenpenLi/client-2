@@ -21,6 +21,6 @@ protected:
 	std::string data_cache_;
 	bool	stop_;
 	
-	void	recv_body(std::string data);
+	virtual void	recv_body(std::string data) override;
 	void	flush();
 };
