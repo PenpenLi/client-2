@@ -61,6 +61,7 @@ function ControllerBase:showWaiting()
         self._waitingNode = APP:createView("common.WaitingNode")
             :move(0, 0)
             :addTo(self)
+        self._waitingNode:setName("common.WaitingNode")
         self._waitingNode:setLocalZOrder(GameConfig.Z_Waiting)
     end
 end
@@ -70,15 +71,17 @@ function ControllerBase:showBlankWaiting()
         self._waitingNode = APP:createView("common.WaitingNode", {blank = true})
             :move(0, 0)
             :addTo(self)
+        self._waitingNode:setName("common.WaitingNode")
         self._waitingNode:setLocalZOrder(GameConfig.Z_Waiting)
     end
 end
 
 function ControllerBase:hideWaiting()
-    if self._waitingNode then
-        self._waitingNode:removeSelf()
-        self._waitingNode = nil
+    local waitNode = self:getChildByName("common.WaitingNode")
+    if waitNode then
+        waitNode:removeSelf()
     end
+    self._waitingNode = nil
 end
 
 function ControllerBase:showAlertOKCancel(options)

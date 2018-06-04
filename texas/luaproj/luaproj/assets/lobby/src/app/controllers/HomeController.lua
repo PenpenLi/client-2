@@ -24,7 +24,9 @@ function HomeController:ctor()
     broadcastView:setPosition(cc.p((display.width - broadcastWidth) / 2, 1150))
     self:addChild(broadcastView)
 
-   -- self:retSignAwardData()
+  -- self:retSignAwardData()
+    self.viewRankH = nil
+   
 	APP:addListener(self, "COMMON_ERROR", handler(self, self.onError));
 end
 
@@ -65,6 +67,9 @@ function HomeController:onExit()
 		self.waitHandle2 = nil;
 	end;
 
+    if self.viewRankH then
+      self.viewRankH = nil
+      end 
 	HomeController.super.onExit(self)
 end
 
@@ -106,6 +111,26 @@ function HomeController:enterRoom(roomId, roundId)
 	SOCKET_MANAGER.sendToGameServer(CMD.GAME_ENTER_GAME_REQ, data)
 end
 
+-- 用户设置
+function HomeController:sendUserInfo(headId,nickName)
+	local data = {
+		head_ico_ = tostring(headId),
+		headframe_id_ = "",
+		nickname_ = nickName
+	}
+	SOCKET_MANAGER.sendToCoordinateServer(CMD.GAME_USERINFO_SET_REQ, data)
+end
+
+--邮件
+
+function HomeController:sendMailGetAttachReq(id)
+    local data = { id_ = id }
+    SOCKET_MANAGER.sendToCoordinateServer(CMD.GAME_GET_MAIL_ATTACH_REQ, data)
+end
+
+
+-----------------------------
+
 function HomeController:showPersonal()
 	self:addChild(APP:createView("home.ViewPersonal", self))
 end
@@ -127,13 +152,18 @@ function HomeController:showSevice()
 end
 
 function HomeController:showMail()
-    self:addChild(APP:createView("home.ViewMail",self))
+    self:addChild(APP:createView("home.ViewEmail",self))
 end
 
 function HomeController:showDailyTasks()
     self:addChild(APP:createView("home.ViewDailyTasks",self))
 end
 
+function HomeController:showRank()
+    self.viewRankH = APP:createView("home.ViewRank",self)
+    self:addChild(self.viewRankH)
+    
+end
 function HomeController:showSignLayer(signInfoTable)
     self:addChild(APP:createView("home.ViewSignLayer",signInfoTable))
 end
@@ -169,10 +199,60 @@ end
 
 function HomeController:retSignAwardData()
     print("=====retSignAwardData======")
-	SOCKET_MANAGER.sendToCoordinateServer(CMD.GAME_SIGN_RET, {});
+	SOCKET_MANAGER.sendToCoordinateServer(CMD.GAME_SIGN_REQ, {});
 end
 --0-每日签到奖励 1:3天连续签到奖励 2:6天连续签到奖励 3:9天连续签到奖励 
-function HomeController:retSignAward(dNumber)
-    SOCKE_MANAGER.sendToCoordinateServer(CMD.GAME_SIGN_GET,dNumber);
+function HomeController:retSignAward(dNumber) 
+print("retSignAward  dNumber=",dNumber)
+    	local data = {
+		type_ = dNumber
+	}
+    
+    SOCKET_MANAGER.sendToCoordinateServer(CMD.GAME_SIGN_GET_REQ,data);
 end
+
+function HomeController:ShowSignAward(data)
+    if self.ViewSignAward == nil then 
+    print("=======================   nooooooooooooooooooooooo")
+      self:addChild(APP:createView("ViewSignAward",data))
+    else
+      print("=======================   yessssssssssssssssssssssssss")
+    self.ViewSignAward:addAward(data)
+    end 
+    
+
+
+--[[      local awardInfo ={
+
+          itemNumber = 888,
+          coinNumber = 999
+    } 
+ 
+   APP.hc:ShowSignAward(awardInfo)]]--
+end 
+
+
+function HomeController:ReqRankData(rankN)
+
+printLog("a","==================  ReqRankData ")
+    local rankReqData = {
+    type_  =  rankN,
+    page_  = 0,
+    page_count_ = 20
+    }
+    dump(rankReqData)
+     SOCKET_MANAGER.sendToGameServer(CMD.GAME_RANK_REQ,rankReqData);
+end 
+
+function HomeController:ViewRankUpData(Rankdata) 
+   printLog("a","============================   HomeController") 
+   dump(self.viewRankH)
+   print(tolua.type(self.viewRankH)) 
+   if self.viewRankH ~= nil then
+   self.viewRankH:upDateRankInfo(Rankdata)
+   end 
+   --APP.hc.ViewRank:upDateRankInfo(data)
+end
+
+
 return HomeController
