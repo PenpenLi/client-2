@@ -137,6 +137,18 @@ int		vsp_clean(lua_State* L)
 	return 0;
 }
 
+int		vsp_copy_dir(lua_State* L)
+{
+	int ret = 0;
+	if (lua_type(L, 1) == LUA_TSTRING && lua_type(L, 2) == LUA_TSTRING ) {
+		std::string from = lua_tostring(L, 1);
+		std::string to = lua_tostring(L, 2);
+		ret = vcp->copy_dir(from, to);
+	}
+	lua_pushnumber(L, ret);
+	return 1;
+}
+
 //////////////////////////////////////////////////////////////////////////
 int register_lua_api(lua_State* L)
 {
@@ -150,5 +162,6 @@ int register_lua_api(lua_State* L)
 	DEF_FUNCTION(vsp_install_update);
 	DEF_FUNCTION(vsp_is_working);
 	DEF_FUNCTION(vsp_clean);
+	DEF_FUNCTION(vsp_copy_dir);
 	return 1;
 };

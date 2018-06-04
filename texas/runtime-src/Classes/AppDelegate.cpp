@@ -104,24 +104,15 @@ bool AppDelegate::applicationDidFinishLaunching()
     //register custom function
     //register_custom_function(stack->getLuaState());
     
-    FileUtils::getInstance()->setPopupNotify(false);
-    FileUtils::getInstance()->addSearchPath("src_framework/", true);
-    FileUtils::getInstance()->addSearchPath("src/", true);
-    FileUtils::getInstance()->addSearchPath("res/", true);
-    FileUtils::getInstance()->addSearchPath(FileUtils::getInstance()->getWritablePath(), true);
-    FileUtils::getInstance()->addSearchPath(FileUtils::getInstance()->getWritablePath() + "update/", true);
-    FileUtils::getInstance()->addSearchPath("lib/", true);
-    FileUtils::getInstance()->addSearchPath("", true);
-    
     // use luajit bytecode package
 #if CC_TARGET_PLATFORM == CC_PLATFORM_IOS
-	engine->executeScriptFile("src/main.lua");
+	engine->executeScriptFile("bootstart/main.lua");
 #elif CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID
-	engine->executeScriptFile("src/main.lua");
+	engine->executeScriptFile("bootstart/main.lua");
 #elif CC_TARGET_PLATFORM == CC_PLATFORM_WIN32
-	engine->executeScriptFile("src/main.lua");
+	engine->executeScriptFile("bootstart/main.lua");
 #elif CC_TARGET_PLATFORM == CC_PLATFORM_MAC
-	engine->executeScriptFile("src/main.lua");
+	engine->executeScriptFile("bootstart/main.lua");
 #endif
     
 //#if CC_64BITS
