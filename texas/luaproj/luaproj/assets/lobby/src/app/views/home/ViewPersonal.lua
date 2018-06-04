@@ -2,7 +2,7 @@ local UIHelper = require("app.common.UIHelper")
 local LeftBaseLayer = require("app.views.common.LeftBaseLayer")
 local ViewPersonal = class("ViewPersonal", LeftBaseLayer)
 local constUtils = require("app.common.ConstUtils")
-local GameConfig = require("app.core.GameConfig")
+local GameConfig = require("app.common.GameConfig")
 local CMD = require("app.net.CMD")
 
 local head_icon = constUtils.head_icon

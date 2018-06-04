@@ -3,7 +3,7 @@ local ControllerBase = require("app.controllers.ControllerBase")
 local AlertOK = require("app.views.common.AlertOK")
 local coorCmd = require("app.commands.LoginCoordinateCommand")
 local switchGSHandler = require("app.handlers.SwitchGameServerHandlers")
-local conf = require("app.core.GameConfig")
+local conf = require("app.common.GameConfig")
 local CMD = require("app.net.CMD")
 
 local HomeController = class("HomeController", ControllerBase)

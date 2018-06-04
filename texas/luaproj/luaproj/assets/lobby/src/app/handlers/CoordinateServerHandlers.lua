@@ -1,7 +1,7 @@
 local CMD = require("app.net.CMD")
 local ErrorCode = require("app.net.ErrorCode")
 local GameUser = require("app.models.GameUser")
-local GameConfig = require("app.core.GameConfig")
+local GameConfig = require("app.common.GameConfig")
 local gameCMD = require("app.commands.LoginTexasPokerCommand")
 
 local CoordinateServerHandlers = {}

@@ -1,6 +1,6 @@
 local CMD = require("app.net.CMD")
 local ErrorCode = require("app.net.ErrorCode")
-local GameConfig = require("app.core.GameConfig")
+local GameConfig = require("app.common.GameConfig")
 local TexasPokerPlayers = require("app.models.TexasPokerPlayers")
 local TexasPokerRoom = require("app.models.TexasPokerRoom")
 local TexasPokerHandlers = require("app.handlers.TexasPokerHandlers")

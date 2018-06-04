@@ -1,7 +1,7 @@
 
 local ControllerBase = require("app.controllers.ControllerBase")
 local AlertOK = require("app.views.common.AlertOK")
-local GameConfig = require("app.core.GameConfig")
+local GameConfig = require("app.common.GameConfig")
 local SoundUtils = require("app.common.SoundUtils")
 
 local ViewCard = require("app.views.texaspoker.ViewCard")

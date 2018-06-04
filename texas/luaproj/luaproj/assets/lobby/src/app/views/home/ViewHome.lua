@@ -2,7 +2,7 @@ local CMD = require("app.net.CMD")
 local UIHelper = require("app.common.UIHelper")
 local ViewHome = class("ViewHome", cc.mvc.ViewBase)
 local constUtils = require("app.common.ConstUtils")
-local GameConfig = require("app.core.GameConfig")
+local GameConfig = require("app.common.GameConfig")
 local head_icon = constUtils.head_icon
 function ViewHome:ctor()
 	ViewHome.super.ctor(self)

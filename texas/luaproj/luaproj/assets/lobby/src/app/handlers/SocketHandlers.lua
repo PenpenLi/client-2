@@ -1,4 +1,4 @@
-local GameConfig = require("app.core.GameConfig")
+local GameConfig = require("app.common.GameConfig")
 local CMD = require("app.net.CMD")
 
 local AccountServerHandlers = require("app.handlers.AccountServerHandlers")

@@ -1,4 +1,4 @@
-local GameConfig = require("app.core.GameConfig")
+local GameConfig = require("app.common.GameConfig")
 
 local ControllerBase = class("ControllerBase", function(name, params)
     return display.newScene(name, params);

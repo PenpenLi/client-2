@@ -1,6 +1,6 @@
 local utils = require("app.common.utils")
 local SoundUtils = require("app.common.SoundUtils")
-local GameConfig = require("app.core.GameConfig")
+local GameConfig = require("app.common.GameConfig")
 local CMD = require("app.net.CMD")
 local UIHelper = require("app.common.UIHelper")
 local ViewPlayer = require("app.views.texaspoker.ViewPlayer")

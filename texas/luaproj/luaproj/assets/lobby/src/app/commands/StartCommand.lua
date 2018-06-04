@@ -1,6 +1,6 @@
 local User = require("app.models.User")
 local LANG = require("app.language.lang")
-local GameConfig = require("app.core.GameConfig")
+local GameConfig = require("app.common.GameConfig")
 
 local StartCommand = {}
 

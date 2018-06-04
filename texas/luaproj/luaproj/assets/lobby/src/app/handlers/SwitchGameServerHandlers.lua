@@ -2,7 +2,7 @@
 --Date
 --此文件由[BabeLua]插件自动生成
 require("app.handlers.SocketHandlers")
-local GameConfig = require("app.core.GameConfig")
+local GameConfig = require("app.common.GameConfig")
 local CMD = require("app.net.CMD")
 local LANG =APP.GD.LANG
 local gameCMD = require("app.commands.LoginTexasPokerCommand");

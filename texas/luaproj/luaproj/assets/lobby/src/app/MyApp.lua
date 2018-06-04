@@ -1,5 +1,5 @@
 require("cocos.framework.init")
-local GameConfig = require("app.core.GameConfig");
+local GameConfig = require("app.common.GameConfig");
 local GD = require("app.models.GlobalStatus");
 local homeCtrlcls = nil;
 local loginCtrlcls = nil; 

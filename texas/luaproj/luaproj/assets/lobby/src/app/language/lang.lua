@@ -1,4 +1,4 @@
-local GameConfig = require("app.core.GameConfig")
+local GameConfig = require("app.common.GameConfig")
 local CN = require("app.language.CN")
 
 local LANG_CN = 1

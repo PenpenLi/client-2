@@ -1,4 +1,4 @@
-local GameConfig = require("app.core.GameConfig")
+local GameConfig = require("app.common.GameConfig")
 local UIHelper = require("app.common.UIHelper")
 local ViewSignLayer = class("ViewSignLayer", cc.mvc.ViewBase)
 

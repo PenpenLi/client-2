@@ -43,7 +43,7 @@ GameConfig.GameEnv.DEV_210 = 2		-- 210局域网
 GameConfig.GameEnv.RELEASE = 100 	-- 正式服务器
 
 function GameConfig.getSocketEnv()
-	return GameConfig.GameEnv.SocketEnv[GameEnv.Current]
+	return GameConfig.GameEnv.SocketEnv[GameConfig.GameEnv.Current]
 end
 
 --开发时脚本下载为了避免冲掉本地修改,给他另存一个位置
@@ -51,7 +51,7 @@ GameConfig.EnableUpdate = true
 GameConfig.SAVEAS = "debugsave/"
 
 -- 当前使用的服务器
-GameConfig.GameEnv.Current = GameEnv.DEV_HJT
+GameConfig.GameEnv.Current = GameConfig.GameEnv.DEV_HJT
 
 GameConfig.GameEnv.SocketEnv = {
 	[GameConfig.GameEnv.DEV_HJT] = {host = "192.168.11.135", port = "10000"},

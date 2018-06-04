@@ -1,4 +1,4 @@
-local GameConfig = require("app.core.GameConfig")
+local GameConfig = require("app.common.GameConfig")
 local GameSocket = require("app.net.GameSocket")
 
 local SocketManager = {}
