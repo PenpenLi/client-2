@@ -151,6 +151,8 @@
               <Image Name="zhujiemian_caidan2.png" />
               <Image Name="zhujiemian_changming.png" />
               <Image Name="zhujiemian_choumadishuzi.png" />
+              <Fnt Name="zhujiemian_choumadishuzi-export.fnt" />
+              <Image Name="zhujiemian_choumatoumingdi.png" />
               <Image Name="zhujiemian_dichi1.png" />
               <Image Name="zhujiemian_dichi12.png" />
               <Image Name="zhujiemian_dichi13.png" />
@@ -228,6 +230,7 @@
             <Project Name="MissionLayer.csd" Type="Layer" />
             <Project Name="PlayerInfoNode.csd" Type="Node" />
             <Project Name="PlayerNode.csd" Type="Node" />
+            <Project Name="ResItemNode.csd" Type="Node" />
             <Project Name="SettingNode.csd" Type="Node" />
           </Folder>
         </Folder>

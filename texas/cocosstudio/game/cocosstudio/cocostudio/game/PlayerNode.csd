@@ -9,7 +9,7 @@
           <AbstractNodeData Name="empty" ActionTag="-1219363267" Tag="538" IconVisible="True" ctype="SingleNodeObjectData">
             <Size X="0.0000" Y="0.0000" />
             <Children>
-              <AbstractNodeData Name="Button_1" ActionTag="237571843" VisibleForFrame="False" Tag="21" IconVisible="False" LeftMargin="-61.0000" RightMargin="-61.0000" TopMargin="-84.5000" BottomMargin="-84.5000" TouchEnable="True" FontSize="14" ButtonText="Button" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="92" Scale9Height="147" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+              <AbstractNodeData Name="Button_1" ActionTag="237571843" Tag="21" IconVisible="False" LeftMargin="-61.0000" RightMargin="-61.0000" TopMargin="-84.5000" BottomMargin="-84.5000" TouchEnable="True" FontSize="14" ButtonText="Button" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="92" Scale9Height="147" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="122.0000" Y="169.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position />
@@ -76,25 +76,14 @@
                 <PreSize X="0.0000" Y="0.0000" />
                 <LabelBMFontFile_CNB Type="Normal" Path="cocostudio/game/image/haoyouchang_haoyoufangxuanzedishuzi-export.fnt" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData Name="Image_BetBG" Visible="False" ActionTag="1287458522" Tag="7" IconVisible="False" LeftMargin="-54.9998" RightMargin="-55.0002" TopMargin="83.8073" BottomMargin="-118.8073" LeftEage="36" RightEage="36" TopEage="11" BottomEage="11" Scale9OriginX="36" Scale9OriginY="11" Scale9Width="38" Scale9Height="13" ctype="ImageViewObjectData">
-                <Size X="110.0000" Y="35.0000" />
-                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="0.0002" Y="-101.3073" />
+              <AbstractNodeData Name="Node_Bet" ActionTag="650489780" Tag="42" IconVisible="True" LeftMargin="0.8251" RightMargin="-0.8251" TopMargin="102.3059" BottomMargin="-102.3059" ctype="SingleNodeObjectData">
+                <Size X="0.0000" Y="0.0000" />
+                <AnchorPoint />
+                <Position X="0.8251" Y="-102.3059" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="cocostudio/game/image/zhujiemian_genzhu.png" Plist="" />
-              </AbstractNodeData>
-              <AbstractNodeData Name="AtlasLabel_Bet" Visible="False" ActionTag="-2072284382" Tag="422" IconVisible="False" LeftMargin="-28.5823" RightMargin="-52.4177" TopMargin="80.5171" BottomMargin="-115.5171" LabelText="100万" ctype="TextBMFontObjectData">
-                <Size X="81.0000" Y="35.0000" />
-                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="11.9177" Y="-98.0171" />
-                <Scale ScaleX="0.8000" ScaleY="0.8000" />
-                <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition />
-                <PreSize X="0.0000" Y="0.0000" />
-                <LabelBMFontFile_CNB Type="Normal" Path="cocostudio/game/image/haoyouchang_haoyoufangxuanzedishuzi-export.fnt" Plist="" />
               </AbstractNodeData>
               <AbstractNodeData Name="Node_1" ActionTag="887824739" Tag="46" IconVisible="True" ctype="SingleNodeObjectData">
                 <Size X="0.0000" Y="0.0000" />

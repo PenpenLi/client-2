@@ -6,19 +6,15 @@
       <ObjectData Name="MailLayer" Tag="242" ctype="GameLayerObjectData">
         <Size X="750.0000" Y="1334.0000" />
         <Children>
-          <AbstractNodeData Name="bg" ActionTag="1703995014" Tag="29" IconVisible="False" LeftMargin="36.2082" RightMargin="28.7918" TopMargin="150.7136" BottomMargin="93.2864" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" LeftEage="226" RightEage="226" TopEage="359" BottomEage="359" Scale9OriginX="226" Scale9OriginY="359" Scale9Width="233" Scale9Height="372" ScrollDirectionType="0" DirectionType="Vertical" ctype="ListViewObjectData">
+          <AbstractNodeData Name="bg" ActionTag="329045565" Tag="18" IconVisible="False" LeftMargin="37.7914" RightMargin="27.2086" TopMargin="152.8513" BottomMargin="91.1487" LeftEage="226" RightEage="226" TopEage="359" BottomEage="359" Scale9OriginX="226" Scale9OriginY="359" Scale9Width="233" Scale9Height="372" ctype="ImageViewObjectData">
             <Size X="685.0000" Y="1090.0000" />
-            <AnchorPoint ScaleX="0.4968" ScaleY="0.4887" />
-            <Position X="376.5162" Y="625.9694" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="380.2914" Y="636.1487" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.5020" Y="0.4692" />
+            <PrePosition X="0.5071" Y="0.4769" />
             <PreSize X="0.9133" Y="0.8171" />
             <FileData Type="Normal" Path="cocostudio/home/image/email/email_bg.png" Plist="" />
-            <SingleColor A="255" R="150" G="150" B="255" />
-            <FirstColor A="255" R="150" G="150" B="255" />
-            <EndColor A="255" R="255" G="255" B="255" />
-            <ColorVector ScaleY="1.0000" />
           </AbstractNodeData>
           <AbstractNodeData Name="Img_title" ActionTag="326957978" Tag="245" IconVisible="False" LeftMargin="318.1106" RightMargin="316.8894" TopMargin="190.9586" BottomMargin="1048.0414" LeftEage="37" RightEage="37" TopEage="31" BottomEage="31" Scale9OriginX="37" Scale9OriginY="31" Scale9Width="41" Scale9Height="33" ctype="ImageViewObjectData">
             <Size X="115.0000" Y="95.0000" />
@@ -44,49 +40,28 @@
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Button_right" ActionTag="-352673540" Tag="263" IconVisible="False" LeftMargin="375.0000" RightMargin="144.0000" TopMargin="275.0005" BottomMargin="984.9996" TouchEnable="True" ctype="CheckBoxObjectData">
-            <Size X="231.0000" Y="74.0000" />
-            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="490.5000" Y="1021.9996" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
-            <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.6540" Y="0.7661" />
-            <PreSize X="0.3080" Y="0.0555" />
-            <NormalBackFileData Type="Normal" Path="cocostudio/home/image/email/email_btn_right.png" Plist="" />
-            <PressedBackFileData Type="Normal" Path="cocostudio/home/image/email/email_btn_right1.png" Plist="" />
-            <NodeDisableFileData Type="Default" Path="Default/CheckBoxNode_Disable.png" Plist="" />
-          </AbstractNodeData>
-          <AbstractNodeData Name="Button_left" ActionTag="-2061613648" Tag="264" IconVisible="False" LeftMargin="144.0000" RightMargin="375.0000" TopMargin="280.0005" BottomMargin="979.9996" TouchEnable="True" CheckedState="True" ctype="CheckBoxObjectData">
-            <Size X="231.0000" Y="74.0000" />
-            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="259.5000" Y="1016.9996" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
-            <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.3460" Y="0.7624" />
-            <PreSize X="0.3080" Y="0.0555" />
-            <NormalBackFileData Type="Normal" Path="cocostudio/home/image/email/email_btn_left.png" Plist="" />
-            <PressedBackFileData Type="Normal" Path="cocostudio/home/image/email/email_btn_left1.png" Plist="" />
-            <NodeDisableFileData Type="Default" Path="Default/CheckBoxNode_Disable.png" Plist="" />
-          </AbstractNodeData>
-          <AbstractNodeData Name="Img_t_middle" ActionTag="-1958315366" Tag="299" IconVisible="False" LeftMargin="155.5001" RightMargin="155.4999" TopMargin="368.5005" BottomMargin="938.4995" LeftEage="144" RightEage="144" TopEage="8" BottomEage="8" Scale9OriginX="144" Scale9OriginY="8" Scale9Width="151" Scale9Height="11" ctype="ImageViewObjectData">
+          <AbstractNodeData Name="Img_t_middle" ActionTag="-1958315366" Tag="299" IconVisible="False" LeftMargin="159.5075" RightMargin="151.4925" TopMargin="272.2600" BottomMargin="1034.7400" LeftEage="144" RightEage="144" TopEage="8" BottomEage="8" Scale9OriginX="144" Scale9OriginY="8" Scale9Width="151" Scale9Height="11" ctype="ImageViewObjectData">
             <Size X="439.0000" Y="27.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="375.0001" Y="951.9995" />
+            <Position X="379.0075" Y="1048.2400" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.5000" Y="0.7136" />
+            <PrePosition X="0.5053" Y="0.7858" />
             <PreSize X="0.5853" Y="0.0202" />
             <FileData Type="Normal" Path="cocostudio/home/image/email/email_t_down.png" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="FileNode_1" ActionTag="594809517" Tag="122" IconVisible="True" LeftMargin="62.0661" RightMargin="61.9339" TopMargin="416.9800" BottomMargin="770.0200" StretchWidthEnable="False" StretchHeightEnable="False" InnerActionSpeed="1.0000" CustomSizeEnabled="False" ctype="ProjectNodeObjectData">
-            <Size X="626.0000" Y="147.0000" />
-            <AnchorPoint />
-            <Position X="62.0661" Y="770.0200" />
+          <AbstractNodeData Name="Panel_email" ActionTag="-154093548" Tag="19" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="68.0000" RightMargin="56.0000" TopMargin="322.9738" BottomMargin="161.0262" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+            <Size X="626.0000" Y="850.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="381.0000" Y="586.0262" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.0828" Y="0.5772" />
-            <PreSize X="0.8347" Y="0.1102" />
-            <FileData Type="Normal" Path="cocostudio/home/MailNode.csd" Plist="" />
+            <PrePosition X="0.5080" Y="0.4393" />
+            <PreSize X="0.8347" Y="0.6372" />
+            <SingleColor A="255" R="150" G="200" B="255" />
+            <FirstColor A="255" R="150" G="200" B="255" />
+            <EndColor A="255" R="255" G="255" B="255" />
+            <ColorVector ScaleY="1.0000" />
           </AbstractNodeData>
         </Children>
       </ObjectData>

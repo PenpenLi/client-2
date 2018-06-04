@@ -7,7 +7,10 @@
           <Folder Name="common">
             <Folder Name="image">
               <Image Name="blank.png" />
+              <Image Name="dating_shangfangdi.png" />
+              <Image Name="dating_xiafangdi.png" />
               <Image Name="di_changtiaoditongyong.png" />
+              <Image Name="di_touxiangxuanzhong.png" />
               <Image Name="loading.png" />
               <Image Name="shangcheng_quxiao1.png" />
               <Image Name="shangcheng_quxiao2.png" />
@@ -68,7 +71,6 @@
                 <Image Name="public_btn_close1.png" />
               </Folder>
               <Folder Name="email">
-                <Image Name="email.png" />
                 <Image Name="email_bg.png" />
                 <Image Name="email_btn_close.png" />
                 <Image Name="email_btn_close1.png" />
@@ -226,6 +228,7 @@
                 <Image Name="rank_btn_left2.png" />
                 <Image Name="rank_btn_right.png" />
                 <Image Name="rank_btn_right2.png" />
+                <Image Name="rank_down_bg.png" />
                 <Image Name="rank_js_number.png" />
                 <Image Name="rank_no1.png" />
                 <Image Name="rank_node_bg.png" />
@@ -266,8 +269,6 @@
                 <Image Name="shezhi_qiehuanzhanghao2.png" />
                 <Image Name="shezhi_shezhiwenzi.png" />
                 <Image Name="shezhi_shezhneirong.png" />
-                <Image Name="shezhi_yinyueanniu1.png" />
-                <Image Name="shezhi_yinyueanniu2.png" />
                 <Image Name="shezhi_yinyueguan.png" />
                 <Image Name="shezhi_yinyuekai.png" />
               </Folder>
@@ -406,6 +407,8 @@
               <Image Name="dating_shezhi1.png" />
               <Image Name="dating_shezhi2.png" />
               <Image Name="dating_touxiangdi.png" />
+              <Image Name="dating_touxiangdi1.png" />
+              <Image Name="dating_touxiangdi2.png" />
               <Image Name="dating_tubiaotanchuang.png" />
               <Image Name="dating_tuichu1.png" />
               <Image Name="dating_tuichu2.png" />
@@ -437,6 +440,7 @@
               <Image Name="haoyouchang_zhanjidi.png" />
               <Image Name="home_bg.png" />
               <Image Name="login_bg.png" />
+              <Fnt Name="paihangbang_jinershuzi-export.fnt" />
               <Image Name="shezhi_yinyueguan.png" />
               <Image Name="shezhi_yinyuekai.png" />
               <Image Name="zhujiemian_zhezhao.png" />

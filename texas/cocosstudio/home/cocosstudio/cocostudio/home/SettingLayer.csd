@@ -26,89 +26,38 @@
             <PreSize X="0.7787" Y="0.4213" />
             <FileData Type="Normal" Path="cocostudio/home/image/setting/shezhi_shezhneirong.png" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="CheckBox_1" ActionTag="501502624" Tag="180" IconVisible="False" LeftMargin="-267.1521" RightMargin="851.1521" TopMargin="142.7004" BottomMargin="1120.2996" TouchEnable="True" CheckedState="True" ctype="CheckBoxObjectData">
-            <Size X="166.0000" Y="71.0000" />
+          <AbstractNodeData Name="CheckBox_music" ActionTag="501502624" Tag="180" IconVisible="False" LeftMargin="-268.1521" RightMargin="850.1521" TopMargin="142.7004" BottomMargin="1120.2996" TouchEnable="True" CheckedState="True" ctype="CheckBoxObjectData">
+            <Size X="168.0000" Y="71.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="-184.1521" Y="1155.7996" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="-0.2455" Y="0.8664" />
-            <PreSize X="0.2213" Y="0.0532" />
-            <NormalBackFileData Type="Normal" Path="cocostudio/home/image/shezhi_yinyueguan.png" Plist="" />
-            <DisableBackFileData Type="Default" Path="Default/CheckBox_Disable.png" Plist="" />
-            <NodeNormalFileData Type="Normal" Path="cocostudio/home/image/shezhi_yinyuekai.png" Plist="" />
-            <NodeDisableFileData Type="Default" Path="Default/CheckBoxNode_Disable.png" Plist="" />
+            <PreSize X="0.2240" Y="0.0532" />
+            <NormalBackFileData Type="Normal" Path="cocostudio/home/image/setting/shezhi_yinyueguan.png" Plist="" />
+            <NodeNormalFileData Type="Normal" Path="cocostudio/home/image/setting/shezhi_yinyuekai.png" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="CheckBox_1_0_0" ActionTag="-980461375" Tag="182" IconVisible="False" LeftMargin="-267.1522" RightMargin="851.1522" TopMargin="335.6991" BottomMargin="927.3009" TouchEnable="True" CheckedState="True" ctype="CheckBoxObjectData">
-            <Size X="166.0000" Y="71.0000" />
+          <AbstractNodeData Name="CheckBox_Vibrate" ActionTag="-980461375" Tag="182" IconVisible="False" LeftMargin="-268.1522" RightMargin="850.1522" TopMargin="335.6991" BottomMargin="927.3009" TouchEnable="True" CheckedState="True" ctype="CheckBoxObjectData">
+            <Size X="168.0000" Y="71.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="-184.1522" Y="962.8009" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="-0.2455" Y="0.7217" />
-            <PreSize X="0.2213" Y="0.0532" />
-            <NormalBackFileData Type="Normal" Path="cocostudio/home/image/shezhi_yinyueguan.png" Plist="" />
-            <DisableBackFileData Type="Default" Path="Default/CheckBox_Disable.png" Plist="" />
-            <NodeNormalFileData Type="Normal" Path="cocostudio/home/image/shezhi_yinyuekai.png" Plist="" />
-            <NodeDisableFileData Type="Default" Path="Default/CheckBoxNode_Disable.png" Plist="" />
+            <PreSize X="0.2240" Y="0.0532" />
+            <NormalBackFileData Type="Normal" Path="cocostudio/home/image/setting/shezhi_yinyueguan.png" Plist="" />
+            <NodeNormalFileData Type="Normal" Path="cocostudio/home/image/setting/shezhi_yinyuekai.png" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="CheckBox_1_0" ActionTag="-2112502554" Tag="181" IconVisible="False" LeftMargin="-267.1522" RightMargin="851.1522" TopMargin="240.6996" BottomMargin="1022.3004" TouchEnable="True" CheckedState="True" ctype="CheckBoxObjectData">
-            <Size X="166.0000" Y="71.0000" />
+          <AbstractNodeData Name="CheckBox_effect" ActionTag="-2112502554" Tag="181" IconVisible="False" LeftMargin="-268.1522" RightMargin="850.1522" TopMargin="240.6996" BottomMargin="1022.3004" TouchEnable="True" CheckedState="True" ctype="CheckBoxObjectData">
+            <Size X="168.0000" Y="71.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="-184.1522" Y="1057.8004" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="-0.2455" Y="0.7930" />
-            <PreSize X="0.2213" Y="0.0532" />
-            <NormalBackFileData Type="Normal" Path="cocostudio/home/image/shezhi_yinyueguan.png" Plist="" />
-            <DisableBackFileData Type="Default" Path="Default/CheckBox_Disable.png" Plist="" />
-            <NodeNormalFileData Type="Normal" Path="cocostudio/home/image/shezhi_yinyuekai.png" Plist="" />
-            <NodeDisableFileData Type="Default" Path="Default/CheckBoxNode_Disable.png" Plist="" />
-          </AbstractNodeData>
-          <AbstractNodeData Name="Button_Music" ActionTag="161339673" Tag="99" IconVisible="False" LeftMargin="-188.8341" RightMargin="839.8341" TopMargin="136.6138" BottomMargin="1115.3862" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="69" Scale9Height="60" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
-            <Size X="99.0000" Y="82.0000" />
-            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="-139.3341" Y="1156.3862" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
-            <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="-0.1858" Y="0.8669" />
-            <PreSize X="0.1320" Y="0.0615" />
-            <TextColor A="255" R="65" G="65" B="70" />
-            <DisabledFileData Type="Normal" Path="cocostudio/home/image/setting/shezhi_yinyueanniu1.png" Plist="" />
-            <PressedFileData Type="Normal" Path="cocostudio/home/image/setting/shezhi_yinyueanniu2.png" Plist="" />
-            <NormalFileData Type="Normal" Path="cocostudio/home/image/setting/shezhi_yinyueanniu1.png" Plist="" />
-            <OutlineColor A="255" R="255" G="0" B="0" />
-            <ShadowColor A="255" R="110" G="110" B="110" />
-          </AbstractNodeData>
-          <AbstractNodeData Name="Button_Sound" ActionTag="-113701862" Tag="101" IconVisible="False" LeftMargin="-188.8341" RightMargin="839.8341" TopMargin="234.6669" BottomMargin="1017.3331" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="69" Scale9Height="60" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
-            <Size X="99.0000" Y="82.0000" />
-            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="-139.3341" Y="1058.3331" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
-            <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="-0.1858" Y="0.7934" />
-            <PreSize X="0.1320" Y="0.0615" />
-            <TextColor A="255" R="65" G="65" B="70" />
-            <DisabledFileData Type="Normal" Path="cocostudio/home/image/setting/shezhi_yinyueanniu1.png" Plist="" />
-            <PressedFileData Type="Normal" Path="cocostudio/home/image/setting/shezhi_yinyueanniu2.png" Plist="" />
-            <NormalFileData Type="Normal" Path="cocostudio/home/image/setting/shezhi_yinyueanniu1.png" Plist="" />
-            <OutlineColor A="255" R="255" G="0" B="0" />
-            <ShadowColor A="255" R="110" G="110" B="110" />
-          </AbstractNodeData>
-          <AbstractNodeData Name="Button_Vibrate" ActionTag="628052576" Tag="103" IconVisible="False" LeftMargin="-188.8341" RightMargin="839.8341" TopMargin="329.7200" BottomMargin="922.2800" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="69" Scale9Height="60" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
-            <Size X="99.0000" Y="82.0000" />
-            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="-139.3341" Y="963.2800" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
-            <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="-0.1858" Y="0.7221" />
-            <PreSize X="0.1320" Y="0.0615" />
-            <TextColor A="255" R="65" G="65" B="70" />
-            <DisabledFileData Type="Normal" Path="cocostudio/home/image/setting/shezhi_yinyueanniu1.png" Plist="" />
-            <PressedFileData Type="Normal" Path="cocostudio/home/image/setting/shezhi_yinyueanniu2.png" Plist="" />
-            <NormalFileData Type="Normal" Path="cocostudio/home/image/setting/shezhi_yinyueanniu1.png" Plist="" />
-            <OutlineColor A="255" R="255" G="0" B="0" />
-            <ShadowColor A="255" R="110" G="110" B="110" />
+            <PreSize X="0.2240" Y="0.0532" />
+            <NormalBackFileData Type="Normal" Path="cocostudio/home/image/setting/shezhi_yinyueguan.png" Plist="" />
+            <NodeNormalFileData Type="Normal" Path="cocostudio/home/image/setting/shezhi_yinyuekai.png" Plist="" />
           </AbstractNodeData>
           <AbstractNodeData Name="Button_ChangeAccount" ActionTag="-2045915479" Tag="104" IconVisible="False" LeftMargin="-115.5270" RightMargin="785.5270" TopMargin="423.8741" BottomMargin="814.1259" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="50" Scale9Height="74" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="80.0000" Y="96.0000" />

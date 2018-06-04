@@ -67,28 +67,6 @@
             <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Image_Pool_1" ActionTag="-856438232" VisibleForFrame="False" Tag="18" IconVisible="False" LeftMargin="286.4700" RightMargin="302.5300" TopMargin="377.1524" BottomMargin="912.8476" LeftEage="53" RightEage="53" TopEage="14" BottomEage="14" Scale9OriginX="53" Scale9OriginY="14" Scale9Width="55" Scale9Height="16" ctype="ImageViewObjectData">
-            <Size X="161.0000" Y="44.0000" />
-            <Children>
-              <AbstractNodeData Name="AtlasLabel_Pool_1" ActionTag="1916510058" Tag="453" IconVisible="False" LeftMargin="57.1530" RightMargin="27.8470" TopMargin="2.4729" BottomMargin="6.5271" LabelText="0000" ctype="TextBMFontObjectData">
-                <Size X="76.0000" Y="35.0000" />
-                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="95.1530" Y="24.0271" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.5910" Y="0.5461" />
-                <PreSize X="0.4720" Y="0.7955" />
-                <LabelBMFontFile_CNB Type="Normal" Path="cocostudio/game/image/haoyouchang_haoyoufangxuanzedishuzi-export.fnt" Plist="" />
-              </AbstractNodeData>
-            </Children>
-            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="366.9700" Y="934.8476" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
-            <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.4893" Y="0.7008" />
-            <PreSize X="0.2147" Y="0.0330" />
-            <FileData Type="Normal" Path="cocostudio/game/image/zhujiemian_zongzhu.png" Plist="" />
-          </AbstractNodeData>
           <AbstractNodeData Name="Text_BlindBet" CanEdit="False" ActionTag="-1792990908" Tag="50" IconVisible="False" LeftMargin="435.1565" RightMargin="245.8435" TopMargin="698.3143" BottomMargin="610.6857" LabelText="10/20" ctype="TextBMFontObjectData">
             <Size X="69.0000" Y="25.0000" />
             <AnchorPoint ScaleY="0.4193" />
@@ -596,6 +574,16 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="BitmapFontLabel_1" ActionTag="1177724080" Tag="240" IconVisible="False" LeftMargin="-1043.0542" RightMargin="1785.0542" TopMargin="663.3577" BottomMargin="635.6423" LabelText="Fnt Text Label" ctype="TextBMFontObjectData">
+            <Size X="8.0000" Y="35.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="-1039.0542" Y="653.1423" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="-1.3854" Y="0.4896" />
+            <PreSize X="0.0107" Y="0.0262" />
+            <LabelBMFontFile_CNB Type="Normal" Path="cocostudio/game/image/haoyouchang_haoyoufangxuanzedishuzi-export.fnt" Plist="" />
           </AbstractNodeData>
         </Children>
       </ObjectData>
