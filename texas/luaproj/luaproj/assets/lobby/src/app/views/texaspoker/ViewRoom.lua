@@ -4,10 +4,12 @@ local SoundUtils = require("app.common.SoundUtils")
 local CMD = require("app.net.CMD")
 local ViewCard = require("app.views.texaspoker.ViewCard")
 local TexasPokerConfig = require("app.models.TexasPokerConfig")
+local ResItemWidget = require("app.views.common.ResItemWidget")
 
 local ViewRoom = class("ViewRoom", cc.mvc.ViewBase)
 
 ViewRoom.SIDE_POOL_TAG = 1000
+ViewRoom.MAIN_POOL_POS = cc.p(375,850)
 
 local maxset = 6
 
@@ -24,8 +26,14 @@ function ViewRoom:ctor()
 	self.mypos = 0;--相对起始位置,默认为从0开始
 
 	self.text_BasePool = UIHelper.seekNodeByName(self.csbnode, "Text_Pool")
-	self.text_MainPoolBG = UIHelper.seekNodeByName(self.csbnode, "Image_Pool_1")
-	self.text_MainPool = UIHelper.seekNodeByName(self.csbnode, "AtlasLabel_Pool_1")
+
+    self.mainPool =  self:createSidePoolItem("cocostudio/game/image/bet_main.png")
+                          :addTo(self)
+                          :hide()
+    self.mainPool:setPosition(ViewRoom.MAIN_POOL_POS)
+
+--	self.text_MainPoolBG = UIHelper.seekNodeByName(self.csbnode, "Image_Pool_1")
+--	self.text_MainPool = UIHelper.seekNodeByName(self.csbnode, "AtlasLabel_Pool_1")
 
 	self.text_BlindBet = UIHelper.seekNodeByName(self.csbnode, "Text_BlindBet")
 
@@ -277,10 +285,10 @@ end
 function ViewRoom:setMainPoolStatus(show, pool)
 	if show then
 		local str, unit = utils.convertNumberShort(tonumber(pool))
-		self.text_MainPoolBG:setVisible(true)
-		self.text_MainPool:setString(str)
+		self.mainPool:setVisible(true)
+		self.mainPool:setString(str)
 	else
-		self.text_MainPoolBG:setVisible(false)
+		self.mainPool:setVisible(false)
 	end
 end
 
@@ -291,7 +299,8 @@ function ViewRoom:setSidePoolStatus(id, show, pool)
 	if show then
 		local str, unit = utils.convertNumberShort(tonumber(pool))
 		self.sidePools[id]:setVisible(true)
-		local poolNumber = self.sidePools[id]:getChildByTag(ViewRoom.SIDE_POOL_TAG)
+--		local poolNumber = self.sidePools[id]:getChildByTag(ViewRoom.SIDE_POOL_TAG)
+        local poolNumber = self.sidePools[id]
 		poolNumber:setString(str)
 	else
 		self.sidePools[id]:setVisible(false)
@@ -299,13 +308,18 @@ function ViewRoom:setSidePoolStatus(id, show, pool)
 end
 
 function ViewRoom:getMainPoolIconPos()
-	local mainPos = self.text_MainPoolBG:getPosition()
-	return self.text_MainPoolBG:getPositionX() - 60, self.text_MainPoolBG:getPositionY()
+    local parent = self.mainPool:getResIcon():getParent()
+    local pos = parent:convertToWorldSpace(cc.p(self.mainPool:getResIcon():getPosition()))
+    return pos.x + 22 ,pos.y
+--	return ViewRoom.MAIN_POOL_POS.x - 60, ViewRoom.MAIN_POOL_POS.y
 end
 
 function ViewRoom:getSidePoolIconPos(id)
 	if self.sidePools[id] then
-		return self.sidePools[id]:getPositionX() - 60, self.sidePools[id]:getPositionY()
+        local parent = self.sidePools[id]:getResIcon():getParent()
+        local pos = parent:convertToWorldSpace(cc.p(self.sidePools[id]:getResIcon():getPosition()))
+        return pos.x + 22, pos.y
+		--return self.sidePools[id]:getPositionX() - 60, self.sidePools[id]:getPositionY()
 	else
 		return 0, 0
 	end
@@ -322,46 +336,64 @@ function ViewRoom:addSidePool(id, pool, isAction)
 
 	local str = utils.convertNumberShort(tonumber(pool))
 
-	local mainPosX = self.text_MainPoolBG:getPositionX()
-	local mainPosY = self.text_MainPoolBG:getPositionY()
+
+
+    local sideItem = self:createSidePoolItem("cocostudio/game/image/bet_side.png")
+		:addTo(self)
+		:hide()
+        sideItem:setBgAnchor(cc.p(0,0.5))
+    sideItem:setTag(ViewRoom.SIDE_POOL_TAG)
+	sideItem:setString(str)
+
+
+    local mainPosX = ViewRoom.MAIN_POOL_POS.x
+	local mainPosY = ViewRoom.MAIN_POOL_POS.y
 	local posx = 0
 	local posy = 0
 
-	local width = 160
+	local width = 220 
 	-- 已经有几个边池
 	local count = self:getSidePoolCount()
 	if count == 0 then
 		posx = mainPosX - width
 		posy = mainPosY
 	elseif count == 1 then
-		posx = mainPosX + width
+		posx = mainPosX + width  - sideItem:getBgSize().width
 		posy = mainPosY
 	else
 		local start = count - 2
 		local row = math.floor(start / 3) + 1
 		posx = mainPosX - (1 - (start - (row - 1) * 3)) * width
-		posy = mainPosY - row * 60
+		posy = mainPosY - row * 50
 	end
-	local poolBG = display.newSprite("cocostudio/game/image/zhujiemian_zongzhu1.png")
-		:addTo(self)
-		:move(posx, posy)
-		:hide()
-	local text = ccui.TextBMFont:create();
-	text:setFntFile("cocostudio/game/image/haoyouchang_haoyoufangxuanzedishuzi-export.fnt")
-        :addTo(poolBG)
-        :move(90, 24)
-    text:setTag(ViewRoom.SIDE_POOL_TAG)
-	text:setString(str)
 
-    self.sidePools[id] = poolBG
+    sideItem:setPosition(posx, posy)
+    self.sidePools[id] = sideItem
 
     if isAction then
 	    APP:getObject("ViewActions"):actionMainPoolToSide(cc.p(posx - 60, posy), function()
-	    	poolBG:show()
+	    	sideItem:show()
 	    end)
 	else
-		poolBG:show()
+		sideItem:show()
 	end
+end
+
+function ViewRoom:createSidePoolItem(iconPngPath)
+    local resItem = ResItemWidget:create(40,false)
+        
+
+    resItem:setBgTexture("cocostudio/game/image/zhujiemian_choumatoumingdi.png")
+    resItem:setBgSize(cc.size(140,34))
+
+    resItem:setResTexture(iconPngPath)
+    resItem:setResIconSize(cc.size(34,34))
+    resItem:getResIcon():setPositionPercent(cc.p(0,0.45))
+--    resItem
+    local font = resItem:getFont()
+    font:setFntFile("cocostudio/game/image/zhujiemian_choumadishuzi-export.fnt")
+
+    return resItem
 end
 
 function ViewRoom:getSidePoolCount()
@@ -375,7 +407,8 @@ end
 function ViewRoom:updateSidePool(id, pool)
 	if self.sidePools[id] then
 		local str = utils.convertNumberShort(tonumber(pool))
-		local poolNumber = self.sidePools[id]:getChildByTag(ViewRoom.SIDE_POOL_TAG)
+--		local poolNumber = self.sidePools[id]:getChildByTag(ViewRoom.SIDE_POOL_TAG)
+        local poolNumber = self.sidePools[id]
 		poolNumber:setString(str)
 		dump(str, "updateSidePool")
 	end

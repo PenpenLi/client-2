@@ -131,4 +131,6 @@ print("==============getAward==================")
      self:removeSelf()
 --   print("gettttttttttttttttt",index) 
 end
+
+
 return ViewSignLayer

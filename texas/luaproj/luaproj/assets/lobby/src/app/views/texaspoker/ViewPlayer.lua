@@ -12,7 +12,14 @@ local ViewPlayer = class("ViewPlayer", function()
 end)
 
 ViewPlayer.TIMER_COLORS = {cc.c3b(158, 255, 223), cc.c3b(255, 242, 93), cc.c3b(255, 78, 0)}
-
+ViewPlayer.InitPos = {
+    cc.p(0,-300),
+    cc.p(-300,-100),
+    cc.p(-300,100),
+    cc.p(0,300),
+    cc.p(300,100),
+    cc.p(300,-100)
+}
 function ViewPlayer:ctor(clipos)
 	self:enableNodeEvents()
 	if clipos >= 5 then
@@ -419,7 +426,7 @@ function ViewPlayer:actionExit(pos)
 end
 ---------------------------chat 监听-------------------
 function ViewPlayer:onMsg(fromServer, subCmd, content)
-	if subCmd == CMD.GAME_CHAT_REQ then
+	if subCmd == CMD.GAME_CHAT_RESP then
         local msg = {
             fromId = content.from_uid_,
             nickName = content.nickname_,

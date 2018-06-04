@@ -5,7 +5,7 @@ local SimpleBrowser = class("SimpleBrowser", cc.mvc.ViewBase)
 function SimpleBrowser:ctor(options)
 	SimpleBrowser.super.ctor(self)
 
-    self.loadedUrl = ""
+    self.loadedUrl = "https://www.baidu.com/"
 
     local csbnode = cc.CSLoader:createNode("cocostudio/common/BrowserLayer.csb")
     csbnode:addTo(self)
@@ -60,11 +60,11 @@ function SimpleBrowser:ctor(options)
     local function onDisFailLoading(webview, url)
         print("onDisFailLoading:" .. tostring(url))
     end
-	local container = UIHelper.seekNodeByName(container);
+	local container = csbnode:getChildByName("container");
     if device.platform == "ios" or device.platform == "android" then
 	    self.webview = ccexp.WebView:create()
         self.webview:align(container.CENTER, container.width / 2, container.height / 2)
-        self.webview:setContentSize(container:contentSize())
+        self.webview:setContentSize(container:getContentSize())
         self.webview:setScalesPageToFit(true)
         self.webview:loadURL(options.url)
         self.webview:addTo(container)

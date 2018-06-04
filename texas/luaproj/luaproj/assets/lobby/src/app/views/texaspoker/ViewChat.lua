@@ -477,7 +477,7 @@ function ViewChat:sendCustomChat(content)
 end
 
 function ViewChat:onMsg(fromServer, subCmd, content)
-	if subCmd == CMD.GAME_CHAT_REQ then
+	if subCmd == CMD.GAME_CHAT_RESP then
         local msg = {
             fromId = content.from_uid_,
             nickName = content.nickname_,

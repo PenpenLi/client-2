@@ -18,7 +18,7 @@ function ViewSetting:ctor()
 	local btn_ChangeAccount = UIHelper.seekNodeByName(csbnode, "Button_ChangeAccount")
 	btn_ChangeAccount:addTouchEventListener(function(ref, t)
 		if t == ccui.TouchEventType.ended then
-			FSM.doEvent(FSM.E_LOGOUT)
+            --APP:enterScene("LoginScene")
 		end
 	end)
 
@@ -32,44 +32,32 @@ function ViewSetting:ctor()
 	local text_Version = UIHelper.seekNodeByName(csbnode, "Text_Version")
 	text_Version:setString(GameConfig.Version)
 
-	self.musicBG = UIHelper.seekNodeByName(csbnode, "Image_MusicBG")
-	self.musicBtn = UIHelper.seekNodeByName(csbnode, "Button_Music")
-	self.soundBG = UIHelper.seekNodeByName(csbnode, "Image_SoundBG")
-	self.soundBtn = UIHelper.seekNodeByName(csbnode, "Button_Sound")
-	self.vibrateBG = UIHelper.seekNodeByName(csbnode, "Image_VibrateBG")
-	self.vibrateBtn = UIHelper.seekNodeByName(csbnode, "Button_Vibrate")
 
-	self.musicBtn:addTouchEventListener(function(ref, t)
-		if t == ccui.TouchEventType.ended then
-			local newState = (not APP.GD:musicOn())
-  			APP.GD.music_on = newState
-			cc.UserDefault:getInstance():setBoolForKey(GameConfig.KEY_MUSIC, newState)
-			self:musicStatusChange(newState)
-		end
-	end)
-	self.soundBtn:addTouchEventListener(function(ref, t)
-		if t == ccui.TouchEventType.ended then
-			local newState = (not APP.GD:soundOn())
+    self.CheckBox_list = {
+             CheckBox_music = csbnode:getChildByName("CheckBox_music"),
+             CheckBox_effect = csbnode:getChildByName("CheckBox_effect"),
+             CheckBox_Vibrate = csbnode:getChildByName("CheckBox_Vibrate")
+    }
 
-  			APP.GD.sound_on = newState
+    for k, v in pairs(self.CheckBox_list) do 
+        v : addEventListener(handler(self,self.checkBoxEvent))
+    end
+    
 
-			cc.UserDefault:getInstance():setBoolForKey(GameConfig.KEY_SOUND, newState)
-			self:soundStatusChange(newState)
-		end
-	end)
-	self.vibrateBtn:addTouchEventListener(function(ref, t)
-		if t == ccui.TouchEventType.ended then
-			local newState = (not APP.GD:vibrateOn())
-
-  			APP.GD.vibrate_on = newState
-	
-			cc.UserDefault:getInstance():setBoolForKey(GameConfig.KEY_VIBRATE, newState)
-			self:vibrateStatusChange(newState)
-		end
-	end)
 
 	self:initStatus()
 end
+
+function ViewSetting:checkBoxEvent(sender,eventType)
+    if sender == self.CheckBox_list.CheckBox_effect then 
+        self:soundStatusChange(not APP.GD:soundOn())
+    elseif sender == self.CheckBox_list.CheckBox_music then 
+        self:musicStatusChange(not APP.GD:musicOn())
+    elseif sender == self.CheckBox_list.CheckBox_Vibrate then 
+        self:vibrateStatusChange(not APP.GD:vibrateOn())
+    end
+end
+
 
 function ViewSetting:onEnter()
     ViewSetting.super.onEnter(self)
@@ -86,33 +74,30 @@ function ViewSetting:initStatus()
 end
 
 function ViewSetting:musicStatusChange(on)
-	if on then
-		self.musicBG:loadTexture(ViewSetting.IMG_SWITCH_OPEN)
-		self.musicBtn:setPositionX(ViewSetting.POSX_OPEN)
-	else
-	 	self.musicBG:loadTexture(ViewSetting.IMG_SWITCH_CLOSE)
-	 	self.musicBtn:setPositionX(ViewSetting.POSX_CLOSE)
-	end
+    if APP.GD:musicOn() ~= on then 
+        local UserDefault = cc.UserDefault:getInstance()
+        UserDefault:setBoolForKey(GameConfig.KEY_MUSIC,on)
+        UserDefault:flush()
+    end
+    self.CheckBox_list.CheckBox_music:setSelected(on)
 end
 
 function ViewSetting:soundStatusChange(on)
-	if on then
-		self.soundBG:loadTexture(ViewSetting.IMG_SWITCH_OPEN)
-		self.soundBtn:setPositionX(ViewSetting.POSX_OPEN)
-	else
-	 	self.soundBG:loadTexture(ViewSetting.IMG_SWITCH_CLOSE)
-	 	self.soundBtn:setPositionX(ViewSetting.POSX_CLOSE)
-	end 
+    if APP.GD:soundOn() ~= on then 
+        local UserDefault = cc.UserDefault:getInstance()
+        UserDefault:setBoolForKey(GameConfig.KEY_SOUND,on)
+        UserDefault:flush()
+    end
+    self.CheckBox_list.CheckBox_effect:setSelected(on)
 end
 
 function ViewSetting:vibrateStatusChange(on)
-	if on then
-		self.vibrateBG:loadTexture(ViewSetting.IMG_SWITCH_OPEN)
-		self.vibrateBtn:setPositionX(ViewSetting.POSX_OPEN)
-	else
-	 	self.vibrateBG:loadTexture(ViewSetting.IMG_SWITCH_CLOSE)
-	 	self.vibrateBtn:setPositionX(ViewSetting.POSX_CLOSE)
-	end 
+    if APP.GD:vibrateOn() ~= on then 
+        local UserDefault = cc.UserDefault:getInstance()
+        UserDefault:setBoolForKey(GameConfig.KEY_VIBRATE,on)
+        UserDefault:flush()
+    end
+    self.CheckBox_list.CheckBox_Vibrate:setSelected(on)
 end
 
 return ViewSetting

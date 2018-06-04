@@ -34,25 +34,32 @@ function ViewShop:ctor(isShowDiamond)
 		end
 	end)
 
-	self.btn_Gold = UIHelper.seekNodeByName(csbnode, "Button_Gold")
-	self.btn_Gold:addTouchEventListener(function(ref, t)
-		if t == ccui.TouchEventType.ended then
-			self:setBtnGoldEnable(false)
-			self:setBtnDiamondEnable(true)
-			self.goldNode:show()
-			self.diamondNode:hide()
-		end
-	end)
+--	self.btn_Gold = UIHelper.seekNodeByName(csbnode, "Button_Gold")
+--	self.btn_Gold:addTouchEventListener(function(ref, t)
+--		if t == ccui.TouchEventType.ended then
+--			self:setBtnGoldEnable(false)
+--			self:setBtnDiamondEnable(true)
+--			self.goldNode:show()
+--			self.diamondNode:hide()
+--		end
+--	end)
 
-	self.btn_Diamond = UIHelper.seekNodeByName(csbnode, "Button_Diamond")
-	self.btn_Diamond:addTouchEventListener(function(ref, t)
-		if t == ccui.TouchEventType.ended then
-			self:setBtnGoldEnable(true)
-			self:setBtnDiamondEnable(false)
-			self.goldNode:hide()
-			self.diamondNode:show()
-		end
-	end)
+--	self.btn_Diamond = UIHelper.seekNodeByName(csbnode, "Button_Diamond")
+--	self.btn_Diamond:addTouchEventListener(function(ref, t)
+--		if t == ccui.TouchEventType.ended then
+--			self:setBtnGoldEnable(true)
+--			self:setBtnDiamondEnable(false)
+--			self.goldNode:hide()
+--			self.diamondNode:show()
+--		end
+--	end)
+    
+    for i = 1 ,6 do
+        local item = csbnode:getChildByName(string.format("Button_Pay_%d",i))
+        item:addTouchEventListener(handler(self,self.touchPayEvent))
+        item:setTag(i)
+    end
+    
 
 	-- 提现
 	self.btn_Deposit = UIHelper.seekNodeByName(csbnode, "Button_Deposit")
@@ -67,17 +74,23 @@ function ViewShop:ctor(isShowDiamond)
 	self.diamondNode = cc.Node:create()
 		:addTo(self)
 
-	if isShowDiamond then
-		self:setBtnGoldEnable(true)
-		self:setBtnDiamondEnable(false)
-		self.goldNode:hide()
-	else
-		self:setBtnGoldEnable(false)
-		self:setBtnDiamondEnable(true)
-		self.diamondNode:hide()
-	end
-	self:initGoldItem()
-	self:initDiamondItem()
+--	if isShowDiamond then
+--		self:setBtnGoldEnable(true)
+--		self:setBtnDiamondEnable(false)
+--		self.goldNode:hide()
+--	else
+--		self:setBtnGoldEnable(false)
+--		self:setBtnDiamondEnable(true)
+--		self.diamondNode:hide()
+--	end
+--	self:initGoldItem()
+--	self:initDiamondItem()
+end
+
+function ViewShop:touchPayEvent(sender,touchType)
+    if ccui.TouchEventType.ended == touchType then 
+        print("你买了第"..sender:getTag().."个")
+    end
 end
 
 function ViewShop:initGoldItem()
@@ -164,14 +177,14 @@ function ViewShop:actionExit()
 
 end
 
-function ViewShop:setBtnGoldEnable(enable)
-	self.btn_Gold:setEnabled(enable)
-	self.btn_Gold:setTouchEnabled(enable)
-end
+--function ViewShop:setBtnGoldEnable(enable)
+--	self.btn_Gold:setEnabled(enable)
+--	self.btn_Gold:setTouchEnabled(enable)
+--end
 
-function ViewShop:setBtnDiamondEnable(enable)
-	self.btn_Diamond:setEnabled(enable)
-	self.btn_Diamond:setTouchEnabled(enable)
-end
+--function ViewShop:setBtnDiamondEnable(enable)
+--	self.btn_Diamond:setEnabled(enable)
+--	self.btn_Diamond:setTouchEnabled(enable)
+--end
 
 return ViewShop

@@ -9,7 +9,7 @@ function PopBaseLayer:ctor()
     csbnode:addTo(self)
 
     self.BG = UIHelper.seekNodeByName(csbnode, "Image_BG")
-    local btn_Close = UIHelper.seekNodeByName(csbnode, "Button_Close")
+    local btn_Close = UIHelper.seekNodeByName(self, "Button_Close")
     btn_Close:addTouchEventListener(function(ref, t)
         if t == ccui.TouchEventType.ended then
             self:actionExit()
