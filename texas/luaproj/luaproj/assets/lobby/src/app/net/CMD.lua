@@ -82,9 +82,14 @@ CMD.GAME_PRIVATE_ROOM_INFO = 1208
 CMD.GAME_IS_IN_GAME = 1205
 
 -- 签到奖励
-CMD.GAME_CREATE_SIGN =1037
-CMD.GAME_SIGN_RET = 1039
-CMD.GAME_SIGN_GET = 1040
+CMD.GAME_SIGN_RESULT =1037
+CMD.GAME_SIGN_REQ = 1039
+CMD.GAME_SIGN_GET_REQ = 1040
+CMD.GAME_SIGN_GET_RESULT = 1050
+
+-- 排行榜
+CMD.GAME_RANK_REQ = 506
+CMD.GAME_RANK_RESULT = 1122
 ------------------------------------------
 
 
@@ -132,8 +137,20 @@ CMD.TEXASPOKER_POOL_CHANGE_NOTIFY = 17                  -- 底池变化
 CMD.TEXASPOKER_MATCH_RESULT_NOTIFY = 20009              -- 比赛结果
 CMD.TEXASPOKER_POOL_SPLIT = 19							-- 分池
 ------------------------------------------
+------------------聊天   -----------------
+CMD.GAME_CHAT_RESP = 1114                                -- 聊天接受消息
+------------------------------------------
 
 
+---------------- 用户设置 ----------------
+CMD.GAME_USERINFO_SET_REQ = 1042                        -- 请求修改用户信息
+CMD.GAME_USERINFO_SET_RESP = 1040                       -- 用户信息被修改
+------------------------------------------
+---------------- 邮件 --------------------
+CMD.GAME_USER_MAIL_LIST_RESP = 1046                     -- 邮件列表收取
+CMD.GAME_USER_MAIL_OP_RESP   = 1048                     -- 邮件列表操作
+CMD.GAME_GET_MAIL_ATTACH_REQ = 1052                     -- 邮件附件获取
+------------------------------------------
 function CMD:getName(id)
 	for k, v in pairs(self) do
 		if v == id then
