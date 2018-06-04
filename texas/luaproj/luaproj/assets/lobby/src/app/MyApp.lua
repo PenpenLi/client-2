@@ -6,7 +6,7 @@ local loginCtrlcls = nil;
 local gameCtrlcls = nil;
 local CMD = require("app.net.CMD")
 local vcp = require("app.common.VersionCompare")
---全局变量都定义在外面，不要在函数里随意写，这样不利于别人看代码
+---全局变量都定义在外面，不要在函数里随意写，这样不利于别人看代码
 APP = nil
 
 local socket = require "socket"
@@ -35,6 +35,7 @@ function MyApp:resetController()
 end
 
 function MyApp:run()
+	--local chk = check_version("games/texas/", );
     self:ActiveCtrl("LoginController");
 	self.tid1 = scheduler.scheduleGlobal(function()
 		self:CheckVersion("texas", "lobby/", "http://poker.game577.com/game_update/texas/")
