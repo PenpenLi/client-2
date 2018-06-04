@@ -4,22 +4,15 @@ local SoundUtils = require("app.common.SoundUtils")
 local NativeFunctions = require("app.common.NativeFunctions")
 local ViewCard = require("app.views.texaspoker.ViewCard")
 local TexasPokerConfig = require("app.models.TexasPokerConfig")
+local ResItemWidget = require("app.views.common.ResItemWidget")
 local CMD = require("app.net.CMD")
-
 
 local ViewPlayer = class("ViewPlayer", function()
  	return display.newNode()
 end)
 
 ViewPlayer.TIMER_COLORS = {cc.c3b(158, 255, 223), cc.c3b(255, 242, 93), cc.c3b(255, 78, 0)}
-ViewPlayer.InitPos = {
-    cc.p(0,-300),
-    cc.p(-300,-100),
-    cc.p(-300,100),
-    cc.p(0,300),
-    cc.p(300,100),
-    cc.p(300,-100)
-}
+
 function ViewPlayer:ctor(clipos)
 	self:enableNodeEvents()
 	if clipos >= 5 then
@@ -97,8 +90,9 @@ function ViewPlayer:setUser(usr)
 		self.text_Gold = UIHelper.seekNodeByName(self.csbnode, "AtlasLabel_Gold")
 		self:updateGold(player.credits)
 
-		self.img_BetBG = UIHelper.seekNodeByName(self.csbnode, "Image_BetBG")
-		self.text_Bet = UIHelper.seekNodeByName(self.csbnode, "AtlasLabel_Bet")
+        self.Node_Pet = used:getChildByName("Node_Bet")
+        self:createResItem()
+
 		self.img_Card_1 = UIHelper.seekNodeByName(self.csbnode, "Image_CardIcon_1")
 		self.img_Card_2 = UIHelper.seekNodeByName(self.csbnode, "Image_CardIcon_2")
 		self.img_Mask = UIHelper.seekNodeByName(self.csbnode, "Image_Mask")
@@ -144,6 +138,21 @@ function ViewPlayer:setUser(usr)
 		end
 	end
 end
+---背景图片，字体大小，
+function ViewPlayer:createResItem()
+    if not self.ResItem then 
+        self.ResItem = ResItemWidget:create(45)
+        self.Node_Pet:addChild(self.ResItem)
+
+        self.ResItem:setBgTexture("cocostudio/game/image/zhujiemian_choumatoumingdi.png")
+        self.ResItem:setResTexture("cocostudio/game/image/bet_small.png")
+        local font = self.ResItem:getFont()
+        font:setPositionY(20)
+        font:setPositionX(37)
+        font:setScale(0.8)
+        
+    end
+end
 
 
 function ViewPlayer:onEnter()
@@ -178,17 +187,16 @@ function ViewPlayer:setBet(show, bet, isAction)
 	if isAction then
 		APP:getObject("ViewActions"):actionBetIn(
 			self.uid, 
-			cc.p(self.img_BetBG:getPositionX() - 38, self.img_BetBG:getPositionY()),
+			cc.p(self.Node_Pet:getPositionX() - 38, self.Node_Pet:getPositionY()),
 			function()
-				self.img_BetBG:setVisible(show)
-				self.text_Bet:setVisible(show)
-				self.text_Bet:setString(str)
+                self.Node_Pet:setVisible(show)
+                self.ResItem:setString(str)
 			end
 		)
 	else
-		self.img_BetBG:setVisible(show)
-		self.text_Bet:setVisible(show)
-		self.text_Bet:setString(str)
+
+        self.Node_Pet:setVisible(show)
+        self.ResItem:setString(str)
 	end
 end
 
@@ -196,7 +204,7 @@ end
 function ViewPlayer:hideBetAction(callback)
 	APP:getObject("ViewActions"):actionBetToPool(
 		self.uid,
-		cc.p(self.img_BetBG:getPositionX() - 38, self.img_BetBG:getPositionY()),
+		cc.p(self.Node_Pet:getPositionX() - 38, self.Node_Pet:getPositionY()),
 		callback
 	)
 	SoundUtils.playEffect(SoundUtils.GameSound.CHIPFLYCHI)
@@ -400,14 +408,14 @@ end
 
 -- 自己是否下过注
 function ViewPlayer:isBeted()
-	return self.img_BetBG:isVisible()
+	return self.Node_Pet:isVisible()
 end
 
 function ViewPlayer:clear()
 	local used = UIHelper.seekNodeByName(self.csbnode, "used");
 	if used:isVisible() then
-		self.img_BetBG:setVisible(false)
-		self.text_Bet:setVisible(false)
+		self.Node_Pet:setVisible(false)
+--		self.text_Bet:setVisible(false)
 		self:setDealedCardStatus(false)
 		self.timerProgress:setVisible(false)
 		self.img_Banker:setVisible(false)
