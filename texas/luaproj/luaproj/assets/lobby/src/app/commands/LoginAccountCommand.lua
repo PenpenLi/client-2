@@ -1,5 +1,5 @@
 local CMD = require("app.net.CMD")
-local GameEnv = require("app.core.GameEnv")
+local GameEnv = require("app.core.GameConfig")
 
 local LoginAccountCommand = {}
 

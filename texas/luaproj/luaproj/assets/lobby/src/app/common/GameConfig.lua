@@ -36,9 +36,26 @@ GameConfig.KEY_VIBRATE = "LOCAL_KEY_VIBRATE"
 
 GameConfig.QQ1 = 888888888
 GameConfig.QQ2 = 999999
+GameConfig.GameEnv = {}
+
+GameConfig.GameEnv.DEV_HJT = 1 	-- hjt测试服务器
+GameConfig.GameEnv.DEV_210 = 2		-- 210局域网
+GameConfig.GameEnv.RELEASE = 100 	-- 正式服务器
+
+function GameConfig.getSocketEnv()
+	return GameConfig.GameEnv.SocketEnv[GameEnv.Current]
+end
 
 --开发时脚本下载为了避免冲掉本地修改,给他另存一个位置
 GameConfig.EnableUpdate = true
 GameConfig.SAVEAS = "debugsave/"
 
+-- 当前使用的服务器
+GameConfig.GameEnv.Current = GameEnv.DEV_HJT
+
+GameConfig.GameEnv.SocketEnv = {
+	[GameConfig.GameEnv.DEV_HJT] = {host = "192.168.11.135", port = "10000"},
+	[GameConfig.GameEnv.DEV_210] = {host = "192.168.1.210", port = "10000"},
+	[GameConfig.GameEnv.RELEASE] = {host = "poker.game577.com", port = "10000"},
+}
 return GameConfig

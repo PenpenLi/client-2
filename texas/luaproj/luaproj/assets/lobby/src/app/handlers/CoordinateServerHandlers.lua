@@ -114,9 +114,6 @@ print("====================================================================handl
    APP.hc:ShowSignAward(awardInfo)
 end 
 
-
-
-return CoordinateServerHandlers-------  邮件列表
 function CoordinateServerHandlers.handleSaveMailList(content)
     local data = {}
     data.id = content.id_
