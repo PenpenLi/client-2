@@ -51,7 +51,7 @@ GameConfig.EnableUpdate = true
 GameConfig.SAVEAS = "debugsave/"
 
 -- 当前使用的服务器
-GameConfig.GameEnv.Current = GameConfig.GameEnv.DEV_HJT
+GameConfig.GameEnv.Current = GameConfig.GameEnv.RELEASE
 
 GameConfig.GameEnv.SocketEnv = {
 	[GameConfig.GameEnv.DEV_HJT] = {host = "192.168.11.135", port = "10000"},
