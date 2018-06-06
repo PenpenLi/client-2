@@ -32,7 +32,6 @@
     <Folder Include="assets\lobby\src\app\commands\" />
     <Folder Include="assets\lobby\src\app\common\" />
     <Folder Include="assets\lobby\src\app\controllers\" />
-    <Folder Include="assets\lobby\src\app\core\" />
     <Folder Include="assets\lobby\src\app\handlers\" />
     <Folder Include="assets\lobby\src\app\language\" />
     <Folder Include="assets\lobby\src\app\models\" />
@@ -42,8 +41,6 @@
     <Folder Include="assets\lobby\src\app\views\friendroom\" />
     <Folder Include="assets\lobby\src\app\views\home\" />
     <Folder Include="assets\lobby\src\app\views\login\" />
-    <Folder Include="assets\lobby\src\app\views\mtt\" />
-    <Folder Include="assets\lobby\src\app\views\sng\" />
     <Folder Include="assets\lobby\src\app\views\texaspoker\" />
     <Folder Include="assets\lobby\src\packages\" />
     <Folder Include="assets\lobby\src\packages\mvc\" />
@@ -80,9 +77,7 @@
     <Compile Include="assets\lobby\src\app\controllers\HomeController.lua" />
     <Compile Include="assets\lobby\src\app\controllers\LoginController.lua" />
     <Compile Include="assets\lobby\src\app\controllers\TexasPokerController.lua" />
-    <Compile Include="assets\lobby\src\app\core\GameConfig.lua" />
-    <Compile Include="assets\lobby\src\app\core\GameEnv.lua" />
-    <Compile Include="assets\lobby\src\app\core\GameFSM.lua" />
+    <Compile Include="assets\lobby\src\app\common\GameConfig.lua" />
     <Compile Include="assets\lobby\src\app\handlers\AccountServerHandlers.lua" />
     <Compile Include="assets\lobby\src\app\handlers\CoordinateServerHandlers.lua" />
     <Compile Include="assets\lobby\src\app\handlers\GameCommonHandlers.lua" />
@@ -152,7 +147,8 @@
     <Compile Include="assets\lobby\src\packages\mvc\init.lua" />
     <Compile Include="assets\lobby\src\packages\mvc\ModelBase.lua" />
     <Compile Include="assets\lobby\src\packages\mvc\ViewBase.lua" />
-    <Compile Include="bootstart\main.lua" />
+    <Compile Include="assets\lobby\main.lua" />
+    <Compile Include="bootstart\bootstart.lua" />
     <Compile Include="src_framework\cocos\3d\3dConstants.lua" />
     <Compile Include="src_framework\cocos\cocos2d\bitExtend.lua" />
     <Compile Include="src_framework\cocos\cocos2d\Cocos2d.lua" />

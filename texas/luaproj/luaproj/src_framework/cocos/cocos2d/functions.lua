@@ -24,7 +24,7 @@ THE SOFTWARE.
 
 log_filter = {}
 log_filter.enable = 1;
-
+local pathWritable = cc.FileUtils:getInstance():getWritablePath();
 function printLog(tag, fmt, ...)
     local t = {
         "[",
@@ -34,11 +34,11 @@ function printLog(tag, fmt, ...)
     }
     if log_filter[tag] == 1 and log_filter.enable == 1 then
         print(table.concat(t))
-		io.writefile("runlog.log", "[" ..os.date("%Y-%m-%d %H:%M:%S", os.time()) .. "]" .. table.concat(t) .. "\r\n", "a");
+		io.writefile(pathWritable.."runlog.log", "[" ..os.date("%Y-%m-%d %H:%M:%S", os.time()) .. "]" .. table.concat(t) .. "\r\n", "a");
 
     elseif not log_filter.enable then
         print(table.concat(t))
-		io.writefile("runlog.log", "[" ..tostringos.date("%Y-%m-%d %H:%M:%S", os.time()) .. "]" .. table.concat(t) .. "\r\n", "a");
+		io.writefile(pathWritable.."runlog.log", "[" ..tostringos.date("%Y-%m-%d %H:%M:%S", os.time()) .. "]" .. table.concat(t) .. "\r\n", "a");
     end
 end
 
