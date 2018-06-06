@@ -25,18 +25,6 @@ THE SOFTWARE.
 require "cocos.cocos2d.Cocos2d"
 require "cocos.cocos2d.Cocos2dConstants"
 require "cocos.cocos2d.functions"
-
-__G__TRACKBACK__ = function(msg)
-    local msg = debug.traceback(msg, 3)
-	io.writefile("runlog.log", "[" ..os.date("%Y-%m-%d %H:%M:%S", os.time()) .. "]" .. msg .. "\r\n", "a");
-
-	local desc = APP.GD.LANG.UI_SCRIPT_ERROR;
-	if APP:getCurrentController() then
-		APP:getCurrentController():showAlertOK({desc = desc});
-	end
-    return msg
-end
-
 -- opengl
 require "cocos.cocos2d.Opengl"
 require "cocos.cocos2d.OpenglConstants"
