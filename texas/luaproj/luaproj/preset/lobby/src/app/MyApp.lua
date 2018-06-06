@@ -5,7 +5,7 @@ local homeCtrlcls = nil;
 local loginCtrlcls = nil; 
 local gameCtrlcls = nil;
 local CMD = require("app.net.CMD")
-local vcp = require("app.common.VersionCompare")
+local vcp = require("VersionCompare")
 ---全局变量都定义在外面，不要在函数里随意写，这样不利于别人看代码
 APP = nil
 
@@ -213,6 +213,5 @@ function MyApp:onEnterForeground()
     printInfo("a","onEnterForeground")
 	cc.Director:getInstance():resume()
 end
-
 
 return MyApp
