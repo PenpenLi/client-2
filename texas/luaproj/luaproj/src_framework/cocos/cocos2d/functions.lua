@@ -38,7 +38,7 @@ function printLog(tag, fmt, ...)
 
     elseif not log_filter.enable then
         print(table.concat(t))
-		io.writefile(pathWritable.."runlog.log", "[" ..tostringos.date("%Y-%m-%d %H:%M:%S", os.time()) .. "]" .. table.concat(t) .. "\r\n", "a");
+		io.writefile(pathWritable.."runlog.log", "[" ..os.date("%Y-%m-%d %H:%M:%S", os.time()) .. "]" .. table.concat(t) .. "\r\n", "a");
     end
 end
 
