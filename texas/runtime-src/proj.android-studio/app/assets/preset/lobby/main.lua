@@ -1,6 +1,4 @@
 
-
-
 local contex = nil;
 
 --«–ªª”Œœ∑ª∑æ≥,
@@ -30,8 +28,8 @@ function switchContex(newContex)
 
 	cc.FileUtils:getInstance():setSearchPaths(tb);
 end
-
-switchContex("lobby/")
+local pathWritable = cc.FileUtils:getInstance():getWritablePath();
+switchContex(pathWritable.."lobby/")
 
 package.path = package.path .. "src_framework/?.lua;"
 package.path = package.path .. "common/src/?.lua;"
