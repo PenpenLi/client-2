@@ -1,0 +1,111 @@
+
+renwudonghua.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+头
+  rotate: false
+  xy: 1, 1
+  size: 174, 196
+  orig: 174, 196
+  offset: 0, 0
+  index: -1
+图层 1
+  rotate: false
+  xy: 149, 473
+  size: 23, 30
+  orig: 23, 30
+  offset: 0, 0
+  index: -1
+图层 3
+  rotate: false
+  xy: 99, 473
+  size: 23, 30
+  orig: 23, 30
+  offset: 0, 0
+  index: -1
+图层 2
+  rotate: false
+  xy: 124, 473
+  size: 23, 30
+  orig: 23, 30
+  offset: 0, 0
+  index: -1
+右臂
+  rotate: false
+  xy: 99, 370
+  size: 82, 101
+  orig: 82, 101
+  offset: 0, 0
+  index: -1
+腿
+  rotate: false
+  xy: 1, 370
+  size: 96, 121
+  orig: 96, 121
+  offset: 0, 0
+  index: -1
+躯干
+  rotate: false
+  xy: 1, 199
+  size: 143, 169
+  orig: 143, 169
+  offset: 0, 0
+  index: -1
+领子
+  rotate: false
+  xy: 183, 451
+  size: 71, 51
+  orig: 71, 51
+  offset: 0, 0
+  index: -1
+左臂
+  rotate: false
+  xy: 183, 370
+  size: 90, 79
+  orig: 90, 79
+  offset: 0, 0
+  index: -1
+右蕾丝
+  rotate: false
+  xy: 277, 469
+  size: 19, 30
+  orig: 19, 30
+  offset: 0, 0
+  index: -1
+左蕾丝
+  rotate: false
+  xy: 256, 469
+  size: 19, 34
+  orig: 19, 34
+  offset: 0, 0
+  index: -1
+L鬓角2
+  rotate: false
+  xy: 298, 469
+  size: 13, 36
+  orig: 13, 36
+  offset: 0, 0
+  index: -1
+L鬓角
+  rotate: false
+  xy: 275, 370
+  size: 34, 97
+  orig: 34, 97
+  offset: 0, 0
+  index: -1
+R鬓角
+  rotate: false
+  xy: 311, 370
+  size: 43, 66
+  orig: 43, 66
+  offset: 0, 0
+  index: -1
+耳朵耳环
+  rotate: false
+  xy: 313, 469
+  size: 15, 31
+  orig: 15, 31
+  offset: 0, 0
+  index: -1
