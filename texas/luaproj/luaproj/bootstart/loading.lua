@@ -36,8 +36,7 @@ function loadingFrame:updateProgress(desc, cur, max)
 	if max == 0 then
 		des:setString(desc);
 	else
-		printLog("a", "percent:%d", math.ceil(cur * 100 / max));
-		pct:setPrecent(50);
+		pct:setPercent(math.ceil(cur * 100 / max));
 		des:setString(desc..string.format("%s/%s", utils.convertNumberShortKM(cur), utils.convertNumberShortKM(max)));
 	end
 end

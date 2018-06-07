@@ -75,14 +75,9 @@ end
 
 __G__TRACKBACK__ = function(msg)
     local msg = debug.traceback(msg, 3)
-    print(msg);
-
     io.writefile(pa.."runlog.log", "[" ..os.date("%Y-%m-%d %H:%M:%S", os.time()) .. "]" .. msg .. "\r\n", "a");
-    local desc = APP.GD.LANG.UI_SCRIPT_ERROR;
-    if APP:getCurrentController() then
-        APP:getCurrentController():hideWaiting();
-        APP:getCurrentController():showAlertOK({desc = desc});
-    end
+	local eventDispatcher = cc.Director:getInstance():getEventDispatcher();
+	eventDispatcher:dispatchEvent({name="SCRIPT_ERROR"});
     return msg
 end
 
