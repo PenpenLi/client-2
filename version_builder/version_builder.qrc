@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="version_builder">
+    <file>Resources/128.png</file>
+    <file>Resources/129.png</file>
+    <file>Resources/130.png</file>
+    <file>Resources/131.png</file>
+    <file>Resources/132.png</file>
+    <file>Resources/133.png</file>
+    <file>Resources/134.png</file>
+    <file>Resources/135.png</file>
+    <file>Resources/manglu.png</file>
+    <file>Resources/zaixian.png</file>
+  </qresource>
+</RCC>
