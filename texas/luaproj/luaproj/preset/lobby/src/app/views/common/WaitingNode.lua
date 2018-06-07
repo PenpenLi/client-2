@@ -22,22 +22,6 @@ function WaitingNode:ctor(options)
     local rotAction = cc.RotateBy:create(1,360)
     local repAction = cc.RepeatForever:create(rotAction)
     loading:runAction(repAction)
-
-	self.container = UIHelper.seekNodeByName(view, "progress");
-
-end
-
-function WaitingNode:updateProgress(desc, cur, max)
-	local des = UIHelper.seekNodeByName(self.container, "txtDesc");
-	local pct = UIHelper.seekNodeByName(self.container, "txtProgress");
-	
-	self.container:setVisible(true);
-	if max == 0 then
-		des:setString(desc);
-	else
-		pct:setString(string.format("%d%%", math.ceil((cur / max) * 100)))
-		des:setString(desc..string.format("%s/%s", utils.convertNumberShortKM(cur), utils.convertNumberShortKM(max)));
-	end
 end
 
 return WaitingNode

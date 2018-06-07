@@ -48,7 +48,7 @@ end
 
 --开发时脚本下载为了避免冲掉本地修改,给他另存一个位置
 GameConfig.EnableUpdate = true
-GameConfig.SAVEAS = "debugsave/"
+GameConfig.SAVEAS = ""
 
 -- 当前使用的服务器
 GameConfig.GameEnv.Current = GameConfig.GameEnv.RELEASE
