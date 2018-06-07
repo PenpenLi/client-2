@@ -16,6 +16,13 @@ function ControllerBase:ctor()
     self:onUpdate(function (dt)
         self:update(dt)
     end)
+	APP:addListener(self, "SCRIPT_ERROR", handler(self, self.OnScriptError))
+end
+
+function ControllerBase:OnScriptError()
+    local desc = APP.GD.LANG.UI_SCRIPT_ERROR;
+    self:hideWaiting();
+    self:showAlertOK({desc = desc});
 end
 
 function ControllerBase:update(dt)
