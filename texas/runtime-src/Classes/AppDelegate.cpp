@@ -9,6 +9,25 @@
 #include "dragonBones/auto/dragonBones_auto.hpp"
 #include "iversion_compare.h"
 
+#if CC_TARGET_PLATFORM != CC_PLATFORM_WIN32
+#include "libs/system/src/error_code.cpp"
+#include "libs/iostreams/src/file_descriptor.cpp"
+#include "libs/iostreams/src/mapped_file.cpp"
+#include "libs/iostreams/src/zlib.cpp"
+#include "libs/iostreams/src/gzip.cpp"
+#include "libs/filesystem/src/path.cpp"
+#include "libs/filesystem/src/operations.cpp"
+#include "libs/filesystem/src/utf8_codecvt_facet.cpp"
+#include "libs/thread/src/pthread/thread.cpp"
+#include "libs/thread/src/pthread/once.cpp"
+#include "libs/chrono/src/thread_clock.cpp"
+#include "libs/chrono/src/chrono.cpp"
+#include "libs/chrono/src/process_cpu_clocks.cpp"
+
+#endif
+#include "libs/locale/src/encoding/conv.hpp"
+#include "libs/locale/src/encoding/codepage.cpp"
+
 // #define USE_AUDIO_ENGINE 1
 // #define USE_SIMPLE_AUDIO_ENGINE 1
 
@@ -85,6 +104,10 @@ static int register_all_packages()
 
 bool AppDelegate::applicationDidFinishLaunching()
 {
+#if CC_TARGET_PLATFORM == CC_PLATFORM_WIN32
+	FileUtils::getInstance()->setWritablePath("./");
+#endif
+
     // set default FPS
     Director::getInstance()->setAnimationInterval(1.0 / 30.0f);
 
@@ -106,13 +129,13 @@ bool AppDelegate::applicationDidFinishLaunching()
     
     // use luajit bytecode package
 #if CC_TARGET_PLATFORM == CC_PLATFORM_IOS
-	engine->executeScriptFile("bootstart/main.lua");
+	engine->executeScriptFile("bootstart/bootstart.lua");
 #elif CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID
-	engine->executeScriptFile("bootstart/main.lua");
+	engine->executeScriptFile("bootstart/bootstart.lua");
 #elif CC_TARGET_PLATFORM == CC_PLATFORM_WIN32
-	engine->executeScriptFile("bootstart/main.lua");
+	engine->executeScriptFile("bootstart/bootstart.lua");
 #elif CC_TARGET_PLATFORM == CC_PLATFORM_MAC
-	engine->executeScriptFile("bootstart/main.lua");
+	engine->executeScriptFile("bootstart/bootstart.lua");
 #endif
     
 //#if CC_64BITS

@@ -139,14 +139,15 @@ int		vsp_clean(lua_State* L)
 
 int		vsp_copy_dir(lua_State* L)
 {
-	int ret = 0;
+	int ret = 0; std::string err;
 	if (lua_type(L, 1) == LUA_TSTRING && lua_type(L, 2) == LUA_TSTRING ) {
 		std::string from = lua_tostring(L, 1);
 		std::string to = lua_tostring(L, 2);
-		ret = vcp->copy_dir(from, to);
+		ret = vcp->copy_dir(from, to, err);
 	}
 	lua_pushnumber(L, ret);
-	return 1;
+	lua_pushstring(L, err.c_str());
+	return 2;
 }
 
 //////////////////////////////////////////////////////////////////////////
