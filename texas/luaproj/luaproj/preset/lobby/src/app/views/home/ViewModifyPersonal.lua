@@ -96,7 +96,6 @@ end
 ---------------------Net-----------------------
 function ViewModifyPersonal:sendModife(headId,nickName)
     APP:getCurrentController():sendUserInfo(headId,nickName)
-    APP:getCurrentController():showWaiting({bAutoClose = true})
 end
 
 function ViewModifyPersonal:onMsg(fromServer, subCmd, content)

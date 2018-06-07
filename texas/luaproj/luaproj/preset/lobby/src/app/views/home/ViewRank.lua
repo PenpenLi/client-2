@@ -133,11 +133,10 @@ local head_icon = {
     local rankNode = self.listViewNode:clone()
     local img_no = rankNode:getChildByName("Image_rank_n") 
     if(self.rankIndex<4)then 
-    local img_no_str = string.format("cocostudio/home/image/Rank/rank_node%d.png",self.rankIndex)
-
-    img_no:loadTexture(img_no_str) 
+		local img_no_str = string.format("cocostudio/home/image/Rank/rank_node%d.png",self.rankIndex)
+		img_no:loadTexture(img_no_str) 
     else 
-    img_no:setVisible(false)
+		img_no:setVisible(false)
     end 
 
 

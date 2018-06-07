@@ -7,17 +7,17 @@ local head_icon = constUtils.head_icon
 function ViewHome:ctor()
 	ViewHome.super.ctor(self)
 
-     APP:addListener(self, "NET_MSG", handler(self, self.onMsg));
+	APP:addListener(self, "NET_MSG", handler(self, self.onMsg));
 
 	local csbnode = cc.CSLoader:createNode("cocostudio/home/HomeLayer.csb")
 	csbnode:addTo(self)
 
-  self.UIContainer = UIHelper.seekNodeByName(csbnode, "UIConatainer");
-  local ve = APP:createView("home.ViewEntry", APP.hc, self.UIContainer);
-  self.UIContainer:addChild(ve)
+	self.UIContainer = UIHelper.seekNodeByName(csbnode, "UIConatainer");
+	local ve = APP:createView("home.ViewEntry", APP.hc, self.UIContainer);
+	self.UIContainer:addChild(ve)
 	
 	local Image_Head = UIHelper.seekNodeByName(csbnode, "Image_Head")
-    self.Image_Head = Image_Head
+	self.Image_Head = Image_Head
 	Image_Head:addTouchEventListener(function(ref, t)
 		if t == ccui.TouchEventType.ended then
 			if APP.hc.showPersonal then
@@ -70,24 +70,6 @@ function ViewHome:ctor()
                 end
            end
     end)
-
-   local btn_Rank = UIHelper.seekNodeByName(csbnode,"Button_rank")
-    btn_Rank:addTouchEventListener(function (ref, t)
-        if t == ccui.TouchEventType.ended then    
-            if APP.hc.showRank then
-            printLog("a","sssssssssss1")
-                APP.hc:showRank()
-               
-                end
-
-              --[[  if APP.hc.ReqRankData and APP.hc.ViewRank  then 
-                 printLog("a","sssssssssss2")
-                APP.hc:ReqRankData(0) 
-                end ]]--
-           end
-    end)
-    btn_Rank:setOpacity(0)
-    
 
 	self.textGold = UIHelper.seekNodeByName(csbnode, "Text_Coin")
 	self.textNickname = UIHelper.seekNodeByName(csbnode, "Text_Nickname")
