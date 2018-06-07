@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dir n="preset" d="2018-06-07" v="1008">
+<dir n="preset" d="2018-06-07" v="1009">
     <zips>
         <f s="" n="update.zip"></f>
     </zips>
-    <f s="66489" n="version_config.xml">f0f2edb29f9d0adc28bab997a450fa63</f>
+    <f s="74715" n="version_config.xml">645c87df15987476fefda3b6c74349d9</f>
     <dir n="common">
         <dir n="res"/>
         <dir n="src"/>
@@ -738,7 +738,7 @@
                     <f s="3253" n="ControllerBase.lua">1c1e1718420945307e62357a38362930</f>
                     <f s="7159" n="HomeController.lua">6237597d004c77654ccf0229a36344ba</f>
                     <f s="2115" n="LoginController.lua">b6d7abf865f695e1693a91ac450b6c03</f>
-                    <f s="21220" n="TexasPokerController.lua">1d243edfdb0957af31795a4f23f6d9c4</f>
+                    <f s="21209" n="TexasPokerController.lua">2441820e88e0d9b523bfccd963875756</f>
                 </dir>
                 <dir n="handlers">
                     <f s="2404" n="AccountServerHandlers.lua">25207f3b1ab142bb45f78c5bdadae31b</f>
@@ -763,7 +763,7 @@
                 <dir n="net">
                     <f s="4469" n="CMD.lua">67f963ae506afb6bc07a2a92be2d8be9</f>
                     <f s="2467" n="ErrorCode.lua">34dbddc8efd0e827aa4c3f11c20d371a</f>
-                    <f s="6374" n="GameSocket.lua">64380db3d4fe0715c5e0fe69eedb23ef</f>
+                    <f s="6363" n="GameSocket.lua">4bc313686b545c1dcaef115a47a2143f</f>
                     <f s="5097" n="PacketBuffer.lua">e267b75b262d60d7a49aaff80dda6d21</f>
                     <f s="4164" n="SocketManager.lua">7186417aea180499cbce603d8ccb570f</f>
                     <f s="6891" n="SocketTCP.lua">ab5b573d4b87770acb9e04f5285cc86d</f>
@@ -777,16 +777,16 @@
                         <f s="1136" n="PopBaseLayer.lua">22dbd653302d30f9699e3b3f4ed4e5b1</f>
                         <f s="2649" n="ResItemWidget.lua">286c4a966764112c6abf1e938a656d3f</f>
                         <f s="3372" n="SimpleBrowser.lua">d9e1b68b711debd2b255dc5be4236934</f>
-                        <f s="767" n="WaitingNode.lua">4dafca63cbe3c8dd5b10cfccf9ca723a</f>
+                        <f s="756" n="WaitingNode.lua">986ff3bd3d9a0cc5d6ba64200ec64db6</f>
                     </dir>
                     <dir n="friendroom">
                         <f s="3597" n="CreatePrivateRoom.lua">865d37f9a014e3042f4966883d58e51d</f>
                         <f s="1895" n="EnterPrivateRoom.lua">54e8e223e729a0a2de378d4ca867d953</f>
                         <f s="2025" n="PrivateRoomItem.lua">22800068555cd388e742f443ffe73d8a</f>
                         <f s="938" n="PrivateRoomResult.lua">0bd3b6ad328a0f504e7016a545eeb5ee</f>
-                        <f s="1845" n="PrivateRoomResultDetail.lua">76dbe2f0756635686755a1e01d66754d</f>
-                        <f s="1266" n="PrivateRoomResultDetailItem.lua">855928c385d311fbb18b4fd0398f0f05</f>
-                        <f s="1533" n="PrivateRoomResultItem.lua">c72265163c88cd40300641fdd3a8d426</f>
+                        <f s="1834" n="PrivateRoomResultDetail.lua">b458dedce3232bf2a28d8489e2126ab3</f>
+                        <f s="1255" n="PrivateRoomResultDetailItem.lua">bd1bee2e8a9bb899ffef27764c951414</f>
+                        <f s="1522" n="PrivateRoomResultItem.lua">ae958dcc4859f0ec14a89c0f6c704251</f>
                         <f s="1474" n="SelectRoom.lua">8485fdff909660db435298342c504780</f>
                         <f s="1788" n="SelectRoomItem.lua">dc1d442eccd8a08356dab643042fe832</f>
                         <f s="2323" n="ViewFriendRoom.lua">9ebe1b85c97ffaecadd5fb86f3123cb5</f>
@@ -794,7 +794,7 @@
                     </dir>
                     <dir n="home">
                         <f s="536" n="ViewDailyTasks.lua">96da30dfca4708f5788e0ae04430b883</f>
-                        <f s="4369" n="ViewEmail.lua">5407a7d32cd347c759b460ac90feb64d</f>
+                        <f s="4358" n="ViewEmail.lua">2db886181c1af88de0b33d8ff76aed99</f>
                         <f s="2250" n="ViewEntry.lua">e7826b725bad99c1114b669eb6810798</f>
                         <f s="517" n="ViewFullScreenBase.lua">67db7fa8d8822663b86e28c81cd785be</f>
                         <f s="4669" n="ViewHome.lua">3978c12d64ebb68d3695185fae18313d</f>
@@ -813,16 +813,16 @@
                     </dir>
                     <dir n="texaspoker">
                         <f s="2806" n="ViewActions.lua">f7ae14776153f860af72816a8baa86c7</f>
-                        <f s="5439" n="ViewAddBet.lua">57ad0e71cf2ade5106f3fdc67bddf2f9</f>
+                        <f s="5428" n="ViewAddBet.lua">e98fce31c851151fa7a33c1269b1ed16</f>
                         <f s="1637" n="ViewCard.lua">127ee09bf6166f09061e416c47513a77</f>
                         <f s="533" n="ViewCardType.lua">4ac75fda0706053b1124d5c22fb9f9fa</f>
-                        <f s="17332" n="ViewChat.lua">45fa089d348ed7b50eb9fff1a13c7d16</f>
+                        <f s="17321" n="ViewChat.lua">01bc59d9728d7c9a5888904e4a2fbd69</f>
                         <f s="3221" n="ViewGameMission.lua">66688f8159cd6ab31344c045e05526df</f>
                         <f s="531" n="ViewMakeupBet.lua">d066910416f534323ef650e0bf0103a8</f>
                         <f s="1646" n="ViewMenu.lua">e6331a435648e350d58f4123c9691804</f>
-                        <f s="16289" n="ViewPlayer.lua">071b120d8c8ce8ed2909ed88665f14e4</f>
-                        <f s="2688" n="ViewPlayerInfo.lua">fc2b4aebe56a8ac5525821312b5bd677</f>
-                        <f s="18222" n="ViewRoom.lua">e5606ceaef6c589db1fc629de813a7c6</f>
+                        <f s="16278" n="ViewPlayer.lua">fbaf274bf942909a514fb190b0b31d74</f>
+                        <f s="2677" n="ViewPlayerInfo.lua">b5310403f09fbec90b653036edb1a1a4</f>
+                        <f s="18211" n="ViewRoom.lua">8d62d0f6585a5984012926dc969c930d</f>
                     </dir>
                 </dir>
             </dir>
