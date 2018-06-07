@@ -26,7 +26,7 @@
             <PreSize X="0.1253" Y="0.0705" />
             <FileData Type="Normal" Path="cocostudio/common/image/loading.png" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="progress" ActionTag="1157874962" Tag="4" IconVisible="True" RightMargin="750.0000" TopMargin="1334.0000" ctype="SingleNodeObjectData">
+          <AbstractNodeData Name="progress" ActionTag="1157874962" VisibleForFrame="False" Tag="4" IconVisible="True" RightMargin="750.0000" TopMargin="1334.0000" ctype="SingleNodeObjectData">
             <Size X="0.0000" Y="0.0000" />
             <Children>
               <AbstractNodeData Name="txtProgress" ActionTag="-60757719" Tag="5" IconVisible="False" LeftMargin="355.0000" RightMargin="-395.0000" TopMargin="-677.0000" BottomMargin="657.0000" FontSize="20" LabelText="100%" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">

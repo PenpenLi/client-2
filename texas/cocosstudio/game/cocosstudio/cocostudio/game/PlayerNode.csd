@@ -6,10 +6,10 @@
       <ObjectData Name="Node" ctype="GameNodeObjectData">
         <Size X="0.0000" Y="0.0000" />
         <Children>
-          <AbstractNodeData Name="empty" ActionTag="-1219363267" Tag="538" IconVisible="True" ctype="SingleNodeObjectData">
+          <AbstractNodeData Name="empty" ActionTag="-1219363267" VisibleForFrame="False" Tag="538" IconVisible="True" ctype="SingleNodeObjectData">
             <Size X="0.0000" Y="0.0000" />
             <Children>
-              <AbstractNodeData Name="Button_1" ActionTag="237571843" Tag="21" IconVisible="False" LeftMargin="-61.0000" RightMargin="-61.0000" TopMargin="-84.5000" BottomMargin="-84.5000" TouchEnable="True" FontSize="14" ButtonText="Button" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="92" Scale9Height="147" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+              <AbstractNodeData Name="Button_1" ActionTag="237571843" Tag="21" IconVisible="False" LeftMargin="-61.0000" RightMargin="-61.0000" TopMargin="-84.5000" BottomMargin="-84.5000" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="92" Scale9Height="147" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="122.0000" Y="169.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position />
