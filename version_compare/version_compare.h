@@ -72,7 +72,7 @@ public:
 
 	bool		is_working() override;
 
-	int			copy_dir(std::string from_dir, std::string dest_dir) override;
+	int			copy_dir(std::string from_dir, std::string dest_dir, std::string& err) override;
 protected:
 	boost::shared_ptr<boost::thread>			download_thread_;
 	dftask_ptr				current_dl_file;

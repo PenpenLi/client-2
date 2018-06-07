@@ -980,9 +980,9 @@ int version_manager::do_sync_version()
  	}
  }
  
- int version_manager::copy_dir(std::string from_dir, std::string dest_dir)
+ int version_manager::copy_dir(std::string from_dir, std::string dest_dir, std::string& err)
  {
-	 return ::copy_dir(from_dir, dest_dir);
+	 return ::copy_dir(from_dir, dest_dir, err);
  }
 
  version_manager::~version_manager()

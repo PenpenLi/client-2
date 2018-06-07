@@ -2,6 +2,16 @@
 #include "file_system.h"
 #include "utility.h"
 #include "net_socket_basic.cpp"
+
+#ifdef ANDROID
+#include <android/log.h>
+#define  LOG_TAG    "main"
+#define  LOGD(...)  __android_log_print(ANDROID_LOG_DEBUG,LOG_TAG,__VA_ARGS__)
+#else
+#define  LOGD(s, ...)
+#endif
+
+
 http_download_file::http_download_file(std::string tmp_path, boost::asio::io_service& ios) :
 	http_request(ios)
 {
@@ -57,23 +67,16 @@ void http_download_file::complete()
 
 	std::string data;
 	std::string tmpname = tmp_path_ + ".tmp";
-	if (context_.vheads["content-encoding"] == "gzip"){
-		get_file_data(tmpname, data);
-		long long oldsz = data.size();
-		if (data.empty()) return;
-		data = ungzip(data);
-		save_file(tmp_path_, data, "wb+");
-		uncompress_add_size_ = data.size() - oldsz;
+
+	boost::system::error_code ec;
+	fs::rename(tmpname, tmp_path_, ec);
+	if (ec.value() != 0) {
+		std::string err = "file download complete, but can not be saved:" + tmp_path_ + "\r\n";
+		LOGD("file saved failed->%s", tmp_path_.c_str());
+		save_file("update_log.txt", err, "a+");
 	}
-	else{
-		try	{
-			fs::rename(tmpname, tmp_path_);
-		}
-		catch (...){
-			std::string err = "file download complete, but can not be saved:" + tmp_path_ + "\r\n";
-			
-			save_file("update_log.txt", err, "a+");
-		}
+	else {
+		LOGD("file saved->%s", tmp_path_.c_str());
 	}
 }
 
