@@ -48,18 +48,33 @@ local loading = require("loading");
 
 --版本检查完毕,启动程序
 local function onVersionCheckePass()
-    local tb = cc.FileUtils:getInstance():getSearchPaths();
-    table.insert(tb, wbPath.."lobby/");
-    table.insert(tb, wbPath.."lobby/res/");
-    table.insert(tb, wbPath.."common/res/");
-    cc.FileUtils:getInstance():setSearchPaths(tb);
 
-    package.path = package.path..wbPath.."common/?.lua;"
-    package.path = package.path..wbPath.."?.lua;"
-	package.path = package.path..wbPath.."lobby/?.lua;"
-    package.path = package.path..wbPath.."lobby/src/?.lua;"
-    presetPackage = package.path;
+	--如果是开发模式下,访问开发下的资源目录
+	if get_cmdline("-debug") == "1" then
+		local tb = cc.FileUtils:getInstance():getSearchPaths();
+		table.insert(tb, wbPath.."preset/lobby/");
+		table.insert(tb, wbPath.."preset/lobby/res/");
+		table.insert(tb, wbPath.."preset/common/res/");
+		cc.FileUtils:getInstance():setSearchPaths(tb);
 
+		package.path = package.path..wbPath.."preset/common/?.lua;"
+		package.path = package.path..wbPath.."preset/?.lua;"
+		package.path = package.path..wbPath.."preset/lobby/?.lua;"
+		package.path = package.path..wbPath.."preset/lobby/src/?.lua;"
+		presetPackage = package.path;
+	else
+		local tb = cc.FileUtils:getInstance():getSearchPaths();
+		table.insert(tb, wbPath.."lobby/");
+		table.insert(tb, wbPath.."lobby/res/");
+		table.insert(tb, wbPath.."common/res/");
+		cc.FileUtils:getInstance():setSearchPaths(tb);
+
+		package.path = package.path..wbPath.."common/?.lua;"
+		package.path = package.path..wbPath.."?.lua;"
+		package.path = package.path..wbPath.."lobby/?.lua;"
+		package.path = package.path..wbPath.."lobby/src/?.lua;"
+		presetPackage = package.path;
+	end
     --启动程序
     require("main");
 end
@@ -71,7 +86,11 @@ local function main()
     local sce = display.newScene("updator");
     local vw = loading.new():addTo(sce);
     display.runScene(sce)
-    checkVersion("lobby/", wbPath, "http://poker.game577.com/game_update/texas/", vw, onVersionCheckePass);
+	if get_cmdline("-debug") == "1" then
+		onVersionCheckePass();
+	else
+		checkVersion("lobby/", wbPath, "http://poker.game577.com/game_update/texas/", vw, onVersionCheckePass);
+	end;
 end
 
 __G__TRACKBACK__ = function(msg)
