@@ -4,7 +4,7 @@
 local UIHelper = require("app.common.UIHelper")
 local PrivateRoomResultItem = class("PrivateRoomResultItem", cc.mvc.ViewBase)
 local LANG =APP.GD.LANG
-local utils = require("app.common.utils")
+local utils = require("utils")
 
 --content格式
 --std::string sn_;

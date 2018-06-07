@@ -4,7 +4,7 @@
 --此文件由[BabeLua]插件自动生成
 --endregion
 local CMD = require("app.net.CMD")
-local utils = require("app.common.utils")
+local utils = require("utils")
 local UIHelper = require("app.common.UIHelper")
 local PopBaseLayer = require("app.views.common.PopBaseLayer")
 

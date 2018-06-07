@@ -1,5 +1,5 @@
 local UIHelper = require("app.common.UIHelper")
-local utils = require("app.common.utils")
+local utils = require("utils")
 local ViewAddBet = class("ViewAddBet", cc.mvc.ViewBase)
 
 ViewAddBet.SCROLL_TO_HEIGHEST = 1054	-- 最高点

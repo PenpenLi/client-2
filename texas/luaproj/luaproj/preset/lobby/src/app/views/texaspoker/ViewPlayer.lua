@@ -1,4 +1,4 @@
-local utils = require("app.common.utils")
+local utils = require("utils")
 local UIHelper = require("app.common.UIHelper")
 local SoundUtils = require("app.common.SoundUtils")
 local NativeFunctions = require("app.common.NativeFunctions")

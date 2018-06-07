@@ -1,4 +1,4 @@
-local utils = require("app.common.utils")
+local utils = require("utils")
 local UIHelper = require("app.common.UIHelper")
 local LeftBaseLayer = require("app.views.common.LeftBaseLayer")
 local ViewChat = class("ViewChat", LeftBaseLayer)

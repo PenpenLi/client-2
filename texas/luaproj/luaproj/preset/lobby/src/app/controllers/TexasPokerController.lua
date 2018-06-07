@@ -1,4 +1,4 @@
-local utils = require("app.common.utils")
+local utils = require("utils")
 local SoundUtils = require("app.common.SoundUtils")
 local GameConfig = require("app.common.GameConfig")
 local CMD = require("app.net.CMD")

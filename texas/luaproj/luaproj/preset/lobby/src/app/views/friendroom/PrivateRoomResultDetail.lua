@@ -4,7 +4,7 @@
 local UIHelper = require("app.common.UIHelper")
 local PrivateRoomResultDetail = class("PrivateRoomResultDetail", cc.mvc.ViewBase)
 local CMD = require("app.net.CMD")
-local utils = require("app.common.utils")
+local utils = require("utils")
 --summary格式
 --std::string sn_;
 --std::string master_;

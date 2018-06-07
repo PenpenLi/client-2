@@ -1,5 +1,5 @@
 local UIHelper = require("app.common.UIHelper")
-local utils = require("app.common.utils")
+local utils = require("utils")
 local PopBaseLayer = require("app.views.common.PopBaseLayer")
 local ViewPlayerInfo = class("ViewPlayerInfo", PopBaseLayer)
 

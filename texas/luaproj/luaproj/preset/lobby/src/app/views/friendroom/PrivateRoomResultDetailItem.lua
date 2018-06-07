@@ -5,7 +5,7 @@
 local UIHelper = require("app.common.UIHelper")
 local PrivateRoomResultDetailItem = class("PrivateRoomResultDetailItem", cc.mvc.ViewBase)
 local CMD = require("app.net.CMD")
-local utils = require("app.common.utils")
+local utils = require("utils")
 
 --detail格式
 --int				room_id_;

@@ -1,5 +1,5 @@
 local UIHelper = require("app.common.UIHelper")
-local utils = require("app.common.utils")
+local utils = require("utils")
 
 local WaitingNode = class("WaitingNode", function()
     return display.newNode()

@@ -1,4 +1,4 @@
-local utils = require("app.common.utils")
+local utils = require("utils")
 
 local SocketTCP = require("app.net.SocketTCP")
 local PacketBuffer = require("app.net.PacketBuffer")
