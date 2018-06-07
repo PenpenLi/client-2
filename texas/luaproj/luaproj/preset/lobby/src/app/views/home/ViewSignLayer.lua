@@ -12,25 +12,14 @@ function ViewSignLayer:ctor(signInfoTable)
     self.serial_state = signInfoTable.serial_state
     self.login_day = signInfoTable.login_day
     self.login_state = signInfoTable.login_state
-    dump(signInfoTable) 
-
    
     local btn_Sure = UIHelper.seekNodeByName(csbnode, "Btn_sure")
 	btn_Sure:addTouchEventListener(function(ref, t)
 		if t == ccui.TouchEventType.ended then
-			--self:removeSelf()
             self:getAward()
 		end
 	end)
-    ------------------------  test  --------------- 
-    self.fullDaysN = 9 --满值天数
-    self.serial_days = 3  --连续登入天数
-    self.serial_state = 11 --登录奖励状态
-
-    self.login_day = 4 --当前第几天
-    -------------------------------------
-
-   
+	self.fullDaysN = 9 --满值天数
    
    --美术资源给的是checkbox 看后面需求改
     for i = 1, 7 do
@@ -44,20 +33,14 @@ function ViewSignLayer:ctor(signInfoTable)
        local sprite_got_str = string.format("Sprite_g_%d",i)
        sprite_got = UIHelper.seekNodeByName(csbnode,sprite_got_str)
 
-       if i< self.serial_days+1 then 
+       if i < self.serial_days+1 then 
            check_coin:setEnabled(false)
 
            sprite_shade:setVisible(true)
            sprite_got:setVisible(true)
-       elseif(i == self.serial_days+1  )then
-        
+       elseif(i == self.serial_days + 1  )then
            sprite_shade:setVisible(false)
            sprite_got:setVisible(false)
-          -- btn_coin:addTouchEventListener(function(ref, t)
-		  -- if t == ccui.TouchEventType.ended then
-			   -- self:getAward()         
-           --     end 
-	     --  end)
         else 
     
             check_coin:setEnabled(false)
@@ -69,7 +52,7 @@ function ViewSignLayer:ctor(signInfoTable)
     end 
 
 
-    self._precent = self.serial_days*100/self.fullDaysN 
+    self._precent = self.serial_days * 100 / self.fullDaysN 
     local loadBar = UIHelper.seekNodeByName(csbnode,"LoadingBar_1")
     loadBar:setPercent(self._precent)
 
@@ -119,17 +102,20 @@ end
  
 function ViewSignLayer:getAward()
 print("==============getAward==================")
- if(self.login_day - 1 == self.serial_days) then 
-      APP.hc:retSignAward(0);
-     print("retSignAward paraketer=",0)
-    end 
+	if(self.login_day - 1 == self.serial_days) then 
+		APP.hc:retSignAward(0);
+		    local awardInfo ={
+			itemNumber = 1,
+			coinNumber = 200000
+			} 
+
+		APP.hc:ShowSignAward(awardInfo)
+	end
 
   if self.continuousAward ~= 0 then
     print("retSignAward paraketer=",self.continuousAward)
       APP.hc:retSignAward(self.continuousAward)
   end 
-     self:removeSelf()
---   print("gettttttttttttttttt",index) 
 end
 
 

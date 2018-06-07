@@ -44,17 +44,12 @@ function AppBase:createView(name, viewController, ...)
     local packageName = string.format("app.views.%s", name)
     local status, view = xpcall(function()
             return require(packageName)
-        end, function(msg)
-        if not string.find(msg, string.format("'%s' not found:", packageName)) then
-            print("load view error: ", msg)
-        end
-    end)
+        end, __G__TRACKBACK__)
+
     local t = type(view)
     if status and (t == "table" or t == "userdata") then
         return view.new(viewController, ...)
     end
-    error(string.format("AppBase:createView() - not found view \"%s\" in search paths \"%s\"",
-        name, packageName))
 end
 
 function AppBase:command(commandName, ...)

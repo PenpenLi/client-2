@@ -15,6 +15,8 @@ ViewPlayer.TIMER_COLORS = {cc.c3b(158, 255, 223), cc.c3b(255, 242, 93), cc.c3b(2
 
 function ViewPlayer:ctor(clipos)
 	self:enableNodeEvents()
+	self.myCards = {}
+
 	if clipos >= 5 then
 		self.isRight = true;
 	else
@@ -30,6 +32,16 @@ function ViewPlayer:ctor(clipos)
 	used:setVisible(false);
 
 	-- 自己的下注UI位置调整
+	self.img_Head = UIHelper.seekNodeByName(self.csbnode, "Image_Head")
+	self.text_Nickname = UIHelper.seekNodeByName(self.csbnode, "Text_Nickname")
+	self.text_Gold = UIHelper.seekNodeByName(self.csbnode, "AtlasLabel_Gold")
+	self.Node_Pet = used:getChildByName("Node_Bet")
+	self.img_Card_1 = UIHelper.seekNodeByName(self.csbnode, "Image_CardIcon_1")
+	self.img_Card_2 = UIHelper.seekNodeByName(self.csbnode, "Image_CardIcon_2")
+	self.img_Mask = UIHelper.seekNodeByName(self.csbnode, "Image_Mask")
+	self.img_Operate = UIHelper.seekNodeByName(self.csbnode, "Image_Operate")
+	self.img_Banker = UIHelper.seekNodeByName(self.csbnode, "Image_Banker")
+	self.img_CardType = UIHelper.seekNodeByName(self.csbnode, "Image_CardType")
 
 	self.timerProgress = cc.ProgressTimer:create(display.newSprite("cocostudio/game/image/zhujiemian_baixian.png"))
 		:setReverseDirection(true)
@@ -76,7 +88,6 @@ function ViewPlayer:setUser(usr)
 
 		local players = APP.GD.room_players
 		local player = players:getPlayerByUid(self.uid)
-		self.img_Head = UIHelper.seekNodeByName(self.csbnode, "Image_Head")
 		self.img_Head:loadTexture(string.format("image/head_%d.png", player.head_ico or 1))
 		self.img_Head:addTouchEventListener(function(ref, t)
 			if t == ccui.TouchEventType.ended then
@@ -84,28 +95,17 @@ function ViewPlayer:setUser(usr)
 			end
 		end)
 
-		self.text_Nickname = UIHelper.seekNodeByName(self.csbnode, "Text_Nickname")
 		self.text_Nickname:setString(utils.trimUtf8String(player.uname, 5))
 
-		self.text_Gold = UIHelper.seekNodeByName(self.csbnode, "AtlasLabel_Gold")
 		self:updateGold(player.credits)
 
-        self.Node_Pet = used:getChildByName("Node_Bet")
         self:createResItem()
-
-		self.img_Card_1 = UIHelper.seekNodeByName(self.csbnode, "Image_CardIcon_1")
-		self.img_Card_2 = UIHelper.seekNodeByName(self.csbnode, "Image_CardIcon_2")
-		self.img_Mask = UIHelper.seekNodeByName(self.csbnode, "Image_Mask")
-		self.img_Operate = UIHelper.seekNodeByName(self.csbnode, "Image_Operate")
-		self.img_Banker = UIHelper.seekNodeByName(self.csbnode, "Image_Banker")
 
 		if isRight then
 			local posy = self.img_Banker:getPositionY()
 			local posx = self.img_Banker:getPositionX()
 			self.img_Banker:setPosition(cc.p(-posx, posy))
 		end
-
-		self.img_CardType = UIHelper.seekNodeByName(self.csbnode, "Image_CardType")
 
 		self.timerProgress.colorStatus = 1
 		self:updateTimerColor()
@@ -413,16 +413,15 @@ end
 
 function ViewPlayer:clear()
 	local used = UIHelper.seekNodeByName(self.csbnode, "used");
-	if used:isVisible() then
-		self.Node_Pet:setVisible(false)
---		self.text_Bet:setVisible(false)
-		self:setDealedCardStatus(false)
-		self.timerProgress:setVisible(false)
-		self.img_Banker:setVisible(false)
-		self.img_Mask:setVisible(false)
-		self:clearMyCard()
-		self:setCardTypeStatus(false)
-	end
+
+	self.Node_Pet:setVisible(false)
+	self.timerProgress:setVisible(false)
+	self.img_Banker:setVisible(false)
+	self.img_Mask:setVisible(false)
+
+	self:setDealedCardStatus(false)
+	self:clearMyCard()
+	self:setCardTypeStatus(false)
 end
 
 function ViewPlayer:actionEnter(pos)

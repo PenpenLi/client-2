@@ -1,4 +1,4 @@
-local GameConfig = require("app.core.GameConfig")
+local GameConfig = require("app.common.GameConfig")
 local UIHelper = require("app.common.UIHelper")
 local ViewSignAward = class("ViewSignAward", cc.mvc.ViewBase)
 
@@ -21,7 +21,7 @@ print("==============ViewSignAward ===",data.itemNumber,data.coinNumber)
     local img_str = string.format("cocostudio/home/image/sign/sign_get%d.png",self.weekData)  
     self.weekAward:loadTexture(img_str)
     local Atl_weekcoin_number = UIHelper.seekNodeByName(csbnode,"AtlasLabel_week_cn")
-    Atl_weekcoin_number:setString(string.format("%d",data.coinNumber))
+    Atl_weekcoin_number:setString(string.format("%04d",data.coinNumber))
 
     self.weekAward1 = UIHelper.seekNodeByName(csbnode,"Img_week_award_1")
    

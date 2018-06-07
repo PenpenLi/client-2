@@ -74,43 +74,28 @@ function CoordinateServerHandlers.handleBroadcastNotify(content)
         end
     end
 end 
-
-
 ---------------------------------大厅----------------------------------------
 
 function CoordinateServerHandlers.handleGetSignInfo(content)
-
- print("=======================handleGetSignInfo jx ================")
-  --ts if tonumber(content.login_state_) == 0 then
-       local signInfoTable = {}
-       signInfoTable.serial_days = tonumber(content.serial_days_) --连续登入天数
-       signInfoTable.serial_state = tonumber(content.serial_state_)--最多三位数（个位-3天， 十位-6天，百位-9天，0-未领取 1-已领取）
-       signInfoTable.login_day = tonumber(content.login_day_)--当前第几天 当前第几天(1~7)
-       signInfoTable.login_state = tonumber(content.login_state_)--登录奖励状态：0-未领取 1-已领取]]--
-   
-   print("=====show signInfoTable=====")
-   --  if signInfoTable[1].login_state == 0 then
-       APP.hc:showSignLayer(signInfoTable)
-  --ts  end 
-   
-    --APP.hc:CreateSign()
-	--APP:dispatchCustomEvent("SIGN_CREATE_SUCC", content);
+	local signInfoTable = {}
+	signInfoTable.serial_days = tonumber(content.serial_days_) --连续登入天数
+	signInfoTable.serial_state = tonumber(content.serial_state_)--最多三位数（个位-3天， 十位-6天，百位-9天，0-未领取 1-已领取）
+	signInfoTable.login_day = tonumber(content.login_day_)--当前第几天 当前第几天(1~7)
+	signInfoTable.login_state = tonumber(content.login_state_)--登录奖励状态：0-未领取 1-已领取]]--
+	if signInfoTable.login_state == 0 then
+		APP.hc:showSignLayer(signInfoTable)
+	end 
 end
 
 
 function CoordinateServerHandlers.handleAwardInfo(content)
-print("====================================================================handleAwardInfo")
-     dump(content)
-
     local strs = string.split(content.item_, ',')
     
     local awardInfo ={
-
           itemNumber = tonumber(strs[1]),
-          coinNumber = tonumber(strs[2])   
+          coinNumber = tonumber(strs[2])
     } 
-   -- if tonumber(content.)
-   print("=================",awardInfo.itemNumber,awardInfo.coinNumber)
+
    APP.hc:ShowSignAward(awardInfo)
 end 
 

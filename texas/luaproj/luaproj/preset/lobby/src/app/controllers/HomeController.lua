@@ -24,7 +24,7 @@ function HomeController:ctor()
     broadcastView:setPosition(cc.p((display.width - broadcastWidth) / 2, 1150))
     self:addChild(broadcastView)
 
-  -- self:retSignAwardData()
+	self:retSignAwardData()
     self.viewRankH = nil
    
 	APP:addListener(self, "COMMON_ERROR", handler(self, self.onError));
@@ -212,23 +212,12 @@ print("retSignAward  dNumber=",dNumber)
 end
 
 function HomeController:ShowSignAward(data)
-    if self.ViewSignAward == nil then 
-    print("=======================   nooooooooooooooooooooooo")
-      self:addChild(APP:createView("ViewSignAward",data))
+    if self.ViewSignAward == nil then
+		self.ViewSignAward = APP:createView("home.ViewSignAward",data);
+		self:addChild(self.ViewSignAward);
     else
-      print("=======================   yessssssssssssssssssssssssss")
-    self.ViewSignAward:addAward(data)
+		self.ViewSignAward:addAward(data)
     end 
-    
-
-
---[[      local awardInfo ={
-
-          itemNumber = 888,
-          coinNumber = 999
-    } 
- 
-   APP.hc:ShowSignAward(awardInfo)]]--
 end 
 
 

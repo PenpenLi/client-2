@@ -33,18 +33,22 @@ function ViewLogin:ctor(ctrl)
         self:showLogin();
 	end);
 
-    btn_showlogin = UIHelper.seekNodeByName(csbnode, "btn_login_page");
-    btn_showlogin:addTouchEventListener(function(ref, t)
+    local btn_login_page  = UIHelper.seekNodeByName(csbnode, "btn_login_page");
+	local btn_showregister = UIHelper.seekNodeByName(container, "btn_register_page");
+
+    btn_login_page:addTouchEventListener(function(ref, t)
 		if t ~= ccui.TouchEventType.ended then return end;
         --显示登录注册输入界面
 		container:setVisible(true);
+		btn_showregister:setSelected(false);
         self:showLogin();
 	end)
 
-    local btn_showregister = UIHelper.seekNodeByName(container, "btn_register_page");
+    
     btn_showregister:addTouchEventListener(function(ref, t)
 		if t ~= ccui.TouchEventType.ended then return end;
 		self:showRegister();
+		btn_login_page:setSelected(false);
 	end);
     
     local btn_close = UIHelper.seekNodeByName(csbnode, "btn_close");

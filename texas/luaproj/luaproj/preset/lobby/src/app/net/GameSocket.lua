@@ -190,7 +190,7 @@ end
 
 function GameSocket:blockMessage()
 	printLog("a","blockMessage")
-    self._blocked = true
+    --self._blocked = true
 end
 
 function GameSocket:unblockMessage()
