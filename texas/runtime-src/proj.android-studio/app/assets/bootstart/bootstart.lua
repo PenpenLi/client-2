@@ -1,5 +1,5 @@
-
-function babe_tostring(...)
+cc.FileUtils:getInstance():setPopupNotify(false)
+local function babe_tostring(...)
     local num = select("#",...);
     local args = {...};
     local outs = {};
@@ -23,21 +23,65 @@ local babe_output = function(...)
 end
 print = babe_output;
 
+function registerBootstartPackages()
+    package.path = package.path .. ";src_framework/?.lua;"
+    package.path = package.path .. "bootstart/?.lua;"
 
-print("app start!!")
-
-cc.FileUtils:getInstance():setPopupNotify(false)
-
-local pathWritable = cc.FileUtils:getInstance():getWritablePath();
-
---如果应用程序目录下没有main.lua,则从apk包里复制数据到应用程序目录
-if not cc.FileUtils:getInstance():isFileExist(pathWritable.."main.lua") then
-	local presetPackage = package.path;
-	package.path = presetPackage .. "preset/?.lua;"
-	--如果大厅目录下不存在版本文件,从assets里复制出来一份
-	local vcp = require("VersionCompare");
-	vcp:copy_dir("preset/", pathWritable);
-	package.path = presetPackage;
+    local tb = cc.FileUtils:getInstance():getSearchPaths();
+    table.insert(tb, "bootstart/");
+	cc.FileUtils:getInstance():setSearchPaths(tb);
 end
 
-require(pathWritable.."main");
+--注册lua查找文件目录
+registerBootstartPackages();
+--保存lua查找文件目录
+presetPackage = package.path;
+
+--加载cocos组件
+require("config")
+require("cocos.init")
+--加载公用库
+require("common")
+
+local wbPath = cc.FileUtils:getInstance():getWritablePath();
+local loading = require("loading");
+
+--版本检查完毕,启动程序
+local function onVersionCheckePass()
+    local tb = cc.FileUtils:getInstance():getSearchPaths();
+    table.insert(tb, wbPath.."lobby/");
+    table.insert(tb, wbPath.."lobby/res/");
+    table.insert(tb, wbPath.."common/res/");
+    cc.FileUtils:getInstance():setSearchPaths(tb);
+
+    package.path = package.path..wbPath.."common/?.lua;"
+    package.path = package.path..wbPath.."?.lua;"
+    package.path = package.path..wbPath.."lobby/src/?.lua;"
+    presetPackage = package.path;
+
+    --启动程序
+    require("main");
+end
+
+--显示日志归类[A]
+log_filter["a"] = 1;
+
+local function main()
+    local sce = display.newScene("updator");
+    local vw = loading.new():addTo(sce);
+    display.runScene(sce)
+    checkVersion("lobby/", wbPath, "http://poker.game577.com/game_update/texas/", vw, onVersionCheckePass);
+end
+
+__G__TRACKBACK__ = function(msg)
+    local msg = debug.traceback(msg, 3)
+    io.writefile(pa.."runlog.log", "[" ..os.date("%Y-%m-%d %H:%M:%S", os.time()) .. "]" .. msg .. "\r\n", "a");
+	local eventDispatcher = cc.Director:getInstance():getEventDispatcher();
+	eventDispatcher:dispatchEvent({name="SCRIPT_ERROR"});
+    return msg
+end
+
+local status, msg = xpcall(main, __G__TRACKBACK__)
+if not status then
+    print(msg)
+end
