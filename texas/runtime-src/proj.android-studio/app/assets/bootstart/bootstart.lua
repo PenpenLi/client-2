@@ -56,6 +56,7 @@ local function onVersionCheckePass()
 
     package.path = package.path..wbPath.."common/?.lua;"
     package.path = package.path..wbPath.."?.lua;"
+	package.path = package.path..wbPath.."lobby/?.lua;"
     package.path = package.path..wbPath.."lobby/src/?.lua;"
     presetPackage = package.path;
 
@@ -75,7 +76,7 @@ end
 
 __G__TRACKBACK__ = function(msg)
     local msg = debug.traceback(msg, 3)
-    io.writefile(pa.."runlog.log", "[" ..os.date("%Y-%m-%d %H:%M:%S", os.time()) .. "]" .. msg .. "\r\n", "a");
+    io.writefile(wbPath.."runlog.log", "[" ..os.date("%Y-%m-%d %H:%M:%S", os.time()) .. "]" .. msg .. "\r\n", "a");
 	local eventDispatcher = cc.Director:getInstance():getEventDispatcher();
 	eventDispatcher:dispatchEvent({name="SCRIPT_ERROR"});
     return msg
