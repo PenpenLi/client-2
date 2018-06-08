@@ -23,7 +23,7 @@ end
 
 function SocketHandlers.handleMessage(socket_id, data)
 	local content = json.decode(data.content)
-	APP:dispatchCustomEvent("NET_MSG", socket_id, data.subCmd, content)
+	dispatchCustomEvent("NET_MSG", socket_id, data.subCmd, content)
 
     local handler = SocketHandlers.HANDLERS[socket_id][data.subCmd];
     if not handler then return end;

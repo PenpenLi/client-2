@@ -12,7 +12,7 @@ function PrivateRoomResult:ctor(ctrl, container)
 	self.container_ = container;
 	self.index = 0;
 	self.myResults = UIHelper.seekNodeByName(self.csbnode, "ListView_1");
-	APP:addListener(self, "NET_MSG", handler(self, self.onMsg));
+	addListener(self, "NET_MSG", handler(self, self.onMsg));
 	APP.hc:QueryMyResult();
 end
 

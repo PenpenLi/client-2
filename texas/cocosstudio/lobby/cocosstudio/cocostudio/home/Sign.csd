@@ -6,7 +6,7 @@
       <ObjectData Name="qiandao" Tag="33" ctype="GameLayerObjectData">
         <Size X="750.0000" Y="1334.0000" />
         <Children>
-          <AbstractNodeData Name="bg" ActionTag="1875280291" Tag="34" IconVisible="False" LeftMargin="1.4080" RightMargin="-1.4080" TopMargin="-1.0002" BottomMargin="1.0002" LeftEage="247" RightEage="247" TopEage="440" BottomEage="440" Scale9OriginX="247" Scale9OriginY="440" Scale9Width="256" Scale9Height="454" ctype="ImageViewObjectData">
+          <AbstractNodeData Name="bg" ActionTag="1875280291" Tag="34" IconVisible="False" LeftMargin="1.4080" RightMargin="-1.4080" TopMargin="-1.0002" BottomMargin="1.0002" TouchEnable="True" LeftEage="247" RightEage="247" TopEage="440" BottomEage="440" Scale9OriginX="247" Scale9OriginY="440" Scale9Width="256" Scale9Height="454" ctype="ImageViewObjectData">
             <Size X="750.0000" Y="1334.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="376.4080" Y="668.0002" />
@@ -262,7 +262,7 @@
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.1467" Y="0.5112" />
-            <PreSize X="0.0613" Y="0.0345" />
+            <PreSize X="0.2120" Y="0.1777" />
             <FileData Type="Normal" Path="cocostudio/home/image/sign/sin_item_shade.png" Plist="" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
@@ -339,7 +339,7 @@
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.1681" Y="0.4490" />
-            <PreSize X="0.2120" Y="0.1777" />
+            <PreSize X="0.1720" Y="0.0547" />
             <FileData Type="Normal" Path="cocostudio/home/image/sign/sign_item_had_got.png" Plist="" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
@@ -408,6 +408,21 @@
             <PreSize X="0.1720" Y="0.0547" />
             <FileData Type="Normal" Path="cocostudio/home/image/sign/sign_item_had_got.png" Plist="" />
             <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Button_Close" ActionTag="1791240151" Tag="411" IconVisible="False" LeftMargin="683.9668" RightMargin="15.0332" TopMargin="14.8217" BottomMargin="1269.1783" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="21" Scale9Height="28" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+            <Size X="51.0000" Y="50.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="709.4668" Y="1294.1783" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.9460" Y="0.9701" />
+            <PreSize X="0.0680" Y="0.0375" />
+            <TextColor A="255" R="65" G="65" B="70" />
+            <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
+            <PressedFileData Type="Normal" Path="cocostudio/common/image/tongyong_cha2.png" Plist="" />
+            <NormalFileData Type="Normal" Path="cocostudio/common/image/tongyong_cha1.png" Plist="" />
+            <OutlineColor A="255" R="255" G="0" B="0" />
+            <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
         </Children>
       </ObjectData>

@@ -23,7 +23,7 @@ function ViewPlayer:ctor(clipos)
 		self.isRight = false;
 	end
 
-    APP:addListener(self, "NET_MSG", handler(self, self.onMsg));
+    addListener(self, "NET_MSG", handler(self, self.onMsg));
 
 	self.csbnode = cc.CSLoader:createNode("cocostudio/game/PlayerNode.csb")
 	self.csbnode:addTo(self)

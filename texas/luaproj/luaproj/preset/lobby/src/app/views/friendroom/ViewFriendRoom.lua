@@ -42,7 +42,7 @@ function ViewFriendRoom:ctor()
         end
     end)
 
-	APP:addListener(self, "NET_MSG", handler(self, self.onMsg));
+	addListener(self, "NET_MSG", handler(self, self.onMsg));
 	APP.hc:QueryMyPrivateRoom();
 end
 

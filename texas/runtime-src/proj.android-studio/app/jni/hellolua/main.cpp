@@ -16,3 +16,8 @@ void cocos_android_app_init(JNIEnv* env) {
     LOGD("cocos_android_app_init");
     appDelegate.reset(new AppDelegate());
 }
+
+std::string get_cmdline(std::string str)
+{
+    return "";
+}

@@ -50,6 +50,19 @@ int sign_varibles(lua_State* L)
 	return 1;
 }
 
+extern std::string get_cmdline(std::string str);
+
+int get_cmdline(lua_State* L)
+{
+	std::string ret;
+	if (lua_type(L, 1) == LUA_TSTRING){
+		std::string opt = lua_tostring(L, 1);
+		ret = get_cmdline(opt);
+	}
+	lua_pushstring(L, ret.c_str());
+	return 1;
+}
+
 //base64 encode
 int encode_base64(lua_State* L)
 {
@@ -164,5 +177,6 @@ int register_lua_api(lua_State* L)
 	DEF_FUNCTION(vsp_is_working);
 	DEF_FUNCTION(vsp_clean);
 	DEF_FUNCTION(vsp_copy_dir);
+	DEF_FUNCTION(get_cmdline);
 	return 1;
 };

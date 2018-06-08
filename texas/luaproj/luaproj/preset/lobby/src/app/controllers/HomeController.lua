@@ -27,7 +27,7 @@ function HomeController:ctor()
 	self:retSignAwardData()
     self.viewRankH = nil
    
-	APP:addListener(self, "COMMON_ERROR", handler(self, self.onError));
+	addListener(self, "COMMON_ERROR", handler(self, self.onError));
 end
 
 function  HomeController:findPrivateRoom(roomId)

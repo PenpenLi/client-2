@@ -48,7 +48,7 @@ end
 function CreatePrivateRoom:createRoom()
 	APP.hc:createPrivateRoom(self:getConfigSet(), self:getDurSet());
 
-	APP:addListener(self, "ROOM_CREATE_SUCC", 
+	addListener(self, "ROOM_CREATE_SUCC", 
 	function(content) 
 		APP.hc:enterRoom(tonumber(content.roomid_), 0)
 	end);

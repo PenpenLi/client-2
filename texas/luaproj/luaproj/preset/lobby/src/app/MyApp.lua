@@ -38,30 +38,6 @@ function MyApp:run()
     self:ActiveCtrl("LoginController");
 end
 
-function MyApp:addListener(node, evtName, callback)
-    local evt = cc.EventListenerCustom:create(evtName,
-    function(e)
-        callback(unpack(e.param));
-    end);
-
-    local dispatcher = cc.Director:getInstance():getEventDispatcher()
-    dispatcher:addEventListenerWithSceneGraphPriority(evt, node)
-    return evt
-end
-
---移除事件
-function MyApp:removeListener(evt)
-	local dispatcher = cc.Director:getInstance():getEventDispatcher();
-    dispatcher:removeEventListener(evt);
-end
-
-function MyApp:dispatchCustomEvent(evtName, ...)
-    local e = cc.EventCustom:new(evtName)
-    e.param = {...}
-    local dispatcher = cc.Director:getInstance():getEventDispatcher()
-    dispatcher:dispatchEvent(e)
-end
-
 function MyApp:ActiveCtrl(ctrl, preload)
     self:resetController();
     if ctrl == "HomeController" then

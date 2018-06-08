@@ -38,10 +38,10 @@ function CoordinateServerHandlers.CommonReply(content)
             SOCKET_MANAGER.sendToCoordinateServer(CMD.COORDINATE_GET_GAME_SERVER_REQ, data)
 
         else
-            APP:dispatchCustomEvent("COMMON_ERROR", APP.GD.LANG.ERR_CANNOT_FIND_COOR);
+            dispatchCustomEvent("COMMON_ERROR", APP.GD.LANG.ERR_CANNOT_FIND_COOR);
         end
     elseif cmd == CMD.COORDINATE_GET_GAME_SERVER_REQ then
-        APP:dispatchCustomEvent("COMMON_ERROR", APP.GD.LANG.ERR_CANNOT_FIND_GAME);
+        dispatchCustomEvent("COMMON_ERROR", APP.GD.LANG.ERR_CANNOT_FIND_GAME);
     end
 end
 

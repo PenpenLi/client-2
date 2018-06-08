@@ -444,6 +444,8 @@
               <Image Name="login_bg.png" />
               <Fnt Name="paihangbang_jinershuzi-export.fnt" />
               <Image Name="paihangbang_weishangbang.png" />
+              <Fnt Name="qiandao_jinbishuzi-export.fnt" />
+              <Image Name="qiandao_jinbishuzi-export.png" />
               <Image Name="shezhi_yinyueguan.png" />
               <Image Name="shezhi_yinyuekai.png" />
               <Image Name="zhujiemian_zhezhao.png" />

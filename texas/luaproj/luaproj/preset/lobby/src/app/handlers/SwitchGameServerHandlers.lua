@@ -55,7 +55,7 @@ function SwitchGameServerHandlers.CommonReplyGame(content)
     local err = tonumber(content.err_)
     if cmd == CMD.GAME_USER_LOGIN_GAME_REQ then
 		if err ~= ErrorCode.error_success then
-			APP:dispatchCustomEvent("COMMON_ERROR", LANG.ERR_LOGIN_GAME_FAILED);
+			dispatchCustomEvent("COMMON_ERROR", LANG.ERR_LOGIN_GAME_FAILED);
 		end
     end;
 end

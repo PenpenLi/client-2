@@ -44,7 +44,7 @@ function GameCommonHandlers.CommonReply(content)
     local err = tonumber(content.err_)
     if cmd == CMD.GAME_USER_LOGIN_GAME_REQ then
 		if err ~= ErrorCode.error_success then
-		    APP:dispatchCustomEvent("COMMON_ERROR", LANG.ERR_LOGIN_GAME_FAILED);
+		    dispatchCustomEvent("COMMON_ERROR", LANG.ERR_LOGIN_GAME_FAILED);
 		end
 	elseif cmd == CMD.GAME_PLAYER_LEAVE_REQ then
 		if err == ErrorCode.error_success then
@@ -61,7 +61,7 @@ function GameCommonHandlers.CommonReply(content)
 		end
 	elseif cmd == CMD.GAME_ENTER_GAME_REQ then
 		if err ~= ErrorCode.error_success then
-		    APP:dispatchCustomEvent("COMMON_ERROR", {desc = LANG.ERR[cmd][err]});
+		    dispatchCustomEvent("COMMON_ERROR", {desc = LANG.ERR[cmd][err]});
 		end
 	elseif cmd == CMD.GAME_CREATE_ROOM then
 		APP:getCurrentController():showAlertOK({desc = LANG.ERR[cmd][err]})
@@ -92,7 +92,7 @@ end
 
 function GameCommonHandlers.createRoomRet(content)
 	printLog("a", "房间创建成功. roomid" .. content.roomid_);
-	APP:dispatchCustomEvent("ROOM_CREATE_SUCC", content);
+	dispatchCustomEvent("ROOM_CREATE_SUCC", content);
 end
 
 function GameCommonHandlers.handleServerParameters(content)

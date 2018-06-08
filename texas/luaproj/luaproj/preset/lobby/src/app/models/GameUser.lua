@@ -28,7 +28,7 @@ function GameUser:ctor()
     self.total_played = 0               -- 总局数
     self.is_observer_ = 1;              -- 是否正在观战
 
-    --APP:addListener(self, "NET_MSG", handler(self, self.onMsg));
+    --addListener(self, "NET_MSG", handler(self, self.onMsg));
 
 end
 

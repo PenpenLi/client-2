@@ -470,6 +470,12 @@
       <excludeFolder url="file://$MODULE_DIR$/build/reports" />
       <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
     </content>
+    <content url="file://$MODULE_DIR$/../../../../unzip">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../unzip" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../version_compare">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../version_compare" isTestSource="false" />
+    </content>
     <orderEntry type="jdk" jdkName="Android API 14 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Gradle: __local_aars__:G.\my_git_code\client\texas\cocos2d-x\cocos\platform\android\java\libs\httpclient-4.4.1.1.jar:unspecified@jar" level="project" />

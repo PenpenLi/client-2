@@ -45,7 +45,7 @@ end
 function ViewChat:ctor()
 	ViewChat.super.ctor(self)
 
-	APP:addListener(self, "NET_MSG", handler(self, self.onMsg));
+	addListener(self, "NET_MSG", handler(self, self.onMsg));
 
 
 	self.recordY = 50

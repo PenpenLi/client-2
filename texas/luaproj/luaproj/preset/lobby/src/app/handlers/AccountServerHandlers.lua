@@ -32,17 +32,17 @@ function AccountServerHandlers.CommonReply(content)
     if cmd == CMD.ACCOUNT_USER_LOGIN_REQ then
         -- 认证失败
         if err ~= ErrorCode.error_success then
-            APP:dispatchCustomEvent("COMMON_ERROR", LANG.ERR_ACCOUNT_OR_PWD);
+            dispatchCustomEvent("COMMON_ERROR", LANG.ERR_ACCOUNT_OR_PWD);
         end
     elseif cmd == CMD.ACCOUNT_REGISTER then
         if err ~= 0 then
-            APP:dispatchCustomEvent("COMMON_ERROR", LANG.ERR[cmd][err]);
+            dispatchCustomEvent("COMMON_ERROR", LANG.ERR[cmd][err]);
         else
             APP.lc:autoLogin();
         end 
     elseif cmd == CMD.ACCOUNT_GET_GAME_COORDINATE_REQ then
         if err ~= ErrorCode.error_success then
-            APP:dispatchCustomEvent("COMMON_ERROR", LANG.ERR_CANNOT_FIND_COOR);
+            dispatchCustomEvent("COMMON_ERROR", LANG.ERR_CANNOT_FIND_COOR);
         end
     end
 end

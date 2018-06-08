@@ -6,7 +6,7 @@
       <ObjectData Name="Rank" Tag="242" ctype="GameLayerObjectData">
         <Size X="750.0000" Y="1334.0000" />
         <Children>
-          <AbstractNodeData Name="Panel_1" ActionTag="-1563731738" Alpha="179" Tag="164" IconVisible="False" TouchEnable="True" ClipAble="False" ComboBoxIndex="1" ColorAngle="90.0000" ctype="PanelObjectData">
+          <AbstractNodeData Name="Panel_1" ActionTag="-1563731738" Alpha="179" Tag="164" IconVisible="False" TouchEnable="True" ClipAble="False" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
             <Size X="750.0000" Y="1334.0000" />
             <AnchorPoint />
             <Position />
@@ -95,7 +95,7 @@
             <PreSize X="0.8467" Y="0.1297" />
             <FileData Type="Normal" Path="cocostudio/home/image/Rank/rank_down_bg.png" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Image_m_bg" ActionTag="-318611727" Tag="325" IconVisible="False" LeftMargin="64.9434" RightMargin="53.0566" TopMargin="1012.1431" BottomMargin="169.8570" LeftEage="208" RightEage="208" TopEage="50" BottomEage="50" Scale9OriginX="208" Scale9OriginY="50" Scale9Width="216" Scale9Height="52" ctype="ImageViewObjectData">
+          <AbstractNodeData Name="Image_m_bg" ActionTag="-318611727" Tag="325" IconVisible="False" LeftMargin="64.9434" RightMargin="53.0566" TopMargin="1012.1430" BottomMargin="169.8570" LeftEage="208" RightEage="208" TopEage="50" BottomEage="50" Scale9OriginX="208" Scale9OriginY="50" Scale9Width="216" Scale9Height="52" ctype="ImageViewObjectData">
             <Size X="632.0000" Y="152.0000" />
             <Children>
               <AbstractNodeData Name="Image_m_head" ActionTag="1604408169" Tag="18" IconVisible="False" LeftMargin="127.1378" RightMargin="397.8622" TopMargin="24.9082" BottomMargin="19.0918" LeftEage="35" RightEage="35" TopEage="35" BottomEage="35" Scale9OriginX="35" Scale9OriginY="35" Scale9Width="37" Scale9Height="38" ctype="ImageViewObjectData">

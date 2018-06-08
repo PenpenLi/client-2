@@ -149,7 +149,7 @@ function GameSocket:onSocketEvent(event)
     elseif event.name == SocketTCP.EVENT_CONNECT_FAILURE then
     	printLog("a","[GameSocket] [%s] connect failure", self._name)
         local LANG =APP.GD.LANG
-        APP:dispatchCustomEvent("COMMON_ERROR", LANG.ERR_SOCKET_CONNECT)
+        dispatchCustomEvent("COMMON_ERROR", LANG.ERR_SOCKET_CONNECT)
     else
         assert(0, "[GameSocket] unknown event")
     end

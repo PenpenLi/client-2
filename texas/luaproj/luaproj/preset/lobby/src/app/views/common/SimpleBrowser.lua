@@ -62,7 +62,9 @@ function SimpleBrowser:ctor(options)
     end
 	local container = csbnode:getChildByName("container");
     if device.platform == "ios" or device.platform == "android" then
+		printLog("a", "createWebView");
 	    self.webview = ccexp.WebView:create()
+		printLog("a", "createWebView created");
         self.webview:align(container.CENTER, container.width / 2, container.height / 2)
         self.webview:setContentSize(container:getContentSize())
         self.webview:setScalesPageToFit(true)

@@ -22,7 +22,7 @@ function PrivateRoomResultDetail:ctor(ctrl, container, content)
 	self.index = 0;
 	APP.hc:QueryMyResultDetail(content.sn_);
 
-	APP:addListener(self, "NET_MSG", handler(self, self.onMsg));
+	addListener(self, "NET_MSG", handler(self, self.onMsg));
 	
 	local txtName = UIHelper.seekNodeByName(self.csbnode,"txtName");
 	txtName:setString(content.master_);

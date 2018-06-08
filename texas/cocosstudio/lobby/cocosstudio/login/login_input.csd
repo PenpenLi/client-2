@@ -6,10 +6,10 @@
       <ObjectData Name="login_frame" Tag="20" ctype="GameNodeObjectData">
         <Size X="0.0000" Y="0.0000" />
         <Children>
-          <AbstractNodeData Name="bg1" ActionTag="-2006370433" Tag="21" IconVisible="False" LeftMargin="-313.7880" RightMargin="-319.2120" TopMargin="-403.1439" BottomMargin="-405.8561" ctype="SpriteObjectData">
+          <AbstractNodeData Name="bg1" ActionTag="-2006370433" Tag="21" IconVisible="False" LeftMargin="-316.5000" RightMargin="-316.5000" TopMargin="-404.5000" BottomMargin="-404.5000" ctype="SpriteObjectData">
             <Size X="633.0000" Y="809.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="2.7120" Y="-1.3561" />
+            <Position />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
@@ -42,37 +42,35 @@
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="btn_login_page" ActionTag="1900812500" Tag="24" IconVisible="False" LeftMargin="-295.2357" RightMargin="-4.7643" TopMargin="-296.6470" BottomMargin="178.6470" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="270" Scale9Height="96" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+          <AbstractNodeData Name="btn_login_page" ActionTag="267652640" Tag="214" IconVisible="False" LeftMargin="-299.9764" RightMargin="-0.0236" TopMargin="-298.5483" BottomMargin="180.5483" TouchEnable="True" CheckedState="True" ctype="CheckBoxObjectData">
             <Size X="300.0000" Y="118.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="-145.2357" Y="237.6470" />
+            <Position X="-149.9764" Y="239.5483" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />
-            <TextColor A="255" R="65" G="65" B="70" />
-            <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
-            <PressedFileData Type="Normal" Path="login/denglu_denglu1.png" Plist="" />
-            <NormalFileData Type="Normal" Path="login/denglu_denglu2.png" Plist="" />
-            <OutlineColor A="255" R="255" G="0" B="0" />
-            <ShadowColor A="255" R="110" G="110" B="110" />
+            <NormalBackFileData Type="Normal" Path="login/denglu_denglu2.png" Plist="" />
+            <PressedBackFileData Type="Normal" Path="login/denglu_denglu2.png" Plist="" />
+            <DisableBackFileData Type="Normal" Path="login/denglu_denglu2.png" Plist="" />
+            <NodeNormalFileData Type="Normal" Path="login/denglu_denglu1.png" Plist="" />
+            <NodeDisableFileData Type="Normal" Path="login/denglu_denglu1.png" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="btn_register_page" ActionTag="2032148841" Tag="25" IconVisible="False" LeftMargin="4.6858" RightMargin="-301.6858" TopMargin="-296.6469" BottomMargin="184.6469" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="267" Scale9Height="90" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+          <AbstractNodeData Name="btn_register_page" ActionTag="-868754241" Tag="213" IconVisible="False" LeftMargin="3.1322" RightMargin="-300.1322" TopMargin="-298.5483" BottomMargin="186.5483" TouchEnable="True" ctype="CheckBoxObjectData">
             <Size X="297.0000" Y="112.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="153.1858" Y="240.6469" />
+            <Position X="151.6322" Y="242.5483" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />
-            <TextColor A="255" R="65" G="65" B="70" />
-            <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
-            <PressedFileData Type="Normal" Path="login/denglu_zhuce2.png" Plist="" />
-            <NormalFileData Type="Normal" Path="login/denglu_zhuce11.png" Plist="" />
-            <OutlineColor A="255" R="255" G="0" B="0" />
-            <ShadowColor A="255" R="110" G="110" B="110" />
+            <NormalBackFileData Type="Normal" Path="login/denglu_zhuce2.png" Plist="" />
+            <PressedBackFileData Type="Normal" Path="login/denglu_zhuce2.png" Plist="" />
+            <DisableBackFileData Type="Normal" Path="login/denglu_zhuce2.png" Plist="" />
+            <NodeNormalFileData Type="Normal" Path="login/denglu_zhuce11.png" Plist="" />
+            <NodeDisableFileData Type="Normal" Path="login/denglu_zhuce11.png" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="register_page" Visible="False" ActionTag="-1812281686" Tag="54" IconVisible="False" LeftMargin="-283.5868" RightMargin="-296.4132" TopMargin="-121.1044" BottomMargin="-378.8956" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
+          <AbstractNodeData Name="register_page" Visible="False" ActionTag="-1812281686" Tag="54" IconVisible="False" LeftMargin="-283.5868" RightMargin="-296.4132" TopMargin="-121.1044" BottomMargin="-378.8956" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
             <Size X="580.0000" Y="500.0000" />
             <Children>
               <AbstractNodeData Name="bg1" ActionTag="470842677" Tag="38" IconVisible="False" LeftMargin="10.9765" RightMargin="432.0235" TopMargin="-25.3745" BottomMargin="187.3745" ctype="SpriteObjectData">
@@ -204,7 +202,7 @@
             <EndColor A="255" R="255" G="255" B="255" />
             <ColorVector ScaleY="1.0000" />
           </AbstractNodeData>
-          <AbstractNodeData Name="login_page" ActionTag="1662478740" Tag="55" IconVisible="False" LeftMargin="-270.2761" RightMargin="70.2761" TopMargin="133.2177" BottomMargin="-333.2177" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
+          <AbstractNodeData Name="login_page" ActionTag="1662478740" Tag="55" IconVisible="False" LeftMargin="-270.2761" RightMargin="70.2761" TopMargin="133.2177" BottomMargin="-333.2177" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
             <Size X="200.0000" Y="200.0000" />
             <Children>
               <AbstractNodeData Name="bg1" ActionTag="-1925006448" Tag="26" IconVisible="False" LeftMargin="-0.8975" RightMargin="63.8975" TopMargin="-252.8225" BottomMargin="316.8225" ctype="SpriteObjectData">

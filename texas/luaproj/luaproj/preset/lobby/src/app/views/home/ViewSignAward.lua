@@ -20,9 +20,7 @@ printLog("a","==============ViewSignAward ===",data.itemNumber,data.coinNumber)
     self.weekAward:loadTexture(img_str)
 
     local Atl_weekcoin_number = UIHelper.seekNodeByName(csbnode,"AtlasLabel_week_cn")
-	printLog("a",string.format("%d",data.coinNumber))
     Atl_weekcoin_number:setString(string.format("%d金币",data.coinNumber))
-	printLog("a","Atl_weekcoin_number:setString")
 
     self.weekAward1 = UIHelper.seekNodeByName(csbnode,"Img_week_award_1")
    

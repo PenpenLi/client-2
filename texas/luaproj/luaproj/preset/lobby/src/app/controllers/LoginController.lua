@@ -22,7 +22,7 @@ function LoginController:ctor()
 
     cmdStart:execute();
  
-    APP:addListener(self, "COMMON_ERROR", handler(self, self.loginError));
+    addListener(self, "COMMON_ERROR", handler(self, self.loginError));
 end
 
 function LoginController:netKeepAlive()
@@ -35,7 +35,7 @@ function LoginController:netSendLogin(login_options)
     if cmdLogin.login(login_options) == 0 then
         self:showWaiting();
     else
-        APP:dispatchCustomEvent("COMMON_ERROR", APP.GD.LANG.ERR_SOCKET_CONNECT);
+        dispatchCustomEvent("COMMON_ERROR", APP.GD.LANG.ERR_SOCKET_CONNECT);
     end;
 end
 
@@ -72,7 +72,7 @@ end
 
 function LoginController:onExit()
 	LoginController.super.onExit(self)
-    APP:removeListener();
+    removeListener();
 	-- SoundUtils.unloadGameSound()
 end
 

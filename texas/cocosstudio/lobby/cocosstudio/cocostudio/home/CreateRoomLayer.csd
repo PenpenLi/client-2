@@ -71,7 +71,7 @@
             <PreSize X="0.1933" Y="0.0247" />
             <FileData Type="Normal" Path="cocostudio/home/image/friendroom/haoyouchang_shichang.png" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="CheckBox_Time_1" ActionTag="191428073" Tag="30" IconVisible="False" LeftMargin="32.6979" RightMargin="606.3021" TopMargin="770.9341" BottomMargin="486.0659" TouchEnable="True" ctype="CheckBoxObjectData">
+          <AbstractNodeData Name="CheckBox_Time_1" ActionTag="191428073" Tag="30" IconVisible="False" LeftMargin="32.6979" RightMargin="606.3021" TopMargin="770.9341" BottomMargin="486.0659" TouchEnable="True" CheckedState="True" ctype="CheckBoxObjectData">
             <Size X="111.0000" Y="77.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="88.1979" Y="524.5659" />
