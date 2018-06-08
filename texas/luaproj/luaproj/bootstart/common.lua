@@ -77,3 +77,26 @@ function	checkVersion(contex, localp, remotep, vw, onSucc)
 		vw:setError("检查版本失败.");
     end
 end
+
+function dispatchCustomEvent(evtName, ...)
+    local e = cc.EventCustom:new(evtName)
+    e.param = {...}
+    local dispatcher = cc.Director:getInstance():getEventDispatcher()
+    dispatcher:dispatchEvent(e)
+end
+--移除事件
+function removeListener(evt)
+	local dispatcher = cc.Director:getInstance():getEventDispatcher();
+    dispatcher:removeEventListener(evt);
+end
+
+function addListener(node, evtName, callback)
+    local evt = cc.EventListenerCustom:create(evtName,
+    function(e)
+        callback(unpack(e.param));
+    end);
+
+    local dispatcher = cc.Director:getInstance():getEventDispatcher()
+    dispatcher:addEventListenerWithSceneGraphPriority(evt, node)
+    return evt
+end
