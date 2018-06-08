@@ -10,7 +10,7 @@ local HEAD_COUNT = 8
 function ViewModifyPersonal:ctor()
 	ViewModifyPersonal.super.ctor(self)
 
-    APP:addListener(self, "NET_MSG", handler(self, self.onMsg));
+    addListener(self, "NET_MSG", handler(self, self.onMsg));
 
     local gameUser = APP.GD.GameUser
     local headID = tonumber(gameUser.head_pic) == 0 and 1 or tonumber(gameUser.head_pic)

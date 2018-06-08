@@ -9,7 +9,7 @@ local head_icon = constUtils.head_icon
 
 function ViewPersonal:ctor()
 	ViewPersonal.super.ctor(self)
-    APP:addListener(self, "NET_MSG", handler(self, self.onMsg));
+    addListener(self, "NET_MSG", handler(self, self.onMsg));
 
 
 	local csbnode = cc.CSLoader:createNode("cocostudio/home/PersonalLayer.csb")

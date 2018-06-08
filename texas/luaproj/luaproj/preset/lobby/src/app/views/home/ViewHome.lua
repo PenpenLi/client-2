@@ -7,7 +7,7 @@ local head_icon = constUtils.head_icon
 function ViewHome:ctor()
 	ViewHome.super.ctor(self)
 
-	APP:addListener(self, "NET_MSG", handler(self, self.onMsg));
+	addListener(self, "NET_MSG", handler(self, self.onMsg));
 
 	local csbnode = cc.CSLoader:createNode("cocostudio/home/HomeLayer.csb")
 	csbnode:addTo(self)

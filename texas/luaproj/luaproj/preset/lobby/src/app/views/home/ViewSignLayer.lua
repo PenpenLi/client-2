@@ -23,31 +23,29 @@ function ViewSignLayer:ctor(signInfoTable)
    
    --美术资源给的是checkbox 看后面需求改
     for i = 1, 7 do
-       local check_str = string.format("Btn_d%d",i)
-       local check_coin = UIHelper.seekNodeByName(csbnode,check_str) 
+		local check_str = string.format("Btn_d%d",i)
+		local check_coin = UIHelper.seekNodeByName(csbnode,check_str) 
 
-       local sprite_str = string.format("Sprite_%d",i)
-       sprite_shade = UIHelper.seekNodeByName(csbnode,sprite_str) 
+		local sprite_str = string.format("Sprite_%d",i)
+		sprite_shade = UIHelper.seekNodeByName(csbnode,sprite_str) 
 
 
-       local sprite_got_str = string.format("Sprite_g_%d",i)
-       sprite_got = UIHelper.seekNodeByName(csbnode,sprite_got_str)
+		local sprite_got_str = string.format("Sprite_g_%d",i)
+		sprite_got = UIHelper.seekNodeByName(csbnode,sprite_got_str)
 
-       if i < self.serial_days+1 then 
-           check_coin:setEnabled(false)
-
-           sprite_shade:setVisible(true)
-           sprite_got:setVisible(true)
-       elseif(i == self.serial_days + 1  )then
-           sprite_shade:setVisible(false)
-           sprite_got:setVisible(false)
-        else 
-    
-            check_coin:setEnabled(false)
-            check_coin:setBright(true) 
-            sprite_shade:setVisible(false)
-            sprite_got:setVisible(false)
-        end
+		if i < self.serial_days+1 then 
+			check_coin:setEnabled(false)
+			sprite_shade:setVisible(true)
+			sprite_got:setVisible(true)
+		elseif(i == self.serial_days + 1  )then
+			sprite_shade:setVisible(false)
+			sprite_got:setVisible(false)
+		else 
+			check_coin:setEnabled(false)
+			check_coin:setBright(true) 
+			sprite_shade:setVisible(false)
+			sprite_got:setVisible(false)
+		end
     
     end 
 
@@ -92,7 +90,6 @@ end
 
 function ViewSignLayer:onEnter()
     ViewSignLayer.super.onEnter(self)
-
 end
 
 function ViewSignLayer:onExit()
@@ -104,18 +101,11 @@ function ViewSignLayer:getAward()
 print("==============getAward==================")
 	if(self.login_day - 1 == self.serial_days) then 
 		APP.hc:retSignAward(0);
-		    local awardInfo ={
-			itemNumber = 1,
-			coinNumber = 200000
-			} 
-
-		APP.hc:ShowSignAward(awardInfo)
 	end
 
-  if self.continuousAward ~= 0 then
-    print("retSignAward paraketer=",self.continuousAward)
-      APP.hc:retSignAward(self.continuousAward)
-  end 
+	if self.continuousAward ~= 0 then
+		APP.hc:retSignAward(self.continuousAward)
+	end 
 end
 
 
