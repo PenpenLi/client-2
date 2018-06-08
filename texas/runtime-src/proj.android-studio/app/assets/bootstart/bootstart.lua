@@ -23,6 +23,7 @@ local babe_output = function(...)
 end
 print = babe_output;
 
+--注册最基础的lua文件目录
 function registerBootstartPackages()
     package.path = package.path .. ";src_framework/?.lua;"
     package.path = package.path .. "bootstart/?.lua;"
@@ -32,8 +33,9 @@ function registerBootstartPackages()
 	cc.FileUtils:getInstance():setSearchPaths(tb);
 end
 
---注册lua查找文件目录
+--注册lua查找文件目录,在此之后才能用到cocos2d lua类
 registerBootstartPackages();
+
 --保存lua查找文件目录
 presetPackage = package.path;
 
@@ -82,6 +84,7 @@ end
 --显示日志归类[A]
 log_filter["a"] = 1;
 
+--如果启动参数中有-debug,则不进行热更新,并且目录切换到preset下.避免热更新造成麻烦
 local function main()
     local sce = display.newScene("updator");
     local vw = loading.new():addTo(sce);
@@ -93,14 +96,15 @@ local function main()
 	end;
 end
 
+--设置全局异常处理,写入日志文件+派发错误事件让子模块处理错误
 __G__TRACKBACK__ = function(msg)
     local msg = debug.traceback(msg, 3)
     io.writefile(wbPath.."runlog.log", "[" ..os.date("%Y-%m-%d %H:%M:%S", os.time()) .. "]" .. msg .. "\r\n", "a");
-	local eventDispatcher = cc.Director:getInstance():getEventDispatcher();
-	eventDispatcher:dispatchEvent({name="SCRIPT_ERROR"});
+	dispatchCustomEvent("SCRIPT_ERROR");
     return msg
 end
 
+--lua运行环境已经准备好,可以开始运行了
 local status, msg = xpcall(main, __G__TRACKBACK__)
 if not status then
     print(msg)
