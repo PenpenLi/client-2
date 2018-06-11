@@ -768,7 +768,14 @@ int version_manager::do_sync_version()
 		}
 	}
 
-	state_ = st_finished;
+	state_ = st_verify_version;
+	int chk = check_update(exe_, local_path_, remote_path_);
+	if (chk == error_version_willupdate){
+		state_ = st_oldversion_remains;
+	}
+	else {
+		state_ = st_finished;
+	}
 	return error_noerror;
 }
  
@@ -865,8 +872,7 @@ int version_manager::do_sync_version()
 
  	locv->reset();
  	remv->reset();
- 	remote_version_data.clear();
- 
+
  	std::string filep = local_path + "version_config.xml";
  	//本地版本文件
  	boost::property_tree::ptree local_xml;
@@ -881,11 +887,13 @@ int version_manager::do_sync_version()
  		build_version_tree_from_xml(local_path, local_xml.front(), locv, false, true);
  	}
 
-	boost::asio::io_service tmp_ios;
- 	//远程版本文件
- 	int ret = get_http_data(remote_path + "version_config.xml", remote_version_data, tmp_ios, true, "cache-control:no-cache\r\n");
-	if (ret != error_noerror){
-		return error_netio_failed;
+	if (remote_version_data.empty()) {
+		boost::asio::io_service tmp_ios;
+		//远程版本文件
+		int ret = get_http_data(remote_path + "version_config.xml", remote_version_data, tmp_ios, true, "cache-control:no-cache\r\n");
+		if (ret != error_noerror) {
+			return error_netio_failed;
+		}
 	}
 
  	boost::property_tree::ptree remote_xml;
