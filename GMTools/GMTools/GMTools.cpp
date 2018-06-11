@@ -13,6 +13,9 @@ GMTools::GMTools(QWidget *parent)
 	: QDialog(parent)
 {
 	state_ = 0;
+	auto_set_times_ = 1;
+	maxset_ = 1;
+
 	ui = new Ui::GMToolsClass();
 	ui->setupUi(this);
 	QTimer::singleShot(20, this, SLOT(step()));
@@ -22,8 +25,9 @@ GMTools::GMTools(QWidget *parent)
 	connect(ui->btn_reset, SIGNAL(clicked()), this, SLOT(on_reset()));
 	ui->cmb_functions->clear();
 
-	ui->cmb_functions->addItem("Dynamic set user stock", 1);
-	ui->cmb_functions->addItem("Disable user stock", 2);
+	ui->cmb_functions->addItem("Dynamic Set User Stock", 1);
+	ui->cmb_functions->addItem("Disable User Stock", 2);
+	ui->cmb_functions->addItem("Query System Balance", 3);
 }
 
 GMTools::~GMTools()
@@ -36,6 +40,15 @@ void GMTools::step()
 	QTimer::singleShot(20, this, SLOT(step()));
 
 	main_controller::get_instance()->step();
+}
+
+void GMTools::auto_set()
+{
+	if (auto_set_times_ >= maxset_) return;
+	write_log("auto set times:" + lx2s(auto_set_times_));
+	do_send_cmd();
+	auto_set_times_++;
+	schedule_for_next();
 }
 
 void GMTools::on_logingame()
@@ -73,7 +86,7 @@ void GMTools::on_logingame()
 	}
 }
 
-void GMTools::on_sendcmd()
+void GMTools::do_send_cmd()
 {
 	int	func = ui->cmb_functions->currentData(Qt::UserRole).toInt();
 	if (func == 1) {
@@ -96,6 +109,46 @@ void GMTools::on_sendcmd()
 			param += "{93531DC0-9663-47E1-87F4-33EB8B0EE9D7}";
 		}
 		the_instance->net_send_cmd(param);
+	}
+	else if (func == 3){
+		write_log("sending command:Query System Balance.");
+		std::string param = "showdata ";
+		param += "func2 ";
+		param += "{D9ED4D4D-1565-4224-AD64-1D05801E4BC5}";
+		the_instance->net_send_cmd(param);
+	}
+}
+
+void GMTools::schedule_for_next()
+{
+	QTimer::singleShot(rand_r(60000, 160000), this, SLOT(auto_set()));
+}
+
+void GMTools::on_sendcmd()
+{
+	int	func = ui->cmb_functions->currentData(Qt::UserRole).toInt();
+	if (func == 3){
+		auto_set_times_ = maxset_;
+		ui->btn_sendcmd->setText("send command!");
+		do_send_cmd();
+	}
+	else {
+		//如果当前正在自动设置,则停止自动设置
+		if (auto_set_times_ < maxset_ && maxset_ > 1) {
+			auto_set_times_ = maxset_;
+			ui->btn_sendcmd->setText("send command!");
+		}
+		//如果当前没有自动设置,则开始自动设置
+		else if (auto_set_times_ >= maxset_) {
+			maxset_ = ui->edt_autoc->text().toInt();
+			do_send_cmd();
+			auto_set_times_ = 1;
+			ui->btn_sendcmd->setText("sending command...");
+			schedule_for_next();
+		}
+		else {
+			do_send_cmd();
+		}
 	}
 }
 

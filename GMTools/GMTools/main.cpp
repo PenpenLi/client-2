@@ -8,6 +8,7 @@
 #include "base64Con.cpp"
 #include "json_helper.cpp"
 #include "shared_data.h"
+#include "net_socket_basic.cpp"
 
 main_controller* the_instance = nullptr;
 int main(int argc, char *argv[])

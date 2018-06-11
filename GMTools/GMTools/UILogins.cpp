@@ -2,7 +2,6 @@
 #include "ui_login.h"
 #include "http_request.h"
 #include "utility.h"
-#include "http_request.hpp"
 #include "file_system.h"
 #include "md5.h"
 #include "QTimer"
@@ -11,7 +10,7 @@
 
 int get_http_data(std::string url, std::string& ret, boost::asio::io_service& ios, bool wait_data, std::string header)
 {
-	boost::shared_ptr<http_data_request> req(new http_data_request(ios));
+	boost::shared_ptr<http_request> req(new http_request(ios));
 	std::string host, port, params;
 	split_url(url, host, port, params);
 	std::string str_req = build_http_request(host, params, header);
@@ -33,14 +32,17 @@ int get_http_data(std::string url, std::string& ret, boost::asio::io_service& io
 		}
 
 		if (req->is_complete()) {
-			ret = req->data();
-			return 0;
+			ret = req->context_.response_body_;
+			return error_noerror;
 		}
-		else if (!req->redirect_url_.empty()) {
+		else if (!req->context_.redirect_url_.empty()) {
 			ret.clear();
-			return get_http_data(req->redirect_url_, ret, ios, wait_data, header);
+			return get_http_data(req->context_.redirect_url_, ret, ios, wait_data, header);
 		}
 		else {
+			if (is_timeout) {
+				std::cout << "get_http_data timeout." << std::endl;
+			}
 		}
 		return -1;
 	}

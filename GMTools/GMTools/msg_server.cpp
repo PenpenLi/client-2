@@ -60,7 +60,7 @@ int msg_player_info::handle_this()
 	return 0;
 }
 
-int msg_user_login_ret_ex::handle_this()
+int msg_user_login_ret::handle_this()
 {
 	the_instance->the_role_->uID_ = uid_;
 	std::string cnt = nickname_;
@@ -97,7 +97,7 @@ int msg_user_login_ret_ex::handle_this()
 	return 0;
 }
 
-int msg_player_leave_channel::handle_this()
+int msg_player_leave::handle_this()
 {
 	return error_noerror;
 }
