@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dir v="1010" d="2018-06-08" n="preset">
+<dir d="2018-06-12" v="1011" n="preset">
     <zips>
-        <f s="" n="update.zip"></f>
+        <f n="update.zip" s=""></f>
     </zips>
-    <f s="74715" n="version_config.xml">24902c7ad2fc3e8485155e7e65b2b4a9</f>
+    <f s="74675" n="version_config.xml">e3ffe8eeaabcece15b0ae9ea8c12d6f7</f>
     <dir n="common">
         <dir n="res"/>
         <dir n="src"/>
@@ -74,57 +74,15 @@
             </dir>
             <dir n="cocostudio">
                 <dir n="common">
-                    <f s="3272" n="AlertOKCancelLayer.csb">d81b5c67148fb28c86460c63f2e0da55</f>
-                    <f s="2684" n="AlertOKLayer.csb">69dbe7c99b4d0344cc25447224639b1d</f>
-                    <f s="6488" n="BrowserLayer.csb">7e80e796b05f6ab60efefbadae1ab9d7</f>
-                    <f s="1284" n="LeftBaseLayer.csb">151023333e5a3d437773d33ee7eb3861</f>
-                    <f s="1940" n="PopBaseLayer.csb">51cc2c7be262038c412498443df5297d</f>
-                    <f s="2288" n="WaitingLayer.csb">0e3bbc00c72eeda5f380a44aef3e5552</f>
+                    <f s="4088" n="AlertOKCancelLayer.csb">9d5252a84271addd0dbb5f3adc4db822</f>
+                    <f s="3248" n="AlertOKLayer.csb">a66240ad8cccd672e245481c285d6a46</f>
+                    <f s="7968" n="BrowserLayer.csb">a74b58420bcd94fa273e28050a00781c</f>
+                    <f s="1468" n="LeftBaseLayer.csb">8b0099c649b4b919823ea9391bf5aa62</f>
+                    <f s="2416" n="PopBaseLayer.csb">c4fe3906fd538299b69f8cd8c0ca1530</f>
+                    <f s="2528" n="WaitingLayer.csb">cdb7cb4509bc4639e8911edf19b4c397</f>
                     <dir n="image">
-                        <f s="119" n="blank.png">8923730b6bd3ff16abb6677f341df4a9</f>
-                        <f s="49147" n="dating_shangfangdi.png">5a2ca7c1d25392636e27b271f2798da1</f>
-                        <f s="71801" n="dating_xiafangdi.png">01f18b57301108a088cb2556686dd4ea</f>
-                        <f s="94281" n="di_changtiaoditongyong.png">bea14682f268355c0ee7aafb90cb8918</f>
-                        <f s="2504" n="di_touxiangxuanzhong.png">d7ef1f9f3cbf858b82d8365e3ae3d17a</f>
-                        <f s="4048" n="loading.png">f8a2b57bb7ddf7f2f042fa03a4dffa1f</f>
-                        <f s="15237" n="shangcheng_quchongzhi1.png">19c3dbcbba25578438a13e66f7a35a16</f>
-                        <f s="20231" n="shangcheng_quchongzhi2.png">a5886ad18ca6d9857d9f652af8bc48d1</f>
-                        <f s="19756" n="shangcheng_quxiao1.png">7e92b09eb6c8160f1178ab530991a7da</f>
-                        <f s="24623" n="shangcheng_quxiao2.png">5dc72e7e7bbe87953c80f12866f52006</f>
-                        <f s="1416" n="tiaowangye_di.png">43c630963f2369b6ab55ea56b9c5ad87</f>
-                        <f s="2855" n="tiaowangye_fanhuiyouxi.png">50298bfb8081dae6444ed40a7c0887c4</f>
-                        <f s="2834" n="tiaowangye_fanhuiyouxihui.png">0118a234fd3020a4337da0f07ac17e09</f>
-                        <f s="2695" n="tiaowangye_shuaxin.png">b59836973640555270c749d0c418fb8d</f>
-                        <f s="2680" n="tiaowangye_shuaxinhui.png">422e54f242d43a4956fdc5964989f42e</f>
-                        <f s="1506" n="tiaowangye_you.png">93be08539218c19cb8682c4385d967d6</f>
-                        <f s="1503" n="tiaowangye_youhui.png">24f1174944d1212a9e5e66af9c5e6ed3</f>
-                        <f s="1515" n="tiaowangye_zuo.png">a10e34188c7e025897713050a300e642</f>
-                        <f s="1635" n="tiaowangye_zuohui.png">b526fb587984a13f8da352a4d56ac05b</f>
-                        <f s="10842" n="tips_bg.png">545b04edc3cce00cc0148b2aa61ef59b</f>
-                        <f s="5254" n="tips_cancel.png">4e6c8e886401e023eb8557f7fe3bd6ab</f>
-                        <f s="5254" n="tips_confirm.png">4e6c8e886401e023eb8557f7fe3bd6ab</f>
-                        <f s="2636" n="tongyong_cha1.png">a047be6993d88c2400cc2105c96f7714</f>
-                        <f s="3430" n="tongyong_cha2.png">b6a74d50e615d9c1443b05f427dd6b4e</f>
-                        <f s="15104" n="tongyong_queding1.png">dde923dffd64a3126af8ff540b4643d5</f>
-                        <f s="19303" n="tongyong_queding2.png">4d08bd24f38cc0d3b274ba1d1fb0ae22</f>
-                        <f s="5329" n="tongyong_tishi.png">4ee6a731c33d2dad90245d3433e9fdda</f>
-                        <f s="260568" n="tongyong_xiaodi.png">1c47566ee078db1a9c2be1bd6483204a</f>
-                        <f s="22326" n="zhujiemian_nan1.png">44e3c3771c8fc788c877747e1d3c5088</f>
-                        <f s="24024" n="zhujiemian_nan2.png">44aa7e50b49f0669cada2d9182aaa9c8</f>
-                        <f s="23240" n="zhujiemian_nan3.png">fe6e387019d5c44099d2cd7faa34b484</f>
-                        <f s="24685" n="zhujiemian_nan4.png">2f89fcca1d60187ab67a3570e1944b62</f>
-                        <f s="23060" n="zhujiemian_nan5.png">101ac91e24306cbf6300911aba72a603</f>
-                        <f s="23974" n="zhujiemian_nan6.png">b46219c1ad29bd2338e68ecab4ab0ed0</f>
-                        <f s="22079" n="zhujiemian_nan7.png">42c79c195168dc721280cd63c33c5138</f>
-                        <f s="24098" n="zhujiemian_nan8.png">f8b349a740d1d3df86d9291224c2e956</f>
-                        <f s="27392" n="zhujiemian_nv1.png">b554890a3addbe119a65d520eeb7d0be</f>
-                        <f s="26332" n="zhujiemian_nv2.png">8626c0fd1ac0e20fe0b6e79f9e4c512c</f>
-                        <f s="23824" n="zhujiemian_nv3.png">98fdc5cdf7bc48c44407338a720bc697</f>
-                        <f s="24786" n="zhujiemian_nv4.png">454f80d3f79807de96ba822eda54cecf</f>
-                        <f s="24131" n="zhujiemian_nv5.png">dd451ee5d893046b1b1995e7b10c43d5</f>
-                        <f s="25139" n="zhujiemian_nv6.png">e807660cfb457c450b72388c490f0a2e</f>
-                        <f s="24742" n="zhujiemian_nv7.png">9352fdbcba03c989697835840b58c4d1</f>
-                        <f s="23922" n="zhujiemian_nv8.png">5cdff77330e2cac1feac6c7b2a159dfc</f>
+                        <f s="7180" n="common_sp.plist">816509eb0731ce827a041a239946515d</f>
+                        <f s="648694" n="common_sp.png">7d452a644574ac634634325da9c4a236</f>
                     </dir>
                 </dir>
                 <dir n="game">
@@ -362,162 +320,63 @@
                     </dir>
                 </dir>
                 <dir n="home">
-                    <f s="11376" n="CreateRoomLayer.csb">610a473bb99a754505385fe4b4d8ef7e</f>
-                    <f s="1992" n="DailyTasks.csb">36cc27fcf066f0ad9a1634857ef422e3</f>
-                    <f s="1992" n="DailyTasksNote.csb">22dbb62d34e3907b82681b2aaae1e4b1</f>
-                    <f s="11220" n="EnterRoomLayer.csb">4617b6876f8abcf2151e6a9d19338dbd</f>
-                    <f s="6904" n="EntryLayer.csb">d724ce756a42eb444a8c416aa8379687</f>
-                    <f s="5640" n="FriendRoomLayer.csb">52fbbc3007b4661908ecdea9d6be95c8</f>
-                    <f s="1688" n="FullScreenBaseLayer.csb">c918d8864880e2db82cc1479c6696b74</f>
+                    <f s="17308" n="CreateRoomLayer.csb">84724c08ad2878fbef53eb07205a6387</f>
+                    <f s="2516" n="DailyTasks.csb">300ff1a1049680cdd0bb3149c9790372</f>
+                    <f s="2436" n="DailyTasksNote.csb">0b0418a6baf510be0509d4437ba616fa</f>
+                    <f s="16020" n="EnterRoomLayer.csb">09db1e683073ac913ad6afd59fbc9173</f>
+                    <f s="8556" n="EntryLayer.csb">26551434eb9d1f387126a5b5454f7cad</f>
+                    <f s="7536" n="FriendRoomLayer.csb">cc16cdb34bdcb3743be860843ac23891</f>
+                    <f s="1940" n="FullScreenBaseLayer.csb">9fe322ec08117148b1cdef4455bfaf4c</f>
                     <f s="4920" n="Game_rule.csb">59c3c3f1bf09d85d42dc9807d51a8a36</f>
-                    <f s="7556" n="HomeLayer.csb">47509f6a357c667a9f2b15bba993a785</f>
-                    <f s="2620" n="MailLayer.csb">f07b144ce3a3d20d39373affb2203305</f>
-                    <f s="2568" n="MailNode.csb">70e15cb2c227910638533451d768f6e6</f>
-                    <f s="3896" n="MissionItemNode.csb">dcb9f7827ee000678b07855c80fe1f13</f>
-                    <f s="8740" n="ModifyPersonalLayer.csb">80037d4d5eab4d1704aa4c25d60a59ec</f>
-                    <f s="3932" n="PersonalLayer.csb">5a6c35ead6f476712df1b0b8b22dbd7c</f>
-                    <f s="2208" n="PrivateRoomHelper.csb">4af3e05978c205169611439176fc2375</f>
-                    <f s="4572" n="PrivateRoomItem.csb">64be35e97794bec05d0ce9930b6da54c</f>
-                    <f s="2296" n="PrivateRoomResult.csb">a6483566d1dc168dae5bfb8b6da1701e</f>
-                    <f s="5300" n="PrivateRoomResultDetail.csb">edcd30376518de2bcf7320caf7caa54e</f>
-                    <f s="2716" n="PrivateRoomResultDetailItem.csb">76cd9a979f25736d1ab44f1c7aeacb54</f>
-                    <f s="4124" n="PrivateRoomResultItem.csb">b2048e3b4d5331b51df5457f58ab01c2</f>
-                    <f s="9516" n="Rank.csb">15628c380ba363ade4bf557108eade12</f>
-                    <f s="1208" n="RankNode.csb">c9dfc5e62764a220621cf3f594b22b49</f>
-                    <f s="2520" n="RoomItem.csb">ab7252cb4472ff7dd5aa994621a6ce0e</f>
-                    <f s="4524" n="RoomSelect.csb">3405a7a8214ead85306cc3dc7d9818c2</f>
+                    <f s="14881" n="home_sp.plist">79f6a5569f8da7044e216abacb812653</f>
+                    <f s="2152084" n="home_sp.png">17dbe322039afa8083bba0034b1d751f</f>
+                    <f s="9872" n="HomeLayer.csb">c3bf6ee9dec6e1765e05d43896f370e5</f>
+                    <f s="3144" n="MailLayer.csb">8dd00b8b8d9ae889ca8cecc798815e81</f>
+                    <f s="2996" n="MailNode.csb">41612972b0eaa6cd825205656b13827f</f>
+                    <f s="4912" n="MissionItemNode.csb">87dbee623f0344958885005f9b910aa7</f>
+                    <f s="9216" n="ModifyPersonalLayer.csb">7d5e005a6ef969c66c685eeebb2c43f5</f>
+                    <f s="4580" n="PersonalLayer.csb">d16ba9f3c7e7649d068845d78a3fbb18</f>
+                    <f s="2796" n="PrivateRoomHelper.csb">94f3b6c50662791925f2d54bbf4493ba</f>
+                    <f s="5436" n="PrivateRoomItem.csb">f8fd235b5f0f6ce4d0b88aaa2d3b2541</f>
+                    <f s="2764" n="PrivateRoomResult.csb">1b8d73852fa3b9ff0d7dc105cc04ef07</f>
+                    <f s="6188" n="PrivateRoomResultDetail.csb">dc987ab5096f958ba2a789bb7855836b</f>
+                    <f s="2824" n="PrivateRoomResultDetailItem.csb">7fb592bedbfa45eaba3addaee568d665</f>
+                    <f s="4376" n="PrivateRoomResultItem.csb">1050a6aea3e26325686a9f16926defc5</f>
+                    <f s="11580" n="Rank.csb">a8cbaa2ff1f5de111173ed90467153c9</f>
+                    <f s="1400" n="RankNode.csb">ca4471c43547072cf3a2ebb537f90757</f>
+                    <f s="2880" n="RoomItem.csb">dd10931fc9ab02602e4bd14b045cea38</f>
+                    <f s="5420" n="RoomSelect.csb">1f209a128169456d897707764d0d80a8</f>
                     <f s="1884" n="ServiceNode.csb">28c50992158a936ec3258149f8b88062</f>
                     <f s="4504" n="SettingLayer.csb">1bee880b00d93ecefc770b3e95319849</f>
-                    <f s="2648" n="ShopItemNode.csb">dd0da1c130fe77bfa0c7a8ea09a03224</f>
-                    <f s="6344" n="ShopLayer.csb">25f317e961d3f320c901daf68a1d23a4</f>
-                    <f s="15752" n="Sign.csb">e686f377bf7931e00accadb4588a0c19</f>
-                    <f s="4044" n="SignGot.csb">54ba3939cc260a0c46984c19d5d7b44f</f>
+                    <f s="3220" n="ShopItemNode.csb">fdc163c1b1b09f24dfb12dc401f6ea3e</f>
+                    <f s="8288" n="ShopLayer.csb">ed67103890e3d2c6501491ea6ce6add2</f>
+                    <f s="21672" n="Sign.csb">d9c19cdd932bf0cfbb57b85ec6c7c648</f>
+                    <f s="3940" n="SignGot.csb">30d2a35ba650afb4bececf43b94f1470</f>
                     <dir n="image">
-                        <f s="4204" n="dating_add1.png">5f38fe2321dbd143a116b059c28572d3</f>
-                        <f s="4966" n="dating_add2.png">4c56213a6d23157b8e722f2bd47d8d97</f>
                         <f s="865173" n="dating_beijing2.png">1d3fb73f0e605e10c8f5144bda252062</f>
-                        <f s="76796" n="dating_bisaichang.png">e82ca169a63931b7054dbefa8886c95f</f>
-                        <f s="17532" n="dating_gonggaodi.png">157f1bb2e1223c3e399d7d6a4bc67b80</f>
-                        <f s="6013" n="dating_jibi1.png">4e5c6d19a37fac7540ed5e4567e7f7c2</f>
-                        <f s="5265" n="dating_kefu1.png">55e74e7914a0ae1718182d6bdc3a923a</f>
-                        <f s="7018" n="dating_kefu2.png">1f4a506d746b3aeda4a4a8a88b44f698</f>
-                        <f s="117028" n="dating_lijikaishi.png">5e2df8872833d12c044f6b98bc2c16cd</f>
-                        <f s="29888" n="dating_paihangbang.png">e5927cbf7017d4b9809cbec8d4a30434</f>
-                        <f s="3718" n="dating_panghangdieri.png">3dddc142c1b26bd93c8a767c2096b513</f>
-                        <f s="3810" n="dating_panghangdisani.png">3d4d8d3690b9f366a01b68a1591797e3</f>
-                        <f s="3635" n="dating_panghangdiyi.png">22faa00d4fbebf1c7293592a1cc75e93</f>
-                        <f s="4336" n="dating_renwu1.png">3b441ed62305ade6129e776dd4f6f8bb</f>
-                        <f s="5671" n="dating_renwu2.png">deafae024c84004854bdcc151ca7ebbd</f>
-                        <f s="25022" n="dating_shangcheng1.png">7034c8c39df84d3a8f78f9a13c4b0ca8</f>
-                        <f s="29262" n="dating_shangcheng2.png">8fcf0c431544b36a01a9e389534e3919</f>
-                        <f s="49147" n="dating_shangfangdi.png">5a2ca7c1d25392636e27b271f2798da1</f>
-                        <f s="7162" n="dating_shezhi1.png">7d38fd897af42683ba523404a19f0967</f>
-                        <f s="9870" n="dating_shezhi2.png">b264e8842a37b2a79e50ef972c5966e9</f>
-                        <f s="2625" n="dating_touxiangdi.png">bff61cf4d36a1ab1871b21236ba95ebb</f>
-                        <f s="2983" n="dating_touxiangdi2.png">ac0fd54d877fbf4eb2446c0300f2e1ae</f>
-                        <f s="3869" n="dating_tuichu1.png">de509f3aa7e78e4e5cb8950c90d508cc</f>
-                        <f s="5508" n="dating_tuichu2.png">83cf0cea38cff51ccc1b4038b9a857bd</f>
-                        <f s="71801" n="dating_xiafangdi.png">01f18b57301108a088cb2556686dd4ea</f>
-                        <f s="4399" n="dating_youxiang1.png">ba02d031d613529ad98be82daa66aa1e</f>
-                        <f s="5664" n="dating_youxiang2.png">66843c45c5f17b79df3392a21c0af017</f>
-                        <f s="75852" n="dating_youxichang.png">7892eb81c4ecb6ec45743f83948635a0</f>
-                        <f s="28793" n="di_gerenxinxidi.png">5102c768a0177ab31f3ab43ad31cc891</f>
-                        <f s="14395" n="di_xiugaixinxineirong.png">ab203ee1fc55ef6e1d30c4310ca8f0ee</f>
                         <f s="2616" n="haoyouchang_haoyoufangxuanzedishuzi-export.fnt">43758763b75d6a11604cc05a25943308</f>
                         <f s="7124" n="haoyouchang_haoyoufangxuanzedishuzi-export.png">1b60f325972c1e64094a7aa889305acf</f>
-                        <f s="1670" n="haoyouchang_jindutiaokong.png">be4a5b1d3f75dc5f87175211d3bcd4a6</f>
-                        <f s="1357" n="haoyouchang_jindutiaoman.png">6717cee6f44a6ae26076486cd28d5dbf</f>
                         <f s="2204" n="haoyouchang_wodepaijuchoumashuzi-export.fnt">22b1078f050f2a4e192a020cb6cf48c1</f>
                         <f s="6951" n="haoyouchang_wodepaijuchoumashuzi-export.png">64597314356245b24a2efe6dd272ec73</f>
                         <f s="2208" n="haoyouchang_wodepaijuchoumashuzilv-export.fnt">63091deda740a57b4b87abf1f185aee9</f>
                         <f s="6944" n="haoyouchang_wodepaijuchoumashuzilv-export.png">04e91b2551822874f671f3456ba01c7e</f>
-                        <f s="579776" n="haoyouchang_zhanjidi.png">89687f355c84ccf99bc12fc6d833e418</f>
                         <f s="1883" n="paihangbang_jinershuzi-export.fnt">350f66b8ae28fcb0c49bd56ce044268a</f>
                         <f s="6639" n="paihangbang_jinershuzi-export.png">1f3d1f7f348abd50df3397a5e243fa22</f>
-                        <f s="1802" n="zhujiemian_zhezhao.png">770ebc3019f1f82a6ad70fba95b9ad82</f>
+                        <f s="1874" n="qiandao_jinbishuzi-export.fnt">bec64c7f3f960571754b82dbad225659</f>
+                        <f s="4365" n="qiandao_jinbishuzi-export.png">875c66d63984ff989b19b77de82b0108</f>
                         <dir n="daily_tasks">
-                            <f s="352512" n="daily_bg.png">6192795140f35408e4bdbaec8f28296f</f>
-                            <f s="18942" n="daily_note_star.png">bfc85df151e02e873ebee7d291b11986</f>
-                            <f s="11213" n="daily_title.png">ba6635a31a2e8944d72e789d1a07c581</f>
-                            <f s="58453" n="dailyz_note_bg.png">68ee2d25e3f724ffd2af9a86ee90d758</f>
-                            <f s="2408" n="dailyz_note_des.png">0f0617c63e1c2d61734a1d0df25d73c3</f>
-                            <f s="4044" n="dailyz_note_dis.png">2a17ca434dc0333f4fc5032a7569be41</f>
-                            <f s="3041" n="public_btn_close.png">1a4cf2a306751b23a755e95dc3fbca75</f>
-                            <f s="4017" n="public_btn_close1.png">63d0dc28c6d540e7d939f84a8f0623d3</f>
+                            <f s="4164" n="daily_tasks_sp.plist">2c4acddc2755f10d7a32d89d2f587abd</f>
+                            <f s="590858" n="daily_tasks_sp.png">aa053aa6c4f0760f3a04827fde3c0086</f>
                         </dir>
                         <dir n="email">
-                            <f s="352512" n="email_bg.png">6192795140f35408e4bdbaec8f28296f</f>
-                            <f s="3041" n="email_btn_close.png">1a4cf2a306751b23a755e95dc3fbca75</f>
-                            <f s="4017" n="email_btn_close1.png">63d0dc28c6d540e7d939f84a8f0623d3</f>
-                            <f s="16011" n="email_btn_get.png">16fc276dae49f6ef642e83e64c25eb7f</f>
-                            <f s="19242" n="email_btn_get1.png">5c350fc0c59e45abe2279f228f117358</f>
-                            <f s="58453" n="email_node_bg.png">68ee2d25e3f724ffd2af9a86ee90d758</f>
-                            <f s="16944" n="email_node_left.png">9d22e04535e54ceec822d48ef54effdc</f>
-                            <f s="5112" n="email_t_down.png">dbefc17392eca0c58631fbcdc756b3a1</f>
-                            <f s="7620" n="email_title.png">592135ea7dbeb601757227edac3b47cf</f>
+                            <f s="4353" n="email_sp.plist">da6e5dfaaf30e4d0862bd9a9265b197d</f>
+                            <f s="617770" n="email_sp.png">8cf57c2f6eef9917bbcf28042631093c</f>
                         </dir>
                         <dir n="friendroom">
-                            <f s="500318" n="friend_record_bg.png">55211076f6a47c6d8d6d8474dba7b034</f>
-                            <f s="3298" n="haoyouchang_1xiaoshi1.png">9b5acfd0850da10c31ccb0285f519487</f>
-                            <f s="6497" n="haoyouchang_1xiaoshi2.png">c848da6934344a5341121688da0ac2b0</f>
-                            <f s="3731" n="haoyouchang_2xiaoshi1.png">bb50294d5c76d7973744404d98d46451</f>
-                            <f s="6927" n="haoyouchang_2xiaoshi2.png">e660797cd77e9798e791df155e2da938</f>
-                            <f s="4717" n="haoyouchang_30fenzhong1.png">6233887b512f8ab25eb28b2f91cb5925</f>
-                            <f s="8008" n="haoyouchang_30fenzhong2.png">7c3b1a5ff5d6e8b9f379ec503331d1c7</f>
-                            <f s="3860" n="haoyouchang_3xiaoshi1.png">9192f7cb8bd4f7e9620931b18d402ccc</f>
-                            <f s="7145" n="haoyouchang_3xiaoshi2.png">1f6e00a1a05c5408d4ec483bc4d8f86a</f>
-                            <f s="3520" n="haoyouchang_4xiaoshi1.png">c5d92cdb17221985e42c261375b604b7</f>
-                            <f s="6716" n="haoyouchang_4xiaoshi2.png">9394fec23e28706f21bdd8b7f84d4d2f</f>
-                            <f s="3646" n="haoyouchang_5xiaoshi1.png">60e3e8efe869f97057848cc39fc84731</f>
-                            <f s="6846" n="haoyouchang_5xiaoshi2.png">cf83ad491de829244a692b427536db28</f>
-                            <f s="17194" n="haoyouchang_anjian0.png">9a4509bbaaed082094499ca3cce2ab4d</f>
-                            <f s="16389" n="haoyouchang_anjian1.png">0ce97fedf0e21574648135069ce0fa9b</f>
-                            <f s="17067" n="haoyouchang_anjian2.png">b735077e6a74941215c9e7aee970ebd3</f>
-                            <f s="17320" n="haoyouchang_anjian3.png">3ef039e0cd85218ea45ff9cd1f84cd75</f>
-                            <f s="16552" n="haoyouchang_anjian4.png">6a1bb34db9477366934c8e07fd781e81</f>
-                            <f s="16726" n="haoyouchang_anjian5.png">016e1b9bcc6f16362f2e0bd855c10a96</f>
-                            <f s="17369" n="haoyouchang_anjian6.png">2c5091df9a49a09c49a306922725b272</f>
-                            <f s="16734" n="haoyouchang_anjian7.png">47162c07491676ee35c2907745ce1ec9</f>
-                            <f s="17304" n="haoyouchang_anjian8.png">e7252ed85ef9a5b652adeafb37244ef2</f>
-                            <f s="17306" n="haoyouchang_anjian9.png">683f8b69f1aae475c226bf3e7ce898e1</f>
-                            <f s="16003" n="haoyouchang_anjianfanhui.png">c3c6a30cce51377020d97f8925cb8a91</f>
-                            <f s="16845" n="haoyouchang_anjianshuziy.png">74f6fa183949203dfbccd6c433d04700</f>
-                            <f s="7985" n="haoyouchang_bangzhuanniu.png">9bfa5d1810332afe0fa87ac72789f81e</f>
-                            <f s="8603" n="haoyouchang_bangzhuanniu2.png">7876a7f32bb986e71a63d7448ad8d44e</f>
-                            <f s="35765" n="haoyouchang_bangzhug.png">e5c04af2382717faabfb3560dd2d7a1e</f>
-                            <f s="39712" n="haoyouchang_bangzhuneirong.png">ee9a09fa548bbee3bda4fabab4bffa8a</f>
-                            <f s="4530" n="haoyouchang_choumatubiaobai.png">7e0777ece56f9c12ee6c531a6b6484c4</f>
-                            <f s="532741" n="haoyouchang_chuangjianhaoyoufangdi.png">5845f42cf80fd808110eb3659fd6e82b</f>
-                            <f s="129517" n="haoyouchang_chuangjianpaiju.png">a8d41e857420201fedc4d10f8836a6e6</f>
-                            <f s="2248" n="haoyouchang_dairuchouma.png">fa7c03c6cec5c45eb16d72e0c2b48da6</f>
-                            <f s="37567" n="haoyouchang_haoyoufang.png">e48e285a6a834dac8c97d58d83ee246e</f>
-                            <f s="5747" n="haoyouchang_haoyoufangchouma.png">35364ab38869a6279dd93c63065b55fd</f>
-                            <f s="515324" n="haoyouchang_haoyoufangdi.png">4669fc1f757823e910e1b9c92d3bd53f</f>
-                            <f s="3078" n="haoyouchang_haoyoufangrenshu.png">12e0f606060beb3468bc5baa47217d20</f>
-                            <f s="3928" n="haoyouchang_haoyoufangshijian.png">64bc4c7c6f2a273895aba15684383b97</f>
-                            <f s="4795" n="haoyouchang_haoyoufangshijian2.png">8f3f34969279de06a125cd8df49349bd</f>
-                            <f s="100217" n="haoyouchang_haoyoufangxuanzedi.png">0ae050b84eb5637ef59f9a9b5e62de7b</f>
-                            <f s="5012" n="haoyouchang_haoyoufangxuanzedijinbichang.png">adc979df84ae283092e550855489570a</f>
-                            <f s="54182" n="haoyouchang_jiarufangjiandi.png">ed9edadbb7b97588fe7a671e23a01840</f>
-                            <f s="124619" n="haoyouchang_jiarupaiju.png">e08cac4b20098ecd1707990eeb74a2c4</f>
-                            <f s="36856" n="haoyouchang_jinbichang.png">55c9eb00be3a2b911ab563aed52c0cf4</f>
-                            <f s="6964" n="haoyouchang_jindutiaochouma.png">9e39d2b318d70e0887f36fd9a283b69f</f>
-                            <f s="18569" n="haoyouchang_kaifangnniu1.png">fa145e08ffe075910c9b3636c246797b</f>
-                            <f s="25157" n="haoyouchang_kaifangnniu2.png">13191d3a6bcd31d976984324e9f9d90a</f>
-                            <f s="1641" n="haoyouchang_qianzhu.png">8df68cce45b8bcc79e47e006f3fcfd0c</f>
-                            <f s="1749" n="haoyouchang_shichang.png">72cfd0bf6f9afeb4abf7315b7d31c213</f>
-                            <f s="10107" n="haoyouchang_wodepaiju.png">69f182646eedfea1f1daa882437561f2</f>
-                            <f s="9113" n="haoyouchang_wodepaijuchoumashuzilv.png">ff42b54dfa40f42b46627cc099dfb3f0</f>
-                            <f s="1957" n="haoyouchang_xiaomangdamang.png">4e4ad9025e92e07da340ff66e71497c0</f>
-                            <f s="18605" n="haoyouchang_zhanjianniu1.png">daf4c6c6e7efeb3aa98cf5ea5ed71709</f>
-                            <f s="23542" n="haoyouchang_zhanjianniu2.png">b78ba1b3baca564420a0d0466ca0ef81</f>
-                            <f s="36262" n="haoyouchang_zhanjibiaoti.png">b93fdb9d7933411bca81dc85528c4fef</f>
-                            <f s="585862" n="haoyouchang_zhanjidi.png">bfabd97447b6846c96b9aa2953639256</f>
-                            <f s="91167" n="haoyouchang_zhanjidixuanze.png">ecc31e8e5d8eca854b7efd21e2fe8d81</f>
-                            <f s="37919" n="haoyouchang_zhanjixiangqing.png">a91c932a7e53d8022020bb0cfd67e4eb</f>
-                            <f s="34553" n="haoyouchang_zhanjixiangqingxiangxi.png">fb6ea9a3970268192b4acf70743506bc</f>
-                            <f s="4494" n="haoyouchang_zhanjixiangqingxiangxidi.png">301c892e2e95dd2d8f3d795611e3a1bd</f>
-                            <f s="61502" n="tongyong_xiadi.png">845a6cea27fb5a000e7bca1b90fcf8ca</f>
+                            <f s="9645" n="friendroom_sp.plist">cbd8e29ba997309a49d26d68d044d3c5</f>
+                            <f s="1449503" n="friendroom_sp.png">8e276d5c26766fc619987ae7fefafbb0</f>
+                            <f s="15400" n="friendroom_sp2.plist">6c22802e41efbf2eaecc2a62fcbffbfd</f>
+                            <f s="3656711" n="friendroom_sp2.png">095859bef4ce2ee1d44291a68aa995d5</f>
                         </dir>
                         <dir n="game_rule">
                             <f s="123303" n="gl_1.png">21c1f79f98405fadde2f66898d062fa8</f>
@@ -530,49 +389,16 @@
                             <f s="587470" n="youxiguizewanfa.png">c543fce67a23fb7581db61863c989422</f>
                         </dir>
                         <dir n="mission">
-                            <f s="3041" n="meirirenwu_cha1.png">1a4cf2a306751b23a755e95dc3fbca75</f>
-                            <f s="4017" n="meirirenwu_cha2.png">63d0dc28c6d540e7d939f84a8f0623d3</f>
-                            <f s="58453" n="meirirenwu_kuang.png">68ee2d25e3f724ffd2af9a86ee90d758</f>
-                            <f s="16011" n="meirirenwu_lingqu1.png">16fc276dae49f6ef642e83e64c25eb7f</f>
-                            <f s="19242" n="meirirenwu_lingqu2.png">5c350fc0c59e45abe2279f228f117358</f>
-                            <f s="13998" n="meirirenwu_qianwang1.png">853c2b6ad2303ac4fc38f683b72c2683</f>
-                            <f s="15815" n="meirirenwu_qianwang2.png">4edbfb01d2254069f8ec523aeedc190d</f>
-                            <f s="4044" n="meirirenwu_shuzi.png">2a17ca434dc0333f4fc5032a7569be41</f>
-                            <f s="18942" n="mission_icon_gold.png">bfc85df151e02e873ebee7d291b11986</f>
-                            <f s="2408" n="mission_reward_gold.png">0f0617c63e1c2d61734a1d0df25d73c3</f>
+                            <f s="4745" n="mission_sp.plist">2f33bd360561593951a85c78cbe67001</f>
+                            <f s="616151" n="mission_sp.png">76338633f7e4bf16e0a1bbf9edf3437d</f>
                         </dir>
                         <dir n="personal">
-                            <f s="14560" n="di_gerenxinxi.png">1d2adbad4566a7cbddf2f8cd28dd1359</f>
-                            <f s="17526" n="di_queren1.png">7cbf684219078e13f66d5fce19f902eb</f>
-                            <f s="22861" n="di_queren2.png">77b35fad104ac2f15e547290b55272af</f>
-                            <f s="5037" n="di_shurunichengdii.png">8a90462717b5e4c8c45d9c0af8975a78</f>
-                            <f s="16495" n="di_xiugaixinxi.png">ef9e5bc2e1d49694739e1f23440ea3ed</f>
-                            <f s="6861" n="di_xiugaixinxi1i.png">c6cfeed68a6f6b6fa423d05ab755e79f</f>
-                            <f s="10407" n="di_xiugaixinxi2.png">8b6c084917dcb1fc387e6a6e718419ca</f>
+                            <f s="7113" n="personal_sp.plist">f2ff1f5b2272507e1fc1a30cae017779</f>
+                            <f s="1875010" n="personal_sp.png">36403b85f43117fc8289136cabac06d5</f>
                         </dir>
                         <dir n="Rank">
-                            <f s="352512" n="rank_bg.png">6192795140f35408e4bdbaec8f28296f</f>
-                            <f s="3041" n="rank_btn_close.png">1a4cf2a306751b23a755e95dc3fbca75</f>
-                            <f s="4017" n="rank_btn_close1.png">63d0dc28c6d540e7d939f84a8f0623d3</f>
-                            <f s="13599" n="rank_btn_left.png">2e69781a88687dc4db236dde74b32927</f>
-                            <f s="13501" n="rank_btn_left2.png">3b93c08609599b7895fa07d160b35961</f>
-                            <f s="13586" n="rank_btn_right.png">00f2674c3c11d4df7f1ea75ff522a044</f>
-                            <f s="13708" n="rank_btn_right2.png">c855546b2f25a2a1724884bd5a0df02a</f>
-                            <f s="51998" n="rank_down_bg.png">bdc2b8bc9c19021db939f237543e008d</f>
-                            <f s="20239" n="rank_no1.png">bb22579362b8ee63d4c3880c94184b67</f>
-                            <f s="58453" n="rank_node_bg.png">68ee2d25e3f724ffd2af9a86ee90d758</f>
-                            <f s="59369" n="rank_node_myself_bg.png">85b1e24d3b2284e188679db0be420490</f>
-                            <f s="4204" n="rank_t_down.png">5b1dbb8011e0aa883ff37e5f39ef7c26</f>
-                            <f s="10232" n="rank_title.png">c91af8872644fe78f8efaaa27db6a501</f>
-                            <f s="3489" n="rank_wsb.png">e69c59f70b84ee7cb1ec83bff378d546</f>
-                        </dir>
-                        <dir n="roomselect">
-                            <f s="1793" n="bg.png">97952e750d7140ea7b592662dd2a01b5</f>
-                            <f s="37383" n="dating_paiyouchang1.png">9a5c7e04bd5658990631d638377fca14</f>
-                            <f s="82090" n="youxichangyu_4.png">aee7171ea0301b9b8b46a73af322228c</f>
-                            <f s="745030" n="youxichangyu_di.png">c82b191df65d9d6f626533afd1830f05</f>
-                            <f s="19104" n="youxichangyu_kuaisukaishi1.png">363f3fee130e67214ef75a3a1020c19a</f>
-                            <f s="26082" n="youxichangyu_kuaisukaishi2.png">45269bc24500bcc7b67c7fe31549f6d8</f>
+                            <f s="6309" n="rank_sp.plist">bb240fbf829e608ed45ad0d5433d21ef</f>
+                            <f s="736779" n="rank_sp.png">8f693acae35dcef6c343924a9bf31643</f>
                         </dir>
                         <dir n="service">
                             <f s="5231" n="kefu_kefu.png">de58993687089e2be1aa460419740192</f>
@@ -589,64 +415,16 @@
                             <f s="13117" n="shezhi_yinyuekai.png">0ae60cddd4f39bed7c3c195bffad5b4c</f>
                         </dir>
                         <dir n="shop">
-                            <f s="72212" n="item_diamond_1.png">e13fe594af7ad37d0e809abe6963377e</f>
-                            <f s="894075" n="shangcheng_d.png">4b2194ad7b60b11c737d0e52acc74fd0</f>
-                            <f s="8913" n="shangcheng_fanhui1.png">8e306d014b6e04f69ef212df01fa6589</f>
-                            <f s="12413" n="shangcheng_fanhui2.png">fc7134e4296ecd93617be7efa5fed60b</f>
-                            <f s="95182" n="shangcheng_jinbi1.png">1c70b4021444d3b23dbe418bfddd7c04</f>
-                            <f s="87326" n="shangcheng_jinbi112.png">d7a6780ff272a4a9fabcdeb9a650f459</f>
-                            <f s="94293" n="shangcheng_jinbi2.png">c068d768235fecde127aaf52d3fa0521</f>
-                            <f s="86418" n="shangcheng_jinbi222.png">021802a2dc9ea94b6dc9542e883b5b58</f>
-                            <f s="93475" n="shangcheng_jinbi3.png">c55039489a50f2e9c4655108fe2a0826</f>
-                            <f s="87846" n="shangcheng_jinbi332.png">0bbfcb9ef2c105ee51c37646f0d48360</f>
-                            <f s="94448" n="shangcheng_jinbi4.png">3a54db5d699a0fcac29acfbea60a3b37</f>
-                            <f s="89340" n="shangcheng_jinbi442.png">2d7a74292cd13db1f7cd93b39ea3e2ff</f>
-                            <f s="103130" n="shangcheng_jinbi5.png">b436d15346bc790e42733ab22d952ac8</f>
-                            <f s="96411" n="shangcheng_jinbi552.png">a45ecf8e8b1992eacabe0867bcbf489d</f>
-                            <f s="101004" n="shangcheng_jinbi6.png">fd3b18b3e30ad0b885fc088a93a71310</f>
-                            <f s="94171" n="shangcheng_jinbi662.png">5a9824103155e11728228fd4c69ebf53</f>
-                            <f s="2781" n="shangcheng_ketixianjinbi.png">a5e4082e49ea3ad22d71e91c6fe2b709</f>
-                            <f s="39000" n="shangcheng_tixian1.png">62a20036f3422ccac36ed716f613c000</f>
-                            <f s="47039" n="shangcheng_tixian2.png">a3c060c125c411cf9aa4dd5e68190e71</f>
-                            <f s="4229" n="shangcheng_wanjinbi.png">6106d44b15a3a7e4b9f0f34cddd5e710</f>
-                            <f s="15752" n="shangcheng_wanjinbishuzi.png">ef2f1bb9e00907ffbc35f81f4059ffb0</f>
-                            <f s="9214" n="shangcheng_yuanshuzi.png">44d3addf9962cf8a046263710fa158da</f>
-                            <f s="4321" n="shangcheng_zuanshixiao.png">2230fc2dd94d97054b1e949e137d3c81</f>
+                            <f s="15489" n="shop_sp.plist">aa32e0b83516f7ce28a9c46cbf1f0fd4</f>
+                            <f s="4057298" n="shop_sp.png">205d6b317da4eae29f7097194087f639</f>
                         </dir>
                         <dir n="sign">
+                            <f s="14000" n="home_sign_sp.plist">10ec5229b609b45150db151940d3bfcc</f>
+                            <f s="2500249" n="home_sign_sp.png">c96f369a2f34dc62125418b534a309b9</f>
                             <f s="1670" n="qiandao_3888-export.fnt">056700c0596feca4d0ea98695a6fd6ff</f>
                             <f s="4152" n="qiandao_3888-export.png">0cc694e077e5e90618984cf299e99eae</f>
                             <f s="1575" n="qiandao_liutian-export.fnt">bb07e1a39b4873eb4a9be6f044246fc3</f>
                             <f s="2522" n="qiandao_liutian-export.png">51a899b24f46d0af89ca34d09e116c78</f>
-                            <f s="8598" n="sign_award1.png">3895dbcf25eff74bd039c0d5833dc3e4</f>
-                            <f s="13553" n="sign_award3.png">7e336605071079673a7c0223c4fa6d87</f>
-                            <f s="894038" n="sign_bg.png">9080efa131d5d6d03864991b85f7c298</f>
-                            <f s="46063" n="sign_btn_get.png">7a0f5a8bde536985cf29fb22e5f3e1df</f>
-                            <f s="55741" n="sign_btn_get1.png">10d4e10a678a7c4896ef9bb926d14d87</f>
-                            <f s="56591" n="sign_day10.png">53f2a6127ad96f7c89b76eeaece55dcf</f>
-                            <f s="45514" n="sign_day11.png">15ad1526d5fb4ad58dcf78758d35f4f6</f>
-                            <f s="60494" n="sign_day20.png">ed9ff8790009922eb820b8ad54a3795e</f>
-                            <f s="49935" n="sign_day21.png">ee6ceced59ba771da259f54bc3b385b0</f>
-                            <f s="64171" n="sign_day30.png">f6c511dbd9972fff75a606aa6a945209</f>
-                            <f s="54087" n="sign_day31.png">2c9803b3872965172ab11dda861adb6f</f>
-                            <f s="64160" n="sign_day40.png">80f49edd3978156554571e2f93ccf302</f>
-                            <f s="54322" n="sign_day41.png">d1c461d65407d9918b2ba7dd523816ce</f>
-                            <f s="67440" n="sign_day50.png">1173bf9307b8a60b69489d0a4a9a6dda</f>
-                            <f s="57987" n="sign_day51.png">608cd037577103c0c376c4c9c92ad9e4</f>
-                            <f s="63180" n="sign_day60.png">c66aef3dab8bc231010cf98eece56634</f>
-                            <f s="53885" n="sign_day61.png">1e260ccf2fded497634e05e66b0dc78a</f>
-                            <f s="64900" n="sign_day70.png">2d2f0975c0ef1f959ff8fe652c430d81</f>
-                            <f s="55955" n="sign_day71.png">2f96898a3d7f6ffcabb740ff6586ba46</f>
-                            <f s="24226" n="sign_get1.png">99f8affb70130077d4cb00179259cc5c</f>
-                            <f s="80517" n="sign_get_bg.png">1caa30433aa91fd3eff8b92ebd07327a</f>
-                            <f s="13312" n="sign_item_had_got.png">73d609340d5cd974c2c2c2f03857874a</f>
-                            <f s="1604" n="sign_line0.png">6734606c8704ba64548f3ccf9e9e2923</f>
-                            <f s="5581" n="sign_line1.png">df1ead0e99da1a3fef2958de314f87f3</f>
-                            <f s="5712" n="sign_number.png">f203f459239ca29009574a9ca223341e</f>
-                            <f s="46414" n="sign_sure.png">80152f569c107236cad911585e7df4ae</f>
-                            <f s="52896" n="sign_sure1.png">5e28b3884f6a7c7b88513348cae2ef75</f>
-                            <f s="2223" n="sign_tjb.png">e3a8fd2f2678f55fcb6993e2a4255e6f</f>
-                            <f s="1567" n="sin_item_shade.png">9029d58b574975b3263d881aece01fde</f>
                         </dir>
                     </dir>
                 </dir>
@@ -656,15 +434,32 @@
                 <f s="1113" n="Button_Normal.png">5f8329d6525b01810d68e39036e5f066</f>
                 <f s="1153" n="Button_Press.png">ea5e72abd451a76f62a2906abb7ef4bf</f>
                 <f s="1204" n="CheckBox_Disable.png">940e6105cf619f5eba6cc190774b66f9</f>
-                <f s="1204" n="CheckBox_Normal.png">0d09d6e06b35a6c207e8c464131600af</f>
                 <f s="1231" n="CheckBoxNode_Disable.png">33e821a1e9307b492bf27500078279da</f>
-                <f s="1241" n="CheckBoxNode_Normal.png">7b7f98e04a5fc8121f8ec0414954d210</f>
                 <f s="1735" n="ImageFile.png">8b8ddbe2391511ba6e05d975dd2d9dba</f>
-                <f s="1773" n="Sprite.png">380f19a83e69524450a3fc2b466dc275</f>
             </dir>
             <dir n="effect">
+                <f s="5864" n="allin_sp.plist">a3e62dc9ce8954ceabbe91a4d8f5c388</f>
+                <f s="744333" n="allin_sp.png">2632658e4bec31168091046efc84f181</f>
                 <f s="30393" n="jinbi.plist">1c2799168c92903e5cbde269296285b5</f>
-                <f s="7033" n="StartEffect.plist">ae401cb391dcd9d03caf1f6ccf0bfacf</f>
+                <f s="30374" n="jinbipenfa.plist">6d593e5088278afffbc0d0edcdd49864</f>
+                <f s="38202" n="jingbi01.png">fce7fb387b6f4775144126ba6b21f66a</f>
+                <f s="5424" n="nv_1.plist">682e27ce9a3d7802144a01c32b2e06cf</f>
+                <f s="8347249" n="nv_1.png">9610e15d037187f2cf9628613c972162</f>
+                <f s="4918" n="nv_2.plist">f6187752393d0b37ba209bbbddd38193</f>
+                <f s="7201937" n="nv_2.png">d9ff408e27cf24e124559d3893fac45a</f>
+                <f s="5185" n="nv_3.plist">2bf9c0e9aafff903c0e641ab5553d40b</f>
+                <f s="7889309" n="nv_3.png">58b49fd25bd751c062e7834d863a35f0</f>
+                <f s="6686" n="privateroom_sp.plist">d9268a798037d27dba25d4dc5efb6bef</f>
+                <f s="1102649" n="privateroom_sp.png">cc723408476ad07cb73a80189d857c4f</f>
+                <f s="4709" n="rank1.plist">cf8f695e4672424751269031f2291c08</f>
+                <f s="28514" n="rank1.png">c9e9d8e29f6f43e08b2e9d4c719d440b</f>
+                <f s="4709" n="rank2.plist">f5804caafa12ffea6a4131afdc509bc9</f>
+                <f s="34984" n="rank2.png">4cc44e689de8505106efa1b8901f85b6</f>
+                <f s="8058" n="room_selsp.plist">c41c07c767d22d39a98d8c82cdb9e00f</f>
+                <f s="1302350" n="room_selsp.png">8ceaef3095d7b60d0ccb381500e8bc3c</f>
+                <f s="12897" n="shop_sp.plist">8cce9f8fab4ae9c3e1be6952f785afd3</f>
+                <f s="869249" n="shop_sp.png">b9b691e6d115a63d18113a5ed24f9c15</f>
+                <f s="7323" n="StartEffect.plist">80ce28294837adb4d3aac2f49421c5d7</f>
                 <f s="1972890" n="StartEffect.png">70846f208572b49f21b83518d1f54b51</f>
                 <dir n="girl">
                     <f s="93960" n="renwudonghua.json">807ec21e0a61bccfd7654a35b3b62154</f>
@@ -674,49 +469,41 @@
             <dir n="image">
                 <f s="287864" n="cards.png">ca05ff2359367a0f4a5925473ec24a0f</f>
                 <f s="64383" n="cards_small.png">f0d832aa86918c4d9fb80f46357a6155</f>
-                <f s="22867" n="zhujiemian_nan1.png">54150d67c36d9a9f976802fd8071e5b5</f>
-                <f s="24062" n="zhujiemian_nan2.png">1cf91394f7a97bf1bc993582a28dd5a4</f>
-                <f s="22478" n="zhujiemian_nan3.png">744897b902e22e32a68b3e60f933ab5f</f>
-                <f s="25475" n="zhujiemian_nan4.png">3fdbff1b71466333dcdde552c4e6fe5b</f>
-                <f s="24999" n="zhujiemian_nv1.png">701f345871c1dee4187c8a6e0b72977c</f>
-                <f s="24988" n="zhujiemian_nv2.png">5ada1e548bed1eb22a07b15cffe0cd2c</f>
-                <f s="24336" n="zhujiemian_nv3.png">09ae90b9633b5299f1176163784cc2f3</f>
-                <f s="26307" n="zhujiemian_nv4.png">67c345a845b21cb54861b4cb301c67b9</f>
+                <f s="22326" n="zhujiemian_nan1.png">44e3c3771c8fc788c877747e1d3c5088</f>
+                <f s="24024" n="zhujiemian_nan2.png">44aa7e50b49f0669cada2d9182aaa9c8</f>
+                <f s="23240" n="zhujiemian_nan3.png">fe6e387019d5c44099d2cd7faa34b484</f>
+                <f s="24685" n="zhujiemian_nan4.png">2f89fcca1d60187ab67a3570e1944b62</f>
+                <f s="23060" n="zhujiemian_nan5.png">101ac91e24306cbf6300911aba72a603</f>
+                <f s="23974" n="zhujiemian_nan6.png">b46219c1ad29bd2338e68ecab4ab0ed0</f>
+                <f s="22079" n="zhujiemian_nan7.png">42c79c195168dc721280cd63c33c5138</f>
+                <f s="24098" n="zhujiemian_nan8.png">f8b349a740d1d3df86d9291224c2e956</f>
+                <f s="27392" n="zhujiemian_nv1.png">b554890a3addbe119a65d520eeb7d0be</f>
+                <f s="26332" n="zhujiemian_nv2.png">8626c0fd1ac0e20fe0b6e79f9e4c512c</f>
+                <f s="23824" n="zhujiemian_nv3.png">98fdc5cdf7bc48c44407338a720bc697</f>
+                <f s="24786" n="zhujiemian_nv4.png">454f80d3f79807de96ba822eda54cecf</f>
+                <f s="24131" n="zhujiemian_nv5.png">dd451ee5d893046b1b1995e7b10c43d5</f>
+                <f s="25139" n="zhujiemian_nv6.png">e807660cfb457c450b72388c490f0a2e</f>
+                <f s="24742" n="zhujiemian_nv7.png">9352fdbcba03c989697835840b58c4d1</f>
+                <f s="23922" n="zhujiemian_nv8.png">5cdff77330e2cac1feac6c7b2a159dfc</f>
             </dir>
             <dir n="login">
-                <f s="265831" n="denglu_chongzhimimadadi.png">8778ac8fa0f4532b725595dd896034b4</f>
-                <f s="18110" n="denglu_denglanniu11.png">c50691c22e8c8f086d60f007095045ef</f>
-                <f s="22960" n="denglu_denglanniu22222.png">8a7d3ffcbbe9e2091db566a980f57532</f>
-                <f s="15677" n="denglu_denglu1.png">35d4f1d758d7b92de7a6b785a4496be6</f>
-                <f s="14747" n="denglu_denglu2.png">678d71518d3d1a977a3f2f79527e9810</f>
-                <f s="4124" n="denglu_dengludi.png">57b4e56432390bde20e530af82b54254</f>
-                <f s="12461" n="denglu_dengluzhucebiaoti.png">946bbb678a4a51046c94fecdb09f5d04</f>
-                <f s="946132" n="denglu_di.png">22e9880a99d4822d9fab6ac9bfc09395</f>
-                <f s="23934" n="denglu_jinggao.png">52e743cc50080a0f45016c37c64c7737</f>
-                <f s="25166" n="denglu_logo.png">a4f7dada7a27587b6439f3bd0d695a8d</f>
-                <f s="25636" n="denglu_shoujidenglu1.png">88a7d4dfe08cf2f8395f3393e562bc49</f>
-                <f s="34507" n="denglu_shoujidenglu2.png">63d2156d52f31aedc6ef3fe9c567cda1</f>
-                <f s="18249" n="denglu_wangjidenglumima.png">dc3fab020944c1eb455d549c20e4b687</f>
-                <f s="5284" n="denglu_xian.png">f150c726edaf14a94ce238aa4dbb0aa6</f>
-                <f s="26304" n="denglu_youkedenglu1.png">42d2351937bf3ad4eedd084e78ad4682</f>
-                <f s="35909" n="denglu_youkedenglu2.png">4990e4ab7be3fadde0c8775932ce178f</f>
-                <f s="18292" n="denglu_zhuce1.png">0a8fd056da4778073a8a266b2bc3bc3f</f>
-                <f s="14811" n="denglu_zhuce11.png">4f7437a19d9659cdb8eaa5938998d8b7</f>
-                <f s="14608" n="denglu_zhuce2.png">bf532cbeaf5b9f4ba4ac63e3e2f6b336</f>
-                <f s="22391" n="denglu_zhuce2222.png">f83f78504c39a80549d795c1f1f30367</f>
-                <f s="7509" n="denglu_zhucedi.png">448de20097e00bb54f9bd876e248bb96</f>
-                <f s="3120" n="login_frame.csb">2dbe603577bcd4c32f21107901117a9f</f>
-                <f s="10584" n="login_input.csb">9d04c8e9df4af81779bf8d94e25ee378</f>
-                <f s="3041" n="meirirenwu_cha1.png">1a4cf2a306751b23a755e95dc3fbca75</f>
-                <f s="4017" n="meirirenwu_cha2.png">63d0dc28c6d540e7d939f84a8f0623d3</f>
-                <f s="6532" n="tixian_fasong1.png">4b9af02478a79a6b3bdf03e21fe153e6</f>
-                <f s="7108" n="tixian_fasong2.png">42fcaae844294de2b391e8724995dae0</f>
-                <f s="1543" n="tixian_jindutiao.png">10e1565992c3fb8a6d7cd6727b7edc60</f>
+                <f s="4624" n="login_frame.csb">38a4406139894ab5ca9cef0d8e842137</f>
+                <f s="12244" n="login_input.csb">9c55931d1159672ed59820e7ebd63e55</f>
+                <f s="8431" n="login_sp.plist">7d43bc256acd0f6a79e7eb896e54a7bd</f>
+                <f s="1672551" n="login_sp.png">2b0f5ee7136d5327df0fa419a4d53a85</f>
+            </dir>
+            <dir n="splash">
+                <f s="941335" n="denglu_di.png">2420778573b77a5f9ca8441238d5d40e</f>
+                <f s="3526" n="denglu_zhengzaidengluzhong-export.fnt">453cea9e4c5da50246e0f9f8f6f926d7</f>
+                <f s="38730" n="denglu_zhengzaidengluzhong-export.png">9ea284a037f1f7fdccdb134e8a0041e4</f>
+                <f s="1670" n="haoyouchang_jindutiaokong.png">be4a5b1d3f75dc5f87175211d3bcd4a6</f>
+                <f s="1357" n="haoyouchang_jindutiaoman.png">6717cee6f44a6ae26076486cd28d5dbf</f>
+                <f s="2312" n="loader.csb">36a9cb94dfbfe398588156843a2dc9ba</f>
             </dir>
         </dir>
         <dir n="src">
             <dir n="app">
-                <f s="4192" n="MyApp.lua">12277d1518eb18fe0af38745ce8bd810</f>
+                <f s="3462" n="MyApp.lua">4fa1d864c3682e1c4b225f06034abe07</f>
                 <dir n="commands">
                     <f s="1562" n="LoginAccountCommand.lua">dd7ea0a709f65e76a6f9e1916708b3f0</f>
                     <f s="1826" n="LoginCoordinateCommand.lua">073dd2815e0b3f6c9b70ae385b1535b9</f>
@@ -726,31 +513,31 @@
                 </dir>
                 <dir n="common">
                     <f s="604" n="ConstUtils.lua">445242bc63a003c4d24a90066aef1354</f>
-                    <f s="1534" n="GameConfig.lua">ab22500f68d47ba42a6eb31af9b70e2d</f>
+                    <f s="1534" n="GameConfig.lua">d4a1f16ee1df384b18e7a2d134a9d613</f>
                     <f s="4243" n="NativeFunctions.lua">de0ad540919c5e9910f9957ac8e01a83</f>
                     <f s="4042" n="SoundUtils.lua">c6b0cabb906ef62ce95a15ab7808cae7</f>
-                    <f s="3009" n="UIHelper.lua">9eeeb1c331f2842d6f55dc7116cd4c48</f>
+                    <f s="3946" n="UIHelper.lua">518065d8fa009c013037fb818a9a7e17</f>
                 </dir>
                 <dir n="controllers">
-                    <f s="3253" n="ControllerBase.lua">1c1e1718420945307e62357a38362930</f>
-                    <f s="6912" n="HomeController.lua">ca94434ef02da337e0ad12bd167c61b6</f>
-                    <f s="2115" n="LoginController.lua">b6d7abf865f695e1693a91ac450b6c03</f>
+                    <f s="3349" n="ControllerBase.lua">8cdf9935b4f0452841af7fec33b1e789</f>
+                    <f s="6937" n="HomeController.lua">74316f27326fd61ae4bf360081299da4</f>
+                    <f s="2290" n="LoginController.lua">9bcb1b538726cc0705439d545e18d959</f>
                     <f s="21209" n="TexasPokerController.lua">2441820e88e0d9b523bfccd963875756</f>
                 </dir>
                 <dir n="handlers">
-                    <f s="2404" n="AccountServerHandlers.lua">25207f3b1ab142bb45f78c5bdadae31b</f>
-                    <f s="5046" n="CoordinateServerHandlers.lua">ba8004a520c78f9585f3e643c9f8985e</f>
-                    <f s="11042" n="GameCommonHandlers.lua">c3f12d0a3e7706f73a08a3bf8327d55c</f>
-                    <f s="2424" n="SocketHandlers.lua">ef4b91301c38892254b5619fa19bdf7d</f>
-                    <f s="3517" n="SwitchGameServerHandlers.lua">e27dcc787b38b47d64f0fe6eaf810833</f>
+                    <f s="2392" n="AccountServerHandlers.lua">e78b9a42454627abe71b43caaeecda23</f>
+                    <f s="5038" n="CoordinateServerHandlers.lua">b573455eed171947ff38280b19185919</f>
+                    <f s="11030" n="GameCommonHandlers.lua">deb342b6bf1a1d3f13b9a8fd69fceca6</f>
+                    <f s="2420" n="SocketHandlers.lua">cfc2a2ec88b455bb6bd3fa5531848f1c</f>
+                    <f s="3513" n="SwitchGameServerHandlers.lua">d0e9cca2f7c03279b0d2fa94630e56a2</f>
                     <f s="5236" n="TexasPokerHandlers.lua">4ad28ff692ccabb9e544c2e008a8ff9e</f>
                 </dir>
                 <dir n="language">
-                    <f s="3506" n="CN.lua">627bd4168b15b8b0d5e09404c35cd884</f>
+                    <f s="3520" n="CN.lua">c2adff77ad8eea1d979b9f92e12d2d20</f>
                     <f s="249" n="lang.lua">57071006399fda72bcf7aa9ef837fe0c</f>
                 </dir>
                 <dir n="models">
-                    <f s="2767" n="GameUser.lua">c9c9c4e87abc1ab0d152d8168c46fe14</f>
+                    <f s="2763" n="GameUser.lua">0e9316a514c83865bdeb25c0b3c5b7d8</f>
                     <f s="1988" n="GlobalStatus.lua">f351f23d3a95c63485e0c13c5650f231</f>
                     <f s="1817" n="TexasPokerConfig.lua">a46a660596286ff3657cd16c40d63659</f>
                     <f s="4802" n="TexasPokerPlayers.lua">371ff4b28cbf1dfa63f8ff695709cab3</f>
@@ -760,7 +547,7 @@
                 <dir n="net">
                     <f s="4469" n="CMD.lua">67f963ae506afb6bc07a2a92be2d8be9</f>
                     <f s="2467" n="ErrorCode.lua">34dbddc8efd0e827aa4c3f11c20d371a</f>
-                    <f s="6365" n="GameSocket.lua">3b16042f191295bf51439330d5006efe</f>
+                    <f s="6361" n="GameSocket.lua">bd487bbc72cebcc6d8d1f627ffb4b7c1</f>
                     <f s="5097" n="PacketBuffer.lua">e267b75b262d60d7a49aaff80dda6d21</f>
                     <f s="4164" n="SocketManager.lua">7186417aea180499cbce603d8ccb570f</f>
                     <f s="6891" n="SocketTCP.lua">ab5b573d4b87770acb9e04f5285cc86d</f>
@@ -769,56 +556,56 @@
                     <dir n="common">
                         <f s="1402" n="AlertOK.lua">5f8c6b037f187a991fbee99ca8fa323b</f>
                         <f s="2080" n="AlertOKCancel.lua">6ea0e0558797437e687c73b4a08a4c71</f>
-                        <f s="4248" n="BroadcastNode.lua">f9901c022e13bf5225255c7d2c0ee076</f>
+                        <f s="4256" n="BroadcastNode.lua">1e7b30fbe8bd9537657ecd4fa16544e9</f>
                         <f s="1008" n="LeftBaseLayer.lua">e9e754ee9e7f2bd222d1a1a7645eb0e5</f>
                         <f s="1136" n="PopBaseLayer.lua">22dbd653302d30f9699e3b3f4ed4e5b1</f>
                         <f s="2649" n="ResItemWidget.lua">286c4a966764112c6abf1e938a656d3f</f>
-                        <f s="3372" n="SimpleBrowser.lua">d9e1b68b711debd2b255dc5be4236934</f>
+                        <f s="3450" n="SimpleBrowser.lua">faeef69122cf6f8210b6f331541a6269</f>
                         <f s="756" n="WaitingNode.lua">986ff3bd3d9a0cc5d6ba64200ec64db6</f>
                     </dir>
                     <dir n="friendroom">
-                        <f s="3597" n="CreatePrivateRoom.lua">865d37f9a014e3042f4966883d58e51d</f>
+                        <f s="3593" n="CreatePrivateRoom.lua">c87d1dc4cef9f10f87fa6dde50cfc062</f>
                         <f s="1895" n="EnterPrivateRoom.lua">54e8e223e729a0a2de378d4ca867d953</f>
                         <f s="2025" n="PrivateRoomItem.lua">22800068555cd388e742f443ffe73d8a</f>
-                        <f s="938" n="PrivateRoomResult.lua">0bd3b6ad328a0f504e7016a545eeb5ee</f>
-                        <f s="1834" n="PrivateRoomResultDetail.lua">b458dedce3232bf2a28d8489e2126ab3</f>
+                        <f s="934" n="PrivateRoomResult.lua">41f76f6226627056e1046970228c4222</f>
+                        <f s="1830" n="PrivateRoomResultDetail.lua">4c06e96f7b6fa0fba69728c202b14124</f>
                         <f s="1255" n="PrivateRoomResultDetailItem.lua">bd1bee2e8a9bb899ffef27764c951414</f>
                         <f s="1522" n="PrivateRoomResultItem.lua">ae958dcc4859f0ec14a89c0f6c704251</f>
                         <f s="1474" n="SelectRoom.lua">8485fdff909660db435298342c504780</f>
                         <f s="1788" n="SelectRoomItem.lua">dc1d442eccd8a08356dab643042fe832</f>
-                        <f s="2323" n="ViewFriendRoom.lua">9ebe1b85c97ffaecadd5fb86f3123cb5</f>
+                        <f s="2319" n="ViewFriendRoom.lua">c24d58f97e75c54272dd5660b50d1c43</f>
                         <f s="420" n="ViewFriendRoomHelp.lua">976a4feb570ad45929d355fb7f00b949</f>
                     </dir>
                     <dir n="home">
                         <f s="536" n="ViewDailyTasks.lua">96da30dfca4708f5788e0ae04430b883</f>
                         <f s="4358" n="ViewEmail.lua">2db886181c1af88de0b33d8ff76aed99</f>
-                        <f s="2537" n="ViewEntry.lua">b49eab7e5b81bef69547f48431cd0b6a</f>
+                        <f s="2994" n="ViewEntry.lua">223bfa13614c8f0669fc95127d2142d2</f>
                         <f s="517" n="ViewFullScreenBase.lua">67db7fa8d8822663b86e28c81cd785be</f>
-                        <f s="4086" n="ViewHome.lua">730dae7caaef309e296f4a86e4c2ca96</f>
+                        <f s="4434" n="ViewHome.lua">d0949c4e93b667db5bab76b683f2849a</f>
                         <f s="484" n="ViewMail.lua">16a6830bae04284ea9aa5fa36b052aba</f>
-                        <f s="4304" n="ViewModifyPersonal.lua">1b9a28ebb9417149a8c3d9e3e7f8d11f</f>
-                        <f s="3355" n="ViewPersonal.lua">f5e80c159c30eff1a3d6155817989a64</f>
-                        <f s="5069" n="ViewRank.lua">0d7fc93d26264fe140d589f3355a309f</f>
+                        <f s="4154" n="ViewModifyPersonal.lua">d523eba3053385faf5ce1b8e5b443773</f>
+                        <f s="3315" n="ViewPersonal.lua">8382bdae65c6bc2e7690c0370da8c9b9</f>
+                        <f s="5051" n="ViewRank.lua">c094d3247ff3cb218bf718909149427b</f>
                         <f s="804" n="ViewService.lua">5879853d20ea20c0009a998dc17c9720</f>
                         <f s="3289" n="ViewSetting.lua">2cb9733e56511c549066ea19f1ca9430</f>
                         <f s="5785" n="ViewShop.lua">1fb186797f974d589a4837329ae0f020</f>
-                        <f s="2735" n="ViewSignAward.lua">5c4090d17681ad51418cbda6dd846730</f>
-                        <f s="3649" n="ViewSignLayer.lua">486200c9c9a3478879a97d8afd46c317</f>
+                        <f s="2596" n="ViewSignAward.lua">697bfc9ad58d16d91c4369898fa35e5c</f>
+                        <f s="3332" n="ViewSignLayer.lua">d40999f45922d0080b28db84d21b4c5d</f>
                     </dir>
                     <dir n="login">
                         <f s="153" n="ViewBG.lua">9c007261b1bad0a81c7d82d3f8be70e6</f>
-                        <f s="5832" n="ViewLogin.lua">7f8f2edf8d7925e2c096a32779535173</f>
+                        <f s="5874" n="ViewLogin.lua">1b1e228ad8e87b3bb5299a95cf659fbd</f>
                     </dir>
                     <dir n="texaspoker">
                         <f s="2806" n="ViewActions.lua">f7ae14776153f860af72816a8baa86c7</f>
                         <f s="5428" n="ViewAddBet.lua">e98fce31c851151fa7a33c1269b1ed16</f>
                         <f s="1637" n="ViewCard.lua">127ee09bf6166f09061e416c47513a77</f>
                         <f s="533" n="ViewCardType.lua">4ac75fda0706053b1124d5c22fb9f9fa</f>
-                        <f s="17321" n="ViewChat.lua">01bc59d9728d7c9a5888904e4a2fbd69</f>
+                        <f s="17317" n="ViewChat.lua">f2e6ee1c0f20584c5fea2b01927b43a7</f>
                         <f s="3221" n="ViewGameMission.lua">66688f8159cd6ab31344c045e05526df</f>
                         <f s="531" n="ViewMakeupBet.lua">d066910416f534323ef650e0bf0103a8</f>
                         <f s="1646" n="ViewMenu.lua">e6331a435648e350d58f4123c9691804</f>
-                        <f s="16207" n="ViewPlayer.lua">bad24a56ab7a81b9e9fec800996c718c</f>
+                        <f s="16203" n="ViewPlayer.lua">4564200dadaed03f98b6a357f21a89ed</f>
                         <f s="2677" n="ViewPlayerInfo.lua">b5310403f09fbec90b653036edb1a1a4</f>
                         <f s="18211" n="ViewRoom.lua">8d62d0f6585a5984012926dc969c930d</f>
                     </dir>
