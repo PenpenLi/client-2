@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dir d="2018-06-12" v="1011" n="preset">
+<dir d="2018-06-12" n="preset" v="1012">
     <zips>
-        <f n="update.zip" s=""></f>
+        <f s="" n="update.zip"></f>
     </zips>
-    <f s="74675" n="version_config.xml">e3ffe8eeaabcece15b0ae9ea8c12d6f7</f>
+    <f s="52500" n="version_config.xml">6668f193fb3db26d31ee794c9c2c9fda</f>
     <dir n="common">
         <dir n="res"/>
         <dir n="src"/>
@@ -513,7 +513,7 @@
                 </dir>
                 <dir n="common">
                     <f s="604" n="ConstUtils.lua">445242bc63a003c4d24a90066aef1354</f>
-                    <f s="1534" n="GameConfig.lua">d4a1f16ee1df384b18e7a2d134a9d613</f>
+                    <f s="1534" n="GameConfig.lua">ab22500f68d47ba42a6eb31af9b70e2d</f>
                     <f s="4243" n="NativeFunctions.lua">de0ad540919c5e9910f9957ac8e01a83</f>
                     <f s="4042" n="SoundUtils.lua">c6b0cabb906ef62ce95a15ab7808cae7</f>
                     <f s="3946" n="UIHelper.lua">518065d8fa009c013037fb818a9a7e17</f>
