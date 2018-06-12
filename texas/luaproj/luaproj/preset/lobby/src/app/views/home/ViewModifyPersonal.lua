@@ -4,9 +4,6 @@ local UIHelper = require("app.common.UIHelper")
 local LeftBaseLayer = require("app.views.common.LeftBaseLayer")
 local ViewModifyPersonal = class("ViewModifyPersonal", LeftBaseLayer)
 
--- 头像数量
-local HEAD_COUNT = 8
-
 function ViewModifyPersonal:ctor()
 	ViewModifyPersonal.super.ctor(self)
 
@@ -27,15 +24,11 @@ function ViewModifyPersonal:ctor()
     Button_OK:addTouchEventListener(handler(self,self.butTouchEvent))
     local children = Node_head:getChildren()
     for i,var in ipairs(children) do
-        if i <= HEAD_COUNT then 
-            if i == headID then 
-                self.Image_SelectFrame:setPosition(var:getPosition())
-            end
-            var:addTouchEventListener(handler(self,self.ImageTouchEvent))
-            var:setTag(i)
-        else
-            var:hide()
+        if i == headID then 
+            self.Image_SelectFrame:setPosition(var:getPosition())
         end
+        var:addTouchEventListener(handler(self,self.ImageTouchEvent))
+        var:setTag(i)
     end
 end
 

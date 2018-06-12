@@ -12,87 +12,89 @@ function ViewLogin:resetView()
 end
 
 function ViewLogin:ctor(ctrl)
-    math.randomseed(os.time());
+	math.randomseed(os.time());
 	ViewLogin.super.ctor(self);
 
 	csbnode = cc.CSLoader:createNode("login/login_frame.csb"):addTo(self);
-    container = UIHelper.seekNodeByName(csbnode, "login_frame");
-    container:setVisible(false);
+	container = UIHelper.seekNodeByName(csbnode, "login_frame");
+	container:setVisible(false);
     
 	local btn_guest_login = UIHelper.seekNodeByName(csbnode, "btn_guest_login");
 	btn_guest_login:addTouchEventListener(function(ref, t)
 		if t ~= ccui.TouchEventType.ended then return end;
-        self:guestLogin();
+		self:guestLogin();
 	end);
 
-    local btn_showlogin = UIHelper.seekNodeByName(csbnode, "btn_user_login");
-    btn_showlogin:addTouchEventListener(function(ref, t)
+	local btn_showlogin = UIHelper.seekNodeByName(csbnode, "btn_user_login");
+	btn_showlogin:addTouchEventListener(function(ref, t)
 		if t ~= ccui.TouchEventType.ended then return end;
-        --显示登录注册输入界面
+		--显示登录注册输入界面
 		container:setVisible(true);
-        self:showLogin();
+		self:showLogin();
 	end);
 
-    local btn_login_page  = UIHelper.seekNodeByName(csbnode, "btn_login_page");
+	local btn_login_page  = UIHelper.seekNodeByName(csbnode, "btn_login_page");
 	local btn_showregister = UIHelper.seekNodeByName(container, "btn_register_page");
 
-    btn_login_page:addTouchEventListener(function(ref, t)
+	btn_login_page:addTouchEventListener(function(ref, t)
 		if t ~= ccui.TouchEventType.ended then return end;
-        --显示登录注册输入界面
+		--显示登录注册输入界面
 		container:setVisible(true);
 		btn_showregister:setSelected(false);
-        self:showLogin();
+		self:showLogin();
 	end)
 
     
-    btn_showregister:addTouchEventListener(function(ref, t)
+	btn_showregister:addTouchEventListener(function(ref, t)
 		if t ~= ccui.TouchEventType.ended then return end;
 		self:showRegister();
 		btn_login_page:setSelected(false);
 	end);
     
-    local btn_close = UIHelper.seekNodeByName(csbnode, "btn_close");
-    btn_close:addTouchEventListener(function(ref, t)
+	local btn_close = UIHelper.seekNodeByName(csbnode, "btn_close");
+	btn_close:addTouchEventListener(function(ref, t)
 		if t ~= ccui.TouchEventType.ended then return end;
 		container:setVisible(false);
 	end)
 
-    local btn_sendcode = UIHelper.seekNodeByName(container, "btn_send_code");
-    btn_sendcode:addTouchEventListener(function(ref, t)
+	local btn_sendcode = UIHelper.seekNodeByName(container, "btn_send_code");
+	btn_sendcode:addTouchEventListener(function(ref, t)
 		if t ~= ccui.TouchEventType.ended then return end;
 		self:sendCode();
 	end)
 
-    local btn_register = UIHelper.seekNodeByName(csbnode, "btn_register");
-    btn_register:addTouchEventListener(function(ref, t)
+	local btn_register = UIHelper.seekNodeByName(csbnode, "btn_register");
+	btn_register:addTouchEventListener(function(ref, t)
 		if t ~= ccui.TouchEventType.ended then return end;
 		self:register();
 	end)
 
 
-    local acc_ctrl = UIHelper.seekNodeByName(UIHelper.seekNodeByName(container, "login_page"), "input_account");
-    local psw_ctrl = UIHelper.seekNodeByName(UIHelper.seekNodeByName(container, "login_page"), "input_psw");
+	local acc_ctrl = UIHelper.seekNodeByName(UIHelper.seekNodeByName(container, "login_page"), "input_account");
+	local psw_ctrl = UIHelper.seekNodeByName(UIHelper.seekNodeByName(container, "login_page"), "input_psw");
 
-    local btn_dologin = UIHelper.seekNodeByName(container, "btn_login");
-     btn_dologin:addTouchEventListener(function(ref, t)
+	local btn_dologin = UIHelper.seekNodeByName(container, "btn_login");
+		btn_dologin:addTouchEventListener(function(ref, t)
 		if t ~= ccui.TouchEventType.ended then return end;
-        local acc = acc_ctrl:getString();
-        local psw = psw_ctrl:getString();
-        local login_options = {
+		local acc = acc_ctrl:getString();
+		local psw = psw_ctrl:getString();
+		local login_options = {
 				account = acc,
 		 		pwd = psw,
 		 		machine_mark = "0"
-		 	};
+			};
         
 		APP.lc:netSendLogin(login_options);
 	end);
    
-   --上次保存登录账号显示
-   local acc = cc.UserDefault:getInstance():getStringForKey("user_account");
-   if acc then
-       acc_ctrl:setString(acc);
-   end
-
+	--上次保存登录账号显示
+	local acc = cc.UserDefault:getInstance():getStringForKey("user_account");
+	if acc then
+		acc_ctrl:setString(acc);
+	end
+	
+	local bg = UIHelper.seekNodeByName(csbnode, "bg0");
+	UIHelper.newAnimation(50, bg, function(i) return string.format("Armature_idle_%03d.png", i - 1) end)
 end
 
 function ViewLogin:guestLogin()

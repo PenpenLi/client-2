@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>QY_OE_01__00000.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{200,250}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,250}</string>
+			</dict>
+			<key>QY_OE_01__00001.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,250},{200,250}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,250}</string>
+			</dict>
+			<key>QY_OE_01__00002.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,500},{200,250}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,250}</string>
+			</dict>
+			<key>QY_OE_01__00003.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,750},{200,250}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,250}</string>
+			</dict>
+			<key>QY_OE_01__00004.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{200,0},{200,250}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,250}</string>
+			</dict>
+			<key>QY_OE_01__00005.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{200,250},{200,250}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,250}</string>
+			</dict>
+			<key>QY_OE_01__00006.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{200,500},{200,250}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,250}</string>
+			</dict>
+			<key>QY_OE_01__00007.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{200,750},{200,250}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,250}</string>
+			</dict>
+			<key>QY_OE_01__00008.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{400,0},{200,250}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,250}</string>
+			</dict>
+			<key>QY_OE_01__00009.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{400,250},{200,250}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,250}</string>
+			</dict>
+			<key>QY_OE_01__00010.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{400,500},{200,250}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,250}</string>
+			</dict>
+			<key>QY_OE_01__00011.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{400,750},{200,250}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,250}</string>
+			</dict>
+			<key>QY_OE_01__00012.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{600,0},{200,250}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,250}</string>
+			</dict>
+			<key>QY_OE_01__00013.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{600,250},{200,250}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,250}</string>
+			</dict>
+			<key>QY_OE_01__00014.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{600,500},{200,250}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,250}</string>
+			</dict>
+			<key>QY_OE_01__00015.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{600,750},{200,250}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,250}</string>
+			</dict>
+			<key>QY_OE_01__00016.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{800,0},{200,250}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,250}</string>
+			</dict>
+			<key>QY_OE_01__00017.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{800,250},{200,250}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,250}</string>
+			</dict>
+			<key>QY_OE_01__00018.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{800,500},{200,250}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,250}</string>
+			</dict>
+			<key>QY_OE_01__00019.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{800,750},{200,250}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,250}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>allin_sp.png</string>
+			<key>realTextureFileName</key>
+			<string>allin_sp.png</string>
+			<key>size</key>
+			<string>{1024,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

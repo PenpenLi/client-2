@@ -33,7 +33,7 @@ function ViewPersonal:ctor()
 	TextWinRate:setString(tostring(gameUser.winrate))
 	TextAllCount:setString(tostring(gameUser.total_played))
     local headID = tonumber(gameUser.head_pic) == 0 and 1 or tonumber(gameUser.head_pic)
-    self.Image_icon:loadTexture(string.format("cocostudio/common/image/%s",head_icon[headID]))
+    self.Image_icon:loadTexture(string.format("image/%s",head_icon[headID]))
 
 	local btn_Modify = UIHelper.seekNodeByName(csbnode, "Button_Modify")
 	btn_Modify:addTouchEventListener(function(ref, t)
@@ -69,7 +69,7 @@ function ViewPersonal:initBestCards()
 end
 
 function ViewPersonal:updateUserInfo(msg)
-    self.Image_icon:loadTexture(string.format("cocostudio/common/image/%s",head_icon[msg.headId]))	
+    self.Image_icon:loadTexture(string.format("image/%s",head_icon[msg.headId]))	
     self.TextNickname:setString(msg.nickName)
 end
 

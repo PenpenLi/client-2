@@ -141,7 +141,7 @@ local head_icon = {
 
 
     local img_head = rankNode:getChildByName("Image_head") 
-    local img_head_str = string.format("cocostudio/common/image/%s", head_icon[tonumber(rankData.head_ico)])
+    local img_head_str = string.format("image/%s", head_icon[tonumber(rankData.head_ico)])
  
     img_head:loadTexture(img_head_str)
      

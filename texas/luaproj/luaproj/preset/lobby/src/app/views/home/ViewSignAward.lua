@@ -27,6 +27,10 @@ printLog("a","==============ViewSignAward ===",data.itemNumber,data.coinNumber)
     self.weekAward1:setVisible(false)
 
     self.Atl_weekcoin_number1 = UIHelper.seekNodeByName(csbnode,"AtlasLabel_week_cn_1")
+	
+	local par = cc.ParticleSystemQuad:create("effect/jinbipenfa.plist");
+	par:addTo(self);
+	par:setPosition(375, 500);
 end
 
 function ViewSignAward:onEnter()

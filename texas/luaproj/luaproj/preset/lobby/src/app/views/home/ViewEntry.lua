@@ -52,6 +52,18 @@ function ViewEntry:ctor(ctrl, container)
 		end
     end)
     self.btn_Rank:setOpacity(0)
+
+	local Button_Game_An =  UIHelper.seekNodeByName(csbnode,"Button_Game_An");
+	UIHelper.newAnimation(27, Button_Game_An, function(i) return string.format("youxichang_%05d.png", i - 1) end);
+
+	local Button_FriendRoom_An =  UIHelper.seekNodeByName(csbnode,"Button_FriendRoom_An");
+	UIHelper.newAnimation(23, Button_FriendRoom_An, function(i) return string.format("paiyouchang_%04d.png", i) end);
+
+	local Sprite_18 =  UIHelper.seekNodeByName(csbnode,"Sprite_18");
+	UIHelper.newAnimation(16, Sprite_18, function(i) return string.format("paihang1_%05d.png", i - 1) end);
+
+	local Sprite_16 =  UIHelper.seekNodeByName(csbnode,"Sprite_16");
+	UIHelper.newAnimation(16, Sprite_16, function(i) return string.format("paihang2_%05d.png", i - 1) end);
 end
 
 function ViewEntry:onEnter()
@@ -67,18 +79,9 @@ end
 
 -- 快速开始特效
 function ViewEntry:effectStart()
-	local spriteFrameCache = cc.SpriteFrameCache:getInstance()
-	local frames = {}
-	for i = 1, 24 do
-		table.insert(frames, spriteFrameCache:getSpriteFrame(string.format("image/start/start_%d.png", i)))
-	end
-	local animation, sprite = display.newAnimation(frames, 0.08)
-	local animate = cc.Animate:create(animation)
-	sprite:addTo(self)
-		:move(self.btn_QuickStart:getPositionX(), self.btn_QuickStart:getPositionY())
-	sprite:runAction(
-		cc.RepeatForever:create(animate)
-	)
+	UIHelper.newAnimation(24, self,
+	 function(i)  return string.format("image/start/start_%d.png", i) end,
+	 cc.p(self.btn_QuickStart:getPositionX(), self.btn_QuickStart:getPositionY()));
 end
 
 return ViewEntry

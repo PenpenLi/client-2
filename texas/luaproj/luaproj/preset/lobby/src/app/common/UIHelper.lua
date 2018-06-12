@@ -67,6 +67,11 @@ end
 
 function UIHelper.cacheEffectHome()
     cc.SpriteFrameCache:getInstance():addSpriteFrames("effect/StartEffect.plist")
+	cc.SpriteFrameCache:getInstance():addSpriteFrames("effect/shop_sp.plist")
+	cc.SpriteFrameCache:getInstance():addSpriteFrames("effect/rank1.plist")
+	cc.SpriteFrameCache:getInstance():addSpriteFrames("effect/rank2.plist")
+	cc.SpriteFrameCache:getInstance():addSpriteFrames("effect/room_selsp.plist")
+	cc.SpriteFrameCache:getInstance():addSpriteFrames("effect/privateroom_sp.plist")
 end
 
 --10000 转 1.0万
@@ -81,6 +86,23 @@ function UIHelper.formatScoreText(score)
     end
 
     return scorestr
+end
+function UIHelper.newAnimation(nframes, container, formator, pos)
+	local spriteFrameCache = cc.SpriteFrameCache:getInstance()
+	local frames = {}
+	for i = 1, nframes do
+		local pa = formator(i);
+		printLog("a", pa);
+		table.insert(frames, spriteFrameCache:getSpriteFrame(pa));
+	end
+	local animation, sprite = display.newAnimation(frames, 0.1)
+	local animate = cc.Animate:create(animation)
+	sprite:addTo(container);
+	if pos then
+		sprite:move(pos);
+	end
+	sprite:runAction(cc.RepeatForever:create(animate));
+	return sprite, animate;
 end
 
 return UIHelper

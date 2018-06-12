@@ -8,13 +8,13 @@ BroadcastNode.MAX_MSG_COUNT = 100
 function BroadcastNode:ctor(options)
 	BroadcastNode.super.ctor(self)
 
-	local imageBG = options.image or "cocostudio/home/image/dating_gonggaodi.png"
+	--local imageBG = options.image or "cocostudio/home/image/dating_gonggaodi.png"
 	self.width = options.width or 500
 	self.height = options.height or 46
 
-	self.BG = display.newSprite(imageBG)
-		:addTo(self)
-		:align(display.LEFT_BOTTOM, 0, -4)
+--	self.BG = display.newSprite(imageBG)
+--		:addTo(self)
+--		:align(display.LEFT_BOTTOM, 0, -4)
 
 	local stencilNode = cc.DrawNode:create()
 	local points = {cc.p(0,0), cc.p(self.width, 0), cc.p(self.width, self.height), cc.p(0, self.height)};

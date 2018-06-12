@@ -44,6 +44,10 @@ function ViewHome:ctor()
 		end
 	end)
 
+	local Button_Shop_Animation = UIHelper.seekNodeByName(csbnode, "Button_Shop_Animation")
+	UIHelper.newAnimation(47, Button_Shop_Animation,
+	 function (i) return string.format("sc__%05d.png", i - 1) end);
+
 	local btn_Service = UIHelper.seekNodeByName(csbnode, "Button_Service")
 	btn_Service:addTouchEventListener(function(ref, t)
 		if t == ccui.TouchEventType.ended then
@@ -93,6 +97,10 @@ function ViewHome:ctor()
 			end
 		end
 	end)
+
+	local bg = UIHelper.seekNodeByName(csbnode, "bg0");
+	UIHelper.newAnimation(50, bg, function(i) return string.format("Armature_idle_%03d.png", i - 1) end)
+
 end
 
 function ViewHome:onEnter()
@@ -106,7 +114,7 @@ end
 function ViewHome:updateUserInfo()
 	local gameUser = APP.GD.GameUser
     local headID = tonumber(gameUser.head_pic) == 0 and 1 or tonumber(gameUser.head_pic)
-    self.Image_Head:loadTexture(string.format("cocostudio/common/image/%s",head_icon[headID]))
+    self.Image_Head:loadTexture(string.format("image/%s",head_icon[headID]))
     self.textGold:setString(tonumber(gameUser.gold_game))
     self.textNickname:setString(gameUser.uname)
 end
