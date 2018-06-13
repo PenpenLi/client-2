@@ -22,5 +22,6 @@ protected:
 	bool	stop_;
 	
 	virtual void	recv_body(std::string data) override;
+	virtual int		on_data_recv(size_t) override;
 	void	flush();
 };

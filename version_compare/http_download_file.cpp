@@ -35,10 +35,15 @@ http_download_file::~http_download_file()
 void http_download_file::recv_body(std::string data) 
 {
 	if (stop_) return;
-
-	total_recv_ += data.size();
 	data_cache_ += data;
 	complete();
+}
+
+int http_download_file::on_data_recv(size_t sz)
+{
+	http_request::on_data_recv(sz);
+	total_recv_ += sz;
+	return 0;
 }
 
 void http_download_file::flush()
