@@ -38,7 +38,7 @@ function    installUpdate(vw, onSucc)
                 if st == 2 then
                     vw:updateProgress("正在更新...", prog, progmax);
                 elseif st == 11 then
-                    vw:updateProgress("正在确认版本...", 0, 0);
+                    vw:updateProgress("正在校验文件...", 0, 0);
                 else
                     vw:updateProgress("正在移动文件...", 0, 0);
                 end
