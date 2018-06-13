@@ -13,6 +13,7 @@ function HomeController:ctor()
 	self.waitHandle1 = nil;
 	self.waitHandle2 = nil;
 	self:enableNodeEvents()
+	UIHelper.cacheEffectHome()
 
 	UIHelper.cacheCards()
 

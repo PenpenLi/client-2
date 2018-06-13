@@ -14,7 +14,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
             <PreSize X="1.0000" Y="1.0000" />
-            <FileData Type="Normal" Path="cocostudio/home/image/roomselect/youxichangyu_di.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/roomselect/youxichangyu_di.png" Plist="cocostudio/home/image/personal/personal_sp.plist" />
             <BlendFunc Src="770" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="tongyong_xiadi_2" ActionTag="-932173528" Tag="197" IconVisible="False" TopMargin="1225.0000" ctype="SpriteObjectData">
@@ -25,7 +25,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
             <PreSize X="1.0000" Y="0.0817" />
-            <FileData Type="Normal" Path="cocostudio/home/image/friendroom/tongyong_xiadi.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/friendroom/tongyong_xiadi.png" Plist="cocostudio/home/image/friendroom/friendroom_sp2.plist" />
             <BlendFunc Src="770" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="btnBack" ActionTag="-2029479362" Tag="198" IconVisible="False" LeftMargin="-4.0000" RightMargin="610.0000" TopMargin="1206.0000" BottomMargin="-16.0000" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="114" Scale9Height="122" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
@@ -38,8 +38,8 @@
             <PreSize X="0.1920" Y="0.1079" />
             <TextColor A="255" R="65" G="65" B="70" />
             <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
-            <PressedFileData Type="Normal" Path="cocostudio/home/image/shop/shangcheng_fanhui2.png" Plist="" />
-            <NormalFileData Type="Normal" Path="cocostudio/home/image/shop/shangcheng_fanhui1.png" Plist="" />
+            <PressedFileData Type="MarkedSubImage" Path="cocostudio/home/image/shop/shangcheng_fanhui2.png" Plist="cocostudio/home/image/shop/shop_sp.plist" />
+            <NormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/shop/shangcheng_fanhui1.png" Plist="cocostudio/home/image/shop/shop_sp.plist" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
@@ -53,8 +53,8 @@
             <PreSize X="0.3707" Y="0.0892" />
             <TextColor A="255" R="65" G="65" B="70" />
             <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
-            <PressedFileData Type="Normal" Path="cocostudio/home/image/roomselect/youxichangyu_kuaisukaishi2.png" Plist="" />
-            <NormalFileData Type="Normal" Path="cocostudio/home/image/roomselect/youxichangyu_kuaisukaishi1.png" Plist="" />
+            <PressedFileData Type="MarkedSubImage" Path="cocostudio/home/image/roomselect/youxichangyu_kuaisukaishi2.png" Plist="cocostudio/home/image/personal/personal_sp.plist" />
+            <NormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/roomselect/youxichangyu_kuaisukaishi1.png" Plist="cocostudio/home/image/personal/personal_sp.plist" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
@@ -68,8 +68,8 @@
             <PreSize X="0.1547" Y="0.1282" />
             <TextColor A="255" R="65" G="65" B="70" />
             <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
-            <PressedFileData Type="Normal" Path="cocostudio/home/image/roomselect/dating_paiyouchang1.png" Plist="" />
-            <NormalFileData Type="Normal" Path="cocostudio/home/image/roomselect/dating_paiyouchang1.png" Plist="" />
+            <PressedFileData Type="MarkedSubImage" Path="cocostudio/home/image/roomselect/dating_paiyouchang1.png" Plist="cocostudio/home/image/personal/personal_sp.plist" />
+            <NormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/roomselect/dating_paiyouchang1.png" Plist="cocostudio/home/image/personal/personal_sp.plist" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>

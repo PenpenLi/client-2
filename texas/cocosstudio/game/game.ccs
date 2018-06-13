@@ -118,11 +118,6 @@
               <Image Name="game_state_bg.png" />
               <Fnt Name="haoyouchang_haoyoufangxuanzedishuzi-export.fnt" />
               <Image Name="head_1.png" />
-              <Image Name="head_2.png" />
-              <Image Name="head_3.png" />
-              <Image Name="head_4.png" />
-              <Image Name="head_5.png" />
-              <Image Name="head_6.png" />
               <Image Name="logo.png" />
               <Image Name="meirirenwu_jianglijinbi.png" />
               <Image Name="meirirenwu_shuzi.png" />

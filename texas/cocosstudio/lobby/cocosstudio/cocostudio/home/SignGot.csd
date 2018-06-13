@@ -28,9 +28,9 @@
             <PrePosition />
             <PreSize X="1.0000" Y="1.0000" />
             <TextColor A="255" R="65" G="65" B="70" />
-            <DisabledFileData Type="Normal" Path="cocostudio/home/image/zhujiemian_zhezhao.png" Plist="" />
-            <PressedFileData Type="Normal" Path="cocostudio/home/image/zhujiemian_zhezhao.png" Plist="" />
-            <NormalFileData Type="Normal" Path="cocostudio/home/image/zhujiemian_zhezhao.png" Plist="" />
+            <DisabledFileData Type="MarkedSubImage" Path="cocostudio/home/image/zhujiemian_zhezhao.png" Plist="cocostudio/home/home_sp.plist" />
+            <PressedFileData Type="MarkedSubImage" Path="cocostudio/home/image/zhujiemian_zhezhao.png" Plist="cocostudio/home/home_sp.plist" />
+            <NormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/zhujiemian_zhezhao.png" Plist="cocostudio/home/home_sp.plist" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
@@ -57,7 +57,7 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.4961" Y="0.3495" />
                 <PreSize X="0.2618" Y="0.6917" />
-                <FileData Type="Normal" Path="cocostudio/home/image/sign/sign_get1.png" Plist="" />
+                <FileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_get1.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
               </AbstractNodeData>
               <AbstractNodeData Name="Img_week_award_1" Visible="False" ActionTag="-976529949" VisibleForFrame="False" Tag="67" IconVisible="False" LeftMargin="263.6910" RightMargin="269.3090" TopMargin="125.5000" BottomMargin="1.5000" LeftEage="62" RightEage="62" TopEage="94" BottomEage="94" Scale9OriginX="62" Scale9OriginY="94" Scale9Width="65" Scale9Height="97" ctype="ImageViewObjectData">
                 <Size X="189.0000" Y="285.0000" />
@@ -79,7 +79,7 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.4961" Y="0.3495" />
                 <PreSize X="0.2618" Y="0.6917" />
-                <FileData Type="Normal" Path="cocostudio/home/image/sign/sign_get1.png" Plist="" />
+                <FileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_get1.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
               </AbstractNodeData>
             </Children>
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -88,7 +88,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5022" Y="0.5564" />
             <PreSize X="0.9627" Y="0.3088" />
-            <FileData Type="Normal" Path="cocostudio/home/image/sign/sign_get_bg.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_get_bg.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
           </AbstractNodeData>
         </Children>
       </ObjectData>

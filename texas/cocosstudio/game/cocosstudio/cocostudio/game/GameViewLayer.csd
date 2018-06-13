@@ -502,10 +502,10 @@
           <AbstractNodeData Name="pubcards" ActionTag="1207293202" Tag="1199" IconVisible="True" RightMargin="750.0000" TopMargin="1334.0000" ctype="SingleNodeObjectData">
             <Size X="0.0000" Y="0.0000" />
             <Children>
-              <AbstractNodeData Name="pubcard1" ActionTag="2034316865" Tag="533" IconVisible="False" LeftMargin="141.3000" RightMargin="-231.3000" TopMargin="-766.8834" BottomMargin="648.8834" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+              <AbstractNodeData Name="pubcard1" ActionTag="2034316865" Tag="533" IconVisible="False" LeftMargin="141.3000" RightMargin="-231.3000" TopMargin="-766.8835" BottomMargin="648.8835" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
                 <Size X="90.0000" Y="118.0000" />
                 <AnchorPoint />
-                <Position X="141.3000" Y="648.8834" />
+                <Position X="141.3000" Y="648.8835" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
@@ -515,10 +515,10 @@
                 <EndColor A="255" R="255" G="255" B="255" />
                 <ColorVector ScaleY="1.0000" />
               </AbstractNodeData>
-              <AbstractNodeData Name="pubcard2" ActionTag="-655781066" Tag="534" IconVisible="False" LeftMargin="234.9823" RightMargin="-324.9823" TopMargin="-766.8836" BottomMargin="648.8836" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+              <AbstractNodeData Name="pubcard2" ActionTag="-655781066" Tag="534" IconVisible="False" LeftMargin="234.9789" RightMargin="-324.9789" TopMargin="-766.8835" BottomMargin="648.8835" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
                 <Size X="90.0000" Y="118.0000" />
                 <AnchorPoint />
-                <Position X="234.9823" Y="648.8836" />
+                <Position X="234.9789" Y="648.8835" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
@@ -528,10 +528,10 @@
                 <EndColor A="255" R="255" G="255" B="255" />
                 <ColorVector ScaleY="1.0000" />
               </AbstractNodeData>
-              <AbstractNodeData Name="pubcard3" ActionTag="-172263533" Tag="535" IconVisible="False" LeftMargin="328.6599" RightMargin="-418.6599" TopMargin="-766.8836" BottomMargin="648.8836" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+              <AbstractNodeData Name="pubcard3" ActionTag="-172263533" Tag="535" IconVisible="False" LeftMargin="328.6577" RightMargin="-418.6577" TopMargin="-766.8835" BottomMargin="648.8835" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
                 <Size X="90.0000" Y="118.0000" />
                 <AnchorPoint />
-                <Position X="328.6599" Y="648.8836" />
+                <Position X="328.6577" Y="648.8835" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
@@ -541,10 +541,10 @@
                 <EndColor A="255" R="255" G="255" B="255" />
                 <ColorVector ScaleY="1.0000" />
               </AbstractNodeData>
-              <AbstractNodeData Name="pubcard4" ActionTag="975661619" Tag="536" IconVisible="False" LeftMargin="422.3374" RightMargin="-512.3374" TopMargin="-766.8836" BottomMargin="648.8836" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+              <AbstractNodeData Name="pubcard4" ActionTag="975661619" Tag="536" IconVisible="False" LeftMargin="422.3365" RightMargin="-512.3365" TopMargin="-766.8835" BottomMargin="648.8835" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
                 <Size X="90.0000" Y="118.0000" />
                 <AnchorPoint />
-                <Position X="422.3374" Y="648.8836" />
+                <Position X="422.3365" Y="648.8835" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
@@ -554,10 +554,10 @@
                 <EndColor A="255" R="255" G="255" B="255" />
                 <ColorVector ScaleY="1.0000" />
               </AbstractNodeData>
-              <AbstractNodeData Name="pubcard5" ActionTag="-800449931" Tag="537" IconVisible="False" LeftMargin="516.0150" RightMargin="-606.0150" TopMargin="-766.8836" BottomMargin="648.8836" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+              <AbstractNodeData Name="pubcard5" ActionTag="-800449931" Tag="537" IconVisible="False" LeftMargin="516.0153" RightMargin="-606.0153" TopMargin="-766.8835" BottomMargin="648.8835" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
                 <Size X="90.0000" Y="118.0000" />
                 <AnchorPoint />
-                <Position X="516.0150" Y="648.8836" />
+                <Position X="516.0153" Y="648.8835" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />

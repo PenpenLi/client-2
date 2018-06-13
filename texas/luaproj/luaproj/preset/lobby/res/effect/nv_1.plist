@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>Armature_idle_001.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2877,1421},{675,1054}}</string>
+				<key>offset</key>
+				<string>{-12,2}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{745,1078}</string>
+			</dict>
+			<key>Armature_idle_004.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1447,2096},{713,1053}}</string>
+				<key>offset</key>
+				<string>{6,3}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{745,1078}</string>
+			</dict>
+			<key>Armature_idle_005.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2808,2807},{710,1052}}</string>
+				<key>offset</key>
+				<string>{4,3}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{745,1078}</string>
+			</dict>
+			<key>Armature_idle_006.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2165,0},{711,1052}}</string>
+				<key>offset</key>
+				<string>{4,3}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{745,1078}</string>
+			</dict>
+			<key>Armature_idle_007.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2500,2096},{711,1051}}</string>
+				<key>offset</key>
+				<string>{3,4}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{745,1078}</string>
+			</dict>
+			<key>Armature_idle_008.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2877,711},{710,1051}}</string>
+				<key>offset</key>
+				<string>{3,4}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{745,1078}</string>
+			</dict>
+			<key>Armature_idle_009.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2096,2809},{712,1050}}</string>
+				<key>offset</key>
+				<string>{4,4}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{745,1078}</string>
+			</dict>
+			<key>Armature_idle_010.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2162,1046},{715,1050}}</string>
+				<key>offset</key>
+				<string>{4,4}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{745,1078}</string>
+			</dict>
+			<key>Armature_idle_011.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1446,1046},{716,1050}}</string>
+				<key>offset</key>
+				<string>{5,4}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{745,1078}</string>
+			</dict>
+			<key>Armature_idle_012.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{725,0},{719,1050}}</string>
+				<key>offset</key>
+				<string>{5,4}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{745,1078}</string>
+			</dict>
+			<key>Armature_idle_013.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,3145},{722,1049}}</string>
+				<key>offset</key>
+				<string>{6,5}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{745,1078}</string>
+			</dict>
+			<key>Armature_idle_014.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{725,1049}}</string>
+				<key>offset</key>
+				<string>{6,5}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{745,1078}</string>
+			</dict>
+			<key>Armature_idle_015.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,1049},{725,1048}}</string>
+				<key>offset</key>
+				<string>{6,5}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{745,1078}</string>
+			</dict>
+			<key>Armature_idle_016.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,2097},{724,1048}}</string>
+				<key>offset</key>
+				<string>{5,5}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{745,1078}</string>
+			</dict>
+			<key>Armature_idle_017.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{724,2097},{723,1047}}</string>
+				<key>offset</key>
+				<string>{3,6}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{745,1078}</string>
+			</dict>
+			<key>Armature_idle_019.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{725,1050},{721,1046}}</string>
+				<key>offset</key>
+				<string>{1,5}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{745,1078}</string>
+			</dict>
+			<key>Armature_idle_018.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1049,3144},{723,1047}}</string>
+				<key>offset</key>
+				<string>{2,6}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{745,1078}</string>
+			</dict>
+			<key>Armature_idle_020.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1444,0},{721,1046}}</string>
+				<key>offset</key>
+				<string>{0,6}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{745,1078}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>nv_1.png</string>
+			<key>realTextureFileName</key>
+			<string>nv_1.png</string>
+			<key>size</key>
+			<string>{4096,4096}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>4096</integer>
+			<key>height</key>
+			<integer>4096</integer>
+		</dict>
+	</dict>
+</plist>

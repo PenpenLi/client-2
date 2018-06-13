@@ -1,0 +1,55 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="home_sign_sp" Type="Plist" ID="af92d87a-af34-40c4-91f8-83b2535c6b81" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="cocostudio/home/image/sign/qiandao_tianshuzi.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_12888.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_3888.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_6888.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_9888.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_award0.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_award1.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_award3.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_bg.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_btn_get.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_btn_get1.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_coin.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_day10.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_day11.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_day20.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_day21.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_day30.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_day31.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_day40.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_day41.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_day50.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_day51.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_day60.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_day61.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_day70.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_day71.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_get_bg.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_get1.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_get2.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_get3.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_get4.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_get5.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_get6.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_get7.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_had_got.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_img6d.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_item_had_got.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_line0.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_line1.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_number.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_sure.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_sure1.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_t10d.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_t15d.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_t3d.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sign_tjb.png" />
+      <FilePathData Path="cocostudio/home/image/sign/sin_item_shade.png" />
+    </ImageFiles>
+    <MaxSize Width="2048" Height="2048" />
+  </Content>
+</PlistInfoProjectFile>

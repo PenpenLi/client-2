@@ -6,16 +6,25 @@
       <ObjectData Name="Layer" ctype="GameLayerObjectData">
         <Size X="750.0000" Y="1334.0000" />
         <Children>
-          <AbstractNodeData Name="login_bg_1" ActionTag="1526865363" Tag="156" IconVisible="False" LeftMargin="0.0001" RightMargin="-0.0001" TopMargin="-3.3745" BottomMargin="3.3745" ctype="SpriteObjectData">
+          <AbstractNodeData Name="dating_beijing_4" ActionTag="-955330088" Tag="380" IconVisible="False" ctype="SpriteObjectData">
             <Size X="750.0000" Y="1334.0000" />
             <AnchorPoint />
-            <Position X="0.0001" Y="3.3745" />
+            <Position />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.0000" Y="0.0025" />
+            <PrePosition />
             <PreSize X="1.0000" Y="1.0000" />
-            <FileData Type="Normal" Path="cocostudio/home/image/dating_beijing2.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/dating_beijing.png" Plist="cocostudio/home/home_sp.plist" />
             <BlendFunc Src="770" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="bg0" ActionTag="1931251423" Tag="376" IconVisible="True" LeftMargin="375.0000" RightMargin="375.0000" TopMargin="667.0000" BottomMargin="667.0000" ctype="SingleNodeObjectData">
+            <Size X="0.0000" Y="0.0000" />
+            <AnchorPoint />
+            <Position X="375.0000" Y="667.0000" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.5000" Y="0.5000" />
+            <PreSize X="0.0000" Y="0.0000" />
           </AbstractNodeData>
           <AbstractNodeData Name="bottom" ActionTag="-1533762873" Tag="188" IconVisible="True" RightMargin="750.0000" TopMargin="1334.0000" ctype="SingleNodeObjectData">
             <Size X="0.0000" Y="0.0000" />
@@ -28,7 +37,7 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="cocostudio/home/image/dating_xiafangdi.png" Plist="" />
+                <FileData Type="MarkedSubImage" Path="cocostudio/home/image/dating_xiafangdi.png" Plist="cocostudio/home/home_sp.plist" />
               </AbstractNodeData>
               <AbstractNodeData Name="Button_Mail" ActionTag="920407131" Tag="19" IconVisible="False" LeftMargin="119.1986" RightMargin="-206.1986" TopMargin="-93.8927" BottomMargin="11.8927" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="57" Scale9Height="60" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="87.0000" Y="82.0000" />
@@ -39,9 +48,9 @@
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
                 <TextColor A="255" R="65" G="65" B="70" />
-                <DisabledFileData Type="Normal" Path="cocostudio/home/image/dating_youxiang2.png" Plist="" />
-                <PressedFileData Type="Normal" Path="cocostudio/home/image/dating_youxiang2.png" Plist="" />
-                <NormalFileData Type="Normal" Path="cocostudio/home/image/dating_youxiang1.png" Plist="" />
+                <DisabledFileData Type="MarkedSubImage" Path="cocostudio/home/image/dating_youxiang2.png" Plist="cocostudio/home/home_sp.plist" />
+                <PressedFileData Type="MarkedSubImage" Path="cocostudio/home/image/dating_youxiang2.png" Plist="cocostudio/home/home_sp.plist" />
+                <NormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/dating_youxiang1.png" Plist="cocostudio/home/home_sp.plist" />
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
@@ -54,9 +63,9 @@
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
                 <TextColor A="255" R="65" G="65" B="70" />
-                <DisabledFileData Type="Normal" Path="cocostudio/home/image/dating_kefu2.png" Plist="" />
-                <PressedFileData Type="Normal" Path="cocostudio/home/image/dating_kefu2.png" Plist="" />
-                <NormalFileData Type="Normal" Path="cocostudio/home/image/dating_kefu1.png" Plist="" />
+                <DisabledFileData Type="MarkedSubImage" Path="cocostudio/home/image/dating_kefu2.png" Plist="cocostudio/home/home_sp.plist" />
+                <PressedFileData Type="MarkedSubImage" Path="cocostudio/home/image/dating_kefu2.png" Plist="cocostudio/home/home_sp.plist" />
+                <NormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/dating_kefu1.png" Plist="cocostudio/home/home_sp.plist" />
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
@@ -69,13 +78,13 @@
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
                 <TextColor A="255" R="65" G="65" B="70" />
-                <DisabledFileData Type="Normal" Path="cocostudio/home/image/dating_renwu2.png" Plist="" />
-                <PressedFileData Type="Normal" Path="cocostudio/home/image/dating_renwu2.png" Plist="" />
-                <NormalFileData Type="Normal" Path="cocostudio/home/image/dating_renwu1.png" Plist="" />
+                <DisabledFileData Type="MarkedSubImage" Path="cocostudio/home/image/dating_renwu2.png" Plist="cocostudio/home/home_sp.plist" />
+                <PressedFileData Type="MarkedSubImage" Path="cocostudio/home/image/dating_renwu2.png" Plist="cocostudio/home/home_sp.plist" />
+                <NormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/dating_renwu1.png" Plist="cocostudio/home/home_sp.plist" />
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="Button_Shop" ActionTag="-368215179" Tag="22" IconVisible="False" LeftMargin="546.1643" RightMargin="-740.1643" TopMargin="-94.6283" BottomMargin="19.6283" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="164" Scale9Height="53" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+              <AbstractNodeData Name="Button_Shop" ActionTag="-368215179" Alpha="0" Tag="22" IconVisible="False" LeftMargin="546.1643" RightMargin="-740.1643" TopMargin="-94.6283" BottomMargin="19.6283" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="164" Scale9Height="53" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="194.0000" Y="75.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="643.1643" Y="57.1283" />
@@ -84,11 +93,20 @@
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
                 <TextColor A="255" R="65" G="65" B="70" />
-                <DisabledFileData Type="Normal" Path="cocostudio/home/image/dating_shangcheng1.png" Plist="" />
-                <PressedFileData Type="Normal" Path="cocostudio/home/image/dating_shangcheng2.png" Plist="" />
-                <NormalFileData Type="Normal" Path="cocostudio/home/image/dating_shangcheng1.png" Plist="" />
+                <DisabledFileData Type="MarkedSubImage" Path="cocostudio/home/image/dating_shangcheng1.png" Plist="cocostudio/home/home_sp.plist" />
+                <PressedFileData Type="MarkedSubImage" Path="cocostudio/home/image/dating_shangcheng2.png" Plist="cocostudio/home/home_sp.plist" />
+                <NormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/dating_shangcheng1.png" Plist="cocostudio/home/home_sp.plist" />
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="Button_Shop_Animation" ActionTag="-1943018382" Tag="313" IconVisible="True" LeftMargin="612.1660" RightMargin="-612.1660" TopMargin="-57.1283" BottomMargin="57.1283" ctype="SingleNodeObjectData">
+                <Size X="0.0000" Y="0.0000" />
+                <AnchorPoint />
+                <Position X="612.1660" Y="57.1283" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
               </AbstractNodeData>
               <AbstractNodeData Name="Button_Exit" ActionTag="-1143527558" Tag="26" IconVisible="False" LeftMargin="16.6970" RightMargin="-103.6970" TopMargin="-93.8927" BottomMargin="11.8927" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="57" Scale9Height="60" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="87.0000" Y="82.0000" />
@@ -99,9 +117,9 @@
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
                 <TextColor A="255" R="65" G="65" B="70" />
-                <DisabledFileData Type="Normal" Path="cocostudio/home/image/dating_tuichu2.png" Plist="" />
-                <PressedFileData Type="Normal" Path="cocostudio/home/image/dating_tuichu2.png" Plist="" />
-                <NormalFileData Type="Normal" Path="cocostudio/home/image/dating_tuichu1.png" Plist="" />
+                <DisabledFileData Type="MarkedSubImage" Path="cocostudio/home/image/dating_tuichu2.png" Plist="cocostudio/home/home_sp.plist" />
+                <PressedFileData Type="MarkedSubImage" Path="cocostudio/home/image/dating_tuichu2.png" Plist="cocostudio/home/home_sp.plist" />
+                <NormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/dating_tuichu1.png" Plist="cocostudio/home/home_sp.plist" />
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
@@ -114,9 +132,9 @@
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
                 <TextColor A="255" R="65" G="65" B="70" />
-                <DisabledFileData Type="Normal" Path="cocostudio/home/image/dating_shezhi2.png" Plist="" />
-                <PressedFileData Type="Normal" Path="cocostudio/home/image/dating_shezhi2.png" Plist="" />
-                <NormalFileData Type="Normal" Path="cocostudio/home/image/dating_shezhi1.png" Plist="" />
+                <DisabledFileData Type="MarkedSubImage" Path="cocostudio/home/image/dating_shezhi2.png" Plist="cocostudio/home/home_sp.plist" />
+                <PressedFileData Type="MarkedSubImage" Path="cocostudio/home/image/dating_shezhi2.png" Plist="cocostudio/home/home_sp.plist" />
+                <NormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/dating_shezhi1.png" Plist="cocostudio/home/home_sp.plist" />
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
@@ -148,9 +166,9 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="cocostudio/home/image/dating_shangfangdi.png" Plist="" />
+                <FileData Type="MarkedSubImage" Path="cocostudio/home/image/dating_shangfangdi.png" Plist="cocostudio/home/home_sp.plist" />
               </AbstractNodeData>
-              <AbstractNodeData Name="Image_Head" ActionTag="2056019958" Tag="65" IconVisible="False" LeftMargin="6.1885" RightMargin="-96.1885" TopMargin="-1324.8652" BottomMargin="1239.8652" TouchEnable="True" LeftEage="33" RightEage="33" TopEage="33" BottomEage="33" Scale9OriginX="33" Scale9OriginY="33" Scale9Width="34" Scale9Height="34" ctype="ImageViewObjectData">
+              <AbstractNodeData Name="Image_Head" ActionTag="2056019958" Tag="65" IconVisible="False" LeftMargin="6.1885" RightMargin="-96.1885" TopMargin="-1324.8652" BottomMargin="1239.8652" TouchEnable="True" LeftEage="33" RightEage="33" TopEage="33" BottomEage="33" Scale9OriginX="13" Scale9OriginY="13" Scale9Width="20" Scale9Height="20" ctype="ImageViewObjectData">
                 <Size X="90.0000" Y="85.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="51.1885" Y="1282.3652" />
@@ -158,7 +176,7 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="cocostudio/common/image/zhujiemian_nan5.png" Plist="" />
+                <FileData Type="Default" Path="Default/ImageFile.png" Plist="" />
               </AbstractNodeData>
               <AbstractNodeData Name="Text_Nickname" ActionTag="696708427" Tag="9" IconVisible="False" LeftMargin="115.8754" RightMargin="-259.8754" TopMargin="-1306.1152" BottomMargin="1270.1152" FontSize="36" LabelText="我的昵称" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                 <Size X="144.0000" Y="36.0000" />
@@ -191,9 +209,9 @@
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
                 <TextColor A="255" R="65" G="65" B="70" />
-                <DisabledFileData Type="Normal" Path="cocostudio/home/image/dating_add2.png" Plist="" />
-                <PressedFileData Type="Normal" Path="cocostudio/home/image/dating_add2.png" Plist="" />
-                <NormalFileData Type="Normal" Path="cocostudio/home/image/dating_add1.png" Plist="" />
+                <DisabledFileData Type="MarkedSubImage" Path="cocostudio/home/image/dating_add2.png" Plist="cocostudio/home/home_sp.plist" />
+                <PressedFileData Type="MarkedSubImage" Path="cocostudio/home/image/dating_add2.png" Plist="cocostudio/home/home_sp.plist" />
+                <NormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/dating_add1.png" Plist="cocostudio/home/home_sp.plist" />
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
@@ -205,7 +223,7 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="cocostudio/home/image/dating_jibi1.png" Plist="" />
+                <FileData Type="MarkedSubImage" Path="cocostudio/home/image/dating_jibi1.png" Plist="cocostudio/home/home_sp.plist" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
             </Children>

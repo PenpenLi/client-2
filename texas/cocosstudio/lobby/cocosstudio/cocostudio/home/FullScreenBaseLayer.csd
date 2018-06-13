@@ -14,7 +14,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5000" Y="0.5000" />
             <PreSize X="1.0000" Y="1.0000" />
-            <FileData Type="Normal" Path="cocostudio/home/image/friendroom/haoyouchang_haoyoufangdi.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/friendroom/haoyouchang_haoyoufangdi.png" Plist="cocostudio/home/image/friendroom/friendroom_sp2.plist" />
           </AbstractNodeData>
           <AbstractNodeData Name="Image_5" ActionTag="253287571" Tag="39" IconVisible="False" LeftMargin="0.1942" RightMargin="-0.1942" TopMargin="1225.0588" BottomMargin="-0.0588" LeftEage="224" RightEage="224" TopEage="33" BottomEage="33" Scale9OriginX="224" Scale9OriginY="33" Scale9Width="302" Scale9Height="43" ctype="ImageViewObjectData">
             <Size X="750.0000" Y="109.0000" />
@@ -24,7 +24,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5003" Y="0.0408" />
             <PreSize X="1.0000" Y="0.0817" />
-            <FileData Type="Normal" Path="cocostudio/home/image/friendroom/tongyong_xiadi.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/friendroom/tongyong_xiadi.png" Plist="cocostudio/home/image/friendroom/friendroom_sp2.plist" />
           </AbstractNodeData>
           <AbstractNodeData Name="UIContainer" Visible="False" ActionTag="-1580466333" Tag="32" IconVisible="False" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
             <Size X="750.0000" Y="1334.0000" />

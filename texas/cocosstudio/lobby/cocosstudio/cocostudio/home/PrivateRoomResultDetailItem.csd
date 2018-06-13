@@ -14,7 +14,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
             <PreSize X="1.0000" Y="1.0000" />
-            <FileData Type="Normal" Path="cocostudio/home/image/friendroom/haoyouchang_zhanjixiangqingxiangxidi.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/friendroom/haoyouchang_zhanjixiangqingxiangxidi.png" Plist="cocostudio/home/image/friendroom/friendroom_sp2.plist" />
             <BlendFunc Src="770" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="zhujiemian_nan1_2" ActionTag="888672335" Tag="576" IconVisible="False" LeftMargin="63.7811" RightMargin="509.2189" TopMargin="-2.3881" BottomMargin="-3.6119" ctype="SpriteObjectData">

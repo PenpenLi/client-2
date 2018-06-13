@@ -27,7 +27,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5049" Y="0.4758" />
             <PreSize X="0.9133" Y="0.8171" />
-            <FileData Type="Normal" Path="cocostudio/home/image/Rank/rank_bg.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/Rank/rank_bg.png" Plist="cocostudio/home/image/Rank/rank_sp.plist" />
             <SingleColor A="255" R="150" G="150" B="255" />
             <FirstColor A="255" R="150" G="150" B="255" />
             <EndColor A="255" R="255" G="255" B="255" />
@@ -41,7 +41,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5048" Y="0.8212" />
             <PreSize X="0.2027" Y="0.0705" />
-            <FileData Type="Normal" Path="cocostudio/home/image/Rank/rank_title.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/Rank/rank_title.png" Plist="cocostudio/home/image/Rank/rank_sp.plist" />
           </AbstractNodeData>
           <AbstractNodeData Name="Btn_close" ActionTag="-41314391" Tag="246" IconVisible="False" LeftMargin="627.7357" RightMargin="63.2643" TopMargin="188.8824" BottomMargin="1086.1176" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="29" Scale9Height="37" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="59.0000" Y="59.0000" />
@@ -52,8 +52,8 @@
             <PrePosition X="0.8763" Y="0.8363" />
             <PreSize X="0.0787" Y="0.0442" />
             <TextColor A="255" R="65" G="65" B="70" />
-            <PressedFileData Type="Normal" Path="cocostudio/home/image/Rank/rank_btn_close1.png" Plist="" />
-            <NormalFileData Type="Normal" Path="cocostudio/home/image/Rank/rank_btn_close.png" Plist="" />
+            <PressedFileData Type="MarkedSubImage" Path="cocostudio/home/image/Rank/rank_btn_close1.png" Plist="cocostudio/home/image/Rank/rank_sp.plist" />
+            <NormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/Rank/rank_btn_close.png" Plist="cocostudio/home/image/Rank/rank_sp.plist" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
@@ -65,11 +65,11 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.6600" Y="0.7669" />
             <PreSize X="0.3093" Y="0.0472" />
-            <NormalBackFileData Type="Normal" Path="cocostudio/home/image/Rank/rank_btn_right2.png" Plist="" />
-            <PressedBackFileData Type="Normal" Path="cocostudio/home/image/Rank/rank_btn_right2.png" Plist="" />
-            <DisableBackFileData Type="Normal" Path="cocostudio/home/image/Rank/rank_btn_right.png" Plist="" />
-            <NodeNormalFileData Type="Normal" Path="cocostudio/home/image/Rank/rank_btn_right.png" Plist="" />
-            <NodeDisableFileData Type="Normal" Path="cocostudio/home/image/Rank/rank_btn_right.png" Plist="" />
+            <NormalBackFileData Type="MarkedSubImage" Path="cocostudio/home/image/Rank/rank_btn_right2.png" Plist="cocostudio/home/image/Rank/rank_sp.plist" />
+            <PressedBackFileData Type="MarkedSubImage" Path="cocostudio/home/image/Rank/rank_btn_right2.png" Plist="cocostudio/home/image/Rank/rank_sp.plist" />
+            <DisableBackFileData Type="MarkedSubImage" Path="cocostudio/home/image/Rank/rank_btn_right.png" Plist="cocostudio/home/image/Rank/rank_sp.plist" />
+            <NodeNormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/Rank/rank_btn_right.png" Plist="cocostudio/home/image/Rank/rank_sp.plist" />
+            <NodeDisableFileData Type="MarkedSubImage" Path="cocostudio/home/image/Rank/rank_btn_right.png" Plist="cocostudio/home/image/Rank/rank_sp.plist" />
           </AbstractNodeData>
           <AbstractNodeData Name="Check_1" ActionTag="-2061613648" Tag="264" IconVisible="False" LeftMargin="146.4997" RightMargin="371.5003" TopMargin="279.5000" BottomMargin="991.5000" TouchEnable="True" CheckedState="True" DisplayState="False" ctype="CheckBoxObjectData">
             <Size X="232.0000" Y="63.0000" />
@@ -79,11 +79,11 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.3500" Y="0.7669" />
             <PreSize X="0.3093" Y="0.0472" />
-            <NormalBackFileData Type="Normal" Path="cocostudio/home/image/Rank/rank_btn_left2.png" Plist="" />
-            <PressedBackFileData Type="Normal" Path="cocostudio/home/image/Rank/rank_btn_left2.png" Plist="" />
-            <DisableBackFileData Type="Normal" Path="cocostudio/home/image/Rank/rank_btn_left.png" Plist="" />
-            <NodeNormalFileData Type="Normal" Path="cocostudio/home/image/Rank/rank_btn_left.png" Plist="" />
-            <NodeDisableFileData Type="Normal" Path="cocostudio/home/image/Rank/rank_btn_left.png" Plist="" />
+            <NormalBackFileData Type="MarkedSubImage" Path="cocostudio/home/image/Rank/rank_btn_left2.png" Plist="cocostudio/home/image/Rank/rank_sp.plist" />
+            <PressedBackFileData Type="MarkedSubImage" Path="cocostudio/home/image/Rank/rank_btn_left2.png" Plist="cocostudio/home/image/Rank/rank_sp.plist" />
+            <DisableBackFileData Type="MarkedSubImage" Path="cocostudio/home/image/Rank/rank_btn_left.png" Plist="cocostudio/home/image/Rank/rank_sp.plist" />
+            <NodeNormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/Rank/rank_btn_left.png" Plist="cocostudio/home/image/Rank/rank_sp.plist" />
+            <NodeDisableFileData Type="MarkedSubImage" Path="cocostudio/home/image/Rank/rank_btn_left.png" Plist="cocostudio/home/image/Rank/rank_sp.plist" />
           </AbstractNodeData>
           <AbstractNodeData Name="Image_rank_down_bg" ActionTag="378022784" Tag="165" IconVisible="False" LeftMargin="62.5130" RightMargin="52.4870" TopMargin="1004.2764" BottomMargin="156.7236" LeftEage="209" RightEage="209" TopEage="57" BottomEage="57" Scale9OriginX="209" Scale9OriginY="57" Scale9Width="217" Scale9Height="59" ctype="ImageViewObjectData">
             <Size X="635.0000" Y="173.0000" />
@@ -93,7 +93,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5067" Y="0.1823" />
             <PreSize X="0.8467" Y="0.1297" />
-            <FileData Type="Normal" Path="cocostudio/home/image/Rank/rank_down_bg.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/Rank/rank_down_bg.png" Plist="cocostudio/home/image/Rank/rank_sp.plist" />
           </AbstractNodeData>
           <AbstractNodeData Name="Image_m_bg" ActionTag="-318611727" Tag="325" IconVisible="False" LeftMargin="64.9434" RightMargin="53.0566" TopMargin="1012.1430" BottomMargin="169.8570" LeftEage="208" RightEage="208" TopEage="50" BottomEage="50" Scale9OriginX="208" Scale9OriginY="50" Scale9Width="216" Scale9Height="52" ctype="ImageViewObjectData">
             <Size X="632.0000" Y="152.0000" />
@@ -116,7 +116,7 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.0912" Y="0.5031" />
                 <PreSize X="0.1440" Y="0.1974" />
-                <FileData Type="Normal" Path="cocostudio/home/image/Rank/rank_wsb.png" Plist="" />
+                <FileData Type="MarkedSubImage" Path="cocostudio/home/image/Rank/rank_wsb.png" Plist="cocostudio/home/image/Rank/rank_sp.plist" />
               </AbstractNodeData>
               <AbstractNodeData Name="Text_m_name" ActionTag="1120014974" Tag="19" IconVisible="False" LeftMargin="263.4058" RightMargin="172.5942" TopMargin="38.8338" BottomMargin="57.1662" FontSize="28" LabelText="贪玩蓝月强无敌&#xA;" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ShadowEnabled="True" ctype="TextObjectData">
                 <Size X="196.0000" Y="56.0000" />
@@ -137,7 +137,7 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.4500" Y="0.3040" />
                 <PreSize X="0.0712" Y="0.3092" />
-                <FileData Type="Normal" Path="cocostudio/home/image/dating_jibi1.png" Plist="" />
+                <FileData Type="MarkedSubImage" Path="cocostudio/home/image/dating_jibi1.png" Plist="cocostudio/home/home_sp.plist" />
               </AbstractNodeData>
               <AbstractNodeData Name="Fnt_m_coin_number" ActionTag="-968224641" Tag="21" IconVisible="False" LeftMargin="320.4597" RightMargin="139.5403" TopMargin="84.0390" BottomMargin="32.9610" LabelText="888888亿" ctype="TextBMFontObjectData">
                 <Size X="172.0000" Y="35.0000" />
@@ -156,7 +156,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5079" Y="0.1843" />
             <PreSize X="0.8427" Y="0.1139" />
-            <FileData Type="Normal" Path="cocostudio/home/image/Rank/rank_node_myself_bg.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/Rank/rank_node_myself_bg.png" Plist="cocostudio/home/image/Rank/rank_sp.plist" />
           </AbstractNodeData>
           <AbstractNodeData Name="Image_down_t" ActionTag="234334558" Tag="326" IconVisible="False" LeftMargin="189.0590" RightMargin="190.9410" TopMargin="1177.9595" BottomMargin="128.0405" LeftEage="122" RightEage="122" TopEage="9" BottomEage="9" Scale9OriginX="122" Scale9OriginY="9" Scale9Width="126" Scale9Height="10" ctype="ImageViewObjectData">
             <Size X="370.0000" Y="28.0000" />
@@ -166,7 +166,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.4987" Y="0.1065" />
             <PreSize X="0.4933" Y="0.0210" />
-            <FileData Type="Normal" Path="cocostudio/home/image/Rank/rank_t_down.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/Rank/rank_t_down.png" Plist="cocostudio/home/image/Rank/rank_sp.plist" />
           </AbstractNodeData>
           <AbstractNodeData Name="ListView_rank" ActionTag="-444508831" Tag="107" IconVisible="False" LeftMargin="66.0007" RightMargin="57.9993" TopMargin="362.9100" BottomMargin="341.0900" TouchEnable="True" ClipAble="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" IsBounceEnabled="True" ScrollDirectionType="0" DirectionType="Vertical" ctype="ListViewObjectData">
             <Size X="626.0000" Y="630.0000" />
@@ -192,7 +192,7 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="1.0000" Y="0.9932" />
-                <FileData Type="Normal" Path="cocostudio/home/image/Rank/rank_node_bg.png" Plist="" />
+                <FileData Type="MarkedSubImage" Path="cocostudio/home/image/Rank/rank_node_bg.png" Plist="cocostudio/home/image/Rank/rank_sp.plist" />
               </AbstractNodeData>
               <AbstractNodeData Name="Image_rank_n" ActionTag="-166448994" Tag="112" IconVisible="False" LeftMargin="14.7491" RightMargin="526.2509" TopMargin="47.3384" BottomMargin="-24.3384" LeftEage="28" RightEage="28" TopEage="41" BottomEage="41" Scale9OriginX="28" Scale9OriginY="41" Scale9Width="29" Scale9Height="43" ctype="ImageViewObjectData">
                 <Size X="85.0000" Y="125.0000" />
@@ -202,7 +202,7 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.0915" Y="0.2578" />
                 <PreSize X="0.1358" Y="0.8446" />
-                <FileData Type="Normal" Path="cocostudio/home/image/Rank/rank_no1.png" Plist="" />
+                <FileData Type="MarkedSubImage" Path="cocostudio/home/image/Rank/rank_no1.png" Plist="cocostudio/home/image/Rank/rank_sp.plist" />
               </AbstractNodeData>
               <AbstractNodeData Name="Image_head" ActionTag="1646081508" Tag="16" IconVisible="False" LeftMargin="125.7524" RightMargin="393.2476" TopMargin="21.0465" BottomMargin="18.9535" LeftEage="35" RightEage="35" TopEage="35" BottomEage="35" Scale9OriginX="35" Scale9OriginY="35" Scale9Width="37" Scale9Height="38" ctype="ImageViewObjectData">
                 <Size X="107.0000" Y="108.0000" />
@@ -233,7 +233,7 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.4511" Y="0.3054" />
                 <PreSize X="0.0719" Y="0.3176" />
-                <FileData Type="Normal" Path="cocostudio/home/image/dating_jibi1.png" Plist="" />
+                <FileData Type="MarkedSubImage" Path="cocostudio/home/image/dating_jibi1.png" Plist="cocostudio/home/home_sp.plist" />
               </AbstractNodeData>
               <AbstractNodeData Name="BitmapFontLabel_coin_number" ActionTag="986357243" Tag="21" IconVisible="False" LeftMargin="318.0118" RightMargin="135.9882" TopMargin="81.5939" BottomMargin="31.4061" LabelText="888888亿" ctype="TextBMFontObjectData">
                 <Size X="172.0000" Y="35.0000" />

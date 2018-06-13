@@ -14,7 +14,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5071" Y="0.4769" />
             <PreSize X="0.9133" Y="0.8171" />
-            <FileData Type="Normal" Path="cocostudio/home/image/email/email_bg.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/email/email_bg.png" Plist="cocostudio/home/image/email/email_sp.plist" />
           </AbstractNodeData>
           <AbstractNodeData Name="Img_title" ActionTag="326957978" Tag="245" IconVisible="False" LeftMargin="318.1106" RightMargin="316.8894" TopMargin="190.9586" BottomMargin="1048.0414" LeftEage="37" RightEage="37" TopEage="31" BottomEage="31" Scale9OriginX="37" Scale9OriginY="31" Scale9Width="41" Scale9Height="33" ctype="ImageViewObjectData">
             <Size X="115.0000" Y="95.0000" />
@@ -24,7 +24,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5008" Y="0.8212" />
             <PreSize X="0.1533" Y="0.0712" />
-            <FileData Type="Normal" Path="cocostudio/home/image/email/email_title.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/email/email_title.png" Plist="cocostudio/home/image/email/email_sp.plist" />
           </AbstractNodeData>
           <AbstractNodeData Name="Button_Close" ActionTag="-41314391" Tag="246" IconVisible="False" LeftMargin="627.7357" RightMargin="63.2643" TopMargin="188.8824" BottomMargin="1086.1176" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="29" Scale9Height="37" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="59.0000" Y="59.0000" />
@@ -35,8 +35,8 @@
             <PrePosition X="0.8763" Y="0.8363" />
             <PreSize X="0.0787" Y="0.0442" />
             <TextColor A="255" R="65" G="65" B="70" />
-            <PressedFileData Type="Normal" Path="cocostudio/home/image/email/email_btn_close1.png" Plist="" />
-            <NormalFileData Type="Normal" Path="cocostudio/home/image/email/email_btn_close.png" Plist="" />
+            <PressedFileData Type="MarkedSubImage" Path="cocostudio/home/image/email/email_btn_close1.png" Plist="cocostudio/home/image/email/email_sp.plist" />
+            <NormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/email/email_btn_close.png" Plist="cocostudio/home/image/email/email_sp.plist" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
@@ -48,7 +48,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5053" Y="0.7858" />
             <PreSize X="0.5853" Y="0.0202" />
-            <FileData Type="Normal" Path="cocostudio/home/image/email/email_t_down.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/email/email_t_down.png" Plist="cocostudio/home/image/email/email_sp.plist" />
           </AbstractNodeData>
           <AbstractNodeData Name="Panel_email" ActionTag="-154093548" Tag="19" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="68.0000" RightMargin="56.0000" TopMargin="322.9738" BottomMargin="161.0262" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
             <Size X="626.0000" Y="850.0000" />

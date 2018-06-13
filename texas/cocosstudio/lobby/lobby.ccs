@@ -7,6 +7,7 @@
           <Folder Name="common">
             <Folder Name="image">
               <Image Name="blank.png" />
+              <PlistInfo Name="common_sp.csi" Type="Plist" />
               <Image Name="dating_shangfangdi.png" />
               <Image Name="dating_xiafangdi.png" />
               <Image Name="di_changtiaoditongyong.png" />
@@ -29,22 +30,6 @@
               <Image Name="tongyong_queding2.png" />
               <Image Name="tongyong_tishi.png" />
               <Image Name="tongyong_xiaodi.png" />
-              <Image Name="zhujiemian_nan1.png" />
-              <Image Name="zhujiemian_nan2.png" />
-              <Image Name="zhujiemian_nan3.png" />
-              <Image Name="zhujiemian_nan4.png" />
-              <Image Name="zhujiemian_nan5.png" />
-              <Image Name="zhujiemian_nan6.png" />
-              <Image Name="zhujiemian_nan7.png" />
-              <Image Name="zhujiemian_nan8.png" />
-              <Image Name="zhujiemian_nv1.png" />
-              <Image Name="zhujiemian_nv2.png" />
-              <Image Name="zhujiemian_nv3.png" />
-              <Image Name="zhujiemian_nv4.png" />
-              <Image Name="zhujiemian_nv5.png" />
-              <Image Name="zhujiemian_nv6.png" />
-              <Image Name="zhujiemian_nv7.png" />
-              <Image Name="zhujiemian_nv8.png" />
             </Folder>
             <Project Name="AlertOKCancelLayer.csd" Type="Layer" />
             <Project Name="AlertOKLayer.csd" Type="Layer" />
@@ -62,16 +47,15 @@
                 <Image Name="daily_btn_get.png" />
                 <Image Name="daily_btn_get1.png" />
                 <Image Name="daily_note_star.png" />
+                <PlistInfo Name="daily_tasks_sp.csi" Type="Plist" />
                 <Image Name="daily_title.png" />
                 <Image Name="dailyz_note_bg.png" />
                 <Image Name="dailyz_note_des.png" />
                 <Image Name="dailyz_note_dis.png" />
-                <Image Name="meirirenwu.png" />
                 <Image Name="public_btn_close.png" />
                 <Image Name="public_btn_close1.png" />
               </Folder>
               <Folder Name="email">
-                <Image Name="email.png" />
                 <Image Name="email_bg.png" />
                 <Image Name="email_btn_close.png" />
                 <Image Name="email_btn_close1.png" />
@@ -83,14 +67,16 @@
                 <Image Name="email_btn_right1.png" />
                 <Image Name="email_node_bg.png" />
                 <Image Name="email_node_left.png" />
+                <PlistInfo Name="email_sp.csi" Type="Plist" />
                 <Image Name="email_t_down.png" />
                 <Image Name="email_title.png" />
               </Folder>
               <Folder Name="friendroom">
-                <Image Name="fffffff.png" />
                 <Image Name="friend_bg.png" />
                 <Image Name="friend_create_bg.png" />
                 <Image Name="friend_record_bg.png" />
+                <PlistInfo Name="friendroom_sp.csi" Type="Plist" />
+                <PlistInfo Name="friendroom_sp2.csi" Type="Plist" />
                 <Image Name="haoyouchang_1xiaoshi1.png" />
                 <Image Name="haoyouchang_1xiaoshi2.png" />
                 <Image Name="haoyouchang_2xiaoshi1.png" />
@@ -185,10 +171,6 @@
                 <Image Name="gs_btn_copy1.png" />
                 <Image Name="gs_btn_gs.png" />
                 <Image Name="gs_btn_gs1.png" />
-                <Image Name="gs_des_show.png" />
-                <Image Name="gs_logo.png" />
-                <Image Name="gs_show.png" />
-                <Image Name="gs_table.png" />
                 <Image Name="gs_wait.png" />
               </Folder>
               <Folder Name="mission">
@@ -206,6 +188,7 @@
                 <Image Name="mission_icon_gold.png" />
                 <Image Name="mission_reward_diamond.png" />
                 <Image Name="mission_reward_gold.png" />
+                <PlistInfo Name="mission_sp.csi" Type="Plist" />
               </Folder>
               <Folder Name="personal">
                 <Image Name="di_changtiaoditongyong.png" />
@@ -219,6 +202,7 @@
                 <Image Name="di_xiugaixinxi1i.png" />
                 <Image Name="di_xiugaixinxi2.png" />
                 <Image Name="di_xiugaixinxineirong.png" />
+                <PlistInfo Name="personal_sp.csi" Type="Plist" />
               </Folder>
               <Folder Name="Rank">
                 <Image Name="rank_bg.png" />
@@ -237,7 +221,7 @@
                 <Image Name="rank_node2.png" />
                 <Image Name="rank_node3.png" />
                 <Image Name="rank_number.png" />
-                <Image Name="rank_show.png" />
+                <PlistInfo Name="rank_sp.csi" Type="Plist" />
                 <Image Name="rank_t_down.png" />
                 <Image Name="rank_title.png" />
                 <Image Name="rank_wan.png" />
@@ -324,15 +308,14 @@
                 <Image Name="shangcheng_zhuanshiliang.png" />
                 <Image Name="shangcheng_zuanshi.png" />
                 <Image Name="shangcheng_zuanshixiao.png" />
+                <PlistInfo Name="shop_sp.csi" Type="Plist" />
                 <Image Name="tongyong_cha1.png" />
                 <Image Name="tongyong_cha2.png" />
                 <Image Name="tongyong_tishi.png" />
                 <Image Name="tongyong_xiaodi.png" />
               </Folder>
               <Folder Name="sign">
-                <Image Name="meiriqiandao2.png" />
-                <Image Name="meiriqiandaochengong.png" />
-                <Image Name="meitiqiandao.png" />
+                <PlistInfo Name="home_sign_sp.csi" Type="Plist" />
                 <Fnt Name="qiandao_3888-export.fnt" />
                 <Fnt Name="qiandao_liutian-export.fnt" />
                 <Image Name="qiandao_tianshuzi.png" />
@@ -386,7 +369,6 @@
               <Image Name="dating_add1.png" />
               <Image Name="dating_add2.png" />
               <Image Name="dating_beijing.png" />
-              <Image Name="dating_beijing2.png" />
               <Image Name="dating_bisaichang.png" />
               <Image Name="dating_fankui1.png" />
               <Image Name="dating_fankui2.png" />
@@ -440,8 +422,6 @@
               <Image Name="haoyouchang_wodepaijushuzi.png" />
               <Fnt Name="haoyouchang_wodepaijushuzi-export.fnt" />
               <Image Name="haoyouchang_zhanjidi.png" />
-              <Image Name="home_bg.png" />
-              <Image Name="login_bg.png" />
               <Fnt Name="paihangbang_jinershuzi-export.fnt" />
               <Image Name="paihangbang_weishangbang.png" />
               <Fnt Name="qiandao_jinbishuzi-export.fnt" />
@@ -458,6 +438,7 @@
             <Project Name="FriendRoomLayer.csd" Type="Layer" />
             <Project Name="FullScreenBaseLayer.csd" Type="Layer" />
             <Project Name="Game_rule.csd" Type="Layer" />
+            <PlistInfo Name="home_sp.csi" Type="Plist" />
             <Project Name="HomeLayer.csd" Type="Layer" />
             <Project Name="MailLayer.csd" Type="Layer" />
             <Project Name="MailNode.csd" Type="Layer" />
@@ -487,12 +468,21 @@
           <Image Name="zhujiemian_nan2.png" />
           <Image Name="zhujiemian_nan3.png" />
           <Image Name="zhujiemian_nan4.png" />
+          <Image Name="zhujiemian_nan5.png" />
+          <Image Name="zhujiemian_nan6.png" />
+          <Image Name="zhujiemian_nan7.png" />
+          <Image Name="zhujiemian_nan8.png" />
           <Image Name="zhujiemian_nv1.png" />
           <Image Name="zhujiemian_nv2.png" />
           <Image Name="zhujiemian_nv3.png" />
           <Image Name="zhujiemian_nv4.png" />
+          <Image Name="zhujiemian_nv5.png" />
+          <Image Name="zhujiemian_nv6.png" />
+          <Image Name="zhujiemian_nv7.png" />
+          <Image Name="zhujiemian_nv8.png" />
         </Folder>
         <Folder Name="login">
+          <Image Name="dating_beijing.png" />
           <Image Name="denglu_chongzhimima.png" />
           <Image Name="denglu_chongzhimimadadi.png" />
           <Image Name="denglu_denglanniu11.png" />
@@ -518,6 +508,7 @@
           <Image Name="denglu_zhucedi.png" />
           <Project Name="login_frame.csd" Type="Layer" />
           <Project Name="login_input.csd" Type="Node" />
+          <PlistInfo Name="login_sp.csi" Type="Plist" />
           <Image Name="meirirenwu_cha1.png" />
           <Image Name="meirirenwu_cha2.png" />
           <Image Name="tixian_fasong1.png" />
@@ -526,6 +517,7 @@
         </Folder>
         <Folder Name="splash">
           <Image Name="denglu_di.png" />
+          <Image Name="denglu_logo.png" />
           <Fnt Name="denglu_zhengzaidengluzhong-export.fnt" />
           <Image Name="haoyouchang_jindutiaokong.png" />
           <Image Name="haoyouchang_jindutiaoman.png" />

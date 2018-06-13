@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>cocostudio/home/image/mission/meirirenwu_biaoti.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,950},{202,74}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{202,74}</string>
+			</dict>
+			<key>cocostudio/home/image/mission/meirirenwu_cha1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{722,950},{59,59}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{59,59}</string>
+			</dict>
+			<key>cocostudio/home/image/mission/meirirenwu_cha2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{781,950},{59,59}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{59,59}</string>
+			</dict>
+			<key>cocostudio/home/image/mission/meirirenwu_di.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{685,1090}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{685,1090}</string>
+			</dict>
+			<key>cocostudio/home/image/mission/meirirenwu_kuang.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,685},{626,147}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{626,147}</string>
+			</dict>
+			<key>cocostudio/home/image/mission/meirirenwu_lingqu1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,832},{203,118}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{203,118}</string>
+			</dict>
+			<key>cocostudio/home/image/mission/meirirenwu_lingqu2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{203,832},{203,118}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{203,118}</string>
+			</dict>
+			<key>cocostudio/home/image/mission/meirirenwu_qianwang1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{406,832},{203,118}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{203,118}</string>
+			</dict>
+			<key>cocostudio/home/image/mission/meirirenwu_qianwang2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{609,832},{203,118}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{203,118}</string>
+			</dict>
+			<key>cocostudio/home/image/mission/meirirenwu_shuzi.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{202,950},{290,38}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{290,38}</string>
+			</dict>
+			<key>cocostudio/home/image/mission/mission_icon_diamond.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{626,685},{100,111}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{100,111}</string>
+			</dict>
+			<key>cocostudio/home/image/mission/mission_icon_gold.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{726,685},{100,111}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{100,111}</string>
+			</dict>
+			<key>cocostudio/home/image/mission/mission_reward_diamond.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{202,988},{260,30}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{260,30}</string>
+			</dict>
+			<key>cocostudio/home/image/mission/mission_reward_gold.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{462,988},{260,30}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{260,30}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>mission_sp.png</string>
+			<key>realTextureFileName</key>
+			<string>mission_sp.png</string>
+			<key>size</key>
+			<string>{2048,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>2048</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

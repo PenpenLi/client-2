@@ -14,7 +14,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5023" Y="0.4978" />
             <PreSize X="1.0000" Y="1.0000" />
-            <FileData Type="Normal" Path="cocostudio/home/image/Rank/rank_node_bg.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/Rank/rank_node_bg.png" Plist="cocostudio/home/image/Rank/rank_sp.plist" />
           </AbstractNodeData>
           <AbstractNodeData Name="Img_left" ActionTag="-395981969" Tag="313" IconVisible="False" LeftMargin="12.0814" RightMargin="528.9186" TopMargin="44.4198" BottomMargin="-22.4198" LeftEage="30" RightEage="30" TopEage="31" BottomEage="31" Scale9OriginX="30" Scale9OriginY="31" Scale9Width="25" Scale9Height="63" ctype="ImageViewObjectData">
             <Size X="85.0000" Y="125.0000" />
@@ -24,7 +24,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.0872" Y="0.2727" />
             <PreSize X="0.1358" Y="0.8503" />
-            <FileData Type="Normal" Path="cocostudio/home/image/Rank/rank_no1.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/Rank/rank_no1.png" Plist="cocostudio/home/image/Rank/rank_sp.plist" />
           </AbstractNodeData>
         </Children>
       </ObjectData>
