@@ -14,7 +14,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5004" Y="0.8872" />
             <PreSize X="0.4387" Y="0.0945" />
-            <FileData Type="Normal" Path="cocostudio/home/image/friendroom/haoyouchang_haoyoufang.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/friendroom/haoyouchang_haoyoufang.png" Plist="cocostudio/home/image/friendroom/friendroom_sp2.plist" />
           </AbstractNodeData>
           <AbstractNodeData Name="Button_Join" ActionTag="-1228571518" Tag="45" IconVisible="False" LeftMargin="46.1387" RightMargin="418.8613" TopMargin="234.3696" BottomMargin="673.6304" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="255" Scale9Height="404" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="285.0000" Y="426.0000" />
@@ -25,9 +25,9 @@
             <PrePosition X="0.2515" Y="0.6646" />
             <PreSize X="0.3800" Y="0.3193" />
             <TextColor A="255" R="65" G="65" B="70" />
-            <DisabledFileData Type="Normal" Path="cocostudio/home/image/friendroom/haoyouchang_jiarupaiju.png" Plist="" />
-            <PressedFileData Type="Normal" Path="cocostudio/home/image/friendroom/haoyouchang_jiarupaiju.png" Plist="" />
-            <NormalFileData Type="Normal" Path="cocostudio/home/image/friendroom/haoyouchang_jiarupaiju.png" Plist="" />
+            <DisabledFileData Type="MarkedSubImage" Path="cocostudio/home/image/friendroom/haoyouchang_jiarupaiju.png" Plist="cocostudio/home/image/friendroom/friendroom_sp2.plist" />
+            <PressedFileData Type="MarkedSubImage" Path="cocostudio/home/image/friendroom/haoyouchang_jiarupaiju.png" Plist="cocostudio/home/image/friendroom/friendroom_sp2.plist" />
+            <NormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/friendroom/haoyouchang_jiarupaiju.png" Plist="cocostudio/home/image/friendroom/friendroom_sp2.plist" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
@@ -40,9 +40,9 @@
             <PrePosition X="0.7457" Y="0.6655" />
             <PreSize X="0.3800" Y="0.3193" />
             <TextColor A="255" R="65" G="65" B="70" />
-            <DisabledFileData Type="Normal" Path="cocostudio/home/image/friendroom/haoyouchang_chuangjianpaiju.png" Plist="" />
-            <PressedFileData Type="Normal" Path="cocostudio/home/image/friendroom/haoyouchang_chuangjianpaiju.png" Plist="" />
-            <NormalFileData Type="Normal" Path="cocostudio/home/image/friendroom/haoyouchang_chuangjianpaiju.png" Plist="" />
+            <DisabledFileData Type="MarkedSubImage" Path="cocostudio/home/image/friendroom/haoyouchang_chuangjianpaiju.png" Plist="cocostudio/home/image/friendroom/friendroom_sp2.plist" />
+            <PressedFileData Type="MarkedSubImage" Path="cocostudio/home/image/friendroom/haoyouchang_chuangjianpaiju.png" Plist="cocostudio/home/image/friendroom/friendroom_sp2.plist" />
+            <NormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/friendroom/haoyouchang_chuangjianpaiju.png" Plist="cocostudio/home/image/friendroom/friendroom_sp2.plist" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
@@ -54,7 +54,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.4934" Y="0.4496" />
             <PreSize X="0.9653" Y="0.0472" />
-            <FileData Type="Normal" Path="cocostudio/home/image/friendroom/haoyouchang_wodepaiju.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/friendroom/haoyouchang_wodepaiju.png" Plist="cocostudio/home/image/friendroom/friendroom_sp2.plist" />
           </AbstractNodeData>
           <AbstractNodeData Name="Text_MyGame" ActionTag="909814509" Tag="47" IconVisible="False" LeftMargin="444.9088" RightMargin="267.0912" TopMargin="713.2592" BottomMargin="582.7408" FontSize="38" LabelText="02" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
             <Size X="38.0000" Y="38.0000" />
@@ -76,9 +76,9 @@
             <PrePosition X="0.6307" Y="0.0394" />
             <PreSize X="0.3920" Y="0.0847" />
             <TextColor A="255" R="65" G="65" B="70" />
-            <DisabledFileData Type="Normal" Path="cocostudio/home/image/friendroom/haoyouchang_zhanjianniu2.png" Plist="" />
-            <PressedFileData Type="Normal" Path="cocostudio/home/image/friendroom/haoyouchang_zhanjianniu2.png" Plist="" />
-            <NormalFileData Type="Normal" Path="cocostudio/home/image/friendroom/haoyouchang_zhanjianniu1.png" Plist="" />
+            <DisabledFileData Type="MarkedSubImage" Path="cocostudio/home/image/friendroom/haoyouchang_zhanjianniu2.png" Plist="cocostudio/home/image/friendroom/friendroom_sp2.plist" />
+            <PressedFileData Type="MarkedSubImage" Path="cocostudio/home/image/friendroom/haoyouchang_zhanjianniu2.png" Plist="cocostudio/home/image/friendroom/friendroom_sp2.plist" />
+            <NormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/friendroom/haoyouchang_zhanjianniu1.png" Plist="cocostudio/home/image/friendroom/friendroom_sp2.plist" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
@@ -91,9 +91,9 @@
             <PrePosition X="0.9136" Y="0.0408" />
             <PreSize X="0.1800" Y="0.0990" />
             <TextColor A="255" R="65" G="65" B="70" />
-            <DisabledFileData Type="Normal" Path="cocostudio/home/image/friendroom/haoyouchang_bangzhuanniu2.png" Plist="" />
-            <PressedFileData Type="Normal" Path="cocostudio/home/image/friendroom/haoyouchang_bangzhuanniu2.png" Plist="" />
-            <NormalFileData Type="Normal" Path="cocostudio/home/image/friendroom/haoyouchang_bangzhuanniu.png" Plist="" />
+            <DisabledFileData Type="MarkedSubImage" Path="cocostudio/home/image/friendroom/haoyouchang_bangzhuanniu2.png" Plist="cocostudio/home/image/friendroom/friendroom_sp.plist" />
+            <PressedFileData Type="MarkedSubImage" Path="cocostudio/home/image/friendroom/haoyouchang_bangzhuanniu2.png" Plist="cocostudio/home/image/friendroom/friendroom_sp.plist" />
+            <NormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/friendroom/haoyouchang_bangzhuanniu.png" Plist="cocostudio/home/image/friendroom/friendroom_sp.plist" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
@@ -107,8 +107,8 @@
             <PreSize X="0.1920" Y="0.1079" />
             <TextColor A="255" R="65" G="65" B="70" />
             <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
-            <PressedFileData Type="Normal" Path="cocostudio/home/image/shop/shangcheng_fanhui2.png" Plist="" />
-            <NormalFileData Type="Normal" Path="cocostudio/home/image/shop/shangcheng_fanhui1.png" Plist="" />
+            <PressedFileData Type="MarkedSubImage" Path="cocostudio/home/image/shop/shangcheng_fanhui2.png" Plist="cocostudio/home/image/shop/shop_sp.plist" />
+            <NormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/shop/shangcheng_fanhui1.png" Plist="cocostudio/home/image/shop/shop_sp.plist" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>

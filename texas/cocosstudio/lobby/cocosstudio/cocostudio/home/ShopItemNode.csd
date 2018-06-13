@@ -15,9 +15,9 @@
             <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />
             <TextColor A="255" R="65" G="65" B="70" />
-            <DisabledFileData Type="Normal" Path="cocostudio/home/image/shop/item_diamond_1.png" Plist="" />
-            <PressedFileData Type="Normal" Path="cocostudio/home/image/shop/item_diamond_1.png" Plist="" />
-            <NormalFileData Type="Normal" Path="cocostudio/home/image/shop/item_diamond_1.png" Plist="" />
+            <DisabledFileData Type="MarkedSubImage" Path="cocostudio/home/image/shop/item_diamond_1.png" Plist="cocostudio/home/image/shop/shop_sp.plist" />
+            <PressedFileData Type="MarkedSubImage" Path="cocostudio/home/image/shop/item_diamond_1.png" Plist="cocostudio/home/image/shop/shop_sp.plist" />
+            <NormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/shop/item_diamond_1.png" Plist="cocostudio/home/image/shop/shop_sp.plist" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
@@ -29,7 +29,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />
-            <LabelAtlasFileImage_CNB Type="Normal" Path="cocostudio/home/image/shop/shangcheng_wanjinbishuzi.png" Plist="" />
+            <LabelAtlasFileImage_CNB Type="MarkedSubImage" Path="cocostudio/home/image/shop/shangcheng_wanjinbishuzi.png" Plist="cocostudio/home/image/shop/shop_sp.plist" />
           </AbstractNodeData>
           <AbstractNodeData Name="Image_2" ActionTag="-2095032445" Tag="70" IconVisible="False" RightMargin="-82.0000" TopMargin="-128.8536" BottomMargin="93.8536" LeftEage="27" RightEage="27" TopEage="11" BottomEage="11" Scale9OriginX="27" Scale9OriginY="11" Scale9Width="28" Scale9Height="13" ctype="ImageViewObjectData">
             <Size X="82.0000" Y="35.0000" />
@@ -39,7 +39,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />
-            <FileData Type="Normal" Path="cocostudio/home/image/shop/shangcheng_wanjinbi.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/shop/shangcheng_wanjinbi.png" Plist="cocostudio/home/image/shop/shop_sp.plist" />
           </AbstractNodeData>
           <AbstractNodeData Name="Image_FeeIcon" ActionTag="2105780318" Tag="71" IconVisible="False" LeftMargin="-87.5005" RightMargin="46.5005" TopMargin="103.2991" BottomMargin="-141.2991" LeftEage="13" RightEage="13" TopEage="12" BottomEage="12" Scale9OriginX="13" Scale9OriginY="12" Scale9Width="15" Scale9Height="14" ctype="ImageViewObjectData">
             <Size X="41.0000" Y="38.0000" />
@@ -49,7 +49,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />
-            <FileData Type="Normal" Path="cocostudio/home/image/shop/shangcheng_zuanshixiao.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/shop/shangcheng_zuanshixiao.png" Plist="cocostudio/home/image/shop/shop_sp.plist" />
           </AbstractNodeData>
           <AbstractNodeData Name="AtlasLabel_Fee" ActionTag="266546516" Tag="72" IconVisible="False" LeftMargin="-36.0000" RightMargin="-36.0000" TopMargin="106.5826" BottomMargin="-140.5826" CharWidth="24" CharHeight="34" LabelText="100" StartChar="0" ctype="TextAtlasObjectData">
             <Size X="72.0000" Y="34.0000" />
@@ -59,7 +59,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />
-            <LabelAtlasFileImage_CNB Type="Normal" Path="cocostudio/home/image/shop/shangcheng_yuanshuzi.png" Plist="" />
+            <LabelAtlasFileImage_CNB Type="MarkedSubImage" Path="cocostudio/home/image/shop/shangcheng_yuanshuzi.png" Plist="cocostudio/home/image/shop/shop_sp.plist" />
           </AbstractNodeData>
         </Children>
       </ObjectData>

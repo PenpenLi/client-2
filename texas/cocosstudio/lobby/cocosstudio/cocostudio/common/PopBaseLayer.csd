@@ -14,7 +14,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5000" Y="0.5000" />
             <PreSize X="1.0000" Y="1.0000" />
-            <FileData Type="Normal" Path="cocostudio/common/image/blank.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/common/image/blank.png" Plist="cocostudio/common/image/common_sp.plist" />
           </AbstractNodeData>
           <AbstractNodeData Name="Image_BG" ActionTag="1319420656" Tag="54" IconVisible="False" LeftMargin="18.0000" RightMargin="18.0000" TopMargin="414.0000" BottomMargin="414.0000" LeftEage="235" RightEage="235" TopEage="166" BottomEage="166" Scale9OriginX="235" Scale9OriginY="166" Scale9Width="244" Scale9Height="174" ctype="ImageViewObjectData">
             <Size X="714.0000" Y="506.0000" />
@@ -28,9 +28,9 @@
                 <PrePosition X="0.8921" Y="0.9024" />
                 <PreSize X="0.0714" Y="0.0988" />
                 <TextColor A="255" R="65" G="65" B="70" />
-                <DisabledFileData Type="Normal" Path="cocostudio/common/image/tongyong_cha2.png" Plist="" />
-                <PressedFileData Type="Normal" Path="cocostudio/common/image/tongyong_cha2.png" Plist="" />
-                <NormalFileData Type="Normal" Path="cocostudio/common/image/tongyong_cha1.png" Plist="" />
+                <DisabledFileData Type="MarkedSubImage" Path="cocostudio/common/image/tongyong_cha2.png" Plist="cocostudio/common/image/common_sp.plist" />
+                <PressedFileData Type="MarkedSubImage" Path="cocostudio/common/image/tongyong_cha2.png" Plist="cocostudio/common/image/common_sp.plist" />
+                <NormalFileData Type="MarkedSubImage" Path="cocostudio/common/image/tongyong_cha1.png" Plist="cocostudio/common/image/common_sp.plist" />
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
@@ -41,7 +41,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5000" Y="0.5000" />
             <PreSize X="0.9520" Y="0.3793" />
-            <FileData Type="Normal" Path="cocostudio/common/image/tongyong_xiaodi.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/common/image/tongyong_xiaodi.png" Plist="cocostudio/common/image/common_sp.plist" />
           </AbstractNodeData>
         </Children>
       </ObjectData>

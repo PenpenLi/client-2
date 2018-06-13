@@ -17,7 +17,7 @@
             <FileData Type="Normal" Path="splash/denglu_di.png" Plist="" />
             <BlendFunc Src="770" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="haoyouchang_jindutiaokong_2" ActionTag="-1303304536" Tag="9" IconVisible="False" LeftMargin="38.9996" RightMargin="39.0004" TopMargin="1223.5802" BottomMargin="88.4197" ctype="SpriteObjectData">
+          <AbstractNodeData Name="haoyouchang_jindutiaokong_2" ActionTag="-1303304536" Tag="9" IconVisible="False" LeftMargin="38.9996" RightMargin="39.0004" TopMargin="1223.5803" BottomMargin="88.4197" ctype="SpriteObjectData">
             <Size X="672.0000" Y="22.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="374.9996" Y="99.4197" />
@@ -38,14 +38,14 @@
             <PreSize X="0.8960" Y="0.0165" />
             <ImageFileData Type="Normal" Path="splash/haoyouchang_jindutiaoman.png" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="txtDesc" ActionTag="174325788" Tag="16" IconVisible="False" LeftMargin="277.5002" RightMargin="277.4998" TopMargin="1172.4177" BottomMargin="119.5822" LabelText="正在更新..." ctype="TextBMFontObjectData">
-            <Size X="195.0000" Y="42.0000" />
+          <AbstractNodeData Name="txtDesc" ActionTag="174325788" Tag="16" IconVisible="False" LeftMargin="269.0002" RightMargin="268.9998" TopMargin="1174.9178" BottomMargin="122.0822" LabelText="正在检验文件..." ctype="TextBMFontObjectData">
+            <Size X="212.0000" Y="37.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="375.0002" Y="140.5822" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5000" Y="0.1054" />
-            <PreSize X="0.2600" Y="0.0315" />
+            <PreSize X="0.2827" Y="0.0277" />
             <LabelBMFontFile_CNB Type="Normal" Path="splash/denglu_zhengzaidengluzhong-export.fnt" Plist="" />
           </AbstractNodeData>
           <AbstractNodeData Name="txtError" ActionTag="288695006" VisibleForFrame="False" Tag="18" IconVisible="False" LeftMargin="297.0001" RightMargin="296.9999" TopMargin="1257.8260" BottomMargin="52.1740" FontSize="24" LabelText="网络连接失败!" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
@@ -58,6 +58,17 @@
             <PreSize X="0.2080" Y="0.0180" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="denglu_logo_13" ActionTag="-1103928076" Tag="385" IconVisible="False" LeftMargin="16.7857" RightMargin="523.2142" TopMargin="11.3416" BottomMargin="1253.6584" ctype="SpriteObjectData">
+            <Size X="210.0000" Y="69.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="121.7857" Y="1288.1584" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.1624" Y="0.9656" />
+            <PreSize X="0.2800" Y="0.0517" />
+            <FileData Type="Normal" Path="splash/denglu_logo.png" Plist="" />
+            <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
         </Children>
       </ObjectData>

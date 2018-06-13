@@ -14,7 +14,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5000" Y="0.5000" />
             <PreSize X="1.0000" Y="1.0000" />
-            <FileData Type="Normal" Path="cocostudio/common/image/blank.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/common/image/blank.png" Plist="cocostudio/common/image/common_sp.plist" />
           </AbstractNodeData>
           <AbstractNodeData Name="Image_Left" ActionTag="1804312948" Tag="3" IconVisible="False" LeftMargin="-574.0000" RightMargin="750.0000" TopMargin="-0.5000" BottomMargin="-0.5000" TouchEnable="True" LeftEage="189" RightEage="189" TopEage="440" BottomEage="440" Scale9OriginX="189" Scale9OriginY="440" Scale9Width="196" Scale9Height="455" ctype="ImageViewObjectData">
             <Size X="574.0000" Y="1335.0000" />
@@ -24,7 +24,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="-0.3827" Y="0.5000" />
             <PreSize X="0.7653" Y="1.0007" />
-            <FileData Type="Normal" Path="cocostudio/common/image/di_changtiaoditongyong.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/common/image/di_changtiaoditongyong.png" Plist="cocostudio/common/image/common_sp.plist" />
           </AbstractNodeData>
         </Children>
       </ObjectData>

@@ -14,7 +14,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5019" Y="0.5007" />
             <PreSize X="1.0000" Y="1.0000" />
-            <FileData Type="Normal" Path="cocostudio/home/image/sign/sign_bg.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_bg.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
           </AbstractNodeData>
           <AbstractNodeData Name="LoadingBar" ActionTag="-1257352991" Tag="35" IconVisible="False" LeftMargin="36.0001" RightMargin="37.9999" TopMargin="400.3804" BottomMargin="914.6196" LeftEage="223" RightEage="223" TopEage="6" BottomEage="6" Scale9OriginX="223" Scale9OriginY="6" Scale9Width="230" Scale9Height="7" ctype="ImageViewObjectData">
             <Size X="676.0000" Y="19.0000" />
@@ -24,7 +24,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.4987" Y="0.6927" />
             <PreSize X="0.9013" Y="0.0142" />
-            <FileData Type="Normal" Path="cocostudio/home/image/sign/sign_line0.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_line0.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
           </AbstractNodeData>
           <AbstractNodeData Name="LoadingBar_1" ActionTag="2061912172" Tag="49" IconVisible="False" LeftMargin="37.7188" RightMargin="36.2812" TopMargin="400.3805" BottomMargin="914.6195" ProgressInfo="30" ctype="LoadingBarObjectData">
             <Size X="676.0000" Y="19.0000" />
@@ -34,7 +34,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5010" Y="0.6927" />
             <PreSize X="0.9013" Y="0.0142" />
-            <ImageFileData Type="Normal" Path="cocostudio/home/image/sign/sign_line1.png" Plist="" />
+            <ImageFileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_line1.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
           </AbstractNodeData>
           <AbstractNodeData Name="Btn_get" ActionTag="1796374765" Tag="48" IconVisible="False" LeftMargin="186.8107" RightMargin="193.1893" TopMargin="1144.0323" BottomMargin="29.9677" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="340" Scale9Height="138" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="370.0000" Y="160.0000" />
@@ -45,8 +45,8 @@
             <PrePosition X="0.4957" Y="0.0824" />
             <PreSize X="0.4933" Y="0.1199" />
             <TextColor A="255" R="65" G="65" B="70" />
-            <PressedFileData Type="Normal" Path="cocostudio/home/image/sign/sign_btn_get1.png" Plist="" />
-            <NormalFileData Type="Normal" Path="cocostudio/home/image/sign/sign_btn_get.png" Plist="" />
+            <PressedFileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_btn_get1.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
+            <NormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_btn_get.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
@@ -59,8 +59,8 @@
             <PrePosition X="0.4930" Y="0.0824" />
             <PreSize X="0.4933" Y="0.1199" />
             <TextColor A="255" R="65" G="65" B="70" />
-            <PressedFileData Type="Normal" Path="cocostudio/home/image/sign/sign_sure1.png" Plist="" />
-            <NormalFileData Type="Normal" Path="cocostudio/home/image/sign/sign_sure.png" Plist="" />
+            <PressedFileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_sure1.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
+            <NormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_sure.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
@@ -72,10 +72,10 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.1480" Y="0.5112" />
             <PreSize X="0.2520" Y="0.2136" />
-            <NormalBackFileData Type="Normal" Path="cocostudio/home/image/sign/sign_day10.png" Plist="" />
-            <PressedBackFileData Type="Normal" Path="cocostudio/home/image/sign/sign_day11.png" Plist="" />
-            <DisableBackFileData Type="Normal" Path="cocostudio/home/image/sign/sign_day11.png" Plist="" />
-            <NodeNormalFileData Type="Normal" Path="cocostudio/home/image/sign/sign_day11.png" Plist="" />
+            <NormalBackFileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_day10.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
+            <PressedBackFileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_day11.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
+            <DisableBackFileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_day11.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
+            <NodeNormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_day11.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
             <NodeDisableFileData Type="Default" Path="Default/CheckBoxNode_Disable.png" Plist="" />
           </AbstractNodeData>
           <AbstractNodeData Name="Btn_d2" ActionTag="1096018821" Tag="53" IconVisible="False" LeftMargin="193.5000" RightMargin="367.5000" TopMargin="509.5000" BottomMargin="539.5000" TouchEnable="True" ctype="CheckBoxObjectData">
@@ -86,10 +86,10 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.3840" Y="0.5112" />
             <PreSize X="0.2520" Y="0.2136" />
-            <NormalBackFileData Type="Normal" Path="cocostudio/home/image/sign/sign_day20.png" Plist="" />
-            <PressedBackFileData Type="Normal" Path="cocostudio/home/image/sign/sign_day21.png" Plist="" />
-            <DisableBackFileData Type="Normal" Path="cocostudio/home/image/sign/sign_day21.png" Plist="" />
-            <NodeNormalFileData Type="Normal" Path="cocostudio/home/image/sign/sign_day21.png" Plist="" />
+            <NormalBackFileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_day20.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
+            <PressedBackFileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_day21.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
+            <DisableBackFileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_day21.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
+            <NodeNormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_day21.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
             <NodeDisableFileData Type="Default" Path="Default/CheckBoxNode_Disable.png" Plist="" />
           </AbstractNodeData>
           <AbstractNodeData Name="Btn_d3" ActionTag="106775178" Tag="54" IconVisible="False" LeftMargin="370.5000" RightMargin="190.5000" TopMargin="509.5000" BottomMargin="539.5000" TouchEnable="True" ctype="CheckBoxObjectData">
@@ -100,10 +100,10 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.6200" Y="0.5112" />
             <PreSize X="0.2520" Y="0.2136" />
-            <NormalBackFileData Type="Normal" Path="cocostudio/home/image/sign/sign_day30.png" Plist="" />
-            <PressedBackFileData Type="Normal" Path="cocostudio/home/image/sign/sign_day31.png" Plist="" />
-            <DisableBackFileData Type="Normal" Path="cocostudio/home/image/sign/sign_day31.png" Plist="" />
-            <NodeNormalFileData Type="Normal" Path="cocostudio/home/image/sign/sign_day31.png" Plist="" />
+            <NormalBackFileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_day30.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
+            <PressedBackFileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_day31.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
+            <DisableBackFileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_day31.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
+            <NodeNormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_day31.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
             <NodeDisableFileData Type="Default" Path="Default/CheckBoxNode_Disable.png" Plist="" />
           </AbstractNodeData>
           <AbstractNodeData Name="Btn_d4" ActionTag="1629274207" Tag="55" IconVisible="False" LeftMargin="546.4968" RightMargin="14.5032" TopMargin="509.5000" BottomMargin="539.5000" TouchEnable="True" ctype="CheckBoxObjectData">
@@ -114,10 +114,10 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.8547" Y="0.5112" />
             <PreSize X="0.2520" Y="0.2136" />
-            <NormalBackFileData Type="Normal" Path="cocostudio/home/image/sign/sign_day40.png" Plist="" />
-            <PressedBackFileData Type="Normal" Path="cocostudio/home/image/sign/sign_day41.png" Plist="" />
-            <DisableBackFileData Type="Normal" Path="cocostudio/home/image/sign/sign_day41.png" Plist="" />
-            <NodeNormalFileData Type="Normal" Path="cocostudio/home/image/sign/sign_day41.png" Plist="" />
+            <NormalBackFileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_day40.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
+            <PressedBackFileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_day41.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
+            <DisableBackFileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_day41.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
+            <NodeNormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_day41.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
             <NodeDisableFileData Type="Default" Path="Default/CheckBoxNode_Disable.png" Plist="" />
           </AbstractNodeData>
           <AbstractNodeData Name="Btn_d5" ActionTag="-1648869896" Tag="56" IconVisible="False" LeftMargin="106.5000" RightMargin="454.5000" TopMargin="764.5000" BottomMargin="284.5000" TouchEnable="True" ctype="CheckBoxObjectData">
@@ -128,10 +128,10 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.2680" Y="0.3201" />
             <PreSize X="0.2520" Y="0.2136" />
-            <NormalBackFileData Type="Normal" Path="cocostudio/home/image/sign/sign_day50.png" Plist="" />
-            <PressedBackFileData Type="Normal" Path="cocostudio/home/image/sign/sign_day51.png" Plist="" />
-            <DisableBackFileData Type="Normal" Path="cocostudio/home/image/sign/sign_day51.png" Plist="" />
-            <NodeNormalFileData Type="Normal" Path="cocostudio/home/image/sign/sign_day51.png" Plist="" />
+            <NormalBackFileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_day50.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
+            <PressedBackFileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_day51.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
+            <DisableBackFileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_day51.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
+            <NodeNormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_day51.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
             <NodeDisableFileData Type="Default" Path="Default/CheckBoxNode_Disable.png" Plist="" />
           </AbstractNodeData>
           <AbstractNodeData Name="Btn_d6" ActionTag="1222561671" Tag="57" IconVisible="False" LeftMargin="283.5000" RightMargin="277.5000" TopMargin="764.5000" BottomMargin="284.5000" TouchEnable="True" ctype="CheckBoxObjectData">
@@ -142,10 +142,10 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5040" Y="0.3201" />
             <PreSize X="0.2520" Y="0.2136" />
-            <NormalBackFileData Type="Normal" Path="cocostudio/home/image/sign/sign_day60.png" Plist="" />
-            <PressedBackFileData Type="Normal" Path="cocostudio/home/image/sign/sign_day61.png" Plist="" />
-            <DisableBackFileData Type="Normal" Path="cocostudio/home/image/sign/sign_day61.png" Plist="" />
-            <NodeNormalFileData Type="Normal" Path="cocostudio/home/image/sign/sign_day61.png" Plist="" />
+            <NormalBackFileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_day60.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
+            <PressedBackFileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_day61.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
+            <DisableBackFileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_day61.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
+            <NodeNormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_day61.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
             <NodeDisableFileData Type="Default" Path="Default/CheckBoxNode_Disable.png" Plist="" />
           </AbstractNodeData>
           <AbstractNodeData Name="Btn_d7" ActionTag="-1645916895" Tag="58" IconVisible="False" LeftMargin="460.5000" RightMargin="100.5000" TopMargin="764.5000" BottomMargin="284.5000" TouchEnable="True" ctype="CheckBoxObjectData">
@@ -156,10 +156,10 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.7400" Y="0.3201" />
             <PreSize X="0.2520" Y="0.2136" />
-            <NormalBackFileData Type="Normal" Path="cocostudio/home/image/sign/sign_day70.png" Plist="" />
-            <PressedBackFileData Type="Normal" Path="cocostudio/home/image/sign/sign_day71.png" Plist="" />
-            <DisableBackFileData Type="Normal" Path="cocostudio/home/image/sign/sign_day71.png" Plist="" />
-            <NodeNormalFileData Type="Normal" Path="cocostudio/home/image/sign/sign_day71.png" Plist="" />
+            <NormalBackFileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_day70.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
+            <PressedBackFileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_day71.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
+            <DisableBackFileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_day71.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
+            <NodeNormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_day71.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
             <NodeDisableFileData Type="Default" Path="Default/CheckBoxNode_Disable.png" Plist="" />
           </AbstractNodeData>
           <AbstractNodeData Name="CheckBox_1" ActionTag="-113902876" Tag="72" IconVisible="False" LeftMargin="205.5000" RightMargin="435.5000" TopMargin="354.5000" BottomMargin="870.5000" TouchEnable="True" ctype="CheckBoxObjectData">
@@ -170,8 +170,8 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.3467" Y="0.6934" />
             <PreSize X="0.1453" Y="0.0817" />
-            <NormalBackFileData Type="Normal" Path="cocostudio/home/image/sign/sign_award1.png" Plist="" />
-            <NodeNormalFileData Type="Normal" Path="cocostudio/home/image/sign/sign_award3.png" Plist="" />
+            <NormalBackFileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_award1.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
+            <NodeNormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_award3.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
           </AbstractNodeData>
           <AbstractNodeData Name="CheckBox_2" ActionTag="315024967" Tag="76" IconVisible="False" LeftMargin="424.5000" RightMargin="216.5000" TopMargin="354.5000" BottomMargin="870.5000" TouchEnable="True" ctype="CheckBoxObjectData">
             <Size X="109.0000" Y="109.0000" />
@@ -181,8 +181,8 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.6387" Y="0.6934" />
             <PreSize X="0.1453" Y="0.0817" />
-            <NormalBackFileData Type="Normal" Path="cocostudio/home/image/sign/sign_award1.png" Plist="" />
-            <NodeNormalFileData Type="Normal" Path="cocostudio/home/image/sign/sign_award3.png" Plist="" />
+            <NormalBackFileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_award1.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
+            <NodeNormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_award3.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
           </AbstractNodeData>
           <AbstractNodeData Name="CheckBox_3" ActionTag="1813350664" Tag="77" IconVisible="False" LeftMargin="645.5000" RightMargin="-4.5000" TopMargin="354.5000" BottomMargin="870.5000" TouchEnable="True" ctype="CheckBoxObjectData">
             <Size X="109.0000" Y="109.0000" />
@@ -192,8 +192,8 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.9333" Y="0.6934" />
             <PreSize X="0.1453" Y="0.0817" />
-            <NormalBackFileData Type="Normal" Path="cocostudio/home/image/sign/sign_award1.png" Plist="" />
-            <NodeNormalFileData Type="Normal" Path="cocostudio/home/image/sign/sign_award3.png" Plist="" />
+            <NormalBackFileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_award1.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
+            <NodeNormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_award3.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
           </AbstractNodeData>
           <AbstractNodeData Name="BitmapFontLabel_top3" ActionTag="1540996914" Tag="233" IconVisible="False" LeftMargin="673.5000" RightMargin="23.5000" TopMargin="330.5717" BottomMargin="971.4283" LabelText="9天" ctype="TextBMFontObjectData">
             <Size X="53.0000" Y="32.0000" />
@@ -263,7 +263,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.1467" Y="0.5112" />
             <PreSize X="0.2120" Y="0.1777" />
-            <FileData Type="Normal" Path="cocostudio/home/image/sign/sin_item_shade.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sin_item_shade.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="Sprite_2" ActionTag="2054372521" Tag="24" IconVisible="False" LeftMargin="207.5000" RightMargin="383.5000" TopMargin="533.5000" BottomMargin="563.5000" ctype="SpriteObjectData">
@@ -274,7 +274,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.3827" Y="0.5112" />
             <PreSize X="0.2120" Y="0.1777" />
-            <FileData Type="Normal" Path="cocostudio/home/image/sign/sin_item_shade.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sin_item_shade.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="Sprite_3" ActionTag="885974493" Tag="26" IconVisible="False" LeftMargin="384.5000" RightMargin="206.5000" TopMargin="533.5000" BottomMargin="563.5000" ctype="SpriteObjectData">
@@ -285,7 +285,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.6187" Y="0.5112" />
             <PreSize X="0.2120" Y="0.1777" />
-            <FileData Type="Normal" Path="cocostudio/home/image/sign/sin_item_shade.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sin_item_shade.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="Sprite_4" ActionTag="-1854260341" Tag="28" IconVisible="False" LeftMargin="561.5000" RightMargin="29.5000" TopMargin="533.5000" BottomMargin="563.5000" ctype="SpriteObjectData">
@@ -296,7 +296,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.8547" Y="0.5112" />
             <PreSize X="0.2120" Y="0.1777" />
-            <FileData Type="Normal" Path="cocostudio/home/image/sign/sin_item_shade.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sin_item_shade.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="Sprite_5" ActionTag="1553905604" Tag="29" IconVisible="False" LeftMargin="120.5000" RightMargin="470.5000" TopMargin="788.5000" BottomMargin="308.5000" ctype="SpriteObjectData">
@@ -307,7 +307,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.2667" Y="0.3201" />
             <PreSize X="0.2120" Y="0.1777" />
-            <FileData Type="Normal" Path="cocostudio/home/image/sign/sin_item_shade.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sin_item_shade.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="Sprite_6" ActionTag="-652968115" Tag="30" IconVisible="False" LeftMargin="297.5000" RightMargin="293.5000" TopMargin="788.5000" BottomMargin="308.5000" ctype="SpriteObjectData">
@@ -318,7 +318,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5027" Y="0.3201" />
             <PreSize X="0.2120" Y="0.1777" />
-            <FileData Type="Normal" Path="cocostudio/home/image/sign/sin_item_shade.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sin_item_shade.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="Sprite_7" ActionTag="711288012" Tag="31" IconVisible="False" LeftMargin="474.5000" RightMargin="116.5000" TopMargin="788.5000" BottomMargin="308.5000" ctype="SpriteObjectData">
@@ -329,7 +329,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.7387" Y="0.3201" />
             <PreSize X="0.2120" Y="0.1777" />
-            <FileData Type="Normal" Path="cocostudio/home/image/sign/sin_item_shade.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sin_item_shade.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="Sprite_g_1" ActionTag="13194618" Tag="33" IconVisible="False" LeftMargin="61.5891" RightMargin="559.4109" TopMargin="698.5429" BottomMargin="562.4571" ctype="SpriteObjectData">
@@ -340,7 +340,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.1681" Y="0.4490" />
             <PreSize X="0.1720" Y="0.0547" />
-            <FileData Type="Normal" Path="cocostudio/home/image/sign/sign_item_had_got.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_item_had_got.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="Sprite_g_2" ActionTag="830545893" Tag="34" IconVisible="False" LeftMargin="235.9352" RightMargin="385.0648" TopMargin="697.3696" BottomMargin="563.6304" ctype="SpriteObjectData">
@@ -351,7 +351,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.4006" Y="0.4499" />
             <PreSize X="0.1720" Y="0.0547" />
-            <FileData Type="Normal" Path="cocostudio/home/image/sign/sign_item_had_got.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_item_had_got.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="Sprite_g_3" ActionTag="-2056848660" Tag="35" IconVisible="False" LeftMargin="414.3328" RightMargin="206.6672" TopMargin="697.2260" BottomMargin="563.7740" ctype="SpriteObjectData">
@@ -362,7 +362,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.6384" Y="0.4500" />
             <PreSize X="0.1720" Y="0.0547" />
-            <FileData Type="Normal" Path="cocostudio/home/image/sign/sign_item_had_got.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_item_had_got.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="Sprite_g_4" ActionTag="-1786055079" Tag="36" IconVisible="False" LeftMargin="590.7025" RightMargin="30.2975" TopMargin="697.0821" BottomMargin="563.9179" ctype="SpriteObjectData">
@@ -373,7 +373,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.8736" Y="0.4501" />
             <PreSize X="0.1720" Y="0.0547" />
-            <FileData Type="Normal" Path="cocostudio/home/image/sign/sign_item_had_got.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_item_had_got.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="Sprite_g_5" ActionTag="1944779699" Tag="37" IconVisible="False" LeftMargin="150.2862" RightMargin="470.7138" TopMargin="952.5741" BottomMargin="308.4259" ctype="SpriteObjectData">
@@ -384,7 +384,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.2864" Y="0.2586" />
             <PreSize X="0.1720" Y="0.0547" />
-            <FileData Type="Normal" Path="cocostudio/home/image/sign/sign_item_had_got.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_item_had_got.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="Sprite_g_6" ActionTag="797805346" Tag="38" IconVisible="False" LeftMargin="328.6862" RightMargin="292.3138" TopMargin="952.4303" BottomMargin="308.5697" ctype="SpriteObjectData">
@@ -395,7 +395,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5242" Y="0.2587" />
             <PreSize X="0.1720" Y="0.0547" />
-            <FileData Type="Normal" Path="cocostudio/home/image/sign/sign_item_had_got.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_item_had_got.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="Sprite_g_7" ActionTag="-1707545937" Tag="39" IconVisible="False" LeftMargin="505.0558" RightMargin="115.9442" TopMargin="953.3138" BottomMargin="307.6862" ctype="SpriteObjectData">
@@ -406,7 +406,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.7594" Y="0.2580" />
             <PreSize X="0.1720" Y="0.0547" />
-            <FileData Type="Normal" Path="cocostudio/home/image/sign/sign_item_had_got.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/sign/sign_item_had_got.png" Plist="cocostudio/home/image/sign/home_sign_sp.plist" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="Button_Close" ActionTag="1791240151" Tag="411" IconVisible="False" LeftMargin="683.9668" RightMargin="15.0332" TopMargin="14.8217" BottomMargin="1269.1783" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="21" Scale9Height="28" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
@@ -419,8 +419,8 @@
             <PreSize X="0.0680" Y="0.0375" />
             <TextColor A="255" R="65" G="65" B="70" />
             <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
-            <PressedFileData Type="Normal" Path="cocostudio/common/image/tongyong_cha2.png" Plist="" />
-            <NormalFileData Type="Normal" Path="cocostudio/common/image/tongyong_cha1.png" Plist="" />
+            <PressedFileData Type="MarkedSubImage" Path="cocostudio/common/image/tongyong_cha2.png" Plist="cocostudio/common/image/common_sp.plist" />
+            <NormalFileData Type="MarkedSubImage" Path="cocostudio/common/image/tongyong_cha1.png" Plist="cocostudio/common/image/common_sp.plist" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>

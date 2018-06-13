@@ -14,7 +14,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5000" Y="0.5000" />
             <PreSize X="1.0000" Y="1.0000" />
-            <FileData Type="Normal" Path="cocostudio/common/image/blank.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/common/image/blank.png" Plist="cocostudio/common/image/common_sp.plist" />
           </AbstractNodeData>
           <AbstractNodeData Name="Image_Loading" ActionTag="705080707" Tag="11" IconVisible="False" LeftMargin="328.0000" RightMargin="328.0000" TopMargin="620.0000" BottomMargin="620.0000" LeftEage="31" RightEage="31" TopEage="31" BottomEage="31" Scale9OriginX="31" Scale9OriginY="31" Scale9Width="32" Scale9Height="32" ctype="ImageViewObjectData">
             <Size X="94.0000" Y="94.0000" />
@@ -24,7 +24,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5000" Y="0.5000" />
             <PreSize X="0.1253" Y="0.0705" />
-            <FileData Type="Normal" Path="cocostudio/common/image/loading.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/common/image/loading.png" Plist="cocostudio/common/image/common_sp.plist" />
           </AbstractNodeData>
           <AbstractNodeData Name="progress" ActionTag="1157874962" VisibleForFrame="False" Tag="4" IconVisible="True" RightMargin="750.0000" TopMargin="1334.0000" ctype="SingleNodeObjectData">
             <Size X="0.0000" Y="0.0000" />

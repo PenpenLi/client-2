@@ -14,7 +14,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.0053" Y="-0.0255" />
             <PreSize X="1.0000" Y="1.0000" />
-            <FileData Type="Normal" Path="cocostudio/home/image/daily_tasks/daily_bg.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/daily_tasks/daily_bg.png" Plist="cocostudio/home/image/daily_tasks/daily_tasks_sp.plist" />
             <SingleColor A="255" R="150" G="150" B="255" />
             <FirstColor A="255" R="150" G="150" B="255" />
             <EndColor A="255" R="255" G="255" B="255" />
@@ -28,7 +28,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5013" Y="0.8291" />
             <PreSize X="0.2693" Y="0.0555" />
-            <FileData Type="Normal" Path="cocostudio/home/image/daily_tasks/daily_title.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/daily_tasks/daily_title.png" Plist="cocostudio/home/image/daily_tasks/daily_tasks_sp.plist" />
           </AbstractNodeData>
           <AbstractNodeData Name="Button_Close" ActionTag="-452563763" Tag="156" IconVisible="False" LeftMargin="627.4306" RightMargin="63.5694" TopMargin="188.7300" BottomMargin="1086.2700" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="29" Scale9Height="37" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="59.0000" Y="59.0000" />
@@ -39,8 +39,8 @@
             <PrePosition X="0.8759" Y="0.8364" />
             <PreSize X="0.0787" Y="0.0442" />
             <TextColor A="255" R="65" G="65" B="70" />
-            <PressedFileData Type="Normal" Path="cocostudio/home/image/daily_tasks/public_btn_close1.png" Plist="" />
-            <NormalFileData Type="Normal" Path="cocostudio/home/image/daily_tasks/public_btn_close.png" Plist="" />
+            <PressedFileData Type="MarkedSubImage" Path="cocostudio/home/image/daily_tasks/public_btn_close1.png" Plist="cocostudio/home/image/daily_tasks/daily_tasks_sp.plist" />
+            <NormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/daily_tasks/public_btn_close.png" Plist="cocostudio/home/image/daily_tasks/daily_tasks_sp.plist" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>

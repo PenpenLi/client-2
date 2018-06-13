@@ -17,7 +17,7 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.0872" Y="0.5107" />
                 <PreSize X="0.1486" Y="0.6463" />
-                <FileData Type="Normal" Path="cocostudio/home/image/email/email_node_left.png" Plist="" />
+                <FileData Type="MarkedSubImage" Path="cocostudio/home/image/email/email_node_left.png" Plist="cocostudio/home/image/email/email_sp.plist" />
               </AbstractNodeData>
               <AbstractNodeData Name="Btn_get" ActionTag="-501031777" Tag="314" IconVisible="False" LeftMargin="432.8240" RightMargin="-9.8240" TopMargin="16.0901" BottomMargin="12.9099" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="173" Scale9Height="96" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="203.0000" Y="118.0000" />
@@ -28,8 +28,8 @@
                 <PrePosition X="0.8536" Y="0.4892" />
                 <PreSize X="0.3243" Y="0.8027" />
                 <TextColor A="255" R="65" G="65" B="70" />
-                <PressedFileData Type="Normal" Path="cocostudio/home/image/email/email_btn_get1.png" Plist="" />
-                <NormalFileData Type="Normal" Path="cocostudio/home/image/email/email_btn_get.png" Plist="" />
+                <PressedFileData Type="MarkedSubImage" Path="cocostudio/home/image/email/email_btn_get1.png" Plist="cocostudio/home/image/email/email_sp.plist" />
+                <NormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/email/email_btn_get.png" Plist="cocostudio/home/image/email/email_sp.plist" />
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
@@ -62,7 +62,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5023" Y="0.4978" />
             <PreSize X="1.0000" Y="1.0000" />
-            <FileData Type="Normal" Path="cocostudio/home/image/email/email_node_bg.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/email/email_node_bg.png" Plist="cocostudio/home/image/email/email_sp.plist" />
           </AbstractNodeData>
         </Children>
       </ObjectData>

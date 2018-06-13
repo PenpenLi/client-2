@@ -16,8 +16,8 @@
             <PreSize X="0.9969" Y="0.7900" />
             <TextColor A="255" R="65" G="65" B="70" />
             <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
-            <PressedFileData Type="Normal" Path="cocostudio/home/image/roomselect/youxichangyu_4.png" Plist="" />
-            <NormalFileData Type="Normal" Path="cocostudio/home/image/roomselect/youxichangyu_4.png" Plist="" />
+            <PressedFileData Type="MarkedSubImage" Path="cocostudio/home/image/roomselect/youxichangyu_4.png" Plist="cocostudio/home/image/personal/personal_sp.plist" />
+            <NormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/roomselect/youxichangyu_4.png" Plist="cocostudio/home/image/personal/personal_sp.plist" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
@@ -29,7 +29,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.4927" Y="0.1089" />
             <PreSize X="0.6250" Y="0.1633" />
-            <FileData Type="Normal" Path="cocostudio/home/image/roomselect/bg.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/roomselect/bg.png" Plist="cocostudio/home/image/personal/personal_sp.plist" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="Text_1" ActionTag="-255578164" Tag="205" IconVisible="False" LeftMargin="65.0306" RightMargin="214.9694" TopMargin="256.3795" BottomMargin="23.6205" FontSize="20" LabelText="盲注" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">

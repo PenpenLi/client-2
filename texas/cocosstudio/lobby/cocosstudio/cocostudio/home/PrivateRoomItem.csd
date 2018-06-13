@@ -16,8 +16,8 @@
             <PreSize X="1.0000" Y="1.0071" />
             <TextColor A="255" R="65" G="65" B="70" />
             <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
-            <PressedFileData Type="Normal" Path="cocostudio/home/image/friendroom/haoyouchang_haoyoufangxuanzedi.png" Plist="" />
-            <NormalFileData Type="Normal" Path="cocostudio/home/image/friendroom/haoyouchang_haoyoufangxuanzedi.png" Plist="" />
+            <PressedFileData Type="MarkedSubImage" Path="cocostudio/home/image/friendroom/haoyouchang_haoyoufangxuanzedi.png" Plist="cocostudio/home/image/friendroom/friendroom_sp2.plist" />
+            <NormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/friendroom/haoyouchang_haoyoufangxuanzedi.png" Plist="cocostudio/home/image/friendroom/friendroom_sp2.plist" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
@@ -29,7 +29,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.1005" Y="0.7571" />
             <PreSize X="0.1698" Y="0.2143" />
-            <FileData Type="Normal" Path="cocostudio/home/image/friendroom/haoyouchang_haoyoufangxuanzedijinbichang.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/friendroom/haoyouchang_haoyoufangxuanzedijinbichang.png" Plist="cocostudio/home/image/friendroom/friendroom_sp2.plist" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="txtName" ActionTag="-1362432764" Tag="158" IconVisible="False" LeftMargin="138.7777" RightMargin="364.2223" TopMargin="21.9147" BottomMargin="94.0853" FontSize="24" LabelText="机智的团团的牌局" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
@@ -51,7 +51,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.0567" Y="0.3379" />
             <PreSize X="0.0719" Y="0.3571" />
-            <FileData Type="Normal" Path="cocostudio/home/image/friendroom/haoyouchang_haoyoufangchouma.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/friendroom/haoyouchang_haoyoufangchouma.png" Plist="cocostudio/home/image/friendroom/friendroom_sp2.plist" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="haoyouchang_haoyoufangrenshu_4" ActionTag="886688035" Tag="160" IconVisible="False" LeftMargin="277.6434" RightMargin="367.3566" TopMargin="67.6910" BottomMargin="22.3090" ctype="SpriteObjectData">
@@ -62,7 +62,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.4355" Y="0.3379" />
             <PreSize X="0.0719" Y="0.3571" />
-            <FileData Type="Normal" Path="cocostudio/home/image/friendroom/haoyouchang_haoyoufangrenshu.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/friendroom/haoyouchang_haoyoufangrenshu.png" Plist="cocostudio/home/image/friendroom/friendroom_sp2.plist" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="haoyouchang_haoyoufangshijian_5" ActionTag="1656775529" Tag="164" IconVisible="False" LeftMargin="507.2889" RightMargin="137.7111" TopMargin="17.9153" BottomMargin="72.0847" ctype="SpriteObjectData">
@@ -73,7 +73,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.7659" Y="0.6935" />
             <PreSize X="0.0719" Y="0.3571" />
-            <FileData Type="Normal" Path="cocostudio/home/image/friendroom/haoyouchang_haoyoufangshijian.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/friendroom/haoyouchang_haoyoufangshijian.png" Plist="cocostudio/home/image/friendroom/friendroom_sp2.plist" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="haoyouchang_haoyoufangshijian2_6" ActionTag="-1094922075" Tag="165" IconVisible="False" LeftMargin="552.0590" RightMargin="18.9410" TopMargin="24.4153" BottomMargin="78.5847" ctype="SpriteObjectData">
@@ -84,7 +84,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.8835" Y="0.6935" />
             <PreSize X="0.1784" Y="0.2643" />
-            <FileData Type="Normal" Path="cocostudio/home/image/friendroom/haoyouchang_haoyoufangshijian2.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/friendroom/haoyouchang_haoyoufangshijian2.png" Plist="cocostudio/home/image/friendroom/friendroom_sp2.plist" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="txtBetSet" ActionTag="-2049125750" Tag="308" IconVisible="False" LeftMargin="73.7527" RightMargin="528.2473" TopMargin="75.1910" BottomMargin="29.8090" LabelText="20/40" ctype="TextBMFontObjectData">

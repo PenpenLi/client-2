@@ -14,7 +14,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5000" Y="0.5000" />
             <PreSize X="1.0000" Y="1.0000" />
-            <FileData Type="Normal" Path="cocostudio/common/image/blank.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/common/image/blank.png" Plist="cocostudio/common/image/common_sp.plist" />
           </AbstractNodeData>
           <AbstractNodeData Name="Image_2" ActionTag="-471017343" Tag="15" IconVisible="False" LeftMargin="18.0000" RightMargin="18.0000" TopMargin="414.0000" BottomMargin="414.0000" LeftEage="15" RightEage="15" TopEage="15" BottomEage="15" Scale9OriginX="15" Scale9OriginY="15" Scale9Width="684" Scale9Height="476" ctype="ImageViewObjectData">
             <Size X="714.0000" Y="506.0000" />
@@ -24,7 +24,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5000" Y="0.5000" />
             <PreSize X="0.9520" Y="0.3793" />
-            <FileData Type="Normal" Path="cocostudio/common/image/tongyong_xiaodi.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/common/image/tongyong_xiaodi.png" Plist="cocostudio/common/image/common_sp.plist" />
           </AbstractNodeData>
           <AbstractNodeData Name="Image_Title" ActionTag="1335404457" Tag="43" IconVisible="False" LeftMargin="334.0874" RightMargin="318.9126" TopMargin="440.9320" BottomMargin="847.0680" LeftEage="32" RightEage="32" TopEage="15" BottomEage="15" Scale9OriginX="32" Scale9OriginY="15" Scale9Width="33" Scale9Height="16" ctype="ImageViewObjectData">
             <Size X="97.0000" Y="46.0000" />
@@ -34,7 +34,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5101" Y="0.6522" />
             <PreSize X="0.1293" Y="0.0345" />
-            <FileData Type="Normal" Path="cocostudio/common/image/tongyong_tishi.png" Plist="" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/common/image/tongyong_tishi.png" Plist="cocostudio/common/image/common_sp.plist" />
           </AbstractNodeData>
           <AbstractNodeData Name="Text_Content" ActionTag="-150234163" Tag="18" IconVisible="False" LeftMargin="125.0000" RightMargin="125.0000" TopMargin="581.0403" BottomMargin="622.9597" IsCustomSize="True" FontSize="36" LabelText="" HorizontalAlignmentType="HT_Center" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
             <Size X="500.0000" Y="130.0000" />
@@ -56,9 +56,9 @@
             <PrePosition X="0.7072" Y="0.4070" />
             <PreSize X="0.3253" Y="0.0802" />
             <TextColor A="255" R="65" G="65" B="70" />
-            <DisabledFileData Type="Normal" Path="cocostudio/common/image/tongyong_queding1.png" Plist="" />
-            <PressedFileData Type="Normal" Path="cocostudio/common/image/tongyong_queding2.png" Plist="" />
-            <NormalFileData Type="Normal" Path="cocostudio/common/image/tongyong_queding1.png" Plist="" />
+            <DisabledFileData Type="MarkedSubImage" Path="cocostudio/common/image/tongyong_queding1.png" Plist="cocostudio/common/image/common_sp.plist" />
+            <PressedFileData Type="MarkedSubImage" Path="cocostudio/common/image/tongyong_queding2.png" Plist="cocostudio/common/image/common_sp.plist" />
+            <NormalFileData Type="MarkedSubImage" Path="cocostudio/common/image/tongyong_queding1.png" Plist="cocostudio/common/image/common_sp.plist" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
@@ -71,9 +71,9 @@
             <PrePosition X="0.3055" Y="0.4070" />
             <PreSize X="0.3253" Y="0.0802" />
             <TextColor A="255" R="65" G="65" B="70" />
-            <DisabledFileData Type="Normal" Path="cocostudio/common/image/shangcheng_quxiao2.png" Plist="" />
-            <PressedFileData Type="Normal" Path="cocostudio/common/image/shangcheng_quxiao2.png" Plist="" />
-            <NormalFileData Type="Normal" Path="cocostudio/common/image/shangcheng_quxiao1.png" Plist="" />
+            <DisabledFileData Type="MarkedSubImage" Path="cocostudio/common/image/shangcheng_quxiao2.png" Plist="cocostudio/common/image/common_sp.plist" />
+            <PressedFileData Type="MarkedSubImage" Path="cocostudio/common/image/shangcheng_quxiao2.png" Plist="cocostudio/common/image/common_sp.plist" />
+            <NormalFileData Type="MarkedSubImage" Path="cocostudio/common/image/shangcheng_quxiao1.png" Plist="cocostudio/common/image/common_sp.plist" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
