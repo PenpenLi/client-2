@@ -37,6 +37,8 @@ function    installUpdate(vw, onSucc)
                 printLog("a", "downloading %d,%d", prog, progmax);
                 if st == 2 then
                     vw:updateProgress("正在更新...", prog, progmax);
+                elseif st == 11 then
+                    vw:updateProgress("正在确认版本...", 0, 0);
                 else
                     vw:updateProgress("正在移动文件...", 0, 0);
                 end
@@ -57,7 +59,7 @@ function    installUpdate(vw, onSucc)
                 vw:setError("更新失败.");
             end
         end
-    end, 0.1);
+    end, 0.05);
 end
 
 --检查版本
