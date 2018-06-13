@@ -13,7 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{4E6A7A0E-DDD8-4BAA-8B22-C964069364ED}</ProjectGuid>
     <ProjectName>TexasPorker</ProjectName>
-    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -61,7 +61,7 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>G:\koko_code\client\libs\</OutDir>
+    <OutDir>i:\Code\libs\</OutDir>
     <IntDir>$(SolutionDir)$(Configuration).win32\</IntDir>
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
@@ -154,11 +154,11 @@ xcopy /Y /Q "$(OutDir)*.dll" "$(LocalDebuggerWorkingDirectory)"</Command>
     <Link>
       <SubSystem>Windows</SubSystem>
       <TargetMachine>MachineX86</TargetMachine>
-      <AdditionalLibraryDirectories>$(boost_lib);E:\koko_code\client\libs;%(AdditionalLibraryDirectories);$(_COCOS_LIB_PATH_WIN32_BEGIN);$(_COCOS_LIB_PATH_WIN32_END);E:\koko_code\client\libs</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(boost_lib);i:\Code\libs;%(AdditionalLibraryDirectories);$(_COCOS_LIB_PATH_WIN32_BEGIN);$(_COCOS_LIB_PATH_WIN32_END);E:\koko_code\client\libs</AdditionalLibraryDirectories>
       <AdditionalDependencies>%(AdditionalDependencies);$(_COCOS_LIB_WIN32_BEGIN);libsimulator.lib;lua51.lib;libcocos2d.lib;libluacocos2d.lib;libcurl.lib;libspine.lib;version_compare.lib;$(_COCOS_LIB_WIN32_END)</AdditionalDependencies>
       <IgnoreSpecificDefaultLibraries>libcmt.lib</IgnoreSpecificDefaultLibraries>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <OutputFile>G:\koko_code\client\libs\TexasPorker.exe</OutputFile>
+      <OutputFile>i:\Code\libs\TexasPorker.exe</OutputFile>
     </Link>
     <ResourceCompile>
       <Culture>0x0409</Culture>

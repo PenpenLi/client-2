@@ -4,7 +4,7 @@ include $(CLEAR_VARS)
 
 LOCAL_MODULE := cocos2dlua_shared
 
-$(call import-add-path, G:/my_git_code/client)
+$(call import-add-path, I:/Code/client)
 
 LOCAL_MODULE_FILENAME := libcocos2dlua
 
