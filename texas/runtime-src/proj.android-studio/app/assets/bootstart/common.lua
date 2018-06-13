@@ -23,30 +23,28 @@ function switchContex(newContex)
     package.path = package.path..wbPath..contex .. "src/?.lua;"
 end
 
-local cor_182331 = 0;
-local sh1 = 0;
 --先检查版本,再执行更新
 function    installUpdate(vw, onSucc)
     local st, prog, progmax;
     vcp:install_update();
-    cor_182331 = 0;
+    local cor_182331 = 0;
+	local sh1 = 0;
     sh1 = scheduler.scheduleGlobal(function()
         local st, prog, progmax = vcp:query_version_status();
         if cor_182331 == 0 then
             if vcp:is_working() == 1 then
-                printLog("a", "downloading %d,%d", prog, progmax);
                 if st == 2 then
                     vw:updateProgress("正在更新...", prog, progmax);
-                else
+                elseif st == 11 then
+                    vw:updateProgress("正在校验文件...", 0, 0);  
+				else
                     vw:updateProgress("正在移动文件...", 0, 0);
                 end
             else
-                printLog("a", "vcp is not working, st = %d", st);
                 cor_182331 = 1;
             end
         elseif cor_182331 == 1 then
-            printLog("a", "is over.", st);
-            scheduler.unscheduleGlobal(sh1);
+              scheduler.unscheduleGlobal(sh1);
             --成功
             if st == 7 then
                 onSucc();
@@ -62,20 +60,28 @@ end
 
 --检查版本
 function	checkVersion(contex, localp, remotep, vw, onSucc)
-    vw:setVisible(false);
-	local chk = vcp:check_version(contex, localp, remotep);
-	--没有新版本
-	if chk == 6 then
-		onSucc();
-	--有新版本
-    elseif chk == 5 then
-        vw:setVisible(true);
-        installUpdate(vw, onSucc);
-	--版本对比失败	
-    elseif chk ~= 0 then
-        vw:setVisible(true);
-		vw:setError("检查版本失败.");
-    end
+	local per = 0;
+	local sh_2121 = 0;
+	sh_2121 = scheduler.scheduleGlobal(function()
+		local chk = vcp:check_version(contex, localp, remotep);
+		if chk ~= 0 then
+			vw:updateProgress("正在进入游戏...", 100, 100);
+			scheduler.unscheduleGlobal(sh_2121);
+			--没有新版本
+			if chk == 6 or get_cmdline("-debug") == "1" then
+				singleShot(0.1, onSucc);
+			--有新版本
+			elseif chk == 5 then
+				installUpdate(vw, onSucc);
+			--版本对比失败	
+			elseif chk ~= 0 then
+				vw:setError("检查版本失败.");
+			end
+		else
+			vw:updateProgress("正在进入游戏...", per, 100);
+			per = per + 2;
+		end
+	end, 0.1);
 end
 
 function dispatchCustomEvent(evtName, ...)
@@ -99,4 +105,13 @@ function addListener(node, evtName, callback)
     local dispatcher = cc.Director:getInstance():getEventDispatcher()
     dispatcher:addEventListenerWithSceneGraphPriority(evt, node)
     return evt
+end
+
+function singleShot(dur, func, ...)
+	local taskid = 0;
+	local params = {...}
+	taskid = scheduler.scheduleGlobal(function()
+		func();
+		scheduler.unscheduleGlobal(taskid);
+	end, dur);
 end
