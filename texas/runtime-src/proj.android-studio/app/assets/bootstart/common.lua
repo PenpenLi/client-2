@@ -44,7 +44,8 @@ function    installUpdate(vw, onSucc)
                 cor_182331 = 1;
             end
         elseif cor_182331 == 1 then
-              scheduler.unscheduleGlobal(sh1);
+            scheduler.unscheduleGlobal(sh1);
+			vcp:clean();
             --成功
             if st == 7 then
                 onSucc();
@@ -69,12 +70,14 @@ function	checkVersion(contex, localp, remotep, vw, onSucc)
 			scheduler.unscheduleGlobal(sh_2121);
 			--没有新版本
 			if chk == 6 or get_cmdline("-debug") == "1" then
+				vcp:clean();
 				singleShot(0.1, onSucc);
 			--有新版本
 			elseif chk == 5 then
 				installUpdate(vw, onSucc);
 			--版本对比失败	
 			elseif chk ~= 0 then
+				vcp:clean();
 				vw:setError("检查版本失败.");
 			end
 		else
