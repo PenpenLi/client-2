@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dir v="1038" d="2018-06-14" n="preset">
+<dir v="1049" d="2018-06-14" n="preset">
     <zips>
         <f n="update.zip" s=""></f>
     </zips>
-    <f n="version_config.xml" s="51745">2083d9cfc3fedda0438d391bf1070cbd</f>
+    <f n="version_config.xml" s="51745">27bd8a766b93574c9269df4aebbfca8d</f>
     <dir n="common">
         <dir n="res"/>
         <dir n="src"/>
@@ -550,7 +550,7 @@
                         <f n="LeftBaseLayer.lua" s="1008">e9e754ee9e7f2bd222d1a1a7645eb0e5</f>
                         <f n="PopBaseLayer.lua" s="1136">22dbd653302d30f9699e3b3f4ed4e5b1</f>
                         <f n="ResItemWidget.lua" s="2649">286c4a966764112c6abf1e938a656d3f</f>
-                        <f n="SimpleBrowser.lua" s="3823">14871dc2c36066cd4cac084107a6ee59</f>
+                        <f n="SimpleBrowser.lua" s="3831">1e7c76db1c0bfa53d9da45b2c5411cbc</f>
                         <f n="WaitingNode.lua" s="846">4e971166d2ef14203b5d7ee3292e5ba0</f>
                     </dir>
                     <dir n="friendroom">

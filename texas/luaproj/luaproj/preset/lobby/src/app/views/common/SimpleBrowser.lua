@@ -54,8 +54,9 @@ function SimpleBrowser:ctor(options)
 		end
 
 		local container = csbnode:getChildByName("container");
-		self.webview:runAction(cc.Sequence:create(cc.DelayTime:create(0.3),
-			cc.EaseIn:create(cc.MoveTo:create(0.3, cc.p(container:getContentSize().width / 2, container:getContentSize().height / 2)))))
+		self.webview:runAction(cc.Sequence:create(cc.DelayTime:create(0.2),
+			cc.EaseIn:create(cc.MoveTo:create(0.0, cc.p(container:getContentSize().width / 2, container:getContentSize().height / 2)), 3)
+			))
 
         if self.loadedUrl == url then
             return
