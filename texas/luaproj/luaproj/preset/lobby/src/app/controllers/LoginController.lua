@@ -16,9 +16,9 @@ function LoginController:ctor()
     LoginController.super.ctor(self)
     UIHelper.cacheCards()
     UIHelper.cacheHeads()
-	cc.SpriteFrameCache:getInstance():addSpriteFrames("effect/nv_1.plist")
-	cc.SpriteFrameCache:getInstance():addSpriteFrames("effect/nv_2.plist")
-	cc.SpriteFrameCache:getInstance():addSpriteFrames("effect/nv_3.plist")
+	--cc.SpriteFrameCache:getInstance():addSpriteFrames("effect/nv_1.plist")
+	--cc.SpriteFrameCache:getInstance():addSpriteFrames("effect/nv_2.plist")
+	--cc.SpriteFrameCache:getInstance():addSpriteFrames("effect/nv_3.plist")
 
 	self:addChild(APP:createView("login.ViewLogin", self))
 

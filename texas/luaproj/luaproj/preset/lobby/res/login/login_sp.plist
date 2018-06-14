@@ -7,7 +7,7 @@
 			<key>login/denglu_chongzhimima.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1162,899},{197,72}}</string>
+				<string>{{832,1907},{197,72}}</string>
 				<key>offset</key>
 				<string>{0,-1}</string>
 				<key>rotated</key>
@@ -29,18 +29,7 @@
 			<key>login/denglu_denglanniu11.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1948,268},{244,90}}</string>
-				<key>offset</key>
-				<string>{2,0}</string>
-				<key>rotated</key>
-				<true />
-				<key>sourceSize</key>
-				<string>{271,136}</string>
-			</dict>
-			<key>login/denglu_denglanniu22222.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{894,922},{268,100}}</string>
+				<string>{{337,1730},{244,90}}</string>
 				<key>offset</key>
 				<string>{2,0}</string>
 				<key>rotated</key>
@@ -48,10 +37,21 @@
 				<key>sourceSize</key>
 				<string>{271,136}</string>
 			</dict>
+			<key>login/denglu_denglanniu22222.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{137,1572},{268,100}}</string>
+				<key>offset</key>
+				<string>{2,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{271,136}</string>
+			</dict>
 			<key>login/denglu_denglu1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1137,756},{227,62}}</string>
+				<string>{{539,1980},{227,62}}</string>
 				<key>offset</key>
 				<string>{36,-2}</string>
 				<key>rotated</key>
@@ -62,7 +62,7 @@
 			<key>login/denglu_denglu2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1318,818},{226,62}}</string>
+				<string>{{766,1979},{226,62}}</string>
 				<key>offset</key>
 				<string>{37,-2}</string>
 				<key>rotated</key>
@@ -73,18 +73,18 @@
 			<key>login/denglu_dengludi.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1359,880},{137,136}}</string>
+				<string>{{1462,0},{137,136}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
-				<true />
+				<false />
 				<key>sourceSize</key>
 				<string>{137,136}</string>
 			</dict>
 			<key>login/denglu_dengluzhucebiaoti.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1120,827},{198,72}}</string>
+				<string>{{634,1907},{198,72}}</string>
 				<key>offset</key>
 				<string>{0,-1}</string>
 				<key>rotated</key>
@@ -95,18 +95,18 @@
 			<key>login/denglu_dengluzhucedi.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1162,0},{614,786}}</string>
+				<string>{{0,786},{614,786}}</string>
 				<key>offset</key>
 				<string>{2,2}</string>
 				<key>rotated</key>
-				<true />
+				<false />
 				<key>sourceSize</key>
 				<string>{633,821}</string>
 			</dict>
 			<key>login/denglu_huanyingdi.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{338,786},{539,57}}</string>
+				<string>{{0,1980},{539,57}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -117,7 +117,7 @@
 			<key>login/denglu_jinggao.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,923},{634,70}}</string>
+				<string>{{0,1910},{634,70}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -128,7 +128,7 @@
 			<key>login/denglu_logo.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{910,827},{210,69}}</string>
+				<string>{{137,1840},{210,69}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -139,7 +139,7 @@
 			<key>login/denglu_shoujidenglu1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{634,922},{260,71}}</string>
+				<string>{{347,1836},{260,71}}</string>
 				<key>offset</key>
 				<string>{0,1}</string>
 				<key>rotated</key>
@@ -150,7 +150,7 @@
 			<key>login/denglu_shoujidenglu2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{338,843},{286,79}}</string>
+				<string>{{337,1572},{286,79}}</string>
 				<key>offset</key>
 				<string>{0,1}</string>
 				<key>rotated</key>
@@ -161,7 +161,7 @@
 			<key>login/denglu_wangjidenglumima.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1544,818},{253,55}}</string>
+				<string>{{1029,1898},{253,55}}</string>
 				<key>offset</key>
 				<string>{-1,0}</string>
 				<key>rotated</key>
@@ -172,7 +172,7 @@
 			<key>login/denglu_xian.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,993},{750,16}}</string>
+				<string>{{337,1820},{750,16}}</string>
 				<key>offset</key>
 				<string>{0,-1}</string>
 				<key>rotated</key>
@@ -183,7 +183,7 @@
 			<key>login/denglu_youkedenglu1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{877,756},{260,71}}</string>
+				<string>{{607,1836},{260,71}}</string>
 				<key>offset</key>
 				<string>{0,1}</string>
 				<key>rotated</key>
@@ -194,7 +194,7 @@
 			<key>login/denglu_youkedenglu2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{624,843},{286,79}}</string>
+				<string>{{337,1651},{286,79}}</string>
 				<key>offset</key>
 				<string>{0,1}</string>
 				<key>rotated</key>
@@ -205,18 +205,18 @@
 			<key>login/denglu_zhuce1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1948,512},{244,90}}</string>
+				<string>{{1218,1953},{244,90}}</string>
 				<key>offset</key>
 				<string>{-5,-2}</string>
 				<key>rotated</key>
-				<true />
+				<false />
 				<key>sourceSize</key>
 				<string>{328,163}</string>
 			</dict>
 			<key>login/denglu_zhuce11.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1495,880},{225,62}}</string>
+				<string>{{867,1836},{225,62}}</string>
 				<key>offset</key>
 				<string>{-35,-5}</string>
 				<key>rotated</key>
@@ -227,7 +227,7 @@
 			<key>login/denglu_zhuce2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1364,756},{226,62}}</string>
+				<string>{{992,1979},{226,62}}</string>
 				<key>offset</key>
 				<string>{-35,-5}</string>
 				<key>rotated</key>
@@ -238,7 +238,7 @@
 			<key>login/denglu_zhuce2222.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1948,0},{268,100}}</string>
+				<string>{{237,1572},{268,100}}</string>
 				<key>offset</key>
 				<string>{-5,-2}</string>
 				<key>rotated</key>
@@ -249,18 +249,18 @@
 			<key>login/denglu_zhucedi.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,786},{137,338}}</string>
+				<string>{{0,1572},{137,338}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
-				<true />
+				<false />
 				<key>sourceSize</key>
 				<string>{137,338}</string>
 			</dict>
 			<key>login/meirirenwu_cha1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1206,971},{40,40}}</string>
+				<string>{{1420,0},{40,40}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -271,7 +271,7 @@
 			<key>login/meirirenwu_cha2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1162,971},{44,44}}</string>
+				<string>{{1358,77},{44,44}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -282,7 +282,7 @@
 			<key>login/tixian_fasong1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1495,942},{138,77}}</string>
+				<string>{{581,1730},{138,77}}</string>
 				<key>offset</key>
 				<string>{1,0}</string>
 				<key>rotated</key>
@@ -293,7 +293,7 @@
 			<key>login/tixian_fasong2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1633,942},{138,77}}</string>
+				<string>{{1282,0},{138,77}}</string>
 				<key>offset</key>
 				<string>{1,0}</string>
 				<key>rotated</key>
@@ -304,11 +304,11 @@
 			<key>login/tixian_jindutiao.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1771,873},{74,76}}</string>
+				<string>{{1282,77},{74,76}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
-				<false />
+				<true />
 				<key>sourceSize</key>
 				<string>{74,76}</string>
 			</dict>
@@ -322,14 +322,14 @@
 			<key>realTextureFileName</key>
 			<string>login_sp.png</string>
 			<key>size</key>
-			<string>{2048,1024}</string>
+			<string>{2048,2048}</string>
 		</dict>
 		<key>texture</key>
 		<dict>
 			<key>width</key>
 			<integer>2048</integer>
 			<key>height</key>
-			<integer>1024</integer>
+			<integer>2048</integer>
 		</dict>
 	</dict>
 </plist>

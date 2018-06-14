@@ -99,8 +99,10 @@ function ViewHome:ctor()
 	end)
 
 	local bg = UIHelper.seekNodeByName(csbnode, "bg0");
-	UIHelper.newAnimation(50, bg, function(i) return string.format("Armature_idle_%03d.png", i - 1) end)
-
+	
+	local skeleton = sp.SkeletonAnimation:createWithJsonFile("effect/girl/renwu.json", "effect/girl/renwu.atlas", 1)
+    skeleton:setAnimation(0, "idle", true)
+    bg:addChild(skeleton)
 end
 
 function ViewHome:onEnter()

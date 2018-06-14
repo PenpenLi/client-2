@@ -49,11 +49,13 @@ function SimpleBrowser:ctor(options)
     end)
 
     local function onDidFinishLoading(webview, url)
-		if APP.getCurrentController() then
-			APP.getCurrentController():hideWaiting();
+		if APP:getCurrentController() then
+			APP:getCurrentController():hideWaiting();
 		end
-		
-		self.webview:setVisible(true);
+
+		local container = csbnode:getChildByName("container");
+		self.webview:runAction(cc.Sequence:create(cc.DelayTime:create(0.3),
+			cc.EaseIn:create(cc.MoveTo:create(0.3, cc.p(container:getContentSize().width / 2, container:getContentSize().height / 2)))))
 
         if self.loadedUrl == url then
             return
@@ -68,19 +70,18 @@ function SimpleBrowser:ctor(options)
     end
 	local container = csbnode:getChildByName("container");
     if device.platform == "ios" or device.platform == "android" then
-		if APP.getCurrentController() then
-			APP.getCurrentController():showWaiting();
+		if APP:getCurrentController() then
+			APP:getCurrentController():showWaiting();
 		end
 	    self.webview = ccexp.WebView:create()
-        self.webview:align(display.CENTER, container:getContentSize().width / 2, container:getContentSize().height / 2)
         self.webview:setContentSize(container:getContentSize())
         self.webview:setScalesPageToFit(true)
         self.webview:loadURL(options.url)
         self.webview:addTo(container)
-
+		self.webview:align(display.CENTER, -container:getContentSize().width / 2, container:getContentSize().height / 2)
         self.webview:setOnDidFinishLoading(onDidFinishLoading)
         self.webview:setOnDidFailLoading(onDisFailLoading)
-		self.webview:setVisible(false);
+		--故意放远点,以免造成白色闪一下
     end
 end
 
