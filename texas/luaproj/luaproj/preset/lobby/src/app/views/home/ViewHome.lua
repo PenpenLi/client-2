@@ -30,7 +30,7 @@ function ViewHome:ctor()
 	btn_AddGold:addTouchEventListener(function(ref, t)
 		if t == ccui.TouchEventType.ended then
 			if APP.hc.showShop then
-				APP.hc:showShop()
+				APP.hc:showShop(false, self.UIContainer)
 			end
 		end
 	end)
@@ -39,7 +39,7 @@ function ViewHome:ctor()
 	btn_Shop:addTouchEventListener(function(ref, t)
 		if t == ccui.TouchEventType.ended then
 			if APP.hc.showShop then
-				APP.hc:showShop()
+				APP.hc:showShop(false, self.UIContainer)
 			end
 		end
 	end)

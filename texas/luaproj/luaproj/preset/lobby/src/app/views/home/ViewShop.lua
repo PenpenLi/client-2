@@ -21,9 +21,15 @@ ViewShop.DIAMOND_GOODS = {
 	{count = 618, fee = 618},
 }
 
-function ViewShop:ctor(isShowDiamond)
-	ViewShop.super.ctor(self)
+local function build_webpart_url()
+    local user = APP:getObject("User")
+	local str = string.format(GameConfig.WebpartUrl, user.uid, user.sequence, user.token);
+	return str;
+end
 
+function ViewShop:ctor(isShowDiamond, container)
+	ViewShop.super.ctor(self)
+	self.container = container;
 	local csbnode = cc.CSLoader:createNode("cocostudio/home/ShopLayer.csb")
 	csbnode:addTo(self)
 
@@ -65,7 +71,7 @@ function ViewShop:ctor(isShowDiamond)
 	self.btn_Deposit = UIHelper.seekNodeByName(csbnode, "Button_Deposit")
 	self.btn_Deposit:addTouchEventListener(function(ref, t)
 		if t == ccui.TouchEventType.ended then
-			APP:getCurrentController():showBrowser({url = "http://www.baidu.com"})
+			APP:getCurrentController():showBrowser({url = build_webpart_url()}, self.container)
 		end
 	end)
 
@@ -140,7 +146,7 @@ function ViewShop:initDiamondItem()
 		btn_BG:loadTextures(imgBG, imgBG)
 		btn_BG:addTouchEventListener(function(ref, t)
 			if t == ccui.TouchEventType.ended then
-				APP:getCurrentController():showBrowser({url = "http://www.baidu.com"})
+				APP:getCurrentController():showBrowser({url = build_webpart_url()}, self.container)
 			end
 		end)
 

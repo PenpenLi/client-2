@@ -41,7 +41,8 @@ GameConfig.GameEnv = {}
 GameConfig.GameEnv.DEV_HJT = 1 	-- hjt测试服务器
 GameConfig.GameEnv.DEV_210 = 2		-- 210局域网
 GameConfig.GameEnv.RELEASE = 100 	-- 正式服务器
-
+GameConfig.WebpartUrl = "http://poker.game577.com/withdraw/withdraw/index?uid=%s&sn=%s&token=%s"
+GameConfig.UpdateUrl = "http://poker.game577.com/withdraw/withdraw/index?uid=%s&sn=%s&token=%s"
 function GameConfig.getSocketEnv()
 	return GameConfig.GameEnv.SocketEnv[GameConfig.GameEnv.Current]
 end

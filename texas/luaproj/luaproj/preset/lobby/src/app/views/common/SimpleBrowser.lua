@@ -49,10 +49,16 @@ function SimpleBrowser:ctor(options)
     end)
 
     local function onDidFinishLoading(webview, url)
-        print("onDidFinishLoading:" .. tostring(url))
+		if APP.getCurrentController() then
+			APP.getCurrentController():hideWaiting();
+		end
+		
+		self.webview:setVisible(true);
+
         if self.loadedUrl == url then
             return
         end
+
         self.loadedUrl = url
         self:checkStatus()
     end
@@ -62,9 +68,10 @@ function SimpleBrowser:ctor(options)
     end
 	local container = csbnode:getChildByName("container");
     if device.platform == "ios" or device.platform == "android" then
-		printLog("a", "createWebView");
+		if APP.getCurrentController() then
+			APP.getCurrentController():showWaiting();
+		end
 	    self.webview = ccexp.WebView:create()
-		printLog("a", "createWebView created");
         self.webview:align(display.CENTER, container:getContentSize().width / 2, container:getContentSize().height / 2)
         self.webview:setContentSize(container:getContentSize())
         self.webview:setScalesPageToFit(true)
@@ -73,6 +80,7 @@ function SimpleBrowser:ctor(options)
 
         self.webview:setOnDidFinishLoading(onDidFinishLoading)
         self.webview:setOnDidFailLoading(onDisFailLoading)
+		self.webview:setVisible(false);
     end
 end
 

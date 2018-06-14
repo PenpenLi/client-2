@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dir n="preset" d="2018-06-14" v="1019">
+<dir d="2018-06-14" n="preset" v="1024">
     <zips>
         <f s="" n="update.zip"></f>
     </zips>
-    <f s="52066" n="version_config.xml">e050332422444f42f17740c523aacb48</f>
+    <f s="52156" n="version_config.xml">e9b2da4289e96d0afbda1858aa31d0aa</f>
     <dir n="common">
         <dir n="res"/>
         <dir n="src"/>
@@ -76,8 +76,8 @@
                 <dir n="common">
                     <f s="4088" n="AlertOKCancelLayer.csb">9d5252a84271addd0dbb5f3adc4db822</f>
                     <f s="3248" n="AlertOKLayer.csb">a66240ad8cccd672e245481c285d6a46</f>
-                    <f s="2688" n="AlertScriptError.csb">f75c12fb62c86d88e91cc4fa717ad027</f>
-                    <f s="7968" n="BrowserLayer.csb">a74b58420bcd94fa273e28050a00781c</f>
+                    <f s="2680" n="AlertScriptError.csb">24ca07ee885c7824ed86fbc5a34adf55</f>
+                    <f s="5024" n="BrowserLayer.csb">ce3ec290e86cb5955c5aeb8170482dc5</f>
                     <f s="1468" n="LeftBaseLayer.csb">8b0099c649b4b919823ea9391bf5aa62</f>
                     <f s="2416" n="PopBaseLayer.csb">c4fe3906fd538299b69f8cd8c0ca1530</f>
                     <f s="2528" n="WaitingLayer.csb">cdb7cb4509bc4639e8911edf19b4c397</f>
@@ -488,10 +488,11 @@
                 <f s="23922" n="zhujiemian_nv8.png">5cdff77330e2cac1feac6c7b2a159dfc</f>
             </dir>
             <dir n="login">
-                <f s="4624" n="login_frame.csb">38a4406139894ab5ca9cef0d8e842137</f>
+                <f s="495578" n="dating_beijing.png">65c3269898afdfe2387cdf9a657403f9</f>
+                <f s="4544" n="login_frame.csb">a64596abe66a9f7f46a32697a9d18c88</f>
                 <f s="12244" n="login_input.csb">9c55931d1159672ed59820e7ebd63e55</f>
-                <f s="8431" n="login_sp.plist">7d43bc256acd0f6a79e7eb896e54a7bd</f>
-                <f s="1672551" n="login_sp.png">2b0f5ee7136d5327df0fa419a4d53a85</f>
+                <f s="8166" n="login_sp.plist">063af5b9d11554243036f5f340d40e4b</f>
+                <f s="1672551" n="login_sp.png">6e527100e902d4e804c98a4bb600b0ac</f>
             </dir>
         </dir>
         <dir n="src">
@@ -506,14 +507,14 @@
                 </dir>
                 <dir n="common">
                     <f s="604" n="ConstUtils.lua">445242bc63a003c4d24a90066aef1354</f>
-                    <f s="1534" n="GameConfig.lua">ab22500f68d47ba42a6eb31af9b70e2d</f>
+                    <f s="1727" n="GameConfig.lua">07581d7cf562d40da955f6d2c84c758b</f>
                     <f s="4243" n="NativeFunctions.lua">de0ad540919c5e9910f9957ac8e01a83</f>
                     <f s="4042" n="SoundUtils.lua">c6b0cabb906ef62ce95a15ab7808cae7</f>
                     <f s="3924" n="UIHelper.lua">8042402c764669d5cb6bc9b11ab78f34</f>
                 </dir>
                 <dir n="controllers">
-                    <f s="3459" n="ControllerBase.lua">6ccb2e8556b58956e92fbaec74d40806</f>
-                    <f s="6937" n="HomeController.lua">74316f27326fd61ae4bf360081299da4</f>
+                    <f s="3420" n="ControllerBase.lua">1e77aa5c060ddd2a6de3aa2b3702504a</f>
+                    <f s="6964" n="HomeController.lua">5dc480bc6c348217121d6bd033ece533</f>
                     <f s="2359" n="LoginController.lua">61e4038331f5387cf05d335b7cdeabf6</f>
                     <f s="21209" n="TexasPokerController.lua">2441820e88e0d9b523bfccd963875756</f>
                 </dir>
@@ -554,7 +555,7 @@
                         <f s="1008" n="LeftBaseLayer.lua">e9e754ee9e7f2bd222d1a1a7645eb0e5</f>
                         <f s="1136" n="PopBaseLayer.lua">22dbd653302d30f9699e3b3f4ed4e5b1</f>
                         <f s="2649" n="ResItemWidget.lua">286c4a966764112c6abf1e938a656d3f</f>
-                        <f s="3482" n="SimpleBrowser.lua">6ad4a6bd6eff2a41225171fe90b21393</f>
+                        <f s="3608" n="SimpleBrowser.lua">74aae2b0bb95e47bcac191f1351c380a</f>
                         <f s="846" n="WaitingNode.lua">4e971166d2ef14203b5d7ee3292e5ba0</f>
                     </dir>
                     <dir n="friendroom">
@@ -575,14 +576,14 @@
                         <f s="4358" n="ViewEmail.lua">2db886181c1af88de0b33d8ff76aed99</f>
                         <f s="2994" n="ViewEntry.lua">223bfa13614c8f0669fc95127d2142d2</f>
                         <f s="517" n="ViewFullScreenBase.lua">67db7fa8d8822663b86e28c81cd785be</f>
-                        <f s="4434" n="ViewHome.lua">d0949c4e93b667db5bab76b683f2849a</f>
+                        <f s="4480" n="ViewHome.lua">9fe8a25e2ad3c1d03b819ca69cafc0c2</f>
                         <f s="484" n="ViewMail.lua">16a6830bae04284ea9aa5fa36b052aba</f>
                         <f s="4154" n="ViewModifyPersonal.lua">d523eba3053385faf5ce1b8e5b443773</f>
                         <f s="3315" n="ViewPersonal.lua">8382bdae65c6bc2e7690c0370da8c9b9</f>
                         <f s="5051" n="ViewRank.lua">c094d3247ff3cb218bf718909149427b</f>
                         <f s="804" n="ViewService.lua">5879853d20ea20c0009a998dc17c9720</f>
                         <f s="3289" n="ViewSetting.lua">2cb9733e56511c549066ea19f1ca9430</f>
-                        <f s="5785" n="ViewShop.lua">1fb186797f974d589a4837329ae0f020</f>
+                        <f s="6036" n="ViewShop.lua">08a9ee03ba443464581a4349f0d4bdf5</f>
                         <f s="2596" n="ViewSignAward.lua">697bfc9ad58d16d91c4369898fa35e5c</f>
                         <f s="3332" n="ViewSignLayer.lua">d40999f45922d0080b28db84d21b4c5d</f>
                     </dir>

@@ -121,11 +121,10 @@ function ControllerBase:showAlert(alertView)
     alertView:actionEnter()
 end
 
-function ControllerBase:showBrowser(options)
+function ControllerBase:showBrowser(options, container)
     self.browser = APP:createView("common.SimpleBrowser", options)
         :move(0, 0)
-        :addTo(self)
-    self.browser:setLocalZOrder(GameConfig.Z_GameTop)
+        :addTo(container)
 end
 
 return ControllerBase

@@ -140,8 +140,8 @@ function HomeController:showModifyPersonal()
 	self:addChild(APP:createView("home.ViewModifyPersonal", self))
 end
 
-function HomeController:showShop(isShowDiamond)
-	self:addChild(APP:createView("home.ViewShop", isShowDiamond))
+function HomeController:showShop(isShowDiamond, container)
+	container:addChild(APP:createView("home.ViewShop", isShowDiamond, container))
 end
 
 function HomeController:showSetting()
