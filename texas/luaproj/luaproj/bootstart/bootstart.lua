@@ -50,7 +50,7 @@ local loading = require("loading");
 
 --版本检查完毕,启动程序
 local function onVersionCheckePass()
-
+	
 	--如果是开发模式下,访问开发下的资源目录
 	if get_cmdline("-debug") == "1" then
 		local tb = cc.FileUtils:getInstance():getSearchPaths();
@@ -89,18 +89,14 @@ local function main()
     local sce = display.newScene("updator");
     local vw = loading.new():addTo(sce);
     display.runScene(sce)
-	if get_cmdline("-debug") == "1" then
-		onVersionCheckePass();
-	else
-		checkVersion("lobby/", wbPath, "http://poker.game577.com/game_update/texas/", vw, onVersionCheckePass);
-	end;
+	checkVersion("lobby/", wbPath, "http://poker.game577.com/game_update/texas/", vw, onVersionCheckePass);
 end
 
 --设置全局异常处理,写入日志文件+派发错误事件让子模块处理错误
 __G__TRACKBACK__ = function(msg)
     local msg = debug.traceback(msg, 3)
     io.writefile(wbPath.."runlog.log", "[" ..os.date("%Y-%m-%d %H:%M:%S", os.time()) .. "]" .. msg .. "\r\n", "a");
-	dispatchCustomEvent("SCRIPT_ERROR");
+	dispatchCustomEvent("SCRIPT_ERROR", msg);
     return msg
 end
 
