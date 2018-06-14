@@ -19,12 +19,10 @@ function ControllerBase:ctor()
 	addListener(self, "SCRIPT_ERROR", handler(self, self.OnScriptError))
 end
 
-function ControllerBase:OnScriptError()
-	printLog("a", "ControllerBase:OnScriptError1");
+function ControllerBase:OnScriptError(msg)
     local desc = APP.GD.LANG.UI_SCRIPT_ERROR;
     self:hideWaiting();
-	printLog("a", "ControllerBase:OnScriptError2");
-    self:showAlertOK({desc = desc});
+    self:showAlertScriptError({desc = desc..msg});
 end
 
 function ControllerBase:update(dt)
@@ -66,13 +64,11 @@ function ControllerBase:onExit()
 end
 
 function ControllerBase:showWaiting()
-    if not self._waitingNode then
-        self._waitingNode = APP:createView("common.WaitingNode")
-            :move(0, 0)
-            :addTo(self)
-        self._waitingNode:setName("common.WaitingNode")
-        self._waitingNode:setLocalZOrder(GameConfig.Z_Waiting)
-    end
+    self._waitingNode = APP:createView("common.WaitingNode")
+        :move(0, 0)
+        :addTo(self)
+    self._waitingNode:setName("common.WaitingNode")
+    self._waitingNode:setLocalZOrder(GameConfig.Z_Waiting)
 end
 
 function ControllerBase:showBlankWaiting()
@@ -108,6 +104,15 @@ function ControllerBase:showAlertOK(options)
     self.alert:setLocalZOrder(GameConfig.Z_Alert)
     self.alert:actionEnter()
 end
+
+function ControllerBase:showAlertScriptError(options)
+    self.alert = APP:createView("common.AlertScriptError", options)
+        :move(0, 0)
+        :addTo(self)
+    self.alert:setLocalZOrder(GameConfig.Z_Alert)
+    self.alert:actionEnter()
+end
+
 
 function ControllerBase:showAlert(alertView)
     alertView:move(0, 0)

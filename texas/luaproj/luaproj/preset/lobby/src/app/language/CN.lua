@@ -35,7 +35,7 @@ CN.UI_DOWNLOADIND = "正在更新..."
 CN.UI_ALERT_DEFAULT_TITLE = "温馨提示"
 CN.UI_ALERT_DEFAULT_CONFIRM = "确 定"
 CN.UI_ALERT_DEFAULT_CANCEL = "取 消"
-CN.UI_SCRIPT_ERROR = "非常抱歉发现运行时错误,我们将尽快修复这个问题,感谢您的理解和耐心."
+CN.UI_SCRIPT_ERROR = "非常抱歉发现运行时错误,我们将尽快修复这个问题,\r\n感谢您的理解和耐心.以下是我们收集到的信息:\r\n\r\n"
 
 CN.UI_BROADCAST_TYPE_SYSTEM = "系统消息"
 CN.UI_BROADCAST_TYPE_BROADCAST = "广播"

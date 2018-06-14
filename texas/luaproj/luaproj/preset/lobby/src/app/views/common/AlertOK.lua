@@ -1,15 +1,4 @@
 local UIHelper = require("app.common.UIHelper")
-
---[[ 
-options:
-{
-    desc = "xxx",
-    okCallback = xx,
-    title = "",
-    ok = {normal = "", selected = ""}
-}
-]]--
-
 local AlertOK = class("AlertOK", function()
     return display.newNode()
 end)

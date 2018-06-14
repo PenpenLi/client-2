@@ -92,7 +92,6 @@ function UIHelper.newAnimation(nframes, container, formator, pos)
 	local frames = {}
 	for i = 1, nframes do
 		local pa = formator(i);
-		printLog("a", pa);
 		table.insert(frames, spriteFrameCache:getSpriteFrame(pa));
 	end
 	local animation, sprite = display.newAnimation(frames, 0.1)

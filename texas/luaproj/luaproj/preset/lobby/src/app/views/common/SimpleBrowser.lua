@@ -65,7 +65,7 @@ function SimpleBrowser:ctor(options)
 		printLog("a", "createWebView");
 	    self.webview = ccexp.WebView:create()
 		printLog("a", "createWebView created");
-        self.webview:align(container.CENTER, container.width / 2, container.height / 2)
+        self.webview:align(display.CENTER, container:getContentSize().width / 2, container:getContentSize().height / 2)
         self.webview:setContentSize(container:getContentSize())
         self.webview:setScalesPageToFit(true)
         self.webview:loadURL(options.url)

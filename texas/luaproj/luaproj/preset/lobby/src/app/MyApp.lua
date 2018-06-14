@@ -26,6 +26,7 @@ function MyApp:ctor()
     log_filter["a"] = 1;
     log_filter["dump"] = 1;
 	log_filter["net"] = 1;
+	log_filter["b"] = 0;
 end
 
 function MyApp:resetController()

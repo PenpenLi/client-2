@@ -34,7 +34,9 @@ end
 function LoginController:netSendLogin(login_options)
     self:netKeepAlive();
     APP.GD.accinfo = login_options;
+	printLog("a", "netSendLogin1");
     if cmdLogin.login(login_options) == 0 then
+		printLog("a", "netSendLogin2");
         self:showWaiting();
     else
         dispatchCustomEvent("COMMON_ERROR", APP.GD.LANG.ERR_SOCKET_CONNECT);

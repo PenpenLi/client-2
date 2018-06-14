@@ -182,6 +182,11 @@ function ViewLogin:onEnter()
 
     cc.FileUtils:getInstance():setSearchPaths(sp);
     ViewLogin.super.onEnter(self)
+
+	local acc = cc.UserDefault:getInstance():getStringForKey("guest_account");
+	if acc then
+		self:guestLogin();
+	end
 end
 
 function ViewLogin:onExit()
