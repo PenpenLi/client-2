@@ -42,6 +42,7 @@ function    installUpdate(vw, onSucc)
                 end
             else
                 cor_182331 = 1;
+				vw:updateProgress("正在更新...", progmax, progmax);
             end
         elseif cor_182331 == 1 then
             scheduler.unscheduleGlobal(sh1);
@@ -49,11 +50,8 @@ function    installUpdate(vw, onSucc)
             --成功
             if st == 7 then
                 onSucc();
-            --仍然存在旧版本
-            elseif st == 8 then
-                vw:setError("更新已完成,但有部分文件未能成功更新.");
             else
-                vw:setError("更新失败.");
+                vw:setError("更新失败,请尝试切换网络环境重试.");
             end
         end
     end, 0.1);
@@ -106,7 +104,11 @@ function addListener(node, evtName, callback)
     end);
 
     local dispatcher = cc.Director:getInstance():getEventDispatcher()
-    dispatcher:addEventListenerWithSceneGraphPriority(evt, node)
+	if node then
+		dispatcher:addEventListenerWithSceneGraphPriority(evt, node)
+	else
+		dispatcher:addEventListenerWithFixedPriority(evt, 1);
+	end
     return evt
 end
 
@@ -117,4 +119,5 @@ function singleShot(dur, func, ...)
 		func();
 		scheduler.unscheduleGlobal(taskid);
 	end, dur);
+	return taskid;
 end
