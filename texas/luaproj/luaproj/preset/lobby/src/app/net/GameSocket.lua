@@ -45,7 +45,7 @@ function GameSocket:ctor(host, port, name, id)
 
     self:switchStatus(GameSocket.S_INITED)
 
-    scheduler.scheduleGlobal(function() self:handleMessages() end, 0.01)
+    scheduler.scheduleGlobal(function(dt) self:handleMessages(dt) end, 0.01)
 end
 
 function GameSocket:getStatus()
@@ -130,7 +130,6 @@ end
 function GameSocket:onSocketEvent(event)
     -- printInfo("[GameSocket] [%s] event: %s", utils.timeStr(), event.name)
     if event.name == SocketTCP.EVENT_CONNECTED then
-        
         if self.PENDING_SEND then
             for _, v in pairs(self.PENDING_SEND) do
                 self._socket:send(v:getPack())
@@ -168,22 +167,27 @@ function GameSocket:onSocketData(event)
     end
 end
 
-function GameSocket:handleMessages()
+function GameSocket:handleMessages(dt)
     if self._blocked then
         return
     end
-    
+	
+	if dt > 3.0 then
+		self:close();
+		return
+	end
+
     self.SEQUENCE = self.SEQUENCE + 1
-    if #self._msgQueue > 0 then
+    while #self._msgQueue > 0 do
         local __msg = self._msgQueue[1]
-        table.remove(self._msgQueue, 1)
+		table.remove(self._msgQueue, 1)
         if __msg.socket_close then
             APP:getCurrentController():hideWaiting()
             if self:getStatus() ~= GameSocket.S_DISCONNECTED then
                 self:switchStatus(GameSocket.S_DISCONNECTED)
             end
         else
-            SocketHandlers.handleMessage(self._id, __msg)
+			SocketHandlers.handleMessage(self._id, __msg)
         end
     end
 end

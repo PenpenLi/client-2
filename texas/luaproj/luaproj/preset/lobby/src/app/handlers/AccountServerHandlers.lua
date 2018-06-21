@@ -8,8 +8,11 @@ function saveAccount()
     --保存为上次登录信息
     if string.sub(APP.GD.accinfo.account, 1, 5) == "GUEST" then
         cc.UserDefault:getInstance():setStringForKey("guest_account", APP.GD.accinfo.account);
+		cc.UserDefault:getInstance():setStringForKey("lastuse", 0);
     else 
         cc.UserDefault:getInstance():setStringForKey("user_account", APP.GD.accinfo.account);
+		cc.UserDefault:getInstance():setStringForKey("user_psw", APP.GD.accinfo.pwd);
+		cc.UserDefault:getInstance():setStringForKey("lastuse", 1);
     end
     cc.UserDefault:getInstance():flush();
 end

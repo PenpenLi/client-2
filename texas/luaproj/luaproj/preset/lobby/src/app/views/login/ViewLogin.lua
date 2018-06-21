@@ -3,17 +3,9 @@ local ViewLogin = class("ViewLogin", cc.mvc.ViewBase)
 local csbnode = nil;
 local container = nil;
 
-function ViewLogin:resetView()
-    if container == nil then return end;
-    local rp =  UIHelper.seekNodeByName(container, "register_page");
-    local lp = UIHelper.seekNodeByName(container, "login_page");
-    rp:setVisible(false);
-    lp:setVisible(false);
-end
-
 function ViewLogin:ctor(ctrl)
 	math.randomseed(os.time());
-	ViewLogin.super.ctor(self);
+	self.super.ctor(self);
 
 	csbnode = cc.CSLoader:createNode("login/login_frame.csb"):addTo(self);
 	container = UIHelper.seekNodeByName(csbnode, "login_frame");
@@ -78,13 +70,8 @@ function ViewLogin:ctor(ctrl)
 		if t ~= ccui.TouchEventType.ended then return end;
 		local acc = acc_ctrl:getString();
 		local psw = psw_ctrl:getString();
-		local login_options = {
-				account = acc,
-		 		pwd = psw,
-		 		machine_mark = "0"
-			};
-        
-		APP.lc:netSendLogin(login_options);
+
+		self:accountLogin(acc, psw);
 	end);
    
 	--上次保存登录账号显示
@@ -98,7 +85,24 @@ function ViewLogin:ctor(ctrl)
 	local skeleton = sp.SkeletonAnimation:createWithJsonFile("effect/girl/renwu.json", "effect/girl/renwu.atlas", 1)
     skeleton:setAnimation(0, "idle", true)
     bg:addChild(skeleton)
+end
 
+function ViewLogin:resetView()
+    if container == nil then return end;
+    local rp =  UIHelper.seekNodeByName(container, "register_page");
+    local lp = UIHelper.seekNodeByName(container, "login_page");
+    rp:setVisible(false);
+    lp:setVisible(false);
+end
+
+function ViewLogin:accountLogin(acc, psw)
+	local login_options = {
+			account = acc,
+			pwd = psw,
+			machine_mark = "0"
+		};
+        
+	APP.lc:netSendLogin(login_options);
 end
 
 function ViewLogin:guestLogin()
@@ -182,15 +186,7 @@ function ViewLogin:showRegister()
 end
 
 function ViewLogin:onEnter()
-    local sp = cc.FileUtils:getInstance():getSearchPaths();
-
-    cc.FileUtils:getInstance():setSearchPaths(sp);
-    ViewLogin.super.onEnter(self)
-
-	local acc = cc.UserDefault:getInstance():getStringForKey("guest_account");
-	if acc then
-		self:guestLogin();
-	end
+	ViewLogin.super.onEnter(self)
 end
 
 function ViewLogin:onExit()

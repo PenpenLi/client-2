@@ -9,13 +9,12 @@ local ResItemWidget = require("app.views.common.ResItemWidget")
 local ViewRoom = class("ViewRoom", cc.mvc.ViewBase)
 
 ViewRoom.SIDE_POOL_TAG = 1000
-ViewRoom.MAIN_POOL_POS = cc.p(375,850)
+ViewRoom.MAIN_POOL_POS = cc.p(375,875)
 
 local maxset = 6
 
-function ViewRoom:ctor()
+function ViewRoom:ctor(isPrivate)
 	ViewRoom.super.ctor(self)
-
 	self.myCards = {}
 	self.publicCards = {}
 	self.sidePools = {}
@@ -213,7 +212,26 @@ function ViewRoom:playerSit(content)
 	else 
 		printLog("a", "player sit %d, %s, myuid = %s", content.pos, content.uid, APP.GD.GameUser.uid)
 		local clipos = self:getClientPos(content.pos);
-		self.playersUI[clipos]:setUser(content);
+		local uip = self.playersUI[clipos];
+		uip:setUser(content);
+
+		local container = UIHelper.seekNodeByName(self.csbnode, "Players");
+		--准备动画事宜
+		local placeholder = UIHelper.seekNodeByName(container, "P" .. tostring(clipos)..tostring(clipos));
+		local pclone = uip:clone();
+		pclone:addTo(container);
+		pclone:setPosition(placeholder:getPosition());
+
+		local ptto = container:convertToNodeSpace(uip:getParent():convertToWorldSpace(cc.p(uip:getPosition())));
+		--准备播放面板动画，先隐藏面板
+		uip:setVisible(false);
+		local a1 = cc.EaseOut:create(cc.MoveTo:create(0.25, ptto),3);
+		local a2 = cc.Sequence:create(cc.DelayTime:create(0.3), a1, cc.CallFunc:create(function()
+			pclone:removeSelf();
+			uip:setVisible(true);
+		end));
+
+		pclone:runAction(a2)
 		return self.playersUI[clipos];
 	end
 
@@ -229,7 +247,21 @@ function ViewRoom:leaveSeat(serverpos)
 	else
 		local player = APP.GD.room_players:getPlayerByPos(serverpos);
 		local clipos = self:getClientPos(serverpos);
-		self.playersUI[clipos]:setUser(nil)
+		local uip = self.playersUI[clipos];
+
+		local container = UIHelper.seekNodeByName(self.csbnode, "Players");
+		--玩家面板飞走
+		local placeholder = UIHelper.seekNodeByName(container, "P" .. tostring(clipos) .. tostring(clipos))
+		local anim = uip:clone();
+		anim:addTo(container);
+		local ptto = container:convertToNodeSpace(uip:getParent():convertToWorldSpace(cc.p(uip:getPosition())));
+		anim:setPosition(ptto);
+
+		local act = cc.Sequence:create(cc.EaseIn:create(cc.MoveTo:create(0.25, cc.p(placeholder:getPosition())) ,3),
+		cc.RemoveSelf:create());
+		anim:runAction(act);
+
+		uip:setUser(nil)
 		--如果是玩家自己离开坐位了
 		if player and player.uid == APP.GD.GameUser.uid then
 			self:hideOperateButtons();
@@ -279,7 +311,7 @@ function ViewRoom:onExit()
 end
 
 function ViewRoom:updateBasePool(pool)
-	self.text_BasePool:setString(utils.convertNumberShort(pool))
+	self.text_BasePool:setString("底池:"..utils.convertNumberShort(pool))
 end
 
 function ViewRoom:setMainPoolStatus(show, pool)
@@ -319,9 +351,6 @@ function ViewRoom:getSidePoolIconPos(id)
         local parent = self.sidePools[id]:getResIcon():getParent()
         local pos = parent:convertToWorldSpace(cc.p(self.sidePools[id]:getResIcon():getPosition()))
         return pos.x + 22, pos.y
-		--return self.sidePools[id]:getPositionX() - 60, self.sidePools[id]:getPositionY()
-	else
-		return 0, 0
 	end
 end
 
@@ -381,10 +410,9 @@ end
 
 function ViewRoom:createSidePoolItem(iconPngPath)
     local resItem = ResItemWidget:create(40,false)
-        
 
     resItem:setBgTexture("cocostudio/game/image/zhujiemian_choumatoumingdi.png")
-    resItem:setBgSize(cc.size(140,34))
+    resItem:setBgSize(cc.size(140, 34))
 
     resItem:setResTexture(iconPngPath)
     resItem:setResIconSize(cc.size(34,34))
@@ -422,7 +450,7 @@ function ViewRoom:hideSidePools()
 end
 
 function ViewRoom:updateBlindBet(bigBet)
-	self.text_BlindBet:setString(string.format("%d/%d", bigBet / 2, bigBet))
+	self.text_BlindBet:setString(string.format("<新手场>%d/%d", bigBet / 2, bigBet))
 end
 
 function ViewRoom:hideOperateButtons()
@@ -541,8 +569,9 @@ function ViewRoom:dealCardToMe(cardsData, isTurn)
 		local card = ViewCard.new(data, isTurn);
 		card:addTo(UIHelper.seekNodeByName(self.csbnode, "mycard" .. tostring(i)))
 		card:runAction(cc.Sequence:create(
-  			cc.DelayTime:create(0.5),
+			cc.DelayTime:create(0.6),
   			cc.CallFunc:create(function ()
+				SoundUtils.playFanpai(1)
   				if isTurn then
 	  				card:actionTurn()
 	  			end
@@ -551,7 +580,6 @@ function ViewRoom:dealCardToMe(cardsData, isTurn)
 		card.data = data
 		table.insert(self.myCards, card)
 	end
-	SoundUtils.playFanpai(1)
 end
 
 function ViewRoom:clearMyCard()
@@ -574,26 +602,24 @@ end
 
 -- 发公共牌
 function ViewRoom:dealPublicCard(cardsData, isTurn)
+	local ii = 0;
 	for i = #self.publicCards + 1, #cardsData do
 		local data = tonumber(cardsData[i])
 		local card = ViewCard.new(data, isTurn)
 		--card:align(display.LEFT_BOTTOM, 0, 0)
 		card:addTo(UIHelper.seekNodeByName(self.csbnode, "pubcard" .. tostring(i)))
 		card:runAction(cc.Sequence:create(
-  			cc.DelayTime:create(0.5),
+  			cc.DelayTime:create(ii * 0.4),
   			cc.CallFunc:create(function ()
   				if isTurn then
+					SoundUtils.playFanpai(1);
 	  				card:actionTurn()
 	  			end
   			end)
 		))
 		card.data = data
+		ii = ii + 1;
 		table.insert(self.publicCards, card)
-	end
-	if #cardsData == 3 then
-		SoundUtils.playFanpai(1)
-	else
-		SoundUtils.playFanpai(1)
 	end
 end
 

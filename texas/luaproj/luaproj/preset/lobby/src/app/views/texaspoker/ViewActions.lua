@@ -27,10 +27,8 @@ function ViewActions:flyBet(from, to, count, img, callback)
 		local seqActions = {
 			cc.DelayTime:create((i - 1) * 0.1),
 			cc.Spawn:create(
-				cc.FadeOut:create(0.3),
-				cc.EaseSineOut:create(
-					cc.MoveTo:create(0.3, to)
-			)),
+				cc.EaseSineInOut:create(
+					cc.MoveTo:create(0.35, to))),
 			cc.RemoveSelf:create()
 		}
 		if i == count and callback then
@@ -69,15 +67,18 @@ function ViewActions:actionMainPoolToPlayer(uid, callback)
 	local from = cc.p(APP:getObject("ViewRoom"):getMainPoolIconPos())
 	local to = APP:getCurrentController():getPlayerPostion(uid)
 	if not to then return end;
-	self:flyBet(from, to, 5, "cocostudio/game/image/bet_main.png", callback)
+	self:flyBet(from, to, 4, "cocostudio/game/image/bet_main.png", callback)
 end
 
 -- 边池飞筹码到玩家
 function ViewActions:actionSidePoolToPlayer(id, uid, callback)
-	local from = cc.p(APP:getObject("ViewRoom"):getSidePoolIconPos(id))
+	local x, y = APP:getObject("ViewRoom"):getSidePoolIconPos(id);
+	if not x then return end;
+
+	local from = cc.p(x, y);
 	local to = APP:getCurrentController():getPlayerPostion(uid)
-	if not to then return end;
-	self:flyBet(from, to, 5, "cocostudio/game/image/bet_side.png", callback)
+	if not to or not from then return end;
+	self:flyBet(from, to, 4, "cocostudio/game/image/bet_side.png", callback)
 end
 
 -- 主池飞筹码到边池

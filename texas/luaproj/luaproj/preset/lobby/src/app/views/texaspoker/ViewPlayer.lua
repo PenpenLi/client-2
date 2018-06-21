@@ -6,16 +6,17 @@ local ViewCard = require("app.views.texaspoker.ViewCard")
 local TexasPokerConfig = require("app.models.TexasPokerConfig")
 local ResItemWidget = require("app.views.common.ResItemWidget")
 local CMD = require("app.net.CMD")
-
+local headIcons = require("app.common.ConstUtils")
 local ViewPlayer = class("ViewPlayer", function()
  	return display.newNode()
 end)
 
-ViewPlayer.TIMER_COLORS = {cc.c3b(158, 255, 223), cc.c3b(255, 242, 93), cc.c3b(255, 78, 0)}
+ViewPlayer.TIMER_COLORS = {cc.c3b(0, 255, 0), cc.c3b(255, 242, 93), cc.c3b(255, 78, 0)}
 
-function ViewPlayer:ctor(clipos)
+function ViewPlayer:ctor(clipos, isclone)
 	self:enableNodeEvents()
 	self.myCards = {}
+	self.clipos = clipos
 
 	if clipos >= 5 then
 		self.isRight = true;
@@ -23,7 +24,9 @@ function ViewPlayer:ctor(clipos)
 		self.isRight = false;
 	end
 
-    addListener(self, "NET_MSG", handler(self, self.onMsg));
+	if not isclone then
+		self.evt = addListener(self, "NET_MSG", handler(self, self.onMsg));
+	end
 
 	self.csbnode = cc.CSLoader:createNode("cocostudio/game/PlayerNode.csb")
 	self.csbnode:addTo(self)
@@ -42,6 +45,7 @@ function ViewPlayer:ctor(clipos)
 	self.img_Operate = UIHelper.seekNodeByName(self.csbnode, "Image_Operate")
 	self.img_Banker = UIHelper.seekNodeByName(self.csbnode, "Image_Banker")
 	self.img_CardType = UIHelper.seekNodeByName(self.csbnode, "Image_CardType")
+	self.Image_Winner = UIHelper.seekNodeByName(self.csbnode, "Image_Winner")
 
 	self.timerProgress = cc.ProgressTimer:create(display.newSprite("cocostudio/game/image/zhujiemian_baixian.png"))
 		:setReverseDirection(true)
@@ -62,13 +66,20 @@ function ViewPlayer:setSitVisible(vis)
 	local btn = UIHelper.seekNodeByName(used, "Button_1");
 	if vis then
 		btn:setVisible(true);
-
 	else
 		btn:setVisible(false);
 	end
 end
 
-function ViewPlayer:setUser(usr)
+function ViewPlayer:clone()
+	local newp = ViewPlayer.new(self.clipos, true);
+	if self.usr then
+	    newp:setUser(self.usr, true);
+	end
+	return newp;
+end
+
+function ViewPlayer:setUser(usr, isclone)
 	self:setSitVisible(false);
 	if not usr then 
 		local used = UIHelper.seekNodeByName(self.csbnode, "used");
@@ -80,7 +91,7 @@ function ViewPlayer:setUser(usr)
 	else
 		local used = UIHelper.seekNodeByName(self.csbnode, "used");
 		used:setVisible(true);
-
+		self.usr = usr
 		self.uid = usr.uid
 		self.timer_totalTime = 0
 		self.timer_leftTime = 0
@@ -88,7 +99,7 @@ function ViewPlayer:setUser(usr)
 
 		local players = APP.GD.room_players
 		local player = players:getPlayerByUid(self.uid)
-		self.img_Head:loadTexture(string.format("image/head_%d.png", player.head_ico or 1))
+		self.img_Head:loadTexture(string.format("image/%s", headIcons.head_icon[player.head_ico or 1]))
 		self.img_Head:addTouchEventListener(function(ref, t)
 			if t == ccui.TouchEventType.ended then
 				APP:getCurrentController():showPlayerInfoLayer(self.uid)
@@ -107,10 +118,12 @@ function ViewPlayer:setUser(usr)
 			self.img_Banker:setPosition(cc.p(-posx, posy))
 		end
 
-		self.timerProgress.colorStatus = 1
-		self:updateTimerColor()
-
 		self:clear()
+		self:setMaskStatus(true);
+
+		if isclone then
+			return;  
+		end
 
 		-- 是否有牌
 		if player.cards and player.cards ~= "" then
@@ -133,7 +146,7 @@ function ViewPlayer:setUser(usr)
 			self:setBet(true, player.setbet)
 		end
 		-- 是否有请求操作
-		if player.valid_op and player.valid_op ~= "" then
+		if player.valid_op and player.valid_op ~= "" and player.time_left > 1.0 then
 			self:setTimerStatus(true, player.time_left)
 		end
 	end
@@ -146,11 +159,6 @@ function ViewPlayer:createResItem()
 
         self.ResItem:setBgTexture("cocostudio/game/image/zhujiemian_choumatoumingdi.png")
         self.ResItem:setResTexture("cocostudio/game/image/bet_small.png")
-        local font = self.ResItem:getFont()
-        font:setPositionY(20)
-        font:setPositionX(37)
-        font:setScale(0.8)
-        
     end
 end
 
@@ -160,17 +168,12 @@ function ViewPlayer:onEnter()
 	-- body
 end
 
-
-function ViewPlayer:onEnter()
-	printInfo("ViewPlayer:onEnter")
-	-- body
-end
-
 function ViewPlayer:onExit()
-	printInfo("ViewPlayer:onExit")
 	if self.timerHandle then
 		scheduler.unscheduleGlobal(self.timerHandle)
 		self.timerHandle = nil
+
+		removeListener(self.evt);
 	end
 end
 
@@ -242,11 +245,11 @@ function ViewPlayer:timerHandler()
 	end
 	-- printInfo("Timer Left Time:%f", 100 - (self.timer_totalTime - self.timer_leftTime) / self.timer_totalTime * 100)
 	local newColorStatus = 1
-	if self.timer_leftTime > 6 then
+	if self.timer_leftTime > 4 then
 		newColorStatus = 1
-	elseif self.timer_leftTime > 4 and self.timer_leftTime <= 6 then
+	elseif self.timer_leftTime > 2 and self.timer_leftTime <= 4 then
 		newColorStatus = 2
-	elseif self.timer_leftTime > 0 and self.timer_leftTime <= 4 then
+	elseif self.timer_leftTime > 0 and self.timer_leftTime <= 2 then
 		newColorStatus = 3
 		local gameUser = APP.GD.GameUser
 		if self.timer_leftTime == 4 and gameUser.uid == self.uid then
@@ -270,6 +273,8 @@ end
 
 -- 显示有牌标识，show是否显示，isAction是否需要动画
 function ViewPlayer:setDealedCardStatus(show, isAction)
+	self:setMaskStatus(false);
+
 	if not isAction then
 		self.img_Card_1:setVisible(show)
 		self.img_Card_2:setVisible(show)
@@ -290,7 +295,10 @@ function ViewPlayer:setDealedCardStatus(show, isAction)
 
 			fly:runAction(
 				cc.Sequence:create(
-					cc.DelayTime:create(0.01 + (i - 1) * 0.2),
+					cc.DelayTime:create((i - 1) * 0.1),
+					cc.CallFunc:create(function()
+						SoundUtils.playFanpai(1)
+					end),
 					cc.EaseOut:create(cc.MoveTo:create(0.3, cc.p(targetPosx, targetPosy)), 2),
 					cc.CallFunc:create(function()
 						img_Card:setVisible(true)
@@ -371,6 +379,7 @@ function ViewPlayer:showCardsToOther()
 		end
 	end
 	SoundUtils.playFanpai(1)
+
 end
 
 function ViewPlayer:clearMyCard()
@@ -392,6 +401,8 @@ function ViewPlayer:setCardTypeStatus(show, t)
 		self.img_CardType:loadTexture(string.format("cocostudio/game/image/card_type_%d.png", t))
 		self.img_CardType:setVisible(true)
 		self.text_Nickname:setVisible(false)
+		self.Image_Winner:setVisible(true);
+
 		if gameUser.uid ~= self.uid then
 			self.img_Operate:setVisible(false)
 			self.img_Head:setVisible(false)
@@ -403,6 +414,7 @@ function ViewPlayer:setCardTypeStatus(show, t)
 		self.text_Nickname:setVisible(true)
 		self.img_CardType:setVisible(false)
 		self.img_Head:setVisible(true)
+		self.Image_Winner:setVisible(false);
 	end
 end
 
@@ -418,10 +430,12 @@ function ViewPlayer:clear()
 	self.timerProgress:setVisible(false)
 	self.img_Banker:setVisible(false)
 	self.img_Mask:setVisible(false)
+	self.Image_Winner:setVisible(false)
 
 	self:setDealedCardStatus(false)
 	self:clearMyCard()
 	self:setCardTypeStatus(false)
+	
 end
 
 function ViewPlayer:actionEnter(pos)

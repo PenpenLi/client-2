@@ -10,6 +10,7 @@ function ViewBase:ctor()
     end
     self:enableNodeEvents()
     self:setCascadeOpacityEnabled(true)
+	APP:setObject(self.__cname, self);
 end
 
 --MVCÖÐµÄC-¿ØÖÆÆ÷
@@ -47,14 +48,11 @@ function ViewBase.seekNodeByName(obj, name)
 end
 
 function ViewBase:onEnter()
-    if self._setObject then
-        APP:setObject(self.__cname, self)
-    end
 end
 
 function ViewBase:onExit()
     if self._setObject then
-        APP:removeObject(self.__cname)
+        APP:removeObject(self)
     end
 end
 

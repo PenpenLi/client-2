@@ -48,10 +48,10 @@ function GameConfig.getSocketEnv()
 end
 
 -- 当前使用的服务器
-GameConfig.GameEnv.Current = GameConfig.GameEnv.RELEASE
+GameConfig.GameEnv.Current = GameConfig.GameEnv.DEV_HJT
 
 GameConfig.GameEnv.SocketEnv = {
-	[GameConfig.GameEnv.DEV_HJT] = {host = "192.168.11.135", port = "10000"},
+	[GameConfig.GameEnv.DEV_HJT] = {host = "192.168.2.100", port = "10000"},
 	[GameConfig.GameEnv.DEV_210] = {host = "192.168.1.210", port = "10000"},
 	[GameConfig.GameEnv.RELEASE] = {host = "poker.game577.com", port = "10000"},
 }

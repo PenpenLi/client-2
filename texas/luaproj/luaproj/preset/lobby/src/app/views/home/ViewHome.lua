@@ -130,7 +130,6 @@ function ViewHome:onMsg(fromServer, subCmd, content)
             headId = tonumber(content.head_ico_),
              nickName =content.nickname_,
         }
---        self.Image_Head:loadTexture(string.format("cocostudio/common/image/%s",head_icon[msg.headId]))
         APP.GD.GameUser.head_pic = content.head_ico_
         APP.GD.GameUser.uname = content.nickname_
         self:updateUserInfo()

@@ -36,7 +36,19 @@ function MyApp:resetController()
 end
 local pathWritable = cc.FileUtils:getInstance():getWritablePath();
 function MyApp:run()
-    self:ActiveCtrl("LoginController");
+	--预加载登录界面场景但不应用
+    self:ActiveCtrl("LoginController", true);
+	--先自动登录，如果不成功，显示登录界面
+	if not self.lc:doAutoLogin() then
+		self:ApplyPreloadCtrl()
+	else
+		self.eventRecv = display.newNode();
+		self.evt = addListener(self.eventRecv, "COMMON_ERROR", handler(self, self.doAutoLoginError));
+	end
+end
+
+function MyApp:doAutoLoginError(err)
+	self:ApplyPreloadCtrl()
 end
 
 function MyApp:ActiveCtrl(ctrl, preload)
@@ -74,7 +86,10 @@ function MyApp:ActiveCtrl(ctrl, preload)
 end
 
 function MyApp:ApplyPreloadCtrl()
-	 display.runScene(self.ins)
+	if self.evt then
+		removeListener(self.evt)
+	end
+	display.runScene(self.ins)
 end
 
 function MyApp:switchServer(gameid)
@@ -88,10 +103,9 @@ function MyApp:switchServer(gameid)
     SOCKET_MANAGER.sendToAccountServer(CMD.ACCOUNT_GET_GAME_COORDINATE_REQ, data)
 end
 
-function MyApp:removeObject(id)
-    printInfo("[APP] removeObject: %s", id)
-    if self:isObjectExists(id) then
-        self.objects_[id] = nil
+function MyApp:removeObject(obj)
+    if self.objects_[obj.__cname] == obj  then
+        self.objects_[obj.__cname] = nil
     end
 end
 

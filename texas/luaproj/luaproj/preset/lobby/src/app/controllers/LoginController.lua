@@ -12,19 +12,37 @@ local cmdStart = require("app.commands.StartCommand")
 
 
 local LoginController = class("LoginController", ControllerBase)
-function LoginController:ctor()
+function LoginController:ctor(autoLogin)
     LoginController.super.ctor(self)
     UIHelper.cacheCards()
     UIHelper.cacheHeads()
-	--cc.SpriteFrameCache:getInstance():addSpriteFrames("effect/nv_1.plist")
-	--cc.SpriteFrameCache:getInstance():addSpriteFrames("effect/nv_2.plist")
-	--cc.SpriteFrameCache:getInstance():addSpriteFrames("effect/nv_3.plist")
 
-	self:addChild(APP:createView("login.ViewLogin", self))
+	self.loginView = APP:createView("login.ViewLogin", self, autoLogin)
+	self:addChild(self.loginView)
 
     cmdStart:execute();
  
-    addListener(self, "COMMON_ERROR", handler(self, self.loginError));
+    self.evt = addListener(self, "COMMON_ERROR", handler(self, self.loginError));
+end
+
+function LoginController:doAutoLogin()
+	local lastuse = cc.UserDefault:getInstance():getStringForKey("lastuse");
+	if lastuse == "0" then
+		local acc = cc.UserDefault:getInstance():getStringForKey("guest_account");
+		if acc then
+			self.loginView:guestLogin();
+			return true;
+		end
+	elseif lastuse == "1" then
+		local acc = cc.UserDefault:getInstance():getStringForKey("user_account");
+		local psw = cc.UserDefault:getInstance():getStringForKey("user_psw");
+		if acc then
+			self.loginView:accountLogin(acc, psw);
+			return true;
+		end
+	end
+
+	return false;
 end
 
 function LoginController:netKeepAlive()
@@ -34,9 +52,7 @@ end
 function LoginController:netSendLogin(login_options)
     self:netKeepAlive();
     APP.GD.accinfo = login_options;
-	printLog("a", "netSendLogin1");
     if cmdLogin.login(login_options) == 0 then
-		printLog("a", "netSendLogin2");
         self:showWaiting();
     else
         dispatchCustomEvent("COMMON_ERROR", APP.GD.LANG.ERR_SOCKET_CONNECT);
@@ -76,7 +92,7 @@ end
 
 function LoginController:onExit()
 	LoginController.super.onExit(self)
-    removeListener();
+    removeListener(self.evt);
 	-- SoundUtils.unloadGameSound()
 end
 

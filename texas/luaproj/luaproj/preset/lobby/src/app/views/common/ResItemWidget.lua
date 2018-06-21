@@ -22,7 +22,7 @@ function ResItemWidget:setString(str)
         local bgSize = self.Image_ResBG:getContentSize()
         local size = self.Atlas_ResFont:getContentSize()
         local scaleX = self.Atlas_ResFont:getScaleX()
-        bgSize.width = size.width * scaleX + self.reserveSize
+        bgSize.width = size.width * scaleX + self.reserveSize + 10
         self.Image_ResBG:setContentSize(bgSize)
     else
         local bgSize = self.Image_ResBG:getContentSize()

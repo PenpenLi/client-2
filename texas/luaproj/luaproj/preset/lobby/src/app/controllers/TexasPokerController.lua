@@ -341,7 +341,7 @@ function TexasPokerController:poolChange(pool_id)
             local pool_value = room.pools[1]
             -- 动画
             for _, playerView in pairs(self.playerViews) do
-                if playerView:isBeted() then
+                if playerView and playerView:isBeted() then
                     playerView:setBet(false,0)
                     playerView:hideBetAction(function()
                         self.viewRoom:setMainPoolStatus(true, pool_value)
@@ -356,7 +356,7 @@ function TexasPokerController:poolChange(pool_id)
         if main_pool_value > 0 then
             -- 动画
             for _, playerView in pairs(self.playerViews) do
-                if playerView:isBeted() then
+                if playerView and playerView:isBeted() then
                     playerView:setBet(false,0)
                     playerView:hideBetAction(function()
                         self.viewRoom:setMainPoolStatus(true, main_pool_value)
@@ -427,6 +427,7 @@ function TexasPokerController:matchResult(content)
         self.sch1 = scheduler.performWithDelayGlobal(function ()
             local main_pool, main_id = room:getMainPool()
             local tpool = room.take_pools[content.uid_]
+			if not tpool then return end;
             for _, p in pairs(tpool) do
                 -- 主池飞筹码
                 if p.id == main_id then
@@ -465,6 +466,8 @@ function TexasPokerController:matchResult(content)
             SoundUtils.playSound(0, SoundUtils.GameSound.WIN)
 			            
             local pos = self:getPlayerPostion(content.uid_)
+			if not pos then return end;
+
             if content.uid_ == gameUser.uid then
                 local str = utils.convertNumberShort(tonumber(content.wins_))
                 -- 加钱动画

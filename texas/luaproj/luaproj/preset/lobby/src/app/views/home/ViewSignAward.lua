@@ -31,6 +31,8 @@ printLog("a","==============ViewSignAward ===",data.itemNumber,data.coinNumber)
 	local par = cc.ParticleSystemQuad:create("effect/jinbipenfa.plist");
 	par:addTo(self);
 	par:setPosition(375, 500);
+	self:retain();
+	singleShot(2, function() self:removeSelf(); self:release();  end);
 end
 
 function ViewSignAward:onEnter()
@@ -43,28 +45,18 @@ function ViewSignAward:actionEnter()
 end
 
 function ViewSignAward:onExit()
-   self.BG:runAction(
-        cc.Sequence:create(
-            cc.EaseBackInOut:create(
-                cc.ScaleTo:create(0.15,0.01)
-            ),
-            cc.CallFunc:create(function()
-                self:removeSelf() 
-            end)
-        )
-   )
+	
 end
 
 function ViewSignAward:addAward(data)
---self:selectIcon(data)
---local awardP = cc.p(self.weekAward:getPosition())
---self.weekAward:setPosition(awardP.x-105,awardP.y)
---self.weekAward1:setVisible(true)
---self.weekAward1:setPosition(awardP.x+105,awardP.y)    
---local img_str1 = string.format("cocostudio/home/image/sign/sign_get%d.png",self.weekData) 
---self.weekAward1:loadTexture(img_str1)
---self.Atl_weekcoin_number1:setString(string.format("%d",data.coinNumber))
-
+	self:selectIcon(data)
+	local awardP = cc.p(self.weekAward:getPosition())
+	self.weekAward:setPosition(awardP.x - 105, awardP.y)
+	self.weekAward1:setVisible(true)
+	self.weekAward1:setPosition(awardP.x + 105, awardP.y)    
+	local img_str1 = string.format("cocostudio/home/image/sign/sign_get%d.png",self.weekData) 
+	self.weekAward1:loadTexture(img_str1)
+	self.Atl_weekcoin_number1:setString(string.format("%d",data.coinNumber))
 end
 
 --根据金币数换图

@@ -46,9 +46,7 @@ function ViewEntry:ctor(ctrl, container)
 	self.btn_Rank = UIHelper.seekNodeByName(csbnode,"Button_rank")
     self.btn_Rank:addTouchEventListener(function (ref, t)
         if t == ccui.TouchEventType.ended then    
-			if APP.hc.showRank then
-				APP.hc:showRank()
-			end
+			APP.hc:showRank()
 		end
     end)
     self.btn_Rank:setOpacity(0)

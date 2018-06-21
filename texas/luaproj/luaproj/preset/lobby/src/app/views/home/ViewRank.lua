@@ -3,7 +3,7 @@ local UIHelper = require("app.common.UIHelper")
 --local PopBaseLayer = require("app.views.common.PopBaseLayer")
 --local ViewRank = class("ViewRank", PopBaseLayer)
 local ViewRank = class("ViewRank",cc.mvc.ViewBase);
-
+local headIcons = require("app.common.ConstUtils")
 
 function ViewRank:ctor()
     ViewRank.super.ctor(self)
@@ -99,36 +99,9 @@ function ViewRank:upDateRankInfo(rankData)
   elseif  tonumber(rankData.tag) == 1 and self.rankType ~= rankData.rank_type then 
            return 
    end 
-      
- 
-
-local head_icon = {
-    "zhujiemian_nv1.png",
-    "zhujiemian_nv2.png",
-    "zhujiemian_nv3.png",
-    "zhujiemian_nv4.png",
-    "zhujiemian_nv5.png",
-    "zhujiemian_nv6.png",
-    "zhujiemian_nv7.png",
-    "zhujiemian_nv8.png",
-    "zhujiemian_nan2.png",
-    "zhujiemian_nan1.png",
-    "zhujiemian_nan3.png",
-    "zhujiemian_nan4.png",
-    "zhujiemian_nan5.png",
-    "zhujiemian_nan6.png",
-    "zhujiemian_nan7.png",
-    "zhujiemian_nan8.png"
-}
-   printLog("a","============================upDateRankInfo")
-    
    
-        table.insert(self.rankInfoTable,rankData)
-       -- self.rankInfoTable.insert(rankData)
-     self.rankIndex = self.rankIndex+1;
-    if( self.rankIndex ==3) then 
-      printLog("a","============================upDateRankInfo")
-    end 
+	table.insert(self.rankInfoTable,rankData)
+	self.rankIndex = self.rankIndex+1;
 
     local rankNode = self.listViewNode:clone()
     local img_no = rankNode:getChildByName("Image_rank_n") 
@@ -141,7 +114,7 @@ local head_icon = {
 
 
     local img_head = rankNode:getChildByName("Image_head") 
-    local img_head_str = string.format("image/%s", head_icon[tonumber(rankData.head_ico)])
+    local img_head_str = string.format("image/%s", headIcons.head_icon[tonumber(rankData.head_ico)])
  
     img_head:loadTexture(img_head_str)
      

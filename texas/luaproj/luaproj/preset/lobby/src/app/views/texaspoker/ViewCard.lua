@@ -43,7 +43,7 @@ function ViewCard:setScale(scale)
 end
 
 function ViewCard:toGray()
-	self.cardSprite:setColor(cc.c3b(64, 64, 64))
+	self.cardSprite:setColor(cc.c3b(128, 128, 128))
 end
 
 function ViewCard:toWhite()

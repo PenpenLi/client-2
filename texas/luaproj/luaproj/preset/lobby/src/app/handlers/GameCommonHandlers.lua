@@ -61,7 +61,7 @@ function GameCommonHandlers.CommonReply(content)
 		end
 	elseif cmd == CMD.GAME_ENTER_GAME_REQ then
 		if err ~= ErrorCode.error_success then
-		    dispatchCustomEvent("COMMON_ERROR", {desc = LANG.ERR[cmd][err]});
+		    dispatchCustomEvent("COMMON_ERROR", LANG.ERR[cmd][err]);
 		end
 	elseif cmd == CMD.GAME_CREATE_ROOM then
 		APP:getCurrentController():showAlertOK({desc = LANG.ERR[cmd][err]})
@@ -171,7 +171,6 @@ function GameCommonHandlers.handlePlayerLeaveNotify(content)
     --如果转为观察者
     if tonumber(content.why_) == 10 then
         gameUser.is_observer_ = 1;
-		printLog("a", "me change to observer.");
     end
 
     -- 删除玩家
