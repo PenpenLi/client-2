@@ -49,6 +49,7 @@ local wbPath = cc.FileUtils:getInstance():getWritablePath();
 local loading = require("loading");
 
 --版本检查完毕,启动程序
+--将lobby添加入搜索目录,进入大厅逻辑
 local function onVersionCheckePass()
 	
 	--如果是开发模式下,访问开发下的资源目录
@@ -95,7 +96,7 @@ end
 --设置全局异常处理,写入日志文件+派发错误事件让子模块处理错误
 __G__TRACKBACK__ = function(msg)
     local msg = debug.traceback(msg, 3)
-    io.writefile(wbPath.."runlog.log", "[" ..os.date("%Y-%m-%d %H:%M:%S", os.time()) .. "]" .. msg .. "\r\n", "a");
+    io.writefile(wbPath.."runlog"..os.date("%Y-%m-%d", os.time())..".log", "[" ..os.date("%Y-%m-%d %H:%M:%S", os.time()) .. "]" .. msg .. "\r\n", "a");
 	dispatchCustomEvent("SCRIPT_ERROR", msg);
     return msg
 end
