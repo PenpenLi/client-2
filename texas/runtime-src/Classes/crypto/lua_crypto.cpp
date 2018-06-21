@@ -5,7 +5,7 @@
 
 // md5
 #include "md5/md5_impl.h"
-
+#include "boost/date_time.hpp"
 
 // base64
 //#include "crypto/base64/base64Con.h"
@@ -66,50 +66,21 @@ int get_cmdline(lua_State* L)
 //base64 encode
 int encode_base64(lua_State* L)
 {
-	//std::string r = "";
-	//if (lua_type(L, 1) == LUA_TSTRING)
-	//{
-	//	std::string src = lua_tostring(L, 1);
-	//	try
-	//	{
-	//		std::string t = Gzip_Encode(src);
-	//		r = Base64_Encode(t.c_str(), t.length());
-	//	}
-	//	catch (...)
-	//	{
-	//		//do nothing.
-	//	}
-	//}
-	//lua_pushstring(L, r.c_str());
 	return 1;
 }
 
 //base64 decode
 int decode_base64(lua_State* L)
 {
-	//std::string r = "";
-	//if (lua_type(L, 1) == LUA_TSTRING)
-	//{
-	//	std::string src = lua_tostring(L, 1);
-	//	if (!src.empty())
-	//	{
-	//		try
-	//		{
-	//			r = Gzip_Decode(CL::Base64_Decode(src.c_str(), src.length()));
-	//		}
-	//		catch (...)
-	//		{
-	//			//do nothing.
-	//		}
-	//	}
-	//}
-	//lua_pushstring(L, r.c_str());
 	return 1;
 }
 
 extern vsp::iversion_compare* vcp;
 int		vsp_check_version(lua_State* L)
 {
+	if (!vcp){
+		vcp = vsp::iversion_compare::create_instance();
+	}
 	int ret = 0;
 	if (lua_type(L, 1) == LUA_TSTRING && lua_type(L, 2) == LUA_TSTRING && lua_type(L, 3) == LUA_TSTRING){
 		std::string exe = lua_tostring(L, 1);
@@ -146,7 +117,11 @@ int		vsp_is_working(lua_State* L)
 
 int		vsp_clean(lua_State* L)
 {
-	vcp->clean();
+	if (vcp){
+		vcp->clean();
+		delete vcp;
+	}
+	vcp = nullptr;
 	return 0;
 }
 
