@@ -47,8 +47,15 @@ function GameConfig.getSocketEnv()
 	return GameConfig.GameEnv.SocketEnv[GameConfig.GameEnv.Current]
 end
 
--- 当前使用的服务器
-GameConfig.GameEnv.Current = GameConfig.GameEnv.DEV_HJT
+--当前使用的服务器
+--如果是内部调试使用版本，自由设置服务器端IP
+if get_cmdline("-debug") == "1" then
+	GameConfig.GameEnv.Current = GameConfig.GameEnv.DEV_HJT
+--如果是发布版本，只设定为GameEnv.RELEASE,不要动这个代码
+else
+	GameConfig.GameEnv.Current = GameConfig.GameEnv.RELEASE
+end
+
 
 GameConfig.GameEnv.SocketEnv = {
 	[GameConfig.GameEnv.DEV_HJT] = {host = "192.168.2.100", port = "10000"},

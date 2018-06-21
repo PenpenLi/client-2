@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dir v="1051" d="2018-06-14" n="preset">
+<dir n="preset" d="2018-06-21" v="1053">
     <zips>
         <f n="update.zip" s=""></f>
     </zips>
-    <f n="version_config.xml" s="51745">65841cf17c783586f68c4bc37bc14bec</f>
+    <f n="version_config.xml" s="52068">2dfe8991703fcbe057fd00426ece0202</f>
     <dir n="common">
         <dir n="res"/>
         <dir n="src"/>
@@ -93,13 +93,13 @@
                     <f n="ChatLayer.csb" s="4144">2778c729e94292b0144f93c6f0e04751</f>
                     <f n="ChatPreMsgNode.csb" s="1712">598532d26e38b3184fe5ad5df5cc0904</f>
                     <f n="GameMissionNode.csb" s="2608">57f33157d03df550cfbbd2bfd9b426cb</f>
-                    <f n="GameViewLayer.csb" s="18984">857d2821f1ac0015c2af755e26f0f8ec</f>
+                    <f n="GameViewLayer.csb" s="20416">e99a33b1f8459cefada194f1c4e58d3e</f>
                     <f n="MakeupLayer.csb" s="5948">5466f689bdb550149137439cf003ef84</f>
                     <f n="MenuLayer.csb" s="4328">59f0a28b779f85d4bbd07beee64d1297</f>
                     <f n="MissionLayer.csb" s="860">2ac3aeeb89db8005e4c67d5769f64347</f>
                     <f n="PlayerInfoNode.csb" s="5732">6f3383b90930772348b5ffdea92466ef</f>
-                    <f n="PlayerNode.csb" s="6564">715595f210e17dc04c428eb50249b45b</f>
-                    <f n="ResItemNode.csb" s="1664">f2d48f706ea730e9983d69d8744a4282</f>
+                    <f n="PlayerNode.csb" s="6884">a6b07a5361a4a527ec3b613b8fb12eb8</f>
+                    <f n="ResItemNode.csb" s="1652">366feef1ce51127309da1aec4d5c4f03</f>
                     <f n="SettingNode.csb" s="4744">a587234e024e3eb1d8095e17928dc849</f>
                     <dir n="image">
                         <f n="bet_main.png" s="4058">2b67d84e3c418996299a7c2a35d1bff5</f>
@@ -108,16 +108,16 @@
                         <f n="bet_side.png" s="4110">fd5f74c5d8881bd4f8a68c2162037901</f>
                         <f n="bet_small.png" s="3198">4ef2ef63f815ddf265e809129db74544</f>
                         <f n="blank.png" s="119">8923730b6bd3ff16abb6677f341df4a9</f>
-                        <f n="card_type_0.png" s="2175">fc733c5d9a51b85595cca9156c223140</f>
-                        <f n="card_type_1.png" s="1791">2bb447d6b34d7f433000b38ca691052a</f>
-                        <f n="card_type_2.png" s="1685">e5259c074208cb3215857338fe2c3b8c</f>
-                        <f n="card_type_3.png" s="1592">1843dbae1d2a0c269ad2af2165e4a197</f>
-                        <f n="card_type_4.png" s="1547">8a4963d2705b8445104f33c6120e296c</f>
-                        <f n="card_type_5.png" s="1528">0ab712d80323bd85a1edc4fcc89f008e</f>
-                        <f n="card_type_6.png" s="1613">3d62060629c8eda6c2c6a52eb62b52eb</f>
-                        <f n="card_type_7.png" s="1644">9d7d8eebaf0b60365a07447de793c6e3</f>
-                        <f n="card_type_8.png" s="1582">0faf195a6c2afe512da5fb16534298fd</f>
-                        <f n="card_type_9.png" s="1604">1f59e46796fd83c51a1d8c9f4d3c6a6f</f>
+                        <f n="card_type_0.png" s="3028">1aa361fe8c28493e13c77e0ec4d27d93</f>
+                        <f n="card_type_1.png" s="2416">dda150f1d1c0cf417a22be8dfd2f8688</f>
+                        <f n="card_type_2.png" s="2264">ca89f8e39c61542d6e9fd24ea9431be2</f>
+                        <f n="card_type_3.png" s="2096">27e0737c7b5cd4bd479ec45af44a46b1</f>
+                        <f n="card_type_4.png" s="2040">a4e8c2d0655b22d343c860f37fd24ae8</f>
+                        <f n="card_type_5.png" s="1993">df6e52f5861ae4fa12dadecd011b568a</f>
+                        <f n="card_type_6.png" s="2105">2f54ae52776ab06f3f2db2d428ac1cd3</f>
+                        <f n="card_type_7.png" s="2202">fb535d18cccf01a934b852c9cf51ce04</f>
+                        <f n="card_type_8.png" s="2025">02d8aca98e1143e801a42c7864f08b40</f>
+                        <f n="card_type_9.png" s="2014">e4c2c8c13d3add84e4a601fd38a95ad6</f>
                         <f n="game_deal_card.png" s="4603">ced8ecff895b18c45627e52b7c514a7f</f>
                         <f n="game_state_0.png" s="2182">806762bdf02f17c9d0cd29ca06889b5e</f>
                         <f n="game_state_1.png" s="2288">8dffa19ec32dd6a1ae660b1a8463477e</f>
@@ -131,12 +131,7 @@
                         <f n="haoyouchang_haoyoufangxuanzedishuzi-export.fnt" s="2616">43758763b75d6a11604cc05a25943308</f>
                         <f n="haoyouchang_haoyoufangxuanzedishuzi-export.png" s="7124">1b60f325972c1e64094a7aa889305acf</f>
                         <f n="head_1.png" s="25926">043071f927d999ae01097b80717968da</f>
-                        <f n="head_2.png" s="1398">d96aceb06bfcfc212cf913b693abff2c</f>
-                        <f n="head_3.png" s="1509">86b18fb7bd0baeb15062e91da9b63390</f>
-                        <f n="head_4.png" s="1336">0f4db8b92ff962c0dd8267dbb2ee65bf</f>
-                        <f n="head_5.png" s="1291">6388ed00046f91a5d19c1a2515c246b7</f>
-                        <f n="head_6.png" s="1222">81a9db26450a6c631c7b46a4cd7f720f</f>
-                        <f n="logo.png" s="14888">f487513ab380840e92696c1b7588bdb2</f>
+                        <f n="logo.png" s="15024">6ea13ec614de1c153e5db2f36e6ffc9b</f>
                         <f n="meirirenwu_jianglijinbi.png" s="2408">0f0617c63e1c2d61734a1d0df25d73c3</f>
                         <f n="meirirenwu_shuzi.png" s="4044">2a17ca434dc0333f4fc5032a7569be41</f>
                         <f n="my_gold_wan.png" s="1785">11df95a950dc752293eed4470650b6b3</f>
@@ -165,17 +160,17 @@
                         <f n="zhujiemian_changming.png" s="2481">61567613d7139989714c667ab51145bb</f>
                         <f n="zhujiemian_choumadishuzi-export.fnt" s="1978">3d4685bf3478f3dc455a826009d1f2de</f>
                         <f n="zhujiemian_choumadishuzi-export.png" s="1961">7f6d9b268abca533e68b5452dc21e31d</f>
-                        <f n="zhujiemian_choumadishuzi.png" s="2579">4b40a1591d96b73114f29633af5cca16</f>
+                        <f n="zhujiemian_choumadishuzi.png" s="3040">bcfe29138481ff4a2f95c98ed8d700af</f>
                         <f n="zhujiemian_choumatoumingdi.png" s="1796">5188ad407cbb6aece212a4f2e2a55a87</f>
                         <f n="zhujiemian_dichi1.png" s="6036">0b87258360809bb694fdae70b6780639</f>
                         <f n="zhujiemian_dichi12.png" s="6626">cc5f1ac0617f74f6b6cf018c60b18d2c</f>
                         <f n="zhujiemian_dichi13.png" s="6693">bb9f6af680fa2c889aa73670af7de0c4</f>
                         <f n="zhujiemian_dichi23.png" s="6856">615c8b622c7f888eab8a79ecff6be074</f>
-                        <f n="zhujiemian_dichishangfangshuzi-export.fnt" s="1995">3ea9eccf8cfdc19dd0e4cbad2f7f48d9</f>
-                        <f n="zhujiemian_dichishangfangshuzi-export.png" s="2544">bdc6e110399904f1a4c3fa9343a1b1ff</f>
-                        <f n="zhujiemian_dichishuzi.png" s="2691">0b7f0134981cc081de52d39cc00b9783</f>
+                        <f n="zhujiemian_dichishangfangshuzi-export.fnt" s="3936">ddfd11ad70476e7a5cc2e13c6f3efcd2</f>
+                        <f n="zhujiemian_dichishangfangshuzi-export.png" s="7456">e7cc21fe2ae46e7e401262afcf799e62</f>
+                        <f n="zhujiemian_dichishuzi.png" s="2716">b1df5f2bd6731b1d779939406ba11c90</f>
                         <f n="zhujiemian_dichiyuan.png" s="2043">788091b85a0c85b6a9d380cd221673c2</f>
-                        <f n="zhujiemian_genzhu.png" s="3960">48b8c0493c6a6f6d8a7ca85d85c955c2</f>
+                        <f n="zhujiemian_genzhu.png" s="3198">4ef2ef63f815ddf265e809129db74544</f>
                         <f n="zhujiemian_genzhuanniu1.png" s="16704">5f6106e0984ae184b97e4376ae9caf80</f>
                         <f n="zhujiemian_genzhuanniu2.png" s="19360">856110ff1163dc57d35ab83a06c852c0</f>
                         <f n="zhujiemian_genzhushuzi.png" s="7086">0270480338f557230a74fa49a66b2863</f>
@@ -197,7 +192,7 @@
                         <f n="zhujiemian_manzhushuzi-export.png" s="2176">fde92a06721ad04475615f695da21a0b</f>
                         <f n="zhujiemian_niyingshuzi-export.fnt" s="1986">dc1f79324759df76801ecf943e5a0fdf</f>
                         <f n="zhujiemian_niyingshuzi-export.png" s="16375">c2dd3a272291a90f37e324f2d19febfa</f>
-                        <f n="zhujiemian_niyingshuzi.png" s="13757">020c31738b63695463520779cf0f1562</f>
+                        <f n="zhujiemian_niyingshuzi.png" s="18004">7aa3bd90cc5d1b4c69e66e3225a715d2</f>
                         <f n="zhujiemian_qipai1.png" s="16487">76c98e4b995c51b489dc228760cad88a</f>
                         <f n="zhujiemian_qipai2.png" s="23435">ad3b9be1b01183faf13b0757171d7f98</f>
                         <f n="zhujiemian_quanda.png" s="1626">5e149ecb505deb04af23dee910f1e498</f>
@@ -214,10 +209,10 @@
                         <f n="zhujiemian_rangpai3.png" s="15326">fde9d5b236a96b427028d4906925d585</f>
                         <f n="zhujiemian_rangqi1.png" s="16362">acb8cd3836795fd259a70a69693a5c1a</f>
                         <f n="zhujiemian_rangqi2.png" s="23557">13f2d19ea363e94872b254b9d218825a</f>
-                        <f n="zhujiemian_touxiangdi.png" s="1839">9539763ac243cb06217f108489dac2c7</f>
+                        <f n="zhujiemian_touxiangdi.png" s="1832">c3728ec3fb6fd64175fe36175e259e23</f>
                         <f n="zhujiemian_touxiangkuang.png" s="1635">8b442e02f5deb735284c6523130972c4</f>
                         <f n="zhujiemian_tuhaochang.png" s="2166">af789c8e4fc6864e2dbe923e2633edcb</f>
-                        <f n="zhujiemian_wanjiajinbi.png" s="5754">54baa56936dbd129b3a884b0dfd4e14c</f>
+                        <f n="zhujiemian_wanjiajinbi.png" s="8605">81d392c5a49c86e6d736e7812b547d1c</f>
                         <f n="zhujiemian_xiajiantou.png" s="4648">dd5428dda6e0a44d79712769962c21a6</f>
                         <f n="zhujiemian_xiajiantou2.png" s="8519">24e0298fc465b84fc611230e10fba1da</f>
                         <f n="zhujiemian_xiaozichang.png" s="2396">b2133bb2ff33bc26da1d8d61f3db6f14</f>
@@ -226,14 +221,15 @@
                         <f n="zhujiemian_xinshouchang.png" s="2313">295695078bbda540fea8f852763618dc</f>
                         <f n="zhujiemian_xinxi.png" s="6374">b65c7d43be840b9c91e3f8b864a2ce61</f>
                         <f n="zhujiemian_xinxi2.png" s="11529">93c2818478762f4342d3ad7a0e81b794</f>
-                        <f n="zhujiemian_zhezhao1.png" s="1802">1beeac6d0f3f8549d8f6c45ad37c6cff</f>
+                        <f n="zhujiemian_zhezhao1.png" s="1530">66fdb7a92f8f9f077c3c53ceb331f3b7</f>
                         <f n="zhujiemian_zhixianganniu.png" s="2808">efbb26217e4c522cfc77cd63b77d6ba0</f>
                         <f n="zhujiemian_zhuangjia.png" s="2497">0726e7e4b597557054da8bfbf0b2460b</f>
-                        <f n="zhujiemian_zongzhu.png" s="5184">24ef4e4e57bb7118f155dc144e19a9b8</f>
+                        <f n="zhujiemian_zongzhu.png" s="4058">2b67d84e3c418996299a7c2a35d1bff5</f>
                         <f n="zhujiemian_zongzhu1.png" s="4973">d60f59b00aa5ad1b7bc10d9afe136af1</f>
                         <f n="zhujiemian_zuigaoanniu.png" s="2525">0414e0c7ffb61a93b505cd034bec6a03</f>
                         <f n="zhujiemian_zuoxia.png" s="2749">dc5a2ec4e467a73cfca8e021132a7142</f>
                         <f n="zhujiemian_zuoxia2.png" s="2772">fef165f30aad0820364e4efdfb9a63ab</f>
+                        <f n="zhujiemian_zuoxiajinbian.png" s="15658">457c3e4a76ee355acaeed94ac5402c60</f>
                         <dir n="cardtype">
                             <f n="di_changtiaoditongyong.png" s="94281">bea14682f268355c0ee7aafb90cb8918</f>
                             <f n="shangcheng_paixingshuoming1.png" s="14869">030d2452d8a37339c7d5932696dc1363</f>
@@ -277,6 +273,13 @@
                                 <f n="face_default_8.png" s="3309">1a427708e257bc94039795e2e15dda2c</f>
                                 <f n="face_default_9.png" s="3351">ce704e5d5e2fd51c50da44d930224665</f>
                             </dir>
+                        </dir>
+                        <dir n="game_start">
+                            <f n="gs_btn_copy.png" s="5822">bdcdae5876ec58e96528cdbd7fa515c3</f>
+                            <f n="gs_btn_copy1.png" s="12803">be0f48f16940473583b5eebb938424d2</f>
+                            <f n="gs_btn_gs.png" s="6426">8f0f0b833788b8fa802516bc5a182430</f>
+                            <f n="gs_btn_gs1.png" s="13844">5691809cb6bb39f430a83bec77f56f6f</f>
+                            <f n="gs_wait.png" s="2137">b77ee2e27a9ead462cb0755c506daa04</f>
                         </dir>
                         <dir n="makeup">
                             <f n="haoyouchang_jindutiaochouma.png" s="6964">9e39d2b318d70e0887f36fd9a283b69f</f>
@@ -326,12 +329,12 @@
                     <f n="DailyTasksNote.csb" s="2436">0b0418a6baf510be0509d4437ba616fa</f>
                     <f n="EnterRoomLayer.csb" s="16020">09db1e683073ac913ad6afd59fbc9173</f>
                     <f n="EntryLayer.csb" s="8556">26551434eb9d1f387126a5b5454f7cad</f>
-                    <f n="FriendRoomLayer.csb" s="7536">cc16cdb34bdcb3743be860843ac23891</f>
+                    <f n="FriendRoomLayer.csb" s="7988">f063721722ba185019edf6c36f2632d0</f>
                     <f n="FullScreenBaseLayer.csb" s="1940">9fe322ec08117148b1cdef4455bfaf4c</f>
                     <f n="Game_rule.csb" s="4920">59c3c3f1bf09d85d42dc9807d51a8a36</f>
                     <f n="home_sp.plist" s="14881">79f6a5569f8da7044e216abacb812653</f>
                     <f n="home_sp.png" s="2152084">17dbe322039afa8083bba0034b1d751f</f>
-                    <f n="HomeLayer.csb" s="9872">1f7db47239e5a56a469ac5b5d778ef8a</f>
+                    <f n="HomeLayer.csb" s="10220">2eae704b77bc3b38a9f142b8d73c147d</f>
                     <f n="MailLayer.csb" s="3144">8dd00b8b8d9ae889ca8cecc798815e81</f>
                     <f n="MailNode.csb" s="2996">41612972b0eaa6cd825205656b13827f</f>
                     <f n="MissionItemNode.csb" s="4912">87dbee623f0344958885005f9b910aa7</f>
@@ -458,7 +461,7 @@
                 <f n="StartEffect.png" s="1972890">70846f208572b49f21b83518d1f54b51</f>
                 <dir n="girl">
                     <f n="renwu.atlas" s="1374">a26d9ba7e754e2027974b52eeb33c371</f>
-                    <f n="renwu.json" s="40276">34ff9b2babde5e8bab449c9fecd070ab</f>
+                    <f n="renwu.json" s="45485">a6ee9ddf9e272e024d9da7e217ac9bc9</f>
                     <f n="renwu.png" s="1212462">26915e31f5a8d235aa2e4c7375b1720d</f>
                 </dir>
             </dir>
@@ -484,15 +487,16 @@
             </dir>
             <dir n="login">
                 <f n="dating_beijing.png" s="495578">65c3269898afdfe2387cdf9a657403f9</f>
-                <f n="login_frame.csb" s="4544">e0838241b5d340fd858577702fda8e93</f>
+                <f n="dating_beijingmengbang.png" s="518836">ee05a01f6084967227d998a387ad95e7</f>
+                <f n="login_frame.csb" s="5388">71e1a9fca645c06fb2b51c2de9aa0ab5</f>
                 <f n="login_input.csb" s="12244">9c55931d1159672ed59820e7ebd63e55</f>
-                <f n="login_sp.plist" s="8174">b72a7a6e9e5a468db8f9b8dc33975fbc</f>
-                <f n="login_sp.png" s="1672551">d8a00a3904ddcec6ab1ba27e0c24244d</f>
+                <f n="login_sp.plist" s="8990">cf4687d5614782c24e16e93c752d9553</f>
+                <f n="login_sp.png" s="2197214">553165f068302497fe88323ef0c4e9b4</f>
             </dir>
         </dir>
         <dir n="src">
             <dir n="app">
-                <f n="MyApp.lua" s="3485">13baace84c7048954c70cc83e507b354</f>
+                <f n="MyApp.lua" s="3905">b09f396cc744ada9fee85a06ad73143c</f>
                 <dir n="commands">
                     <f n="LoginAccountCommand.lua" s="1562">dd7ea0a709f65e76a6f9e1916708b3f0</f>
                     <f n="LoginCoordinateCommand.lua" s="1826">073dd2815e0b3f6c9b70ae385b1535b9</f>
@@ -502,7 +506,7 @@
                 </dir>
                 <dir n="common">
                     <f n="ConstUtils.lua" s="604">445242bc63a003c4d24a90066aef1354</f>
-                    <f n="GameConfig.lua" s="1727">07581d7cf562d40da955f6d2c84c758b</f>
+                    <f n="GameConfig.lua" s="1978">5774c5c9a44cf16f72ab47b9bf3e905d</f>
                     <f n="NativeFunctions.lua" s="4243">de0ad540919c5e9910f9957ac8e01a83</f>
                     <f n="SoundUtils.lua" s="4042">c6b0cabb906ef62ce95a15ab7808cae7</f>
                     <f n="UIHelper.lua" s="3924">8042402c764669d5cb6bc9b11ab78f34</f>
@@ -510,13 +514,13 @@
                 <dir n="controllers">
                     <f n="ControllerBase.lua" s="3420">1e77aa5c060ddd2a6de3aa2b3702504a</f>
                     <f n="HomeController.lua" s="6964">5dc480bc6c348217121d6bd033ece533</f>
-                    <f n="LoginController.lua" s="2365">fdba771f0c1135a1a533fc2c9728bbd8</f>
-                    <f n="TexasPokerController.lua" s="21209">2441820e88e0d9b523bfccd963875756</f>
+                    <f n="LoginController.lua" s="2726">b577262e39a7a04d20d3f4ceb01f1665</f>
+                    <f n="TexasPokerController.lua" s="21307">6875daa975bfe00eb248bbc1a4d66c35</f>
                 </dir>
                 <dir n="handlers">
-                    <f n="AccountServerHandlers.lua" s="2392">e78b9a42454627abe71b43caaeecda23</f>
+                    <f n="AccountServerHandlers.lua" s="2599">46aacf6b2894769a980528f2ddcaf1b0</f>
                     <f n="CoordinateServerHandlers.lua" s="5038">b573455eed171947ff38280b19185919</f>
-                    <f n="GameCommonHandlers.lua" s="11030">deb342b6bf1a1d3f13b9a8fd69fceca6</f>
+                    <f n="GameCommonHandlers.lua" s="10977">f96c4a225a84c389c14a550270d6ac37</f>
                     <f n="SocketHandlers.lua" s="2420">cfc2a2ec88b455bb6bd3fa5531848f1c</f>
                     <f n="SwitchGameServerHandlers.lua" s="3513">d0e9cca2f7c03279b0d2fa94630e56a2</f>
                     <f n="TexasPokerHandlers.lua" s="5236">4ad28ff692ccabb9e544c2e008a8ff9e</f>
@@ -536,7 +540,7 @@
                 <dir n="net">
                     <f n="CMD.lua" s="4469">67f963ae506afb6bc07a2a92be2d8be9</f>
                     <f n="ErrorCode.lua" s="2467">34dbddc8efd0e827aa4c3f11c20d371a</f>
-                    <f n="GameSocket.lua" s="6361">bd487bbc72cebcc6d8d1f627ffb4b7c1</f>
+                    <f n="GameSocket.lua" s="6394">82b992f95b99477c31dd0eb37ef9f621</f>
                     <f n="PacketBuffer.lua" s="5097">e267b75b262d60d7a49aaff80dda6d21</f>
                     <f n="SocketManager.lua" s="4164">7186417aea180499cbce603d8ccb570f</f>
                     <f n="SocketTCP.lua" s="6891">ab5b573d4b87770acb9e04f5285cc86d</f>
@@ -549,7 +553,7 @@
                         <f n="BroadcastNode.lua" s="4256">1e7b30fbe8bd9537657ecd4fa16544e9</f>
                         <f n="LeftBaseLayer.lua" s="1008">e9e754ee9e7f2bd222d1a1a7645eb0e5</f>
                         <f n="PopBaseLayer.lua" s="1136">22dbd653302d30f9699e3b3f4ed4e5b1</f>
-                        <f n="ResItemWidget.lua" s="2649">286c4a966764112c6abf1e938a656d3f</f>
+                        <f n="ResItemWidget.lua" s="2654">d503e914feeefca6943cebf60abaee58</f>
                         <f n="SimpleBrowser.lua" s="3831">f06bf4b78cee4df9d82310eac55e8fa5</f>
                         <f n="WaitingNode.lua" s="846">4e971166d2ef14203b5d7ee3292e5ba0</f>
                     </dir>
@@ -569,35 +573,35 @@
                     <dir n="home">
                         <f n="ViewDailyTasks.lua" s="536">96da30dfca4708f5788e0ae04430b883</f>
                         <f n="ViewEmail.lua" s="4358">2db886181c1af88de0b33d8ff76aed99</f>
-                        <f n="ViewEntry.lua" s="2994">223bfa13614c8f0669fc95127d2142d2</f>
+                        <f n="ViewEntry.lua" s="2957">7922f540a86777925fae59e239544e23</f>
                         <f n="ViewFullScreenBase.lua" s="517">67db7fa8d8822663b86e28c81cd785be</f>
-                        <f n="ViewHome.lua" s="4564">27fe48c649ef9c604b2aa4340c3dd4f2</f>
+                        <f n="ViewHome.lua" s="4458">6a8b7d5d755c4bc8da633932e42f38dc</f>
                         <f n="ViewMail.lua" s="484">16a6830bae04284ea9aa5fa36b052aba</f>
                         <f n="ViewModifyPersonal.lua" s="4154">d523eba3053385faf5ce1b8e5b443773</f>
                         <f n="ViewPersonal.lua" s="3315">8382bdae65c6bc2e7690c0370da8c9b9</f>
-                        <f n="ViewRank.lua" s="5051">c094d3247ff3cb218bf718909149427b</f>
+                        <f n="ViewRank.lua" s="4397">ec302887215531f6355a43a6bf4eeb6c</f>
                         <f n="ViewService.lua" s="804">5879853d20ea20c0009a998dc17c9720</f>
                         <f n="ViewSetting.lua" s="3289">2cb9733e56511c549066ea19f1ca9430</f>
                         <f n="ViewShop.lua" s="6036">08a9ee03ba443464581a4349f0d4bdf5</f>
-                        <f n="ViewSignAward.lua" s="2596">697bfc9ad58d16d91c4369898fa35e5c</f>
+                        <f n="ViewSignAward.lua" s="2415">3974158a8e875c901370a8ea36ad23c1</f>
                         <f n="ViewSignLayer.lua" s="3332">d40999f45922d0080b28db84d21b4c5d</f>
                     </dir>
                     <dir n="login">
                         <f n="ViewBG.lua" s="153">9c007261b1bad0a81c7d82d3f8be70e6</f>
-                        <f n="ViewLogin.lua" s="6083">8afd8d4434d0262debbfb9b1ddd8cc4d</f>
+                        <f n="ViewLogin.lua" s="5913">e837de0486147d72ec3d2dbd257ffa9a</f>
                     </dir>
                     <dir n="texaspoker">
-                        <f n="ViewActions.lua" s="2806">f7ae14776153f860af72816a8baa86c7</f>
+                        <f n="ViewActions.lua" s="2839">8cbfa6c6fb60917bdec9787d43d7036e</f>
                         <f n="ViewAddBet.lua" s="5428">e98fce31c851151fa7a33c1269b1ed16</f>
-                        <f n="ViewCard.lua" s="1637">127ee09bf6166f09061e416c47513a77</f>
+                        <f n="ViewCard.lua" s="1640">1a6eaaac9ba1e081d399dd3968a744fc</f>
                         <f n="ViewCardType.lua" s="533">4ac75fda0706053b1124d5c22fb9f9fa</f>
                         <f n="ViewChat.lua" s="17317">f2e6ee1c0f20584c5fea2b01927b43a7</f>
                         <f n="ViewGameMission.lua" s="3221">66688f8159cd6ab31344c045e05526df</f>
                         <f n="ViewMakeupBet.lua" s="531">d066910416f534323ef650e0bf0103a8</f>
                         <f n="ViewMenu.lua" s="1646">e6331a435648e350d58f4123c9691804</f>
-                        <f n="ViewPlayer.lua" s="16203">4564200dadaed03f98b6a357f21a89ed</f>
+                        <f n="ViewPlayer.lua" s="16619">cf577534baeb26779e2cd01f82c251d0</f>
                         <f n="ViewPlayerInfo.lua" s="2677">b5310403f09fbec90b653036edb1a1a4</f>
-                        <f n="ViewRoom.lua" s="18211">8d62d0f6585a5984012926dc969c930d</f>
+                        <f n="ViewRoom.lua" s="19433">16e8bd15bdc6dcee6765b9deacf31755</f>
                     </dir>
                 </dir>
             </dir>
@@ -606,7 +610,7 @@
                     <f n="AppBase.lua" s="2493">cd08a903b3a72287a634bd2af347a051</f>
                     <f n="init.lua" s="130">fe45aed672f9d2845ee343f00121306a</f>
                     <f n="ModelBase.lua" s="2388">1153b9e61d68c133f48a0f4184d85205</f>
-                    <f n="ViewBase.lua" s="1285">520b130d59b29e23e5e4156be18eda85</f>
+                    <f n="ViewBase.lua" s="1233">4ee5afc798696f39607da54359abec96</f>
                 </dir>
             </dir>
         </dir>
