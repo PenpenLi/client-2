@@ -17,14 +17,36 @@
             <FileData Type="MarkedSubImage" Path="login/dating_beijing.png" Plist="login/login_sp.plist" />
             <BlendFunc Src="770" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="bg0" ActionTag="1813367231" Tag="374" IconVisible="True" LeftMargin="375.0000" RightMargin="375.0000" TopMargin="713.9996" BottomMargin="620.0004" ctype="SingleNodeObjectData">
+          <AbstractNodeData Name="bg0" ActionTag="1813367231" Tag="374" IconVisible="True" LeftMargin="375.0000" RightMargin="375.0000" TopMargin="694.0000" BottomMargin="640.0000" ctype="SingleNodeObjectData">
             <Size X="0.0000" Y="0.0000" />
             <AnchorPoint />
-            <Position X="375.0000" Y="620.0004" />
+            <Position X="375.0000" Y="640.0000" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.5000" Y="0.4648" />
+            <PrePosition X="0.5000" Y="0.4798" />
             <PreSize X="0.0000" Y="0.0000" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="dating_beijingmengbang_1" ActionTag="1503531313" Tag="82" IconVisible="False" RightMargin="-1.0000" ctype="SpriteObjectData">
+            <Size X="751.0000" Y="1334.0000" />
+            <AnchorPoint />
+            <Position />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition />
+            <PreSize X="1.0013" Y="1.0000" />
+            <FileData Type="MarkedSubImage" Path="login/dating_beijingmengbang.png" Plist="login/login_sp.plist" />
+            <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="denglu_dikuang_8" ActionTag="1699485012" Tag="213" IconVisible="False" RightMargin="-3.0000" TopMargin="1100.0000" ctype="SpriteObjectData">
+            <Size X="753.0000" Y="234.0000" />
+            <AnchorPoint />
+            <Position />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition />
+            <PreSize X="1.0040" Y="0.1754" />
+            <FileData Type="MarkedSubImage" Path="login/denglu_dikuang.png" Plist="login/login_sp.plist" />
+            <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="bg1" ActionTag="84379710" Tag="119" IconVisible="False" LeftMargin="1.3820" RightMargin="-1.3820" TopMargin="1156.8912" BottomMargin="159.1088" ctype="SpriteObjectData">
             <Size X="750.0000" Y="18.0000" />

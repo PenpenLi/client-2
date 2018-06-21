@@ -33,6 +33,7 @@
             </Folder>
             <Project Name="AlertOKCancelLayer.csd" Type="Layer" />
             <Project Name="AlertOKLayer.csd" Type="Layer" />
+            <Project Name="AlertScriptError.csd" Type="Layer" />
             <Project Name="BrowserLayer.csd" Type="Layer" />
             <Project Name="LeftBaseLayer.csd" Type="Layer" />
             <Project Name="PopBaseLayer.csd" Type="Layer" />
@@ -483,6 +484,7 @@
         </Folder>
         <Folder Name="login">
           <Image Name="dating_beijing.png" />
+          <Image Name="dating_beijingmengbang.png" />
           <Image Name="denglu_chongzhimima.png" />
           <Image Name="denglu_chongzhimimadadi.png" />
           <Image Name="denglu_denglanniu11.png" />
@@ -492,6 +494,7 @@
           <Image Name="denglu_dengludi.png" />
           <Image Name="denglu_dengluzhucebiaoti.png" />
           <Image Name="denglu_dengluzhucedi.png" />
+          <Image Name="denglu_dikuang.png" />
           <Image Name="denglu_huanyingdi.png" />
           <Image Name="denglu_jinggao.png" />
           <Image Name="denglu_logo.png" />
@@ -514,14 +517,6 @@
           <Image Name="tixian_fasong1.png" />
           <Image Name="tixian_fasong2.png" />
           <Image Name="tixian_jindutiao.png" />
-        </Folder>
-        <Folder Name="splash">
-          <Image Name="denglu_di.png" />
-          <Image Name="denglu_logo.png" />
-          <Fnt Name="denglu_zhengzaidengluzhong-export.fnt" />
-          <Image Name="haoyouchang_jindutiaokong.png" />
-          <Image Name="haoyouchang_jindutiaoman.png" />
-          <Project Name="loader.csd" Type="Layer" />
         </Folder>
       </RootFolder>
     </Group>

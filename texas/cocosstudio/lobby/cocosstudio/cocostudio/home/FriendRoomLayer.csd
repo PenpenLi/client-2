@@ -112,10 +112,21 @@
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="ListView_3" ActionTag="1920662319" Tag="65" IconVisible="False" LeftMargin="30.0741" RightMargin="29.9259" TopMargin="793.5287" BottomMargin="140.4712" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" ScrollDirectionType="0" DirectionType="Vertical" ctype="ListViewObjectData">
+          <AbstractNodeData Name="place_holder" ActionTag="1479355455" Tag="35" IconVisible="False" LeftMargin="142.9276" RightMargin="156.0724" TopMargin="924.1089" BottomMargin="319.8911" ctype="SpriteObjectData">
+            <Size X="451.0000" Y="90.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="368.4276" Y="364.8911" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.4912" Y="0.2735" />
+            <PreSize X="0.6013" Y="0.0675" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/haoyouchang_meiykaishiduiju.png" Plist="cocostudio/home/home_sp.plist" />
+            <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="ListView_3" CanEdit="False" ActionTag="1920662319" Tag="65" IconVisible="False" LeftMargin="30.0741" RightMargin="29.9259" TopMargin="793.5288" BottomMargin="140.4712" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ScrollDirectionType="0" DirectionType="Vertical" ctype="ListViewObjectData">
             <Size X="690.0000" Y="400.0000" />
             <Children>
-              <AbstractNodeData Name="bugger_remove" ActionTag="-426944521" Tag="94" IconVisible="False" RightMargin="689.0000" BottomMargin="399.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
+              <AbstractNodeData Name="bugger_remove" ActionTag="-426944521" Tag="94" IconVisible="False" RightMargin="689.0000" BottomMargin="399.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
                 <Size X="1.0000" Y="1.0000" />
                 <AnchorPoint />
                 <Position Y="399.0000" />

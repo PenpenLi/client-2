@@ -17,14 +17,25 @@
             <FileData Type="MarkedSubImage" Path="cocostudio/home/image/dating_beijing.png" Plist="cocostudio/home/home_sp.plist" />
             <BlendFunc Src="770" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="bg0" ActionTag="1931251423" Tag="376" IconVisible="True" LeftMargin="375.0000" RightMargin="375.0000" TopMargin="667.0000" BottomMargin="667.0000" ctype="SingleNodeObjectData">
+          <AbstractNodeData Name="bg0" ActionTag="1931251423" Tag="376" IconVisible="True" LeftMargin="375.0000" RightMargin="375.0000" TopMargin="694.0000" BottomMargin="640.0000" ctype="SingleNodeObjectData">
             <Size X="0.0000" Y="0.0000" />
             <AnchorPoint />
-            <Position X="375.0000" Y="667.0000" />
+            <Position X="375.0000" Y="640.0000" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.5000" Y="0.5000" />
+            <PrePosition X="0.5000" Y="0.4798" />
             <PreSize X="0.0000" Y="0.0000" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="dating_beijingmengbang_1" ActionTag="1604151668" Tag="44" IconVisible="False" ctype="SpriteObjectData">
+            <Size X="750.0000" Y="1334.0000" />
+            <AnchorPoint />
+            <Position />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition />
+            <PreSize X="1.0000" Y="1.0000" />
+            <FileData Type="MarkedSubImage" Path="login/dating_beijingmengbang.png" Plist="login/login_sp.plist" />
+            <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="bottom" ActionTag="-1533762873" Tag="188" IconVisible="True" RightMargin="750.0000" TopMargin="1334.0000" ctype="SingleNodeObjectData">
             <Size X="0.0000" Y="0.0000" />

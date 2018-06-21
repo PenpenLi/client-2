@@ -50,6 +50,13 @@
                 <Image Name="zhujiemiantanchuang_xiaoxi1.png" />
                 <Image Name="zhujiemiantanchuang_xiaoxi2.png" />
               </Folder>
+              <Folder Name="game_start">
+                <Image Name="gs_btn_copy.png" />
+                <Image Name="gs_btn_copy1.png" />
+                <Image Name="gs_btn_gs.png" />
+                <Image Name="gs_btn_gs1.png" />
+                <Image Name="gs_wait.png" />
+              </Folder>
               <Folder Name="makeup">
                 <Image Name="haoyouchang_jindutiaochouma.png" />
                 <Image Name="haoyouchang_jindutiaokong.png" />
@@ -212,6 +219,7 @@
               <Image Name="zhujiemian_zuigaoanniu.png" />
               <Image Name="zhujiemian_zuoxia.png" />
               <Image Name="zhujiemian_zuoxia2.png" />
+              <Image Name="zhujiemian_zuoxiajinbian.png" />
             </Folder>
             <Project Name="AddBetLayer.csd" Type="Layer" />
             <Project Name="CardTypeLayer.csd" Type="Layer" />

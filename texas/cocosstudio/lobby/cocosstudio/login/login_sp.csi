@@ -30,8 +30,10 @@
       <FilePathData Path="login/tixian_fasong1.png" />
       <FilePathData Path="login/tixian_fasong2.png" />
       <FilePathData Path="login/tixian_jindutiao.png" />
+      <FilePathData Path="login/dating_beijingmengbang.png" />
       <FilePathData Path="login/dating_beijing.png" />
+      <FilePathData Path="login/denglu_dikuang.png" />
     </ImageFiles>
-    <MaxSize Width="2048" Height="1024" />
+    <MaxSize Width="2048" Height="2048" />
   </Content>
 </PlistInfoProjectFile>
