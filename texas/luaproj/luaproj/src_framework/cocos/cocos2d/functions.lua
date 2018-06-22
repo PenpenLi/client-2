@@ -34,11 +34,7 @@ function printLog(tag, fmt, ...)
     }
     if log_filter[tag] == 1 and log_filter.enable == 1 then
         print(table.concat(t))
-		io.writefile(pathWritable.."runlog.log", "[" ..os.date("%Y-%m-%d %H:%M:%S", os.time()) .. "]" .. table.concat(t) .. "\r\n", "a");
-
-    elseif not log_filter.enable then
-        print(table.concat(t))
-		io.writefile(pathWritable.."runlog.log", "[" ..os.date("%Y-%m-%d %H:%M:%S", os.time()) .. "]" .. table.concat(t) .. "\r\n", "a");
+		io.writefile(pathWritable.."runlog"..os.date("%Y-%m-%d", os.time())..".log", "[" ..os.date("%Y-%m-%d %H:%M:%S", os.time()) .. "]" .. table.concat(t) .. "\r\n", "a");
     end
 end
 
