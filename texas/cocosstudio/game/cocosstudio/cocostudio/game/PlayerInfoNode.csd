@@ -83,70 +83,40 @@
             <PreSize X="0.0000" Y="0.0000" />
             <FileData Type="Normal" Path="cocostudio/game/image/player/tanchuan_wanjiaxinxineirongi.png" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Image_Unit" ActionTag="-2006467344" Tag="102" IconVisible="False" LeftMargin="196.0709" RightMargin="-239.0709" TopMargin="23.3986" BottomMargin="-63.3986" LeftEage="14" RightEage="14" TopEage="13" BottomEage="13" Scale9OriginX="14" Scale9OriginY="13" Scale9Width="15" Scale9Height="14" ctype="ImageViewObjectData">
-            <Size X="43.0000" Y="40.0000" />
+          <AbstractNodeData Name="AtlasLabel_BetIn" ActionTag="306893557" Tag="333" IconVisible="False" LeftMargin="-198.3068" RightMargin="72.3068" TopMargin="15.9138" BottomMargin="-60.9138" LabelText="15.1%" ctype="TextBMFontObjectData">
+            <Size X="126.0000" Y="45.0000" />
             <AnchorPoint ScaleY="0.5000" />
-            <Position X="196.0709" Y="-43.3986" />
+            <Position X="-198.3068" Y="-38.4138" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />
-            <FileData Type="Normal" Path="cocostudio/game/image/player/shangcheng_wanjiaxinxishuziunit.png" Plist="" />
+            <LabelBMFontFile_CNB Type="Normal" Path="cocostudio/game/image/shangcheng_wanjiaxinxishuzi-export.fnt" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Image_Unit" ActionTag="-893871609" Tag="104" IconVisible="False" LeftMargin="-144.0355" RightMargin="101.0355" TopMargin="23.3971" BottomMargin="-63.3971" LeftEage="14" RightEage="14" TopEage="13" BottomEage="13" Scale9OriginX="14" Scale9OriginY="13" Scale9Width="15" Scale9Height="14" ctype="ImageViewObjectData">
-            <Size X="43.0000" Y="40.0000" />
-            <AnchorPoint ScaleX="0.5210" ScaleY="0.4558" />
-            <Position X="-121.6325" Y="-45.1651" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
-            <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition />
-            <PreSize X="0.0000" Y="0.0000" />
-            <FileData Type="Normal" Path="cocostudio/game/image/player/shangcheng_wanjiaxinxishuziunit.png" Plist="" />
-          </AbstractNodeData>
-          <AbstractNodeData Name="Image_Unit" ActionTag="1039840160" Tag="106" IconVisible="False" LeftMargin="196.0709" RightMargin="-239.0709" TopMargin="-26.2815" BottomMargin="-13.7185" LeftEage="14" RightEage="14" TopEage="13" BottomEage="13" Scale9OriginX="14" Scale9OriginY="13" Scale9Width="15" Scale9Height="14" ctype="ImageViewObjectData">
-            <Size X="43.0000" Y="40.0000" />
+          <AbstractNodeData Name="AtlasLabel_Win" ActionTag="1944314607" Tag="336" IconVisible="False" LeftMargin="137.2092" RightMargin="-270.2092" TopMargin="-35.7861" BottomMargin="-9.2139" LabelText="15.2%" ctype="TextBMFontObjectData">
+            <Size X="133.0000" Y="45.0000" />
             <AnchorPoint ScaleY="0.5000" />
-            <Position X="196.0709" Y="6.2815" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
-            <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition />
-            <PreSize X="0.0000" Y="0.0000" />
-            <FileData Type="Normal" Path="cocostudio/game/image/player/shangcheng_wanjiaxinxishuziunit.png" Plist="" />
-          </AbstractNodeData>
-          <AbstractNodeData Name="BitmapFontLabel_1" ActionTag="306893557" Tag="333" IconVisible="False" LeftMargin="-198.3068" RightMargin="149.3068" TopMargin="15.9138" BottomMargin="-60.9138" LabelText="15" ctype="TextBMFontObjectData">
-            <Size X="49.0000" Y="45.0000" />
-            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="-173.8068" Y="-38.4138" />
+            <Position X="137.2092" Y="13.2861" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />
             <LabelBMFontFile_CNB Type="Normal" Path="cocostudio/game/image/shangcheng_wanjiaxinxishuzi-export.fnt" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="BitmapFontLabel_2" ActionTag="1944314607" Tag="336" IconVisible="False" LeftMargin="139.2160" RightMargin="-188.2160" TopMargin="-35.7861" BottomMargin="-9.2139" LabelText="15" ctype="TextBMFontObjectData">
-            <Size X="49.0000" Y="45.0000" />
-            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="163.7160" Y="13.2861" />
+          <AbstractNodeData Name="AtlasLabel_Total" ActionTag="-2134714806" Tag="337" IconVisible="False" LeftMargin="-198.3068" RightMargin="113.3068" TopMargin="-35.7861" BottomMargin="-9.2139" LabelText="253" ctype="TextBMFontObjectData">
+            <Size X="85.0000" Y="45.0000" />
+            <AnchorPoint ScaleY="0.5000" />
+            <Position X="-198.3068" Y="13.2861" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />
             <LabelBMFontFile_CNB Type="Normal" Path="cocostudio/game/image/shangcheng_wanjiaxinxishuzi-export.fnt" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="BitmapFontLabel_3" ActionTag="-2134714806" Tag="337" IconVisible="False" LeftMargin="-198.3068" RightMargin="149.3068" TopMargin="-35.7861" BottomMargin="-9.2139" LabelText="15" ctype="TextBMFontObjectData">
-            <Size X="49.0000" Y="45.0000" />
-            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="-173.8068" Y="13.2861" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
-            <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition />
-            <PreSize X="0.0000" Y="0.0000" />
-            <LabelBMFontFile_CNB Type="Normal" Path="cocostudio/game/image/shangcheng_wanjiaxinxishuzi-export.fnt" Plist="" />
-          </AbstractNodeData>
-          <AbstractNodeData Name="BitmapFontLabel_4" ActionTag="1583465565" Tag="338" IconVisible="False" LeftMargin="139.2160" RightMargin="-188.2160" TopMargin="15.9159" BottomMargin="-60.9159" LabelText="15" ctype="TextBMFontObjectData">
-            <Size X="49.0000" Y="45.0000" />
-            <AnchorPoint ScaleX="0.5316" ScaleY="0.4330" />
-            <Position X="165.2644" Y="-41.4309" />
+          <AbstractNodeData Name="AtlasLabel_BetOut" ActionTag="1583465565" Tag="338" IconVisible="False" LeftMargin="137.2092" RightMargin="-263.2092" TopMargin="15.9159" BottomMargin="-60.9159" LabelText="15.1%" ctype="TextBMFontObjectData">
+            <Size X="126.0000" Y="45.0000" />
+            <AnchorPoint ScaleY="0.4330" />
+            <Position X="137.2092" Y="-41.4309" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />

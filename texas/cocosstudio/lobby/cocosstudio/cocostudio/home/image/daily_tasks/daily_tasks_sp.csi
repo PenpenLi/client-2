@@ -1,6 +1,6 @@
 <PlistInfoProjectFile>
   <PropertyGroup Name="daily_tasks_sp" Type="Plist" ID="9c5c797b-cf41-4ddc-9180-840bc35f7873" Version="3.10.0.0" />
-  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
     <ImageFiles>
       <FilePathData Path="cocostudio/home/image/daily_tasks/daily_title.png" />
       <FilePathData Path="cocostudio/home/image/daily_tasks/dailyz_note_bg.png" />

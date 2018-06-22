@@ -1,6 +1,6 @@
 <PlistInfoProjectFile>
   <PropertyGroup Name="login_sp" Type="Plist" ID="a5db62bb-1783-4673-ac9f-8a7e86315b4b" Version="3.10.0.0" />
-  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="True" ctype="PlistInfoData">
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="False" AllowTrim="True" ctype="PlistInfoData">
     <ImageFiles>
       <FilePathData Path="login/denglu_chongzhimima.png" />
       <FilePathData Path="login/denglu_chongzhimimadadi.png" />

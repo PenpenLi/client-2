@@ -1,6 +1,6 @@
 <PlistInfoProjectFile>
   <PropertyGroup Name="home_sp" Type="Plist" ID="813cec3d-85ac-43c7-801f-6158c4c9cedf" Version="3.10.0.0" />
-  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
     <ImageFiles>
       <FilePathData Path="cocostudio/home/image/dating_add1.png" />
       <FilePathData Path="cocostudio/home/image/dating_add2.png" />

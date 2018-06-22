@@ -27,6 +27,7 @@
                   <Image Name="face_default_19.png" />
                   <Image Name="face_default_2.png" />
                   <Image Name="face_default_20.png" />
+                  <Image Name="face_default_21.png" />
                   <Image Name="face_default_22.png" />
                   <Image Name="face_default_23.png" />
                   <Image Name="face_default_3.png" />
@@ -113,6 +114,7 @@
               <Image Name="card_type_7.png" />
               <Image Name="card_type_8.png" />
               <Image Name="card_type_9.png" />
+              <Image Name="di_changtiaoditongyong.png" />
               <Image Name="game_deal_card.png" />
               <Image Name="game_state_0.png" />
               <Image Name="game_state_1.png" />
@@ -125,11 +127,19 @@
               <Image Name="game_state_bg.png" />
               <Fnt Name="haoyouchang_haoyoufangxuanzedishuzi-export.fnt" />
               <Image Name="head_1.png" />
+              <Image Name="kaishiyouxi_dengdaikaiju.png" />
+              <Image Name="kaishiyouxi_fuzhifangjianhao1.png" />
+              <Image Name="kaishiyouxi_fuzhifangjianhao2.png" />
+              <Image Name="kaishiyouxi_kaishiyouxi1.png" />
+              <Image Name="kaishiyouxi_kaishiyouxi2.png" />
               <Image Name="logo.png" />
               <Image Name="meirirenwu_jianglijinbi.png" />
               <Image Name="meirirenwu_shuzi.png" />
               <Image Name="my_gold_wan.png" />
               <Image Name="my_gold_yi.png" />
+              <Image Name="paixiao.png" />
+              <Image Name="paixiao1.png" />
+              <Image Name="paixiao2.png" />
               <Image Name="result_number_wan.png" />
               <Image Name="result_number_yi.png" />
               <Image Name="shangcheng_1huanzhuoniu.png" />
@@ -137,7 +147,15 @@
               <Image Name="shangcheng_1shezhioniu.png" />
               <Image Name="shangcheng_1tuichuanniu.png" />
               <Image Name="shangcheng_1zhanqianniu.png" />
-              <Image Name="shangcheng_paixingshuomingdi.png" />
+              <Image Name="shangcheng_mangzhu.png" />
+              <Image Name="shangcheng_shangjuhuigu.png" />
+              <Image Name="shangcheng_shangjuhuigu1.png" />
+              <Image Name="shangcheng_shangjuhuigu2.png" />
+              <Image Name="shangcheng_shangjuhuiguxian.png" />
+              <Image Name="shangcheng_shishizhuangkuang1.png" />
+              <Image Name="shangcheng_shishizhuangkuang2.png" />
+              <Image Name="shangcheng_shishizhuangkuangwenzi.png" />
+              <Image Name="shangcheng_wanjiaxinxishuzi.png" />
               <Fnt Name="shangcheng_wanjiaxinxishuzi-export.fnt" />
               <Image Name="shangcheng_wanjiaxinxishuzi-export.png" />
               <Image Name="shezhi_yinyueanniu1.png" />
@@ -148,6 +166,7 @@
               <Image Name="tanchuan_shezhidi.png" />
               <Image Name="tanchuan_xialadi.png" />
               <Image Name="win.png" />
+              <Image Name="zhujiemian_allin.png" />
               <Image Name="zhujiemian_baixian.png" />
               <Image Name="zhujiemian_caidan.png" />
               <Image Name="zhujiemian_caidan2.png" />
@@ -159,40 +178,66 @@
               <Image Name="zhujiemian_dichi12.png" />
               <Image Name="zhujiemian_dichi13.png" />
               <Image Name="zhujiemian_dichi23.png" />
+              <Image Name="zhujiemian_dichidi.png" />
+              <Image Name="zhujiemian_dichishangfangshuzi.png" />
               <Fnt Name="zhujiemian_dichishangfangshuzi-export.fnt" />
               <Image Name="zhujiemian_dichishuzi.png" />
+              <Fnt Name="zhujiemian_dichishuzi-export.fnt" />
               <Image Name="zhujiemian_dichiyuan.png" />
+              <Image Name="zhujiemian_duizi.png" />
+              <Image Name="zhujiemian_duizixianshidi.png" />
+              <Image Name="zhujiemian_dxiazhuwenzi1.png" />
+              <Image Name="zhujiemian_gaopai.png" />
+              <Image Name="zhujiemian_gaopaiduizitonghua.png" />
+              <Fnt Name="zhujiemian_gaopaiduizitonghua-export.fnt" />
               <Image Name="zhujiemian_genzhu.png" />
+              <Image Name="zhujiemian_genzhu2.png" />
               <Image Name="zhujiemian_genzhuanniu1.png" />
               <Image Name="zhujiemian_genzhuanniu2.png" />
+              <Image Name="zhujiemian_genzhuanniua21.png" />
+              <Image Name="zhujiemian_genzhuanniua22.png" />
               <Image Name="zhujiemian_genzhushuzi.png" />
               <Image Name="zhujiemian_gouwuche1.png" />
               <Image Name="zhujiemian_gouwuche2.png" />
-              <Image Name="zhujiemian_guizuchang.png" />
+              <Image Name="zhujiemian_guohuoqi1.png" />
+              <Image Name="zhujiemian_guohuoqi2.png" />
               <Image Name="zhujiemian_hongdian.png" />
-              <Image Name="zhujiemian_huangjiachang.png" />
+              <Image Name="zhujiemian_huidaozuowei1.png" />
+              <Image Name="zhujiemian_huidaozuowei2.png" />
+              <Image Name="zhujiemian_hulu.png" />
+              <Image Name="zhujiemian_jiazhu.png" />
               <Image Name="zhujiemian_jiazhu1.png" />
+              <Image Name="zhujiemian_jiazhu1111.png" />
               <Image Name="zhujiemian_jiazhu2.png" />
               <Image Name="zhujiemian_jiazhu3.png" />
               <Image Name="zhujiemian_jiazhudi1.png" />
               <Image Name="zhujiemian_jiazhulatiao.png" />
+              <Image Name="zhujiemian_jieshushiliangpai.png" />
+              <Image Name="zhujiemian_jieshushiliangpai222.png" />
               <Image Name="zhujiemian_jilv.png" />
               <Image Name="zhujiemian_jilv2.png" />
-              <Image Name="zhujiemian_laobangchang.png" />
-              <Image Name="zhujiemian_mangzhu1.png" />
+              <Image Name="zhujiemian_liangpai1.png" />
+              <Image Name="zhujiemian_manzhushuzi.png" />
               <Fnt Name="zhujiemian_manzhushuzi-export.fnt" />
               <Image Name="zhujiemian_niyingshuzi.png" />
               <Fnt Name="zhujiemian_niyingshuzi-export.fnt" />
+              <Image Name="zhujiemian_paijuhaizaijin.png" />
               <Image Name="zhujiemian_qipai1.png" />
               <Image Name="zhujiemian_qipai2.png" />
+              <Image Name="zhujiemian_qipaianniu21.png" />
+              <Image Name="zhujiemian_qipaianniu22.png" />
               <Image Name="zhujiemian_quanda.png" />
+              <Image Name="zhujiemian_quanxia.png" />
               <Image Name="zhujiemian_quanxia1.png" />
               <Image Name="zhujiemian_quanxia2.png" />
               <Image Name="zhujiemian_quanxiao.png" />
               <Image Name="zhujiemian_quanxiazhu1.png" />
+              <Image Name="zhujiemian_quanxiazhu111111.png" />
               <Image Name="zhujiemian_quanxiazhu2.png" />
+              <Image Name="zhujiemian_quanxiazhu22222.png" />
               <Image Name="zhujiemian_queding1.png" />
               <Image Name="zhujiemian_queding2.png" />
+              <Image Name="zhujiemian_rangpai1.png" />
               <Image Name="zhujiemian_rangpai11.png" />
               <Image Name="zhujiemian_rangpai12.png" />
               <Image Name="zhujiemian_rangpai2.png" />
@@ -201,25 +246,29 @@
               <Image Name="zhujiemian_rangqi2.png" />
               <Image Name="zhujiemian_touxiangdi.png" />
               <Image Name="zhujiemian_touxiangkuang.png" />
-              <Image Name="zhujiemian_tuhaochang.png" />
+              <Image Name="zhujiemian_tuoguanzhong.png" />
               <Image Name="zhujiemian_wanjiajinbi.png" />
+              <Fnt Name="zhujiemian_wanjiajinbi-export.fnt" />
               <Image Name="zhujiemian_xiajiantou.png" />
               <Image Name="zhujiemian_xiajiantou2.png" />
-              <Image Name="zhujiemian_xiaozichang.png" />
               <Image Name="zhujiemian_xiazhu1.png" />
               <Image Name="zhujiemian_xiazhu2.png" />
-              <Image Name="zhujiemian_xinshouchang.png" />
+              <Image Name="zhujiemian_xiazhuhui.png" />
               <Image Name="zhujiemian_xinxi.png" />
               <Image Name="zhujiemian_xinxi2.png" />
+              <Image Name="zhujiemian_yilvgenzhu1.png" />
+              <Image Name="zhujiemian_yilvgenzhu2.png" />
               <Image Name="zhujiemian_zhezhao1.png" />
               <Image Name="zhujiemian_zhixianganniu.png" />
               <Image Name="zhujiemian_zhuangjia.png" />
               <Image Name="zhujiemian_zongzhu.png" />
               <Image Name="zhujiemian_zongzhu1.png" />
+              <Image Name="zhujiemian_zongzhu2.png" />
               <Image Name="zhujiemian_zuigaoanniu.png" />
               <Image Name="zhujiemian_zuoxia.png" />
               <Image Name="zhujiemian_zuoxia2.png" />
               <Image Name="zhujiemian_zuoxiajinbian.png" />
+              <Image Name="zhujiemianjiazhu22222.png" />
             </Folder>
             <Project Name="AddBetLayer.csd" Type="Layer" />
             <Project Name="CardTypeLayer.csd" Type="Layer" />
@@ -235,6 +284,8 @@
             <Project Name="PlayerNode.csd" Type="Node" />
             <Project Name="ResItemNode.csd" Type="Node" />
             <Project Name="SettingNode.csd" Type="Node" />
+            <Project Name="GameRecord.csd" Type="Layer" />
+            <Project Name="GameRecordItem.csd" Type="Layer" />
           </Folder>
         </Folder>
       </RootFolder>

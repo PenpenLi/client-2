@@ -24,7 +24,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="-0.3749" Y="0.4616" />
             <PreSize X="0.7107" Y="0.8823" />
-            <FileData Type="Normal" Path="cocostudio/game/image/shangcheng_paixingshuomingdi.png" Plist="" />
+            <FileData Type="Default" Path="Default/ImageFile.png" Plist="" />
           </AbstractNodeData>
         </Children>
       </ObjectData>

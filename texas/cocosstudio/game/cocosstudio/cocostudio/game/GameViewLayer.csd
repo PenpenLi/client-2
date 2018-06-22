@@ -9,7 +9,7 @@
           <AbstractNodeData Name="bg" ActionTag="-1999226230" Tag="165" IconVisible="True" RightMargin="750.0000" TopMargin="1334.0000" ctype="SingleNodeObjectData">
             <Size X="0.0000" Y="0.0000" />
             <Children>
-              <AbstractNodeData Name="Image_BG" ActionTag="2038695122" Tag="13" IconVisible="False" RightMargin="-750.0000" TopMargin="-1334.0000" LeftEage="247" RightEage="247" TopEage="440" BottomEage="440" Scale9OriginX="247" Scale9OriginY="440" Scale9Width="256" Scale9Height="454" ctype="ImageViewObjectData">
+              <AbstractNodeData Name="Image_BG" CanEdit="False" ActionTag="2038695122" Tag="13" IconVisible="False" RightMargin="-750.0000" TopMargin="-1334.0000" LeftEage="247" RightEage="247" TopEage="440" BottomEage="440" Scale9OriginX="247" Scale9OriginY="440" Scale9Width="256" Scale9Height="454" ctype="ImageViewObjectData">
                 <Size X="750.0000" Y="1334.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="375.0000" Y="667.0000" />
@@ -57,10 +57,10 @@
             <PreSize X="0.0440" Y="0.0240" />
             <LabelBMFontFile_CNB Type="Normal" Path="cocostudio/game/image/zhujiemian_dichishangfangshuzi-export.fnt" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Players" CanEdit="False" Visible="False" ActionTag="-1044082081" Tag="167" IconVisible="True" RightMargin="750.0000" TopMargin="1334.0000" ctype="SingleNodeObjectData">
+          <AbstractNodeData Name="Players" CanEdit="False" ActionTag="-1044082081" Tag="167" IconVisible="True" RightMargin="750.0000" TopMargin="1334.0000" ctype="SingleNodeObjectData">
             <Size X="0.0000" Y="0.0000" />
             <Children>
-              <AbstractNodeData Name="P1" CanEdit="False" ActionTag="-2040767150" Tag="150" IconVisible="True" LeftMargin="373.6730" RightMargin="-373.6730" TopMargin="-267.5462" BottomMargin="267.5462" StretchWidthEnable="False" StretchHeightEnable="False" InnerActionSpeed="1.0000" CustomSizeEnabled="False" ctype="ProjectNodeObjectData">
+              <AbstractNodeData Name="P1" ActionTag="-2040767150" Tag="150" IconVisible="True" LeftMargin="373.6730" RightMargin="-373.6730" TopMargin="-267.5462" BottomMargin="267.5462" StretchWidthEnable="False" StretchHeightEnable="False" InnerActionSpeed="1.0000" CustomSizeEnabled="False" ctype="ProjectNodeObjectData">
                 <Size X="0.0000" Y="0.0000" />
                 <AnchorPoint />
                 <Position X="373.6730" Y="267.5462" />
@@ -333,8 +333,8 @@
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="Image_CardType" CanEdit="False" ActionTag="1622744013" VisibleForFrame="False" Tag="32" IconVisible="False" LeftMargin="316.5955" RightMargin="-434.5955" TopMargin="-28.0361" BottomMargin="3.0361" LeftEage="38" RightEage="38" TopEage="8" BottomEage="8" Scale9OriginX="38" Scale9OriginY="8" Scale9Width="38" Scale9Height="17" ctype="ImageViewObjectData">
-                <Size X="118.0000" Y="25.0000" />
+              <AbstractNodeData Name="Image_CardType" ActionTag="1622744013" Tag="32" IconVisible="False" LeftMargin="318.5955" RightMargin="-432.5955" TopMargin="-32.0361" BottomMargin="-0.9639" LeftEage="38" RightEage="38" TopEage="8" BottomEage="8" Scale9OriginX="38" Scale9OriginY="8" Scale9Width="38" Scale9Height="17" ctype="ImageViewObjectData">
+                <Size X="114.0000" Y="33.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="375.5955" Y="15.5361" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
@@ -470,7 +470,7 @@
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="Button_Review" CanEdit="False" ActionTag="-1386974765" Tag="46" IconVisible="False" LeftMargin="112.3790" RightMargin="-210.3790" TopMargin="-109.0000" BottomMargin="11.0000" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="68" Scale9Height="76" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+              <AbstractNodeData Name="Button_Review" ActionTag="-1386974765" Tag="46" IconVisible="False" LeftMargin="112.3790" RightMargin="-210.3790" TopMargin="-109.0000" BottomMargin="11.0000" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="68" Scale9Height="76" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="98.0000" Y="98.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="161.3790" Y="60.0000" />
@@ -645,6 +645,15 @@
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
+            <PreSize X="0.0000" Y="0.0000" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="youWin" ActionTag="1939353784" Tag="2139" IconVisible="True" LeftMargin="373.6731" RightMargin="376.3269" TopMargin="869.8318" BottomMargin="464.1682" ctype="SingleNodeObjectData">
+            <Size X="0.0000" Y="0.0000" />
+            <AnchorPoint />
+            <Position X="373.6731" Y="464.1682" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.4982" Y="0.3480" />
             <PreSize X="0.0000" Y="0.0000" />
           </AbstractNodeData>
         </Children>

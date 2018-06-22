@@ -1,6 +1,6 @@
 <PlistInfoProjectFile>
   <PropertyGroup Name="mission_sp" Type="Plist" ID="a64085cc-6f28-4ce7-ace5-087ca137fa98" Version="3.10.0.0" />
-  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
     <ImageFiles>
       <FilePathData Path="cocostudio/home/image/mission/meirirenwu_biaoti.png" />
       <FilePathData Path="cocostudio/home/image/mission/meirirenwu_cha1.png" />

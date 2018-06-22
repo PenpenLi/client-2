@@ -1,6 +1,6 @@
 <PlistInfoProjectFile>
   <PropertyGroup Name="friendroom_sp" Type="Plist" ID="e66b3b5b-5e8d-4656-9034-08711d92bd42" Version="3.10.0.0" />
-  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
     <ImageFiles>
       <FilePathData Path="cocostudio/home/image/friendroom/friend_bg.png" />
       <FilePathData Path="cocostudio/home/image/friendroom/friend_create_bg.png" />

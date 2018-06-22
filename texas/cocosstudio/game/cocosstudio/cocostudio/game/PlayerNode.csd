@@ -152,7 +152,7 @@
                 <PreSize X="0.0000" Y="0.0000" />
                 <FileData Type="Normal" Path="cocostudio/game/image/zhujiemian_baixian.png" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData Name="Image_Mask" ActionTag="-2142346896" VisibleForFrame="False" Tag="11" IconVisible="False" LeftMargin="-59.0000" RightMargin="-59.0000" TopMargin="-82.5000" BottomMargin="-82.5000" LeftEage="38" RightEage="38" TopEage="54" BottomEage="54" Scale9OriginX="38" Scale9OriginY="54" Scale9Width="42" Scale9Height="57" ctype="ImageViewObjectData">
+              <AbstractNodeData Name="Image_Mask" ActionTag="-2142346896" VisibleForFrame="False" Alpha="127" Tag="11" IconVisible="False" LeftMargin="-59.0000" RightMargin="-59.0000" TopMargin="-82.5000" BottomMargin="-82.5000" LeftEage="38" RightEage="38" TopEage="54" BottomEage="54" Scale9OriginX="38" Scale9OriginY="54" Scale9Width="42" Scale9Height="57" ctype="ImageViewObjectData">
                 <Size X="118.0000" Y="165.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position />

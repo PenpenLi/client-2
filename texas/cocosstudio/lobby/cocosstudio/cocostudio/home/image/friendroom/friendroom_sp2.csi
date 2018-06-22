@@ -1,6 +1,6 @@
 <PlistInfoProjectFile>
   <PropertyGroup Name="friendroom_sp2" Type="Plist" ID="f2e2a78d-8060-46fe-bd12-cfb78ea5bc50" Version="3.10.0.0" />
-  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
     <ImageFiles>
       <FilePathData Path="cocostudio/home/image/friendroom/haoyouchang_choumatubiaobai.png" />
       <FilePathData Path="cocostudio/home/image/friendroom/haoyouchang_chuangjianhaoyoufangdi.png" />

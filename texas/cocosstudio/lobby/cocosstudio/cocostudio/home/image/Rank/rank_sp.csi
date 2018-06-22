@@ -1,6 +1,6 @@
 <PlistInfoProjectFile>
   <PropertyGroup Name="rank_sp" Type="Plist" ID="38933f0c-6a40-4025-bb8f-cf8c63358fd6" Version="3.10.0.0" />
-  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
     <ImageFiles>
       <FilePathData Path="cocostudio/home/image/Rank/rank_t_down.png" />
       <FilePathData Path="cocostudio/home/image/Rank/rank_title.png" />

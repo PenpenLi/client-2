@@ -1,6 +1,6 @@
 <PlistInfoProjectFile>
   <PropertyGroup Name="home_sign_sp" Type="Plist" ID="af92d87a-af34-40c4-91f8-83b2535c6b81" Version="3.10.0.0" />
-  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="True" ctype="PlistInfoData">
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="False" AllowTrim="True" ctype="PlistInfoData">
     <ImageFiles>
       <FilePathData Path="cocostudio/home/image/sign/qiandao_tianshuzi.png" />
       <FilePathData Path="cocostudio/home/image/sign/sign_12888.png" />

@@ -1,6 +1,6 @@
 <PlistInfoProjectFile>
   <PropertyGroup Name="shop_sp" Type="Plist" ID="0d6c9a4e-95f7-4f5e-a064-ef89e05b38f3" Version="3.10.0.0" />
-  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="True" ctype="PlistInfoData">
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="False" AllowTrim="True" ctype="PlistInfoData">
     <ImageFiles>
       <FilePathData Path="cocostudio/home/image/shop/item_diamond_1.png" />
       <FilePathData Path="cocostudio/home/image/shop/item_diamond_2.png" />
