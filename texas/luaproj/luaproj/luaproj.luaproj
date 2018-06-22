@@ -114,7 +114,6 @@
     <Compile Include="preset\lobby\src\app\commands\LoginTexasPokerCommand.lua" />
     <Compile Include="preset\lobby\src\app\commands\LogoutCommand.lua" />
     <Compile Include="preset\lobby\src\app\commands\StartCommand.lua" />
-    <Compile Include="preset\lobby\src\app\common\ConstUtils.lua" />
     <Compile Include="preset\lobby\src\app\common\GameConfig.lua" />
     <Compile Include="preset\lobby\src\app\common\NativeFunctions.lua" />
     <Compile Include="preset\lobby\src\app\common\SoundUtils.lua" />
@@ -146,6 +145,7 @@
     <Compile Include="preset\lobby\src\app\net\SocketTCP.lua" />
     <Compile Include="preset\lobby\src\app\views\common\AlertOK.lua" />
     <Compile Include="preset\lobby\src\app\views\common\AlertOKCancel.lua" />
+    <Compile Include="preset\lobby\src\app\views\common\AlertScriptError.lua" />
     <Compile Include="preset\lobby\src\app\views\common\BroadcastNode.lua" />
     <Compile Include="preset\lobby\src\app\views\common\LeftBaseLayer.lua" />
     <Compile Include="preset\lobby\src\app\views\common\PopBaseLayer.lua" />
@@ -185,6 +185,8 @@
     <Compile Include="preset\lobby\src\app\views\texaspoker\ViewCardType.lua" />
     <Compile Include="preset\lobby\src\app\views\texaspoker\ViewChat.lua" />
     <Compile Include="preset\lobby\src\app\views\texaspoker\ViewGameMission.lua" />
+    <Compile Include="preset\lobby\src\app\views\texaspoker\viewGameRecord.lua" />
+    <Compile Include="preset\lobby\src\app\views\texaspoker\viewGameRecordItem.lua" />
     <Compile Include="preset\lobby\src\app\views\texaspoker\ViewMakeupBet.lua" />
     <Compile Include="preset\lobby\src\app\views\texaspoker\ViewMenu.lua" />
     <Compile Include="preset\lobby\src\app\views\texaspoker\ViewPlayer.lua" />
