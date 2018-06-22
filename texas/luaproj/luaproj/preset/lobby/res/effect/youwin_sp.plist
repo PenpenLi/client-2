@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>QY_Win_01_00001.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{530,560},{541,252}}</string>
+				<key>offset</key>
+				<string>{-6,4}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{600,313}</string>
+			</dict>
+			<key>QY_Win_01_00002.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1041,825},{544,243}}</string>
+				<key>offset</key>
+				<string>{-6,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{600,313}</string>
+			</dict>
+			<key>QY_Win_01_00003.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1363},{538,216}}</string>
+				<key>offset</key>
+				<string>{-5,-14}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{600,313}</string>
+			</dict>
+			<key>QY_Win_01_00004.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{784,560},{534,255}}</string>
+				<key>offset</key>
+				<string>{-6,6}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{600,313}</string>
+			</dict>
+			<key>QY_Win_01_00005.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{784,1096},{527,240}}</string>
+				<key>offset</key>
+				<string>{-5,-2}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{600,313}</string>
+			</dict>
+			<key>QY_Win_01_00006.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{536,280},{525,278}}</string>
+				<key>offset</key>
+				<string>{-5,17}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{600,313}</string>
+			</dict>
+			<key>QY_Win_01_00007.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1071,1},{531,278}}</string>
+				<key>offset</key>
+				<string>{-5,17}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{600,313}</string>
+			</dict>
+			<key>QY_Win_01_00008.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{533,278}}</string>
+				<key>offset</key>
+				<string>{-6,17}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{600,313}</string>
+			</dict>
+			<key>QY_Win_01_00009.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{536,1},{533,277}}</string>
+				<key>offset</key>
+				<string>{-5,17}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{600,313}</string>
+			</dict>
+			<key>QY_Win_01_00010.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1604,1},{531,277}}</string>
+				<key>offset</key>
+				<string>{-5,17}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{600,313}</string>
+			</dict>
+			<key>QY_Win_01_00011.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,281},{529,272}}</string>
+				<key>offset</key>
+				<string>{-5,14}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{600,313}</string>
+			</dict>
+			<key>QY_Win_01_00012.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,555},{527,272}}</string>
+				<key>offset</key>
+				<string>{-5,14}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{600,313}</string>
+			</dict>
+			<key>QY_Win_01_00013.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1586,534},{516,272}}</string>
+				<key>offset</key>
+				<string>{-4,14}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{600,313}</string>
+			</dict>
+			<key>QY_Win_01_00014.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1063,281},{521,270}}</string>
+				<key>offset</key>
+				<string>{-5,13}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{600,313}</string>
+			</dict>
+			<key>QY_Win_01_00015.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1063,553},{509,270}}</string>
+				<key>offset</key>
+				<string>{-4,13}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{600,313}</string>
+			</dict>
+			<key>QY_Win_01_00016.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,829},{510,267}}</string>
+				<key>offset</key>
+				<string>{-3,12}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{600,313}</string>
+			</dict>
+			<key>QY_Win_01_00017.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1098},{504,263}}</string>
+				<key>offset</key>
+				<string>{-2,10}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{600,313}</string>
+			</dict>
+			<key>QY_Win_01_00018.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{507,1103},{489,255}}</string>
+				<key>offset</key>
+				<string>{-3,11}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{600,313}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>youwin_sp.png</string>
+			<key>realTextureFileName</key>
+			<string>youwin_sp.png</string>
+			<key>size</key>
+			<string>{2048,2048}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>2048</integer>
+			<key>height</key>
+			<integer>2048</integer>
+		</dict>
+	</dict>
+</plist>

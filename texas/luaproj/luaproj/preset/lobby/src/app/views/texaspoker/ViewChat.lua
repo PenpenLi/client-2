@@ -3,22 +3,7 @@ local UIHelper = require("app.common.UIHelper")
 local LeftBaseLayer = require("app.views.common.LeftBaseLayer")
 local ViewChat = class("ViewChat", LeftBaseLayer)
 local CMD = require("app.net.CMD")
-
---ViewChat.RECORD = {
---	{fromId = 1, nickName = "test1111", text = "你好好的得得得1"},
---	{fromId = 2, nickName = "test2222", text = "你得得1"},
---	{fromId = 3, nickName = "test3333", text = "你好好的得得得2的范德萨发的的范德萨发的的发生发的"},
---	{fromId = 4, nickName = "test4444", text = "得得得2的范德萨发的的范德"},
---	{fromId = 4, nickName = "test444dd4", text = "dddddddddddddddddddddddddfdsfdsfdsfsdffffffffffff"},
---	{fromId = 4, nickName = "test44ss44", text = "dfdsdfdsfd范德萨发得分反反复复sfd"},
---	{fromId = 4, nickName = "test4444", text = "得得得2的范德萨发的的fdsfdsf范德"},
---	{fromId = 4, nickName = "test444ddd4", text = "得得得2的范德萨发的的范德dsfdsfds"},
---	{fromId = 4, nickName = "test444ddd4", text = "得得得2的范德萨发的的范德dsfdsfds"},
---	{fromId = 4, nickName = "test444ddd4", text = "得得得2的范德萨发的的范德dsfdsfds"},
---    {fromId = 4, nickName = "test444ddd4", text = "face_default_2"},
---    {fromId = 4, nickName = "test444ddd4", text = "face_default_5"},
---}
-
+local GameConfig = require("app.common.GameConfig")
 
 ViewChat.CHATITEM_ANCH_ME = display.RIGHT_TOP
 ViewChat.CHATITEM_ANCH_OTHER = display.LEFT_TOP
@@ -124,17 +109,6 @@ end
 
 function ViewChat:initInputText(csbnode)
     local TextField_Input = csbnode:getChildByName("TextField_Input")
---    TextField_Input:addEventListener(function (sender,eventType)
---        if eventType ==ccui.TextFiledEventType.attach_with_ime then
---            print("TextFiledEventType.attach_with_ime")
---        elseif eventType == ccui.TextFiledEventType.detach_with_ime then 
---               print("TextFiledEventType.detach_with_ime")
---         elseif eventType == ccui.TextFiledEventType.delete_backward then 
---             print("TextFiledEventType.delete_backward")
---          elseif eventType == ccui.TextFiledEventType.insert_text then 
---             print("TextFiledEventType.insert_text")
---        end
---    end)
     self.TextField_Input = TextField_Input
 end
 
@@ -376,10 +350,15 @@ function ViewChat:addChatRecords(data)
         local players = APP.GD.room_players
 	    local player = players:getPlayerByUid(chat.fromId)
 
-        local head_ico =player and player.head_ico or 0
-        head_ico = head_ico + 1
-	    local head = ccui.ImageView:create(string.format("cocostudio/game/image/head_%d.png", head_ico or 1))
+	    local head = nil
+		if not player then
+			head = ccui.ImageView:create(string.format("image/%s", GameConfig:HeadIco("1")))
 			:addTo(chatNode, 2)
+		else
+			head = ccui.ImageView:create(string.format("image/%s", GameConfig:HeadIco(player.head_ico)))
+			:addTo(chatNode, 2)
+		end
+
 		head:setScale(0.7)
 
 		local name = ccui.Text:create(chat.nickName, "Arial", 22)
@@ -394,7 +373,7 @@ function ViewChat:addChatRecords(data)
         -- 判断是否自己
         local meInfo = APP.gc:getMe()
 
-		if meInfo.uid == chat.fromId then
+		if meInfo and meInfo.uid == chat.fromId then
 			head:align(display.LEFT_CENTER, ViewChat.CHATITEM_POSX_ME - 25, -10)
 			name:align(display.RIGHT_CENTER, ViewChat.CHATITEM_POSX_ME - 50, 15)
             if bFace then 
@@ -454,8 +433,6 @@ function ViewChat:addChatRecords(data)
     self.scroll_ChatRecord:jumpToBottom()
     
 end
-
-
 
 -------------------------------------send-----------------------------------------------
 function ViewChat:sendPreChat(idx)

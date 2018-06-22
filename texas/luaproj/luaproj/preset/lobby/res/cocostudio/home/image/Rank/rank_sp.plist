@@ -7,7 +7,7 @@
 			<key>cocostudio/home/image/Rank/rank_t_down.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{635,800},{370,28}}</string>
+				<string>{{638,807},{370,28}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -18,7 +18,7 @@
 			<key>cocostudio/home/image/Rank/rank_title.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1090,464},{152,94}}</string>
+				<string>{{1263,848},{152,94}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -29,7 +29,7 @@
 			<key>cocostudio/home/image/Rank/rank_wan.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{963,828},{28,28}}</string>
+				<string>{{1103,807},{28,28}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -40,7 +40,7 @@
 			<key>cocostudio/home/image/Rank/rank_wsb.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{872,828},{91,30}}</string>
+				<string>{{1010,807},{91,30}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -51,7 +51,7 @@
 			<key>cocostudio/home/image/Rank/rank_bg.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,0},{685,1090}}</string>
+				<string>{{1,1},{685,1090}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -62,7 +62,7 @@
 			<key>cocostudio/home/image/Rank/rank_bilion.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{991,828},{28,28}}</string>
+				<string>{{1359,975},{28,28}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -73,7 +73,7 @@
 			<key>cocostudio/home/image/Rank/rank_btn_close.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1258,826},{59,59}}</string>
+				<string>{{1259,1},{59,59}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -84,7 +84,7 @@
 			<key>cocostudio/home/image/Rank/rank_btn_close1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1258,885},{59,59}}</string>
+				<string>{{1259,62},{59,59}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -95,7 +95,7 @@
 			<key>cocostudio/home/image/Rank/rank_btn_left.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{635,737},{232,63}}</string>
+				<string>{{638,742},{232,63}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -106,7 +106,7 @@
 			<key>cocostudio/home/image/Rank/rank_btn_left2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{867,737},{232,63}}</string>
+				<string>{{872,742},{232,63}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -117,29 +117,29 @@
 			<key>cocostudio/home/image/Rank/rank_btn_right.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1090,0},{232,63}}</string>
+				<string>{{1106,718},{232,63}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
-				<true />
+				<false />
 				<key>sourceSize</key>
 				<string>{232,63}</string>
 			</dict>
 			<key>cocostudio/home/image/Rank/rank_btn_right2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1090,232},{232,63}}</string>
+				<string>{{1133,783},{232,63}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
-				<true />
+				<false />
 				<key>sourceSize</key>
 				<string>{232,63}</string>
 			</dict>
 			<key>cocostudio/home/image/Rank/rank_down_bg.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,685},{635,173}}</string>
+				<string>{{1,688},{635,173}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -150,7 +150,7 @@
 			<key>cocostudio/home/image/Rank/rank_js_number.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{635,828},{237,28}}</string>
+				<string>{{1020,688},{237,28}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -161,18 +161,18 @@
 			<key>cocostudio/home/image/Rank/rank_no1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1090,616},{85,125}}</string>
+				<string>{{1359,848},{85,125}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
-				<true />
+				<false />
 				<key>sourceSize</key>
 				<string>{85,125}</string>
 			</dict>
 			<key>cocostudio/home/image/Rank/rank_node_bg.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{632,858},{626,147}}</string>
+				<string>{{635,863},{626,147}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -183,7 +183,7 @@
 			<key>cocostudio/home/image/Rank/rank_node_myself_bg.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,858},{632,152}}</string>
+				<string>{{1,863},{632,152}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -194,29 +194,29 @@
 			<key>cocostudio/home/image/Rank/rank_node2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1099,701},{85,125}}</string>
+				<string>{{1340,1},{85,125}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
-				<false />
+				<true />
 				<key>sourceSize</key>
 				<string>{85,125}</string>
 			</dict>
 			<key>cocostudio/home/image/Rank/rank_node3.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1184,701},{85,125}}</string>
+				<string>{{1093,1},{85,125}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
-				<false />
+				<true />
 				<key>sourceSize</key>
 				<string>{85,125}</string>
 			</dict>
 			<key>cocostudio/home/image/Rank/rank_number.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{635,685},{380,52}}</string>
+				<string>{{638,688},{380,52}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>

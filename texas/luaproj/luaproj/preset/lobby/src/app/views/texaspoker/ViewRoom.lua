@@ -163,6 +163,14 @@ function ViewRoom:ctor(isPrivate)
 	for i = 1, maxset do
 		self:newPlayerUI(i)
 	end
+
+	self.Button_Review = UIHelper.seekNodeByName(self.csbnode, "Button_Review")
+	self.Button_Review:addTouchEventListener(function(ref, t)
+		if t == ccui.TouchEventType.ended then
+			APP:getCurrentController():showLastGameLayer()
+		end
+	end)
+
 end
 
 
@@ -196,7 +204,7 @@ end
 --int				pos_;//坐在哪个位置
 --int				iid_;
 --int				lv_;
-function ViewRoom:playerSit(content)
+function ViewRoom:playerSit(content, init)
 	--如果是玩家自己坐下去了
 	if content.uid == APP.GD.GameUser.uid then 
 		printLog("a", "i sit %d, %s, will reset seat", content.pos, content.uid, APP.GD.GameUser.uid)
@@ -214,28 +222,33 @@ function ViewRoom:playerSit(content)
 		local clipos = self:getClientPos(content.pos);
 		local uip = self.playersUI[clipos];
 		uip:setUser(content);
+	
+		if not init then
+			local container = UIHelper.seekNodeByName(self.csbnode, "Players");
+			--准备动画事宜
+			local placeholder = UIHelper.seekNodeByName(container, "P" .. tostring(clipos)..tostring(clipos));
+			local pclone = uip:clone();
+			pclone:addTo(container);
+			pclone:setPosition(placeholder:getPosition());
 
-		local container = UIHelper.seekNodeByName(self.csbnode, "Players");
-		--准备动画事宜
-		local placeholder = UIHelper.seekNodeByName(container, "P" .. tostring(clipos)..tostring(clipos));
-		local pclone = uip:clone();
-		pclone:addTo(container);
-		pclone:setPosition(placeholder:getPosition());
-
-		local ptto = container:convertToNodeSpace(uip:getParent():convertToWorldSpace(cc.p(uip:getPosition())));
-		--准备播放面板动画，先隐藏面板
-		uip:setVisible(false);
-		local a1 = cc.EaseOut:create(cc.MoveTo:create(0.25, ptto),3);
-		local a2 = cc.Sequence:create(cc.DelayTime:create(0.3), a1, cc.CallFunc:create(function()
-			pclone:removeSelf();
-			uip:setVisible(true);
-		end));
-
-		pclone:runAction(a2)
+			local ptto = container:convertToNodeSpace(uip:getParent():convertToWorldSpace(cc.p(uip:getPosition())));
+			--准备播放面板动画，先隐藏面板
+			uip:setVisible(false);
+			local a1 = cc.EaseOut:create(cc.MoveTo:create(0.25, ptto),3);
+			local a2 = cc.Sequence:create(cc.DelayTime:create(0.3), a1, cc.CallFunc:create(function()
+				pclone:removeSelf();
+				uip:setVisible(true);
+			end));
+			pclone:runAction(a2)
+			--播放玩家进入音效
+			pclone:runAction(cc.Sequence:create(cc.DelayTime:create(0.15), cc.CallFunc:create(function()
+				SoundUtils.playEffect(SoundUtils.GameSound.PLAYERSIT);
+			end)))
+		end
 		return self.playersUI[clipos];
 	end
-
 end
+
 function ViewRoom:leaveSeat(serverpos)
 	if serverpos < 0 then
 		--如果变为观察者
@@ -653,6 +666,7 @@ function ViewRoom:clear()
     self:updateBasePool(0)
     self:setMainPoolStatus(false)
     self:hideSidePools()
+	self:hideOperateButtons()
 end
 
 return ViewRoom

@@ -9,11 +9,26 @@ local TexasPokerConfig = require("app.models.TexasPokerConfig")
 local ControllerBase = require("app.controllers.ControllerBase")
 
 local TexasPokerController = class("TexasPokerController", ControllerBase)
+local turnRecorder = class("turnRecorder")
+
+function turnRecorder:ctor()
+	self.uid = "";
+	self.bet = 0;
+	self.win = 0;
+	self.nickName = ""
+	self.headIco = ""
+end
 
 function TexasPokerController:ctor()
     TexasPokerController.super.ctor(self)
+
+	cc.SpriteFrameCache:getInstance():addSpriteFrames("effect/youwin_sp.plist");
+	cc.SpriteFrameCache:getInstance():addSpriteFrames("effect/allin_sp.plist")
+	
     self:enableNodeEvents()
     self.playerViews = {}
+	self.lastScore = {}
+	self.allScore = {}
 
     -- 动画层
     self:addChild(APP:createView("texaspoker.ViewActions"), GameConfig.Z_GameTop)
@@ -42,7 +57,7 @@ function TexasPokerController:ctor()
     -- 玩家
     local players = APP.GD:getRoomPlayers()
     for _, player in pairs(players.players) do
-        self:addViewPlayer(player)
+        self:addViewPlayer(player, true)
     end
 
     -- 恢复公共牌
@@ -123,6 +138,10 @@ function TexasPokerController:showMissionLayer()
     self:addChild(APP:createView("texaspoker.ViewGameMission"), GameConfig.Z_GamePop)
 end
 
+function TexasPokerController:showLastGameLayer()
+    self:addChild(APP:createView("texaspoker.viewGameRecord"), GameConfig.Z_GamePop)
+end
+
 function TexasPokerController:showMakeupBetLayer()
     self:addChild(APP:createView("texaspoker.ViewMakeupBet"), GameConfig.Z_GamePop)
 end
@@ -147,8 +166,8 @@ function TexasPokerController:getPlayerPostion(uid)
 	end
 end
 
-function TexasPokerController:addViewPlayer(player)
-    local vw = self.viewRoom:playerSit(player)
+function TexasPokerController:addViewPlayer(player, init)
+    local vw = self.viewRoom:playerSit(player, init)
 	if not vw then
 		printLog("a", "addViewPlayer with vw = nil, uid = %s", player.uid);
 	else
@@ -169,18 +188,9 @@ function TexasPokerController:changeStatus()
 
         for _, playerView in pairs(self.playerViews) do
             playerView:setOperateViewStatus(false)
-            -- playerView:setBet(false,0)
         end
 
-        -- self.viewRoom:setMainPoolStatus(false)
-        -- self.viewRoom:hideSidePools(false)
-
         room:updateMaxBet(0)
-
-    end
-
-    if room.status == TexasPokerConfig.STATUS_DEAL_ROUND_4 then
-        printInfo("=================4444444444444==================")
     end
 
     if room.status == TexasPokerConfig.STATUS_DEAL_ROUND_2 or 
@@ -190,22 +200,37 @@ function TexasPokerController:changeStatus()
     end
 
     if room.status == TexasPokerConfig.SATUS_WAITE_START then
-        room:clear()
-        -- 清除数据
-        for _, player in pairs(players.players) do
-            player:clear()
-        end
-        for _, playerView in pairs(self.playerViews) do
-            playerView:clear()
-        end
-        self.viewRoom:clear()
+        self:newTurnStart()
+	elseif room.status == TexasPokerConfig.STATUS_VOTE_BANKER then
+		SoundUtils.playEffect(SoundUtils.GameSound.NEWTURN);
     end
+end
+
+function TexasPokerController:newTurnStart()
+	local room = APP.GD.game_room
+    local players = APP.GD.room_players
+	
+	room:clear()
+    -- 清除数据
+    for _, player in pairs(players.players) do
+        player:clear()
+    end
+    for _, playerView in pairs(self.playerViews) do
+        playerView:clear()
+    end
+    self.viewRoom:clear()
+	self.allScore = self.lastScore;
+	self.lastScore = {}
 end
 
 --玩家被选定为庄家
 function TexasPokerController:promoteBanker( content )
     print("TexasPokerController:promoteBanker")
     local playerView = self.playerViews[content.uid_]
+	--由于服务器庄家是不清的，所以这里要自己清掉
+	for _, playerView in pairs(self.playerViews) do
+		 playerView:setBankerStatus(false)
+	end
     playerView:setBankerStatus(true)
 end
 
@@ -240,8 +265,16 @@ function TexasPokerController:playerCards( content )
     local players = APP.GD.room_players
     local player = players:getPlayerByUid(content.uid_)
     local playerView = self.playerViews[content.uid_]
-
-    if player and playerView then
+	
+	if not self.lastScore[content.uid_] then
+		local sc = turnRecorder.new();
+		sc.uid = content.uid_;
+		sc.nickName = player.uname;
+		sc.headIco = player.head_pic;
+		self.lastScore[content.uid_] = sc;
+	end
+	
+	if player and playerView then
         local room = APP.GD:getGameRoom()
         if room.status ~= TexasPokerConfig.STATUS_BALANCE then
             playerView:setDealedCardStatus(true, true)
@@ -284,6 +317,10 @@ function TexasPokerController:playerOption( content )
         end
         if tonumber(content.action_) >= TexasPokerConfig.ACTION_FOLLOW then
             playerView:setBet(true, tonumber(content.setbet_), true)
+			local sc = self.lastScore[content.uid_]
+			if sc then
+				sc.bet = sc.bet + tonumber(content.setbet_);
+			end
         elseif tonumber(content.action_) == TexasPokerConfig.ACTION_GIVEUP then
             playerView:setDealedCardStatus(false, true)
         end
@@ -310,6 +347,26 @@ function TexasPokerController:playerOption( content )
     elseif tonumber(content.action_) == TexasPokerConfig.ACTION_BETIN then
         SoundUtils.playSound(0, SoundUtils.GameSound.PLUSCHIP)
     end
+
+	if	tonumber(content.action_) == TexasPokerConfig.ACTION_FOLLOW or 
+		tonumber(content.action_) == TexasPokerConfig.ACTION_ADD or
+		tonumber(content.action_) == TexasPokerConfig.ACTION_ALLIN or
+		tonumber(content.action_) == TexasPokerConfig.ACTION_BETIN then
+		self:runAction(cc.Sequence:create(cc.DelayTime:create(0.2),
+		 cc.CallFunc:create(function() SoundUtils.playEffect(SoundUtils.GameSound.BET) end)))
+
+	elseif tonumber(content.action_) == TexasPokerConfig.ACTION_SMALLBET or
+		tonumber(content.action_) == TexasPokerConfig.ACTION_BIGBET then
+		SoundUtils.playEffect(SoundUtils.GameSound.BET)
+
+	elseif tonumber(content.action_) == TexasPokerConfig.ACTION_GIVEWAY then
+		self:runAction(cc.Sequence:create(cc.DelayTime:create(0.2),
+		 cc.CallFunc:create(function() SoundUtils.playEffect(SoundUtils.GameSound.PASSEFF) end)))
+
+	elseif tonumber(content.action_) == TexasPokerConfig.ACTION_GIVEUP then
+		self:runAction(cc.Sequence:create(cc.DelayTime:create(0.2),
+		 cc.CallFunc:create(function() SoundUtils.playEffect(SoundUtils.GameSound.FOLDEFF) end)))
+	end
 end
 
 --最佳牌型
@@ -361,7 +418,7 @@ function TexasPokerController:poolChange(pool_id)
                     playerView:hideBetAction(function()
                         self.viewRoom:setMainPoolStatus(true, main_pool_value)
                         local side_pool_value = room.pools[1]
-                        if side_pool_value > 0 then
+                        if side_pool_value and side_pool_value > 0 then
                             self.viewRoom:addSidePool(1, side_pool_value, true)
                         end
                     end)
@@ -400,6 +457,8 @@ function TexasPokerController:matchResult(content)
         end
         self.viewRoom:clearPublicCardColor()
         self.viewRoom:setPublicCardColorGray(content.uid_)
+		
+		self.lastScore[content.uid_].win = self.lastScore[content.uid_].win + tonumber(content.wins_);
 
         local typeValue = player.csf_val
         if typeValue == 1 then
@@ -468,44 +527,29 @@ function TexasPokerController:matchResult(content)
             local pos = self:getPlayerPostion(content.uid_)
 			if not pos then return end;
 
-            if content.uid_ == gameUser.uid then
-                local str = utils.convertNumberShort(tonumber(content.wins_))
-                -- 加钱动画
-                local winSprite = display.newSprite("cocostudio/game/image/win.png")
-                    :addTo(self, GameConfig.Z_UI)
-                    :move(pos)
-                local winText = ccui.TextBMFont:create()
-				winText:setFntFile("cocostudio/game/image/haoyouchang_haoyoufangxuanzedishuzi-export.fnt")
-				winText:addTo(winSprite)
-				winText:setString(str);
-				winText:move(winSprite:getContentSize().width / 2, 0);
+			local str = utils.convertNumberShort(tonumber(content.wins_))
+			local winText = ccui.TextBMFont:create()
+            winText:setFntFile("cocostudio/game/image/zhujiemian_niyingshuzi-export.fnt")
+			winText:setString("+"..str);
+            winText:addTo(self, GameConfig.Z_UI)
+            winText:move(pos)
 
-                winSprite:runAction(
-                    cc.Sequence:create(
-                        cc.EaseSineIn:create(cc.MoveTo:create(0.7, cc.p(pos.x, pos.y + 100))),
-                        cc.DelayTime:create(1.0),
-                        cc.FadeOut:create(0.3),
-                        cc.RemoveSelf:create()
-                    ))
-            else
-                -- 加钱动画
-                local str = utils.convertNumberShort(tonumber(content.wins_))
-                local winText = ccui.TextBMFont:create()
-				winText:setFntFile("cocostudio/game/image/haoyouchang_haoyoufangxuanzedishuzi-export.fnt")
-                winText:addTo(self, GameConfig.Z_UI)
-				winText:setString(str);
-                winText:move(pos)
+			local a2 = cc.Sequence:create(cc.ScaleTo:create(0.15, 3.0), cc.ScaleTo:create(0.15, 1.0))
+			local a3 = cc.Spawn:create(cc.MoveTo:create(0.5, cc.p(pos.x, pos.y + 150)), cc.FadeOut:create(0.5))
+            winText:runAction(
+                cc.Sequence:create(
+                    a2,
+                    cc.DelayTime:create(1),
+					a3,
+                    cc.RemoveSelf:create()
+                ))
 
-                winText:runAction(
-                    cc.Sequence:create(
-                        cc.EaseSineIn:create(cc.MoveTo:create(0.7, cc.p(pos.x, pos.y + 100))),
-                        cc.DelayTime:create(1.0),
-                        cc.FadeOut:create(0.3),
-                        cc.RemoveSelf:create()
-                    ))
+			if content.uid_ == gameUser.uid then
+				local a1 = UIHelper.seekNodeByName(self.viewRoom, "youWin");
+				UIHelper.newAnimation(18, a1, function(i) return string.format("QY_Win_01_%05d.png", i) end, nil, true);
             end
 			self.sch2 = nil;
-        end, 2.0)
+        end, 1.5)
 
     end
     

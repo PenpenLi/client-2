@@ -7,7 +7,7 @@
 			<key>cocostudio/home/image/mission/meirirenwu_biaoti.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,950},{202,74}}</string>
+				<string>{{629,688},{202,74}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -18,7 +18,7 @@
 			<key>cocostudio/home/image/mission/meirirenwu_cha1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{722,950},{59,59}}</string>
+				<string>{{555,957},{59,59}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -29,7 +29,7 @@
 			<key>cocostudio/home/image/mission/meirirenwu_cha2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{781,950},{59,59}}</string>
+				<string>{{616,957},{59,59}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -40,7 +40,7 @@
 			<key>cocostudio/home/image/mission/meirirenwu_di.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,0},{685,1090}}</string>
+				<string>{{1,1},{685,1090}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -51,7 +51,7 @@
 			<key>cocostudio/home/image/mission/meirirenwu_kuang.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,685},{626,147}}</string>
+				<string>{{1,688},{626,147}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -62,7 +62,7 @@
 			<key>cocostudio/home/image/mission/meirirenwu_lingqu1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,832},{203,118}}</string>
+				<string>{{1,837},{203,118}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -73,7 +73,7 @@
 			<key>cocostudio/home/image/mission/meirirenwu_lingqu2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{203,832},{203,118}}</string>
+				<string>{{206,837},{203,118}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -84,7 +84,7 @@
 			<key>cocostudio/home/image/mission/meirirenwu_qianwang1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{406,832},{203,118}}</string>
+				<string>{{411,837},{203,118}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -95,7 +95,7 @@
 			<key>cocostudio/home/image/mission/meirirenwu_qianwang2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{609,832},{203,118}}</string>
+				<string>{{616,837},{203,118}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -106,7 +106,7 @@
 			<key>cocostudio/home/image/mission/meirirenwu_shuzi.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{202,950},{290,38}}</string>
+				<string>{{1,957},{290,38}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -117,7 +117,7 @@
 			<key>cocostudio/home/image/mission/mission_icon_diamond.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{626,685},{100,111}}</string>
+				<string>{{821,764},{100,111}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -128,7 +128,7 @@
 			<key>cocostudio/home/image/mission/mission_icon_gold.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{726,685},{100,111}}</string>
+				<string>{{821,877},{100,111}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -139,7 +139,7 @@
 			<key>cocostudio/home/image/mission/mission_reward_diamond.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{202,988},{260,30}}</string>
+				<string>{{293,957},{260,30}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -150,7 +150,7 @@
 			<key>cocostudio/home/image/mission/mission_reward_gold.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{462,988},{260,30}}</string>
+				<string>{{293,989},{260,30}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>

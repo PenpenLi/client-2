@@ -48,6 +48,9 @@ end
 
 function ViewFriendRoom:onMsg(fromServer, subCmd, content)
 	if subCmd == CMD.GAME_PRIVATE_ROOM_INFO and fromServer == 2 then
+		local place_holder = UIHelper.seekNodeByName(self, "place_holder");
+		place_holder:setVisible(false);
+
 		local pi = APP:createView("friendroom.PrivateRoomItem");
 		pi:setInfo(content);
 		self.myRooms:addChild(pi);

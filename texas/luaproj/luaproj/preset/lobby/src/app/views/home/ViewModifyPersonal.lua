@@ -10,7 +10,6 @@ function ViewModifyPersonal:ctor()
     addListener(self, "NET_MSG", handler(self, self.onMsg));
 
     local gameUser = APP.GD.GameUser
-    local headID = tonumber(gameUser.head_pic) == 0 and 1 or tonumber(gameUser.head_pic)
 	local csbnode = cc.CSLoader:createNode("cocostudio/home/ModifyPersonalLayer.csb")
 	csbnode:addTo(self)
     local Node_head = csbnode:getChildByName("Node_head")
@@ -23,8 +22,8 @@ function ViewModifyPersonal:ctor()
     local Button_OK = csbnode:getChildByName("Button_OK")
     Button_OK:addTouchEventListener(handler(self,self.butTouchEvent))
     local children = Node_head:getChildren()
-    for i,var in ipairs(children) do
-        if i == headID then 
+    for i,var in pairs(children) do
+        if i == tonumber(gameUser.head_pic) then 
             self.Image_SelectFrame:setPosition(var:getPosition())
         end
         var:addTouchEventListener(handler(self,self.ImageTouchEvent))
@@ -52,7 +51,7 @@ function ViewModifyPersonal:butTouchEvent(sender,touchType)
             self.bModify = true
         end
 
-        if tonumber(gameUser.head_pic) ~= self.head_id then 
+        if gameUser.head_pic ~= self.head_id then 
             self.bModify = true
         end
     end
@@ -87,8 +86,8 @@ function ViewModifyPersonal:onExit()
 end
 
 ---------------------Net-----------------------
-function ViewModifyPersonal:sendModife(headId,nickName)
-    APP:getCurrentController():sendUserInfo(headId,nickName)
+function ViewModifyPersonal:sendModife(headId, nickName)
+    APP:getCurrentController():sendUserInfo(headId, nickName)
 end
 
 function ViewModifyPersonal:onMsg(fromServer, subCmd, content)
@@ -97,17 +96,10 @@ function ViewModifyPersonal:onMsg(fromServer, subCmd, content)
     end
     local bRight = nil
 	if subCmd == CMD.GAME_USERINFO_SET_RESP then
-        local msg = {
-            headId = content.head_ico_,
-            nickName = content.nickname_,
-        }
         bRight = true
---    elseif subCmd == CMD.COORDINATE_COMMOM_REPLY then 
---        local cmd = tonumber(content.rp_cmd_)
---        local err = tonumber(content.err_)
---        if cmd == CMD.GAME_CHAT_RES then 
-
---        end
+		local user = APP:getObject("User");
+		user.head_ico = content.head_ico_;
+		user.nickname = content.nickname_;
 	end
     if bRight then 
         self:removeFromParent()

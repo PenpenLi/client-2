@@ -41,8 +41,8 @@ GameConfig.GameEnv = {}
 GameConfig.GameEnv.DEV_HJT = 1 	-- hjt测试服务器
 GameConfig.GameEnv.DEV_210 = 2		-- 210局域网
 GameConfig.GameEnv.RELEASE = 100 	-- 正式服务器
-GameConfig.WebpartUrl = "http://poker.game577.com/withdraw/withdraw/index?uid=%s&sn=%s&token=%s"
-GameConfig.UpdateUrl = "http://poker.game577.com/withdraw/withdraw/index?uid=%s&sn=%s&token=%s"
+GameConfig.WebpartUrl = "http://poker.game577.com/"
+GameConfig.UpdateUrl = "http://poker.game577.com/"
 function GameConfig.getSocketEnv()
 	return GameConfig.GameEnv.SocketEnv[GameConfig.GameEnv.Current]
 end
@@ -56,10 +56,35 @@ else
 	GameConfig.GameEnv.Current = GameConfig.GameEnv.RELEASE
 end
 
+GameConfig.head_icon = {
+	h0 = "zhujiemian_nv1.png",
+	h1 = "zhujiemian_nv1.png",
+	h2 = "zhujiemian_nv2.png",
+	h3 = "zhujiemian_nv3.png",
+	h4 = "zhujiemian_nv4.png",
+	h5 = "zhujiemian_nv5.png",
+	h6 = "zhujiemian_nv6.png",
+	h7 = "zhujiemian_nv7.png",
+	h8 = "zhujiemian_nv8.png",
+	h9 = "zhujiemian_nan2.png",
+	h10 = "zhujiemian_nan1.png",
+	h11 = "zhujiemian_nan3.png",
+	h12 = "zhujiemian_nan4.png",
+	h13 = "zhujiemian_nan5.png",
+	h14 = "zhujiemian_nan6.png",
+	h15 = "zhujiemian_nan7.png",
+	h16 = "zhujiemian_nan8.png"
+}
 
 GameConfig.GameEnv.SocketEnv = {
 	[GameConfig.GameEnv.DEV_HJT] = {host = "192.168.2.100", port = "10000"},
 	[GameConfig.GameEnv.DEV_210] = {host = "192.168.1.210", port = "10000"},
 	[GameConfig.GameEnv.RELEASE] = {host = "poker.game577.com", port = "10000"},
 }
+
+function GameConfig:HeadIco(indx)
+	indx = indx or 1;
+	return self.head_icon["h"..indx]
+end
+
 return GameConfig

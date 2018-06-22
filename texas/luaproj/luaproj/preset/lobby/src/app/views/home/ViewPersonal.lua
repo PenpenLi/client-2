@@ -1,11 +1,8 @@
 local UIHelper = require("app.common.UIHelper")
 local LeftBaseLayer = require("app.views.common.LeftBaseLayer")
 local ViewPersonal = class("ViewPersonal", LeftBaseLayer)
-local constUtils = require("app.common.ConstUtils")
 local GameConfig = require("app.common.GameConfig")
 local CMD = require("app.net.CMD")
-
-local head_icon = constUtils.head_icon
 
 function ViewPersonal:ctor()
 	ViewPersonal.super.ctor(self)
@@ -32,8 +29,7 @@ function ViewPersonal:ctor()
 	--TextDiamond:setString(tostring(gameUser.gold))
 	TextWinRate:setString(tostring(gameUser.winrate))
 	TextAllCount:setString(tostring(gameUser.total_played))
-    local headID = tonumber(gameUser.head_pic) == 0 and 1 or tonumber(gameUser.head_pic)
-    self.Image_icon:loadTexture(string.format("image/%s",head_icon[headID]))
+    self.Image_icon:loadTexture(string.format("image/%s",GameConfig:HeadIco(gameUser.head_pic)))
 
 	local btn_Modify = UIHelper.seekNodeByName(csbnode, "Button_Modify")
 	btn_Modify:addTouchEventListener(function(ref, t)
@@ -69,7 +65,7 @@ function ViewPersonal:initBestCards()
 end
 
 function ViewPersonal:updateUserInfo(msg)
-    self.Image_icon:loadTexture(string.format("image/%s",head_icon[msg.headId]))	
+    self.Image_icon:loadTexture(string.format("image/%s",GameConfig:HeadIco(msg.headId)))	
     self.TextNickname:setString(msg.nickName)
 end
 

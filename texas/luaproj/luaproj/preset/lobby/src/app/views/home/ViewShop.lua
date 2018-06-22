@@ -23,7 +23,7 @@ ViewShop.DIAMOND_GOODS = {
 
 local function build_webpart_url()
     local user = APP:getObject("User")
-	local str = string.format(GameConfig.WebpartUrl, user.uid, user.sequence, user.token);
+	local str = string.format(GameConfig.WebpartUrl.."withdraw/withdraw/index?uid=%s&sn=%s&token=%s", user.uid, user.sequence, user.token);
 	return str;
 end
 
@@ -95,7 +95,7 @@ end
 
 function ViewShop:touchPayEvent(sender,touchType)
     if ccui.TouchEventType.ended == touchType then 
-        print("你买了第"..sender:getTag().."个")
+		APP:getCurrentController():showBrowser({url = GameConfig.WebpartUrl.."withdraw/recharge"}, self.container)
     end
 end
 

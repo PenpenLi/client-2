@@ -6,7 +6,7 @@ local ViewCard = require("app.views.texaspoker.ViewCard")
 local TexasPokerConfig = require("app.models.TexasPokerConfig")
 local ResItemWidget = require("app.views.common.ResItemWidget")
 local CMD = require("app.net.CMD")
-local headIcons = require("app.common.ConstUtils")
+local GameConfig = require("app.common.GameConfig")
 local ViewPlayer = class("ViewPlayer", function()
  	return display.newNode()
 end)
@@ -99,7 +99,7 @@ function ViewPlayer:setUser(usr, isclone)
 
 		local players = APP.GD.room_players
 		local player = players:getPlayerByUid(self.uid)
-		self.img_Head:loadTexture(string.format("image/%s", headIcons.head_icon[player.head_ico or 1]))
+		self.img_Head:loadTexture(string.format("image/%s", GameConfig:HeadIco(player.head_ico)))
 		self.img_Head:addTouchEventListener(function(ref, t)
 			if t == ccui.TouchEventType.ended then
 				APP:getCurrentController():showPlayerInfoLayer(self.uid)
@@ -128,6 +128,7 @@ function ViewPlayer:setUser(usr, isclone)
 		-- 是否有牌
 		if player.cards and player.cards ~= "" then
 			self:setDealedCardStatus(true)
+			self:setMaskStatus(false);
 		end
 		-- 是否为庄家
 		local room = APP.GD.game_room;
@@ -139,6 +140,11 @@ function ViewPlayer:setUser(usr, isclone)
 			self:setOperateViewStatus(true, player.action)
 			if player.action == TexasPokerConfig.ACTION_GIVEUP then
 				self:setDealedCardStatus(false)
+				self:setMaskStatus(true);
+			elseif player.action == TexasPokerConfig.ACTION_ALLIN then
+				if not self.allinAnim then
+					self:showAllin()
+				end
 			end
 		end
 		-- 下的注
@@ -273,13 +279,16 @@ end
 
 -- 显示有牌标识，show是否显示，isAction是否需要动画
 function ViewPlayer:setDealedCardStatus(show, isAction)
-	self:setMaskStatus(false);
-
+	
 	if not isAction then
 		self.img_Card_1:setVisible(show)
 		self.img_Card_2:setVisible(show)
 		return
 	end
+	
+	self:setMaskStatus(not show);
+
+	--发牌
 	if show then
 		local imgCards = {self.img_Card_1, self.img_Card_2}
 		for i = 1, #imgCards do
@@ -341,14 +350,27 @@ function ViewPlayer:setBankerStatus(show)
 	self.img_Banker:setVisible(show)
 end
 
+function ViewPlayer:showAllin()
+	local spr, act = UIHelper.newAnimation(20, self, 
+	function(i) return string.format("QY_OE_01__%05d.png", i - 1)  end);
+	spr:setOpacity(0);
+
+	spr:runAction(cc.Sequence:create(cc.FadeIn:create(0.5),
+	 cc.CallFunc:create(function() SoundUtils.playEffect(SoundUtils.GameSound.WIN); end)));
+	self.allinAnim = spr;
+
+end
+
 function ViewPlayer:setOperateViewStatus(show, op)
 	if show then
 		self.img_Operate:loadTexture(string.format("cocostudio/game/image/game_state_%d.png", op))
 		self.img_Operate:setVisible(true)
 		self.text_Nickname:setVisible(false)
 		-- 弃牌头像变灰
-		if op and op == TexasPokerConfig.ACTION_GIVEUP then
+		if op == TexasPokerConfig.ACTION_GIVEUP then
 			self:setMaskStatus(true)
+		elseif op == TexasPokerConfig.ACTION_ALLIN then
+			self:showAllin()
 		end
 	else
 		local players = APP.GD.room_players
@@ -435,7 +457,11 @@ function ViewPlayer:clear()
 	self:setDealedCardStatus(false)
 	self:clearMyCard()
 	self:setCardTypeStatus(false)
-	
+
+	if self.allinAnim then
+		self.allinAnim:runAction(cc.Sequence:create(cc.FadeOut:create(0.3), cc.RemoveSelf:create()));
+		self.allinAnim = nil;
+	end
 end
 
 function ViewPlayer:actionEnter(pos)

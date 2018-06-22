@@ -7,7 +7,7 @@
 			<key>cocostudio/home/image/friendroom/friend_bg.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,0},{750,1334}}</string>
+				<string>{{1,1},{750,1334}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -18,7 +18,7 @@
 			<key>cocostudio/home/image/friendroom/friend_create_bg.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{750,0},{750,1334}}</string>
+				<string>{{753,1},{750,1334}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -29,7 +29,7 @@
 			<key>cocostudio/home/image/friendroom/haoyouchang_1xiaoshi1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{860,1757},{111,77}}</string>
+				<string>{{991,1474},{111,77}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -40,7 +40,7 @@
 			<key>cocostudio/home/image/friendroom/haoyouchang_1xiaoshi2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{860,1868},{111,77}}</string>
+				<string>{{1023,1337},{111,77}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -51,7 +51,7 @@
 			<key>cocostudio/home/image/friendroom/haoyouchang_2xiaoshi1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{937,1757},{111,77}}</string>
+				<string>{{991,1587},{111,77}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -62,7 +62,7 @@
 			<key>cocostudio/home/image/friendroom/haoyouchang_2xiaoshi2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{992,1622},{111,77}}</string>
+				<string>{{1070,1450},{111,77}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -73,7 +73,7 @@
 			<key>cocostudio/home/image/friendroom/haoyouchang_30fenzhong1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1032,1469},{111,77}}</string>
+				<string>{{1102,1337},{111,77}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -84,7 +84,7 @@
 			<key>cocostudio/home/image/friendroom/haoyouchang_30fenzhong2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{937,1868},{111,77}}</string>
+				<string>{{1070,1563},{111,77}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -95,7 +95,7 @@
 			<key>cocostudio/home/image/friendroom/haoyouchang_3xiaoshi1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1014,1733},{111,77}}</string>
+				<string>{{1085,1676},{111,77}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -106,7 +106,7 @@
 			<key>cocostudio/home/image/friendroom/haoyouchang_3xiaoshi2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1069,1580},{111,77}}</string>
+				<string>{{1085,1789},{111,77}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -117,7 +117,7 @@
 			<key>cocostudio/home/image/friendroom/haoyouchang_4xiaoshi1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1109,1469},{111,77}}</string>
+				<string>{{1097,1902},{111,77}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -128,7 +128,7 @@
 			<key>cocostudio/home/image/friendroom/haoyouchang_4xiaoshi2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1118,1334},{111,77}}</string>
+				<string>{{1149,1450},{111,77}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -139,7 +139,7 @@
 			<key>cocostudio/home/image/friendroom/haoyouchang_5xiaoshi1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1014,1844},{111,77}}</string>
+				<string>{{1181,1337},{111,77}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -150,18 +150,18 @@
 			<key>cocostudio/home/image/friendroom/haoyouchang_5xiaoshi2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1014,1955},{111,77}}</string>
+				<string>{{1149,1563},{111,77}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
-				<false />
+				<true />
 				<key>sourceSize</key>
 				<string>{111,77}</string>
 			</dict>
 			<key>cocostudio/home/image/friendroom/haoyouchang_anjian0.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{542,1663},{182,106}}</string>
+				<string>{{673,1337},{182,106}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -172,18 +172,18 @@
 			<key>cocostudio/home/image/friendroom/haoyouchang_anjian1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{542,1845},{182,106}}</string>
+				<string>{{673,1521},{182,106}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
-				<true />
+				<false />
 				<key>sourceSize</key>
 				<string>{182,106}</string>
 			</dict>
 			<key>cocostudio/home/image/friendroom/haoyouchang_anjian2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{648,1663},{182,106}}</string>
+				<string>{{545,1728},{182,106}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -194,18 +194,18 @@
 			<key>cocostudio/home/image/friendroom/haoyouchang_anjian3.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{648,1845},{182,106}}</string>
+				<string>{{545,1912},{182,106}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
-				<true />
+				<false />
 				<key>sourceSize</key>
 				<string>{182,106}</string>
 			</dict>
 			<key>cocostudio/home/image/friendroom/haoyouchang_anjian4.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{668,1334},{182,106}}</string>
+				<string>{{653,1728},{182,106}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -216,7 +216,7 @@
 			<key>cocostudio/home/image/friendroom/haoyouchang_anjian5.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{668,1516},{182,106}}</string>
+				<string>{{729,1912},{182,106}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -227,7 +227,7 @@
 			<key>cocostudio/home/image/friendroom/haoyouchang_anjian6.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{754,1622},{182,106}}</string>
+				<string>{{761,1728},{182,106}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -238,7 +238,7 @@
 			<key>cocostudio/home/image/friendroom/haoyouchang_anjian7.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{754,1804},{182,106}}</string>
+				<string>{{869,1728},{182,106}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -249,18 +249,7 @@
 			<key>cocostudio/home/image/friendroom/haoyouchang_anjian8.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{774,1334},{182,106}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<true />
-				<key>sourceSize</key>
-				<string>{182,106}</string>
-			</dict>
-			<key>cocostudio/home/image/friendroom/haoyouchang_anjian9.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{850,1516},{182,106}}</string>
+				<string>{{913,1912},{182,106}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -268,10 +257,21 @@
 				<key>sourceSize</key>
 				<string>{182,106}</string>
 			</dict>
+			<key>cocostudio/home/image/friendroom/haoyouchang_anjian9.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{977,1728},{182,106}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{182,106}</string>
+			</dict>
 			<key>cocostudio/home/image/friendroom/haoyouchang_anjianfanhui.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{880,1334},{182,106}}</string>
+				<string>{{781,1337},{182,106}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -282,7 +282,7 @@
 			<key>cocostudio/home/image/friendroom/haoyouchang_anjianshuziy.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,1987},{440,58}}</string>
+				<string>{{545,1668},{440,58}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -293,7 +293,7 @@
 			<key>cocostudio/home/image/friendroom/haoyouchang_bangzhuanniu.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{986,1334},{135,132}}</string>
+				<string>{{857,1521},{135,132}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -304,7 +304,7 @@
 			<key>cocostudio/home/image/friendroom/haoyouchang_bangzhuanniu2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{860,1622},{135,132}}</string>
+				<string>{{889,1337},{135,132}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -315,7 +315,7 @@
 			<key>cocostudio/home/image/friendroom/haoyouchang_bangzhug.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{542,1334},{329,126}}</string>
+				<string>{{545,1337},{329,126}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -326,7 +326,7 @@
 			<key>cocostudio/home/image/friendroom/haoyouchang_bangzhuneirong.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,1334},{653,542}}</string>
+				<string>{{1,1337},{653,542}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>

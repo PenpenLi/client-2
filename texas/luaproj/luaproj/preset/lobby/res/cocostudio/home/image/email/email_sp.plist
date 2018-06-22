@@ -7,7 +7,7 @@
 			<key>cocostudio/home/image/email/email_bg.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,0},{685,1090}}</string>
+				<string>{{1,1},{685,1090}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -18,7 +18,7 @@
 			<key>cocostudio/home/image/email/email_btn_close.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{933,693},{59,59}}</string>
+				<string>{{764,629},{59,59}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -29,7 +29,7 @@
 			<key>cocostudio/home/image/email/email_btn_close1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{933,752},{59,59}}</string>
+				<string>{{764,690},{59,59}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -40,7 +40,7 @@
 			<key>cocostudio/home/image/email/email_btn_get.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{832,0},{203,118}}</string>
+				<string>{{837,1},{203,118}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -51,7 +51,7 @@
 			<key>cocostudio/home/image/email/email_btn_get1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{832,203},{203,118}}</string>
+				<string>{{837,206},{203,118}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -62,7 +62,7 @@
 			<key>cocostudio/home/image/email/email_btn_left.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{950,0},{231,74}}</string>
+				<string>{{837,411},{231,74}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -73,7 +73,7 @@
 			<key>cocostudio/home/image/email/email_btn_left1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{950,231},{231,74}}</string>
+				<string>{{913,442},{231,74}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -84,7 +84,7 @@
 			<key>cocostudio/home/image/email/email_btn_right.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{832,406},{231,74}}</string>
+				<string>{{688,629},{231,74}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -95,7 +95,7 @@
 			<key>cocostudio/home/image/email/email_btn_right1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{933,462},{231,74}}</string>
+				<string>{{825,644},{231,74}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -106,7 +106,7 @@
 			<key>cocostudio/home/image/email/email_node_bg.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{685,0},{626,147}}</string>
+				<string>{{688,1},{626,147}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -117,7 +117,7 @@
 			<key>cocostudio/home/image/email/email_node_left.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{800,637},{93,95}}</string>
+				<string>{{901,675},{93,95}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -128,7 +128,7 @@
 			<key>cocostudio/home/image/email/email_t_down.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{906,406},{439,27}}</string>
+				<string>{{957,1},{439,27}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -139,7 +139,7 @@
 			<key>cocostudio/home/image/email/email_title.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{685,626},{115,95}}</string>
+				<string>{{688,862},{115,95}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>

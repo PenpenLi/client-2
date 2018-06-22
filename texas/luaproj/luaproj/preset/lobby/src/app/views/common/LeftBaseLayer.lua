@@ -2,18 +2,24 @@ local UIHelper = require("app.common.UIHelper")
 
 local LeftBaseLayer = class("LeftBaseLayer", cc.mvc.ViewBase)
 
-function LeftBaseLayer:ctor()
+function LeftBaseLayer:ctor(content)
 	LeftBaseLayer.super.ctor(self)
 
-	local csbnode = cc.CSLoader:createNode("cocostudio/common/LeftBaseLayer.csb")
-    csbnode:addTo(self)
+	self.csbnode = cc.CSLoader:createNode("cocostudio/common/LeftBaseLayer.csb")
+    self.csbnode:addTo(self)
 
-    local bg = UIHelper.seekNodeByName(csbnode, "Image_BG")
+    local bg = UIHelper.seekNodeByName(self.csbnode, "Image_BG")
     bg:addTouchEventListener(function(ref, t)
         if t == ccui.TouchEventType.ended then
             self:actionExit()
         end
     end)
+
+	if content then
+		local container = UIHelper.seekNodeByName(self.csbnode, "Image_Left")
+		local node = cc.CSLoader:createNode(content)
+		node:addTo(container)
+	end
 end
 
 function LeftBaseLayer:onEnter()

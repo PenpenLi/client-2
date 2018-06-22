@@ -3,12 +3,11 @@ local UIHelper = require("app.common.UIHelper")
 --local PopBaseLayer = require("app.views.common.PopBaseLayer")
 --local ViewRank = class("ViewRank", PopBaseLayer)
 local ViewRank = class("ViewRank",cc.mvc.ViewBase);
-local headIcons = require("app.common.ConstUtils")
+local headIcons = require("app.common.GameConfig")
 
 function ViewRank:ctor()
     ViewRank.super.ctor(self)
-      printLog("a","============================upDateRankInfo   ctor")
-     self.csbnode = cc.CSLoader:createNode("cocostudio/home/Rank.csb")
+    self.csbnode = cc.CSLoader:createNode("cocostudio/home/Rank.csb")
         :addTo(self)
     self.csbnode:setScale(0.01)
     self.rankIndex = 0
@@ -27,16 +26,8 @@ function ViewRank:ctor()
 
     local listViewNode = UIHelper.seekNodeByName( self.csbnode,"Panel_rank_node")  
     self.listViewNode = listViewNode
- --[[   self.item ={}
-    for i =1 ,11 do
-  
-   self.item[i] = listViewNode:clone()
-   self._listView:pushBackCustomItem(self.item[i]) 
-    end 
-   --]]
-          self.rankInfoTable ={} 
-        APP.hc:ReqRankData(0) 
-
+    self.rankInfoTable ={} 
+    APP.hc:ReqRankData(0) 
 
     self.Check_left = UIHelper.seekNodeByName( self.csbnode,"Check_1")
     self.Check_left:setSelected(true)
@@ -55,16 +46,11 @@ function ViewRank:ctor()
 
     self.Check_right = UIHelper.seekNodeByName( self.csbnode,"Check_2")
     self.Check_right:setSelected(false)
-     self.Check_right:addTouchEventListener(function (sender,evt)
-          if evt == ccui.TouchEventType.ended  and self.Check_right:isSelected()== false then
-
-            self:checkEvent(sender)
-          --  self.rankIndex = 0
-           -- self._listView:removeAllChildren()
-      
-             APP.hc:ReqRankData(1)
-            
-          end
+    self.Check_right:addTouchEventListener(function (sender,evt)
+		if evt == ccui.TouchEventType.ended  and self.Check_right:isSelected()== false then
+			self:checkEvent(sender)
+			APP.hc:ReqRankData(1)
+		end
     end)
 end
 
@@ -112,9 +98,8 @@ function ViewRank:upDateRankInfo(rankData)
 		img_no:setVisible(false)
     end 
 
-
     local img_head = rankNode:getChildByName("Image_head") 
-    local img_head_str = string.format("image/%s", headIcons.head_icon[tonumber(rankData.head_ico)])
+    local img_head_str = string.format("image/%s", headIcons:HeadIco(rankData.head_ico))
  
     img_head:loadTexture(img_head_str)
      

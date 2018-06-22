@@ -1,9 +1,8 @@
 local CMD = require("app.net.CMD")
 local UIHelper = require("app.common.UIHelper")
 local ViewHome = class("ViewHome", cc.mvc.ViewBase)
-local constUtils = require("app.common.ConstUtils")
 local GameConfig = require("app.common.GameConfig")
-local head_icon = constUtils.head_icon
+
 function ViewHome:ctor()
 	ViewHome.super.ctor(self)
 
@@ -115,8 +114,7 @@ end
 
 function ViewHome:updateUserInfo()
 	local gameUser = APP.GD.GameUser
-    local headID = tonumber(gameUser.head_pic) == 0 and 1 or tonumber(gameUser.head_pic)
-    self.Image_Head:loadTexture(string.format("image/%s",head_icon[headID]))
+    self.Image_Head:loadTexture(string.format("image/%s",GameConfig:HeadIco(gameUser.head_pic)))
     self.textGold:setString(tonumber(gameUser.gold_game))
     self.textNickname:setString(gameUser.uname)
 end
@@ -126,10 +124,6 @@ function ViewHome:onMsg(fromServer, subCmd, content)
         return 
     end
 	if subCmd == CMD.GAME_USERINFO_SET_RESP then
-        local msg = {
-            headId = tonumber(content.head_ico_),
-             nickName =content.nickname_,
-        }
         APP.GD.GameUser.head_pic = content.head_ico_
         APP.GD.GameUser.uname = content.nickname_
         self:updateUserInfo()

@@ -7,7 +7,7 @@
 			<key>cocostudio/home/image/sign/qiandao_tianshuzi.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{219,2003},{200,28}}</string>
+				<string>{{1,2014},{200,28}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -18,7 +18,7 @@
 			<key>cocostudio/home/image/sign/sign_12888.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{419,2003},{111,28}}</string>
+				<string>{{203,2014},{111,28}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -29,18 +29,18 @@
 			<key>cocostudio/home/image/sign/sign_3888.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{636,1821},{91,28}}</string>
+				<string>{{504,2014},{91,28}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
-				<true />
+				<false />
 				<key>sourceSize</key>
 				<string>{111,28}</string>
 			</dict>
 			<key>cocostudio/home/image/sign/sign_6888.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{530,2003},{92,28}}</string>
+				<string>{{316,2014},{92,28}}</string>
 				<key>offset</key>
 				<string>{1,0}</string>
 				<key>rotated</key>
@@ -51,18 +51,18 @@
 			<key>cocostudio/home/image/sign/sign_9888.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{636,1729},{92,28}}</string>
+				<string>{{410,2014},{92,28}}</string>
 				<key>offset</key>
 				<string>{1,0}</string>
 				<key>rotated</key>
-				<true />
+				<false />
 				<key>sourceSize</key>
 				<string>{111,28}</string>
 			</dict>
 			<key>cocostudio/home/image/sign/sign_award0.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1167,231},{72,72}}</string>
+				<string>{{1072,1},{72,72}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -73,7 +73,7 @@
 			<key>cocostudio/home/image/sign/sign_award1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1169,159},{72,72}}</string>
+				<string>{{1072,75},{72,72}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -84,18 +84,18 @@
 			<key>cocostudio/home/image/sign/sign_award3.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1155,335},{99,98}}</string>
+				<string>{{1421,323},{99,98}}</string>
 				<key>offset</key>
 				<string>{-1,0}</string>
 				<key>rotated</key>
-				<true />
+				<false />
 				<key>sourceSize</key>
 				<string>{109,109}</string>
 			</dict>
 			<key>cocostudio/home/image/sign/sign_bg.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,0},{750,1334}}</string>
+				<string>{{1,1},{750,1334}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -106,18 +106,18 @@
 			<key>cocostudio/home/image/sign/sign_btn_get.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{891,1948},{313,94}}</string>
+				<string>{{1047,149},{313,94}}</string>
 				<key>offset</key>
 				<string>{-2,0}</string>
 				<key>rotated</key>
-				<false />
+				<true />
 				<key>sourceSize</key>
 				<string>{370,160}</string>
 			</dict>
 			<key>cocostudio/home/image/sign/sign_btn_get1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{722,1575},{345,104}}</string>
+				<string>{{725,1580},{345,104}}</string>
 				<key>offset</key>
 				<string>{-2,0}</string>
 				<key>rotated</key>
@@ -128,18 +128,18 @@
 			<key>cocostudio/home/image/sign/sign_coin.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{622,2003},{44,47}}</string>
+				<string>{{897,1997},{44,47}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
-				<true />
+				<false />
 				<key>sourceSize</key>
 				<string>{44,47}</string>
 			</dict>
 			<key>cocostudio/home/image/sign/sign_day10.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,1729},{159,241}}</string>
+				<string>{{1,1734},{159,241}}</string>
 				<key>offset</key>
 				<string>{-1,-2}</string>
 				<key>rotated</key>
@@ -150,7 +150,7 @@
 			<key>cocostudio/home/image/sign/sign_day11.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{676,1729},{159,241}}</string>
+				<string>{{679,1734},{159,241}}</string>
 				<key>offset</key>
 				<string>{-1,-2}</string>
 				<key>rotated</key>
@@ -161,7 +161,7 @@
 			<key>cocostudio/home/image/sign/sign_day20.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{159,1729},{159,241}}</string>
+				<string>{{162,1734},{159,241}}</string>
 				<key>offset</key>
 				<string>{-1,-2}</string>
 				<key>rotated</key>
@@ -172,7 +172,7 @@
 			<key>cocostudio/home/image/sign/sign_day21.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{318,1729},{159,241}}</string>
+				<string>{{323,1734},{159,241}}</string>
 				<key>offset</key>
 				<string>{-1,-2}</string>
 				<key>rotated</key>
@@ -183,7 +183,7 @@
 			<key>cocostudio/home/image/sign/sign_day30.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{477,1729},{159,241}}</string>
+				<string>{{484,1734},{159,241}}</string>
 				<key>offset</key>
 				<string>{-1,-2}</string>
 				<key>rotated</key>
@@ -194,7 +194,7 @@
 			<key>cocostudio/home/image/sign/sign_day31.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{722,1334},{159,241}}</string>
+				<string>{{725,1337},{159,241}}</string>
 				<key>offset</key>
 				<string>{-1,-2}</string>
 				<key>rotated</key>
@@ -205,7 +205,7 @@
 			<key>cocostudio/home/image/sign/sign_day40.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{835,1707},{159,241}}</string>
+				<string>{{840,1723},{159,241}}</string>
 				<key>offset</key>
 				<string>{-1,-2}</string>
 				<key>rotated</key>
@@ -216,7 +216,7 @@
 			<key>cocostudio/home/image/sign/sign_day41.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{994,1679},{159,241}}</string>
+				<string>{{1001,1686},{159,241}}</string>
 				<key>offset</key>
 				<string>{-1,-2}</string>
 				<key>rotated</key>
@@ -227,7 +227,7 @@
 			<key>cocostudio/home/image/sign/sign_day50.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1067,0},{159,241}}</string>
+				<string>{{1421,1},{159,241}}</string>
 				<key>offset</key>
 				<string>{-1,-2}</string>
 				<key>rotated</key>
@@ -238,18 +238,18 @@
 			<key>cocostudio/home/image/sign/sign_day51.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{881,0},{159,241}}</string>
+				<string>{{1162,1},{159,241}}</string>
 				<key>offset</key>
 				<string>{-1,-2}</string>
 				<key>rotated</key>
-				<false />
+				<true />
 				<key>sourceSize</key>
 				<string>{189,285}</string>
 			</dict>
 			<key>cocostudio/home/image/sign/sign_day60.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{750,345},{159,241}}</string>
+				<string>{{886,1},{159,241}}</string>
 				<key>offset</key>
 				<string>{-1,-2}</string>
 				<key>rotated</key>
@@ -260,7 +260,7 @@
 			<key>cocostudio/home/image/sign/sign_day61.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{750,586},{159,241}}</string>
+				<string>{{886,244},{159,241}}</string>
 				<key>offset</key>
 				<string>{-1,-2}</string>
 				<key>rotated</key>
@@ -271,29 +271,29 @@
 			<key>cocostudio/home/image/sign/sign_day70.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{750,827},{159,241}}</string>
+				<string>{{1664,1},{159,241}}</string>
 				<key>offset</key>
 				<string>{-1,-2}</string>
 				<key>rotated</key>
-				<false />
+				<true />
 				<key>sourceSize</key>
 				<string>{189,285}</string>
 			</dict>
 			<key>cocostudio/home/image/sign/sign_day71.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{750,1068},{159,241}}</string>
+				<string>{{1421,162},{159,241}}</string>
 				<key>offset</key>
 				<string>{-1,-2}</string>
 				<key>rotated</key>
-				<false />
+				<true />
 				<key>sourceSize</key>
 				<string>{189,285}</string>
 			</dict>
 			<key>cocostudio/home/image/sign/sign_get_bg.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,1334},{722,395}}</string>
+				<string>{{1,1337},{722,395}}</string>
 				<key>offset</key>
 				<string>{0,-2}</string>
 				<key>rotated</key>
@@ -304,40 +304,40 @@
 			<key>cocostudio/home/image/sign/sign_get1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1055,335},{140,100}}</string>
+				<string>{{1664,310},{140,100}}</string>
 				<key>offset</key>
 				<string>{-2,1}</string>
 				<key>rotated</key>
-				<true />
+				<false />
 				<key>sourceSize</key>
 				<string>{189,285}</string>
 			</dict>
 			<key>cocostudio/home/image/sign/sign_get2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1050,490},{118,119}}</string>
+				<string>{{1907,155},{118,119}}</string>
 				<key>offset</key>
 				<string>{-3,1}</string>
 				<key>rotated</key>
-				<false />
+				<true />
 				<key>sourceSize</key>
 				<string>{189,285}</string>
 			</dict>
 			<key>cocostudio/home/image/sign/sign_get3.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{909,335},{155,146}}</string>
+				<string>{{1664,162},{155,146}}</string>
 				<key>offset</key>
 				<string>{0,-8}</string>
 				<key>rotated</key>
-				<true />
+				<false />
 				<key>sourceSize</key>
 				<string>{189,285}</string>
 			</dict>
 			<key>cocostudio/home/image/sign/sign_get4.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{909,802},{143,127}}</string>
+				<string>{{753,474},{143,127}}</string>
 				<key>offset</key>
 				<string>{0,-1}</string>
 				<key>rotated</key>
@@ -348,18 +348,18 @@
 			<key>cocostudio/home/image/sign/sign_get5.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{909,490},{156,141}}</string>
+				<string>{{1821,275},{156,141}}</string>
 				<key>offset</key>
 				<string>{0,1}</string>
 				<key>rotated</key>
-				<true />
+				<false />
 				<key>sourceSize</key>
 				<string>{189,285}</string>
 			</dict>
 			<key>cocostudio/home/image/sign/sign_get6.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{909,646},{156,123}}</string>
+				<string>{{753,316},{156,123}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -370,7 +370,7 @@
 			<key>cocostudio/home/image/sign/sign_get7.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1032,646},{152,118}}</string>
+				<string>{{1907,1},{152,118}}</string>
 				<key>offset</key>
 				<string>{-2,-4}</string>
 				<key>rotated</key>
@@ -381,7 +381,7 @@
 			<key>cocostudio/home/image/sign/sign_had_got.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{673,1988},{183,35}}</string>
+				<string>{{725,1686},{183,35}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -392,18 +392,18 @@
 			<key>cocostudio/home/image/sign/sign_img6d.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{835,1948},{56,29}}</string>
+				<string>{{645,1870},{56,29}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
-				<false />
+				<true />
 				<key>sourceSize</key>
 				<string>{76,29}</string>
 			</dict>
 			<key>cocostudio/home/image/sign/sign_item_had_got.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1040,159},{129,72}}</string>
+				<string>{{943,1966},{129,72}}</string>
 				<key>offset</key>
 				<string>{0,-1}</string>
 				<key>rotated</key>
@@ -414,7 +414,7 @@
 			<key>cocostudio/home/image/sign/sign_line0.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,1970},{676,18}}</string>
+				<string>{{1,1977},{676,18}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -425,7 +425,7 @@
 			<key>cocostudio/home/image/sign/sign_line1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,1988},{673,15}}</string>
+				<string>{{1,1997},{673,15}}</string>
 				<key>offset</key>
 				<string>{-1,1}</string>
 				<key>rotated</key>
@@ -436,7 +436,7 @@
 			<key>cocostudio/home/image/sign/sign_number.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,2003},{219,29}}</string>
+				<string>{{676,1997},{219,29}}</string>
 				<key>offset</key>
 				<string>{-1,0}</string>
 				<key>rotated</key>
@@ -447,18 +447,7 @@
 			<key>cocostudio/home/image/sign/sign_sure.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{854,241},{313,94}}</string>
-				<key>offset</key>
-				<string>{-2,0}</string>
-				<key>rotated</key>
-				<false />
-				<key>sourceSize</key>
-				<string>{370,160}</string>
-			</dict>
-			<key>cocostudio/home/image/sign/sign_sure1.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{750,0},{345,104}}</string>
+				<string>{{753,1},{313,94}}</string>
 				<key>offset</key>
 				<string>{-2,0}</string>
 				<key>rotated</key>
@@ -466,10 +455,21 @@
 				<key>sourceSize</key>
 				<string>{370,160}</string>
 			</dict>
+			<key>cocostudio/home/image/sign/sign_sure1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1074,1929},{345,104}}</string>
+				<key>offset</key>
+				<string>{-2,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{370,160}</string>
+			</dict>
 			<key>cocostudio/home/image/sign/sign_t10d.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{722,1679},{76,29}}</string>
+				<string>{{597,2014},{76,29}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -480,29 +480,29 @@
 			<key>cocostudio/home/image/sign/sign_t15d.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{798,1679},{76,28}}</string>
+				<string>{{645,1734},{76,28}}</string>
 				<key>offset</key>
 				<string>{0,-1}</string>
 				<key>rotated</key>
-				<false />
+				<true />
 				<key>sourceSize</key>
 				<string>{76,29}</string>
 			</dict>
 			<key>cocostudio/home/image/sign/sign_t3d.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{856,1977},{56,29}}</string>
+				<string>{{840,1966},{56,29}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
-				<true />
+				<false />
 				<key>sourceSize</key>
 				<string>{76,29}</string>
 			</dict>
 			<key>cocostudio/home/image/sign/sign_tjb.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{636,1912},{56,30}}</string>
+				<string>{{645,1812},{56,30}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -513,11 +513,11 @@
 			<key>cocostudio/home/image/sign/sin_item_shade.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{881,1309},{159,237}}</string>
+				<string>{{1143,162},{159,237}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
-				<false />
+				<true />
 				<key>sourceSize</key>
 				<string>{159,237}</string>
 			</dict>

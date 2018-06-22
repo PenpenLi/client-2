@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dir n="preset" d="2018-06-21" v="1053">
+<dir d="2018-06-21" v="1054" n="preset">
     <zips>
         <f n="update.zip" s=""></f>
     </zips>
-    <f n="version_config.xml" s="52068">2dfe8991703fcbe057fd00426ece0202</f>
+    <f n="version_config.xml" s="52068">1d78e9a3cd67a90c0d17ec07328fa9ae</f>
     <dir n="common">
         <dir n="res"/>
         <dir n="src"/>
@@ -82,8 +82,8 @@
                     <f n="PopBaseLayer.csb" s="2416">c4fe3906fd538299b69f8cd8c0ca1530</f>
                     <f n="WaitingLayer.csb" s="2528">cdb7cb4509bc4639e8911edf19b4c397</f>
                     <dir n="image">
-                        <f n="common_sp.plist" s="7180">816509eb0731ce827a041a239946515d</f>
-                        <f n="common_sp.png" s="648694">7d452a644574ac634634325da9c4a236</f>
+                        <f n="common_sp.plist" s="7189">2538a90148a4bf5c4d401b2a497149ad</f>
+                        <f n="common_sp.png" s="648694">38e6524787437f6da11c317d980e6b77</f>
                     </dir>
                 </dir>
                 <dir n="game">
@@ -332,8 +332,8 @@
                     <f n="FriendRoomLayer.csb" s="7988">f063721722ba185019edf6c36f2632d0</f>
                     <f n="FullScreenBaseLayer.csb" s="1940">9fe322ec08117148b1cdef4455bfaf4c</f>
                     <f n="Game_rule.csb" s="4920">59c3c3f1bf09d85d42dc9807d51a8a36</f>
-                    <f n="home_sp.plist" s="14881">79f6a5569f8da7044e216abacb812653</f>
-                    <f n="home_sp.png" s="2152084">17dbe322039afa8083bba0034b1d751f</f>
+                    <f n="home_sp.plist" s="14890">27476699c27711bbaa60f822c5a9f0fa</f>
+                    <f n="home_sp.png" s="2152084">5a592c06db07d6dc99fe9ff149bfc945</f>
                     <f n="HomeLayer.csb" s="10220">2eae704b77bc3b38a9f142b8d73c147d</f>
                     <f n="MailLayer.csb" s="3144">8dd00b8b8d9ae889ca8cecc798815e81</f>
                     <f n="MailNode.csb" s="2996">41612972b0eaa6cd825205656b13827f</f>
@@ -369,18 +369,18 @@
                         <f n="qiandao_jinbishuzi-export.fnt" s="1874">bec64c7f3f960571754b82dbad225659</f>
                         <f n="qiandao_jinbishuzi-export.png" s="4365">875c66d63984ff989b19b77de82b0108</f>
                         <dir n="daily_tasks">
-                            <f n="daily_tasks_sp.plist" s="4164">2c4acddc2755f10d7a32d89d2f587abd</f>
-                            <f n="daily_tasks_sp.png" s="590858">aa053aa6c4f0760f3a04827fde3c0086</f>
+                            <f n="daily_tasks_sp.plist" s="4164">eeabcf360b38da66a72a934333ef681b</f>
+                            <f n="daily_tasks_sp.png" s="591773">f92e0c4877d2f619d172e48b51adb3fb</f>
                         </dir>
                         <dir n="email">
-                            <f n="email_sp.plist" s="4353">da6e5dfaaf30e4d0862bd9a9265b197d</f>
-                            <f n="email_sp.png" s="617770">8cf57c2f6eef9917bbcf28042631093c</f>
+                            <f n="email_sp.plist" s="4353">6376dff28f9217ede3f6cef542b86560</f>
+                            <f n="email_sp.png" s="620201">ff5705c8db511bee4229a7534dbf9269</f>
                         </dir>
                         <dir n="friendroom">
-                            <f n="friendroom_sp.plist" s="9645">cbd8e29ba997309a49d26d68d044d3c5</f>
-                            <f n="friendroom_sp.png" s="1449503">8e276d5c26766fc619987ae7fefafbb0</f>
-                            <f n="friendroom_sp2.plist" s="15400">6c22802e41efbf2eaecc2a62fcbffbfd</f>
-                            <f n="friendroom_sp2.png" s="3656711">095859bef4ce2ee1d44291a68aa995d5</f>
+                            <f n="friendroom_sp.plist" s="9651">3e662ebe8ab878d0225fbbd5ebe484d9</f>
+                            <f n="friendroom_sp.png" s="1449503">b89c92a83239a72a07552bbcc17abeb3</f>
+                            <f n="friendroom_sp2.plist" s="15389">c690d998d1dd7b01494142612f0fc471</f>
+                            <f n="friendroom_sp2.png" s="3738858">3dfbd08466b65a475a77d8c64f7d3bba</f>
                         </dir>
                         <dir n="game_rule">
                             <f n="gl_1.png" s="123303">21c1f79f98405fadde2f66898d062fa8</f>
@@ -393,16 +393,16 @@
                             <f n="youxiguizewanfa.png" s="587470">c543fce67a23fb7581db61863c989422</f>
                         </dir>
                         <dir n="mission">
-                            <f n="mission_sp.plist" s="4745">2f33bd360561593951a85c78cbe67001</f>
-                            <f n="mission_sp.png" s="616151">76338633f7e4bf16e0a1bbf9edf3437d</f>
+                            <f n="mission_sp.plist" s="4745">a2a6e6a2150f687e2cac724719ecbe11</f>
+                            <f n="mission_sp.png" s="617476">625f957e8357dd1cc4ac8e6fcdae4b4e</f>
                         </dir>
                         <dir n="personal">
                             <f n="personal_sp.plist" s="7113">f2ff1f5b2272507e1fc1a30cae017779</f>
                             <f n="personal_sp.png" s="1875010">36403b85f43117fc8289136cabac06d5</f>
                         </dir>
                         <dir n="Rank">
-                            <f n="rank_sp.plist" s="6309">bb240fbf829e608ed45ad0d5433d21ef</f>
-                            <f n="rank_sp.png" s="736779">8f693acae35dcef6c343924a9bf31643</f>
+                            <f n="rank_sp.plist" s="6309">151308eeabcadd342a5930a13affcf74</f>
+                            <f n="rank_sp.png" s="739759">be71e986e078d3829b0ad5802c1ec980</f>
                         </dir>
                         <dir n="service">
                             <f n="kefu_kefu.png" s="5231">de58993687089e2be1aa460419740192</f>
@@ -419,12 +419,12 @@
                             <f n="shezhi_yinyuekai.png" s="13117">0ae60cddd4f39bed7c3c195bffad5b4c</f>
                         </dir>
                         <dir n="shop">
-                            <f n="shop_sp.plist" s="15489">aa32e0b83516f7ce28a9c46cbf1f0fd4</f>
-                            <f n="shop_sp.png" s="4057298">205d6b317da4eae29f7097194087f639</f>
+                            <f n="shop_sp.plist" s="15500">9086cb336f16592126b469f4e3706884</f>
+                            <f n="shop_sp.png" s="4057298">ba48d7586a74d9a7fc5806897805f6b6</f>
                         </dir>
                         <dir n="sign">
-                            <f n="home_sign_sp.plist" s="14000">10ec5229b609b45150db151940d3bfcc</f>
-                            <f n="home_sign_sp.png" s="2500249">c96f369a2f34dc62125418b534a309b9</f>
+                            <f n="home_sign_sp.plist" s="13998">a6a76594f93f4ca9e5ba6f714fede74b</f>
+                            <f n="home_sign_sp.png" s="2500249">1ea14201bf2583e53a5d900161da4196</f>
                             <f n="qiandao_3888-export.fnt" s="1670">056700c0596feca4d0ea98695a6fd6ff</f>
                             <f n="qiandao_3888-export.png" s="4152">0cc694e077e5e90618984cf299e99eae</f>
                             <f n="qiandao_liutian-export.fnt" s="1575">bb07e1a39b4873eb4a9be6f044246fc3</f>
@@ -490,8 +490,8 @@
                 <f n="dating_beijingmengbang.png" s="518836">ee05a01f6084967227d998a387ad95e7</f>
                 <f n="login_frame.csb" s="5388">71e1a9fca645c06fb2b51c2de9aa0ab5</f>
                 <f n="login_input.csb" s="12244">9c55931d1159672ed59820e7ebd63e55</f>
-                <f n="login_sp.plist" s="8990">cf4687d5614782c24e16e93c752d9553</f>
-                <f n="login_sp.png" s="2197214">553165f068302497fe88323ef0c4e9b4</f>
+                <f n="login_sp.plist" s="8986">f2a0ce8e65117a846e9852b978358157</f>
+                <f n="login_sp.png" s="2197214">1e9ef1e095613627c4ea6a1f5f5bd89c</f>
             </dir>
         </dir>
         <dir n="src">

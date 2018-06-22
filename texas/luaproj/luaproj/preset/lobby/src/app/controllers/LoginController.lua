@@ -15,7 +15,6 @@ local LoginController = class("LoginController", ControllerBase)
 function LoginController:ctor(autoLogin)
     LoginController.super.ctor(self)
     UIHelper.cacheCards()
-    UIHelper.cacheHeads()
 
 	self.loginView = APP:createView("login.ViewLogin", self, autoLogin)
 	self:addChild(self.loginView)

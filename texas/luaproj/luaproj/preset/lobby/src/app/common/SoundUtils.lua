@@ -25,7 +25,13 @@ SoundUtils.GameSound.CHIPFLYPLAYER = {"audio/game/gameEffect/effect_chipflypeopl
 SoundUtils.GameSound.FANPAI = {"audio/game/gameEffect/effect_fapai1.mp3", "audio/game/gameEffect/effect_fapai2.mp3", "audio/game/gameEffect/effect_fapai3.mp3"}	--翻牌
 SoundUtils.GameSound.TURN = {"audio/game/gameEffect/effect_turn0.mp3", "audio/game/gameEffect/effect_turn0.mp3"}						-- 倒计时
 SoundUtils.GameSound.WIN = {"audio/game/gameEffect/effect_win.mp3"}			-- 胜利
+SoundUtils.GameSound.NEWTURN = {"audio/game/gameEffect/effect_huakuaidaoding.mp3"}		
+SoundUtils.GameSound.BET = {"audio/game/gameEffect/effect_chip.mp3"}
+SoundUtils.GameSound.PASSEFF = {"audio/game/gameEffect/effect_newpass.mp3"}	
+SoundUtils.GameSound.FOLDEFF = {"audio/game/gameEffect/effect_EveryoneFold.mp3"}	
 
+
+SoundUtils.GameSound.PLAYERSIT = {"audio/game/gameEffect/effect_sit.mp3"}
 
 function SoundUtils.preloadMusic()
 	for _, bgFile in pairs(SoundUtils.GameSoundBG) do

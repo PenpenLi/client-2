@@ -1,5 +1,6 @@
 local UIHelper = require("app.common.UIHelper")
 local utils = require("utils")
+local GameConfig = require("app.common.GameConfig")
 local PopBaseLayer = require("app.views.common.PopBaseLayer")
 local ViewPlayerInfo = class("ViewPlayerInfo", PopBaseLayer)
 
@@ -23,7 +24,7 @@ function ViewPlayerInfo:ctor(uid)
 		:move(357, 253)
 
 	self.img_Head = UIHelper.seekNodeByName(csbnode, "Image_Head")
-	self.img_Head:loadTexture(string.format("cocostudio/game/image/head_%d.png", player.head_ico or 1))
+	self.img_Head:loadTexture(string.format("image/%s", GameConfig:HeadIco(player.head_ico)))
 
 	local text_Nickname = UIHelper.seekNodeByName(csbnode, "Text_Nickname")
 	text_Nickname:setString(tostring(player.uname))
@@ -32,7 +33,7 @@ function ViewPlayerInfo:ctor(uid)
 	text_Gold:setString(utils.convertNumberShort(player.credits))
 
 	local text_Total = UIHelper.seekNodeByName(csbnode, "AtlasLabel_Total")
-	text_Total:setString(tostring(10000))
+	text_Total:setString(tostring(20))
 	local text_Win = UIHelper.seekNodeByName(csbnode, "AtlasLabel_Win")
 	local text_BetIn = UIHelper.seekNodeByName(csbnode, "AtlasLabel_BetIn")
 	local text_BetOut = UIHelper.seekNodeByName(csbnode, "AtlasLabel_BetOut")
@@ -57,12 +58,7 @@ end
 -- 显示数字和调整百分号的位置
 function ViewPlayerInfo:updateNumber(textNode, number)
 	local n_str = tostring(number)
-	-- 取一位小数
-	local dot = string.find(n_str, '%.') 
-    if dot then
-        n_str = string.format("%s:%s", string.sub(n_str, 1, dot - 1), string.sub(n_str, dot + 1, dot + 1))
-    end
-    textNode:setString(n_str)
+    textNode:setString(n_str.."%")
 end
 
 -- 添加道具

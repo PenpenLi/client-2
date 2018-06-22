@@ -113,9 +113,9 @@ function HomeController:enterRoom(roomId, roundId)
 end
 
 -- ”√ªß…Ë÷√
-function HomeController:sendUserInfo(headId,nickName)
+function HomeController:sendUserInfo(headId, nickName)
 	local data = {
-		head_ico_ = tostring(headId),
+		head_ico_ = headId,
 		headframe_id_ = "",
 		nickname_ = nickName
 	}

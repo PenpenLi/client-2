@@ -9,7 +9,7 @@ function Player:ctor()
     self.pos = 0        -- 座位号
     self.roomid = 0
     self.sequence_1 = 0
-    self.head_ico = 0
+    self.head_ico = "1"
     self.headframe_id = 0
 
     self.is_ready = false
@@ -41,7 +41,7 @@ function Player:setServerData(data)
     self.pos = tonumber(data.pos_)
     self.roomid = tonumber(data.roomid_)
     self.sequence_1 = tonumber(data.sequence_1_)
-    self.head_ico = tonumber(data.head_ico_)
+    self.head_ico = data.head_ico_
     self.headframe_id = tonumber(data.headframe_id_)
 
     -- self.action = tonumber(data.action_)

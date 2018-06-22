@@ -61,8 +61,31 @@ function UIHelper.cacheCards()
     end
 end
 
+function UIHelper.newCard(cstr, isSmall, anchor)
+	local cards_str = string.split(cstr, ",")
+	local cards = {}
+	for i = 1, #cards_str do
+		local img = nil;
+		if cards_str[i] ~= "" then 
+			if isSmall then
+				img = string.format("#image/card_small_%s.png", cards_str[i])
+			else
+				img = string.format("#image/card_%s.png", cards_str[i])
+			end
+			local img = display.newSprite(img);
+			table.insert(cards, img);
+
+			if anchor then
+				img:setAnchorPoint(anchor)
+			end
+		end
+	end
+	return cards;
+end
+
+
 function UIHelper.cacheHeads()
-    cc.SpriteFrameCache:getInstance():addSpriteFrames("cocostudio/game/Head.plist")
+    
 end
 
 function UIHelper.cacheEffectHome()
@@ -87,7 +110,7 @@ function UIHelper.formatScoreText(score)
 
     return scorestr
 end
-function UIHelper.newAnimation(nframes, container, formator, pos)
+function UIHelper.newAnimation(nframes, container, formator, pos, norepeat)
 	local spriteFrameCache = cc.SpriteFrameCache:getInstance()
 	local frames = {}
 	for i = 1, nframes do
@@ -100,7 +123,12 @@ function UIHelper.newAnimation(nframes, container, formator, pos)
 	if pos then
 		sprite:move(pos);
 	end
-	sprite:runAction(cc.RepeatForever:create(animate));
+
+	if norepeat then
+		sprite:runAction(cc.Sequence:create(animate, cc.RemoveSelf:create()));
+	else
+		sprite:runAction(cc.RepeatForever:create(animate));
+	end
 	return sprite, animate;
 end
 
