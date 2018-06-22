@@ -191,7 +191,6 @@
               <Image Name="zhujiemian_gaopaiduizitonghua.png" />
               <Fnt Name="zhujiemian_gaopaiduizitonghua-export.fnt" />
               <Image Name="zhujiemian_genzhu.png" />
-              <Image Name="zhujiemian_genzhu2.png" />
               <Image Name="zhujiemian_genzhuanniu1.png" />
               <Image Name="zhujiemian_genzhuanniu2.png" />
               <Image Name="zhujiemian_genzhuanniua21.png" />
@@ -204,8 +203,6 @@
               <Image Name="zhujiemian_hongdian.png" />
               <Image Name="zhujiemian_huidaozuowei1.png" />
               <Image Name="zhujiemian_huidaozuowei2.png" />
-              <Image Name="zhujiemian_hulu.png" />
-              <Image Name="zhujiemian_jiazhu.png" />
               <Image Name="zhujiemian_jiazhu1.png" />
               <Image Name="zhujiemian_jiazhu1111.png" />
               <Image Name="zhujiemian_jiazhu2.png" />
@@ -227,7 +224,6 @@
               <Image Name="zhujiemian_qipaianniu21.png" />
               <Image Name="zhujiemian_qipaianniu22.png" />
               <Image Name="zhujiemian_quanda.png" />
-              <Image Name="zhujiemian_quanxia.png" />
               <Image Name="zhujiemian_quanxia1.png" />
               <Image Name="zhujiemian_quanxia2.png" />
               <Image Name="zhujiemian_quanxiao.png" />
