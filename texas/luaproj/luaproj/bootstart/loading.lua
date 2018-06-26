@@ -33,6 +33,10 @@ end
 function loadingFrame:updateProgress(desc, cur, max)
 	local des = seekNodeByName(self.container, "txtDesc");
 	local pct = seekNodeByName(self.container, "progress");
+	if cur > max then
+		cur = max;
+	end
+
 	if max == 0 then
 		des:setString(desc);
 	else
