@@ -185,9 +185,13 @@ function utils.shuffleTable(t)
     end
 end
 
-function utils.timeStr(timestamp)
+function utils.timeStr(timestamp, fmt)
     local time = timestamp or socket.gettime()
-    return os.date("%Y-%m-%d %H:%M:%S", time)
+	if fmt then
+		return os.date(fmt, time)
+	else
+		return os.date("%Y-%m-%d %H:%M:%S", time)
+	end
 end
 
 function utils.timeStrHMS(seconds)
