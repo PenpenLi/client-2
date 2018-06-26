@@ -39,6 +39,12 @@ function ViewShop:ctor(isShowDiamond, container)
 			self:removeSelf()
 		end
 	end)
+	
+	local gameUser = APP.GD.GameUser
+	local Text_Deposit =  UIHelper.seekNodeByName(csbnode, "Text_Deposit")
+	if Text_Deposit then
+		Text_Deposit:setString(tostring(gameUser.gold_game));	
+	end
 
 --	self.btn_Gold = UIHelper.seekNodeByName(csbnode, "Button_Gold")
 --	self.btn_Gold:addTouchEventListener(function(ref, t)

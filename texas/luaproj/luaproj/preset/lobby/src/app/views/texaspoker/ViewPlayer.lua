@@ -112,7 +112,7 @@ function ViewPlayer:setUser(usr, isclone)
 
         self:createResItem()
 
-		if isRight then
+		if self.isRight then
 			local posy = self.img_Banker:getPositionY()
 			local posx = self.img_Banker:getPositionX()
 			self.img_Banker:setPosition(cc.p(-posx, posy))

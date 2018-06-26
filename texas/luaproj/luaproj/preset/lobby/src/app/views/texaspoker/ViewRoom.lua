@@ -5,6 +5,7 @@ local CMD = require("app.net.CMD")
 local ViewCard = require("app.views.texaspoker.ViewCard")
 local TexasPokerConfig = require("app.models.TexasPokerConfig")
 local ResItemWidget = require("app.views.common.ResItemWidget")
+local LANG = require("app.language.lang")
 
 local ViewRoom = class("ViewRoom", cc.mvc.ViewBase)
 
@@ -170,9 +171,63 @@ function ViewRoom:ctor(isPrivate)
 			APP:getCurrentController():showLastGameLayer()
 		end
 	end)
-
+	
+	self.evt = addListener(self, "NET_MSG", handler(self, self.onMsg));
 end
 
+function ViewRoom:onMsg(fromServer, subCmd, content)
+	if fromServer ~= 3 then
+		return;
+	end
+
+	if subCmd == CMD.GAME_PRIVATE_ROOM_INFO then
+		self:onPrivateInfo(content)
+	elseif subCmd == CMD.GAME_ROOM_NEED_RENEW then
+		APP:getCurrentController():showAlertOK({desc = LANG.TIP_ROOM_NEED_RENEW});
+	end
+end
+
+--content:
+--int			roomid_;
+--std::string	master_;		//房主
+--int			left_time_;		//房间剩余时长
+--std::string	param_;
+--int			total_turn_;	//总局数
+--int			cur_turn_;		//当前局数
+--int			player_num_;	//当前房间人数
+--int			total_player_;
+--int			state_;
+--int			bet_set_;
+--int			to_banker_set_;
+function ViewRoom:onPrivateInfo(content)
+	self.content = content;
+	local privateRoom = UIHelper.seekNodeByName(self.csbnode, "privateRoom");
+	privateRoom:setVisible(true);
+
+	local txtMaster = UIHelper.seekNodeByName(privateRoom, "txtMaster");
+	txtMaster:setString(content.master_.."的房间");
+
+	self.txtIDs = UIHelper.seekNodeByName(privateRoom, "txtIDs");
+
+	if not self.evt1 then
+		self.evt1 = scheduler.scheduleGlobal(handler(self, self.updateTimeLeft), 0.4)
+	end
+
+	self.timeleft = os.time() + tonumber(content.left_time_)
+end
+
+function ViewRoom:updateTimeLeft()
+	local tml = self.timeleft - os.time();
+	local h = math.floor(tml / 3600);
+	local m = math.floor((tml - 3600 * h) / 60);
+	local s = tml - 3600 * h - 60 * m;
+	local ct = string.format("%02d", h) .. ":" .. string.format("%02d", m) .. ":".. string.format("%02d", s)
+	if tml > 0 then
+		self.txtIDs:setString(string.format("房间ID:%s 时间 %s", self.content.roomid_, ct));	
+	else
+		self.txtIDs:setString(string.format("房间ID:%s 时间 00:00:00", self.content.roomid_));
+	end
+end
 
 function ViewRoom:newPlayerUI(clipos)
 	local uip = UIHelper.seekNodeByName(self.csbnode, "Players");
@@ -252,7 +307,7 @@ end
 function ViewRoom:leaveSeat(serverpos)
 	if serverpos < 0 then
 		--如果变为观察者
-		if APP.GD.GameUser.is_observer_ then
+		if APP.GD.GameUser.is_observer_ == 1 then
 			for i = 1, maxset do
 				self.playersUI[i]:setSitVisible(true);
 			end
@@ -279,12 +334,19 @@ function ViewRoom:leaveSeat(serverpos)
 		if player and player.uid == APP.GD.GameUser.uid then
 			self:hideOperateButtons();
 			self:clearMyCard();
-			
 			--如果变为观察者
-			if APP.GD.GameUser.is_observer_ then
+			if APP.GD.GameUser.is_observer_ == 1 then
 				for i = 1, maxset do
 					self.playersUI[i]:setSitVisible(true);
 				end
+			else
+				local opt = {};
+				opt.desc = LANG.TIP_LEAVE_ROOM;
+				opt.okCallback = function()
+					APP.GD.room_id = 0;
+					APP:ActiveCtrl("HomeController");
+				end
+				APP:getCurrentController():showAlertOK(opt);
 			end
 		end
 	end
@@ -321,6 +383,10 @@ end
 
 function ViewRoom:onExit()
 	ViewRoom.super.onExit(self)
+	removeListener(self.evt);
+	if self.evt1 then
+		scheduler.unscheduleGlobal(self.evt1)
+	end
 end
 
 function ViewRoom:updateBasePool(pool)

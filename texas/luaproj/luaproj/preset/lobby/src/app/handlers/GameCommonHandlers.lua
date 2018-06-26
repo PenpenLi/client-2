@@ -171,6 +171,8 @@ function GameCommonHandlers.handlePlayerLeaveNotify(content)
     --如果转为观察者
     if tonumber(content.why_) == 10 then
         gameUser.is_observer_ = 1;
+	else
+		gameUser.is_observer_ = 0;
     end
 
     -- 删除玩家

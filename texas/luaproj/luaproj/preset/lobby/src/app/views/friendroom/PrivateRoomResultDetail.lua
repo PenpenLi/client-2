@@ -33,9 +33,6 @@ function PrivateRoomResultDetail:ctor(ctrl, container, content)
 	local txtBet = UIHelper.seekNodeByName(self.csbnode,"txtBet");
 	txtBet:setString(content.betset_);
 
-	local txtBet = UIHelper.seekNodeByName(self.csbnode,"txtBet");
-	txtBet:setString(content.betset_);
-
 	local txtTimeSet = UIHelper.seekNodeByName(self.csbnode,"txtTimeSet");
 	txtTimeSet:setString(utils.timeStr2(tonumber(content.time_set_)));
 end

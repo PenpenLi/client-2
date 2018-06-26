@@ -14,7 +14,7 @@ function HomeController:ctor()
 	self.waitHandle2 = nil;
 	self:enableNodeEvents()
 	UIHelper.cacheEffectHome()
-
+	cc.SpriteFrameCache:getInstance():addSpriteFrames("cocostudio/home/image/personal/personal_sp.plist")
 	UIHelper.cacheCards()
 
 	self:addChild(APP:createView("home.ViewHome", self))
@@ -45,7 +45,7 @@ end
 
 function  HomeController:onError(desc)
 	APP.hc:hideWaiting();
-	self:showAlertOK(desc);
+	self:showAlertOK({desc = desc});
 end
 
 function  HomeController:QueryMyPrivateRoom()

@@ -21,7 +21,8 @@ end
 
 function PrivateRoomItem:setInfo(content)
 	self.ct = content;
-    self.txtName:setString(content.master_ .. "的牌局")
+    self.txtName:setString(content.master_ .. "的牌局 ID:"..content.roomid_);
+
 	self.txtPlayers:setString(content.player_num_ .."/" ..content.total_player_);
 	self.timeleft = os.time() + tonumber(content.left_time_);
 	self.txtBetSet:setString(content.bet_set_ .."/" ..content.to_banker_set_);
@@ -34,6 +35,7 @@ function PrivateRoomItem:setInfo(content)
 			APP.hc:enterRoom(tonumber(self.ct.roomid_), 0);
 		end
 	end);
+	self:updateTime();
 end
 
 function PrivateRoomItem:updateTime()

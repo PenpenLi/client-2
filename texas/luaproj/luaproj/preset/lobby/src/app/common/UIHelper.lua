@@ -47,16 +47,16 @@ function UIHelper.cacheCards()
 
     -- 小牌
     local texture_small = cc.Director:getInstance():getTextureCache():addImage("image/cards_small.png");
-    for i = 1, 4 do
-        for j = 1, 13 do
-            local frame = cc.SpriteFrame:createWithTexture(texture_small, cc.rect((j - 1) * 36.3, 239 - (i + 1) * 47.8, 36.3, 47.8))
-            cc.SpriteFrameCache:getInstance():addSpriteFrame(frame, string.format("image/card_small_%d.png", (i - 1) * 13 + (j - 1)))
+    for i = 0, 3 do
+        for j = 0, 12 do
+            local frame = cc.SpriteFrame:createWithTexture(texture_small, cc.rect(j * 36, i * 47, 36, 47))
+            cc.SpriteFrameCache:getInstance():addSpriteFrame(frame, string.format("image/card_small_%d.png", i * 13 + j ))
             -- printInfo("cache card small:%s", string.format("image/card_%d.png", (i - 1) * 13 + (j - 1)))
         end
     end
 
     for i = 1, #sp_card do
-        local frame = cc.SpriteFrame:createWithTexture(texture_small, cc.rect((i - 1) * 36.3, 239 - 47.8, 36.3, 47.8))
+        local frame = cc.SpriteFrame:createWithTexture(texture_small, cc.rect((i - 1) * 36, 239 - 47, 36, 47))
         cc.SpriteFrameCache:getInstance():addSpriteFrame(frame, string.format("image/card_small_%d.png", sp_card[i]))
     end
 end

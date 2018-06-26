@@ -28,14 +28,14 @@ function PopBaseLayer:onExit()
 end
 
 function PopBaseLayer:actionEnter()
-	self.BG:runAction(cc.EaseBackInOut:create(cc.ScaleTo:create(0.15, 1)))
+	self.BG:runAction(cc.EaseBackInOut:create(cc.ScaleTo:create(0.2, 1)))
 end
 
 function PopBaseLayer:actionExit()
 	self.BG:runAction(
 		cc.Sequence:create(
 			cc.EaseBackInOut:create(
-				cc.ScaleTo:create(0.15, 0.01)
+				cc.ScaleTo:create(0.2, 0.01)
 			), 
 			cc.CallFunc:create(function()
 				self:removeSelf()

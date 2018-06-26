@@ -12,7 +12,7 @@ function PrivateRoomResult:ctor(ctrl, container)
 	self.container_ = container;
 	self.index = 0;
 	self.myResults = UIHelper.seekNodeByName(self.csbnode, "ListView_1");
-	addListener(self, "NET_MSG", handler(self, self.onMsg));
+	self.evt = addListener(self, "NET_MSG", handler(self, self.onMsg));
 	APP.hc:QueryMyResult();
 end
 
@@ -21,6 +21,11 @@ function PrivateRoomResult:onMsg(fromServer, subCmd, content)
 		local pi = APP:createView("friendroom.PrivateRoomResultItem", APP.hc, self.container_, content);
 		self.myResults:addChild(pi)
 	end
+end
+
+function PrivateRoomResult:onExit()
+	self.super.onExit(self);
+	removeListener(self.evt);
 end
 
 return PrivateRoomResult;

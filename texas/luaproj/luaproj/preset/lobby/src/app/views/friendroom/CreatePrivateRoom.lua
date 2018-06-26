@@ -98,7 +98,7 @@ function CreatePrivateRoom:getDurSet()
 	for i = 1, 6, 1 do
 		local chk = UIHelper.seekNodeByName(self.csbnode, "CheckBox_Time_" .. tostring(i))
 		if chk:isSelected() then
-			return chk:getTag();
+			return 1;--chk:getTag();
 		end
 	end
 	return 30;

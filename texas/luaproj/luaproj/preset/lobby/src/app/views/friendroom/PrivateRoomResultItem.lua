@@ -23,16 +23,16 @@ function PrivateRoomResultItem:ctor(ctrl, container, content)
 	self.container_ = container;
 	self.content_ = content;
 	local txtName = UIHelper.seekNodeByName(self.csbnode, "txtName");
-	txtName:setString(content.master_.. LANG.UI_ROOM);
+	txtName:setString(content.master_..LANG.UI_ROOM);
 
 	local txtTime = UIHelper.seekNodeByName(self.csbnode, "txtTime");
-	txtTime:setString(utils.timeStr(tonumber(content.time_)));
+	txtTime:setString(utils.timeStr(tonumber(content.time_), "%m-%d %H:%M"));
 
 	local txtWin = UIHelper.seekNodeByName(self.csbnode, "txtWin");
 	if tonumber(content.win_) > 0 then
 		txtWin:setString("+"..content.win_);
 	else
-		txtWin:setString("-"..content.win_);
+		txtWin:setString(content.win_);
 	end 
 
 	local btn = UIHelper.seekNodeByName(self.csbnode, "Button_1");

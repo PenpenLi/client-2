@@ -26,9 +26,10 @@ function SelectRoomItem:ctor(ctrl, roomitem)
 		if t ~= ccui.TouchEventType.ended then return end;
 		APP.hc:enterRoom(0, self.roomitem.id);    
 	end);
-	local pa = string.format("cocostudio/home/image/roomselect/youxichangyu_%d.png", self.roomitem.id)
-	btn:loadTextureNormal(pa);
-	btn:loadTexturePressed(pa);
+	
+	local pa = string.format("cocostudio/home/image/roomselect/youxichangyu_%d.png", self.roomitem.id);
+	btn:loadTextureNormal(pa, 1);
+	btn:loadTexturePressed(pa, 1);
 
 	local txtPlayers = UIHelper.seekNodeByName(self.csbnode, "txtPlayers");
 	txtPlayers:setString(string.format("%d", math.random(1000, 5000)));

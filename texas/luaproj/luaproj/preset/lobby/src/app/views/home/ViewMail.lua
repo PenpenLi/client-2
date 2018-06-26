@@ -8,8 +8,6 @@ function ViewMail:ctor()
     local  csbnode = cc.CSLoader:createNode("cocostudio/home/MailLayer.csb")
         :addTo(self)
 
- 
-
 end
 
 function ViewMail:onEnter()

@@ -42,18 +42,40 @@ function ViewFriendRoom:ctor()
         end
     end)
 
-	addListener(self, "NET_MSG", handler(self, self.onMsg));
-	APP.hc:QueryMyPrivateRoom();
+	self.evt = addListener(self, "NET_MSG", handler(self, self.onMsg));
+	self.shouldClear = false;
+	self.evt1 = singleShot(0.1, handler(self, self.refreshInfo));
+end
+
+function ViewFriendRoom:refreshInfo()
+	if self.shouldClear then
+		self.myRooms:removeAllChildren();
+		local place_holder = UIHelper.seekNodeByName(self, "place_holder");
+		place_holder:setVisible(true);
+		self.shouldClear = false;
+	else
+		self.shouldClear = true;
+	end
+	
+	APP.hc:QueryMyPrivateRoom()
+	self.evt1 = singleShot(5.0, handler(self, self.refreshInfo));
 end
 
 function ViewFriendRoom:onMsg(fromServer, subCmd, content)
 	if subCmd == CMD.GAME_PRIVATE_ROOM_INFO and fromServer == 2 then
+		if self.shouldClear then
+			self.myRooms:removeAllChildren();
+			self.shouldClear = false;
+		end
+		
 		local place_holder = UIHelper.seekNodeByName(self, "place_holder");
 		place_holder:setVisible(false);
 
 		local pi = APP:createView("friendroom.PrivateRoomItem");
 		pi:setInfo(content);
 		self.myRooms:addChild(pi);
+	elseif subCmd == 1001 and fromServer == 3 then
+		
 	end
 end
 
@@ -67,6 +89,8 @@ end
 
 function ViewFriendRoom:onExit()
 	ViewFriendRoom.super.onExit(self)
+	scheduler.unscheduleGlobal(self.evt1);
+	removeListener(self.evt);
 end
 
 return ViewFriendRoom
