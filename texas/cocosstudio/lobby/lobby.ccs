@@ -42,26 +42,44 @@
           <Folder Name="home">
             <Folder Name="image">
               <Folder Name="bank">
+                <Folder Name="bank">
+                  <PlistInfo Name="banker_sp.csi" Type="Plist" />
+                  <Image Name="yinhang_congyinhangqukuanwenzi.png" />
+                  <Image Name="yinhang_cunkuandaoyinhangwenzi.png" />
+                  <Image Name="yinhang_cunruwenzi.png" />
+                  <Image Name="yinhang_hengtiaodi.png" />
+                  <Image Name="yinhang_quchuwenzi.png" />
+                  <Image Name="yinhang_zuidawenzi.png" />
+                </Folder>
                 <PlistInfo Name="banker_sp.csi" Type="Plist" />
                 <Image Name="tixian_jindutiao.png" />
+                <Image Name="tixian_shurumima.png" />
                 <Image Name="yinhang_beijing.png" />
                 <Image Name="yinhang_cichuzhixiugai.png" />
                 <Image Name="yinhang_congyinhangqukuan1.png" />
                 <Image Name="yinhang_congyinhangqukuan2.png" />
+                <Image Name="yinhang_congyinhangqukuanwenzi.png" />
                 <Image Name="yinhang_cunkuandaoyinhang.png" />
                 <Image Name="yinhang_cunkuandaoyinhang2.png" />
+                <Image Name="yinhang_cunkuandaoyinhangwenzi.png" />
                 <Image Name="yinhang_cunqu1.png" />
                 <Image Name="yinhang_cunqu2.png" />
+                <Image Name="yinhang_cunruwenzi.png" />
                 <Image Name="yinhang_denglubeijing.png" />
+                <Image Name="yinhang_hengtiaodi.png" />
+                <Image Name="yinhang_qingdengrumima.png" />
                 <Image Name="yinhang_quchongzhi1.png" />
                 <Image Name="yinhang_quchongzhi2.png" />
+                <Image Name="yinhang_quchuwenzi.png" />
                 <Image Name="yinhang_qurenxiugai1.png" />
                 <Image Name="yinhang_qurenxiugai2.png" />
                 <Image Name="yinhang_tishi1.png" />
+                <Image Name="yinhang_wangjimima.png" />
                 <Image Name="yinhang_xiugaimima.png" />
                 <Image Name="yinhang_xiugaimima1.png" />
                 <Image Name="yinhang_xiugaimima2.png" />
                 <Image Name="yinhang_yinhangbiaoti.png" />
+                <Image Name="yinhang_zuidawenzi.png" />
               </Folder>
               <Folder Name="daily_tasks">
                 <Image Name="daily_bg.png" />
@@ -453,6 +471,7 @@
               <Image Name="shezhi_yinyuekai.png" />
               <Image Name="zhujiemian_zhezhao.png" />
             </Folder>
+            <Project Name="Bank.csd" Type="Layer" />
             <Project Name="CreateRoomLayer.csd" Type="Layer" />
             <Project Name="DailyTasks.csd" Type="Layer" />
             <Project Name="DailyTasksNote.csd" Type="Layer" />
@@ -484,7 +503,6 @@
             <Project Name="ShopLayer.csd" Type="Layer" />
             <Project Name="Sign.csd" Type="Layer" />
             <Project Name="SignGot.csd" Type="Layer" />
-            <Project Name="Bank.csd" Type="Layer" />
           </Folder>
         </Folder>
         <Folder Name="image">
