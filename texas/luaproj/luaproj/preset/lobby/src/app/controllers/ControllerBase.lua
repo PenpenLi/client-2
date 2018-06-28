@@ -60,7 +60,10 @@ function ControllerBase:onEnter()
 end
 
 function ControllerBase:onExit()
-    
+    self.super.onExit(self);
+	if APP:getCurrentController() == self then
+		APP:setCurrentController(nil);
+	end
 end
 
 function ControllerBase:showWaiting()

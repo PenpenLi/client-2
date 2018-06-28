@@ -2,8 +2,8 @@ local UIHelper = require("app.common.UIHelper")
 local utils = require("utils")
 local ViewAddBet = class("ViewAddBet", cc.mvc.ViewBase)
 
-ViewAddBet.SCROLL_TO_HEIGHEST = 1054	-- 最高点
-ViewAddBet.SCROLL_TO_LOWEST = 539		-- 最底点
+ViewAddBet.SCROLL_TO_HEIGHEST = 1080	-- 最高点
+ViewAddBet.SCROLL_TO_LOWEST = 520		-- 最底点
 
 function ViewAddBet:ctor(baseBet, allInBet)
 	ViewAddBet.super.ctor(self)

@@ -32,69 +32,69 @@
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="head1" ActionTag="-827517855" Tag="299" IconVisible="False" LeftMargin="-1.1477" RightMargin="594.1477" TopMargin="35.1935" BottomMargin="-3.1935" ctype="SpriteObjectData">
-            <Size X="107.0000" Y="108.0000" />
+          <AbstractNodeData Name="head1" ActionTag="-827517855" Tag="299" IconVisible="False" LeftMargin="2.3523" RightMargin="597.6477" TopMargin="39.1935" BottomMargin="0.8065" ctype="SpriteObjectData">
+            <Size X="100.0000" Y="100.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="52.3523" Y="50.8065" />
             <Scale ScaleX="0.7000" ScaleY="0.7000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.0748" Y="0.3629" />
-            <PreSize X="0.1529" Y="0.7714" />
+            <PreSize X="0.1429" Y="0.7143" />
             <FileData Type="Normal" Path="image/zhujiemian_nan1.png" Plist="" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="head2" ActionTag="-1786584034" Tag="300" IconVisible="False" LeftMargin="76.2815" RightMargin="516.7185" TopMargin="35.1935" BottomMargin="-3.1935" ctype="SpriteObjectData">
-            <Size X="107.0000" Y="108.0000" />
+          <AbstractNodeData Name="head2" ActionTag="-1786584034" Tag="300" IconVisible="False" LeftMargin="79.7815" RightMargin="520.2185" TopMargin="39.1935" BottomMargin="0.8065" ctype="SpriteObjectData">
+            <Size X="100.0000" Y="100.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="129.7815" Y="50.8065" />
             <Scale ScaleX="0.7000" ScaleY="0.7000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.1854" Y="0.3629" />
-            <PreSize X="0.1529" Y="0.7714" />
+            <PreSize X="0.1429" Y="0.7143" />
             <FileData Type="Normal" Path="image/zhujiemian_nan2.png" Plist="" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="head3" ActionTag="-748101368" Tag="301" IconVisible="False" LeftMargin="153.7097" RightMargin="439.2903" TopMargin="35.1935" BottomMargin="-3.1935" ctype="SpriteObjectData">
-            <Size X="107.0000" Y="108.0000" />
+          <AbstractNodeData Name="head3" ActionTag="-748101368" Tag="301" IconVisible="False" LeftMargin="157.2097" RightMargin="442.7903" TopMargin="39.1935" BottomMargin="0.8065" ctype="SpriteObjectData">
+            <Size X="100.0000" Y="100.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="207.2097" Y="50.8065" />
             <Scale ScaleX="0.7000" ScaleY="0.7000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.2960" Y="0.3629" />
-            <PreSize X="0.1529" Y="0.7714" />
+            <PreSize X="0.1429" Y="0.7143" />
             <FileData Type="Normal" Path="image/zhujiemian_nan3.png" Plist="" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="head4" ActionTag="985383362" Tag="302" IconVisible="False" LeftMargin="231.1373" RightMargin="361.8627" TopMargin="35.1935" BottomMargin="-3.1935" ctype="SpriteObjectData">
-            <Size X="107.0000" Y="108.0000" />
+          <AbstractNodeData Name="head4" ActionTag="985383362" Tag="302" IconVisible="False" LeftMargin="234.6373" RightMargin="365.3627" TopMargin="39.1935" BottomMargin="0.8065" ctype="SpriteObjectData">
+            <Size X="100.0000" Y="100.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="284.6373" Y="50.8065" />
             <Scale ScaleX="0.7000" ScaleY="0.7000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.4066" Y="0.3629" />
-            <PreSize X="0.1529" Y="0.7714" />
+            <PreSize X="0.1429" Y="0.7143" />
             <FileData Type="Normal" Path="image/zhujiemian_nv1.png" Plist="" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="head5" ActionTag="-514523641" Tag="303" IconVisible="False" LeftMargin="308.5636" RightMargin="284.4364" TopMargin="35.1935" BottomMargin="-3.1935" ctype="SpriteObjectData">
-            <Size X="107.0000" Y="108.0000" />
+          <AbstractNodeData Name="head5" ActionTag="-514523641" Tag="303" IconVisible="False" LeftMargin="312.0636" RightMargin="287.9364" TopMargin="39.1935" BottomMargin="0.8065" ctype="SpriteObjectData">
+            <Size X="100.0000" Y="100.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="362.0636" Y="50.8065" />
             <Scale ScaleX="0.7000" ScaleY="0.7000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5172" Y="0.3629" />
-            <PreSize X="0.1529" Y="0.7714" />
+            <PreSize X="0.1429" Y="0.7143" />
             <FileData Type="Normal" Path="image/zhujiemian_nv2.png" Plist="" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="head6" ActionTag="-1899404847" Tag="304" IconVisible="False" LeftMargin="385.9930" RightMargin="207.0070" TopMargin="35.1935" BottomMargin="-3.1935" ctype="SpriteObjectData">
-            <Size X="107.0000" Y="108.0000" />
+          <AbstractNodeData Name="head6" ActionTag="-1899404847" Tag="304" IconVisible="False" LeftMargin="389.4930" RightMargin="210.5070" TopMargin="39.1935" BottomMargin="0.8065" ctype="SpriteObjectData">
+            <Size X="100.0000" Y="100.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="439.4930" Y="50.8065" />
             <Scale ScaleX="0.7000" ScaleY="0.7000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.6278" Y="0.3629" />
-            <PreSize X="0.1529" Y="0.7714" />
+            <PreSize X="0.1429" Y="0.7143" />
             <FileData Type="Normal" Path="image/zhujiemian_nv3.png" Plist="" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
@@ -108,14 +108,14 @@
             <PreSize X="0.3229" Y="0.3571" />
             <LabelBMFontFile_CNB Type="Normal" Path="cocostudio/home/image/haoyouchang_wodepaijuchoumashuzi-export.fnt" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="txtTime" ActionTag="-837033246" Tag="307" IconVisible="False" LeftMargin="234.9392" RightMargin="152.0608" TopMargin="9.9646" BottomMargin="95.0354" LabelText="2018-10-05  00:00:00" ctype="TextBMFontObjectData">
-            <Size X="313.0000" Y="35.0000" />
+          <AbstractNodeData Name="txtTime" ActionTag="-837033246" Tag="307" IconVisible="False" LeftMargin="317.9394" RightMargin="199.0606" TopMargin="9.9646" BottomMargin="95.0354" LabelText="10-05  00:00" ctype="TextBMFontObjectData">
+            <Size X="183.0000" Y="35.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="391.4392" Y="112.5354" />
+            <Position X="409.4394" Y="112.5354" />
             <Scale ScaleX="0.7000" ScaleY="0.7000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.5592" Y="0.8038" />
-            <PreSize X="0.4471" Y="0.2500" />
+            <PrePosition X="0.5849" Y="0.8038" />
+            <PreSize X="0.2614" Y="0.2500" />
             <LabelBMFontFile_CNB Type="Normal" Path="cocostudio/home/image/haoyouchang_haoyoufangxuanzedishuzi-export.fnt" Plist="" />
           </AbstractNodeData>
         </Children>

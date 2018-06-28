@@ -21,24 +21,13 @@
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="haoyouchang_haoyoufangxuanzedijinbichang_2" ActionTag="-1692971600" Tag="157" IconVisible="False" LeftMargin="10.8550" RightMargin="566.1450" TopMargin="19.0030" BottomMargin="90.9970" ctype="SpriteObjectData">
-            <Size X="118.0000" Y="30.0000" />
-            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="69.8550" Y="105.9970" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
-            <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.1005" Y="0.7571" />
-            <PreSize X="0.1698" Y="0.2143" />
-            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/friendroom/haoyouchang_haoyoufangxuanzedijinbichang.png" Plist="cocostudio/home/image/friendroom/friendroom_sp2.plist" />
-            <BlendFunc Src="1" Dst="771" />
-          </AbstractNodeData>
-          <AbstractNodeData Name="txtName" ActionTag="-1362432764" Tag="158" IconVisible="False" LeftMargin="138.7777" RightMargin="364.2223" TopMargin="21.9147" BottomMargin="94.0853" FontSize="24" LabelText="机智的团团的牌局" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+          <AbstractNodeData Name="txtName" ActionTag="-1362432764" Tag="158" IconVisible="False" LeftMargin="16.7756" RightMargin="486.2244" TopMargin="21.9147" BottomMargin="94.0853" FontSize="24" LabelText="机智的团团的牌局" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
             <Size X="192.0000" Y="24.0000" />
             <AnchorPoint ScaleY="0.5000" />
-            <Position X="138.7777" Y="106.0853" />
+            <Position X="16.7756" Y="106.0853" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.1997" Y="0.7578" />
+            <PrePosition X="0.0241" Y="0.7578" />
             <PreSize X="0.2763" Y="0.1714" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />

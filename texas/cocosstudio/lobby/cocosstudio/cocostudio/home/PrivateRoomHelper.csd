@@ -6,7 +6,7 @@
       <ObjectData Name="Layer" Tag="288" ctype="GameLayerObjectData">
         <Size X="750.0000" Y="1334.0000" />
         <Children>
-          <AbstractNodeData Name="haoyouchang_zhanjidi_3" ActionTag="-1297565146" Tag="292" IconVisible="False" ctype="SpriteObjectData">
+          <AbstractNodeData Name="Image_1" ActionTag="612192808" Tag="607" IconVisible="False" TouchEnable="True" LeftEage="247" RightEage="247" TopEage="440" BottomEage="440" Scale9OriginX="247" Scale9OriginY="440" Scale9Width="256" Scale9Height="454" ctype="ImageViewObjectData">
             <Size X="750.0000" Y="1334.0000" />
             <AnchorPoint />
             <Position />
@@ -14,8 +14,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
             <PreSize X="1.0000" Y="1.0000" />
-            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/friendroom/haoyouchang_zhanjidi.png" Plist="cocostudio/home/image/friendroom/friendroom_sp2.plist" />
-            <BlendFunc Src="770" Dst="771" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/friendroom/friend_record_bg.png" Plist="cocostudio/home/image/friendroom/friendroom_sp2.plist" />
           </AbstractNodeData>
           <AbstractNodeData Name="Button_Close" ActionTag="-1135629666" Tag="289" IconVisible="False" LeftMargin="-4.0000" RightMargin="610.0000" TopMargin="1206.0000" BottomMargin="-16.0000" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="114" Scale9Height="122" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="144.0000" Y="144.0000" />

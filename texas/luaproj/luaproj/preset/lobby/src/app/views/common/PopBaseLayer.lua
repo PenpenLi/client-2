@@ -9,13 +9,17 @@ function PopBaseLayer:ctor()
     csbnode:addTo(self)
 
     self.BG = UIHelper.seekNodeByName(csbnode, "Image_BG")
-    local btn_Close = UIHelper.seekNodeByName(self, "Button_Close")
+    self.BG:setScale(0.00)
+end
+
+--MVCÖÐµÄC-¿ØÖÆÆ÷
+function PopBaseLayer:pctor()
+	local btn_Close = UIHelper.seekNodeByName(self, "Button_Close")
     btn_Close:addTouchEventListener(function(ref, t)
         if t == ccui.TouchEventType.ended then
             self:actionExit()
         end
     end)
-    self.BG:setScale(0.01)
 end
 
 function PopBaseLayer:onEnter()
@@ -28,15 +32,13 @@ function PopBaseLayer:onExit()
 end
 
 function PopBaseLayer:actionEnter()
-	self.BG:runAction(cc.EaseBackInOut:create(cc.ScaleTo:create(0.2, 1)))
+	self.BG:runAction(cc.ScaleTo:create(0.15, 1))
 end
 
 function PopBaseLayer:actionExit()
 	self.BG:runAction(
 		cc.Sequence:create(
-			cc.EaseBackInOut:create(
-				cc.ScaleTo:create(0.2, 0.01)
-			), 
+			cc.ScaleTo:create(0.15, 0.00), 
 			cc.CallFunc:create(function()
 				self:removeSelf()
 			end)))

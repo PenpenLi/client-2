@@ -74,14 +74,13 @@ public:
 
 	int			copy_dir(std::string from_dir, std::string dest_dir, std::string& err) override;
 protected:
-	boost::shared_ptr<boost::thread>			download_thread_;
+	boost::shared_ptr<boost::thread>			download_thread_, check_thread_;
 	dftask_ptr				current_dl_file;
 	std::map<std::string, std::pair<vern_ptr, int>>	zip_files_;
 	boost::mutex mtu_;
-
 	boost::asio::io_service ios_;
 	boost::atomic<int> 
-		state_, progress_, progress_max_, need_restart_;
+		state_, progress_, progress_max_, need_restart_, check_result_;
 	
 	boost::atomic<int>	file_max_, file_succ_, file_failed_;
 
@@ -111,7 +110,7 @@ protected:
 	int			remove_file_by_version(std::string local_root, ver_node& vnode);
 	bool		is_canceled();
 	int			do_sync_version();
-
+	int			do_check_update(std::string exe, std::string local_path, std::string remote_path);
 };
 
 typedef boost::shared_ptr<version_manager> dtask_ptr;

@@ -59,6 +59,13 @@ function ViewPlayer:ctor(clipos, isclone)
 	btn:addTouchEventListener(function(sender, state)
         APP.gc:sitDown(clipos);
     end)
+
+	
+	if self.isRight then
+		local posy = self.img_Banker:getPositionY()
+		local posx = self.img_Banker:getPositionX()
+		self.img_Banker:setPosition(cc.p(-posx, posy))
+	end
 end
 
 function ViewPlayer:setSitVisible(vis)
@@ -111,13 +118,7 @@ function ViewPlayer:setUser(usr, isclone)
 		self:updateGold(player.credits)
 
         self:createResItem()
-
-		if self.isRight then
-			local posy = self.img_Banker:getPositionY()
-			local posx = self.img_Banker:getPositionX()
-			self.img_Banker:setPosition(cc.p(-posx, posy))
-		end
-
+		
 		self:clear()
 		self:setMaskStatus(true);
 

@@ -272,6 +272,8 @@
             <Project Name="ChatLayer.csd" Type="Layer" />
             <Project Name="ChatPreMsgNode.csd" Type="Node" />
             <Project Name="GameMissionNode.csd" Type="Node" />
+            <Project Name="GameRecord.csd" Type="Layer" />
+            <Project Name="GameRecordItem.csd" Type="Layer" />
             <Project Name="GameViewLayer.csd" Type="Layer" />
             <Project Name="MakeupLayer.csd" Type="Layer" />
             <Project Name="MenuLayer.csd" Type="Layer" />
@@ -280,8 +282,6 @@
             <Project Name="PlayerNode.csd" Type="Node" />
             <Project Name="ResItemNode.csd" Type="Node" />
             <Project Name="SettingNode.csd" Type="Node" />
-            <Project Name="GameRecord.csd" Type="Layer" />
-            <Project Name="GameRecordItem.csd" Type="Layer" />
           </Folder>
         </Folder>
       </RootFolder>

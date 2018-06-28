@@ -64,8 +64,21 @@
             <FileData Type="MarkedSubImage" Path="cocostudio/home/image/friendroom/haoyouchang_zhanjidixuanze.png" Plist="cocostudio/home/image/friendroom/friendroom_sp2.plist" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="ListView_1" Visible="False" ActionTag="-1033479365" Tag="545" IconVisible="False" LeftMargin="38.6667" RightMargin="31.3333" TopMargin="468.8178" BottomMargin="125.1822" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ScrollDirectionType="0" DirectionType="Vertical" ctype="ListViewObjectData">
+          <AbstractNodeData Name="ListView_1" Visible="False" ActionTag="-1033479365" Tag="545" IconVisible="False" LeftMargin="38.6667" RightMargin="31.3333" TopMargin="468.8178" BottomMargin="125.1822" TouchEnable="True" ClipAble="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" IsBounceEnabled="True" ScrollDirectionType="0" ItemMargin="2" DirectionType="Vertical" ctype="ListViewObjectData">
             <Size X="680.0000" Y="740.0000" />
+            <Children>
+              <AbstractNodeData Name="Text_1" ActionTag="1591192331" Tag="634" IconVisible="False" RightMargin="680.0000" BottomMargin="740.0000" FontSize="20" LabelText="" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                <Size X="0.0000" Y="0.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position Y="740.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition Y="1.0000" />
+                <PreSize X="0.0000" Y="0.0000" />
+                <OutlineColor A="255" R="255" G="0" B="0" />
+                <ShadowColor A="255" R="110" G="110" B="110" />
+              </AbstractNodeData>
+            </Children>
             <AnchorPoint ScaleY="1.0000" />
             <Position X="38.6667" Y="865.1822" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />

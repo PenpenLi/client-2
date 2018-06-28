@@ -102,6 +102,14 @@ function ViewHome:ctor()
 	local skeleton = sp.SkeletonAnimation:createWithJsonFile("effect/girl/renwu.json", "effect/girl/renwu.atlas", 1)
     skeleton:setAnimation(0, "idle", true)
     bg:addChild(skeleton)
+
+	local btnBanker = UIHelper.seekNodeByName(csbnode, "btnBanker")
+	btnBanker:addTouchEventListener(function(ref, t)
+		if t == ccui.TouchEventType.ended then
+			APP:getCurrentController():showBanker(self.UIContainer)
+		end
+	end)
+	
 end
 
 function ViewHome:onEnter()

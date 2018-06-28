@@ -32,7 +32,7 @@ function HomeController:ctor()
 end
 
 function  HomeController:findPrivateRoom(roomId)
-	APP.hc:showWaiting();
+	self:showWaiting();
 	switchGSHandler.active({purpose = "joinroom", roomId = roomId});
 	coorCmd.findPrivateRoom(conf.GameID, roomId);
 
@@ -44,7 +44,7 @@ function  HomeController:findPrivateRoom(roomId)
 end
 
 function  HomeController:onError(desc)
-	APP.hc:hideWaiting();
+	self:hideWaiting();
 	self:showAlertOK({desc = desc});
 end
 
@@ -191,6 +191,10 @@ function HomeController:showSelectRoom(container)
 	container:addChild(APP:createView("friendroom.SelectRoom", self, container))
 end
 
+function HomeController:showBanker(container)
+    container:addChild(APP:createView("home.ViewBank"))
+end
+
 function HomeController:showCreateRoom(container)
 	container:addChild(APP:createView("friendroom.CreatePrivateRoom", self))
 end
@@ -231,17 +235,17 @@ printLog("a","==================  ReqRankData ")
     page_count_ = 20
     }
     dump(rankReqData)
-     SOCKET_MANAGER.sendToGameServer(CMD.GAME_RANK_REQ,rankReqData);
+    SOCKET_MANAGER.sendToGameServer(CMD.GAME_RANK_REQ,rankReqData);
 end 
 
 function HomeController:ViewRankUpData(Rankdata) 
-   printLog("a","============================   HomeController") 
-   dump(self.viewRankH)
-   print(tolua.type(self.viewRankH)) 
-   if self.viewRankH ~= nil then
-   self.viewRankH:upDateRankInfo(Rankdata)
-   end 
-   --APP.hc.ViewRank:upDateRankInfo(data)
+	printLog("a","============================   HomeController") 
+	dump(self.viewRankH)
+	print(tolua.type(self.viewRankH)) 
+	if self.viewRankH ~= nil then
+		self.viewRankH:upDateRankInfo(Rankdata)
+	end 
+	--APP.hc.ViewRank:upDateRankInfo(data)
 end
 
 

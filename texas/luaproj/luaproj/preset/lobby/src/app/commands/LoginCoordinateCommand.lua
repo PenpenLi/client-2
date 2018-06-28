@@ -16,21 +16,30 @@ function LoginCoordinateCommand.connect()
     local port = connect_coordinate_options.port
 
     SOCKET_MANAGER.connectToCoordinateServer(host, port, function()
-        local handle = scheduler.scheduleGlobal(function()
+        APP.GD.ping_handle_coordinate = scheduler.scheduleGlobal(function()
            local len = SOCKET_MANAGER.sendToCoordinateServer(CMD.COORDINATE_PING, {})
 		   if (not len) or len ~= 0 then
-				printLog("net", "ping coordinate server failed.");
-				APP:ActiveCtrl("LoginController");
+				scheduler.unscheduleGlobal(APP.GD.ping_handle_coordinate);
+				
+				local ccl = APP:getCurrentController();
+				if ccl then
+					ccl:showWaiting();
+				end
+
+				APP:ActiveCtrl("LoginController", true);
 				if not APP.GD.SameAccountLogin then
-					APP.lc:autoLogin();
+					if not APP.lc:doAutoLogin() then
+						APP.lc:showAlertOK({desc = APP.GD.LANG.TIP_SAME_ACCOUNT_LOGIN, okCallback = function()
+							APP:ApplyPreloadCtrl();
+						end})
+					end
 				else
 					APP.lc:showAlertOK({desc = APP.GD.LANG.TIP_SAME_ACCOUNT_LOGIN})
 				end
-				scheduler.unscheduleGlobal(APP.GD.ping_handle_coordinate);
+				
 		   end
         end, 2)
 
-        APP.GD.ping_handle_coordinate = handle
         LoginCoordinateCommand.login()
     end)
 end

@@ -38,10 +38,10 @@
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="card1" ActionTag="-1008317091" Tag="78" IconVisible="False" LeftMargin="133.9174" RightMargin="404.0826" TopMargin="51.0726" BottomMargin="51.9274" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+          <AbstractNodeData Name="card1" ActionTag="-1008317091" Tag="78" IconVisible="False" LeftMargin="133.9174" RightMargin="404.0826" TopMargin="51.0739" BottomMargin="51.9261" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
             <Size X="36.0000" Y="47.0000" />
             <AnchorPoint />
-            <Position X="133.9174" Y="51.9274" />
+            <Position X="133.9174" Y="51.9261" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.2333" Y="0.3462" />
@@ -51,10 +51,10 @@
             <EndColor A="255" R="255" G="255" B="255" />
             <ColorVector ScaleY="1.0000" />
           </AbstractNodeData>
-          <AbstractNodeData Name="card2" ActionTag="-1914966569" Tag="79" IconVisible="False" LeftMargin="171.0581" RightMargin="366.9420" TopMargin="51.0726" BottomMargin="51.9274" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+          <AbstractNodeData Name="card2" ActionTag="-1914966569" Tag="79" IconVisible="False" LeftMargin="171.0581" RightMargin="366.9419" TopMargin="51.0739" BottomMargin="51.9261" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
             <Size X="36.0000" Y="47.0000" />
             <AnchorPoint />
-            <Position X="171.0581" Y="51.9274" />
+            <Position X="171.0581" Y="51.9261" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.2980" Y="0.3462" />
@@ -64,10 +64,10 @@
             <EndColor A="255" R="255" G="255" B="255" />
             <ColorVector ScaleY="1.0000" />
           </AbstractNodeData>
-          <AbstractNodeData Name="pubcard1" ActionTag="549866279" Tag="80" IconVisible="False" LeftMargin="217.4633" RightMargin="320.5367" TopMargin="51.0726" BottomMargin="51.9274" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+          <AbstractNodeData Name="pubcard1" ActionTag="549866279" Tag="80" IconVisible="False" LeftMargin="217.4633" RightMargin="320.5367" TopMargin="51.0739" BottomMargin="51.9261" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
             <Size X="36.0000" Y="47.0000" />
             <AnchorPoint />
-            <Position X="217.4633" Y="51.9274" />
+            <Position X="217.4633" Y="51.9261" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.3789" Y="0.3462" />
@@ -77,10 +77,10 @@
             <EndColor A="255" R="255" G="255" B="255" />
             <ColorVector ScaleY="1.0000" />
           </AbstractNodeData>
-          <AbstractNodeData Name="pubcard2" ActionTag="1308612815" Tag="81" IconVisible="False" LeftMargin="239.8181" RightMargin="298.1819" TopMargin="51.0728" BottomMargin="51.9272" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+          <AbstractNodeData Name="pubcard2" ActionTag="1308612815" Tag="81" IconVisible="False" LeftMargin="239.8181" RightMargin="298.1819" TopMargin="51.0739" BottomMargin="51.9261" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
             <Size X="36.0000" Y="47.0000" />
             <AnchorPoint />
-            <Position X="239.8181" Y="51.9272" />
+            <Position X="239.8181" Y="51.9261" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.4178" Y="0.3462" />
@@ -90,10 +90,10 @@
             <EndColor A="255" R="255" G="255" B="255" />
             <ColorVector ScaleY="1.0000" />
           </AbstractNodeData>
-          <AbstractNodeData Name="pubcard3" ActionTag="-274946013" Tag="82" IconVisible="False" LeftMargin="259.1734" RightMargin="278.8266" TopMargin="51.0728" BottomMargin="51.9272" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+          <AbstractNodeData Name="pubcard3" ActionTag="-274946013" Tag="82" IconVisible="False" LeftMargin="259.1734" RightMargin="278.8266" TopMargin="51.0739" BottomMargin="51.9261" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
             <Size X="36.0000" Y="47.0000" />
             <AnchorPoint />
-            <Position X="259.1734" Y="51.9272" />
+            <Position X="259.1734" Y="51.9261" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.4515" Y="0.3462" />
@@ -103,10 +103,10 @@
             <EndColor A="255" R="255" G="255" B="255" />
             <ColorVector ScaleY="1.0000" />
           </AbstractNodeData>
-          <AbstractNodeData Name="pubcard4" ActionTag="1773851359" Tag="83" IconVisible="False" LeftMargin="317.7323" RightMargin="220.2677" TopMargin="51.0735" BottomMargin="51.9265" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+          <AbstractNodeData Name="pubcard4" ActionTag="1773851359" Tag="83" IconVisible="False" LeftMargin="317.7323" RightMargin="220.2677" TopMargin="51.0739" BottomMargin="51.9261" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
             <Size X="36.0000" Y="47.0000" />
             <AnchorPoint />
-            <Position X="317.7323" Y="51.9265" />
+            <Position X="317.7323" Y="51.9261" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5535" Y="0.3462" />
@@ -173,16 +173,15 @@
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="win" ActionTag="-1241766208" Tag="89" IconVisible="False" LeftMargin="497.7339" RightMargin="76.2661" TopMargin="74.5739" BottomMargin="75.4261" FontSize="36" LabelText="" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-            <Size X="0.0000" Y="0.0000" />
+          <AbstractNodeData Name="win" ActionTag="1473177069" Tag="19" IconVisible="False" LeftMargin="410.1169" RightMargin="-6.1169" TopMargin="53.5739" BottomMargin="54.4261" LabelText="-3568万" ctype="TextBMFontObjectData">
+            <Size X="170.0000" Y="42.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="497.7339" Y="75.4261" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <Position X="495.1169" Y="75.4261" />
+            <Scale ScaleX="0.7000" ScaleY="0.7000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.8671" Y="0.5028" />
-            <PreSize X="0.0000" Y="0.0000" />
-            <OutlineColor A="255" R="255" G="0" B="0" />
-            <ShadowColor A="255" R="110" G="110" B="110" />
+            <PrePosition X="0.8626" Y="0.5028" />
+            <PreSize X="0.2962" Y="0.2800" />
+            <LabelBMFontFile_CNB Type="Normal" Path="cocostudio/game/image/zhujiemian_niyingshuzi-export.fnt" Plist="" />
           </AbstractNodeData>
           <AbstractNodeData Name="nickName" ActionTag="-726398446" Tag="90" IconVisible="False" LeftMargin="133.9174" RightMargin="272.0826" TopMargin="17.7364" BottomMargin="108.2636" FontSize="24" LabelText="我是谁啊我是谁" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
             <Size X="168.0000" Y="24.0000" />

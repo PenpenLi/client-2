@@ -41,6 +41,28 @@
           </Folder>
           <Folder Name="home">
             <Folder Name="image">
+              <Folder Name="bank">
+                <PlistInfo Name="banker_sp.csi" Type="Plist" />
+                <Image Name="tixian_jindutiao.png" />
+                <Image Name="yinhang_beijing.png" />
+                <Image Name="yinhang_cichuzhixiugai.png" />
+                <Image Name="yinhang_congyinhangqukuan1.png" />
+                <Image Name="yinhang_congyinhangqukuan2.png" />
+                <Image Name="yinhang_cunkuandaoyinhang.png" />
+                <Image Name="yinhang_cunkuandaoyinhang2.png" />
+                <Image Name="yinhang_cunqu1.png" />
+                <Image Name="yinhang_cunqu2.png" />
+                <Image Name="yinhang_denglubeijing.png" />
+                <Image Name="yinhang_quchongzhi1.png" />
+                <Image Name="yinhang_quchongzhi2.png" />
+                <Image Name="yinhang_qurenxiugai1.png" />
+                <Image Name="yinhang_qurenxiugai2.png" />
+                <Image Name="yinhang_tishi1.png" />
+                <Image Name="yinhang_xiugaimima.png" />
+                <Image Name="yinhang_xiugaimima1.png" />
+                <Image Name="yinhang_xiugaimima2.png" />
+                <Image Name="yinhang_yinhangbiaoti.png" />
+              </Folder>
               <Folder Name="daily_tasks">
                 <Image Name="daily_bg.png" />
                 <Image Name="daily_btn_g.png" />
@@ -462,6 +484,7 @@
             <Project Name="ShopLayer.csd" Type="Layer" />
             <Project Name="Sign.csd" Type="Layer" />
             <Project Name="SignGot.csd" Type="Layer" />
+            <Project Name="Bank.csd" Type="Layer" />
           </Folder>
         </Folder>
         <Folder Name="image">

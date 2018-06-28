@@ -41,7 +41,9 @@ CMD.COORDINATE_BROADCAST = 1004
 
 -- 兑换金币
 CMD.COORDINATE_EXCHANGE_GOLD = 126
-
+CMD.COORDINATE_SETBANK_PSW = 123;
+CMD.COORDINATE_GETBANK_INFO = 122;
+CMD.COORDINATE_BANKOP = 124;
 ------------------- 游戏服务器---------------------------
 
 ---------------公共部分-------------------

@@ -6,13 +6,13 @@
       <ObjectData Name="Layer" Tag="41" ctype="GameLayerObjectData">
         <Size X="750.0000" Y="1334.0000" />
         <Children>
-          <AbstractNodeData Name="Image_2" ActionTag="1482745277" Tag="43" IconVisible="False" LeftMargin="210.8100" RightMargin="210.1900" TopMargin="87.4861" BottomMargin="1120.5139" LeftEage="247" RightEage="247" TopEage="26" BottomEage="26" Scale9OriginX="82" Scale9OriginY="26" Scale9Width="165" Scale9Height="74" ctype="ImageViewObjectData">
+          <AbstractNodeData Name="Image_2" ActionTag="1482745277" Tag="43" IconVisible="False" LeftMargin="210.5000" RightMargin="210.5000" TopMargin="88.0000" BottomMargin="1120.0000" LeftEage="247" RightEage="247" TopEage="26" BottomEage="26" Scale9OriginX="82" Scale9OriginY="26" Scale9Width="165" Scale9Height="74" ctype="ImageViewObjectData">
             <Size X="329.0000" Y="126.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="375.3100" Y="1183.5139" />
+            <Position X="375.0000" Y="1183.0000" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.5004" Y="0.8872" />
+            <PrePosition X="0.5000" Y="0.8868" />
             <PreSize X="0.4387" Y="0.0945" />
             <FileData Type="MarkedSubImage" Path="cocostudio/home/image/friendroom/haoyouchang_haoyoufang.png" Plist="cocostudio/home/image/friendroom/friendroom_sp2.plist" />
           </AbstractNodeData>

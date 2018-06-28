@@ -26,14 +26,14 @@
             <PrePosition X="0.5000" Y="0.4798" />
             <PreSize X="0.0000" Y="0.0000" />
           </AbstractNodeData>
-          <AbstractNodeData Name="dating_beijingmengbang_1" ActionTag="1604151668" Tag="44" IconVisible="False" ctype="SpriteObjectData">
-            <Size X="750.0000" Y="1334.0000" />
+          <AbstractNodeData Name="dating_beijingmengbang_1" ActionTag="1604151668" Tag="44" IconVisible="False" RightMargin="-1.0000" ctype="SpriteObjectData">
+            <Size X="751.0000" Y="1334.0000" />
             <AnchorPoint />
             <Position />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
-            <PreSize X="1.0000" Y="1.0000" />
+            <PreSize X="1.0013" Y="1.0000" />
             <FileData Type="MarkedSubImage" Path="login/dating_beijingmengbang.png" Plist="login/login_sp.plist" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
@@ -156,6 +156,21 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="btnBanker" ActionTag="-374889553" Tag="368" IconVisible="False" LeftMargin="628.6671" RightMargin="21.3329" TopMargin="115.3351" BottomMargin="1107.6649" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="70" Scale9Height="89" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+            <Size X="100.0000" Y="111.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="678.6671" Y="1163.1649" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.9049" Y="0.8719" />
+            <PreSize X="0.1333" Y="0.0832" />
+            <TextColor A="255" R="65" G="65" B="70" />
+            <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
+            <PressedFileData Type="MarkedSubImage" Path="cocostudio/home/image/mission/mission_icon_diamond.png" Plist="cocostudio/home/image/mission/mission_sp.plist" />
+            <NormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/mission/mission_icon_diamond.png" Plist="cocostudio/home/image/mission/mission_sp.plist" />
+            <OutlineColor A="255" R="255" G="0" B="0" />
+            <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
           <AbstractNodeData Name="UIConatainer" ActionTag="1035393768" Tag="189" IconVisible="True" RightMargin="750.0000" TopMargin="1334.0000" ctype="SingleNodeObjectData">
             <Size X="0.0000" Y="0.0000" />

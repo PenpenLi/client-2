@@ -4,7 +4,7 @@ LOCAL_PATH := $(call my-dir)
 #=================================================================================
 include $(CLEAR_VARS)
 
-ZIP_TOOL_ROOT := i:/Code/client/unzip
+ZIP_TOOL_ROOT := $(lib_src)/unzip
 
 LOCAL_MODULE := version_compare_static
 

@@ -117,15 +117,7 @@ end
 
 -- 消息暂停接受
 function SocketManager.pauseGameServer(time)
-    if SocketManager.gameSocket then
-        printInfo("SocketManager.pauseGameServer(time):%d", time)
-        SocketManager.gameSocket:blockMessage()
-        scheduler.performWithDelayGlobal(function ()
-            SocketManager.gameSocket:unblockMessage()
-        end, time)
-    else
-        printInfo("Error:game server is nil")
-    end
+    
 end
 
 return SocketManager

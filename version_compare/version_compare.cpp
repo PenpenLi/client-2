@@ -769,7 +769,7 @@ int version_manager::do_sync_version()
 	}
 
 	state_ = st_verify_version;
-	int chk = check_update(exe_, local_path_, remote_path_);
+	int chk = do_check_update(exe_, local_path_, remote_path_);
 	if (chk == error_version_willupdate){
 		state_ = st_oldversion_remains;
 	}
@@ -779,7 +779,141 @@ int version_manager::do_sync_version()
 	return error_noerror;
 }
  
- std::string version_manager::version_info(std::string local_path)
+int version_manager::do_check_update(std::string exe, std::string local_path, std::string remote_path)
+{
+	boost::lock_guard<boost::mutex> lk(mtu_);
+	if (local_path.empty() || remote_path.empty())
+		return error_version_uptodate;
+
+	if (local_path[local_path.size() - 1] != '/') {
+		local_path.push_back('/');
+	}
+
+	if (remote_path[remote_path.size() - 1] != '/') {
+		remote_path.push_back('/');
+	}
+
+	local_path_ = local_path;
+	remote_path_ = remote_path;
+
+	exe_ = exe;
+
+	fs::path dir(local_path);
+
+	LOGD("check update for fullpath:%s", fs::absolute(dir).string().c_str());
+
+	if (dir.is_relative()) {
+		std::vector<std::string> dirs;
+		split_str(local_path, "/", dirs, true);
+		std::string tmp_dir;
+		for (unsigned i = 0; i < dirs.size(); i++)
+		{
+			tmp_dir += dirs[i] + "/";
+			boost::system::error_code ec;
+			if (fs::create_directory(tmp_dir, ec)) {
+				LOGD("dirctory is created:%s", tmp_dir.c_str());
+			}
+		}
+	}
+	else {
+		boost::system::error_code ec;
+		if (fs::create_directory(dir, ec)) {
+			LOGD("dirctory is created:%s", fs::absolute(dir).string().c_str());
+		}
+	}
+
+	locv->reset();
+	remv->reset();
+
+	std::string filep = local_path + "version_config.xml";
+	//本地版本文件
+	boost::property_tree::ptree local_xml;
+	try {
+		boost::property_tree::xml_parser::read_xml(filep, local_xml);
+	}
+	catch (boost::property_tree::xml_parser_error& ec) {
+		std::string msg = ec.message();
+	}
+
+	if (!local_xml.empty()) {
+		build_version_tree_from_xml(local_path, local_xml.front(), locv, false, true);
+	}
+
+	if (remote_version_data.empty()) {
+		boost::asio::io_service tmp_ios;
+		//远程版本文件
+		int ret = get_http_data(remote_path + "version_config.xml", remote_version_data, tmp_ios, true, "cache-control:no-cache\r\n");
+		if (ret != error_noerror) {
+			return error_netio_failed;
+		}
+	}
+
+	boost::property_tree::ptree remote_xml;
+	try {
+
+		std::string str = remote_version_data.data();
+		std::stringstream sstm(str);
+		boost::property_tree::xml_parser::read_xml(sstm, remote_xml);
+	}
+	catch (boost::property_tree::xml_parser_error& ec) {
+		std::string msg = ec.message();
+	}
+
+	build_version_tree_from_xml("", remote_xml.front(), remv, true, true);
+
+	//如果本地版本文件里没有东西,则使用远程文件列表来生成本地的版本文件.
+	if (locv->child_lst.empty()) {
+		build_version_tree_from_xml(local_path, remote_xml.front(), locv, false, true);
+	}
+
+	//比较上面两个版本，结果放在remv里。
+	bool will_update = compare_local_to_remote(locv, remv);
+	if (will_update) {
+		progress_max_ = 100;
+		progress_ = 0;
+		std::string filep = local_path_ + "version_config.xml";
+		vern_ptr	dlv(new ver_node());
+		//检查是否存在UpdateDownload文件夹，如果没有，创建它。
+		if (!fs::exists(local_path_ + "UpdateDownload")) {
+			if (!fs::create_directories(local_path_ + "UpdateDownload")) {
+				last_error = error_io_canceled;
+				return last_error;
+			}
+			else {
+				LOGD("directory UpdateDownload created.");
+			}
+		}
+
+		//加入要下载的zip文件
+		auto it = zip_files_.begin();
+		while (it != zip_files_.end())
+		{
+			if (it->second.second == 1) {
+				it->second.first->compare_result_ = compare_result_add;
+				it->second.first->parent_ = remv;
+				remv->child_lst.push_back(it->second.first);
+			}
+			it++;
+		}
+		zip_files_.clear();
+
+		//构造下载目录版本
+		vdir dldir(local_path_ + "UpdateDownload/");
+		build_version_tree_from_local(dldir, dlv);
+		//比较下载目录和远程版本，结果放在remv里
+		compare_download_to_remote(*dlv, *remv);
+		//最终remv里记录了所有信息，哪些文件需要更新，哪些需要删除，哪些需要添加
+		//统计需要下载的文件数量
+		progress_max_ = count_download_size(remv, file_max_);
+		return error_version_willupdate;
+	}
+	else {
+		clean_rename(local_path_);
+		return error_version_uptodate;
+	}
+}
+
+std::string version_manager::version_info(std::string local_path)
  {
  	std::string filep = local_path + "version_config.xml";
  	boost::property_tree::ptree xml;
@@ -828,137 +962,22 @@ int version_manager::do_sync_version()
  
  int version_manager::check_update(std::string exe, std::string local_path, std::string remote_path)
  {
-	boost::lock_guard<boost::mutex> lk(mtu_);
+	 auto fn = [this, exe, local_path, remote_path]()->int {
+		 check_result_ = do_check_update(exe, local_path, remote_path);
+		 return 0;
+	 };
 
-	if(local_path.empty() || remote_path.empty()) 
-		return error_version_uptodate;
-
-	if (local_path[local_path.size() - 1] != '/'){
-		local_path.push_back('/');
-	}
-	
-	if (remote_path[remote_path.size() - 1] != '/'){
-		remote_path.push_back('/');
-	}
-
-	local_path_ = local_path;
-	remote_path_ = remote_path;
-
- 	exe_ = exe;
-	
-  	fs::path dir(local_path);
-
-	LOGD("check update for fullpath:%s", fs::absolute(dir).string().c_str());
-
-	if (dir.is_relative()){
-		std::vector<std::string> dirs;
-		split_str(local_path, "/", dirs, true);
-		std::string tmp_dir;
-		for (unsigned i = 0; i < dirs.size(); i++)
-		{
-			tmp_dir += dirs[i] + "/";
-			boost::system::error_code ec;
-			if(fs::create_directory(tmp_dir, ec)){
-				LOGD("dirctory is created:%s", tmp_dir.c_str());
-			}
-		}
-	}
-	else{
-		boost::system::error_code ec;
-		if(fs::create_directory(dir, ec)){
-			LOGD("dirctory is created:%s", fs::absolute(dir).string().c_str());
-		}
-	}
-
- 	locv->reset();
- 	remv->reset();
-
- 	std::string filep = local_path + "version_config.xml";
- 	//本地版本文件
- 	boost::property_tree::ptree local_xml;
- 	try{
- 		boost::property_tree::xml_parser::read_xml(filep, local_xml);
- 	}
- 	catch(boost::property_tree::xml_parser_error& ec){
- 		std::string msg = ec.message();
- 	}
-	
- 	if (!local_xml.empty()){
- 		build_version_tree_from_xml(local_path, local_xml.front(), locv, false, true);
- 	}
-
-	if (remote_version_data.empty()) {
-		boost::asio::io_service tmp_ios;
-		//远程版本文件
-		int ret = get_http_data(remote_path + "version_config.xml", remote_version_data, tmp_ios, true, "cache-control:no-cache\r\n");
-		if (ret != error_noerror) {
-			return error_netio_failed;
-		}
-	}
-
- 	boost::property_tree::ptree remote_xml;
- 	try{
-
- 		std::string str = remote_version_data.data();
- 		std::stringstream sstm(str);
- 		boost::property_tree::xml_parser::read_xml(sstm, remote_xml);
- 	}
- 	catch(boost::property_tree::xml_parser_error& ec){
- 		std::string msg = ec.message();
- 	}
-
- 	build_version_tree_from_xml("", remote_xml.front(), remv, true, true);
- 
- 	//如果本地版本文件里没有东西,则使用远程文件列表来生成本地的版本文件.
- 	if (locv->child_lst.empty()){
- 		build_version_tree_from_xml(local_path, remote_xml.front(), locv, false, true);
- 	}
- 
- 	//比较上面两个版本，结果放在remv里。
- 	bool will_update = compare_local_to_remote(locv, remv);
- 	if (will_update){
-		progress_max_ = 100;
-		progress_ = 0;
-		std::string filep = local_path_ + "version_config.xml";
-		vern_ptr	dlv(new ver_node());
-		//检查是否存在UpdateDownload文件夹，如果没有，创建它。
-		if(!fs::exists(local_path_ + "UpdateDownload")){
-			if (!fs::create_directories(local_path_ + "UpdateDownload")){
-				last_error = error_io_canceled;
-				return last_error;
-			}
-			else{
-				LOGD("directory UpdateDownload created.");
-			}
-		}
-		
-		//加入要下载的zip文件
-		auto it = zip_files_.begin();
-		while (it != zip_files_.end())
-		{
-			if (it->second.second == 1){
-				it->second.first->compare_result_ = compare_result_add;
-				it->second.first->parent_ = remv;
-				remv->child_lst.push_back(it->second.first);
-			}
-			it++;
-		}
-		zip_files_.clear();
-
-		//构造下载目录版本
-		vdir dldir(local_path_ + "UpdateDownload/");
-		build_version_tree_from_local(dldir, dlv);
-		//比较下载目录和远程版本，结果放在remv里
-		compare_download_to_remote(*dlv, *remv);
-		//最终remv里记录了所有信息，哪些文件需要更新，哪些需要删除，哪些需要添加
-		//统计需要下载的文件数量
-		progress_max_ = count_download_size(remv, file_max_);
- 		return error_version_willupdate;
- 	}
- 	else{
-		clean_rename(local_path_);
- 		return error_version_uptodate;
- 	}
+	 if (!check_thread_){
+		 check_thread_.reset(new boost::thread(fn));
+		 return error_noerror;
+	 }
+	 else{
+		 if (check_thread_->try_join_for(boost::chrono::milliseconds(10))) {
+			 check_thread_.reset();
+			 return check_result_;
+		 }
+		 return error_noerror;
+	 }
  }
  
  int version_manager::install_update()

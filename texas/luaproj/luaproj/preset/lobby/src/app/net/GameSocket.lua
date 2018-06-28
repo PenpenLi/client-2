@@ -45,7 +45,6 @@ function GameSocket:ctor(host, port, name, id)
 
     self:switchStatus(GameSocket.S_INITED)
 
-    scheduler.scheduleGlobal(function(dt) self:handleMessages(dt) end, 0.01)
 end
 
 function GameSocket:getStatus()
@@ -85,9 +84,8 @@ end
 function GameSocket:close()
     self.PENDING_SEND = nil;
     assert(self._socket ~= nil)
-    -- if self._status == GameSocket.S_CONNECTED then
-        self._socket:close()
-    -- end
+    self._socket:close()
+	scheduler.unscheduleGlobal(self.evt);
 end
 
 function GameSocket:send(subCmd, data, isCompress)
@@ -106,7 +104,7 @@ function GameSocket:send(subCmd, data, isCompress)
 
     if self._status == GameSocket.S_CONNECTED then
 		if subCmd ~= 65535 then 
-			printLog("net", "[GameSocket] send packet: %d, %s", 
+			printLog("net", "[%s] send packet: %d, %s",  self._name,
 				subCmd, data)
 		end
 
@@ -130,6 +128,7 @@ end
 function GameSocket:onSocketEvent(event)
     -- printInfo("[GameSocket] [%s] event: %s", utils.timeStr(), event.name)
     if event.name == SocketTCP.EVENT_CONNECTED then
+		self.evt = scheduler.scheduleGlobal(function(dt) self:handleMessages(dt) end, 0.01)
         if self.PENDING_SEND then
             for _, v in pairs(self.PENDING_SEND) do
                 self._socket:send(v:getPack())
@@ -144,6 +143,10 @@ function GameSocket:onSocketEvent(event)
     elseif event.name == SocketTCP.EVENT_CLOSE then
 		printLog("a","[GameSocket] [%s] EVENT_CLOSE", self._name)
     elseif event.name == SocketTCP.EVENT_CLOSED then
+		if self.evt then
+			scheduler.unscheduleGlobal(self.evt);
+		end
+
         printLog("a","[GameSocket] [%s] EVENT_CLOSED", self._name)
     elseif event.name == SocketTCP.EVENT_CONNECT_FAILURE then
     	printLog("a","[GameSocket] [%s] connect failure", self._name)
@@ -171,12 +174,14 @@ function GameSocket:handleMessages(dt)
     if self._blocked then
         return
     end
-	
-	if dt > 3.0 then
-		self:close();
-		return
+	if self.lasttick then
+		if os.time() - self.lasttick >= 4.0 then
+			self:close();
+			return
+		end
 	end
 
+	self.lasttick = os.time();
     self.SEQUENCE = self.SEQUENCE + 1
     while #self._msgQueue > 0 do
         local __msg = self._msgQueue[1]

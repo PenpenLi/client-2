@@ -339,6 +339,7 @@ function ViewRoom:leaveSeat(serverpos)
 				for i = 1, maxset do
 					self.playersUI[i]:setSitVisible(true);
 				end
+				APP:getCurrentController():showAlertOK({desc = LANG.TIP_CHANGE_TO_OBSERVER});
 			else
 				local opt = {};
 				opt.desc = LANG.TIP_LEAVE_ROOM;

@@ -71,9 +71,15 @@ function ViewFriendRoom:onMsg(fromServer, subCmd, content)
 		local place_holder = UIHelper.seekNodeByName(self, "place_holder");
 		place_holder:setVisible(false);
 
-		local pi = APP:createView("friendroom.PrivateRoomItem");
-		pi:setInfo(content);
-		self.myRooms:addChild(pi);
+		--房间将要被销毁了，不显示
+		if content.state_ == "1" or content.state_ == "3" then
+			local a = 0;
+		else
+			local pi = APP:createView("friendroom.PrivateRoomItem");
+			pi:setInfo(content);
+			self.myRooms:addChild(pi);
+		end
+
 	elseif subCmd == 1001 and fromServer == 3 then
 		
 	end

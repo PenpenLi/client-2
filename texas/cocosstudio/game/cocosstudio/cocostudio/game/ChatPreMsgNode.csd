@@ -19,14 +19,14 @@
                 <PreSize X="1.0141" Y="0.0500" />
                 <FileData Type="Normal" Path="cocostudio/game/image/chat/chat_split_line.png" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData Name="Text_msg" ActionTag="132142558" Tag="34" IconVisible="False" PositionPercentYEnabled="True" LeftMargin="37.5501" RightMargin="308.4499" TopMargin="19.0000" BottomMargin="19.0000" FontSize="22" LabelText="快快快像个老太太一样" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                <Size X="220.0000" Y="22.0000" />
+              <AbstractNodeData Name="Text_msg" ActionTag="132142558" Tag="34" IconVisible="False" PositionPercentYEnabled="True" LeftMargin="37.5501" RightMargin="268.4499" TopMargin="17.0000" BottomMargin="17.0000" FontSize="26" LabelText="快快快像个老太太一样" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                <Size X="260.0000" Y="26.0000" />
                 <AnchorPoint ScaleY="0.5000" />
                 <Position X="37.5501" Y="30.0000" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.0663" Y="0.5000" />
-                <PreSize X="0.3887" Y="0.3667" />
+                <PreSize X="0.4594" Y="0.4333" />
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>

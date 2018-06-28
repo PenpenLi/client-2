@@ -16,13 +16,13 @@
             <PreSize X="1.0000" Y="1.0000" />
             <FileData Type="Normal" Path="cocostudio/game/image/blank.png" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Button_Confirm" ActionTag="520646957" Tag="4" IconVisible="False" LeftMargin="303.5000" RightMargin="303.5000" TopMargin="862.4050" BottomMargin="329.5950" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="113" Scale9Height="120" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+          <AbstractNodeData Name="Button_Confirm" ActionTag="520646957" Tag="4" IconVisible="False" LeftMargin="303.4999" RightMargin="303.5001" TopMargin="857.0000" BottomMargin="335.0000" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="113" Scale9Height="120" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="143.0000" Y="142.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="375.0000" Y="400.5950" />
+            <Position X="374.9999" Y="406.0000" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.5000" Y="0.3003" />
+            <PrePosition X="0.5000" Y="0.3043" />
             <PreSize X="0.1907" Y="0.1064" />
             <TextColor A="255" R="65" G="65" B="70" />
             <DisabledFileData Type="Normal" Path="cocostudio/game/image/zhujiemian_queding2.png" Plist="" />
@@ -187,48 +187,48 @@
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Image_AddBet" ActionTag="1752820962" Tag="6" IconVisible="False" LeftMargin="283.0000" RightMargin="283.0000" TopMargin="756.3572" BottomMargin="500.6428" TouchEnable="True" LeftEage="60" RightEage="60" TopEage="25" BottomEage="25" Scale9OriginX="60" Scale9OriginY="25" Scale9Width="64" Scale9Height="27" ctype="ImageViewObjectData">
-            <Size X="184.0000" Y="77.0000" />
+          <AbstractNodeData Name="Image_AddBet" ActionTag="1752820962" Tag="6" IconVisible="False" LeftMargin="76.0000" RightMargin="76.0000" TopMargin="740.5012" BottomMargin="456.4988" TouchEnable="True" LeftEage="60" RightEage="60" TopEage="25" BottomEage="25" Scale9OriginX="60" Scale9OriginY="25" Scale9Width="478" Scale9Height="87" ctype="ImageViewObjectData">
+            <Size X="598.0000" Y="137.0000" />
             <Children>
-              <AbstractNodeData Name="Image_5" ActionTag="-2041315021" Tag="7" IconVisible="False" LeftMargin="-195.1326" RightMargin="207.1326" TopMargin="0.8185" BottomMargin="11.1815" LeftEage="56" RightEage="56" TopEage="21" BottomEage="21" Scale9OriginX="56" Scale9OriginY="21" Scale9Width="60" Scale9Height="23" ctype="ImageViewObjectData">
+              <AbstractNodeData Name="Image_5" ActionTag="-2041315021" Tag="7" IconVisible="False" LeftMargin="26.8101" RightMargin="399.1899" TopMargin="60.8184" BottomMargin="11.1816" LeftEage="56" RightEage="56" TopEage="21" BottomEage="21" Scale9OriginX="56" Scale9OriginY="21" Scale9Width="60" Scale9Height="23" ctype="ImageViewObjectData">
                 <Size X="172.0000" Y="65.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="-109.1326" Y="43.6815" />
+                <Position X="112.8101" Y="43.6816" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="-0.5931" Y="0.5673" />
-                <PreSize X="0.9348" Y="0.8442" />
+                <PrePosition X="0.1886" Y="0.3188" />
+                <PreSize X="0.2876" Y="0.4745" />
                 <FileData Type="Normal" Path="cocostudio/game/image/zhujiemian_zhixianganniu.png" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData Name="Text_CurrentBet_Left" ActionTag="1279564039" Tag="8" IconVisible="False" LeftMargin="-123.0996" RightMargin="287.0996" TopMargin="12.5748" BottomMargin="24.4252" FontSize="40" LabelText="0" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+              <AbstractNodeData Name="Text_CurrentBet_Left" ActionTag="1279564039" Tag="8" IconVisible="False" LeftMargin="286.0675" RightMargin="291.9325" TopMargin="71.0653" BottomMargin="25.9347" FontSize="40" LabelText="0" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                 <Size X="20.0000" Y="40.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="-113.0996" Y="44.4252" />
+                <Position X="296.0675" Y="45.9347" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="-0.6147" Y="0.5770" />
-                <PreSize X="0.1087" Y="0.5195" />
+                <PrePosition X="0.4951" Y="0.3353" />
+                <PreSize X="0.0334" Y="0.2920" />
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="Text_CurrentBet" ActionTag="-835731517" Tag="9" IconVisible="False" LeftMargin="81.4594" RightMargin="82.5406" TopMargin="15.1986" BottomMargin="21.8014" FontSize="40" LabelText="0" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+              <AbstractNodeData Name="Text_CurrentBet" ActionTag="-835731517" Tag="9" IconVisible="False" LeftMargin="97.4599" RightMargin="480.5401" TopMargin="75.1985" BottomMargin="21.8015" FontSize="40" LabelText="0" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                 <Size X="20.0000" Y="40.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="91.4594" Y="41.8014" />
+                <Position X="107.4599" Y="41.8015" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="77" G="77" B="77" />
-                <PrePosition X="0.4971" Y="0.5429" />
-                <PreSize X="0.1087" Y="0.5195" />
+                <PrePosition X="0.1797" Y="0.3051" />
+                <PreSize X="0.0334" Y="0.2920" />
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
             </Children>
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="375.0000" Y="539.1428" />
+            <Position X="375.0000" Y="524.9988" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.5000" Y="0.4042" />
-            <PreSize X="0.2453" Y="0.0577" />
+            <PrePosition X="0.5000" Y="0.3936" />
+            <PreSize X="0.7973" Y="0.1027" />
             <FileData Type="Normal" Path="cocostudio/game/image/zhujiemian_jiazhulatiao.png" Plist="" />
           </AbstractNodeData>
         </Children>

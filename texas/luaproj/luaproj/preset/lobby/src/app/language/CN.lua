@@ -58,6 +58,7 @@ CN.TIP_NET_CREATE_ROOM_RET = "房间创建成功."
 CN.TIP_SAME_ACCOUNT_LOGIN = "账号已在其它地方登录."
 CN.TIP_ROOM_NEED_RENEW = "房间将于30秒后到期."
 CN.TIP_LEAVE_ROOM = "你已离开游戏."
+CN.TIP_CHANGE_TO_OBSERVER = "你正在观战游戏."
 -----------------------------------------------
 
 ------------错误信息---------------------------

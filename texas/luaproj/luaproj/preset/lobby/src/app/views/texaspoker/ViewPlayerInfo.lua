@@ -64,7 +64,7 @@ end
 -- 添加道具
 function ViewPlayerInfo:addProps()
 	local gameUser =APP.GD.GameUser
-	if gameUser.uid == self.uid then
+	if gameUser.uid == self.uid and self.textPropTip then
 		self.textPropTip:hide()
 		return
 	end

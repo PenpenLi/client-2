@@ -171,23 +171,14 @@ function ViewChat:createPreChatMsgCell(data)
 end
 
 function ViewChat:PreChatSendTouch(send,touchTpye)
-    if touchTpye == ccui.TouchEventType.moved then 
-        self._touchMoved = true
-    elseif touchTpye == ccui.TouchEventType.ended then 
-        if self._touchMoved == false then 
-            self:sendPreChat(send:getParent():getTag())
-        else
-            self._touchMoved = false 
-        end
-    else
-        self._touchMoved = false
-    end 
+-- if touchTpye == ccui.TouchEventType.ended then 
+--	self:sendPreChat(send:getParent():getTag())
+-- end 
 end 
-
 
 function ViewChat:PreChatMsgCellTouched(view,cell)
     local idx = cell:getTag()
-    print ("PreChatMsgCellTouched"..idx)
+	self:sendPreChat(idx)
 end
 
 function ViewChat:PreChatMsgSizeForTable(view, idx)
