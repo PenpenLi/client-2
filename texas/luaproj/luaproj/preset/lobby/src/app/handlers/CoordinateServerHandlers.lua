@@ -61,8 +61,7 @@ function CoordinateServerHandlers.handleSameAccountLogin(content)
 end
 
 function CoordinateServerHandlers.handleSyncItemNotify(content)
-    local gameUser =APP.GD.GameUser
-    gameUser:setItem(tonumber(content.item_id_), tonumber(content.count_))
+   
 end
 
 function CoordinateServerHandlers.handleBroadcastNotify(content)

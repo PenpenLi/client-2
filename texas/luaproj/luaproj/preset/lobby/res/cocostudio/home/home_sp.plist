@@ -7,18 +7,18 @@
 			<key>cocostudio/home/image/dating_add1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1953,1658},{61,59}}</string>
+				<string>{{1815,1},{61,59}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
-				<true />
+				<false />
 				<key>sourceSize</key>
 				<string>{61,59}</string>
 			</dict>
 			<key>cocostudio/home/image/dating_add2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1979,1576},{61,59}}</string>
+				<string>{{1878,1},{61,59}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -51,18 +51,18 @@
 			<key>cocostudio/home/image/dating_fankui1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1510,1905},{87,82}}</string>
+				<string>{{1599,1821},{87,82}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
-				<true />
+				<false />
 				<key>sourceSize</key>
 				<string>{87,82}</string>
 			</dict>
 			<key>cocostudio/home/image/dating_fankui2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1594,1905},{87,82}}</string>
+				<string>{{1688,1778},{87,82}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -84,18 +84,18 @@
 			<key>cocostudio/home/image/dating_huodong1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1599,1821},{87,82}}</string>
+				<string>{{1694,1686},{87,82}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
-				<false />
+				<true />
 				<key>sourceSize</key>
 				<string>{87,82}</string>
 			</dict>
 			<key>cocostudio/home/image/dating_huodong2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1678,1905},{87,82}}</string>
+				<string>{{1720,1576},{87,82}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -106,18 +106,18 @@
 			<key>cocostudio/home/image/dating_jibi1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1553,1994},{45,47}}</string>
+				<string>{{1882,1843},{45,47}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
-				<false />
+				<true />
 				<key>sourceSize</key>
 				<string>{45,47}</string>
 			</dict>
 			<key>cocostudio/home/image/dating_kefu1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1688,1778},{87,82}}</string>
+				<string>{{1714,1867},{87,82}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -128,7 +128,7 @@
 			<key>cocostudio/home/image/dating_kefu2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1694,1678},{87,82}}</string>
+				<string>{{1772,1775},{87,82}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -194,18 +194,18 @@
 			<key>cocostudio/home/image/dating_panghangdiyi.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1510,1994},{52,41}}</string>
+				<string>{{1634,1778},{52,41}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
-				<true />
+				<false />
 				<key>sourceSize</key>
 				<string>{52,41}</string>
 			</dict>
 			<key>cocostudio/home/image/dating_renwu1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1720,1576},{87,82}}</string>
+				<string>{{1778,1665},{87,82}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -216,7 +216,7 @@
 			<key>cocostudio/home/image/dating_renwu2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1762,1867},{87,82}}</string>
+				<string>{{1804,1576},{87,82}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -260,7 +260,7 @@
 			<key>cocostudio/home/image/dating_shezhi1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1762,1956},{87,82}}</string>
+				<string>{{1714,1956},{87,82}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -271,7 +271,7 @@
 			<key>cocostudio/home/image/dating_shezhi2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1772,1767},{87,82}}</string>
+				<string>{{1798,1864},{87,82}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -282,7 +282,7 @@
 			<key>cocostudio/home/image/dating_touxiangdi.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1618,1576},{100,100}}</string>
+				<string>{{1612,1905},{100,100}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -293,7 +293,7 @@
 			<key>cocostudio/home/image/dating_touxiangdi1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1930,1843},{70,70}}</string>
+				<string>{{1972,1576},{70,70}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -304,7 +304,7 @@
 			<key>cocostudio/home/image/dating_touxiangdi2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1940,1747},{70,70}}</string>
+				<string>{{1964,1918},{70,70}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -326,7 +326,7 @@
 			<key>cocostudio/home/image/dating_tuichu1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1778,1665},{87,82}}</string>
+				<string>{{1856,1754},{87,82}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -337,7 +337,7 @@
 			<key>cocostudio/home/image/dating_tuichu2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1804,1576},{87,82}}</string>
+				<string>{{1862,1665},{87,82}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -359,7 +359,7 @@
 			<key>cocostudio/home/image/dating_xiangshanganniu1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1862,1665},{89,80}}</string>
+				<string>{{1940,1754},{89,80}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -370,7 +370,7 @@
 			<key>cocostudio/home/image/dating_xiangshanganniu2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1888,1576},{89,80}}</string>
+				<string>{{1946,1665},{89,80}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -381,18 +381,18 @@
 			<key>cocostudio/home/image/dating_xiangshanganniu3.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1846,1945},{89,80}}</string>
+				<string>{{1940,1836},{89,80}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
-				<true />
+				<false />
 				<key>sourceSize</key>
 				<string>{89,80}</string>
 			</dict>
 			<key>cocostudio/home/image/dating_xiangshanganniu4.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1928,1945},{89,80}}</string>
+				<string>{{1882,1918},{89,80}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -403,7 +403,7 @@
 			<key>cocostudio/home/image/dating_youxiang1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1846,1856},{87,82}}</string>
+				<string>{{1888,1576},{87,82}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -414,7 +414,7 @@
 			<key>cocostudio/home/image/dating_youxiang2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1856,1754},{87,82}}</string>
+				<string>{{1798,1953},{87,82}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -553,6 +553,39 @@
 				<false />
 				<key>sourceSize</key>
 				<string>{118,165}</string>
+			</dict>
+			<key>cocostudio/home/image/dating_yinhang1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1618,1576},{108,100}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{108,100}</string>
+			</dict>
+			<key>cocostudio/home/image/dating_yinhang2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1510,1905},{108,100}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{108,100}</string>
+			</dict>
+			<key>cocostudio/home/image/dating_yinhangwenzi.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1520,1576},{79,31}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{79,31}</string>
 			</dict>
 		</dict>
 		<key>metadata</key>

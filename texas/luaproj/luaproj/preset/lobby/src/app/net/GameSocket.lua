@@ -175,7 +175,7 @@ function GameSocket:handleMessages(dt)
         return
     end
 	if self.lasttick then
-		if os.time() - self.lasttick >= 4.0 then
+		if (os.time() - self.lasttick >= 4.0) and get_cmdline("-debug") ~= "1" then
 			self:close();
 			return
 		end

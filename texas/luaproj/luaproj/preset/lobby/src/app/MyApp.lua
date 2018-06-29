@@ -6,6 +6,7 @@ local loginCtrlcls = nil;
 local gameCtrlcls = nil;
 local CMD = require("app.net.CMD")
 local vcp = require("bootstart/VersionCompare")
+
 ---全局变量都定义在外面，不要在函数里随意写，这样不利于别人看代码
 APP = nil
 

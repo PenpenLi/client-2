@@ -73,6 +73,8 @@ CN.ERR_CANNOT_STANDUP1 = "请求已接受,本轮结束将自动站起."
 CN.ERR_CANNOT_STANDUP2 = "您已经站起了."
 CN.ERR_VERSION_COMPARE_FAILED = "检查版本失败."
 CN.ERR_VERSION_COMPARE_OLDVERSION_REMAINS = "仍然存在某些文件没有更新成功,请尝试切换网络环境重试."
+CN.ERR_PSW_NOTMATCH = "新旧密码不匹配."
+CN.ERR_PSW_NEEDMORE_LENGTH = "密码长度不能于小6个字母."
 -----------------------------------------------
 CN.VCP = 
 {

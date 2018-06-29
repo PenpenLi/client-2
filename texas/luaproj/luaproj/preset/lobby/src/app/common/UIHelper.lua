@@ -131,5 +131,4 @@ function UIHelper.newAnimation(nframes, container, formator, pos, norepeat)
 	end
 	return sprite, animate;
 end
-
 return UIHelper
