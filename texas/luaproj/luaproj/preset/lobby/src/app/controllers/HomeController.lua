@@ -5,6 +5,7 @@ local coorCmd = require("app.commands.LoginCoordinateCommand")
 local switchGSHandler = require("app.handlers.SwitchGameServerHandlers")
 local conf = require("app.common.GameConfig")
 local CMD = require("app.net.CMD")
+local SoundUtils = require("app.common.SoundUtils")
 
 local HomeController = class("HomeController", ControllerBase)
 
@@ -29,6 +30,7 @@ function HomeController:ctor()
     self.viewRankH = nil
    
 	addListener(self, "COMMON_ERROR", handler(self, self.onError));
+	SoundUtils.playMusic()
 end
 
 function  HomeController:findPrivateRoom(roomId)

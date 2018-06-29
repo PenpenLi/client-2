@@ -1,17 +1,17 @@
 local SoundUtils = {}
 
 -- 游戏中的音效
-SoundUtils.GameSoundBG = {"audio/game/bg.mp3"} 		--背景音乐
+SoundUtils.GameSoundBG = {"audio/game/bg.mp3", "audio/game/background.mp3", "audio/game/lobbymusic_1.mp3"} 		--背景音乐
 SoundUtils.GameSound = {}
 
-SoundUtils.GameSound.ALLIN = {"audio/game/woman/allIn_0_1.mp3", "audio/game/woman/allIn_0_2.mp3"}				-- allin
-SoundUtils.GameSound.DISCARD = {"audio/game/woman/discard_0_1.mp3", "audio/game/woman/discard_0_2.mp3"} 		-- 弃牌
+SoundUtils.GameSound.ALLIN = {"audio/game/woman/allIn_0_1.mp3"}				-- allin
+SoundUtils.GameSound.DISCARD = {"audio/game/woman/discard_0_1.mp3"} 		-- 弃牌
 SoundUtils.GameSound.FLUSH = {"audio/game/woman/flush_0_1.mp3", "audio/game/woman/flush_0_2.mp3"}				-- 同花
 SoundUtils.GameSound.Follow = {"audio/game/woman/follow_0_1.mp3", "audio/game/woman/follow_0_2.mp3"}			-- 跟牌
 SoundUtils.GameSound.FOURA = {"audio/game/woman/fourOfAKind_0_1.mp3", "audio/game/woman/fourOfAKind_0_2.mp3"}	-- 炸弹
 SoundUtils.GameSound.LAGENARIA = {"audio/game/woman/lagenaria_0_1.mp3", "audio/game/woman/lagenaria_0_2.mp3"} -- 葫芦
 SoundUtils.GameSound.PAIR = {"audio/game/woman/pair_0_1.mp3", "audio/game/woman/pair_0_2.mp3"}				-- 对子
-SoundUtils.GameSound.PASS = {"audio/game/woman/pass_0_1.mp3", "audio/game/woman/pass_0_2.mp3"}				-- 过
+SoundUtils.GameSound.PASS = {"audio/game/woman/pass_0_1.mp3"}				-- 过
 SoundUtils.GameSound.PLUSCHIP = {"audio/game/woman/plusChip_0_1.mp3", "audio/game/woman/plusChip_0_2.mp3"}	-- 加注
 SoundUtils.GameSound.ROYAL = {"audio/game/woman/royalStraightFlush_0_1.mp3", "audio/game/woman/royalStraightFlush_0_2.mp3"} 		-- 皇家同花顺
 SoundUtils.GameSound.SCATTER = {"audio/game/woman/scatterCard_0_1.mp3", "audio/game/woman/scatterCard_0_2.mp3"}					-- 散牌
@@ -22,15 +22,15 @@ SoundUtils.GameSound.TWOPAIRS = {"audio/game/woman/twoPairs_0_1.mp3", "audio/gam
 
 SoundUtils.GameSound.CHIPFLYCHI = {"audio/game/gameEffect/effect_chipflychizi.mp3"}			-- 金币飞到池子
 SoundUtils.GameSound.CHIPFLYPLAYER = {"audio/game/gameEffect/effect_chipflypeople.mp3"} 		-- 金币飞到玩家
-SoundUtils.GameSound.FANPAI = {"audio/game/gameEffect/effect_fapai1.mp3", "audio/game/gameEffect/effect_fapai2.mp3", "audio/game/gameEffect/effect_fapai3.mp3"}	--翻牌
+SoundUtils.GameSound.FANPAI = {"audio/game/gameEffect/effect_fapai1.mp3"}	--翻牌
 SoundUtils.GameSound.TURN = {"audio/game/gameEffect/effect_turn0.mp3", "audio/game/gameEffect/effect_turn0.mp3"}						-- 倒计时
-SoundUtils.GameSound.WIN = {"audio/game/gameEffect/effect_win.mp3"}			-- 胜利
+SoundUtils.GameSound.WIN = {"audio/game/gameEffect/effect_win.mp3","audio/game/gameEffect/sng_winner.mp3","audio/game/gameEffect/crit_win.mp3",}			-- 胜利
 SoundUtils.GameSound.NEWTURN = {"audio/game/gameEffect/effect_huakuaidaoding.mp3"}		
 SoundUtils.GameSound.BET = {"audio/game/gameEffect/effect_chip.mp3"}
 SoundUtils.GameSound.PASSEFF = {"audio/game/gameEffect/effect_newpass.mp3"}	
 SoundUtils.GameSound.FOLDEFF = {"audio/game/gameEffect/effect_EveryoneFold.mp3"}	
 
-
+SoundUtils.GameSound.ALLINEFF = {"audio/game/gameEffect/crit_dial_crit.mp3", "audio/game/gameEffect/crit_overWhelm.mp3"}
 SoundUtils.GameSound.PLAYERSIT = {"audio/game/gameEffect/effect_sit.mp3"}
 
 function SoundUtils.preloadMusic()
@@ -45,7 +45,7 @@ function SoundUtils.playMusic()
 	end
 	local musicCount = #SoundUtils.GameSoundBG
 	local index = math.random(1, musicCount)
-	audio.playMusic(SoundUtils.GameSoundBG[index])
+	audio.playMusic(SoundUtils.GameSoundBG[index], false)
 end
 
 function SoundUtils.pauseMusic()

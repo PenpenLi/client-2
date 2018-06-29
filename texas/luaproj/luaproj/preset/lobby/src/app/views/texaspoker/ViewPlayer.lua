@@ -305,7 +305,7 @@ function ViewPlayer:setDealedCardStatus(show, isAction)
 
 			fly:runAction(
 				cc.Sequence:create(
-					cc.DelayTime:create((i - 1) * 0.1),
+					cc.DelayTime:create(i * 0.2),
 					cc.CallFunc:create(function()
 						SoundUtils.playFanpai(1)
 					end),
@@ -357,7 +357,7 @@ function ViewPlayer:showAllin()
 	spr:setOpacity(0);
 
 	spr:runAction(cc.Sequence:create(cc.FadeIn:create(0.5),
-	 cc.CallFunc:create(function() SoundUtils.playEffect(SoundUtils.GameSound.WIN); end)));
+	 cc.CallFunc:create(function() SoundUtils.playEffect(SoundUtils.GameSound.ALLINEFF); end)));
 	self.allinAnim = spr;
 
 end

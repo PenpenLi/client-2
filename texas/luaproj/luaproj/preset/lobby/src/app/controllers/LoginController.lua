@@ -85,14 +85,14 @@ function LoginController:onEnter()
 	print("LoginController:onEnter")
 	LoginController.super.onEnter(self)
 
-	-- SoundUtils.playMusic()
+	SoundUtils.playMusic()
 
 end
 
 function LoginController:onExit()
 	LoginController.super.onExit(self)
     removeListener(self.evt);
-	-- SoundUtils.unloadGameSound()
+	SoundUtils.unloadGameSound()
 end
 
 return LoginController
