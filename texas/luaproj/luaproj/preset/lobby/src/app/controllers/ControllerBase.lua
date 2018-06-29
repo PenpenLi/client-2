@@ -67,7 +67,7 @@ function ControllerBase:onExit()
 end
 
 function ControllerBase:showWaiting()
-    self._waitingNode = APP:createView("common.WaitingNode")
+    self._waitingNode = APP:createView("common.WaitingNode", {autoClose = 1})
         :move(0, 0)
         :addTo(self)
     self._waitingNode:setName("common.WaitingNode")

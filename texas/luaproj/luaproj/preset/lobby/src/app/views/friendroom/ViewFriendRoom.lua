@@ -56,9 +56,10 @@ function ViewFriendRoom:refreshInfo()
 	else
 		self.shouldClear = true;
 	end
-	
-	APP.hc:QueryMyPrivateRoom()
-	self.evt1 = singleShot(5.0, handler(self, self.refreshInfo));
+	if APP:getCurrentController() then
+		APP:getCurrentController():QueryMyPrivateRoom()
+		self.evt1 = singleShot(5.0, handler(self, self.refreshInfo));
+	end
 end
 
 function ViewFriendRoom:onMsg(fromServer, subCmd, content)

@@ -21,6 +21,11 @@ function WaitingNode:ctor(options)
     local rotAction = cc.RotateBy:create(1,360)
     local repAction = cc.RepeatForever:create(rotAction)
     loading:runAction(repAction)
+
+	if options.autoClose == 1 then
+		loading:runAction(cc.Sequence:create(cc.DelayTime:create(5.0), cc.RemoveSelf:create()));
+	end
+
 	loading:resume();
 end
 
