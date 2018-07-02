@@ -4,21 +4,23 @@ local SoundUtils = {}
 SoundUtils.GameSoundBG = {"audio/game/bg.mp3", "audio/game/background.mp3", "audio/game/lobbymusic_1.mp3"} 		--背景音乐
 SoundUtils.GameSound = {}
 
-SoundUtils.GameSound.ALLIN = {"audio/game/woman/allIn_0_1.mp3"}				-- allin
-SoundUtils.GameSound.DISCARD = {"audio/game/woman/discard_0_1.mp3"} 		-- 弃牌
-SoundUtils.GameSound.FLUSH = {"audio/game/woman/flush_0_1.mp3", "audio/game/woman/flush_0_2.mp3"}				-- 同花
-SoundUtils.GameSound.Follow = {"audio/game/woman/follow_0_1.mp3", "audio/game/woman/follow_0_2.mp3"}			-- 跟牌
-SoundUtils.GameSound.FOURA = {"audio/game/woman/fourOfAKind_0_1.mp3", "audio/game/woman/fourOfAKind_0_2.mp3"}	-- 炸弹
-SoundUtils.GameSound.LAGENARIA = {"audio/game/woman/lagenaria_0_1.mp3", "audio/game/woman/lagenaria_0_2.mp3"} -- 葫芦
-SoundUtils.GameSound.PAIR = {"audio/game/woman/pair_0_1.mp3", "audio/game/woman/pair_0_2.mp3"}				-- 对子
-SoundUtils.GameSound.PASS = {"audio/game/woman/pass_0_1.mp3"}				-- 过
-SoundUtils.GameSound.PLUSCHIP = {"audio/game/woman/plusChip_0_1.mp3", "audio/game/woman/plusChip_0_2.mp3"}	-- 加注
-SoundUtils.GameSound.ROYAL = {"audio/game/woman/royalStraightFlush_0_1.mp3", "audio/game/woman/royalStraightFlush_0_2.mp3"} 		-- 皇家同花顺
-SoundUtils.GameSound.SCATTER = {"audio/game/woman/scatterCard_0_1.mp3", "audio/game/woman/scatterCard_0_2.mp3"}					-- 散牌
-SoundUtils.GameSound.STRAIGHT = {"audio/game/woman/straight_0_1.mp3", "audio/game/woman/straight_0_2.mp3"}						-- 顺子
-SoundUtils.GameSound.STRAIGHTFLUSH = {"audio/game/woman/straightFlush_0_1.mp3", "audio/game/woman/straightFlush_0_2.mp3"}			-- 同花顺
-SoundUtils.GameSound.THREEA = {"audio/game/woman/threeOfAKind_0_1.mp3", "audio/game/woman/threeOfAKind_0_2.mp3"}					-- 三条
-SoundUtils.GameSound.TWOPAIRS = {"audio/game/woman/twoPairs_0_1.mp3", "audio/game/woman/twoPairs_0_2.mp3"}						-- 两对
+SoundUtils.GameSound.ALLIN = {"audio/game/%s/allIn_0_1.mp3"}				-- allin
+SoundUtils.GameSound.DISCARD = {"audio/game/%s/discard_0_1.mp3"} 		-- 弃牌
+SoundUtils.GameSound.FLUSH = {"audio/game/%s/flush_0_1.mp3", "audio/game/%s/flush_0_2.mp3"}				-- 同花
+SoundUtils.GameSound.Follow = {"audio/game/%s/follow_0_1.mp3", "audio/game/%s/follow_0_2.mp3"}			-- 跟牌
+SoundUtils.GameSound.FOURA = {"audio/game/%s/fourOfAKind_0_1.mp3", "audio/game/%s/fourOfAKind_0_2.mp3"}	-- 炸弹
+SoundUtils.GameSound.LAGENARIA = {"audio/game/%s/lagenaria_0_1.mp3", "audio/game/%s/lagenaria_0_2.mp3"} -- 葫芦
+SoundUtils.GameSound.PAIR = {"audio/game/%s/pair_0_1.mp3", "audio/game/%s/pair_0_2.mp3"}				-- 对子
+SoundUtils.GameSound.PASS = {"audio/game/%s/pass_0_1.mp3"}				-- 过
+SoundUtils.GameSound.PLUSCHIP = {"audio/game/%s/plusChip_0_1.mp3", "audio/game/%s/plusChip_0_2.mp3"}	-- 加注
+SoundUtils.GameSound.ROYAL = {"audio/game/%s/royalStraightFlush_0_1.mp3", "audio/game/%s/royalStraightFlush_0_2.mp3"} 		-- 皇家同花顺
+SoundUtils.GameSound.SCATTER = {"audio/game/%s/scatterCard_0_1.mp3", "audio/game/%s/scatterCard_0_2.mp3"}					-- 散牌
+SoundUtils.GameSound.STRAIGHT = {"audio/game/%s/straight_0_1.mp3", "audio/game/%s/straight_0_2.mp3"}						-- 顺子
+SoundUtils.GameSound.STRAIGHTFLUSH = {"audio/game/%s/straightFlush_0_1.mp3", "audio/game/%s/straightFlush_0_2.mp3"}			-- 同花顺
+SoundUtils.GameSound.THREEA = {"audio/game/%s/threeOfAKind_0_1.mp3", "audio/game/%s/threeOfAKind_0_2.mp3"}					-- 三条
+SoundUtils.GameSound.TWOPAIRS = {"audio/game/%s/twoPairs_0_1.mp3", "audio/game/%s/twoPairs_0_2.mp3"}						-- 两对
+
+
 
 SoundUtils.GameSound.CHIPFLYCHI = {"audio/game/gameEffect/effect_chipflychizi.mp3"}			-- 金币飞到池子
 SoundUtils.GameSound.CHIPFLYPLAYER = {"audio/game/gameEffect/effect_chipflypeople.mp3"} 		-- 金币飞到玩家
@@ -92,10 +94,17 @@ function SoundUtils.playSound(gender, name)
 	if not APP.GD:soundOn() then
 		return
 	end
+
 	local soundCount = #name
 	local index = math.random(1, soundCount)
 	-- printInfo("soundCount:%d, index:%d", soundCount, index)
-	audio.playSound(name[index])
+	local pa = name[index];
+	if gender == 0 then
+		pa = string.format(pa, "woman");
+	else
+		pa = string.format(pa, "man");
+	end
+	audio.playSound(pa)
 end
 
 return SoundUtils

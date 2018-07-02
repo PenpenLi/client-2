@@ -333,19 +333,19 @@ function TexasPokerController:playerOption( content )
             APP:getObject("ViewAddBet"):removeSelf()
         end
     end
-
+	local gender = 0;
     if tonumber(content.action_) == TexasPokerConfig.ACTION_GIVEWAY then
-        SoundUtils.playSound(0, SoundUtils.GameSound.PASS)
+        SoundUtils.playSound(gender, SoundUtils.GameSound.PASS)
     elseif tonumber(content.action_) == TexasPokerConfig.ACTION_GIVEUP then
-        SoundUtils.playSound(0, SoundUtils.GameSound.DISCARD)
+        SoundUtils.playSound(gender, SoundUtils.GameSound.DISCARD)
     elseif tonumber(content.action_) == TexasPokerConfig.ACTION_FOLLOW then
-        SoundUtils.playSound(0, SoundUtils.GameSound.Follow)
+        SoundUtils.playSound(gender, SoundUtils.GameSound.Follow)
     elseif tonumber(content.action_) == TexasPokerConfig.ACTION_ADD then
-        SoundUtils.playSound(0, SoundUtils.GameSound.PLUSCHIP)
+        SoundUtils.playSound(gender, SoundUtils.GameSound.PLUSCHIP)
     elseif tonumber(content.action_) == TexasPokerConfig.ACTION_ALLIN then
-        SoundUtils.playSound(0, SoundUtils.GameSound.ALLIN)
+        SoundUtils.playSound(gender, SoundUtils.GameSound.ALLIN)
     elseif tonumber(content.action_) == TexasPokerConfig.ACTION_BETIN then
-        SoundUtils.playSound(0, SoundUtils.GameSound.PLUSCHIP)
+        SoundUtils.playSound(gender, SoundUtils.GameSound.PLUSCHIP)
     end
 
 	if	tonumber(content.action_) == TexasPokerConfig.ACTION_FOLLOW or 
@@ -460,25 +460,26 @@ function TexasPokerController:matchResult(content)
 		
 		self.lastScore[content.uid_].win = self.lastScore[content.uid_].win + tonumber(content.wins_);
 
+		local gender = 0;
         local typeValue = player.csf_val
         if typeValue == 1 then
-            SoundUtils.playSound(0, SoundUtils.GameSound.STRAIGHTFLUSH)
+            SoundUtils.playSound(gender, SoundUtils.GameSound.STRAIGHTFLUSH)
         elseif typeValue == 2 then
-            SoundUtils.playSound(0, SoundUtils.GameSound.FOURA)
+            SoundUtils.playSound(gender, SoundUtils.GameSound.FOURA)
         elseif typeValue == 3 then
-            SoundUtils.playSound(0, SoundUtils.GameSound.LAGENARIA)
+            SoundUtils.playSound(gender, SoundUtils.GameSound.LAGENARIA)
         elseif typeValue == 4 then
-            SoundUtils.playSound(0, SoundUtils.GameSound.FLUSH)
+            SoundUtils.playSound(gender, SoundUtils.GameSound.FLUSH)
         elseif typeValue == 5 then
-            SoundUtils.playSound(0, SoundUtils.GameSound.STRAIGHT)
+            SoundUtils.playSound(gender, SoundUtils.GameSound.STRAIGHT)
         elseif typeValue == 6 then
-            SoundUtils.playSound(0, SoundUtils.GameSound.THREEA)
+            SoundUtils.playSound(gender, SoundUtils.GameSound.THREEA)
         elseif typeValue == 7 then
-            SoundUtils.playSound(0, SoundUtils.GameSound.TWOPAIRS)
+            SoundUtils.playSound(gender, SoundUtils.GameSound.TWOPAIRS)
         elseif typeValue == 8 then
-            SoundUtils.playSound(0, SoundUtils.GameSound.PAIR)
+            SoundUtils.playSound(gender, SoundUtils.GameSound.PAIR)
         elseif typeValue == 9 then
-            SoundUtils.playSound(0, SoundUtils.GameSound.SCATTER)
+            SoundUtils.playSound(gender, SoundUtils.GameSound.SCATTER)
         end
 
         dump(room.take_pools, "=================room.take_pools===========")
