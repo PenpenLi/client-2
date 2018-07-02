@@ -42,15 +42,6 @@
           <Folder Name="home">
             <Folder Name="image">
               <Folder Name="bank">
-                <Folder Name="bank">
-                  <PlistInfo Name="banker_sp.csi" Type="Plist" />
-                  <Image Name="yinhang_congyinhangqukuanwenzi.png" />
-                  <Image Name="yinhang_cunkuandaoyinhangwenzi.png" />
-                  <Image Name="yinhang_cunruwenzi.png" />
-                  <Image Name="yinhang_hengtiaodi.png" />
-                  <Image Name="yinhang_quchuwenzi.png" />
-                  <Image Name="yinhang_zuidawenzi.png" />
-                </Folder>
                 <PlistInfo Name="banker_sp.csi" Type="Plist" />
                 <Image Name="tixian_jindutiao.png" />
                 <Image Name="tixian_shurumima.png" />
@@ -470,6 +461,9 @@
               <Image Name="shezhi_yinyueguan.png" />
               <Image Name="shezhi_yinyuekai.png" />
               <Image Name="zhujiemian_zhezhao.png" />
+              <Image Name="dating_yinhang1.png" />
+              <Image Name="dating_yinhang2.png" />
+              <Image Name="dating_yinhangwenzi.png" />
             </Folder>
             <Project Name="Bank.csd" Type="Layer" />
             <Project Name="CreateRoomLayer.csd" Type="Layer" />

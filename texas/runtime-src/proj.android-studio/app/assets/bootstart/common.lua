@@ -121,3 +121,10 @@ function singleShot(dur, func, ...)
 	end, dur);
 	return taskid;
 end
+
+function touchHandler(callback)
+	return function(sender, etype)
+		if etype ~= ccui.TouchEventType.ended then return end;
+		callback(sender, etype);
+	end
+end

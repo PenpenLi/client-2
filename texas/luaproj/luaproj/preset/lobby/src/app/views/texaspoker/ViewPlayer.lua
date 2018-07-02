@@ -305,7 +305,7 @@ function ViewPlayer:setDealedCardStatus(show, isAction)
 
 			fly:runAction(
 				cc.Sequence:create(
-					cc.DelayTime:create(i * 0.2),
+					cc.DelayTime:create(i * 0.3),
 					cc.CallFunc:create(function()
 						SoundUtils.playFanpai(1)
 					end),

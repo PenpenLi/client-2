@@ -157,20 +157,31 @@
             <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />
           </AbstractNodeData>
-          <AbstractNodeData Name="btnBanker" ActionTag="-374889553" Tag="368" IconVisible="False" LeftMargin="628.6671" RightMargin="21.3329" TopMargin="115.3351" BottomMargin="1107.6649" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="70" Scale9Height="89" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
-            <Size X="100.0000" Y="111.0000" />
+          <AbstractNodeData Name="btnBanker" ActionTag="-374889553" Tag="368" IconVisible="False" LeftMargin="639.6674" RightMargin="2.3326" TopMargin="113.8345" BottomMargin="1120.1655" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="78" Scale9Height="78" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+            <Size X="108.0000" Y="100.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="678.6671" Y="1163.1649" />
+            <Position X="693.6674" Y="1170.1655" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.9049" Y="0.8719" />
-            <PreSize X="0.1333" Y="0.0832" />
+            <PrePosition X="0.9249" Y="0.8772" />
+            <PreSize X="0.1440" Y="0.0750" />
             <TextColor A="255" R="65" G="65" B="70" />
             <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
-            <PressedFileData Type="MarkedSubImage" Path="cocostudio/home/image/mission/mission_icon_diamond.png" Plist="cocostudio/home/image/mission/mission_sp.plist" />
-            <NormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/mission/mission_icon_diamond.png" Plist="cocostudio/home/image/mission/mission_sp.plist" />
+            <PressedFileData Type="MarkedSubImage" Path="cocostudio/home/image/dating_yinhang2.png" Plist="cocostudio/home/home_sp.plist" />
+            <NormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/dating_yinhang1.png" Plist="cocostudio/home/home_sp.plist" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="dating_yinhangwenzi_1" ActionTag="-1608961283" Tag="125" IconVisible="False" LeftMargin="654.1675" RightMargin="16.8325" TopMargin="204.5311" BottomMargin="1098.4689" ctype="SpriteObjectData">
+            <Size X="79.0000" Y="31.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="693.6675" Y="1113.9689" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.9249" Y="0.8351" />
+            <PreSize X="0.1053" Y="0.0232" />
+            <FileData Type="MarkedSubImage" Path="cocostudio/home/image/dating_yinhangwenzi.png" Plist="cocostudio/home/home_sp.plist" />
+            <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="UIConatainer" ActionTag="1035393768" Tag="189" IconVisible="True" RightMargin="750.0000" TopMargin="1334.0000" ctype="SingleNodeObjectData">
             <Size X="0.0000" Y="0.0000" />
@@ -194,15 +205,25 @@
                 <PreSize X="0.0000" Y="0.0000" />
                 <FileData Type="MarkedSubImage" Path="cocostudio/home/image/dating_shangfangdi.png" Plist="cocostudio/home/home_sp.plist" />
               </AbstractNodeData>
-              <AbstractNodeData Name="Image_Head" ActionTag="2056019958" Tag="65" IconVisible="False" LeftMargin="6.1885" RightMargin="-96.1885" TopMargin="-1324.8652" BottomMargin="1239.8652" TouchEnable="True" LeftEage="33" RightEage="33" TopEage="33" BottomEage="33" Scale9OriginX="13" Scale9OriginY="13" Scale9Width="20" Scale9Height="20" ctype="ImageViewObjectData">
-                <Size X="90.0000" Y="85.0000" />
+              <AbstractNodeData Name="Image_1" ActionTag="342768288" Tag="124" IconVisible="False" LeftMargin="1.1885" RightMargin="-101.1885" TopMargin="-1332.3651" BottomMargin="1232.3651" LeftEage="33" RightEage="33" TopEage="33" BottomEage="33" Scale9OriginX="33" Scale9OriginY="33" Scale9Width="34" Scale9Height="34" ctype="ImageViewObjectData">
+                <Size X="100.0000" Y="100.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="51.1885" Y="1282.3652" />
+                <Position X="51.1885" Y="1282.3651" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Default" Path="Default/ImageFile.png" Plist="" />
+                <FileData Type="MarkedSubImage" Path="cocostudio/home/image/dating_touxiangdi.png" Plist="cocostudio/home/home_sp.plist" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="Image_Head" ActionTag="2056019958" Tag="65" IconVisible="False" LeftMargin="1.1886" RightMargin="-101.1886" TopMargin="-1333.3652" BottomMargin="1233.3652" TouchEnable="True" LeftEage="33" RightEage="33" TopEage="33" BottomEage="33" Scale9OriginX="33" Scale9OriginY="33" Scale9Width="34" Scale9Height="34" ctype="ImageViewObjectData">
+                <Size X="100.0000" Y="100.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="51.1886" Y="1283.3652" />
+                <Scale ScaleX="0.8100" ScaleY="0.8100" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <FileData Type="Normal" Path="image/zhujiemian_nan1.png" Plist="" />
               </AbstractNodeData>
               <AbstractNodeData Name="Text_Nickname" ActionTag="696708427" Tag="9" IconVisible="False" LeftMargin="115.8754" RightMargin="-259.8754" TopMargin="-1306.1152" BottomMargin="1270.1152" FontSize="36" LabelText="我的昵称" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                 <Size X="144.0000" Y="36.0000" />

@@ -77,6 +77,7 @@
     <Compile Include="preset\lobby\src\app\commands\LoginTexasPokerCommand.lua" />
     <Compile Include="preset\lobby\src\app\commands\LogoutCommand.lua" />
     <Compile Include="preset\lobby\src\app\commands\StartCommand.lua" />
+    <Compile Include="preset\lobby\src\app\common\exclusiveSelect.lua" />
     <Compile Include="preset\lobby\src\app\common\GameConfig.lua" />
     <Compile Include="preset\lobby\src\app\common\NativeFunctions.lua" />
     <Compile Include="preset\lobby\src\app\common\SoundUtils.lua" />

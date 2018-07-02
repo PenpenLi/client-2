@@ -52,6 +52,9 @@
       <FilePathData Path="cocostudio/home/image/shezhi_yinyueguan.png" />
       <FilePathData Path="cocostudio/home/image/shezhi_yinyuekai.png" />
       <FilePathData Path="cocostudio/home/image/zhujiemian_zhezhao.png" />
+      <FilePathData Path="cocostudio/home/image/dating_yinhang1.png" />
+      <FilePathData Path="cocostudio/home/image/dating_yinhang2.png" />
+      <FilePathData Path="cocostudio/home/image/dating_yinhangwenzi.png" />
     </ImageFiles>
     <MaxSize Width="2048" Height="2048" />
   </Content>

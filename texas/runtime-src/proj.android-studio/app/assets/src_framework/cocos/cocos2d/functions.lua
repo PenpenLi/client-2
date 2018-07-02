@@ -338,8 +338,9 @@ end
 
 function make_handler(obj, method, ...)
 	local params = {...}
-    return function()
-        return method(obj, unpack(params))
+    return function(...)
+		local param2 = {...};
+		return method(obj, unpack(params2), unpack(params))
     end
 end
 

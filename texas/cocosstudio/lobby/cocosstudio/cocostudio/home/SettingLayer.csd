@@ -35,7 +35,9 @@
             <PrePosition X="-0.2455" Y="0.8664" />
             <PreSize X="0.2240" Y="0.0532" />
             <NormalBackFileData Type="Normal" Path="cocostudio/home/image/setting/shezhi_yinyueguan.png" Plist="" />
+            <PressedBackFileData Type="Normal" Path="cocostudio/home/image/setting/shezhi_yinyuekai.png" Plist="" />
             <NodeNormalFileData Type="Normal" Path="cocostudio/home/image/setting/shezhi_yinyuekai.png" Plist="" />
+            <NodeDisableFileData Type="Normal" Path="cocostudio/home/image/setting/shezhi_yinyueguan.png" Plist="" />
           </AbstractNodeData>
           <AbstractNodeData Name="CheckBox_Vibrate" ActionTag="-980461375" Tag="182" IconVisible="False" LeftMargin="-268.1522" RightMargin="850.1522" TopMargin="335.6991" BottomMargin="927.3009" TouchEnable="True" CheckedState="True" ctype="CheckBoxObjectData">
             <Size X="168.0000" Y="71.0000" />
@@ -46,7 +48,9 @@
             <PrePosition X="-0.2455" Y="0.7217" />
             <PreSize X="0.2240" Y="0.0532" />
             <NormalBackFileData Type="Normal" Path="cocostudio/home/image/setting/shezhi_yinyueguan.png" Plist="" />
+            <PressedBackFileData Type="Normal" Path="cocostudio/home/image/setting/shezhi_yinyuekai.png" Plist="" />
             <NodeNormalFileData Type="Normal" Path="cocostudio/home/image/setting/shezhi_yinyuekai.png" Plist="" />
+            <NodeDisableFileData Type="Normal" Path="cocostudio/home/image/setting/shezhi_yinyueguan.png" Plist="" />
           </AbstractNodeData>
           <AbstractNodeData Name="CheckBox_effect" ActionTag="-2112502554" Tag="181" IconVisible="False" LeftMargin="-268.1522" RightMargin="850.1522" TopMargin="240.6996" BottomMargin="1022.3004" TouchEnable="True" CheckedState="True" ctype="CheckBoxObjectData">
             <Size X="168.0000" Y="71.0000" />
@@ -57,7 +61,9 @@
             <PrePosition X="-0.2455" Y="0.7930" />
             <PreSize X="0.2240" Y="0.0532" />
             <NormalBackFileData Type="Normal" Path="cocostudio/home/image/setting/shezhi_yinyueguan.png" Plist="" />
+            <PressedBackFileData Type="Normal" Path="cocostudio/home/image/setting/shezhi_yinyuekai.png" Plist="" />
             <NodeNormalFileData Type="Normal" Path="cocostudio/home/image/setting/shezhi_yinyuekai.png" Plist="" />
+            <NodeDisableFileData Type="Normal" Path="cocostudio/home/image/setting/shezhi_yinyueguan.png" Plist="" />
           </AbstractNodeData>
           <AbstractNodeData Name="Button_ChangeAccount" ActionTag="-2045915479" Tag="104" IconVisible="False" LeftMargin="-115.5270" RightMargin="785.5270" TopMargin="423.8741" BottomMargin="814.1259" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="50" Scale9Height="74" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="80.0000" Y="96.0000" />
