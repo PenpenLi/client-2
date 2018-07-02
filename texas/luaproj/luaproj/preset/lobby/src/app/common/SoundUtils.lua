@@ -6,19 +6,19 @@ SoundUtils.GameSound = {}
 
 SoundUtils.GameSound.ALLIN = {"audio/game/%s/allIn_0_1.mp3"}				-- allin
 SoundUtils.GameSound.DISCARD = {"audio/game/%s/discard_0_1.mp3"} 		-- 弃牌
-SoundUtils.GameSound.FLUSH = {"audio/game/%s/flush_0_1.mp3", "audio/game/%s/flush_0_2.mp3"}				-- 同花
-SoundUtils.GameSound.Follow = {"audio/game/%s/follow_0_1.mp3", "audio/game/%s/follow_0_2.mp3"}			-- 跟牌
-SoundUtils.GameSound.FOURA = {"audio/game/%s/fourOfAKind_0_1.mp3", "audio/game/%s/fourOfAKind_0_2.mp3"}	-- 炸弹
-SoundUtils.GameSound.LAGENARIA = {"audio/game/%s/lagenaria_0_1.mp3", "audio/game/%s/lagenaria_0_2.mp3"} -- 葫芦
-SoundUtils.GameSound.PAIR = {"audio/game/%s/pair_0_1.mp3", "audio/game/%s/pair_0_2.mp3"}				-- 对子
+SoundUtils.GameSound.FLUSH = {"audio/game/%s/flush_0_1.mp3"}				-- 同花
+SoundUtils.GameSound.Follow = {"audio/game/%s/follow_0_1.mp3"}			-- 跟牌
+SoundUtils.GameSound.FOURA = {"audio/game/%s/fourOfAKind_0_1.mp3"}	-- 炸弹
+SoundUtils.GameSound.LAGENARIA = {"audio/game/%s/lagenaria_0_1.mp3"} -- 葫芦
+SoundUtils.GameSound.PAIR = {"audio/game/%s/pair_0_1.mp3"}				-- 对子
 SoundUtils.GameSound.PASS = {"audio/game/%s/pass_0_1.mp3"}				-- 过
-SoundUtils.GameSound.PLUSCHIP = {"audio/game/%s/plusChip_0_1.mp3", "audio/game/%s/plusChip_0_2.mp3"}	-- 加注
-SoundUtils.GameSound.ROYAL = {"audio/game/%s/royalStraightFlush_0_1.mp3", "audio/game/%s/royalStraightFlush_0_2.mp3"} 		-- 皇家同花顺
-SoundUtils.GameSound.SCATTER = {"audio/game/%s/scatterCard_0_1.mp3", "audio/game/%s/scatterCard_0_2.mp3"}					-- 散牌
-SoundUtils.GameSound.STRAIGHT = {"audio/game/%s/straight_0_1.mp3", "audio/game/%s/straight_0_2.mp3"}						-- 顺子
-SoundUtils.GameSound.STRAIGHTFLUSH = {"audio/game/%s/straightFlush_0_1.mp3", "audio/game/%s/straightFlush_0_2.mp3"}			-- 同花顺
-SoundUtils.GameSound.THREEA = {"audio/game/%s/threeOfAKind_0_1.mp3", "audio/game/%s/threeOfAKind_0_2.mp3"}					-- 三条
-SoundUtils.GameSound.TWOPAIRS = {"audio/game/%s/twoPairs_0_1.mp3", "audio/game/%s/twoPairs_0_2.mp3"}						-- 两对
+SoundUtils.GameSound.PLUSCHIP = {"audio/game/%s/plusChip_0_1.mp3"}	-- 加注
+SoundUtils.GameSound.ROYAL = {"audio/game/%s/royalStraightFlush_0_1.mp3"} 		-- 皇家同花顺
+SoundUtils.GameSound.SCATTER = {"audio/game/%s/scatterCard_0_1.mp3"}					-- 散牌
+SoundUtils.GameSound.STRAIGHT = {"audio/game/%s/straight_0_1.mp3"}						-- 顺子
+SoundUtils.GameSound.STRAIGHTFLUSH = {"audio/game/%s/straightFlush_0_1.mp3"}			-- 同花顺
+SoundUtils.GameSound.THREEA = {"audio/game/%s/threeOfAKind_0_1.mp3"}					-- 三条
+SoundUtils.GameSound.TWOPAIRS = {"audio/game/%s/twoPairs_0_1.mp3"}						-- 两对
 
 
 
