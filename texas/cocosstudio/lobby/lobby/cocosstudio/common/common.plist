@@ -4,7 +4,7 @@
 	<dict>
 		<key>frames</key>
 		<dict>
-			<key>common/gerenxinxi_cha1.png</key>
+			<key>images/common/gerenxinxi_cha1.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{827,978},{39,37}}</string>
@@ -15,7 +15,7 @@
 				<key>sourceSize</key>
 				<string>{71,57}</string>
 			</dict>
-			<key>common/gerenxinxi_cha2.png</key>
+			<key>images/common/gerenxinxi_cha2.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{784,978},{43,41}}</string>
@@ -26,7 +26,7 @@
 				<key>sourceSize</key>
 				<string>{71,57}</string>
 			</dict>
-			<key>common/gerenxinxi_di.png</key>
+			<key>images/common/gerenxinxi_di.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{1,1},{752,499}}</string>
@@ -37,7 +37,7 @@
 				<key>sourceSize</key>
 				<string>{782,522}</string>
 			</dict>
-			<key>common/tongyong_anniu1.png</key>
+			<key>images/common/tongyong_anniu1.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{498,824},{209,78}}</string>
@@ -48,7 +48,7 @@
 				<key>sourceSize</key>
 				<string>{231,96}</string>
 			</dict>
-			<key>common/tongyong_anniu2.png</key>
+			<key>images/common/tongyong_anniu2.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{929,791},{229,86}}</string>
@@ -59,7 +59,7 @@
 				<key>sourceSize</key>
 				<string>{231,96}</string>
 			</dict>
-			<key>common/tongyong_anniuxiao1.png</key>
+			<key>images/common/tongyong_anniuxiao1.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{784,824},{152,67}}</string>
@@ -70,7 +70,7 @@
 				<key>sourceSize</key>
 				<string>{176,93}</string>
 			</dict>
-			<key>common/tongyong_anniuxiao2.png</key>
+			<key>images/common/tongyong_anniuxiao2.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{709,824},{168,73}}</string>
@@ -81,7 +81,7 @@
 				<key>sourceSize</key>
 				<string>{176,93}</string>
 			</dict>
-			<key>common/tongyong_anniuziqietu.png</key>
+			<key>images/common/tongyong_anniuziqietu.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{1,755},{1025,34}}</string>
@@ -92,7 +92,7 @@
 				<key>sourceSize</key>
 				<string>{1025,34}</string>
 			</dict>
-			<key>common/tongyong_dixiao.png</key>
+			<key>images/common/tongyong_dixiao.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{1028,1},{628,442}}</string>
@@ -103,7 +103,7 @@
 				<key>sourceSize</key>
 				<string>{652,458}</string>
 			</dict>
-			<key>common/tongyong_shuziqietu.png</key>
+			<key>images/common/tongyong_shuziqietu.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{1,824},{495,32}}</string>
@@ -114,7 +114,7 @@
 				<key>sourceSize</key>
 				<string>{499,36}</string>
 			</dict>
-			<key>common/tongyong_yinhangziqietu.png</key>
+			<key>images/common/tongyong_yinhangziqietu.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{1,791},{926,31}}</string>

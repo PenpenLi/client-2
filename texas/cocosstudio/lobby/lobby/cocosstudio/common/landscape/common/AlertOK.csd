@@ -27,7 +27,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5000" Y="0.5000" />
             <PreSize X="0.4888" Y="0.6107" />
-            <FileData Type="PlistSubImage" Path="common/tongyong_dixiao.png" Plist="common/common.plist" />
+            <FileData Type="Default" Path="Default/Sprite.png" Plist="" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="Text_1" ActionTag="349642475" Tag="50" IconVisible="False" LeftMargin="541.0000" RightMargin="541.0000" TopMargin="357.0000" BottomMargin="357.0000" FontSize="36" LabelText="我是谁啊我是谁" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
@@ -51,8 +51,8 @@
             <PreSize X="0.1319" Y="0.1240" />
             <TextColor A="255" R="65" G="65" B="70" />
             <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
-            <PressedFileData Type="PlistSubImage" Path="common/tongyong_anniuxiao2.png" Plist="common/common.plist" />
-            <NormalFileData Type="PlistSubImage" Path="common/tongyong_anniuxiao1.png" Plist="common/common.plist" />
+            <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
+            <NormalFileData Type="Default" Path="Default/Button_Normal.png" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>

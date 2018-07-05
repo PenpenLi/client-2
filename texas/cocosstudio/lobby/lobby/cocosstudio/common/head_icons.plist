@@ -4,7 +4,7 @@
 	<dict>
 		<key>frames</key>
 		<dict>
-			<key>head_icons/zhujiemian_nan1.png</key>
+			<key>images/head_icons/zhujiemian_nan1.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{1,1},{100,100}}</string>
@@ -15,7 +15,7 @@
 				<key>sourceSize</key>
 				<string>{100,100}</string>
 			</dict>
-			<key>head_icons/zhujiemian_nan2.png</key>
+			<key>images/head_icons/zhujiemian_nan2.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{103,1},{100,100}}</string>
@@ -26,7 +26,7 @@
 				<key>sourceSize</key>
 				<string>{100,100}</string>
 			</dict>
-			<key>head_icons/zhujiemian_nan3.png</key>
+			<key>images/head_icons/zhujiemian_nan3.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{1,103},{100,100}}</string>
@@ -37,7 +37,7 @@
 				<key>sourceSize</key>
 				<string>{100,100}</string>
 			</dict>
-			<key>head_icons/zhujiemian_nan4.png</key>
+			<key>images/head_icons/zhujiemian_nan4.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{103,103},{100,100}}</string>
@@ -48,7 +48,7 @@
 				<key>sourceSize</key>
 				<string>{100,100}</string>
 			</dict>
-			<key>head_icons/zhujiemian_nan5.png</key>
+			<key>images/head_icons/zhujiemian_nan5.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{1,205},{100,100}}</string>
@@ -59,7 +59,7 @@
 				<key>sourceSize</key>
 				<string>{100,100}</string>
 			</dict>
-			<key>head_icons/zhujiemian_nan6.png</key>
+			<key>images/head_icons/zhujiemian_nan6.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{103,205},{100,100}}</string>
@@ -70,7 +70,7 @@
 				<key>sourceSize</key>
 				<string>{100,100}</string>
 			</dict>
-			<key>head_icons/zhujiemian_nan7.png</key>
+			<key>images/head_icons/zhujiemian_nan7.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{1,307},{100,100}}</string>
@@ -81,7 +81,7 @@
 				<key>sourceSize</key>
 				<string>{100,100}</string>
 			</dict>
-			<key>head_icons/zhujiemian_nan8.png</key>
+			<key>images/head_icons/zhujiemian_nan8.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{103,307},{100,100}}</string>
@@ -92,7 +92,7 @@
 				<key>sourceSize</key>
 				<string>{100,100}</string>
 			</dict>
-			<key>head_icons/zhujiemian_nv1.png</key>
+			<key>images/head_icons/zhujiemian_nv1.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{1,409},{100,100}}</string>
@@ -103,7 +103,7 @@
 				<key>sourceSize</key>
 				<string>{100,100}</string>
 			</dict>
-			<key>head_icons/zhujiemian_nv2.png</key>
+			<key>images/head_icons/zhujiemian_nv2.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{103,409},{100,100}}</string>
@@ -114,7 +114,7 @@
 				<key>sourceSize</key>
 				<string>{100,100}</string>
 			</dict>
-			<key>head_icons/zhujiemian_nv3.png</key>
+			<key>images/head_icons/zhujiemian_nv3.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{1,511},{100,100}}</string>
@@ -125,7 +125,7 @@
 				<key>sourceSize</key>
 				<string>{100,100}</string>
 			</dict>
-			<key>head_icons/zhujiemian_nv4.png</key>
+			<key>images/head_icons/zhujiemian_nv4.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{103,511},{100,100}}</string>
@@ -136,7 +136,7 @@
 				<key>sourceSize</key>
 				<string>{100,100}</string>
 			</dict>
-			<key>head_icons/zhujiemian_nv5.png</key>
+			<key>images/head_icons/zhujiemian_nv5.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{1,613},{100,100}}</string>
@@ -147,7 +147,7 @@
 				<key>sourceSize</key>
 				<string>{100,100}</string>
 			</dict>
-			<key>head_icons/zhujiemian_nv6.png</key>
+			<key>images/head_icons/zhujiemian_nv6.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{103,613},{100,100}}</string>
@@ -158,7 +158,7 @@
 				<key>sourceSize</key>
 				<string>{100,100}</string>
 			</dict>
-			<key>head_icons/zhujiemian_nv7.png</key>
+			<key>images/head_icons/zhujiemian_nv7.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{1,715},{100,100}}</string>
@@ -169,7 +169,7 @@
 				<key>sourceSize</key>
 				<string>{100,100}</string>
 			</dict>
-			<key>head_icons/zhujiemian_nv8.png</key>
+			<key>images/head_icons/zhujiemian_nv8.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{103,715},{100,100}}</string>
