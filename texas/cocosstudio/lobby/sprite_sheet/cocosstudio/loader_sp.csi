@@ -1,0 +1,11 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="loader_sp" Type="Plist" ID="8da47763-4ab7-46c0-8221-cfa22a05f5ba" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="False" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="denglu_di.png" />
+      <FilePathData Path="denglu_jindutiaodi.png" />
+      <FilePathData Path="denglu_jindutiaoman.png" />
+    </ImageFiles>
+    <MaxSize Width="2048" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

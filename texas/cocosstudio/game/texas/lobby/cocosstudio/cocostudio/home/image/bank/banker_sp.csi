@@ -1,0 +1,36 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="banker_sp" Type="Plist" ID="3f2e70d9-4057-4e28-b674-9c4a60959955" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="False" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="cocostudio/home/image/bank/tixian_jindutiao.png" />
+      <FilePathData Path="cocostudio/home/image/bank/tixian_shurumima.png" />
+      <FilePathData Path="cocostudio/home/image/bank/yinhang_beijing.png" />
+      <FilePathData Path="cocostudio/home/image/bank/yinhang_cichuzhixiugai.png" />
+      <FilePathData Path="cocostudio/home/image/bank/yinhang_congyinhangqukuan1.png" />
+      <FilePathData Path="cocostudio/home/image/bank/yinhang_congyinhangqukuan2.png" />
+      <FilePathData Path="cocostudio/home/image/bank/yinhang_congyinhangqukuanwenzi.png" />
+      <FilePathData Path="cocostudio/home/image/bank/yinhang_cunkuandaoyinhang.png" />
+      <FilePathData Path="cocostudio/home/image/bank/yinhang_cunkuandaoyinhang2.png" />
+      <FilePathData Path="cocostudio/home/image/bank/yinhang_cunkuandaoyinhangwenzi.png" />
+      <FilePathData Path="cocostudio/home/image/bank/yinhang_cunqu1.png" />
+      <FilePathData Path="cocostudio/home/image/bank/yinhang_cunqu2.png" />
+      <FilePathData Path="cocostudio/home/image/bank/yinhang_cunruwenzi.png" />
+      <FilePathData Path="cocostudio/home/image/bank/yinhang_denglubeijing.png" />
+      <FilePathData Path="cocostudio/home/image/bank/yinhang_hengtiaodi.png" />
+      <FilePathData Path="cocostudio/home/image/bank/yinhang_qingdengrumima.png" />
+      <FilePathData Path="cocostudio/home/image/bank/yinhang_quchongzhi1.png" />
+      <FilePathData Path="cocostudio/home/image/bank/yinhang_quchongzhi2.png" />
+      <FilePathData Path="cocostudio/home/image/bank/yinhang_quchuwenzi.png" />
+      <FilePathData Path="cocostudio/home/image/bank/yinhang_qurenxiugai1.png" />
+      <FilePathData Path="cocostudio/home/image/bank/yinhang_qurenxiugai2.png" />
+      <FilePathData Path="cocostudio/home/image/bank/yinhang_tishi1.png" />
+      <FilePathData Path="cocostudio/home/image/bank/yinhang_wangjimima.png" />
+      <FilePathData Path="cocostudio/home/image/bank/yinhang_xiugaimima.png" />
+      <FilePathData Path="cocostudio/home/image/bank/yinhang_xiugaimima1.png" />
+      <FilePathData Path="cocostudio/home/image/bank/yinhang_xiugaimima2.png" />
+      <FilePathData Path="cocostudio/home/image/bank/yinhang_yinhangbiaoti.png" />
+      <FilePathData Path="cocostudio/home/image/bank/yinhang_zuidawenzi.png" />
+    </ImageFiles>
+    <MaxSize Width="2048" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

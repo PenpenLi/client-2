@@ -1,0 +1,39 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="login_sp" Type="Plist" ID="a5db62bb-1783-4673-ac9f-8a7e86315b4b" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="False" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="login/denglu_chongzhimima.png" />
+      <FilePathData Path="login/denglu_chongzhimimadadi.png" />
+      <FilePathData Path="login/denglu_denglanniu11.png" />
+      <FilePathData Path="login/denglu_denglanniu22222.png" />
+      <FilePathData Path="login/denglu_denglu1.png" />
+      <FilePathData Path="login/denglu_denglu2.png" />
+      <FilePathData Path="login/denglu_dengludi.png" />
+      <FilePathData Path="login/denglu_dengluzhucebiaoti.png" />
+      <FilePathData Path="login/denglu_dengluzhucedi.png" />
+      <FilePathData Path="login/denglu_huanyingdi.png" />
+      <FilePathData Path="login/denglu_jinggao.png" />
+      <FilePathData Path="login/denglu_logo.png" />
+      <FilePathData Path="login/denglu_shoujidenglu1.png" />
+      <FilePathData Path="login/denglu_shoujidenglu2.png" />
+      <FilePathData Path="login/denglu_wangjidenglumima.png" />
+      <FilePathData Path="login/denglu_xian.png" />
+      <FilePathData Path="login/denglu_youkedenglu1.png" />
+      <FilePathData Path="login/denglu_youkedenglu2.png" />
+      <FilePathData Path="login/denglu_zhuce1.png" />
+      <FilePathData Path="login/denglu_zhuce11.png" />
+      <FilePathData Path="login/denglu_zhuce2.png" />
+      <FilePathData Path="login/denglu_zhuce2222.png" />
+      <FilePathData Path="login/denglu_zhucedi.png" />
+      <FilePathData Path="login/meirirenwu_cha1.png" />
+      <FilePathData Path="login/meirirenwu_cha2.png" />
+      <FilePathData Path="login/tixian_fasong1.png" />
+      <FilePathData Path="login/tixian_fasong2.png" />
+      <FilePathData Path="login/tixian_jindutiao.png" />
+      <FilePathData Path="login/dating_beijingmengbang.png" />
+      <FilePathData Path="login/dating_beijing.png" />
+      <FilePathData Path="login/denglu_dikuang.png" />
+    </ImageFiles>
+    <MaxSize Width="2048" Height="2048" />
+  </Content>
+</PlistInfoProjectFile>

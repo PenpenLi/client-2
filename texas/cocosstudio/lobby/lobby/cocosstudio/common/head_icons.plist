@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>head_icons/zhujiemian_nan1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{100,100}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{100,100}</string>
+			</dict>
+			<key>head_icons/zhujiemian_nan2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{103,1},{100,100}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{100,100}</string>
+			</dict>
+			<key>head_icons/zhujiemian_nan3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,103},{100,100}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{100,100}</string>
+			</dict>
+			<key>head_icons/zhujiemian_nan4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{103,103},{100,100}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{100,100}</string>
+			</dict>
+			<key>head_icons/zhujiemian_nan5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,205},{100,100}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{100,100}</string>
+			</dict>
+			<key>head_icons/zhujiemian_nan6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{103,205},{100,100}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{100,100}</string>
+			</dict>
+			<key>head_icons/zhujiemian_nan7.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,307},{100,100}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{100,100}</string>
+			</dict>
+			<key>head_icons/zhujiemian_nan8.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{103,307},{100,100}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{100,100}</string>
+			</dict>
+			<key>head_icons/zhujiemian_nv1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,409},{100,100}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{100,100}</string>
+			</dict>
+			<key>head_icons/zhujiemian_nv2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{103,409},{100,100}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{100,100}</string>
+			</dict>
+			<key>head_icons/zhujiemian_nv3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,511},{100,100}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{100,100}</string>
+			</dict>
+			<key>head_icons/zhujiemian_nv4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{103,511},{100,100}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{100,100}</string>
+			</dict>
+			<key>head_icons/zhujiemian_nv5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,613},{100,100}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{100,100}</string>
+			</dict>
+			<key>head_icons/zhujiemian_nv6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{103,613},{100,100}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{100,100}</string>
+			</dict>
+			<key>head_icons/zhujiemian_nv7.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,715},{100,100}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{100,100}</string>
+			</dict>
+			<key>head_icons/zhujiemian_nv8.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{103,715},{100,100}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{100,100}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>head_icons.png</string>
+			<key>realTextureFileName</key>
+			<string>head_icons.png</string>
+			<key>size</key>
+			<string>{256,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>256</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

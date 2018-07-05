@@ -1,0 +1,21 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="email_sp" Type="Plist" ID="d9e6b313-386e-494a-a896-0a9e92e09d77" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="cocostudio/home/image/email/email_bg.png" />
+      <FilePathData Path="cocostudio/home/image/email/email_btn_close.png" />
+      <FilePathData Path="cocostudio/home/image/email/email_btn_close1.png" />
+      <FilePathData Path="cocostudio/home/image/email/email_btn_get.png" />
+      <FilePathData Path="cocostudio/home/image/email/email_btn_get1.png" />
+      <FilePathData Path="cocostudio/home/image/email/email_btn_left.png" />
+      <FilePathData Path="cocostudio/home/image/email/email_btn_left1.png" />
+      <FilePathData Path="cocostudio/home/image/email/email_btn_right.png" />
+      <FilePathData Path="cocostudio/home/image/email/email_btn_right1.png" />
+      <FilePathData Path="cocostudio/home/image/email/email_node_bg.png" />
+      <FilePathData Path="cocostudio/home/image/email/email_node_left.png" />
+      <FilePathData Path="cocostudio/home/image/email/email_t_down.png" />
+      <FilePathData Path="cocostudio/home/image/email/email_title.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="2048" />
+  </Content>
+</PlistInfoProjectFile>

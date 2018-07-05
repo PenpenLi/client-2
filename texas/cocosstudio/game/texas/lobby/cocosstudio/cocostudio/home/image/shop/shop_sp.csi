@@ -1,0 +1,59 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="shop_sp" Type="Plist" ID="0d6c9a4e-95f7-4f5e-a064-ef89e05b38f3" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="False" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="cocostudio/home/image/shop/item_diamond_1.png" />
+      <FilePathData Path="cocostudio/home/image/shop/item_diamond_2.png" />
+      <FilePathData Path="cocostudio/home/image/shop/item_diamond_3.png" />
+      <FilePathData Path="cocostudio/home/image/shop/item_diamond_4.png" />
+      <FilePathData Path="cocostudio/home/image/shop/item_diamond_5.png" />
+      <FilePathData Path="cocostudio/home/image/shop/item_diamond_6.png" />
+      <FilePathData Path="cocostudio/home/image/shop/item_gold_1.png" />
+      <FilePathData Path="cocostudio/home/image/shop/item_gold_2.png" />
+      <FilePathData Path="cocostudio/home/image/shop/item_gold_3.png" />
+      <FilePathData Path="cocostudio/home/image/shop/item_gold_4.png" />
+      <FilePathData Path="cocostudio/home/image/shop/item_gold_5.png" />
+      <FilePathData Path="cocostudio/home/image/shop/item_gold_6.png" />
+      <FilePathData Path="cocostudio/home/image/shop/shangcheng_anniudi.png" />
+      <FilePathData Path="cocostudio/home/image/shop/shangcheng_d.png" />
+      <FilePathData Path="cocostudio/home/image/shop/shangcheng_fanhui1.png" />
+      <FilePathData Path="cocostudio/home/image/shop/shangcheng_fanhui2.png" />
+      <FilePathData Path="cocostudio/home/image/shop/shangcheng_jinbi1.png" />
+      <FilePathData Path="cocostudio/home/image/shop/shangcheng_jinbi112.png" />
+      <FilePathData Path="cocostudio/home/image/shop/shangcheng_jinbi2.png" />
+      <FilePathData Path="cocostudio/home/image/shop/shangcheng_jinbi222.png" />
+      <FilePathData Path="cocostudio/home/image/shop/shangcheng_jinbi3.png" />
+      <FilePathData Path="cocostudio/home/image/shop/shangcheng_jinbi332.png" />
+      <FilePathData Path="cocostudio/home/image/shop/shangcheng_jinbi4.png" />
+      <FilePathData Path="cocostudio/home/image/shop/shangcheng_jinbi442.png" />
+      <FilePathData Path="cocostudio/home/image/shop/shangcheng_jinbi5.png" />
+      <FilePathData Path="cocostudio/home/image/shop/shangcheng_jinbi552.png" />
+      <FilePathData Path="cocostudio/home/image/shop/shangcheng_jinbi6.png" />
+      <FilePathData Path="cocostudio/home/image/shop/shangcheng_jinbi662.png" />
+      <FilePathData Path="cocostudio/home/image/shop/shangcheng_jinbian.png" />
+      <FilePathData Path="cocostudio/home/image/shop/shangcheng_jinbiliang.png" />
+      <FilePathData Path="cocostudio/home/image/shop/shangcheng_ketixianjinbi.png" />
+      <FilePathData Path="cocostudio/home/image/shop/shangcheng_nindezhuanshibuzhu.png" />
+      <FilePathData Path="cocostudio/home/image/shop/shangcheng_qinglianxidailichongzhi.png" />
+      <FilePathData Path="cocostudio/home/image/shop/shangcheng_quchongzhi1.png" />
+      <FilePathData Path="cocostudio/home/image/shop/shangcheng_quchongzhi2.png" />
+      <FilePathData Path="cocostudio/home/image/shop/shangcheng_quxiao1.png" />
+      <FilePathData Path="cocostudio/home/image/shop/shangcheng_quxiao2.png" />
+      <FilePathData Path="cocostudio/home/image/shop/shangcheng_tixian1.png" />
+      <FilePathData Path="cocostudio/home/image/shop/shangcheng_tixian2.png" />
+      <FilePathData Path="cocostudio/home/image/shop/shangcheng_wanjinbi.png" />
+      <FilePathData Path="cocostudio/home/image/shop/shangcheng_wanjinbishuzi.png" />
+      <FilePathData Path="cocostudio/home/image/shop/shangcheng_yuan.png" />
+      <FilePathData Path="cocostudio/home/image/shop/shangcheng_yuanshuzi.png" />
+      <FilePathData Path="cocostudio/home/image/shop/shangcheng_zhuanshian.png" />
+      <FilePathData Path="cocostudio/home/image/shop/shangcheng_zhuanshiliang.png" />
+      <FilePathData Path="cocostudio/home/image/shop/shangcheng_zuanshi.png" />
+      <FilePathData Path="cocostudio/home/image/shop/shangcheng_zuanshixiao.png" />
+      <FilePathData Path="cocostudio/home/image/shop/tongyong_cha1.png" />
+      <FilePathData Path="cocostudio/home/image/shop/tongyong_cha2.png" />
+      <FilePathData Path="cocostudio/home/image/shop/tongyong_tishi.png" />
+      <FilePathData Path="cocostudio/home/image/shop/tongyong_xiaodi.png" />
+    </ImageFiles>
+    <MaxSize Width="2048" Height="2048" />
+  </Content>
+</PlistInfoProjectFile>

@@ -1,0 +1,23 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="login_sp" Type="Plist" ID="030731b9-d563-46d7-9340-54cb112abaa9" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="login/denglu_denglurer.png" />
+      <FilePathData Path="login/denglu_dengluzhanghao1.png" />
+      <FilePathData Path="login/denglu_dengluzhanghao2.png" />
+      <FilePathData Path="login/denglu_dengluzhucewenzi.png" />
+      <FilePathData Path="login/denglu_di1.png" />
+      <FilePathData Path="login/denglu_fasong.png" />
+      <FilePathData Path="login/denglu_shoujidenglu1.png" />
+      <FilePathData Path="login/denglu_shoujidenglu2.png" />
+      <FilePathData Path="login/denglu_shurukuang.png" />
+      <FilePathData Path="login/denglu_wangjidenglumima.png" />
+      <FilePathData Path="login/denglu_youkedenglu1.png" />
+      <FilePathData Path="login/denglu_youkedenglu2.png" />
+      <FilePathData Path="login/denglu_zhucerer.png" />
+      <FilePathData Path="login/denglu_zhucezhanghao1.png" />
+      <FilePathData Path="login/denglu_zhucezhanghao2.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

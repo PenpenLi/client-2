@@ -1,0 +1,1119 @@
+{
+  "ID": "b0b68390-820b-480f-8846-fe519f00f7bc",
+  "Version": "3.10.0.0",
+  "Name": "AddBetLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/blank.png",
+              "Plist": ""
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 375.0,
+              "Y": 667.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 2,
+            "ActionTag": -1872914338,
+            "Size": {
+              "X": 750.0,
+              "Y": 1334.0
+            },
+            "Alpha": 127,
+            "Name": "Image_1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_queding2.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_queding2.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_queding1.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 113,
+            "Scale9Height": 120,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 375.0,
+              "Y": 400.595
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.3003
+            },
+            "PreSize": {
+              "X": 0.1907,
+              "Y": 0.1064
+            },
+            "LeftMargin": 303.5,
+            "RightMargin": 303.5,
+            "TopMargin": 862.405,
+            "BottomMargin": 329.595,
+            "Tag": 4,
+            "ActionTag": 520646957,
+            "Size": {
+              "X": 143.0,
+              "Y": 142.0
+            },
+            "Name": "Button_Confirm",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_jiazhudi1.png",
+              "Plist": ""
+            },
+            "Scale9OriginY": 182,
+            "Scale9Width": 35,
+            "Scale9Height": 188,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 374.0966,
+              "Y": 749.1908
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4988,
+              "Y": 0.5616
+            },
+            "PreSize": {
+              "X": 0.0467,
+              "Y": 0.4138
+            },
+            "LeftMargin": 356.5966,
+            "RightMargin": 358.4034,
+            "TopMargin": 308.8092,
+            "BottomMargin": 473.1908,
+            "Tag": 5,
+            "ActionTag": -1110343221,
+            "Size": {
+              "X": 35.0,
+              "Y": 552.0
+            },
+            "Name": "Image_Number",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_zuigaoanniu.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_zuigaoanniu.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_zuigaoanniu.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 165,
+            "Scale9Height": 43,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 375.0,
+              "Y": 1054.2766
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.7903
+            },
+            "PreSize": {
+              "X": 0.26,
+              "Y": 0.0487
+            },
+            "LeftMargin": 277.5,
+            "RightMargin": 277.5,
+            "TopMargin": 247.2234,
+            "BottomMargin": 1021.7766,
+            "Tag": 12,
+            "ActionTag": -1614645297,
+            "Size": {
+              "X": 195.0,
+              "Y": 65.0
+            },
+            "Name": "Button_AllIn",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 40,
+            "LabelText": "100",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 373.3445,
+              "Y": 1052.2527
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4978,
+              "Y": 0.7888
+            },
+            "PreSize": {
+              "X": 0.08,
+              "Y": 0.03
+            },
+            "LeftMargin": 343.3445,
+            "RightMargin": 346.6555,
+            "TopMargin": 261.7473,
+            "BottomMargin": 1032.2527,
+            "Tag": 11,
+            "ActionTag": -1614020933,
+            "Size": {
+              "X": 60.0,
+              "Y": 40.0
+            },
+            "Name": "Text_AllIn",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_quanda.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_quanda.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_quanda.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 21,
+            "Scale9Height": 29,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 375.0,
+              "Y": 537.7474
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.4031
+            },
+            "PreSize": {
+              "X": 0.068,
+              "Y": 0.0382
+            },
+            "LeftMargin": 349.5,
+            "RightMargin": 349.5,
+            "TopMargin": 770.7526,
+            "BottomMargin": 512.2474,
+            "Tag": 13,
+            "ActionTag": 1279943433,
+            "Size": {
+              "X": 51.0,
+              "Y": 51.0
+            },
+            "Name": "Button_Bet_1",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_quanxiao.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_quanxiao.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_quanxiao.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 21,
+            "Scale9Height": 29,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 375.0,
+              "Y": 598.7993
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.4489
+            },
+            "PreSize": {
+              "X": 0.068,
+              "Y": 0.0382
+            },
+            "LeftMargin": 349.5,
+            "RightMargin": 349.5,
+            "TopMargin": 709.7007,
+            "BottomMargin": 573.2993,
+            "Tag": 17,
+            "ActionTag": -140208224,
+            "Size": {
+              "X": 51.0,
+              "Y": 51.0
+            },
+            "Name": "Button_Bet_2",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_quanda.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_quanda.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_quanda.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 21,
+            "Scale9Height": 29,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 375.0,
+              "Y": 657.2126
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.4927
+            },
+            "PreSize": {
+              "X": 0.068,
+              "Y": 0.0382
+            },
+            "LeftMargin": 349.5,
+            "RightMargin": 349.5,
+            "TopMargin": 651.2874,
+            "BottomMargin": 631.7126,
+            "Tag": 14,
+            "ActionTag": -939887149,
+            "Size": {
+              "X": 51.0,
+              "Y": 51.0
+            },
+            "Name": "Button_Bet_3",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_quanxiao.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_quanxiao.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_quanxiao.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 21,
+            "Scale9Height": 29,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 375.0,
+              "Y": 723.6325
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5425
+            },
+            "PreSize": {
+              "X": 0.068,
+              "Y": 0.0382
+            },
+            "LeftMargin": 349.5,
+            "RightMargin": 349.5,
+            "TopMargin": 584.8675,
+            "BottomMargin": 698.1325,
+            "Tag": 18,
+            "ActionTag": 1772591114,
+            "Size": {
+              "X": 51.0,
+              "Y": 51.0
+            },
+            "Name": "Button_Bet_4",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_quanda.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_quanda.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_quanda.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 21,
+            "Scale9Height": 29,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 375.0,
+              "Y": 783.7278
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5875
+            },
+            "PreSize": {
+              "X": 0.068,
+              "Y": 0.0382
+            },
+            "LeftMargin": 349.5,
+            "RightMargin": 349.5,
+            "TopMargin": 524.7722,
+            "BottomMargin": 758.2278,
+            "Tag": 15,
+            "ActionTag": 1509803235,
+            "Size": {
+              "X": 51.0,
+              "Y": 51.0
+            },
+            "Name": "Button_Bet_5",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_quanxiao.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_quanxiao.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_quanxiao.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 21,
+            "Scale9Height": 29,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 375.0,
+              "Y": 847.4736
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.6353
+            },
+            "PreSize": {
+              "X": 0.068,
+              "Y": 0.0382
+            },
+            "LeftMargin": 349.5,
+            "RightMargin": 349.5,
+            "TopMargin": 461.0264,
+            "BottomMargin": 821.9736,
+            "Tag": 19,
+            "ActionTag": -293982029,
+            "Size": {
+              "X": 51.0,
+              "Y": 51.0
+            },
+            "Name": "Button_Bet_6",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_quanda.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_quanda.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_quanda.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 21,
+            "Scale9Height": 29,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 375.0,
+              "Y": 907.7311
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.6805
+            },
+            "PreSize": {
+              "X": 0.068,
+              "Y": 0.0382
+            },
+            "LeftMargin": 349.5,
+            "RightMargin": 349.5,
+            "TopMargin": 400.7689,
+            "BottomMargin": 882.2311,
+            "Tag": 16,
+            "ActionTag": 370981609,
+            "Size": {
+              "X": 51.0,
+              "Y": 51.0
+            },
+            "Name": "Button_Bet_7",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_quanxiao.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_quanxiao.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_quanxiao.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 21,
+            "Scale9Height": 29,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 375.0,
+              "Y": 969.6754
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.7269
+            },
+            "PreSize": {
+              "X": 0.068,
+              "Y": 0.0382
+            },
+            "LeftMargin": 349.5,
+            "RightMargin": 349.5,
+            "TopMargin": 338.8246,
+            "BottomMargin": 944.1754,
+            "Tag": 20,
+            "ActionTag": 344115813,
+            "Size": {
+              "X": 51.0,
+              "Y": 51.0
+            },
+            "Name": "Button_Bet_8",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/zhujiemian_jiazhulatiao.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 60,
+            "Scale9OriginY": 25,
+            "Scale9Width": 64,
+            "Scale9Height": 27,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 375.0,
+              "Y": 539.1428
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.4042
+            },
+            "PreSize": {
+              "X": 0.2453,
+              "Y": 0.0577
+            },
+            "LeftMargin": 283.0,
+            "RightMargin": 283.0,
+            "TopMargin": 756.3572,
+            "BottomMargin": 500.6428,
+            "Tag": 6,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "cocostudio/game/image/zhujiemian_zhixianganniu.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 56,
+                "Scale9OriginY": 21,
+                "Scale9Width": 60,
+                "Scale9Height": 23,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -109.1326,
+                  "Y": 43.6815
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.5931,
+                  "Y": 0.5673
+                },
+                "PreSize": {
+                  "X": 0.9348,
+                  "Y": 0.8442
+                },
+                "LeftMargin": -195.1326,
+                "RightMargin": 207.1326,
+                "TopMargin": 0.8185,
+                "BottomMargin": 11.1815,
+                "Tag": 7,
+                "ActionTag": -2041315021,
+                "Size": {
+                  "X": 172.0,
+                  "Y": 65.0
+                },
+                "Name": "Image_5",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 40,
+                "LabelText": "0",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -113.0996,
+                  "Y": 44.4252
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.6147,
+                  "Y": 0.577
+                },
+                "PreSize": {
+                  "X": 0.1087,
+                  "Y": 0.5195
+                },
+                "LeftMargin": -123.0996,
+                "RightMargin": 287.0996,
+                "TopMargin": 12.5748,
+                "BottomMargin": 24.4252,
+                "Tag": 8,
+                "ActionTag": 1279564039,
+                "Size": {
+                  "X": 20.0,
+                  "Y": 40.0
+                },
+                "Name": "Text_CurrentBet_Left",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 40,
+                "LabelText": "0",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 91.4594,
+                  "Y": 41.8014
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 77,
+                  "G": 77,
+                  "B": 77
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4971,
+                  "Y": 0.5429
+                },
+                "PreSize": {
+                  "X": 0.1087,
+                  "Y": 0.5195
+                },
+                "LeftMargin": 81.4594,
+                "RightMargin": 82.5406,
+                "TopMargin": 15.1986,
+                "BottomMargin": 21.8014,
+                "Tag": 9,
+                "ActionTag": -835731517,
+                "Size": {
+                  "X": 20.0,
+                  "Y": 40.0
+                },
+                "Name": "Text_CurrentBet",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 1752820962,
+            "Size": {
+              "X": 184.0,
+              "Y": 77.0
+            },
+            "Name": "Image_AddBet",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 750.0,
+          "Y": 1334.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "image/blank.png",
+        "image/zhujiemian_jiazhudi1.png",
+        "image/zhujiemian_jiazhulatiao.png",
+        "image/zhujiemian_quanda.png",
+        "image/zhujiemian_quanxiao.png",
+        "image/zhujiemian_queding1.png",
+        "image/zhujiemian_queding2.png",
+        "image/zhujiemian_zhixianganniu.png",
+        "image/zhujiemian_zuigaoanniu.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

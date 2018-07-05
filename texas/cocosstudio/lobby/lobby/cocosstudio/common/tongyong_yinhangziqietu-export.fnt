@@ -1,0 +1,27 @@
+info face="tongyong_yinhangziqietu-export" size=32 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=3,3
+common lineHeight=33 base=26 scaleW=256 scaleH=128 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="tongyong_yinhangziqietu-export.png"
+chars count=21
+char id=38134 x=100 y=64 width=30 height=30 xoffset=0 yoffset=3 xadvance=30 page=0 chnl=0 letter="银"
+char id=34892 x=133 y=66 width=30 height=30 xoffset=0 yoffset=3 xadvance=30 page=0 chnl=0 letter="行"
+char id=20313 x=0 y=33 width=31 height=30 xoffset=0 yoffset=3 xadvance=31 page=0 chnl=0 letter="余"
+char id=39069 x=34 y=33 width=31 height=30 xoffset=0 yoffset=3 xadvance=31 page=0 chnl=0 letter="额"
+char id=24403 x=198 y=33 width=29 height=29 xoffset=0 yoffset=3 xadvance=29 page=0 chnl=0 letter="当"
+char id=21069 x=134 y=0 width=30 height=30 xoffset=0 yoffset=3 xadvance=30 page=0 chnl=0 letter="前"
+char id=37329 x=133 y=33 width=30 height=30 xoffset=0 yoffset=3 xadvance=30 page=0 chnl=0 letter="金"
+char id=24065 x=166 y=33 width=29 height=29 xoffset=0 yoffset=4 xadvance=29 page=0 chnl=0 letter="币"
+char id=23384 x=0 y=0 width=31 height=30 xoffset=0 yoffset=3 xadvance=31 page=0 chnl=0 letter="存"
+char id=20837 x=101 y=0 width=30 height=30 xoffset=0 yoffset=3 xadvance=30 page=0 chnl=0 letter="入"
+char id=21462 x=68 y=32 width=30 height=29 xoffset=0 yoffset=5 xadvance=30 page=0 chnl=0 letter="取"
+char id=20986 x=198 y=65 width=28 height=30 xoffset=0 yoffset=3 xadvance=28 page=0 chnl=0 letter="出"
+char id=36755 x=34 y=0 width=31 height=30 xoffset=0 yoffset=3 xadvance=31 page=0 chnl=0 letter="输"
+char id=23494 x=34 y=66 width=30 height=30 xoffset=0 yoffset=3 xadvance=30 page=0 chnl=0 letter="密"
+char id=30721 x=166 y=65 width=29 height=29 xoffset=0 yoffset=4 xadvance=29 page=0 chnl=0 letter="码"
+char id=37325 x=68 y=0 width=30 height=29 xoffset=0 yoffset=4 xadvance=30 page=0 chnl=0 letter="重"
+char id=26032 x=0 y=66 width=31 height=29 xoffset=0 yoffset=4 xadvance=31 page=0 chnl=0 letter="新"
+char id=30830 x=167 y=0 width=29 height=30 xoffset=0 yoffset=3 xadvance=29 page=0 chnl=0 letter="确"
+char id=35748 x=67 y=66 width=30 height=30 xoffset=0 yoffset=3 xadvance=30 page=0 chnl=0 letter="认"
+char id=32 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=8 page=0 chnl=0 letter=" "
+char id=9 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=64 page=0 chnl=0 letter="	"
+
+kernings count=0

@@ -1,0 +1,19 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="common" Type="Plist" ID="f5ea5cad-074a-4aeb-8c43-49e59033ff3c" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="False" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="common/gerenxinxi_cha1.png" />
+      <FilePathData Path="common/gerenxinxi_cha2.png" />
+      <FilePathData Path="common/gerenxinxi_di.png" />
+      <FilePathData Path="common/tongyong_anniu1.png" />
+      <FilePathData Path="common/tongyong_anniu2.png" />
+      <FilePathData Path="common/tongyong_anniuxiao1.png" />
+      <FilePathData Path="common/tongyong_anniuxiao2.png" />
+      <FilePathData Path="common/tongyong_anniuziqietu.png" />
+      <FilePathData Path="common/tongyong_dixiao.png" />
+      <FilePathData Path="common/tongyong_shuziqietu.png" />
+      <FilePathData Path="common/tongyong_yinhangziqietu.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

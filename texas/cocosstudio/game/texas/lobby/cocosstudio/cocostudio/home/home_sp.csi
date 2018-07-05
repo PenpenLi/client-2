@@ -1,0 +1,61 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="home_sp" Type="Plist" ID="813cec3d-85ac-43c7-801f-6158c4c9cedf" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="cocostudio/home/image/dating_add1.png" />
+      <FilePathData Path="cocostudio/home/image/dating_add2.png" />
+      <FilePathData Path="cocostudio/home/image/dating_beijing.png" />
+      <FilePathData Path="cocostudio/home/image/dating_bisaichang.png" />
+      <FilePathData Path="cocostudio/home/image/dating_fankui1.png" />
+      <FilePathData Path="cocostudio/home/image/dating_fankui2.png" />
+      <FilePathData Path="cocostudio/home/image/dating_gonggaodi.png" />
+      <FilePathData Path="cocostudio/home/image/dating_huodong1.png" />
+      <FilePathData Path="cocostudio/home/image/dating_huodong2.png" />
+      <FilePathData Path="cocostudio/home/image/dating_jibi1.png" />
+      <FilePathData Path="cocostudio/home/image/dating_kefu1.png" />
+      <FilePathData Path="cocostudio/home/image/dating_kefu2.png" />
+      <FilePathData Path="cocostudio/home/image/dating_lijikaishi.png" />
+      <FilePathData Path="cocostudio/home/image/dating_paihangbang.png" />
+      <FilePathData Path="cocostudio/home/image/dating_paiyouchang1.png" />
+      <FilePathData Path="cocostudio/home/image/dating_panghangdieri.png" />
+      <FilePathData Path="cocostudio/home/image/dating_panghangdisani.png" />
+      <FilePathData Path="cocostudio/home/image/dating_panghangdiyi.png" />
+      <FilePathData Path="cocostudio/home/image/dating_renwu1.png" />
+      <FilePathData Path="cocostudio/home/image/dating_renwu2.png" />
+      <FilePathData Path="cocostudio/home/image/dating_shangcheng1.png" />
+      <FilePathData Path="cocostudio/home/image/dating_shangcheng2.png" />
+      <FilePathData Path="cocostudio/home/image/dating_shangfangdi.png" />
+      <FilePathData Path="cocostudio/home/image/dating_shezhi1.png" />
+      <FilePathData Path="cocostudio/home/image/dating_shezhi2.png" />
+      <FilePathData Path="cocostudio/home/image/dating_touxiangdi.png" />
+      <FilePathData Path="cocostudio/home/image/dating_touxiangdi1.png" />
+      <FilePathData Path="cocostudio/home/image/dating_touxiangdi2.png" />
+      <FilePathData Path="cocostudio/home/image/dating_tubiaotanchuang.png" />
+      <FilePathData Path="cocostudio/home/image/dating_tuichu1.png" />
+      <FilePathData Path="cocostudio/home/image/dating_tuichu2.png" />
+      <FilePathData Path="cocostudio/home/image/dating_xiafangdi.png" />
+      <FilePathData Path="cocostudio/home/image/dating_xiangshanganniu1.png" />
+      <FilePathData Path="cocostudio/home/image/dating_xiangshanganniu2.png" />
+      <FilePathData Path="cocostudio/home/image/dating_xiangshanganniu3.png" />
+      <FilePathData Path="cocostudio/home/image/dating_xiangshanganniu4.png" />
+      <FilePathData Path="cocostudio/home/image/dating_youxiang1.png" />
+      <FilePathData Path="cocostudio/home/image/dating_youxiang2.png" />
+      <FilePathData Path="cocostudio/home/image/dating_youxichang.png" />
+      <FilePathData Path="cocostudio/home/image/di_gerenxinxidi.png" />
+      <FilePathData Path="cocostudio/home/image/di_touxiangxuanzhong.png" />
+      <FilePathData Path="cocostudio/home/image/di_xiugaixinxineirong.png" />
+      <FilePathData Path="cocostudio/home/image/haoyouchang_jindutiaokong.png" />
+      <FilePathData Path="cocostudio/home/image/haoyouchang_jindutiaoman.png" />
+      <FilePathData Path="cocostudio/home/image/haoyouchang_meiykaishiduiju.png" />
+      <FilePathData Path="cocostudio/home/image/haoyouchang_zhanjidi.png" />
+      <FilePathData Path="cocostudio/home/image/paihangbang_weishangbang.png" />
+      <FilePathData Path="cocostudio/home/image/shezhi_yinyueguan.png" />
+      <FilePathData Path="cocostudio/home/image/shezhi_yinyuekai.png" />
+      <FilePathData Path="cocostudio/home/image/zhujiemian_zhezhao.png" />
+      <FilePathData Path="cocostudio/home/image/dating_yinhang1.png" />
+      <FilePathData Path="cocostudio/home/image/dating_yinhang2.png" />
+      <FilePathData Path="cocostudio/home/image/dating_yinhangwenzi.png" />
+    </ImageFiles>
+    <MaxSize Width="2048" Height="2048" />
+  </Content>
+</PlistInfoProjectFile>

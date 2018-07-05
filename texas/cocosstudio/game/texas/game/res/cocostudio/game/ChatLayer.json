@@ -1,0 +1,426 @@
+{
+  "ID": "8004d36e-cc2d-4664-a9c0-3f2102bc9c99",
+  "Version": "3.10.0.0",
+  "Name": "ChatLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 72,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/chat/shangcheng_liaotianjilv1.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 89,
+            "Scale9OriginY": 24,
+            "Scale9Width": 94,
+            "Scale9Height": 25,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -297.6317,
+              "Y": 1278.1906
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.3968,
+              "Y": 0.9582
+            },
+            "PreSize": {
+              "X": 0.3627,
+              "Y": 0.0547
+            },
+            "LeftMargin": -433.6317,
+            "RightMargin": 911.6317,
+            "TopMargin": 19.3094,
+            "BottomMargin": 1241.6906,
+            "Tag": 74,
+            "ActionTag": 1381525232,
+            "Size": {
+              "X": 272.0,
+              "Y": 73.0
+            },
+            "Name": "Image_2",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "IsBounceEnabled": true,
+            "InnerNodeSize": {
+              "Width": 566,
+              "Height": 1200
+            },
+            "ScrollDirectionType": "Vertical",
+            "ClipAble": true,
+            "BackColorAlpha": 54,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "G": 150,
+              "B": 100
+            },
+            "FirstColor": {
+              "G": 150,
+              "B": 100
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": -571.32,
+              "Y": 532.0908
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.7618,
+              "Y": 0.3989
+            },
+            "PreSize": {
+              "X": 0.7547,
+              "Y": 0.515
+            },
+            "LeftMargin": -571.32,
+            "RightMargin": 755.32,
+            "TopMargin": 114.9092,
+            "BottomMargin": 532.0908,
+            "Tag": 76,
+            "ActionTag": 1603367369,
+            "Size": {
+              "X": 566.0,
+              "Y": 687.0
+            },
+            "Name": "ScrollView_ChatRecord",
+            "ctype": "ScrollViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/chat/shezhi_liaotian1.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 187,
+            "Scale9OriginY": 24,
+            "Scale9Width": 195,
+            "Scale9Height": 27,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -287.4713,
+              "Y": 494.5656
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.3833,
+              "Y": 0.3707
+            },
+            "PreSize": {
+              "X": 0.7587,
+              "Y": 0.0562
+            },
+            "LeftMargin": -571.9713,
+            "RightMargin": 752.9713,
+            "TopMargin": 801.9344,
+            "BottomMargin": 457.0656,
+            "Tag": 77,
+            "ActionTag": 1135069057,
+            "Size": {
+              "X": 569.0,
+              "Y": 75.0
+            },
+            "Name": "Image_3",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "CheckedState": true,
+            "NormalBackFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/chat/zhujiemiantanchuang_xiaoxi2.png",
+              "Plist": ""
+            },
+            "PressedBackFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/chat/zhujiemiantanchuang_xiaoxi2.png",
+              "Plist": ""
+            },
+            "DisableBackFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/chat/zhujiemiantanchuang_xiaoxi2.png",
+              "Plist": ""
+            },
+            "NodeNormalFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/chat/zhujiemiantanchuang_xiaoxi1.png",
+              "Plist": ""
+            },
+            "NodeDisableFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/chat/zhujiemiantanchuang_xiaoxi1.png",
+              "Plist": ""
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -538.9557,
+              "Y": 494.0446
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.7186,
+              "Y": 0.3703
+            },
+            "PreSize": {
+              "X": 0.092,
+              "Y": 0.0562
+            },
+            "LeftMargin": -573.4557,
+            "RightMargin": 1254.4557,
+            "TopMargin": 802.4553,
+            "BottomMargin": 456.5446,
+            "Tag": 78,
+            "ActionTag": 481996999,
+            "Size": {
+              "X": 69.0,
+              "Y": 75.0
+            },
+            "Name": "CheckBox_Word",
+            "ctype": "CheckBoxObjectData"
+          },
+          {
+            "NormalBackFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/chat/shangcheng_biaoqing2.png",
+              "Plist": ""
+            },
+            "PressedBackFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/chat/shangcheng_biaoqing2.png",
+              "Plist": ""
+            },
+            "DisableBackFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/chat/shangcheng_biaoqing2.png",
+              "Plist": ""
+            },
+            "NodeNormalFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/chat/shangcheng_biaoqing1.png",
+              "Plist": ""
+            },
+            "NodeDisableFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/chat/shangcheng_biaoqing1.png",
+              "Plist": ""
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -470.408,
+              "Y": 495.0448
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.6272,
+              "Y": 0.3711
+            },
+            "PreSize": {
+              "X": 0.092,
+              "Y": 0.0562
+            },
+            "LeftMargin": -504.908,
+            "RightMargin": 1185.908,
+            "TopMargin": 801.4552,
+            "BottomMargin": 457.5448,
+            "Tag": 79,
+            "ActionTag": 619815930,
+            "Size": {
+              "X": 69.0,
+              "Y": 75.0
+            },
+            "Name": "CheckBox_Emoji",
+            "ctype": "CheckBoxObjectData"
+          },
+          {
+            "FontSize": 38,
+            "IsCustomSize": true,
+            "LabelText": "",
+            "PlaceHolderText": "请输入信息",
+            "MaxLengthText": 10,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -254.5701,
+              "Y": 499.2398
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.3394,
+              "Y": 0.3742
+            },
+            "PreSize": {
+              "X": 0.4533,
+              "Y": 0.0307
+            },
+            "LeftMargin": -424.5701,
+            "RightMargin": 834.5701,
+            "TopMargin": 814.2602,
+            "BottomMargin": 478.7398,
+            "Tag": 80,
+            "ActionTag": -944524267,
+            "Size": {
+              "X": 340.0,
+              "Y": 41.0
+            },
+            "Name": "TextField_Input",
+            "ctype": "TextFieldObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/chat/shangcheng_fasong2.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/chat/shangcheng_fasong2.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/chat/shangcheng_fasong1.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 34,
+            "Scale9Height": 42,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -39.1101,
+              "Y": 499.0936
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.0521,
+              "Y": 0.3741
+            },
+            "PreSize": {
+              "X": 0.0853,
+              "Y": 0.048
+            },
+            "LeftMargin": -71.1101,
+            "RightMargin": 757.1101,
+            "TopMargin": 802.9064,
+            "BottomMargin": 467.0936,
+            "Tag": 81,
+            "ActionTag": 1253159335,
+            "Size": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Name": "Button_Send",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 750.0,
+          "Y": 1334.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "image/chat/shangcheng_biaoqing1.png",
+        "image/chat/shangcheng_biaoqing2.png",
+        "image/chat/shangcheng_fasong1.png",
+        "image/chat/shangcheng_fasong2.png",
+        "image/chat/shangcheng_liaotianjilv1.png",
+        "image/chat/shezhi_liaotian1.png",
+        "image/chat/zhujiemiantanchuang_xiaoxi1.png",
+        "image/chat/zhujiemiantanchuang_xiaoxi2.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

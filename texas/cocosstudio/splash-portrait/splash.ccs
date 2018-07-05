@@ -1,0 +1,17 @@
+<Solution>
+  <PropertyGroup Name="splash" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="splash">
+          <Image Name="denglu_di.png" />
+          <Image Name="denglu_logo.png" />
+          <Fnt Name="denglu_zhengzaidengluzhong-export.fnt" />
+          <Image Name="haoyouchang_jindutiaokong.png" />
+          <Image Name="haoyouchang_jindutiaoman.png" />
+          <Project Name="loader.csd" Type="Layer" />
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

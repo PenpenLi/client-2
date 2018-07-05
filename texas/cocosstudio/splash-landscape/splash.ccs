@@ -1,0 +1,14 @@
+<Solution>
+  <PropertyGroup Name="splash" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Image Name="denglu_di.png" />
+        <Image Name="denglu_jindutiaodi.png" />
+        <Image Name="denglu_jindutiaoman.png" />
+        <Fnt Name="denglu_jindutiaowenzi-export.fnt" />
+        <Project Name="loader.csd" Type="Layer" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

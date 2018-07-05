@@ -1,0 +1,500 @@
+{
+  "ID": "41f782b8-9f73-466f-b049-f4be6c30b9c2",
+  "Version": "3.10.0.0",
+  "Name": "MenuLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 47,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/blank.png",
+              "Plist": ""
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 375.0,
+              "Y": 667.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 49,
+            "ActionTag": -1458956266,
+            "Size": {
+              "X": 750.0,
+              "Y": 1334.0
+            },
+            "Alpha": 0,
+            "Name": "Image_BG",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/tanchuan_xialadi.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 106,
+            "Scale9OriginY": 178,
+            "Scale9Width": 112,
+            "Scale9Height": 185,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 162.7833,
+              "Y": 1064.3369
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.217,
+              "Y": 0.7979
+            },
+            "PreSize": {
+              "X": 0.432,
+              "Y": 0.4055
+            },
+            "LeftMargin": 0.7833,
+            "RightMargin": 425.2167,
+            "TopMargin": -0.8369,
+            "BottomMargin": 793.8369,
+            "Tag": 48,
+            "ActionTag": 489384054,
+            "Size": {
+              "X": 324.0,
+              "Y": 541.0
+            },
+            "Name": "Image_Menu",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/shangcheng_1tuichuanniu.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/shangcheng_1tuichuanniu.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/shangcheng_1tuichuanniu.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 196,
+            "Scale9Height": 46,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 160.0,
+              "Y": 1269.1871
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2133,
+              "Y": 0.9514
+            },
+            "PreSize": {
+              "X": 0.3013,
+              "Y": 0.051
+            },
+            "LeftMargin": 47.0,
+            "RightMargin": 477.0,
+            "TopMargin": 30.8129,
+            "BottomMargin": 1235.1871,
+            "Tag": 51,
+            "ActionTag": 1728831687,
+            "Size": {
+              "X": 226.0,
+              "Y": 68.0
+            },
+            "Name": "Button_Exit",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/shangcheng_1zhanqianniu.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/shangcheng_1zhanqianniu.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/shangcheng_1zhanqianniu.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 196,
+            "Scale9Height": 46,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 160.0002,
+              "Y": 1165.2422
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2133,
+              "Y": 0.8735
+            },
+            "PreSize": {
+              "X": 0.3013,
+              "Y": 0.051
+            },
+            "LeftMargin": 47.0002,
+            "RightMargin": 476.9998,
+            "TopMargin": 134.7578,
+            "BottomMargin": 1131.2422,
+            "Tag": 52,
+            "ActionTag": 1526707918,
+            "Size": {
+              "X": 226.0,
+              "Y": 68.0
+            },
+            "Name": "Button_Situp",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/shangcheng_1huanzhuoniu.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/shangcheng_1huanzhuoniu.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/shangcheng_1huanzhuoniu.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 196,
+            "Scale9Height": 46,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 160.0002,
+              "Y": 1065.0425
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2133,
+              "Y": 0.7984
+            },
+            "PreSize": {
+              "X": 0.3013,
+              "Y": 0.051
+            },
+            "LeftMargin": 47.0002,
+            "RightMargin": 476.9998,
+            "TopMargin": 234.9575,
+            "BottomMargin": 1031.0425,
+            "Tag": 53,
+            "ActionTag": 846300166,
+            "Size": {
+              "X": 226.0,
+              "Y": 68.0
+            },
+            "Name": "Button_ChangeTable",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/shangcheng_1paixingniu.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/shangcheng_1paixingniu.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/shangcheng_1paixingniu.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 196,
+            "Scale9Height": 46,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 160.0002,
+              "Y": 963.2185
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2133,
+              "Y": 0.7221
+            },
+            "PreSize": {
+              "X": 0.3013,
+              "Y": 0.051
+            },
+            "LeftMargin": 47.0002,
+            "RightMargin": 476.9998,
+            "TopMargin": 336.7815,
+            "BottomMargin": 929.2185,
+            "Tag": 54,
+            "ActionTag": 1417161939,
+            "Size": {
+              "X": 226.0,
+              "Y": 68.0
+            },
+            "Name": "Button_CardType",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/shangcheng_1shezhioniu.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/shangcheng_1shezhioniu.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "cocostudio/game/image/shangcheng_1shezhioniu.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 196,
+            "Scale9Height": 46,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 160.0002,
+              "Y": 857.9442
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2133,
+              "Y": 0.6431
+            },
+            "PreSize": {
+              "X": 0.3013,
+              "Y": 0.051
+            },
+            "LeftMargin": 47.0002,
+            "RightMargin": 476.9998,
+            "TopMargin": 442.0558,
+            "BottomMargin": 823.9442,
+            "Tag": 55,
+            "ActionTag": 731653985,
+            "Size": {
+              "X": 226.0,
+              "Y": 68.0
+            },
+            "Name": "Button_Setting",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 750.0,
+          "Y": 1334.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "image/blank.png",
+        "image/shangcheng_1huanzhuoniu.png",
+        "image/shangcheng_1paixingniu.png",
+        "image/shangcheng_1shezhioniu.png",
+        "image/shangcheng_1tuichuanniu.png",
+        "image/shangcheng_1zhanqianniu.png",
+        "image/tanchuan_xialadi.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}
