@@ -569,7 +569,7 @@
                     <f n="ControllerBase.lua" s="3546">e052e13cb8109ed3e9d063538424f0a3</f>
                     <f n="HomeController.lua" s="7237">738183512125d080a9cc76e4122c2c01</f>
                     <f n="LoginController.lua" s="2693">1d4c56c88c9905ea615521bcd960a40a</f>
-                    <f n="TexasPokerController.lua" s="22791">076352e7919beac5a8159b630ccf14e9</f>
+                    <f n="GameController.lua" s="22791">076352e7919beac5a8159b630ccf14e9</f>
                 </dir>
                 <dir n="handlers">
                     <f n="AccountServerHandlers.lua" s="2599">46aacf6b2894769a980528f2ddcaf1b0</f>
@@ -577,7 +577,7 @@
                     <f n="GameCommonHandlers.lua" s="11014">141b11adc79ae8cc50d1abc6326db053</f>
                     <f n="SocketHandlers.lua" s="2420">cfc2a2ec88b455bb6bd3fa5531848f1c</f>
                     <f n="SwitchGameServerHandlers.lua" s="3513">d0e9cca2f7c03279b0d2fa94630e56a2</f>
-                    <f n="TexasPokerHandlers.lua" s="5236">4ad28ff692ccabb9e544c2e008a8ff9e</f>
+                    <f n="GameSpecificHandlers.lua" s="5236">4ad28ff692ccabb9e544c2e008a8ff9e</f>
                 </dir>
                 <dir n="language">
                     <f n="CN.lua" s="3865">7b269611055524f5ccf323f2b51928b7</f>
@@ -587,8 +587,8 @@
                     <f n="GameUser.lua" s="2763">0e9316a514c83865bdeb25c0b3c5b7d8</f>
                     <f n="GlobalStatus.lua" s="1988">f351f23d3a95c63485e0c13c5650f231</f>
                     <f n="TexasPokerConfig.lua" s="1817">a46a660596286ff3657cd16c40d63659</f>
-                    <f n="TexasPokerPlayers.lua" s="4794">1a71d7a20fa9f8db03ea68cd99853fd7</f>
-                    <f n="TexasPokerRoom.lua" s="2655">36ad23aafa9fa1182eb8ea8db8b616d0</f>
+                    <f n="PlayerList.lua" s="4794">1a71d7a20fa9f8db03ea68cd99853fd7</f>
+                    <f n="GameRoom.lua" s="2655">36ad23aafa9fa1182eb8ea8db8b616d0</f>
                     <f n="User.lua" s="2635">4a3705aec681d234f3b2736247a69a9e</f>
                 </dir>
                 <dir n="net">

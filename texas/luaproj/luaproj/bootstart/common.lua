@@ -1,27 +1,6 @@
 
 local vcp = require("VersionCompare")
-local contex = nil;
-
-function switchContex(newContex)
-    if contex == newContex then return end;
-    --重置全局变量
-
-    --重置搜索路径
-    local tb = cc.FileUtils:getInstance():getSearchPaths();
-    if contex then
-        table.removebyvalue(tb, wbPath..contex);
-        table.removebyvalue(tb, wbPath..contex .. "res/");
-    end
-
-    contex = newContex;
-    table.insert(tb, wbPath..contex);
-    table.insert(tb, wbPath..contex .. "res/");
-    cc.FileUtils:getInstance():setSearchPaths(tb);
-
-    package.path = presetPackage;
-    package.path = package.path..wbPath..contex .. "?.lua;"
-    package.path = package.path..wbPath..contex .. "src/?.lua;"
-end
+local utils = require("utils")
 
 --先检查版本,再执行更新
 function    installUpdate(vw, onSucc)
@@ -85,6 +64,33 @@ function	checkVersion(contex, localp, remotep, vw, onSucc)
 	end, 0.1);
 end
 
+
+function cc.Node:findChild(path)
+	local dirs = utils.stringSplit(path, "/");
+	local current = self;
+	for k, v in ipairs(dirs) do
+		local finded = false;
+		for _, child in pairs(current:getChildren()) do
+			local childName = child:getName();
+			if  childName == v then
+				current = child;
+				finded = true;
+				break;
+			end
+		end
+		if not finded then
+			return nil;
+		end		
+	end
+	return current;
+end
+
+function findChild(path)
+    local scene = APP:getCurrentController().UIContainer;
+    if not path or path == "" then return scene end
+    return scene and scene:findChild(path)
+end
+
 function dispatchCustomEvent(evtName, ...)
     local e = cc.EventCustom:new(evtName)
     e.param = {...}
@@ -94,7 +100,7 @@ end
 --移除事件
 function removeListener(evt)
 	local dispatcher = cc.Director:getInstance():getEventDispatcher();
-    dispatcher:removeEventListener(evt);
+    return dispatcher:removeEventListener(evt);
 end
 
 function addListener(node, evtName, callback)

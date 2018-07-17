@@ -49,6 +49,7 @@ require("cocos.framework.extends.UIListView")
 require("cocos.framework.extends.UIPageView")
 require("cocos.framework.extends.UIScrollView")
 require("cocos.framework.extends.UISlider")
+require("cocos.framework.extends.UIText")
 require("cocos.framework.extends.UITextField")
 end
 

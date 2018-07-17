@@ -26,7 +26,7 @@ local function seekNodeByName(par, name)
 end
 
 function loadingFrame:ctor()
-	self.container = cc.CSLoader:createNode("splash/loader.csb"); 
+	self.container = cc.CSLoader:createNode("loader.csb"); 
 	self.container:addTo(self)
 end
 

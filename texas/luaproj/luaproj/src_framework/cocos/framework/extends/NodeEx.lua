@@ -226,3 +226,27 @@ function Node:onCleanup_()
     end
     self:onCleanupCallback_()
 end
+
+function Node:getPath()
+    local parent = self:getParent()
+    if not parent then
+        return self == cc.Director:getInstance():getRunningScene() and "" or self:getName()
+    end
+    if parent == cc.Director:getInstance():getRunningScene() then
+        return self:getName()
+    end
+    return string.format("%s/%s", parent:getPath(), self:getName())
+end
+
+function Node:delayOnce(interval, callback, ...)
+    if not self.randomTimerId_ then
+        self.randomTimerId_ = 1
+    else
+        self.randomTimerId_ = self.randomTimerId_ + 1
+    end
+    local timerKey = string.format("timer.random.%d", self.randomTimerId_)
+    local param = {...}
+    self:scheduleOnce(function(dt)
+        callback(unpack(param))
+    end, interval, timerKey)
+end

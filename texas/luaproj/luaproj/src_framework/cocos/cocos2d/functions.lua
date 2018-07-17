@@ -556,6 +556,147 @@ function table.unique(t, bArray)
     return n
 end
 
+------------------------
+--api added
+local function _fmtstring(...)
+    if select('#', ...) == 1 then
+        local arg = select(1, ...)
+        return type(arg) == "table" and json.encode(arg) or arg
+    end
+    return string.format(...)
+end
+function cclog(...)
+    print(_fmtstring(...))
+end
+
+function ccwrn(...)
+    printLog("warn",_fmtstring(...))
+end
+
+function ccerr(...)
+     printLog("err", _fmtstring(...))
+end
+
+function tryInvoke(func, ...)
+    if type(func) == "function" then func(...) end
+end
+
+function getScene()
+    return cc.Director:getInstance():getRunningScene()
+end
+
+function mkfunc(method, ...)
+    local param = {...}
+    return function()
+        return method(unpack(param))
+    end
+end
+--api add end
+------------------------
+
+-----------------
+--table extension
+function table.wherewithkey(t, fn)
+    local r = {}
+    for k,v in pairs(t) do
+        local tr = fn(k, v)
+        if tr == nil then
+            return nil
+        end
+        if tr then
+            r[k] = v
+        end
+    end
+    return r
+end
+function table.where(t, fn)
+    local r = {}
+    for k,v in pairs(t) do
+        local tr = fn(k, v)
+        if tr == nil then
+            return nil
+        end
+        if tr then
+            table.insert(r, v)
+        end
+    end
+    return r
+end
+function table.whereselect(t, fn)
+    local r = {}
+    for k,v in pairs(t) do
+        local tr = fn(k, v)
+        if tr == nil then
+            return nil
+        end
+        if tr then
+            table.insert(r, tr)
+        end
+    end
+    return r
+end
+function table.select(t, fn)
+    local r = {}
+    for k,v in pairs(t) do
+        local tr = fn(k, v)
+        if tr == nil then
+            return nil
+        end
+        table.insert(r, tr)
+    end
+    return r
+end
+function table.count(t, fn)
+    local r = 0
+    for k,v in pairs(t) do
+        if fn(k, v) then
+            r = r + 1
+        end
+    end
+    return r
+end
+function table.isserial(t)
+    table.sort(t)
+    local n = t[1]
+    for i=1,#t do
+        if t[i] ~= n then
+            return false
+        end
+        n = n + 1
+    end
+    return true
+end
+function table.issamevalue(t)
+    if #t == 0 then
+        return false
+    end
+    local val = t[1]
+    for i=1,#t do
+        if val ~= t[i] then
+            return false
+        end
+    end
+    return true
+end
+function table.countvalue(t)
+    local r = 0
+    for _,v in pairs(t) do
+        r = r + v
+    end
+    return r
+end
+function table.find(t, filter)
+    local r = nil
+    for _,v in pairs(t) do
+        if filter(v) == true then
+            r = v
+            break
+        end
+    end
+    return r
+end
+-----------------
+
 string._htmlspecialchars_set = {}
 string._htmlspecialchars_set["&"] = "&amp;"
 string._htmlspecialchars_set["\""] = "&quot;"
