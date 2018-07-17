@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>fruit/animations/WinEffect/img01.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1500,1},{392,414}}</string>
+				<key>offset</key>
+				<string>{6,-1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{768,768}</string>
+			</dict>
+			<key>fruit/animations/WinEffect/img02.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1070,1},{428,454}}</string>
+				<key>offset</key>
+				<string>{7,-2}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{768,768}</string>
+			</dict>
+			<key>fruit/animations/WinEffect/img03.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1065,516},{471,500}}</string>
+				<key>offset</key>
+				<string>{7,-1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{768,768}</string>
+			</dict>
+			<key>fruit/animations/WinEffect/img04.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{551,1208},{511,539}}</string>
+				<key>offset</key>
+				<string>{7,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{768,768}</string>
+			</dict>
+			<key>fruit/animations/WinEffect/img05.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1208},{548,580}}</string>
+				<key>offset</key>
+				<string>{8,-2}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{768,768}</string>
+			</dict>
+			<key>fruit/animations/WinEffect/img06.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{588,622}}</string>
+				<key>offset</key>
+				<string>{8,-1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{768,768}</string>
+			</dict>
+			<key>fruit/animations/WinEffect/img07.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,625},{549,581}}</string>
+				<key>offset</key>
+				<string>{7,-1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{768,768}</string>
+			</dict>
+			<key>fruit/animations/WinEffect/img08.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{552,625},{511,539}}</string>
+				<key>offset</key>
+				<string>{7,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{768,768}</string>
+			</dict>
+			<key>fruit/animations/WinEffect/img09.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1064,1166},{491,499}}</string>
+				<key>offset</key>
+				<string>{-3,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{768,768}</string>
+			</dict>
+			<key>fruit/animations/WinEffect/img10.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{591,1},{513,477}}</string>
+				<key>offset</key>
+				<string>{-14,6}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{768,768}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>anim_win_effect.png</string>
+			<key>realTextureFileName</key>
+			<string>anim_win_effect.png</string>
+			<key>size</key>
+			<string>{1915,1789}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1915</integer>
+			<key>height</key>
+			<integer>1789</integer>
+		</dict>
+	</dict>
+</plist>

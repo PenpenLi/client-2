@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>fruit/atlas/Countdown/img01.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,60},{259,47}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{259,47}</string>
+			</dict>
+			<key>fruit/atlas/Countdown/img03.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{262,87},{116,28}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{116,28}</string>
+			</dict>
+			<key>fruit/atlas/Countdown/img05.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{380,87},{115,28}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{115,28}</string>
+			</dict>
+			<key>fruit/atlas/Countdown/img06.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{262,60},{183,25}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{183,25}</string>
+			</dict>
+			<key>fruit/atlas/Countdown/img07.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{407,57}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{407,57}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>countdown.png</string>
+			<key>realTextureFileName</key>
+			<string>countdown.png</string>
+			<key>size</key>
+			<string>{496,116}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>496</integer>
+			<key>height</key>
+			<integer>116</integer>
+		</dict>
+	</dict>
+</plist>

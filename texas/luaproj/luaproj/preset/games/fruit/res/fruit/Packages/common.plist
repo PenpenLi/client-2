@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>fruit/atlas/Common/close.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{773,1},{92,85}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{92,85}</string>
+			</dict>
+			<key>fruit/atlas/Common/head.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{997,1},{177,183}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{177,183}</string>
+			</dict>
+			<key>fruit/atlas/Common/headbk.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{773,98},{177,183}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{177,183}</string>
+			</dict>
+			<key>fruit/atlas/Common/cancel.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{952,186},{206,76}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{206,76}</string>
+			</dict>
+			<key>fruit/atlas/Common/ok.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{773,283},{207,76}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{207,76}</string>
+			</dict>
+			<key>fruit/atlas/Common/panel1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,554},{634,439}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{634,439}</string>
+			</dict>
+			<key>fruit/atlas/Common/panel2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{770,551}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{770,551}</string>
+			</dict>
+			<key>fruit/atlas/Common/split.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1176,1},{10,296}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{10,296}</string>
+			</dict>
+			<key>fruit/atlas/Common/img02.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{911,1},{73,95}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{73,95}</string>
+			</dict>
+			<key>fruit/atlas/Common/sy1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{149,995},{99,26}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{99,26}</string>
+			</dict>
+			<key>fruit/atlas/Common/sy2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{250,995},{99,26}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{99,26}</string>
+			</dict>
+			<key>fruit/atlas/Common/sy3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,995},{146,26}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{146,26}</string>
+			</dict>
+			<key>fruit/atlas/Common/0.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{637,554},{272,406}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{272,406}</string>
+			</dict>
+			<key>fruit/atlas/Common/tishi.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{891,962},{104,48}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{104,48}</string>
+			</dict>
+			<key>fruit/atlas/Common/jianhao.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{351,995},{15,6}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{15,6}</string>
+			</dict>
+			<key>fruit/atlas/Common/timer.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{637,962},{252,46}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{252,46}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>common.png</string>
+			<key>realTextureFileName</key>
+			<string>common.png</string>
+			<key>size</key>
+			<string>{1187,1022}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1187</integer>
+			<key>height</key>
+			<integer>1022</integer>
+		</dict>
+	</dict>
+</plist>

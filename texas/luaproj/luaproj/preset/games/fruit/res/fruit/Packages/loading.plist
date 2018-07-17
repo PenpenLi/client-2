@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>fruit/atlas/Loading/img02.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{535,126},{130,79}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{130,79}</string>
+			</dict>
+			<key>fruit/atlas/Loading/img03.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,325},{814,59}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{814,59}</string>
+			</dict>
+			<key>fruit/atlas/Loading/img05.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{535,55},{176,69}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{176,69}</string>
+			</dict>
+			<key>fruit/atlas/Loading/img01.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{532,322}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{532,322}</string>
+			</dict>
+			<key>fruit/atlas/Loading/img04.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{535,1},{792,52}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{792,52}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>loading.png</string>
+			<key>realTextureFileName</key>
+			<string>loading.png</string>
+			<key>size</key>
+			<string>{1328,385}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1328</integer>
+			<key>height</key>
+			<integer>385</integer>
+		</dict>
+	</dict>
+</plist>

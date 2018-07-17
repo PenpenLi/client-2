@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>fruit/animations/Loading/img01.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{388,95},{352,92}}</string>
+				<key>offset</key>
+				<string>{19,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{440,140}</string>
+			</dict>
+			<key>fruit/animations/Loading/img02.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{375,1},{359,92}}</string>
+				<key>offset</key>
+				<string>{11,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{440,140}</string>
+			</dict>
+			<key>fruit/animations/Loading/img03.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,181},{372,86}}</string>
+				<key>offset</key>
+				<string>{13,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{440,140}</string>
+			</dict>
+			<key>fruit/animations/Loading/img04.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{372,92}}</string>
+				<key>offset</key>
+				<string>{10,-1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{440,140}</string>
+			</dict>
+			<key>fruit/animations/Loading/img05.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{375,189},{375,85}}</string>
+				<key>offset</key>
+				<string>{3,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{440,140}</string>
+			</dict>
+			<key>fruit/animations/Loading/img06.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,95},{385,84}}</string>
+				<key>offset</key>
+				<string>{5,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{440,140}</string>
+			</dict>
+			<key>fruit/animations/Loading/img07.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{350,276},{382,83}}</string>
+				<key>offset</key>
+				<string>{2,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{440,140}</string>
+			</dict>
+			<key>fruit/animations/Loading/img08.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,534},{320,82}}</string>
+				<key>offset</key>
+				<string>{37,-1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{440,140}</string>
+			</dict>
+			<key>fruit/animations/Loading/img09.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,357},{330,90}}</string>
+				<key>offset</key>
+				<string>{31,-3}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{440,140}</string>
+			</dict>
+			<key>fruit/animations/Loading/img10.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,449},{324,83}}</string>
+				<key>offset</key>
+				<string>{28,-3}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{440,140}</string>
+			</dict>
+			<key>fruit/animations/Loading/img11.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,269},{347,86}}</string>
+				<key>offset</key>
+				<string>{35,-4}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{440,140}</string>
+			</dict>
+			<key>fruit/animations/Loading/img12.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{333,448},{355,82}}</string>
+				<key>offset</key>
+				<string>{34,-5}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{440,140}</string>
+			</dict>
+			<key>fruit/animations/Loading/img13.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{327,532},{348,80}}</string>
+				<key>offset</key>
+				<string>{28,-5}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{440,140}</string>
+			</dict>
+			<key>fruit/animations/Loading/img14.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{333,361},{348,85}}</string>
+				<key>offset</key>
+				<string>{23,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{440,140}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>anim_loading.png</string>
+			<key>realTextureFileName</key>
+			<string>anim_loading.png</string>
+			<key>size</key>
+			<string>{751,617}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>751</integer>
+			<key>height</key>
+			<integer>617</integer>
+		</dict>
+	</dict>
+</plist>
