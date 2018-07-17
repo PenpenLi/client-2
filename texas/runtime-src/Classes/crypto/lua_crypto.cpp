@@ -6,7 +6,9 @@
 // md5
 #include "md5/md5_impl.h"
 #include "boost/date_time.hpp"
-
+#include "cocos2d.h"
+#include "base/CCEventListener.h"
+#include "scripting/lua-bindings/manual/LuaBasicConversions.h"
 // base64
 //#include "crypto/base64/base64Con.h"
 
