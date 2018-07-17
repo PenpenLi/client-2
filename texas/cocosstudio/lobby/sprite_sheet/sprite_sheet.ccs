@@ -4,90 +4,121 @@
     <Group ctype="ResourceGroup">
       <RootFolder Name=".">
         <Folder Name="common">
-          <Image Name="gerenxinxi_cha1.png" />
-          <Image Name="gerenxinxi_cha2.png" />
-          <Image Name="gerenxinxi_di.png" />
-          <Image Name="tongyong_anniu1.png" />
-          <Image Name="tongyong_anniu2.png" />
-          <Image Name="tongyong_anniuxiao1.png" />
-          <Image Name="tongyong_anniuxiao2.png" />
-          <Image Name="tongyong_anniuziqietu.png" />
-          <Image Name="tongyong_dixiao.png" />
-          <Image Name="tongyong_shuziqietu.png" />
-          <Image Name="tongyong_yinhangziqietu.png" />
-        </Folder>
-        <Folder Name="head_icons">
-          <Image Name="zhujiemian_nan1.png" />
-          <Image Name="zhujiemian_nan2.png" />
-          <Image Name="zhujiemian_nan3.png" />
-          <Image Name="zhujiemian_nan4.png" />
-          <Image Name="zhujiemian_nan5.png" />
-          <Image Name="zhujiemian_nan6.png" />
-          <Image Name="zhujiemian_nan7.png" />
-          <Image Name="zhujiemian_nan8.png" />
-          <Image Name="zhujiemian_nv1.png" />
-          <Image Name="zhujiemian_nv2.png" />
-          <Image Name="zhujiemian_nv3.png" />
-          <Image Name="zhujiemian_nv4.png" />
-          <Image Name="zhujiemian_nv5.png" />
-          <Image Name="zhujiemian_nv6.png" />
-          <Image Name="zhujiemian_nv7.png" />
-          <Image Name="zhujiemian_nv8.png" />
-        </Folder>
-        <Folder Name="lobby_home">
-          <Image Name="dating_buyu1.png" />
-          <Image Name="dating_chongzhi1.png" />
-          <Image Name="dating_chongzhi2.png" />
-          <Image Name="dating_datingdi.png" />
-          <Image Name="dating_datingdikuang2.png" />
-          <Image Name="dating_duorenduizhan1.png" />
-          <Image Name="dating_fankui1.png" />
-          <Image Name="dating_fankui2.png" />
-          <Image Name="dating_gongaodi.png" />
-          <Image Name="dating_huodong1.png" />
-          <Image Name="dating_huodong2.png" />
-          <Image Name="dating_jia1.png" />
-          <Image Name="dating_jia2.png" />
-          <Image Name="dating_jieji1.png" />
-          <Image Name="dating_jinbidi.png" />
-          <Image Name="dating_kefu1.png" />
-          <Image Name="dating_kefu2.png" />
-          <Image Name="dating_kuaisukaishi1.png" />
-          <Image Name="dating_kuaisukaishi2.png" />
-          <Image Name="dating_paihangbang1.png" />
-          <Image Name="dating_paihangbang2.png" />
-          <Image Name="dating_qipai1.png" />
-          <Image Name="dating_shezhi1.png" />
-          <Image Name="dating_shezhi2.png" />
-          <Image Name="dating_touxiangdi.png" />
-          <Image Name="dating_wifi.png" />
-          <Image Name="dating_xiaoxi1.png" />
-          <Image Name="dating_yinhang1.png" />
-          <Image Name="dating_yinhang2.png" />
-          <Image Name="dating_youcedi.png" />
-        </Folder>
-        <Folder Name="login">
-          <Image Name="denglu_denglurer.png" />
-          <Image Name="denglu_dengluzhanghao1.png" />
-          <Image Name="denglu_dengluzhanghao2.png" />
-          <Image Name="denglu_dengluzhucewenzi.png" />
-          <Image Name="denglu_di1.png" />
-          <Image Name="denglu_fasong.png" />
-          <Image Name="denglu_shoujidenglu1.png" />
-          <Image Name="denglu_shoujidenglu2.png" />
-          <Image Name="denglu_shurukuang.png" />
-          <Image Name="denglu_wangjidenglumima.png" />
-          <Image Name="denglu_youkedenglu1.png" />
-          <Image Name="denglu_youkedenglu2.png" />
-          <Image Name="denglu_zhucerer.png" />
-          <Image Name="denglu_zhucezhanghao1.png" />
-          <Image Name="denglu_zhucezhanghao2.png" />
-        </Folder>
-        <Folder Name="sps">
-          <PlistInfo Name="common.csi" Type="Plist" />
           <PlistInfo Name="head_icons.csi" Type="Plist" />
+          <Folder Name="landscape">
+            <Folder Name="login">
+              <PlistInfo Name="login_sp.csi" Type="Plist" />
+            </Folder>
+            <Folder Name="common">
+              <Folder Name="image">
+                <PlistInfo Name="common_sp.csi" Type="Plist" />
+              </Folder>
+            </Folder>
+          </Folder>
+          <PlistInfo Name="game_ico.csi" Type="Plist" />
+        </Folder>
+        <Folder Name="home">
           <PlistInfo Name="lobby_home.csi" Type="Plist" />
-          <PlistInfo Name="login_sp.csi" Type="Plist" />
+        </Folder>
+        <Folder Name="images">
+          <Folder Name="common">
+            <Image Name="gerenxinxi_cha1.png" />
+            <Image Name="gerenxinxi_cha2.png" />
+            <Image Name="gerenxinxi_di.png" />
+            <Image Name="loading.png" />
+            <Image Name="tongyong_anniu1.png" />
+            <Image Name="tongyong_anniu2.png" />
+            <Image Name="tongyong_anniuxiao1.png" />
+            <Image Name="tongyong_anniuxiao2.png" />
+            <Image Name="tongyong_dixiao.png" />
+            <Image Name="tousujianyi_di.png" />
+            <Image Name="tongyong_tishi.png" />
+            <Image Name="tongyong_fanhui1.png" />
+            <Image Name="tongyong_fanhui2.png" />
+          </Folder>
+          <Folder Name="lobby_home">
+            <Image Name="dating_buyu1.png" />
+            <Image Name="dating_chongzhi1.png" />
+            <Image Name="dating_chongzhi2.png" />
+            <Image Name="dating_datingdi.png" />
+            <Image Name="dating_datingdikuang2.png" />
+            <Image Name="dating_duorenduizhan1.png" />
+            <Image Name="dating_fankui1.png" />
+            <Image Name="dating_fankui2.png" />
+            <Image Name="dating_huodong1.png" />
+            <Image Name="dating_huodong2.png" />
+            <Image Name="dating_jia1.png" />
+            <Image Name="dating_jia2.png" />
+            <Image Name="dating_jieji1.png" />
+            <Image Name="dating_jinbidi.png" />
+            <Image Name="dating_kefu1.png" />
+            <Image Name="dating_kefu2.png" />
+            <Image Name="dating_kuaisukaishi1.png" />
+            <Image Name="dating_kuaisukaishi2.png" />
+            <Image Name="dating_paihangbang1.png" />
+            <Image Name="dating_paihangbang2.png" />
+            <Image Name="dating_qipai1.png" />
+            <Image Name="dating_shezhi1.png" />
+            <Image Name="dating_shezhi2.png" />
+            <Image Name="dating_touxiangdi.png" />
+            <Image Name="dating_wifi.png" />
+            <Image Name="dating_xiaoxi1.png" />
+            <Image Name="dating_yinhang1.png" />
+            <Image Name="dating_yinhang2.png" />
+            <Image Name="dating_youcedi.png" />
+            <Image Name="dating_tuichu1.png" />
+            <Image Name="dating_tuichu2.png" />
+            <Image Name="dating_gongaodi.png" />
+          </Folder>
+          <Folder Name="login">
+            <Image Name="denglu_denglurer.png" />
+            <Image Name="denglu_dengluzhanghao1.png" />
+            <Image Name="denglu_dengluzhanghao2.png" />
+            <Image Name="denglu_dengluzhucewenzi.png" />
+            <Image Name="denglu_di1.png" />
+            <Image Name="denglu_fasong.png" />
+            <Image Name="denglu_shoujidenglu1.png" />
+            <Image Name="denglu_shoujidenglu2.png" />
+            <Image Name="denglu_shurukuang.png" />
+            <Image Name="denglu_wangjidenglumima.png" />
+            <Image Name="denglu_youkedenglu1.png" />
+            <Image Name="denglu_youkedenglu2.png" />
+            <Image Name="denglu_zhucerer.png" />
+            <Image Name="denglu_zhucezhanghao1.png" />
+            <Image Name="denglu_zhucezhanghao2.png" />
+          </Folder>
+          <Folder Name="head_icons">
+            <Image Name="zhujiemian_nan1.png" />
+            <Image Name="zhujiemian_nan2.png" />
+            <Image Name="zhujiemian_nan3.png" />
+            <Image Name="zhujiemian_nan4.png" />
+            <Image Name="zhujiemian_nan5.png" />
+            <Image Name="zhujiemian_nan6.png" />
+            <Image Name="zhujiemian_nan7.png" />
+            <Image Name="zhujiemian_nan8.png" />
+            <Image Name="zhujiemian_nv1.png" />
+            <Image Name="zhujiemian_nv2.png" />
+            <Image Name="zhujiemian_nv3.png" />
+            <Image Name="zhujiemian_nv4.png" />
+            <Image Name="zhujiemian_nv5.png" />
+            <Image Name="zhujiemian_nv6.png" />
+            <Image Name="zhujiemian_nv7.png" />
+            <Image Name="zhujiemian_nv8.png" />
+          </Folder>
+          <Folder Name="game_icons">
+            <Image Name="xuanze_benchibaoma.png" />
+            <Image Name="xuanze_huanlebuyu.png" />
+            <Image Name="xuanze_liurenniuniu.png" />
+            <Image Name="xuanze_maxituan.png" />
+            <Image Name="xuanze_senglingshoulie.png" />
+            <Image Name="xuanze_shuiguoji.png" />
+            <Image Name="xuanze_shuihuzhuan.png" />
+            <Image Name="xuanze_yundonghui.png" />
+            <Image Name="xuanze_duorenduizhan.png" />
+            <Image Name="xuanze_jiejiyouxi.png" />
+            <Image Name="xuanze_qipaiyouxi.png" />
+            <Image Name="xuanze_quanmingbuyu.png" />
+          </Folder>
         </Folder>
       </RootFolder>
     </Group>

@@ -4,10 +4,10 @@
 	<dict>
 		<key>frames</key>
 		<dict>
-			<key>lobby_home/dating_buyu1.png</key>
+			<key>images/lobby_home/dating_buyu1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1,1223},{435,562}}</string>
+				<string>{{1,1256},{435,562}}</string>
 				<key>offset</key>
 				<string>{-1,2}</string>
 				<key>rotated</key>
@@ -15,7 +15,7 @@
 				<key>sourceSize</key>
 				<string>{439,567}</string>
 			</dict>
-			<key>lobby_home/dating_chongzhi1.png</key>
+			<key>images/lobby_home/dating_chongzhi1.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{201,1102},{180,78}}</string>
@@ -26,7 +26,7 @@
 				<key>sourceSize</key>
 				<string>{198,88}</string>
 			</dict>
-			<key>lobby_home/dating_chongzhi2.png</key>
+			<key>images/lobby_home/dating_chongzhi2.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{1,1102},{198,83}}</string>
@@ -37,7 +37,7 @@
 				<key>sourceSize</key>
 				<string>{198,88}</string>
 			</dict>
-			<key>lobby_home/dating_datingdi.png</key>
+			<key>images/lobby_home/dating_datingdi.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{1,1},{1334,750}}</string>
@@ -48,10 +48,10 @@
 				<key>sourceSize</key>
 				<string>{1334,750}</string>
 			</dict>
-			<key>lobby_home/dating_duorenduizhan1.png</key>
+			<key>images/lobby_home/dating_duorenduizhan1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1,1787},{330,260}}</string>
+				<string>{{473,1085},{330,260}}</string>
 				<key>offset</key>
 				<string>{1,0}</string>
 				<key>rotated</key>
@@ -59,10 +59,10 @@
 				<key>sourceSize</key>
 				<string>{340,270}</string>
 			</dict>
-			<key>lobby_home/dating_fankui1.png</key>
+			<key>images/lobby_home/dating_fankui1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{560,1027},{93,48}}</string>
+				<string>{{369,1182},{93,48}}</string>
 				<key>offset</key>
 				<string>{-1,0}</string>
 				<key>rotated</key>
@@ -70,10 +70,10 @@
 				<key>sourceSize</key>
 				<string>{126,65}</string>
 			</dict>
-			<key>lobby_home/dating_fankui2.png</key>
+			<key>images/lobby_home/dating_fankui2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{560,835},{103,52}}</string>
+				<string>{{1978,1151},{103,52}}</string>
 				<key>offset</key>
 				<string>{-1,0}</string>
 				<key>rotated</key>
@@ -81,21 +81,10 @@
 				<key>sourceSize</key>
 				<string>{126,65}</string>
 			</dict>
-			<key>lobby_home/dating_gongaodi.png</key>
+			<key>images/lobby_home/dating_huodong1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1995,1},{882,42}}</string>
-				<key>offset</key>
-				<string>{1,-1}</string>
-				<key>rotated</key>
-				<true />
-				<key>sourceSize</key>
-				<string>{883,43}</string>
-			</dict>
-			<key>lobby_home/dating_huodong1.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{630,753},{72,69}}</string>
+				<string>{{217,1182},{72,69}}</string>
 				<key>offset</key>
 				<string>{1,2}</string>
 				<key>rotated</key>
@@ -103,10 +92,10 @@
 				<key>sourceSize</key>
 				<string>{93,85}</string>
 			</dict>
-			<key>lobby_home/dating_huodong2.png</key>
+			<key>images/lobby_home/dating_huodong2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{557,1085},{80,75}}</string>
+				<string>{{1,1918},{80,75}}</string>
 				<key>offset</key>
 				<string>{1,2}</string>
 				<key>rotated</key>
@@ -114,10 +103,10 @@
 				<key>sourceSize</key>
 				<string>{93,85}</string>
 			</dict>
-			<key>lobby_home/dating_jia1.png</key>
+			<key>images/lobby_home/dating_jia1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{684,906},{52,54}}</string>
+				<string>{{155,1820},{52,54}}</string>
 				<key>offset</key>
 				<string>{0,-2}</string>
 				<key>rotated</key>
@@ -125,10 +114,10 @@
 				<key>sourceSize</key>
 				<string>{66,66}</string>
 			</dict>
-			<key>lobby_home/dating_jia2.png</key>
+			<key>images/lobby_home/dating_jia2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{655,1005},{58,60}}</string>
+				<string>{{136,1901},{58,60}}</string>
 				<key>offset</key>
 				<string>{0,-2}</string>
 				<key>rotated</key>
@@ -136,21 +125,21 @@
 				<key>sourceSize</key>
 				<string>{66,66}</string>
 			</dict>
-			<key>lobby_home/dating_jieji1.png</key>
+			<key>images/lobby_home/dating_jieji1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{333,1787},{330,260}}</string>
+				<string>{{560,753},{330,260}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
-				<false />
+				<true />
 				<key>sourceSize</key>
 				<string>{339,267}</string>
 			</dict>
-			<key>lobby_home/dating_jinbidi.png</key>
+			<key>images/lobby_home/dating_jinbidi.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1986,885},{252,47}}</string>
+				<string>{{1986,726},{252,47}}</string>
 				<key>offset</key>
 				<string>{1,0}</string>
 				<key>rotated</key>
@@ -158,21 +147,10 @@
 				<key>sourceSize</key>
 				<string>{254,51}</string>
 			</dict>
-			<key>lobby_home/dating_kefu1.png</key>
+			<key>images/lobby_home/dating_kefu1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{701,753},{54,79}}</string>
-				<key>offset</key>
-				<string>{0,1}</string>
-				<key>rotated</key>
-				<true />
-				<key>sourceSize</key>
-				<string>{85,103}</string>
-			</dict>
-			<key>lobby_home/dating_kefu2.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{614,835},{60,87}}</string>
+				<string>{{99,1820},{54,79}}</string>
 				<key>offset</key>
 				<string>{0,1}</string>
 				<key>rotated</key>
@@ -180,7 +158,18 @@
 				<key>sourceSize</key>
 				<string>{85,103}</string>
 			</dict>
-			<key>lobby_home/dating_kuaisukaishi1.png</key>
+			<key>images/lobby_home/dating_kefu2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{128,1187},{60,87}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{85,103}</string>
+			</dict>
+			<key>images/lobby_home/dating_kuaisukaishi1.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{1889,905},{316,87}}</string>
@@ -191,7 +180,7 @@
 				<key>sourceSize</key>
 				<string>{361,111}</string>
 			</dict>
-			<key>lobby_home/dating_kuaisukaishi2.png</key>
+			<key>images/lobby_home/dating_kuaisukaishi2.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{1889,555},{348,95}}</string>
@@ -202,10 +191,10 @@
 				<key>sourceSize</key>
 				<string>{361,111}</string>
 			</dict>
-			<key>lobby_home/dating_paihangbang1.png</key>
+			<key>images/lobby_home/dating_paihangbang1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{560,753},{68,80}}</string>
+				<string>{{1978,1069},{68,80}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -213,18 +202,18 @@
 				<key>sourceSize</key>
 				<string>{85,103}</string>
 			</dict>
-			<key>lobby_home/dating_paihangbang2.png</key>
+			<key>images/lobby_home/dating_paihangbang2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{481,1085},{74,88}}</string>
+				<string>{{383,1102},{74,88}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
-				<false />
+				<true />
 				<key>sourceSize</key>
 				<string>{85,103}</string>
 			</dict>
-			<key>lobby_home/dating_qipai1.png</key>
+			<key>images/lobby_home/dating_qipai1.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{1,753},{330,557}}</string>
@@ -235,10 +224,10 @@
 				<key>sourceSize</key>
 				<string>{347,570}</string>
 			</dict>
-			<key>lobby_home/dating_shezhi1.png</key>
+			<key>images/lobby_home/dating_shezhi1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{676,827},{56,77}}</string>
+				<string>{{78,1918},{56,77}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -246,43 +235,10 @@
 				<key>sourceSize</key>
 				<string>{85,103}</string>
 			</dict>
-			<key>lobby_home/dating_shezhi2.png</key>
+			<key>images/lobby_home/dating_shezhi2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{560,940},{62,85}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<false />
-				<key>sourceSize</key>
-				<string>{85,103}</string>
-			</dict>
-			<key>lobby_home/dating_touxiangdi.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{383,1102},{96,96}}</string>
-				<key>offset</key>
-				<string>{1,0}</string>
-				<key>rotated</key>
-				<false />
-				<key>sourceSize</key>
-				<string>{101,104}</string>
-			</dict>
-			<key>lobby_home/dating_wifi.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{1,1187},{38,27}}</string>
-				<key>offset</key>
-				<string>{0,1}</string>
-				<key>rotated</key>
-				<false />
-				<key>sourceSize</key>
-				<string>{41,30}</string>
-			</dict>
-			<key>lobby_home/dating_xiaoxi1.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{634,1077},{50,84}}</string>
+				<string>{{41,1187},{62,85}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -290,10 +246,54 @@
 				<key>sourceSize</key>
 				<string>{85,103}</string>
 			</dict>
-			<key>lobby_home/dating_yinhang1.png</key>
+			<key>images/lobby_home/dating_touxiangdi.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{624,924},{58,79}}</string>
+				<string>{{1,1820},{96,96}}</string>
+				<key>offset</key>
+				<string>{1,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{101,104}</string>
+			</dict>
+			<key>images/lobby_home/dating_wifi.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1223},{38,27}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{41,30}</string>
+			</dict>
+			<key>images/lobby_home/dating_xiaoxi1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{115,1997},{50,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{85,103}</string>
+			</dict>
+			<key>images/lobby_home/dating_yinhang1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{288,1182},{58,79}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{85,103}</string>
+			</dict>
+			<key>images/lobby_home/dating_yinhang2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1978,980},{64,87}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -301,18 +301,7 @@
 				<key>sourceSize</key>
 				<string>{85,103}</string>
 			</dict>
-			<key>lobby_home/dating_yinhang2.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{1978,1139},{64,87}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<false />
-				<key>sourceSize</key>
-				<string>{85,103}</string>
-			</dict>
-			<key>lobby_home/dating_youcedi.png</key>
+			<key>images/lobby_home/dating_youcedi.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{1889,1},{104,552}}</string>
@@ -323,7 +312,7 @@
 				<key>sourceSize</key>
 				<string>{104,552}</string>
 			</dict>
-			<key>lobby_home/dating_datingdikuang2.png</key>
+			<key>images/lobby_home/dating_datingdikuang2.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{1337,1},{1099,550}}</string>
@@ -333,6 +322,39 @@
 				<true />
 				<key>sourceSize</key>
 				<string>{1099,550}</string>
+			</dict>
+			<key>images/lobby_home/dating_tuichu1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{61,2000},{52,43}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{77,67}</string>
+			</dict>
+			<key>images/lobby_home/dating_tuichu2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,2000},{58,47}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{77,67}</string>
+			</dict>
+			<key>images/lobby_home/dating_gongaodi.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1995,1},{723,42}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{723,42}</string>
 			</dict>
 		</dict>
 		<key>metadata</key>

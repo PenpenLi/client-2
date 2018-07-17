@@ -4,186 +4,126 @@
     <Group ctype="ResourceGroup">
       <RootFolder Name=".">
         <Folder Name="common">
+          <PlistImageFolder Image="game_ico.png" PListFile="game_ico.plist" Name=".game_ico_PList.Dir">
+            <PlistImageFile Name="images_game_icons_xuanze_benchibaoma.png" Key="images/game_icons/xuanze_benchibaoma.png" />
+            <PlistImageFile Name="images_game_icons_xuanze_duorenduizhan.png" Key="images/game_icons/xuanze_duorenduizhan.png" />
+            <PlistImageFile Name="images_game_icons_xuanze_huanlebuyu.png" Key="images/game_icons/xuanze_huanlebuyu.png" />
+            <PlistImageFile Name="images_game_icons_xuanze_jiejiyouxi.png" Key="images/game_icons/xuanze_jiejiyouxi.png" />
+            <PlistImageFile Name="images_game_icons_xuanze_liurenniuniu.png" Key="images/game_icons/xuanze_liurenniuniu.png" />
+            <PlistImageFile Name="images_game_icons_xuanze_maxituan.png" Key="images/game_icons/xuanze_maxituan.png" />
+            <PlistImageFile Name="images_game_icons_xuanze_qipaiyouxi.png" Key="images/game_icons/xuanze_qipaiyouxi.png" />
+            <PlistImageFile Name="images_game_icons_xuanze_quanmingbuyu.png" Key="images/game_icons/xuanze_quanmingbuyu.png" />
+            <PlistImageFile Name="images_game_icons_xuanze_senglingshoulie.png" Key="images/game_icons/xuanze_senglingshoulie.png" />
+            <PlistImageFile Name="images_game_icons_xuanze_shuiguoji.png" Key="images/game_icons/xuanze_shuiguoji.png" />
+            <PlistImageFile Name="images_game_icons_xuanze_shuihuzhuan.png" Key="images/game_icons/xuanze_shuihuzhuan.png" />
+            <PlistImageFile Name="images_game_icons_xuanze_yundonghui.png" Key="images/game_icons/xuanze_yundonghui.png" />
+          </PlistImageFolder>
+          <PlistImageFolder Image="head_icons.png" PListFile="head_icons.plist" Name=".head_icons_PList.Dir">
+            <PlistImageFile Name="images_head_icons_zhujiemian_nan1.png" Key="images/head_icons/zhujiemian_nan1.png" />
+            <PlistImageFile Name="images_head_icons_zhujiemian_nan2.png" Key="images/head_icons/zhujiemian_nan2.png" />
+            <PlistImageFile Name="images_head_icons_zhujiemian_nan3.png" Key="images/head_icons/zhujiemian_nan3.png" />
+            <PlistImageFile Name="images_head_icons_zhujiemian_nan4.png" Key="images/head_icons/zhujiemian_nan4.png" />
+            <PlistImageFile Name="images_head_icons_zhujiemian_nan5.png" Key="images/head_icons/zhujiemian_nan5.png" />
+            <PlistImageFile Name="images_head_icons_zhujiemian_nan6.png" Key="images/head_icons/zhujiemian_nan6.png" />
+            <PlistImageFile Name="images_head_icons_zhujiemian_nan7.png" Key="images/head_icons/zhujiemian_nan7.png" />
+            <PlistImageFile Name="images_head_icons_zhujiemian_nan8.png" Key="images/head_icons/zhujiemian_nan8.png" />
+            <PlistImageFile Name="images_head_icons_zhujiemian_nv1.png" Key="images/head_icons/zhujiemian_nv1.png" />
+            <PlistImageFile Name="images_head_icons_zhujiemian_nv2.png" Key="images/head_icons/zhujiemian_nv2.png" />
+            <PlistImageFile Name="images_head_icons_zhujiemian_nv3.png" Key="images/head_icons/zhujiemian_nv3.png" />
+            <PlistImageFile Name="images_head_icons_zhujiemian_nv4.png" Key="images/head_icons/zhujiemian_nv4.png" />
+            <PlistImageFile Name="images_head_icons_zhujiemian_nv5.png" Key="images/head_icons/zhujiemian_nv5.png" />
+            <PlistImageFile Name="images_head_icons_zhujiemian_nv6.png" Key="images/head_icons/zhujiemian_nv6.png" />
+            <PlistImageFile Name="images_head_icons_zhujiemian_nv7.png" Key="images/head_icons/zhujiemian_nv7.png" />
+            <PlistImageFile Name="images_head_icons_zhujiemian_nv8.png" Key="images/head_icons/zhujiemian_nv8.png" />
+          </PlistImageFolder>
           <Folder Name="landscape">
             <Folder Name="common">
-              <Project Name="AlertOK.csd" Type="Layer" />
-              <Project Name="AlertOKCancel.csd" Type="Layer" />
+              <Folder Name="image">
+                <PlistImageFolder Image="common_sp.png" PListFile="common_sp.plist" Name=".common_sp_PList.Dir">
+                  <PlistImageFile Name="images_common_gerenxinxi_cha1.png" Key="images/common/gerenxinxi_cha1.png" />
+                  <PlistImageFile Name="images_common_gerenxinxi_cha2.png" Key="images/common/gerenxinxi_cha2.png" />
+                  <PlistImageFile Name="images_common_gerenxinxi_di.png" Key="images/common/gerenxinxi_di.png" />
+                  <PlistImageFile Name="images_common_loading.png" Key="images/common/loading.png" />
+                  <PlistImageFile Name="images_common_tongyong_anniu1.png" Key="images/common/tongyong_anniu1.png" />
+                  <PlistImageFile Name="images_common_tongyong_anniu2.png" Key="images/common/tongyong_anniu2.png" />
+                  <PlistImageFile Name="images_common_tongyong_anniuxiao1.png" Key="images/common/tongyong_anniuxiao1.png" />
+                  <PlistImageFile Name="images_common_tongyong_anniuxiao2.png" Key="images/common/tongyong_anniuxiao2.png" />
+                  <PlistImageFile Name="images_common_tongyong_dixiao.png" Key="images/common/tongyong_dixiao.png" />
+                  <PlistImageFile Name="images_common_tongyong_fanhui1.png" Key="images/common/tongyong_fanhui1.png" />
+                  <PlistImageFile Name="images_common_tongyong_fanhui2.png" Key="images/common/tongyong_fanhui2.png" />
+                  <PlistImageFile Name="images_common_tongyong_tishi.png" Key="images/common/tongyong_tishi.png" />
+                  <PlistImageFile Name="images_common_tousujianyi_di.png" Key="images/common/tousujianyi_di.png" />
+                </PlistImageFolder>
+              </Folder>
+              <Project Name="AlertOKCancelLayer.csd" Type="Layer" />
+              <Project Name="AlertOKLayer.csd" Type="Layer" />
               <Project Name="AlertScriptError.csd" Type="Layer" />
               <Project Name="SimpleBrowser.csd" Type="Layer" />
-              <Project Name="WaitingNode.csd" Type="Layer" />
+              <Project Name="WaitingLayer.csd" Type="Layer" />
             </Folder>
-          </Folder>
-          <Folder Name="login">
-            <Project Name="login_frame.csd" Type="Layer" />
-            <Project Name="login_input.csd" Type="Scene" />
+            <Folder Name="login">
+              <PlistImageFolder Image="login_sp.png" PListFile="login_sp.plist" Name=".login_sp_PList.Dir">
+                <PlistImageFile Name="images_login_denglu_denglurer.png" Key="images/login/denglu_denglurer.png" />
+                <PlistImageFile Name="images_login_denglu_dengluzhanghao1.png" Key="images/login/denglu_dengluzhanghao1.png" />
+                <PlistImageFile Name="images_login_denglu_dengluzhanghao2.png" Key="images/login/denglu_dengluzhanghao2.png" />
+                <PlistImageFile Name="images_login_denglu_dengluzhucewenzi.png" Key="images/login/denglu_dengluzhucewenzi.png" />
+                <PlistImageFile Name="images_login_denglu_di1.png" Key="images/login/denglu_di1.png" />
+                <PlistImageFile Name="images_login_denglu_fasong.png" Key="images/login/denglu_fasong.png" />
+                <PlistImageFile Name="images_login_denglu_shoujidenglu1.png" Key="images/login/denglu_shoujidenglu1.png" />
+                <PlistImageFile Name="images_login_denglu_shoujidenglu2.png" Key="images/login/denglu_shoujidenglu2.png" />
+                <PlistImageFile Name="images_login_denglu_shurukuang.png" Key="images/login/denglu_shurukuang.png" />
+                <PlistImageFile Name="images_login_denglu_wangjidenglumima.png" Key="images/login/denglu_wangjidenglumima.png" />
+                <PlistImageFile Name="images_login_denglu_youkedenglu1.png" Key="images/login/denglu_youkedenglu1.png" />
+                <PlistImageFile Name="images_login_denglu_youkedenglu2.png" Key="images/login/denglu_youkedenglu2.png" />
+                <PlistImageFile Name="images_login_denglu_zhucerer.png" Key="images/login/denglu_zhucerer.png" />
+                <PlistImageFile Name="images_login_denglu_zhucezhanghao1.png" Key="images/login/denglu_zhucezhanghao1.png" />
+                <PlistImageFile Name="images_login_denglu_zhucezhanghao2.png" Key="images/login/denglu_zhucezhanghao2.png" />
+              </PlistImageFolder>
+              <Project Name="login_frame.csd" Type="Layer" />
+              <Project Name="login_input.csd" Type="Layer" />
+            </Folder>
           </Folder>
           <Fnt Name="tongyong_anniuziqietu-export.fnt" />
           <Fnt Name="tongyong_shuziqietu-export.fnt" />
           <Fnt Name="tongyong_yinhangziqietu-export.fnt" />
-          <PlistImageFolder Image="common.png" PListFile="common.plist" Name=".common_PList.Dir">
-            <PlistImageFile Name="common_gerenxinxi_cha1.png" Key="common/gerenxinxi_cha1.png" />
-            <PlistImageFile Name="common_gerenxinxi_cha2.png" Key="common/gerenxinxi_cha2.png" />
-            <PlistImageFile Name="common_gerenxinxi_di.png" Key="common/gerenxinxi_di.png" />
-            <PlistImageFile Name="common_tongyong_anniu1.png" Key="common/tongyong_anniu1.png" />
-            <PlistImageFile Name="common_tongyong_anniu2.png" Key="common/tongyong_anniu2.png" />
-            <PlistImageFile Name="common_tongyong_anniuxiao1.png" Key="common/tongyong_anniuxiao1.png" />
-            <PlistImageFile Name="common_tongyong_anniuxiao2.png" Key="common/tongyong_anniuxiao2.png" />
-            <PlistImageFile Name="common_tongyong_anniuziqietu.png" Key="common/tongyong_anniuziqietu.png" />
-            <PlistImageFile Name="common_tongyong_dixiao.png" Key="common/tongyong_dixiao.png" />
-            <PlistImageFile Name="common_tongyong_shuziqietu.png" Key="common/tongyong_shuziqietu.png" />
-            <PlistImageFile Name="common_tongyong_yinhangziqietu.png" Key="common/tongyong_yinhangziqietu.png" />
-          </PlistImageFolder>
-          <PlistImageFolder Image="game_ico.png" PListFile="game_ico.plist" Name=".game_ico_PList.Dir">
-            <PlistImageFile Name="koko_atlas_game_ico_1001.png" Key="koko/atlas/game_ico/1001.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_1002.png" Key="koko/atlas/game_ico/1002.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_1003.png" Key="koko/atlas/game_ico/1003.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_1004.png" Key="koko/atlas/game_ico/1004.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_1005.png" Key="koko/atlas/game_ico/1005.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_1006.png" Key="koko/atlas/game_ico/1006.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_1_000_1_00000.png" Key="koko/atlas/game_ico/ico_1/000/1_00000.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_1_000_1_00001.png" Key="koko/atlas/game_ico/ico_1/000/1_00001.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_1_000_1_00002.png" Key="koko/atlas/game_ico/ico_1/000/1_00002.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_1_000_1_00003.png" Key="koko/atlas/game_ico/ico_1/000/1_00003.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_1_000_1_00004.png" Key="koko/atlas/game_ico/ico_1/000/1_00004.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_1_000_1_00005.png" Key="koko/atlas/game_ico/ico_1/000/1_00005.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_1_000_1_00006.png" Key="koko/atlas/game_ico/ico_1/000/1_00006.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_1_000_1_00007.png" Key="koko/atlas/game_ico/ico_1/000/1_00007.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_1_000_1_00008.png" Key="koko/atlas/game_ico/ico_1/000/1_00008.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_1_000_1_00009.png" Key="koko/atlas/game_ico/ico_1/000/1_00009.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_1_000_1_00010.png" Key="koko/atlas/game_ico/ico_1/000/1_00010.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_1_000_1_00011.png" Key="koko/atlas/game_ico/ico_1/000/1_00011.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_1_001_0100.png" Key="koko/atlas/game_ico/ico_1/001/0100.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_1_001_0101.png" Key="koko/atlas/game_ico/ico_1/001/0101.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_1_001_0102.png" Key="koko/atlas/game_ico/ico_1/001/0102.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_1_001_0103.png" Key="koko/atlas/game_ico/ico_1/001/0103.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_1_001_0104.png" Key="koko/atlas/game_ico/ico_1/001/0104.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_1_001_0105.png" Key="koko/atlas/game_ico/ico_1/001/0105.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_1_000_02.png" Key="koko/atlas/game_ico/ico_1/000_02.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_1_000_22.png" Key="koko/atlas/game_ico/ico_1/000_22.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_1_000_33.png" Key="koko/atlas/game_ico/ico_1/000_33.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_1_000_34.png" Key="koko/atlas/game_ico/ico_1/000_34.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_2_1_1_00000.png" Key="koko/atlas/game_ico/ico_2/1/1_00000.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_2_1_1_00001.png" Key="koko/atlas/game_ico/ico_2/1/1_00001.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_2_1_1_00002.png" Key="koko/atlas/game_ico/ico_2/1/1_00002.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_2_1_1_00003.png" Key="koko/atlas/game_ico/ico_2/1/1_00003.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_2_1_1_00004.png" Key="koko/atlas/game_ico/ico_2/1/1_00004.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_2_1_1_00005.png" Key="koko/atlas/game_ico/ico_2/1/1_00005.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_2_1_1_00006.png" Key="koko/atlas/game_ico/ico_2/1/1_00006.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_2_1_1_00007.png" Key="koko/atlas/game_ico/ico_2/1/1_00007.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_2_000_03.png" Key="koko/atlas/game_ico/ico_2/000_03.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_2_000_15.png" Key="koko/atlas/game_ico/ico_2/000_15.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_2_000_18.png" Key="koko/atlas/game_ico/ico_2/000_18.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_2_lz.png" Key="koko/atlas/game_ico/ico_2/lz.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_3_00_000_21_00001.png" Key="koko/atlas/game_ico/ico_3/00/000_21_00001.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_3_00_000_21_00002.png" Key="koko/atlas/game_ico/ico_3/00/000_21_00002.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_3_00_000_21_00003.png" Key="koko/atlas/game_ico/ico_3/00/000_21_00003.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_3_00_000_21_00004.png" Key="koko/atlas/game_ico/ico_3/00/000_21_00004.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_3_00_000_21_00005.png" Key="koko/atlas/game_ico/ico_3/00/000_21_00005.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_3_00_000_21_00006.png" Key="koko/atlas/game_ico/ico_3/00/000_21_00006.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_3_00_000_21_00007.png" Key="koko/atlas/game_ico/ico_3/00/000_21_00007.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_3_00_000_21_00008.png" Key="koko/atlas/game_ico/ico_3/00/000_21_00008.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_3_00_000_21_00009.png" Key="koko/atlas/game_ico/ico_3/00/000_21_00009.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_3_00_000_21_00010.png" Key="koko/atlas/game_ico/ico_3/00/000_21_00010.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_3_00_000_21_00011.png" Key="koko/atlas/game_ico/ico_3/00/000_21_00011.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_3_00_000_21_00012.png" Key="koko/atlas/game_ico/ico_3/00/000_21_00012.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_3_000_04.png" Key="koko/atlas/game_ico/ico_3/000_04.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_3_000_11.png" Key="koko/atlas/game_ico/ico_3/000_11.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_3_000_12.png" Key="koko/atlas/game_ico/ico_3/000_12.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_3_000_25.png" Key="koko/atlas/game_ico/ico_3/000_25.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_4_000_0_00000.png" Key="koko/atlas/game_ico/ico_4/000/0_00000.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_4_000_0_00001.png" Key="koko/atlas/game_ico/ico_4/000/0_00001.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_4_000_0_00002.png" Key="koko/atlas/game_ico/ico_4/000/0_00002.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_4_000_0_00003.png" Key="koko/atlas/game_ico/ico_4/000/0_00003.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_4_000_0_00004.png" Key="koko/atlas/game_ico/ico_4/000/0_00004.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_4_000_0_00005.png" Key="koko/atlas/game_ico/ico_4/000/0_00005.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_4_000_0_00006.png" Key="koko/atlas/game_ico/ico_4/000/0_00006.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_4_000_0_00007.png" Key="koko/atlas/game_ico/ico_4/000/0_00007.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_4_000_0_00008.png" Key="koko/atlas/game_ico/ico_4/000/0_00008.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_4_000_0_00009.png" Key="koko/atlas/game_ico/ico_4/000/0_00009.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_4_000_10.png" Key="koko/atlas/game_ico/ico_4/000_10.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_4_000_30.png" Key="koko/atlas/game_ico/ico_4/000_30.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_4_000_37.png" Key="koko/atlas/game_ico/ico_4/000_37.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_5_000_23.png" Key="koko/atlas/game_ico/ico_5/000_23.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_5_000_28.png" Key="koko/atlas/game_ico/ico_5/000_28.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_5_01_01.png" Key="koko/atlas/game_ico/ico_5/01_01.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_5_01_02.png" Key="koko/atlas/game_ico/ico_5/01_02.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_5_sss.png" Key="koko/atlas/game_ico/ico_5/sss.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_6_1_0_00000.png" Key="koko/atlas/game_ico/ico_6/1/0_00000.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_6_1_0_00001.png" Key="koko/atlas/game_ico/ico_6/1/0_00001.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_6_1_0_00002.png" Key="koko/atlas/game_ico/ico_6/1/0_00002.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_6_1_0_00003.png" Key="koko/atlas/game_ico/ico_6/1/0_00003.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_6_1_0_00004.png" Key="koko/atlas/game_ico/ico_6/1/0_00004.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_6_1_0_00005.png" Key="koko/atlas/game_ico/ico_6/1/0_00005.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_6_1_0_00006.png" Key="koko/atlas/game_ico/ico_6/1/0_00006.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_6_1_0_00007.png" Key="koko/atlas/game_ico/ico_6/1/0_00007.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_6_1_0_00008.png" Key="koko/atlas/game_ico/ico_6/1/0_00008.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_6_1_0_00009.png" Key="koko/atlas/game_ico/ico_6/1/0_00009.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_6_1_0_00010.png" Key="koko/atlas/game_ico/ico_6/1/0_00010.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_6_1_0_00011.png" Key="koko/atlas/game_ico/ico_6/1/0_00011.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_6_000_06.png" Key="koko/atlas/game_ico/ico_6/000_06.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_6_000_14.png" Key="koko/atlas/game_ico/ico_6/000_14.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_6_000_26.png" Key="koko/atlas/game_ico/ico_6/000_26.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_ico_6_000_32.png" Key="koko/atlas/game_ico/ico_6/000_32.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_1007.png" Key="koko/atlas/game_ico/1007.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_1008.png" Key="koko/atlas/game_ico/1008.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_majiang.png" Key="koko/atlas/game_ico/majiang.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_shoul.png" Key="koko/atlas/game_ico/shoul.png" />
-            <PlistImageFile Name="koko_atlas_game_ico_zhengba.png" Key="koko/atlas/game_ico/zhengba.png" />
-          </PlistImageFolder>
-          <PlistImageFolder Image="head_icons.png" PListFile="head_icons.plist" Name=".head_icons_PList.Dir">
-            <PlistImageFile Name="head_icons_zhujiemian_nan1.png" Key="head_icons/zhujiemian_nan1.png" />
-            <PlistImageFile Name="head_icons_zhujiemian_nan2.png" Key="head_icons/zhujiemian_nan2.png" />
-            <PlistImageFile Name="head_icons_zhujiemian_nan3.png" Key="head_icons/zhujiemian_nan3.png" />
-            <PlistImageFile Name="head_icons_zhujiemian_nan4.png" Key="head_icons/zhujiemian_nan4.png" />
-            <PlistImageFile Name="head_icons_zhujiemian_nan5.png" Key="head_icons/zhujiemian_nan5.png" />
-            <PlistImageFile Name="head_icons_zhujiemian_nan6.png" Key="head_icons/zhujiemian_nan6.png" />
-            <PlistImageFile Name="head_icons_zhujiemian_nan7.png" Key="head_icons/zhujiemian_nan7.png" />
-            <PlistImageFile Name="head_icons_zhujiemian_nan8.png" Key="head_icons/zhujiemian_nan8.png" />
-            <PlistImageFile Name="head_icons_zhujiemian_nv1.png" Key="head_icons/zhujiemian_nv1.png" />
-            <PlistImageFile Name="head_icons_zhujiemian_nv2.png" Key="head_icons/zhujiemian_nv2.png" />
-            <PlistImageFile Name="head_icons_zhujiemian_nv3.png" Key="head_icons/zhujiemian_nv3.png" />
-            <PlistImageFile Name="head_icons_zhujiemian_nv4.png" Key="head_icons/zhujiemian_nv4.png" />
-            <PlistImageFile Name="head_icons_zhujiemian_nv5.png" Key="head_icons/zhujiemian_nv5.png" />
-            <PlistImageFile Name="head_icons_zhujiemian_nv6.png" Key="head_icons/zhujiemian_nv6.png" />
-            <PlistImageFile Name="head_icons_zhujiemian_nv7.png" Key="head_icons/zhujiemian_nv7.png" />
-            <PlistImageFile Name="head_icons_zhujiemian_nv8.png" Key="head_icons/zhujiemian_nv8.png" />
-          </PlistImageFolder>
         </Folder>
         <Folder Name="home">
+          <PlistImageFolder Image="lobby_home.png" PListFile="lobby_home.plist" Name=".lobby_home_PList.Dir">
+            <PlistImageFile Name="images_lobby_home_dating_buyu1.png" Key="images/lobby_home/dating_buyu1.png" />
+            <PlistImageFile Name="images_lobby_home_dating_chongzhi1.png" Key="images/lobby_home/dating_chongzhi1.png" />
+            <PlistImageFile Name="images_lobby_home_dating_chongzhi2.png" Key="images/lobby_home/dating_chongzhi2.png" />
+            <PlistImageFile Name="images_lobby_home_dating_datingdi.png" Key="images/lobby_home/dating_datingdi.png" />
+            <PlistImageFile Name="images_lobby_home_dating_datingdikuang2.png" Key="images/lobby_home/dating_datingdikuang2.png" />
+            <PlistImageFile Name="images_lobby_home_dating_duorenduizhan1.png" Key="images/lobby_home/dating_duorenduizhan1.png" />
+            <PlistImageFile Name="images_lobby_home_dating_fankui1.png" Key="images/lobby_home/dating_fankui1.png" />
+            <PlistImageFile Name="images_lobby_home_dating_fankui2.png" Key="images/lobby_home/dating_fankui2.png" />
+            <PlistImageFile Name="images_lobby_home_dating_gongaodi.png" Key="images/lobby_home/dating_gongaodi.png" />
+            <PlistImageFile Name="images_lobby_home_dating_huodong1.png" Key="images/lobby_home/dating_huodong1.png" />
+            <PlistImageFile Name="images_lobby_home_dating_huodong2.png" Key="images/lobby_home/dating_huodong2.png" />
+            <PlistImageFile Name="images_lobby_home_dating_jia1.png" Key="images/lobby_home/dating_jia1.png" />
+            <PlistImageFile Name="images_lobby_home_dating_jia2.png" Key="images/lobby_home/dating_jia2.png" />
+            <PlistImageFile Name="images_lobby_home_dating_jieji1.png" Key="images/lobby_home/dating_jieji1.png" />
+            <PlistImageFile Name="images_lobby_home_dating_jinbidi.png" Key="images/lobby_home/dating_jinbidi.png" />
+            <PlistImageFile Name="images_lobby_home_dating_kefu1.png" Key="images/lobby_home/dating_kefu1.png" />
+            <PlistImageFile Name="images_lobby_home_dating_kefu2.png" Key="images/lobby_home/dating_kefu2.png" />
+            <PlistImageFile Name="images_lobby_home_dating_kuaisukaishi1.png" Key="images/lobby_home/dating_kuaisukaishi1.png" />
+            <PlistImageFile Name="images_lobby_home_dating_kuaisukaishi2.png" Key="images/lobby_home/dating_kuaisukaishi2.png" />
+            <PlistImageFile Name="images_lobby_home_dating_paihangbang1.png" Key="images/lobby_home/dating_paihangbang1.png" />
+            <PlistImageFile Name="images_lobby_home_dating_paihangbang2.png" Key="images/lobby_home/dating_paihangbang2.png" />
+            <PlistImageFile Name="images_lobby_home_dating_qipai1.png" Key="images/lobby_home/dating_qipai1.png" />
+            <PlistImageFile Name="images_lobby_home_dating_shezhi1.png" Key="images/lobby_home/dating_shezhi1.png" />
+            <PlistImageFile Name="images_lobby_home_dating_shezhi2.png" Key="images/lobby_home/dating_shezhi2.png" />
+            <PlistImageFile Name="images_lobby_home_dating_touxiangdi.png" Key="images/lobby_home/dating_touxiangdi.png" />
+            <PlistImageFile Name="images_lobby_home_dating_tuichu1.png" Key="images/lobby_home/dating_tuichu1.png" />
+            <PlistImageFile Name="images_lobby_home_dating_tuichu2.png" Key="images/lobby_home/dating_tuichu2.png" />
+            <PlistImageFile Name="images_lobby_home_dating_wifi.png" Key="images/lobby_home/dating_wifi.png" />
+            <PlistImageFile Name="images_lobby_home_dating_xiaoxi1.png" Key="images/lobby_home/dating_xiaoxi1.png" />
+            <PlistImageFile Name="images_lobby_home_dating_yinhang1.png" Key="images/lobby_home/dating_yinhang1.png" />
+            <PlistImageFile Name="images_lobby_home_dating_yinhang2.png" Key="images/lobby_home/dating_yinhang2.png" />
+            <PlistImageFile Name="images_lobby_home_dating_youcedi.png" Key="images/lobby_home/dating_youcedi.png" />
+          </PlistImageFolder>
           <Project Name="game_ico.csd" Type="Layer" />
           <Project Name="lobby_home.csd" Type="Layer" />
-          <PlistImageFolder Image="lobby_home.png" PListFile="lobby_home.plist" Name=".lobby_home_PList.Dir">
-            <PlistImageFile Name="lobby_home_dating_buyu1.png" Key="lobby_home/dating_buyu1.png" />
-            <PlistImageFile Name="lobby_home_dating_chongzhi1.png" Key="lobby_home/dating_chongzhi1.png" />
-            <PlistImageFile Name="lobby_home_dating_chongzhi2.png" Key="lobby_home/dating_chongzhi2.png" />
-            <PlistImageFile Name="lobby_home_dating_datingdi.png" Key="lobby_home/dating_datingdi.png" />
-            <PlistImageFile Name="lobby_home_dating_datingdikuang2.png" Key="lobby_home/dating_datingdikuang2.png" />
-            <PlistImageFile Name="lobby_home_dating_duorenduizhan1.png" Key="lobby_home/dating_duorenduizhan1.png" />
-            <PlistImageFile Name="lobby_home_dating_fankui1.png" Key="lobby_home/dating_fankui1.png" />
-            <PlistImageFile Name="lobby_home_dating_fankui2.png" Key="lobby_home/dating_fankui2.png" />
-            <PlistImageFile Name="lobby_home_dating_gongaodi.png" Key="lobby_home/dating_gongaodi.png" />
-            <PlistImageFile Name="lobby_home_dating_huodong1.png" Key="lobby_home/dating_huodong1.png" />
-            <PlistImageFile Name="lobby_home_dating_huodong2.png" Key="lobby_home/dating_huodong2.png" />
-            <PlistImageFile Name="lobby_home_dating_jia1.png" Key="lobby_home/dating_jia1.png" />
-            <PlistImageFile Name="lobby_home_dating_jia2.png" Key="lobby_home/dating_jia2.png" />
-            <PlistImageFile Name="lobby_home_dating_jieji1.png" Key="lobby_home/dating_jieji1.png" />
-            <PlistImageFile Name="lobby_home_dating_jinbidi.png" Key="lobby_home/dating_jinbidi.png" />
-            <PlistImageFile Name="lobby_home_dating_kefu1.png" Key="lobby_home/dating_kefu1.png" />
-            <PlistImageFile Name="lobby_home_dating_kefu2.png" Key="lobby_home/dating_kefu2.png" />
-            <PlistImageFile Name="lobby_home_dating_kuaisukaishi1.png" Key="lobby_home/dating_kuaisukaishi1.png" />
-            <PlistImageFile Name="lobby_home_dating_kuaisukaishi2.png" Key="lobby_home/dating_kuaisukaishi2.png" />
-            <PlistImageFile Name="lobby_home_dating_paihangbang1.png" Key="lobby_home/dating_paihangbang1.png" />
-            <PlistImageFile Name="lobby_home_dating_paihangbang2.png" Key="lobby_home/dating_paihangbang2.png" />
-            <PlistImageFile Name="lobby_home_dating_qipai1.png" Key="lobby_home/dating_qipai1.png" />
-            <PlistImageFile Name="lobby_home_dating_shezhi1.png" Key="lobby_home/dating_shezhi1.png" />
-            <PlistImageFile Name="lobby_home_dating_shezhi2.png" Key="lobby_home/dating_shezhi2.png" />
-            <PlistImageFile Name="lobby_home_dating_touxiangdi.png" Key="lobby_home/dating_touxiangdi.png" />
-            <PlistImageFile Name="lobby_home_dating_wifi.png" Key="lobby_home/dating_wifi.png" />
-            <PlistImageFile Name="lobby_home_dating_xiaoxi1.png" Key="lobby_home/dating_xiaoxi1.png" />
-            <PlistImageFile Name="lobby_home_dating_yinhang1.png" Key="lobby_home/dating_yinhang1.png" />
-            <PlistImageFile Name="lobby_home_dating_yinhang2.png" Key="lobby_home/dating_yinhang2.png" />
-            <PlistImageFile Name="lobby_home_dating_youcedi.png" Key="lobby_home/dating_youcedi.png" />
-          </PlistImageFolder>
         </Folder>
       </RootFolder>
     </Group>

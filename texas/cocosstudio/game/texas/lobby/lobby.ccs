@@ -497,6 +497,7 @@
             <Project Name="ShopLayer.csd" Type="Layer" />
             <Project Name="Sign.csd" Type="Layer" />
             <Project Name="SignGot.csd" Type="Layer" />
+            <Project Name="Scene.csd" Type="Scene" />
           </Folder>
         </Folder>
         <Folder Name="image">

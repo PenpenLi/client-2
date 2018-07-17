@@ -14,7 +14,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
             <PreSize X="1.0000" Y="1.0000" />
-            <FileData Type="Normal" Path="denglu_di.png" Plist="loader_sp.plist" />
+            <FileData Type="Normal" Path="denglu_di.png" Plist="" />
             <BlendFunc Src="770" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="denglu_jindutiaodi_2" ActionTag="97646406" Tag="3" IconVisible="False" LeftMargin="270.0001" RightMargin="269.9999" TopMargin="546.7129" BottomMargin="167.2871" ctype="SpriteObjectData">
@@ -25,7 +25,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5000" Y="0.2470" />
             <PreSize X="0.5952" Y="0.0480" />
-            <FileData Type="Normal" Path="denglu_jindutiaodi.png" Plist="loader_sp.plist" />
+            <FileData Type="Normal" Path="denglu_jindutiaodi.png" Plist="" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="progress" ActionTag="-1392808001" Tag="5" IconVisible="False" LeftMargin="270.0001" RightMargin="269.9999" TopMargin="546.7129" BottomMargin="167.2871" ProgressInfo="0" ctype="LoadingBarObjectData">
@@ -36,7 +36,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5000" Y="0.2470" />
             <PreSize X="0.5952" Y="0.0480" />
-            <ImageFileData Type="Normal" Path="denglu_jindutiaoman.png" Plist="loader_sp.plist" />
+            <ImageFileData Type="Normal" Path="denglu_jindutiaoman.png" Plist="" />
           </AbstractNodeData>
           <AbstractNodeData Name="Particle_2" ActionTag="-2081317330" VisibleForFrame="False" Tag="7" IconVisible="True" LeftMargin="910.0181" RightMargin="423.9819" TopMargin="564.1530" BottomMargin="185.8470" ctype="ParticleObjectData">
             <Size X="0.0000" Y="0.0000" />
@@ -59,7 +59,7 @@
             <PreSize X="0.1634" Y="0.0413" />
             <LabelBMFontFile_CNB Type="Normal" Path="denglu_jindutiaowenzi-export.fnt" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="textError" ActionTag="-1704049622" Tag="9" IconVisible="False" LeftMargin="666.9999" RightMargin="667.0001" TopMargin="529.1058" BottomMargin="220.8942" FontSize="24" LabelText="" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+          <AbstractNodeData Name="txtError" ActionTag="-1704049622" Tag="9" IconVisible="False" LeftMargin="666.9999" RightMargin="667.0001" TopMargin="529.1058" BottomMargin="220.8942" FontSize="24" LabelText="" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
             <Size X="0.0000" Y="0.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="666.9999" Y="220.8942" />

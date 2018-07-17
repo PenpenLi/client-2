@@ -70,7 +70,7 @@
             <NodeNormalFileData Type="MarkedSubImage" Path="login/denglu_zhuce11.png" Plist="login/login_sp.plist" />
             <NodeDisableFileData Type="MarkedSubImage" Path="login/denglu_zhuce11.png" Plist="login/login_sp.plist" />
           </AbstractNodeData>
-          <AbstractNodeData Name="register_page" Visible="False" ActionTag="-1812281686" Tag="54" IconVisible="False" LeftMargin="-283.5868" RightMargin="-296.4132" TopMargin="-121.1044" BottomMargin="-378.8956" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+          <AbstractNodeData Name="register_page" ActionTag="-1812281686" Tag="54" IconVisible="False" LeftMargin="-283.5868" RightMargin="-296.4132" TopMargin="-121.1044" BottomMargin="-378.8956" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
             <Size X="580.0000" Y="500.0000" />
             <Children>
               <AbstractNodeData Name="bg1" ActionTag="470842677" Tag="38" IconVisible="False" LeftMargin="10.9765" RightMargin="432.0235" TopMargin="-25.3745" BottomMargin="187.3745" ctype="SpriteObjectData">
@@ -202,7 +202,7 @@
             <EndColor A="255" R="255" G="255" B="255" />
             <ColorVector ScaleY="1.0000" />
           </AbstractNodeData>
-          <AbstractNodeData Name="login_page" ActionTag="1662478740" Tag="55" IconVisible="False" LeftMargin="-270.2761" RightMargin="70.2761" TopMargin="133.2177" BottomMargin="-333.2177" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+          <AbstractNodeData Name="login_page" Visible="False" ActionTag="1662478740" Tag="55" IconVisible="False" LeftMargin="-270.2761" RightMargin="70.2761" TopMargin="133.2177" BottomMargin="-333.2177" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
             <Size X="200.0000" Y="200.0000" />
             <Children>
               <AbstractNodeData Name="bg1" ActionTag="-1925006448" Tag="26" IconVisible="False" LeftMargin="-0.8975" RightMargin="63.8975" TopMargin="-252.8225" BottomMargin="316.8225" ctype="SpriteObjectData">

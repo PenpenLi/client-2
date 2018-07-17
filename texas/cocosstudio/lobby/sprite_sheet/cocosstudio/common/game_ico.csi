@@ -1,0 +1,20 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="game_ico" Type="Plist" ID="fd3823db-bb7a-4393-823c-fe73f32d17b3" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="images/game_icons/xuanze_benchibaoma.png" />
+      <FilePathData Path="images/game_icons/xuanze_duorenduizhan.png" />
+      <FilePathData Path="images/game_icons/xuanze_huanlebuyu.png" />
+      <FilePathData Path="images/game_icons/xuanze_jiejiyouxi.png" />
+      <FilePathData Path="images/game_icons/xuanze_liurenniuniu.png" />
+      <FilePathData Path="images/game_icons/xuanze_maxituan.png" />
+      <FilePathData Path="images/game_icons/xuanze_qipaiyouxi.png" />
+      <FilePathData Path="images/game_icons/xuanze_quanmingbuyu.png" />
+      <FilePathData Path="images/game_icons/xuanze_senglingshoulie.png" />
+      <FilePathData Path="images/game_icons/xuanze_shuiguoji.png" />
+      <FilePathData Path="images/game_icons/xuanze_shuihuzhuan.png" />
+      <FilePathData Path="images/game_icons/xuanze_yundonghui.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

@@ -1,0 +1,24 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="head_icons" Type="Plist" ID="f4ce71bc-27d7-40c9-8911-ce66a4007af8" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="False" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="images/head_icons/zhujiemian_nan1.png" />
+      <FilePathData Path="images/head_icons/zhujiemian_nan2.png" />
+      <FilePathData Path="images/head_icons/zhujiemian_nan3.png" />
+      <FilePathData Path="images/head_icons/zhujiemian_nan4.png" />
+      <FilePathData Path="images/head_icons/zhujiemian_nan5.png" />
+      <FilePathData Path="images/head_icons/zhujiemian_nan6.png" />
+      <FilePathData Path="images/head_icons/zhujiemian_nan7.png" />
+      <FilePathData Path="images/head_icons/zhujiemian_nan8.png" />
+      <FilePathData Path="images/head_icons/zhujiemian_nv1.png" />
+      <FilePathData Path="images/head_icons/zhujiemian_nv2.png" />
+      <FilePathData Path="images/head_icons/zhujiemian_nv3.png" />
+      <FilePathData Path="images/head_icons/zhujiemian_nv4.png" />
+      <FilePathData Path="images/head_icons/zhujiemian_nv5.png" />
+      <FilePathData Path="images/head_icons/zhujiemian_nv6.png" />
+      <FilePathData Path="images/head_icons/zhujiemian_nv7.png" />
+      <FilePathData Path="images/head_icons/zhujiemian_nv8.png" />
+    </ImageFiles>
+    <MaxSize Width="256" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

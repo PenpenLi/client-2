@@ -1,0 +1,40 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="lobby_home" Type="Plist" ID="9a25db2e-c490-4073-816e-6324efcb2868" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="False" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="images/lobby_home/dating_buyu1.png" />
+      <FilePathData Path="images/lobby_home/dating_chongzhi1.png" />
+      <FilePathData Path="images/lobby_home/dating_chongzhi2.png" />
+      <FilePathData Path="images/lobby_home/dating_datingdi.png" />
+      <FilePathData Path="images/lobby_home/dating_duorenduizhan1.png" />
+      <FilePathData Path="images/lobby_home/dating_fankui1.png" />
+      <FilePathData Path="images/lobby_home/dating_fankui2.png" />
+      <FilePathData Path="images/lobby_home/dating_huodong1.png" />
+      <FilePathData Path="images/lobby_home/dating_huodong2.png" />
+      <FilePathData Path="images/lobby_home/dating_jia1.png" />
+      <FilePathData Path="images/lobby_home/dating_jia2.png" />
+      <FilePathData Path="images/lobby_home/dating_jieji1.png" />
+      <FilePathData Path="images/lobby_home/dating_jinbidi.png" />
+      <FilePathData Path="images/lobby_home/dating_kefu1.png" />
+      <FilePathData Path="images/lobby_home/dating_kefu2.png" />
+      <FilePathData Path="images/lobby_home/dating_kuaisukaishi1.png" />
+      <FilePathData Path="images/lobby_home/dating_kuaisukaishi2.png" />
+      <FilePathData Path="images/lobby_home/dating_paihangbang1.png" />
+      <FilePathData Path="images/lobby_home/dating_paihangbang2.png" />
+      <FilePathData Path="images/lobby_home/dating_qipai1.png" />
+      <FilePathData Path="images/lobby_home/dating_shezhi1.png" />
+      <FilePathData Path="images/lobby_home/dating_shezhi2.png" />
+      <FilePathData Path="images/lobby_home/dating_touxiangdi.png" />
+      <FilePathData Path="images/lobby_home/dating_wifi.png" />
+      <FilePathData Path="images/lobby_home/dating_xiaoxi1.png" />
+      <FilePathData Path="images/lobby_home/dating_yinhang1.png" />
+      <FilePathData Path="images/lobby_home/dating_yinhang2.png" />
+      <FilePathData Path="images/lobby_home/dating_youcedi.png" />
+      <FilePathData Path="images/lobby_home/dating_datingdikuang2.png" />
+      <FilePathData Path="images/lobby_home/dating_tuichu1.png" />
+      <FilePathData Path="images/lobby_home/dating_tuichu2.png" />
+      <FilePathData Path="images/lobby_home/dating_gongaodi.png" />
+    </ImageFiles>
+    <MaxSize Width="2048" Height="2048" />
+  </Content>
+</PlistInfoProjectFile>
