@@ -468,7 +468,6 @@
             <Project Name="Bank.csd" Type="Layer" />
             <Project Name="CreateRoomLayer.csd" Type="Layer" />
             <Project Name="DailyTasks.csd" Type="Layer" />
-            <Project Name="DailyTasksNote.csd" Type="Layer" />
             <Project Name="EnterRoomLayer.csd" Type="Layer" />
             <Project Name="EntryLayer.csd" Type="Layer" />
             <Project Name="FriendRoomLayer.csd" Type="Layer" />
@@ -497,7 +496,6 @@
             <Project Name="ShopLayer.csd" Type="Layer" />
             <Project Name="Sign.csd" Type="Layer" />
             <Project Name="SignGot.csd" Type="Layer" />
-            <Project Name="Scene.csd" Type="Scene" />
           </Folder>
         </Folder>
         <Folder Name="image">

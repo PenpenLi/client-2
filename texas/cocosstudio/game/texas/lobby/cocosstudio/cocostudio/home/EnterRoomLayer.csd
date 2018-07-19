@@ -6,7 +6,7 @@
       <ObjectData Name="Layer" Tag="74" ctype="GameLayerObjectData">
         <Size X="750.0000" Y="1334.0000" />
         <Children>
-          <AbstractNodeData Name="Image_1" ActionTag="75940197" Alpha="127" Tag="75" IconVisible="False" TouchEnable="True" Scale9Enable="True" LeftEage="1" RightEage="1" TopEage="1" BottomEage="1" Scale9OriginX="1" Scale9OriginY="1" Scale9Width="116" Scale9Height="163" ctype="ImageViewObjectData">
+          <AbstractNodeData Name="Image_1" CanEdit="False" ActionTag="75940197" Alpha="127" Tag="75" IconVisible="False" TouchEnable="True" Scale9Enable="True" LeftEage="1" RightEage="1" TopEage="1" BottomEage="1" Scale9OriginX="1" Scale9OriginY="1" Scale9Width="116" Scale9Height="163" ctype="ImageViewObjectData">
             <Size X="750.0000" Y="1334.0000" />
             <AnchorPoint />
             <Position />
@@ -16,7 +16,7 @@
             <PreSize X="1.0000" Y="1.0000" />
             <FileData Type="MarkedSubImage" Path="cocostudio/home/image/zhujiemian_zhezhao.png" Plist="cocostudio/home/home_sp.plist" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Image_BG" ActionTag="-937210144" Tag="76" IconVisible="False" LeftMargin="94.0001" RightMargin="93.9999" TopMargin="313.3544" BottomMargin="318.6456" LeftEage="185" RightEage="185" TopEage="231" BottomEage="231" Scale9OriginX="185" Scale9OriginY="231" Scale9Width="192" Scale9Height="240" ctype="ImageViewObjectData">
+          <AbstractNodeData Name="Image_BG" CanEdit="False" ActionTag="-937210144" Tag="76" IconVisible="False" LeftMargin="94.0001" RightMargin="93.9999" TopMargin="313.3544" BottomMargin="318.6456" LeftEage="185" RightEage="185" TopEage="231" BottomEage="231" Scale9OriginX="185" Scale9OriginY="231" Scale9Width="192" Scale9Height="240" ctype="ImageViewObjectData">
             <Size X="562.0000" Y="702.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="375.0001" Y="669.6456" />
@@ -191,66 +191,6 @@
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="AtlasLabel_Number_1" ActionTag="2020122907" Tag="88" IconVisible="False" LeftMargin="143.7983" RightMargin="606.2017" TopMargin="479.0000" BottomMargin="797.0000" CharWidth="44" CharHeight="58" LabelText="." StartChar="0" ctype="TextAtlasObjectData">
-            <Size X="0.0000" Y="58.0000" />
-            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="143.7983" Y="826.0000" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
-            <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.1917" Y="0.6192" />
-            <PreSize X="0.0000" Y="0.0435" />
-            <LabelAtlasFileImage_CNB Type="MarkedSubImage" Path="cocostudio/home/image/friendroom/haoyouchang_anjianshuziy.png" Plist="cocostudio/home/image/friendroom/friendroom_sp.plist" />
-          </AbstractNodeData>
-          <AbstractNodeData Name="AtlasLabel_Number_2" ActionTag="1298297735" Tag="89" IconVisible="False" LeftMargin="238.2175" RightMargin="511.7825" TopMargin="479.0000" BottomMargin="797.0000" CharWidth="44" CharHeight="58" LabelText="." StartChar="0" ctype="TextAtlasObjectData">
-            <Size X="0.0000" Y="58.0000" />
-            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="238.2175" Y="826.0000" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
-            <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.3176" Y="0.6192" />
-            <PreSize X="0.0000" Y="0.0435" />
-            <LabelAtlasFileImage_CNB Type="MarkedSubImage" Path="cocostudio/home/image/friendroom/haoyouchang_anjianshuziy.png" Plist="cocostudio/home/image/friendroom/friendroom_sp.plist" />
-          </AbstractNodeData>
-          <AbstractNodeData Name="AtlasLabel_Number_3" ActionTag="-1397741640" Tag="90" IconVisible="False" LeftMargin="327.7548" RightMargin="422.2452" TopMargin="479.0000" BottomMargin="797.0000" CharWidth="44" CharHeight="58" LabelText="." StartChar="0" ctype="TextAtlasObjectData">
-            <Size X="0.0000" Y="58.0000" />
-            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="327.7548" Y="826.0000" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
-            <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.4370" Y="0.6192" />
-            <PreSize X="0.0000" Y="0.0435" />
-            <LabelAtlasFileImage_CNB Type="MarkedSubImage" Path="cocostudio/home/image/friendroom/haoyouchang_anjianshuziy.png" Plist="cocostudio/home/image/friendroom/friendroom_sp.plist" />
-          </AbstractNodeData>
-          <AbstractNodeData Name="AtlasLabel_Number_4" ActionTag="-892563527" Tag="91" IconVisible="False" LeftMargin="422.1354" RightMargin="327.8646" TopMargin="479.0000" BottomMargin="797.0000" CharWidth="44" CharHeight="58" LabelText="." StartChar="0" ctype="TextAtlasObjectData">
-            <Size X="0.0000" Y="58.0000" />
-            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="422.1354" Y="826.0000" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
-            <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.5628" Y="0.6192" />
-            <PreSize X="0.0000" Y="0.0435" />
-            <LabelAtlasFileImage_CNB Type="MarkedSubImage" Path="cocostudio/home/image/friendroom/haoyouchang_anjianshuziy.png" Plist="cocostudio/home/image/friendroom/friendroom_sp.plist" />
-          </AbstractNodeData>
-          <AbstractNodeData Name="AtlasLabel_Number_5" ActionTag="-631956710" Tag="92" IconVisible="False" LeftMargin="514.9167" RightMargin="235.0833" TopMargin="479.0000" BottomMargin="797.0000" CharWidth="44" CharHeight="58" LabelText="." StartChar="0" ctype="TextAtlasObjectData">
-            <Size X="0.0000" Y="58.0000" />
-            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="514.9167" Y="826.0000" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
-            <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.6866" Y="0.6192" />
-            <PreSize X="0.0000" Y="0.0435" />
-            <LabelAtlasFileImage_CNB Type="MarkedSubImage" Path="cocostudio/home/image/friendroom/haoyouchang_anjianshuziy.png" Plist="cocostudio/home/image/friendroom/friendroom_sp.plist" />
-          </AbstractNodeData>
-          <AbstractNodeData Name="AtlasLabel_Number_6" ActionTag="-1542658111" Tag="93" IconVisible="False" LeftMargin="606.6591" RightMargin="143.3409" TopMargin="479.0000" BottomMargin="797.0000" CharWidth="44" CharHeight="58" LabelText="." StartChar="0" ctype="TextAtlasObjectData">
-            <Size X="0.0000" Y="58.0000" />
-            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="606.6591" Y="826.0000" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
-            <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.8089" Y="0.6192" />
-            <PreSize X="0.0000" Y="0.0435" />
-            <LabelAtlasFileImage_CNB Type="MarkedSubImage" Path="cocostudio/home/image/friendroom/haoyouchang_anjianshuziy.png" Plist="cocostudio/home/image/friendroom/friendroom_sp.plist" />
-          </AbstractNodeData>
           <AbstractNodeData Name="Button_Close" ActionTag="2143923673" Tag="94" IconVisible="False" LeftMargin="595.2640" RightMargin="95.7360" TopMargin="312.5920" BottomMargin="962.4080" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="29" Scale9Height="37" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="59.0000" Y="59.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -265,6 +205,66 @@
             <NormalFileData Type="MarkedSubImage" Path="cocostudio/home/image/mission/meirirenwu_cha1.png" Plist="cocostudio/home/image/mission/mission_sp.plist" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="AtlasLabel_Number_1" ActionTag="202830268" Tag="242" IconVisible="False" LeftMargin="124.8649" RightMargin="602.1351" TopMargin="478.6160" BottomMargin="805.3840" LabelText="1" ctype="TextBMFontObjectData">
+            <Size X="23.0000" Y="50.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="136.3649" Y="830.3840" />
+            <Scale ScaleX="1.2000" ScaleY="1.2000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.1818" Y="0.6225" />
+            <PreSize X="0.0307" Y="0.0375" />
+            <LabelBMFontFile_CNB Type="Normal" Path="cocostudio/home/image/haoyouchang_wodepaijuchoumashuzilv-export.fnt" Plist="" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="AtlasLabel_Number_2" ActionTag="1189554636" Tag="243" IconVisible="False" LeftMargin="215.9888" RightMargin="504.0112" TopMargin="478.6161" BottomMargin="805.3839" LabelText="2" ctype="TextBMFontObjectData">
+            <Size X="30.0000" Y="50.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="230.9888" Y="830.3839" />
+            <Scale ScaleX="1.2000" ScaleY="1.2000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.3080" Y="0.6225" />
+            <PreSize X="0.0400" Y="0.0375" />
+            <LabelBMFontFile_CNB Type="Normal" Path="cocostudio/home/image/haoyouchang_wodepaijuchoumashuzilv-export.fnt" Plist="" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="AtlasLabel_Number_3" ActionTag="1509869317" Tag="244" IconVisible="False" LeftMargin="311.0128" RightMargin="406.9872" TopMargin="478.6161" BottomMargin="805.3839" LabelText="3" ctype="TextBMFontObjectData">
+            <Size X="32.0000" Y="50.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="327.0128" Y="830.3839" />
+            <Scale ScaleX="1.2000" ScaleY="1.2000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.4360" Y="0.6225" />
+            <PreSize X="0.0427" Y="0.0375" />
+            <LabelBMFontFile_CNB Type="Normal" Path="cocostudio/home/image/haoyouchang_wodepaijuchoumashuzilv-export.fnt" Plist="" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="AtlasLabel_Number_4" ActionTag="-1861895790" Tag="245" IconVisible="False" LeftMargin="401.4374" RightMargin="314.5626" TopMargin="478.6161" BottomMargin="805.3839" LabelText="4" ctype="TextBMFontObjectData">
+            <Size X="34.0000" Y="50.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="418.4374" Y="830.3839" />
+            <Scale ScaleX="1.2000" ScaleY="1.2000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.5579" Y="0.6225" />
+            <PreSize X="0.0453" Y="0.0375" />
+            <LabelBMFontFile_CNB Type="Normal" Path="cocostudio/home/image/haoyouchang_wodepaijuchoumashuzilv-export.fnt" Plist="" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="AtlasLabel_Number_5" ActionTag="-2134825833" Tag="246" IconVisible="False" LeftMargin="495.7617" RightMargin="223.2383" TopMargin="478.6161" BottomMargin="805.3839" LabelText="5" ctype="TextBMFontObjectData">
+            <Size X="31.0000" Y="50.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="511.2617" Y="830.3839" />
+            <Scale ScaleX="1.2000" ScaleY="1.2000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.6817" Y="0.6225" />
+            <PreSize X="0.0413" Y="0.0375" />
+            <LabelBMFontFile_CNB Type="Normal" Path="cocostudio/home/image/haoyouchang_wodepaijuchoumashuzilv-export.fnt" Plist="" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="AtlasLabel_Number_6" ActionTag="399385414" Tag="247" IconVisible="False" LeftMargin="589.7860" RightMargin="129.2140" TopMargin="478.6160" BottomMargin="805.3840" LabelText="6" ctype="TextBMFontObjectData">
+            <Size X="31.0000" Y="50.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="605.2860" Y="830.3840" />
+            <Scale ScaleX="1.2000" ScaleY="1.2000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.8070" Y="0.6225" />
+            <PreSize X="0.0413" Y="0.0375" />
+            <LabelBMFontFile_CNB Type="Normal" Path="cocostudio/home/image/haoyouchang_wodepaijuchoumashuzilv-export.fnt" Plist="" />
           </AbstractNodeData>
         </Children>
       </ObjectData>
