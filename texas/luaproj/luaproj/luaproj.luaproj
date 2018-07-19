@@ -58,7 +58,6 @@
     <Folder Include="preset\games\shz\" />
     <Folder Include="preset\games\texas\src\app\common\" />
     <Folder Include="preset\games\texas\src\app\language\" />
-    <Folder Include="preset\games\texas\src\app\views\home\" />
     <Folder Include="preset\lobby\res\" />
     <Folder Include="preset\lobby\res\common\" />
     <Folder Include="preset\lobby\res\common\landscape\" />
@@ -263,13 +262,15 @@
     <Compile Include="preset\lobby\src\common\app\net\SocketManager.lua" />
     <Compile Include="preset\lobby\src\common\app\net\SocketTCP.lua" />
     <Compile Include="preset\lobby\src\common\app\controllers\GameControllerBase.lua" />
+    <Compile Include="preset\lobby\src\common\app\views\home\SelectRoom.lua" />
+    <Compile Include="preset\lobby\src\common\app\views\home\SelectRoomItem.lua" />
     <Compile Include="preset\lobby\src\common\packages\mvc\ViewCommon.lua" />
     <Compile Include="preset\lobby\src\common\app\views\home\ViewBank.lua" />
     <Compile Include="preset\lobby\src\common\app\views\home\ViewDailyTasks.lua" />
     <Compile Include="preset\lobby\src\common\app\views\home\ViewEmail.lua" />
-    <Compile Include="preset\games\texas\src\app\views\home\ViewEntry.lua" />
+    <Compile Include="preset\lobby\src\common\app\views\home\ViewEntry.lua" />
     <Compile Include="preset\lobby\src\common\app\views\home\ViewFullScreenBase.lua" />
-    <Compile Include="preset\games\texas\src\app\views\home\ViewHome.lua" />
+    <Compile Include="preset\lobby\src\common\app\views\home\ViewHome.lua" />
     <Compile Include="preset\lobby\src\common\app\views\home\ViewModifyPersonal.lua" />
     <Compile Include="preset\lobby\src\common\app\views\home\ViewPersonal.lua" />
     <Compile Include="preset\lobby\src\common\app\views\home\ViewRank.lua" />
@@ -298,8 +299,6 @@
     <Compile Include="preset\lobby\src\common\app\views\friendroom\PrivateRoomResultDetail.lua" />
     <Compile Include="preset\lobby\src\common\app\views\friendroom\PrivateRoomResultDetailItem.lua" />
     <Compile Include="preset\lobby\src\common\app\views\friendroom\PrivateRoomResultItem.lua" />
-    <Compile Include="preset\games\texas\src\app\views\home\SelectRoom.lua" />
-    <Compile Include="preset\games\texas\src\app\views\home\SelectRoomItem.lua" />
     <Compile Include="preset\lobby\src\common\app\views\friendroom\ViewFriendRoom.lua" />
     <Compile Include="preset\lobby\src\common\app\views\friendroom\ViewFriendRoomHelp.lua" />
     <Compile Include="preset\games\texas\src\app\views\texaspoker\ViewActions.lua" />
