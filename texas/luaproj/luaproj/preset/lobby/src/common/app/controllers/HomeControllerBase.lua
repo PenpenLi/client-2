@@ -161,7 +161,7 @@ function HomeControllerBase:showFriendRoom(container)
 end
 
 function HomeControllerBase:showSelectRoom(container)
-	container:addChild(APP:createView("friendroom.SelectRoom", self, container))
+	container:addChild(APP:createView("home.SelectRoom", self, container))
 end
 
 function HomeControllerBase:showBanker(container)

@@ -42,7 +42,7 @@ function SelectRoom:setInfo()
 		local roomitem = APP.GD.room_list[i];
 		if roomitem then
 			local cont = UIHelper.seekNodeByName(self.csbnode, string.format("FileNode_%d", i));
-			cont:addChild(APP:createView("friendroom.SelectRoomItem", APP.hc, roomitem));
+			cont:addChild(APP:createView("home.SelectRoomItem", APP.hc, roomitem));
 		end
 	end
 end

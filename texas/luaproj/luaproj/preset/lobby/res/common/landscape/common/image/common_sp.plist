@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>images/common/gerenxinxi_cha1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,986},{39,37}}</string>
+				<key>offset</key>
+				<string>{-2,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{71,57}</string>
+			</dict>
+			<key>images/common/gerenxinxi_cha2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{336,851},{43,41}}</string>
+				<key>offset</key>
+				<string>{-2,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{71,57}</string>
+			</dict>
+			<key>images/common/gerenxinxi_di.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{752,499}}</string>
+				<key>offset</key>
+				<string>{0,2}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{782,522}</string>
+			</dict>
+			<key>images/common/tongyong_anniu1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{89,755},{209,78}}</string>
+				<key>offset</key>
+				<string>{0,-1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{231,96}</string>
+			</dict>
+			<key>images/common/tongyong_anniu2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,755},{229,86}}</string>
+				<key>offset</key>
+				<string>{0,-1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{231,96}</string>
+			</dict>
+			<key>images/common/tongyong_anniuxiao1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{227,925},{152,67}}</string>
+				<key>offset</key>
+				<string>{0,-2}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{176,93}</string>
+			</dict>
+			<key>images/common/tongyong_anniuxiao2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{169,755},{168,73}}</string>
+				<key>offset</key>
+				<string>{0,-2}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{176,93}</string>
+			</dict>
+			<key>images/common/tongyong_dixiao.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{922,1},{628,442}}</string>
+				<key>offset</key>
+				<string>{2,2}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{652,458}</string>
+			</dict>
+			<key>images/common/tousujianyi_di.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{502,1},{746,418}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{748,422}</string>
+			</dict>
+			<key>images/common/loading.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{244,755},{94,94}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{94,94}</string>
+			</dict>
+			<key>images/common/tongyong_tishi.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{89,966},{136,42}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{139,44}</string>
+			</dict>
+			<key>images/common/tongyong_fanhui1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{292,851},{63,42}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{76,56}</string>
+			</dict>
+			<key>images/common/tongyong_fanhui2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{244,851},{69,46}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{76,56}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>common_sp.png</string>
+			<key>realTextureFileName</key>
+			<string>common_sp.png</string>
+			<key>size</key>
+			<string>{2048,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>2048</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

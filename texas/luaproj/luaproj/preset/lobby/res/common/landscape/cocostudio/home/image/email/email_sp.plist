@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>cocostudio/home/image/email/email_bg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{685,1090}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{685,1090}</string>
+			</dict>
+			<key>cocostudio/home/image/email/email_btn_close.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{764,629},{59,59}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{59,59}</string>
+			</dict>
+			<key>cocostudio/home/image/email/email_btn_close1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{764,690},{59,59}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{59,59}</string>
+			</dict>
+			<key>cocostudio/home/image/email/email_btn_get.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{837,1},{203,118}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{203,118}</string>
+			</dict>
+			<key>cocostudio/home/image/email/email_btn_get1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{837,206},{203,118}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{203,118}</string>
+			</dict>
+			<key>cocostudio/home/image/email/email_btn_left.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{837,411},{231,74}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{231,74}</string>
+			</dict>
+			<key>cocostudio/home/image/email/email_btn_left1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{913,442},{231,74}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{231,74}</string>
+			</dict>
+			<key>cocostudio/home/image/email/email_btn_right.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{688,629},{231,74}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{231,74}</string>
+			</dict>
+			<key>cocostudio/home/image/email/email_btn_right1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{825,644},{231,74}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{231,74}</string>
+			</dict>
+			<key>cocostudio/home/image/email/email_node_bg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{688,1},{626,147}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{626,147}</string>
+			</dict>
+			<key>cocostudio/home/image/email/email_node_left.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{901,675},{93,95}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{93,95}</string>
+			</dict>
+			<key>cocostudio/home/image/email/email_t_down.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{957,1},{439,27}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{439,27}</string>
+			</dict>
+			<key>cocostudio/home/image/email/email_title.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{688,862},{115,95}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{115,95}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>email_sp.png</string>
+			<key>realTextureFileName</key>
+			<string>email_sp.png</string>
+			<key>size</key>
+			<string>{1024,2048}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>2048</integer>
+		</dict>
+	</dict>
+</plist>

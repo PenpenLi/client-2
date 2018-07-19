@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>cocostudio/home/image/daily_tasks/daily_title.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{629,688},{202,74}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{202,74}</string>
+			</dict>
+			<key>cocostudio/home/image/daily_tasks/dailyz_note_bg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,688},{626,147}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{626,147}</string>
+			</dict>
+			<key>cocostudio/home/image/daily_tasks/dailyz_note_des.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{293,957},{260,30}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{260,30}</string>
+			</dict>
+			<key>cocostudio/home/image/daily_tasks/dailyz_note_dis.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,957},{290,38}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{290,38}</string>
+			</dict>
+			<key>cocostudio/home/image/daily_tasks/public_btn_close.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{555,957},{59,59}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{59,59}</string>
+			</dict>
+			<key>cocostudio/home/image/daily_tasks/public_btn_close1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{616,957},{59,59}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{59,59}</string>
+			</dict>
+			<key>cocostudio/home/image/daily_tasks/daily_bg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{685,1090}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{685,1090}</string>
+			</dict>
+			<key>cocostudio/home/image/daily_tasks/daily_btn_g.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,837},{203,118}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{203,118}</string>
+			</dict>
+			<key>cocostudio/home/image/daily_tasks/daily_btn_g1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{206,837},{203,118}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{203,118}</string>
+			</dict>
+			<key>cocostudio/home/image/daily_tasks/daily_btn_get.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{411,837},{203,118}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{203,118}</string>
+			</dict>
+			<key>cocostudio/home/image/daily_tasks/daily_btn_get1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{616,837},{203,118}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{203,118}</string>
+			</dict>
+			<key>cocostudio/home/image/daily_tasks/daily_note_star.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{821,764},{100,111}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{100,111}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>daily_tasks_sp.png</string>
+			<key>realTextureFileName</key>
+			<string>daily_tasks_sp.png</string>
+			<key>size</key>
+			<string>{2048,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>2048</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>
