@@ -144,7 +144,7 @@ function Event:hasEventListener(eventName)
 end
 
 function Event:dumpAllEventListeners()
-    print("---- Event:dumpAllEventListeners() ----")
+    printLog("a","---- Event:dumpAllEventListeners() ----")
     for name, listeners in pairs(self.listeners_) do
         printf("-- event: %s", name)
         for handle, listener in pairs(listeners) do

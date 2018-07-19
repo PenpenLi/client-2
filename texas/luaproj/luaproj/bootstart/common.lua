@@ -103,17 +103,19 @@ function removeListener(evt)
     return dispatcher:removeEventListener(evt);
 end
 
-function addListener(node, evtName, callback)
+function addListener(node, evtName, callback, prior)
     local evt = cc.EventListenerCustom:create(evtName,
     function(e)
         callback(unpack(e.param));
     end);
+	
+	prior = prior or 1;
 
     local dispatcher = cc.Director:getInstance():getEventDispatcher()
 	if node then
 		dispatcher:addEventListenerWithSceneGraphPriority(evt, node)
 	else
-		dispatcher:addEventListenerWithFixedPriority(evt, 1);
+		dispatcher:addEventListenerWithFixedPriority(evt, prior);
 	end
     return evt
 end

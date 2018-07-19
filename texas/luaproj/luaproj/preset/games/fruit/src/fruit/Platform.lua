@@ -52,14 +52,6 @@ function Platform.OnLoginProgress(rate)
 end
 function Platform.OnLoginReply(tbl)
     if tbl.isSuccess then
-        local ip = tbl.IP
-        local port = tonumber(tbl.Port)
-        local r = connect(ip, port)
-        if r ~= 0 then
-            ccerr("无法连接游戏服务器，请检查网络设置！[%s:%d]", ip, port)
-            msgbox.showOk("无法连接游戏服务器，请检查网络设置！", Platform.OnLoginErrorCallback)
-            return
-        end
         Game.isCoordinateConnected = true
         --loading.setProgress(0.6)
         --CC.LoginMgr.setShadeProgressRate(0.7)

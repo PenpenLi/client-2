@@ -26,21 +26,15 @@ log_filter = {}
 log_filter.enable = 1;
 local pathWritable = cc.FileUtils:getInstance():getWritablePath();
 function printLog(tag, fmt, ...)
-    local t = {
-        "[",
-        string.upper(tostring(tag)),
-        "] ",
-        string.format(tostring(fmt), ...)
-    }
+    local t = "[".. string.upper(tostring(tag)).."] ".. string.format(tostring(fmt), ...);
     if log_filter[tag] == 1 and log_filter.enable == 1 then
-        print(table.concat(t))
-		io.writefile(pathWritable.."runlog"..os.date("%Y-%m-%d", os.time())..".log", "[" ..os.date("%Y-%m-%d %H:%M:%S", os.time()) .. "]" .. table.concat(t) .. "\r\n", "a");
+        print(t)
+		io.writefile(pathWritable.."runlog"..os.date("%Y-%m-%d", os.time())..".log", "[" ..os.date("%Y-%m-%d %H:%M:%S", os.time()) .. "]" .. t .. "\r\n", "a");
     end
 end
 
 function printError(fmt, ...)
     printLog("ERR", fmt, ...)
-    print(debug.traceback("", 2))
 end
 
 function printInfo(fmt, ...)
@@ -566,7 +560,7 @@ local function _fmtstring(...)
     return string.format(...)
 end
 function cclog(...)
-    print(_fmtstring(...))
+    printLog("a",_fmtstring(...))
 end
 
 function ccwrn(...)

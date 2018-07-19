@@ -576,7 +576,7 @@
                     <f n="CoordinateServerHandlers.lua" s="4930">90cf02d0716b6f575f8878c0b9de68bd</f>
                     <f n="GameCommonHandlers.lua" s="11014">141b11adc79ae8cc50d1abc6326db053</f>
                     <f n="SocketHandlers.lua" s="2420">cfc2a2ec88b455bb6bd3fa5531848f1c</f>
-                    <f n="SwitchGameServerHandlers.lua" s="3513">d0e9cca2f7c03279b0d2fa94630e56a2</f>
+                    <f n="MsgTakeoverOnSwitchingSrv.lua" s="3513">d0e9cca2f7c03279b0d2fa94630e56a2</f>
                     <f n="GameSpecificHandlers.lua" s="5236">4ad28ff692ccabb9e544c2e008a8ff9e</f>
                 </dir>
                 <dir n="language">

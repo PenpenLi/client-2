@@ -89,7 +89,7 @@ function utils.print_r(root)
         end
         return tconcat(temp,"\n"..space)
     end
-    print(_dump(root, "",""))
+    printLog("a",_dump(root, "",""))
 end
 
 function utils.ssq()
@@ -351,7 +351,7 @@ end
 -- 11110zzz - 240, 4 byte
 local function chsize(char)
     if not char then
-        print("not char")
+        printLog("a","not char")
         return 0
     elseif char > 240 then
         return 4

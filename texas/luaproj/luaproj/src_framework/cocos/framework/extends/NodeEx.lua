@@ -138,6 +138,8 @@ function Node:onNodeEvent(eventName, callback)
         self.onExitTransitionStartCallback_ = callback
     elseif "cleanup" == eventName then
         self.onCleanupCallback_ = callback
+	elseif "delete" == eventName then
+		self.onDeleteCallback_ = callback
     end
     self:enableNodeEvents()
 end
@@ -158,6 +160,8 @@ function Node:enableNodeEvents()
             self:onExitTransitionStart_()
         elseif state == "cleanup" then
             self:onCleanup_()
+		elseif state == "delete" then
+            self:onDelete_()
         end
     end)
     self.isNodeEventEnabled_ = true
@@ -185,6 +189,9 @@ function Node:onExitTransitionStart()
 end
 
 function Node:onCleanup()
+end
+
+function Node:onDelete()
 end
 
 function Node:onEnter_()
@@ -225,6 +232,14 @@ function Node:onCleanup_()
         return
     end
     self:onCleanupCallback_()
+end
+
+function Node:onDelete_()
+    self:onDelete()
+    if not self.onDeleteCallback_ then
+        return
+    end
+    self:onDeleteCallback_()
 end
 
 function Node:getPath()
